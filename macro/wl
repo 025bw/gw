@@ -1,0 +1,463 @@
+DELAY : 50
+IF PIXEL COLOR EQUALS : 704 : 102 : 4356712 : 0
+GOTO : mdew1
+ENDIF
+LABEL : start
+IF PIXEL COLOR EQUALS : 312 : 325 : 6972490 : 0
+GOTO : dead
+ENDIF
+Mouse : 778 : 286 : RightButtonDown : 0 : 0 : 0
+Mouse : 778 : 286 : RightButtonUp : 0 : 0 : 0
+DELAY : 2000
+Mouse : 748 : 738 : Wheel : -100 : 0 : 0
+DELAY : 50
+Mouse : 217 : 221 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 217 : 221 : LeftButtonDown : 0 : 0 : 0
+DELAY : 17859
+Mouse : 217 : 221 : LeftButtonUp : 0 : 0 : 0
+DELAY : 811
+Mouse : 431 : 234 : Move : 0 : 0 : 0
+DELAY : 217
+Mouse : 431 : 234 : Move : 0 : 0 : 0
+DELAY : 11
+Mouse : 431 : 234 : LeftButtonDown : 0 : 0 : 0
+DELAY : 10
+Mouse : 431 : 234 : LeftButtonUp : 0 : 0 : 0
+Mouse : 781 : 320 : RightButtonDown : 0 : 0 : 0
+Mouse : 781 : 320 : RightButtonUp : 0 : 0 : 0
+DELAY : 2133
+Mouse : 400 : 370 : Move : 0 : 0 : 0
+DELAY : 61
+Mouse : 400 : 370 : Move : 0 : 0 : 0
+DELAY : 11
+Mouse : 400 : 370 : LeftButtonDown : 0 : 0 : 0
+Mouse : 400 : 370 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1018
+DELAY : 1000
+Mouse : 640 : 618 : Move : 0 : 0 : 0
+DELAY : 217
+Mouse : 640 : 618 : LeftButtonDown : 0 : 0 : 0
+DELAY : 104
+Mouse : 274 : 161 : Move : 0 : 0 : 0
+DELAY : 11518
+Mouse : 274 : 161 : LeftButtonUp : 0 : 0 : 0
+Mouse : 220 : 393 : Move : 0 : 0 : 0
+DELAY : 201
+DELAY : 15
+DELAY : 10
+DELAY : 11
+DELAY : 14
+DELAY : 16
+DELAY : 10
+DELAY : 11
+DELAY : 10
+DELAY : 10
+DELAY : 11
+DELAY : 10
+Mouse : 220 : 393 : LeftButtonDown : 0 : 0 : 0
+DELAY : 11
+Mouse : 220 : 393 : LeftButtonUp : 0 : 0 : 0
+Mouse : 781 : 350 : RightButtonDown : 0 : 0 : 0
+Mouse : 781 : 350 : RightButtonUp : 0 : 0 : 0
+DELAY : 1034
+Mouse : 267 : 289 : Move : 0 : 0 : 0
+DELAY : 510
+Mouse : 267 : 289 : Move : 0 : 0 : 0
+DELAY : 10
+Mouse : 267 : 289 : LeftButtonDown : 0 : 0 : 0
+DELAY : 11
+Mouse : 267 : 289 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1111
+Mouse : 723 : 532 : Move : 0 : 0 : 0
+DELAY : 218
+Mouse : 723 : 532 : LeftButtonDown : 0 : 0 : 0
+DELAY : 8106
+Mouse : 597 : 587 : Move : 0 : 0 : 0
+DELAY : 4515
+Mouse : 271 : 197 : Move : 0 : 0 : 0
+DELAY : 3219
+Mouse : 271 : 197 : LeftButtonUp : 0 : 0 : 0
+DELAY : 522
+Mouse : 532 : 553 : Move : 0 : 0 : 0
+DELAY : 514
+REPEAT : 20 : 0 : 0 : Enter the number of iterations: : 0 : 0
+Mouse : 429 : 646 : Move : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+Mouse : 532 : 553 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 532 : 553 : LeftButtonDown : 0 : 0 : 0
+Mouse : 532 : 553 : LeftButtonUp : 0 : 0 : 0
+DELAY : 150
+ENDREPEAT
+LABEL : target
+REPEAT : 20 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF PIXEL COLOR EQUALS : 367 : 100 : 11033435 : 1
+Mouse : 532 : 553 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 532 : 553 : RightButtonDown : 0 : 0 : 0
+Mouse : 532 : 553 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+ELSE
+GOTO : centaur
+ENDIF
+ENDREPEAT
+GOTO : mdew1
+LABEL : centaur
+REPEAT : 5 : 0 : 0 : Enter the number of iterations: : 0 : 0
+LABEL : 2
+IF PIXEL COLOR EQUALS : 367 : 100 : 11033435 : 1
+GOTO : done
+ENDIF
+DELAY : 50
+ENDREPEAT
+LABEL : fb1
+IF PIXEL COLOR EQUALS : 400 : 570 : 16777214 : 0
+GOTO : fb1
+ENDIF
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+Mouse : 532 : 553 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 532 : 553 : LeftButtonDown : 0 : 0 : 0
+Mouse : 532 : 553 : LeftButtonUp : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+GOTO : centaur
+LABEL : done
+REPEAT : 30 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF PIXEL COLOR EQUALS : 350 : 279 : 5029375 : 1
+Mouse : 545 : 560 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 545 : 560 : LeftButtonDown : 0 : 0 : 0
+Mouse : 545 : 560 : LeftButtonUp : 0 : 0 : 0
+Mouse : 545 : 560 : LeftButtonDown : 0 : 0 : 0
+Mouse : 545 : 560 : LeftButtonUp : 0 : 0 : 0
+Mouse : 545 : 560 : LeftButtonDown : 0 : 0 : 0
+Mouse : 545 : 560 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+ELSE
+GOTO : mdew1
+ENDIF
+ENDREPEAT
+LABEL : mdew1
+IF IMAGE : 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 : 1 : 0 : 0 : 227;317;146;71
+Mouse : 0 : 0 : RightClick : 0 : 1 : 0
+GOTO : mdew1
+ENDIF
+IF IMAGE : Qk0WCAAAAAAAADYAAAAoAAAAFQAAABgAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAKBQA/yoWAv9FKwn/YUAQ/wkFAP8IBAD/ZU07/9qzif/dtYv/3rWL//rIfP+1jVL/tY1S/6NgLf+eUCD/2pVE/7yER/8bDQj/CAAA/ykXBf9VNgv/MBgD/zkhBv9LMAr/Mx0E/w8KBP9zVkT/vY5z/7aSa//etoz/1a2E/7iQV/+1jVL/tY1S/8eJQv+cTh7/nE4e/6lkOP96TTL/CAAA/zAeBf9ePgz/NBoF/z8mB/9cPA7/MBoD/yIZEf+feGD/vY5z/9qyif+Vb1H/cE4z/2VDJv9lQyb/ZUMm/4tLHv+2bS7/nE4e/4RLJ//IhFT/CAAA/zUhBv9rSQ3/MhwC/0EqCf9dQA3/OyUI/xMODP+WdmL/2KyO//Hcmv9dPCP/MRAA/woCAP8GAQD/BgEA/xUGAP8vHgv/2XgR/5NSGf+4ZC//AQAA/zcmBv9+WQ3/OicD/0QsCf9tTQ7/PScI/yAbFv+5lnv/3rKU//vrov+Pd0v/NBMC/wUCAP8AAAD/UjIC/+uFDf8MBgD/3XwO/5VSFP+0XSf/NhoL/zgoBv+XeBH/QzIG/1c8DP9zUw//PScI/yAbFv+5lnv/3rKU/+PSjv+sl2L/VTYd/wUCAP8GAwD/eEYE/+B/DP9GKAT/dkAH/7RjFv+0XSf/NhoL/0M3CP+nihT/TTMH/1s6C/98VxD/TS8J/yAdGP+5lm//3rKD/+isRv/orEb/ek8a/wUCAP8OBwD/iEsE/65fCP/Pbwn/UScH/8ZoEP+6YBj/NhwL/0I7Dv+snCD/Sy8F/105Cv+RZxT/cEkN/yAeGf+5lmj/3rJ7//+uMf//rjH/hFET/wYCAP8NBwD/jkwF/34+CP/meAj/czkI/3k7Df+9YRD/Nh0L/0I9Ef+onib/VTYI/3hRD/+bcRb/cUoO/x0bF/+xj2T/3rJ7/8uJJP/PiyX/sXIe/w4IAv81HQL/3nkI/7tjCP+gVAj/y2oI/7dfDf+9YRD/KhcK/zsvDf+Vexn/XDwK/31aEf+fexr/eFUP/xQSEf+YfVf/4rp//+W1Nf+viCD/oXwW/ykjAv9PNAH/mWQJ/8p0Ef+yYRH/sVQI/7ZlIf/FfEP/BAYI/0EwDv+UaRX/akkP/4ZpFP+mix//im0V/xgVEf+cg1r/58OE//LfUv/Twj3/5NJJ/3NuFv/ByTT/naAm/76MJf+yUQz/s1IM/8SBTP/UnXr/Nigh/0YxD/+caRj/bUsQ/4dqFP+mix//rZIh/wgICP93ZUb/58OE///rWv/u20//sKEn/0M9A/+Hhx7/zNc4/9OpL//eoC7/3qAu/9edWf/Sm3n/CAgI/0YxD/+RYBf/bEsU/4RhGP+Ydh3/rIoj/xMRC/9dUDT/27V1//DYaP/Ru1T/lIIt/3NXGP+cgib/zrs5/+e4Qv/ZljX/1JIx/6N1Of9qUj//CwsL/0YyE/+MYBz/a0oc/4ZbIf+SZSP/rHwp/2lWLv8pJBD/pIJJ/9O0hP/cwJL/7tmt/9uUSv/NcRj/zXEY/7tsKP+0ai3/qF8k/31QG/8eGhP/OCsZ/3pbJv98Wib/elcn/4RZIf+NYCL/n3Im/51+Rf9HOR3/MywV/9O0hP/iyJr//+/G/+zAgP/XiDn/14g5/82CPf/Jfz7/qmMq/2JCJP8RERD/dlkn/5VtLP91UyT/e1os/4lfJP+QZSX/nHEq/6uKTP+Qcz//QzYc/3pBFv/iz6n/59Wt//3qw//pu33/57Z2/+GgZP/dl13/j08f/z4mEP9IOSD/qH03/553NP98Wyz/dl08/45sN/+ObDf/kW8//6KDR/+oiEr/jnA//1RLRP+Xj4P/0M26//Lj2f/bpHz/1Jdo/6p/X/+adVv/U0Q5/1ZMNP+Yf0f/tZJS/62PUv+Ockz/jXJR/5V1Sf+VdUn/lXVJ/6KDR/+vjkz/t5VQ/1JJQv9hWFD/xcCw//bn3f/kvJ7/3KeB/9Kdd/+HZ1L/TD82/41ySf+0kVH/tZJS/62PUv+Ockz/lXpb/5x9Wv+cfVr/nH1a/6iISv+9mlP/vZpT/4l+dv9TSkP/vbeo//fo3v/oya//6Mmv/9Smg/9wWEj/jGtV/7+VYP+1klP/tZNT/7idVv+qlVX/nI16/56Ibf+eiG3/noht/62SbP+xmHH/uKN8/5qQh/9zbWP/p5+T/8/Gtv+9ppT/vaaU/62Ziv97dWv/iH9z/6+agP+1nnv/vLiI/7q8j/+wso//nY57/6WTeP+lk3j/pZN4/7GYcf+4o3z/vamD/5qQh/+DfXL/x76x/9bOv//Vzr//1c6//9nCrP97dWv/iH9z/7Cegv+3pH7/vLmJ/7q8j/+1upT/no98/6ydg/+snYP/rJ2D/7ijfP+9qYP/vaqE/5ySif+yqJ7/7eHU/93Zy//Z1MX/z8O0/9bAqf/GsZr/o5KD/7Ggg/+4qIH/uauC/7m3jP+usI3/rp+G/7WqlP+1qpT/taqU/8aynP/Gspz/xrKc/5GTif+eoJv/u7zD/5mltP+VorL/laKy/5qekf+cnIb/np6I/7Kpkf+9rpT/va6U/7aplP+topT/iHli/6ieh/+1qpT/taqU/8aynP/Gspz/xrKc/6Slo/+dn5r/oaKf/7G90f+yv9X/sr/V/6Klm/+cnIb/urin/8S6pf+9rpT/va6U/7aplP+topT/ : 1 : 0 : 0 : 227;317;146;71
+Mouse : 0 : 0 : RightClick : 0 : 1 : 0
+GOTO : mdew1
+ENDIF
+LABEL : pill1
+IF IMAGE : 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 : 1 : 0 : 0 : 227;317;146;71
+Mouse : 0 : 0 : RightClick : 0 : 1 : 0
+GOTO : pill1
+ENDIF
+IF IMAGE : Qk0iAwAAAAAAADYAAAAoAAAAEQAAAAsAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAADxUg/yhj0f8waeL/Lmvr/zJw8f83ePX/Sor3/06U/P9Zn/3/Xqb//2y3//9ztP//c7P//2as//9fr///T5j+/zd9+f8UGiP/K2PF/z595/88fvH/Rof2/1CW/P9bov7/cLP//3m6//9/wP//ksr//5bM//+Vy///i8b//3i3//9jqP//SY77/xseJv8uWqr/S4zp/1KX9P9dofn/aq/9/3i5//+Mx///n9L//6zX//+23P//v+H//73g//+y2v//oNT//3u8//9eo/7/IyQo/y9MhP9ZleT/YaDz/3Cx+f+Hxfz/ms7+/6va//+/4P//zef//9Pr///k8P//3u7//9Dp//+94f//ksr//3W1/v8vLy//LzxX/1eKzf96ru//g773/5LI/P+p1v7/xuP+/9zs///y+P///f7/////////////7fj//9bt//+w2f//jMX+/z4+Pv86PUb/TW+f/5G56f+fzPP/p9L5/7zf/P/a7P7/9Pj+//z+////////////////////////7vv//8Tk/v+i0v3/TU1N/0pKSv9JUWX/cprG/73W7v/E3/X/0un6/+z3/P/9/f3//v7+//7+/v/+/v7//v7+//7+/v/m9/7/yOb8/6TT+/9eXl7/Wlpa/1lZWf9XYnv/lbXU/+Dq8P/j7/X/+Pn5//v7+//8/Pz//Pz8//39/f/8/P3/7Pf8/83n/P+p1fr/ksb3/2xsbP9ra2v/aWlp/2hoaP9veo3/qrrL/+Tp7f/19fX/9/f3//n5+f/7+/v/+fv7//D4+//k8/r/udz4/5LE9v+CtPL/enp6/3l5ef93d3f/d3d3/3d3ef98g4z/nqu5/8TS3v/u8fL/9fX1//b29v/39/f/9vb2//D09f+22PT/iLPx/32f4v+FhYX/hYWF/4WFhf+FhYX/hYWF/4WFhf+Ehoj/io6S/5mls/+nvNH/utHl/8ve7//G3PD/rcno/4+l1/+Gk7r/hImZ/w== : 1 : 0 : 0 : 227;317;146;71
+Mouse : 0 : 0 : RightClick : 0 : 1 : 0
+GOTO : pill1
+ENDIF
+LABEL : sack1
+IF IMAGE : Qk26BAAAAAAAADYAAAAoAAAAEQAAABEAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAIhsD/yQgEv9wb2f/Tk4y/2FjGf+fojb/tbhH/7K2PP+jpiH/nqEW/5ueEf+eohH/n6MR/5qeEf+Tlxf/lpow/5SYN/8iHAT/ODQq/3Z2a/9UVSL/mJpF/7q+VP+qrib/n6QS/5yfEP+YnBH/kpYS/46REv+NkBL/io8T/42QGv+Zmzz/rK1i/ycgB/9KSD//Z2dT/2ZnHv+7vG3/q68r/6ClEv+bnxL/kpcS/4uOE/+AhBP/fH8T/3l+E/95fhP/foIZ/4+SOf+/wYf/LiUL/15bT/9QUDD/eHos/73AZv+ipxj/nKAU/4+SFv+BgxT/eXwU/3Z6FP91eBT/c3YU/3N1FP9ydBf/iow9/8DCk/80Kw3/ZGFS/0tJIf+BgjD/sbRO/5ibE/+JjRX/fYAV/3d8FP93ehT/dXgU/3N2FP9ucBX/amwU/2tuGP+Jikj/xMSf/0M4EP9xbln/VFIi/4KDKP+hpC7/jJIU/36BFP95fBT/e34U/3x+FP92ehT/bXAU/2ZoFP9gYRX/ZGUe/5WWZ//LzLD/XU4V/4qEZ/9qai//hokZ/56hGf+Rlhb/iYsV/4yQE/+TlhL/lpoS/52iEv+fpBL/nKES/6OmE/+prC7/1tef/9nbof9iUxb/lY9s/39+Pf+UlxP/sLQU/7m8Ff/Cxhj/3uQc//L5Hv/2/if/+v44//n+Qv/3/kn/+P5N//r+ev/+/9v/+fyc/1ZLGv9eYFD/W2E+/5GZG//U3Bb/8PUi//b7SP/4/GL/+f1q//r9Zf/6/WT/+f1h//j9Yf/5/XH//P61//3+4//1+I3/NTMg/xUiK/8ZLTr/NEU0/2V4M//M0zn/4+hU/+frVf/p7E//6e1I/+zvQ//q7z7/6u09//DzfP/6+tL/7++q/8nPRv8rNzj/Iz9R/y5fev8oSmX/Ij1U/yI3Qv9XYi//g4Ud/4CDGv+Aghr/g4Ub/4aIJf+cnlf/19i//9DRt/+ChEr/VFYk/zRJVf8wTF7/LUVZ/zBMY/89aIf/QnCP/y9NY/8rOj//LjEl/y4uH/82Nib/YmNU/66vqP+wsKr/bm5j/0JDNP9VVkz/S2h5/0Zjef9EYXj/SGuF/0Rpg/9Me5j/YZWz/05whv8yRVD/LjEy/zU1NP9YWFf/bm5t/1dXVf9RUU//b29u/5iYl/9PZHL/UGp7/1yBmP9zqMj/cKfH/093j/9fiKD/kb3V/1Z2hv9BUFj/Q0ND/0xMTP9jY2L/goKB/6Kiof+cnJv/eXh1/2Fxf/9gc4D/Y3qL/2mKnf93pb7/gLfV/2GGmv+Cp7z/rs7e/1x1gv9/hIf/oaGg/7Kxrv+ioZ3/hIN+/25sZf9iYFj/dYqY/3WLmf94kaL/dpSk/3CNm/9/pbn/h7DF/3mXp/+ct8X/hZ2n/4OQlf+YmJL/iod+/357cP93dWv/dXJo/3h0af+DmKT/i6Oz/5Kxw/+Stcj/iae3/4adq/+TscD/nrnG/4mgrf+MoKn/f4iL/4iGff+Lh3v/jIh5/4uHef+Lh3n/jYl6/w== : 1 : 0 : 0 : 227;317;146;71
+Mouse : 0 : 0 : RightClick : 0 : 1 : 0
+GOTO : sack1
+ENDIF
+IF IMAGE : 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6v93yu//dsvz/37V+P+C1/r/etL4/4DX+/91xvH/bKrS/12Tr/9WgY3/VHd2/1R+hv9Yeoj/Vlxg/1dXWf9aWlv/W1tb/1tbW/9OTk7/bGxs/3J6gP+exNT/p9Lg/5/W6P+Q1O7/lNjy/4/Y9f+O2Pb/h9T3/4vZ+f+J1ff/f7zh/3CfuP9slaX/cY2N/3CQlv9sjZz/anBy/2hoa/9paWr/a2tr/2xsbP9aWlr/enp6/3l5ev+Moa7/q9Dd/7LY5P+n2On/qt3u/6Td8f+f3fP/mNn0/5bY9P+f4Pb/lNTx/4e41P97obL/gZiX/36Vl/9/mKP/eHt9/3h4ef94eHj/eXl5/3p6ev9lZWX/hISE/4aGhv+JjZD/n7vF/7rY4/+93Ob/t93o/6vW6P+m1ev/oNfv/6Xe8f+j3fH/nNbv/57S6/+WvdL/iaCj/4ueoP+MnaX/h4iJ/4aGh/+Ghob/hYWF/4WFhf9qamr/j4+P/4+Pj/+Pj5D/kpmf/6fH0v+tytT/nKSr/5KUlv+Slpn/l6Cl/5yvv/+gxNv/qNTl/6bS6P+gyN//mrbD/5Sqsf+TnqP/j4+Q/4+QkP+Pj4//j4+P/4+Pj/9JSUn/dnZ2/5CQkP+Xl5f/l5eY/5ianP+anJ3/mJiZ/5mZmv+YmJn/mpqb/5qam/+bnJ7/nqSq/5+wvf+etsX/oLnJ/560wf+ZnqD/l5eY/5eXmP+VlZX/h4eH/1xcXP8MDAz/ : 1 : 100 : 0 : 227;317;146;71
+Mouse : 0 : 0 : RightClick : 0 : 1 : 0
+GOTO : sack1
+ENDIF
+IF IMAGE : Qk3uAQAAAAAAADYAAAAoAAAACgAAAAsAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAImN9/0uAi/8/SUP/HCsz/5iQYv/x017/5q1O/89fKv/UmVL/Yjs3/yhvjP9DhJb/Ljo7/zhBQP+amGb///9z////c//OXir/w4tO/2I7N/8ufZ3/Nm+E/yYzN/84QUD/mphm////c////3P/zl4q/6x5Sf9iOzf/RIie/12HlP9JUEr/cHdz/7K9sf/926n//NCT//SJI/+lcmb/rFRC/5HL2/+ny9T/Y2tl/3yEf/+psaX//d+x//3bqv/2kjP/rVVC/61VQv98t8v/sNjh/5qlnv+Jkoz/jol6//3fsP///+f/+K1i/61VQv+qYlL/jcHR/6LP2/+72d//eoqR/4CHiv/QybP/6/jg/59/cP+Eb2r/mJaX/5LC0P+hztv/vN7m/6rIzv9/iZD/trKm/8XJt/+MdnT/kpif/6zDz/9/kpf/l7/J/7TU2/+93+f/maqw/6qel/+qnpf/l4WB/6S3wP+93+//jZSV/4+gov+rxcv/vdrh/7HJz/+hqav/oamr/6GprP+40tr/vdrk/5SWlP+OlpX/g5eZ/7fR1/+30Nf/nK61/5yutf+dr7b/vdfe/5yzt/8= : 1 : 100 : 0 : 227;317;146;71
+Mouse : 0 : 0 : RightClick : 0 : 1 : 0
+GOTO : sack1
+ENDIF
+DELAY : 1000
+Mouse : 631 : 182 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 631 : 184 : LeftButtonDown : 0 : 0 : 0
+DELAY : 9480
+Mouse : 188 : 496 : Move : 0 : 0 : 0
+DELAY : 2800
+Mouse : 189 : 497 : LeftButtonUp : 0 : 0 : 0
+Mouse : 429 : 646 : Move : 0 : 0 : 0
+DELAY : 20
+REPEAT : 10 : 0 : 0 : Enter the number of iterations: : 0 : 0
+LABEL : fb2
+IF PIXEL COLOR EQUALS : 400 : 570 : 16777214 : 0
+GOTO : fb2
+ENDIF
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+Mouse : 556 : 331 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 556 : 331 : LeftButtonDown : 0 : 0 : 0
+Mouse : 556 : 331 : LeftButtonUp : 0 : 0 : 0
+Mouse : 429 : 646 : Move : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+ENDREPEAT
+Mouse : 515 : 282 : Move : 0 : 0 : 0
+DELAY : 10
+Mouse : 515 : 282 : RightButtonDown : 0 : 0 : 0
+DELAY : 10
+Mouse : 515 : 282 : RightButtonUp : 0 : 0 : 0
+Mouse : 50 : 666 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 60 : 666 : LeftButtonDown : 0 : 0 : 0
+Mouse : 657 : 283 : Move : 0 : 0 : 0
+DELAY : 701
+Mouse : 657 : 283 : LeftButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 765 : 607 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 765 : 607 : LeftButtonDown : 0 : 0 : 0
+Mouse : 765 : 607 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 289 : 527 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 289 : 527 : LeftButtonDown : 0 : 0 : 0
+Mouse : 289 : 527 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+LABEL : target dear
+REPEAT : 50 : 0 : 0 : Enter the number of iterations: : 0 : 0
+DELAY : 50
+IF PIXEL COLOR EQUALS : 312 : 325 : 6972490 : 0
+GOTO : dead
+ENDIF
+IF PIXEL COLOR EQUALS : 355 : 80 : 14411510 : 1
+Mouse : 480 : 285 : RightButtonDown : 0 : 0 : 0
+Mouse : 480 : 285 : RightButtonUp : 0 : 0 : 0
+ELSE
+GOTO : deer hp
+ENDIF
+ENDREPEAT
+DELAY : 1000
+LABEL : deer hp
+Mouse : 481 : 250 : Move : 0 : 0 : 0
+DELAY : 50
+IF PIXEL COLOR EQUALS : 367 : 100 : 11033435 : 0
+GOTO : deer hp
+ENDIF
+REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
+LABEL : 3
+LABEL : done deer
+IF PIXEL COLOR EQUALS : 312 : 325 : 6972490 : 0
+GOTO : dead
+ENDIF
+IF PIXEL COLOR EQUALS : 350 : 279 : 5029375 : 1
+Mouse : 481 : 250 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 481 : 250 : LeftButtonDown : 0 : 0 : 0
+Mouse : 481 : 250 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+ELSE
+GOTO : dew 2
+ENDIF
+ENDREPEAT
+LABEL : dew 2
+IF IMAGE : Qk0WCAAAAAAAADYAAAAoAAAAFQAAABgAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAKBQA/yoWAv9FKwn/YUAQ/wkFAP8IBAD/ZU07/9qzif/dtYv/3rWL//rIfP+1jVL/tY1S/6NgLf+eUCD/2pVE/7yER/8bDQj/CAAA/ykXBf9VNgv/MBgD/zkhBv9LMAr/Mx0E/w8KBP9zVkT/vY5z/7aSa//etoz/1a2E/7iQV/+1jVL/tY1S/8eJQv+cTh7/nE4e/6lkOP96TTL/CAAA/zAeBf9ePgz/NBoF/z8mB/9cPA7/MBoD/yIZEf+feGD/vY5z/9qyif+Vb1H/cE4z/2VDJv9lQyb/ZUMm/4tLHv+2bS7/nE4e/4RLJ//IhFT/CAAA/zUhBv9rSQ3/MhwC/0EqCf9dQA3/OyUI/xMODP+WdmL/2KyO//Hcmv9dPCP/MRAA/woCAP8GAQD/BgEA/xUGAP8vHgv/2XgR/5NSGf+4ZC//AQAA/zcmBv9+WQ3/OicD/0QsCf9tTQ7/PScI/yAbFv+5lnv/3rKU//vrov+Pd0v/NBMC/wUCAP8AAAD/UjIC/+uFDf8MBgD/3XwO/5VSFP+0XSf/NhoL/zgoBv+XeBH/QzIG/1c8DP9zUw//PScI/yAbFv+5lnv/3rKU/+PSjv+sl2L/VTYd/wUCAP8GAwD/eEYE/+B/DP9GKAT/dkAH/7RjFv+0XSf/NhoL/0M3CP+nihT/TTMH/1s6C/98VxD/TS8J/yAdGP+5lm//3rKD/+isRv/orEb/ek8a/wUCAP8OBwD/iEsE/65fCP/Pbwn/UScH/8ZoEP+6YBj/NhwL/0I7Dv+snCD/Sy8F/105Cv+RZxT/cEkN/yAeGf+5lmj/3rJ7//+uMf//rjH/hFET/wYCAP8NBwD/jkwF/34+CP/meAj/czkI/3k7Df+9YRD/Nh0L/0I9Ef+onib/VTYI/3hRD/+bcRb/cUoO/x0bF/+xj2T/3rJ7/8uJJP/PiyX/sXIe/w4IAv81HQL/3nkI/7tjCP+gVAj/y2oI/7dfDf+9YRD/KhcK/zsvDf+Vexn/XDwK/31aEf+fexr/eFUP/xQSEf+YfVf/4rp//+W1Nf+viCD/oXwW/ykjAv9PNAH/mWQJ/8p0Ef+yYRH/sVQI/7ZlIf/FfEP/BAYI/0EwDv+UaRX/akkP/4ZpFP+mix//im0V/xgVEf+cg1r/58OE//LfUv/Twj3/5NJJ/3NuFv/ByTT/naAm/76MJf+yUQz/s1IM/8SBTP/UnXr/Nigh/0YxD/+caRj/bUsQ/4dqFP+mix//rZIh/wgICP93ZUb/58OE///rWv/u20//sKEn/0M9A/+Hhx7/zNc4/9OpL//eoC7/3qAu/9edWf/Sm3n/CAgI/0YxD/+RYBf/bEsU/4RhGP+Ydh3/rIoj/xMRC/9dUDT/27V1//DYaP/Ru1T/lIIt/3NXGP+cgib/zrs5/+e4Qv/ZljX/1JIx/6N1Of9qUj//CwsL/0YyE/+MYBz/a0oc/4ZbIf+SZSP/rHwp/2lWLv8pJBD/pIJJ/9O0hP/cwJL/7tmt/9uUSv/NcRj/zXEY/7tsKP+0ai3/qF8k/31QG/8eGhP/OCsZ/3pbJv98Wib/elcn/4RZIf+NYCL/n3Im/51+Rf9HOR3/MywV/9O0hP/iyJr//+/G/+zAgP/XiDn/14g5/82CPf/Jfz7/qmMq/2JCJP8RERD/dlkn/5VtLP91UyT/e1os/4lfJP+QZSX/nHEq/6uKTP+Qcz//QzYc/3pBFv/iz6n/59Wt//3qw//pu33/57Z2/+GgZP/dl13/j08f/z4mEP9IOSD/qH03/553NP98Wyz/dl08/45sN/+ObDf/kW8//6KDR/+oiEr/jnA//1RLRP+Xj4P/0M26//Lj2f/bpHz/1Jdo/6p/X/+adVv/U0Q5/1ZMNP+Yf0f/tZJS/62PUv+Ockz/jXJR/5V1Sf+VdUn/lXVJ/6KDR/+vjkz/t5VQ/1JJQv9hWFD/xcCw//bn3f/kvJ7/3KeB/9Kdd/+HZ1L/TD82/41ySf+0kVH/tZJS/62PUv+Ockz/lXpb/5x9Wv+cfVr/nH1a/6iISv+9mlP/vZpT/4l+dv9TSkP/vbeo//fo3v/oya//6Mmv/9Smg/9wWEj/jGtV/7+VYP+1klP/tZNT/7idVv+qlVX/nI16/56Ibf+eiG3/noht/62SbP+xmHH/uKN8/5qQh/9zbWP/p5+T/8/Gtv+9ppT/vaaU/62Ziv97dWv/iH9z/6+agP+1nnv/vLiI/7q8j/+wso//nY57/6WTeP+lk3j/pZN4/7GYcf+4o3z/vamD/5qQh/+DfXL/x76x/9bOv//Vzr//1c6//9nCrP97dWv/iH9z/7Cegv+3pH7/vLmJ/7q8j/+1upT/no98/6ydg/+snYP/rJ2D/7ijfP+9qYP/vaqE/5ySif+yqJ7/7eHU/93Zy//Z1MX/z8O0/9bAqf/GsZr/o5KD/7Ggg/+4qIH/uauC/7m3jP+usI3/rp+G/7WqlP+1qpT/taqU/8aynP/Gspz/xrKc/5GTif+eoJv/u7zD/5mltP+VorL/laKy/5qekf+cnIb/np6I/7Kpkf+9rpT/va6U/7aplP+topT/iHli/6ieh/+1qpT/taqU/8aynP/Gspz/xrKc/6Slo/+dn5r/oaKf/7G90f+yv9X/sr/V/6Klm/+cnIb/urin/8S6pf+9rpT/va6U/7aplP+topT/ : 1 : 0 : 0 : 227;317;146;71
+Mouse : 0 : 0 : RightClick : 0 : 1 : 0
+GOTO : dew 2
+ENDIF
+IF IMAGE : Qk3eAwAAAAAAADYAAAAoAAAAEgAAAA0AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAf2pO/96yg//isGn/6KxG/+isRv8oEAD/AAAA/0AiAv/IcAf/tmIJ/1AnB//ieQr/rFkV/35AEv8OCQf/nokb/6ubIP+QchT/f2pK/96ye//ssFz//64x//+uMf8qEgD/AAAA/z0fAv/RcQj/kUcI/7JdCP8kCwj/vWEQ/35BDf8OCgn/nYwf/6ecJf+IZRH/cV5D/96ye//WoVb/wYIi/++jLf9lPQ//CQQA/7llB//Zdgj/qVgI/8RnCP+xXQj/vWEQ/3c+Df8LCQj/jWsT/5N4GP+AVQv/RDcq/+K6f//luWH/wJcm/6+IIP93XAz/MCQA/35PA/+tdA//yW0R/6pVC//IYAj/r203/2dDJ/8EBgj/lGkV/4xgE/92SQ3/SDsr/+fDhP/t0G//1cQ+/+rXTP/Asjj/l5ok/8HJNP99dBj/ynwf/69MCf+/Zhb/ypZ0/4plUP8UEA//nGkY/5FgFv9xRhH/CAgI/+fDhP/x1HL//+ta/8y+Of+EeBX/WFQM/8/ZOf+1uC3/36Ev/96gLv/eoC7/0pt5/21RQP8ICAj/m2gY/4ZXFf9xRhH/ExEL/7CUYf/synP/8Nho/5WELv+Kdif/hGcd/7WgMP/jzUH/46Y9/9mWNf/LiSr/f2JD/zgtJP8LCwv/lmge/4BWGv9sRBb/NC0V/z81Gv/Lp2v/07SE/+7YrP/pxJD/034q/81xGP/LcBr/tGot/7RqLf+NRw7/XUgh/x8aE/9fRyH/i2gp/29NI/9jQSH/b1cw/ysmEf94Z0T/07SE//7uxf/54bH/4J9W/9eIOf/Whzn/yoA//61mLP/Dejr/GBYS/z8yGv+ZcS7/flwm/2xKIv9jQSH/q4pM/2xVLv9QMRL/x6qE/9G3jf/36ML/8tGe/+e3eP/ms3T/35he/7JvOv9zOgv/JSEX/3xeLf+ofTf/jm4w/29NKf9kQif/ooNH/6mISv9vWz7/aF5X/97bx//TzLz/6MSs/9aabP/PlGb/m3Zb/3FYR/9DOTL/cmQ6/6uLTv+1klL/oIpR/31dR/9rSUL/ooNH/7yZUv+MdEr/UklC/352bP/y69r/7tK//96sh//bpoD/tIdn/1pIPP9iTkD/rY1P/7WSUv+1klL/oIpR/4RkSf9/X0j/uZdR/72aU/+okGP/ZFpT/1NKQ//89eT/79fF/+jJr//lxan/qoFj/3BYSP/IlnH/tZJT/7WSU/+1k1P/u6lb/5mAUP+GaEv/ : 1 : 0 : 0 : 227;317;146;71
+Mouse : 0 : 0 : RightClick : 0 : 1 : 0
+GOTO : dew 2
+ENDIF
+LABEL : pill 2
+DELAY : 50
+IF IMAGE : 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 : 1 : 0 : 0 : 227;317;146;71
+Mouse : 0 : 0 : RightClick : 0 : 1 : 0
+GOTO : pill 2
+ENDIF
+IF IMAGE : Qk0iAwAAAAAAADYAAAAoAAAAEQAAAAsAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAADxUg/yhj0f8waeL/Lmvr/zJw8f83ePX/Sor3/06U/P9Zn/3/Xqb//2y3//9ztP//c7P//2as//9fr///T5j+/zd9+f8UGiP/K2PF/z595/88fvH/Rof2/1CW/P9bov7/cLP//3m6//9/wP//ksr//5bM//+Vy///i8b//3i3//9jqP//SY77/xseJv8uWqr/S4zp/1KX9P9dofn/aq/9/3i5//+Mx///n9L//6zX//+23P//v+H//73g//+y2v//oNT//3u8//9eo/7/IyQo/y9MhP9ZleT/YaDz/3Cx+f+Hxfz/ms7+/6va//+/4P//zef//9Pr///k8P//3u7//9Dp//+94f//ksr//3W1/v8vLy//LzxX/1eKzf96ru//g773/5LI/P+p1v7/xuP+/9zs///y+P///f7/////////////7fj//9bt//+w2f//jMX+/z4+Pv86PUb/TW+f/5G56f+fzPP/p9L5/7zf/P/a7P7/9Pj+//z+////////////////////////7vv//8Tk/v+i0v3/TU1N/0pKSv9JUWX/cprG/73W7v/E3/X/0un6/+z3/P/9/f3//v7+//7+/v/+/v7//v7+//7+/v/m9/7/yOb8/6TT+/9eXl7/Wlpa/1lZWf9XYnv/lbXU/+Dq8P/j7/X/+Pn5//v7+//8/Pz//Pz8//39/f/8/P3/7Pf8/83n/P+p1fr/ksb3/2xsbP9ra2v/aWlp/2hoaP9veo3/qrrL/+Tp7f/19fX/9/f3//n5+f/7+/v/+fv7//D4+//k8/r/udz4/5LE9v+CtPL/enp6/3l5ef93d3f/d3d3/3d3ef98g4z/nqu5/8TS3v/u8fL/9fX1//b29v/39/f/9vb2//D09f+22PT/iLPx/32f4v+FhYX/hYWF/4WFhf+FhYX/hYWF/4WFhf+Ehoj/io6S/5mls/+nvNH/utHl/8ve7//G3PD/rcno/4+l1/+Gk7r/hImZ/w== : 1 : 0 : 0 : 227;317;146;71
+Mouse : 0 : 0 : RightClick : 0 : 1 : 0
+GOTO : pill 2
+ENDIF
+IF IMAGE : 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 : 1 : 0 : 0 : 227;317;146;71
+Mouse : 0 : 0 : RightClick : 0 : 1 : 0
+GOTO : pill 2
+ENDIF
+LABEL : sack2
+IF IMAGE : Qk26BAAAAAAAADYAAAAoAAAAEQAAABEAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAIhsD/yQgEv9wb2f/Tk4y/2FjGf+fojb/tbhH/7K2PP+jpiH/nqEW/5ueEf+eohH/n6MR/5qeEf+Tlxf/lpow/5SYN/8iHAT/ODQq/3Z2a/9UVSL/mJpF/7q+VP+qrib/n6QS/5yfEP+YnBH/kpYS/46REv+NkBL/io8T/42QGv+Zmzz/rK1i/ycgB/9KSD//Z2dT/2ZnHv+7vG3/q68r/6ClEv+bnxL/kpcS/4uOE/+AhBP/fH8T/3l+E/95fhP/foIZ/4+SOf+/wYf/LiUL/15bT/9QUDD/eHos/73AZv+ipxj/nKAU/4+SFv+BgxT/eXwU/3Z6FP91eBT/c3YU/3N1FP9ydBf/iow9/8DCk/80Kw3/ZGFS/0tJIf+BgjD/sbRO/5ibE/+JjRX/fYAV/3d8FP93ehT/dXgU/3N2FP9ucBX/amwU/2tuGP+Jikj/xMSf/0M4EP9xbln/VFIi/4KDKP+hpC7/jJIU/36BFP95fBT/e34U/3x+FP92ehT/bXAU/2ZoFP9gYRX/ZGUe/5WWZ//LzLD/XU4V/4qEZ/9qai//hokZ/56hGf+Rlhb/iYsV/4yQE/+TlhL/lpoS/52iEv+fpBL/nKES/6OmE/+prC7/1tef/9nbof9iUxb/lY9s/39+Pf+UlxP/sLQU/7m8Ff/Cxhj/3uQc//L5Hv/2/if/+v44//n+Qv/3/kn/+P5N//r+ev/+/9v/+fyc/1ZLGv9eYFD/W2E+/5GZG//U3Bb/8PUi//b7SP/4/GL/+f1q//r9Zf/6/WT/+f1h//j9Yf/5/XH//P61//3+4//1+I3/NTMg/xUiK/8ZLTr/NEU0/2V4M//M0zn/4+hU/+frVf/p7E//6e1I/+zvQ//q7z7/6u09//DzfP/6+tL/7++q/8nPRv8rNzj/Iz9R/y5fev8oSmX/Ij1U/yI3Qv9XYi//g4Ud/4CDGv+Aghr/g4Ub/4aIJf+cnlf/19i//9DRt/+ChEr/VFYk/zRJVf8wTF7/LUVZ/zBMY/89aIf/QnCP/y9NY/8rOj//LjEl/y4uH/82Nib/YmNU/66vqP+wsKr/bm5j/0JDNP9VVkz/S2h5/0Zjef9EYXj/SGuF/0Rpg/9Me5j/YZWz/05whv8yRVD/LjEy/zU1NP9YWFf/bm5t/1dXVf9RUU//b29u/5iYl/9PZHL/UGp7/1yBmP9zqMj/cKfH/093j/9fiKD/kb3V/1Z2hv9BUFj/Q0ND/0xMTP9jY2L/goKB/6Kiof+cnJv/eXh1/2Fxf/9gc4D/Y3qL/2mKnf93pb7/gLfV/2GGmv+Cp7z/rs7e/1x1gv9/hIf/oaGg/7Kxrv+ioZ3/hIN+/25sZf9iYFj/dYqY/3WLmf94kaL/dpSk/3CNm/9/pbn/h7DF/3mXp/+ct8X/hZ2n/4OQlf+YmJL/iod+/357cP93dWv/dXJo/3h0af+DmKT/i6Oz/5Kxw/+Stcj/iae3/4adq/+TscD/nrnG/4mgrf+MoKn/f4iL/4iGff+Lh3v/jIh5/4uHef+Lh3n/jYl6/w== : 1 : 0 : 0 : 227;317;146;71
+Mouse : 0 : 0 : RightClick : 0 : 1 : 0
+GOTO : sack2
+ENDIF
+IF IMAGE : Qk1uBAAAAAAAADYAAAAoAAAAEgAAAA8AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAHBI3/xYGRv8TAlb/FQFx/xgAef8UAVf/FgF3/xUAYv8VAVz/Khpo/36Csv9bVWT/LhFQ/xsBav8VAHz/EwB5/xcDYf8UAk7/EQQy/xMCWf8TAVn/FwJu/xwGbf8aCEr/FgJr/xMAWP8XA0v/NyVR/31/lv9KSE7/NSxZ/xwHYP8WAW//EQB2/xQBa/8VAlf/EAQ7/xYCX/8XBlj/Oilq/3NngP9vZXP/IxBJ/xcGTf8uJF7/dnF3/8zMzv+dnZ3/Vlde/0JGcf8hG4P/GgRx/xQCcP8WAmD/EQVB/xQEU/8rHF//npix/6afmf+Ignn/Rjk3/1FIXv+tr7f/zcrM/8bDw/9dXV7/dHFz/25vdf9bX3v/Nz+J/yMYef8gDGP/FAhA/xYGTv84LGT/s624/2FXR/+KhoD/lJKR/8rM1P+rosL/inKS/35wdv+Jio7/VEZM/z42Qv9YVXD/bnGG/21xjP9NTHj/Ggs+/xsJSP8oHEj/cWty/6Gfnv/S0tL/rKix/3Bbiv8/HJb/OROy/2FQkP/HxdD/X1x2/zEZRf8pFET/NydL/09HXv9ycn3/HR11/zI+r/93gKr/z8/T/+/u7v/v7u7/W0BW/0gZsv9KHPf/OxTp/zggmf/KxN//jI+g/z00cP8nEFz/Ig5o/zIXW/80ITj/lZm0/7Kxw//BtL7/sJmg/9zX3P/29ff/bVOW/zwV2P8xDcr/LA21/ywVnv+Edq//5+fw/3RxjP83JV//JBNz/ycTdf8sGFf/lYaQ/4pymf9hP4n/VzSK/7Cpzf/6+vz/m5C//zgbpv8zFbD/ORni/0Ij3f9ELbX/trXi/9HT4f99eJD/QC1i/zgidv81IW7/UD+J/0ozuv9QMeX/TTHf/391zf/5+v7/x8LR/1Y/tP9eOvT/YTn+/3FL/v9tS/n/WULY/6Ci3v/a3Ov/nZuo/2RQbv9SPlv/V0qs/1pF2v9oUuz/gWj2/3Rf1v/h4vH/+/v9/62hwf91WN7/iGT+/3pY+P9gP9X/WDvE/1xGxP+Rjs//1dXp/8zN1P+Xk5j/a2Gl/21dvf94ZdT/j33w/52O9f/EvOr/6+z2//Lx8/+1qsj/g2rI/3dZ2v98Y9v/jnT+/5J89P+Ec9D/jYHD/6+qx/+6uMT/g32W/5KKvv+0rNv/w7rs/8e79f+/sff/vLXx/+7x+v/7+/z/087Y/6GSvP+fid3/t6H7/8S5+v/Bt/f/rqjY/5OQqf+JiJH/o6Ck/6imwf/Hwtv/xr/m/8C17v+mlPH/oZHl/7Ou7P/e4fX/+Pn8//n5+v/g3OD/wbna/6SeyP+Sk5T/kZGS/5GRk/+Qj5X/vr6+/7OwtP+6tM3/v7nc/7es4f+5r+X/xLry/8e89f/DufX/2Nn0/+bo9P/p6u3/29ze/7u7wf+rqbD/qaez/6mmsv+mpK// : 1 : 0 : 0 : 227;317;146;71
+Mouse : 0 : 0 : RightClick : 0 : 1 : 0
+GOTO : sack2
+ENDIF
+IF IMAGE : Qk1uBAAAAAAAADYAAAAoAAAAEgAAAA8AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAFARN/xQBY/8XAHz/FgFp/xYBcP8WAW7/FABb/xgDV/9iY7P/hoeQ/z8vUf8jB1z/FQB9/xUAev8VAm//FgJQ/xACUf8KATn/EwFY/xUCYv8aA3X/HAdb/xgEY/8TAWX/FQFP/x8JQv94d57/aWlu/zo1Sf8mFVr/GAJr/xQAcv8SAHP/FQFZ/xUEXP8OA0P/FQJc/x8NWf9aSnv/eG58/z8uVP8YBk//HQ9R/1BIZv+gn6L/5+fn/29wc/9PUGX/LzaC/xgHfv8XAnH/FQJg/xcDZv8TBU//FgVS/2ddiv/CvcX/lo+F/2BUTP87Lzj/dXGI/8DAxP/d2dn/nJyc/1ZVVv9ycXT/aGp2/0tRgf8rKoT/IRJp/x4IYf8ZCFH/GAhN/5OMqv+up6L/ZFtO/4F9ef/CwsX/xMPV/5yLr/9qT1z/np+k/3Brb/9BNz7/TUZc/2Nkf/9wdIr/XWGH/z42Zv8vIlP/HA1G/0tBU/+SkZD/ubi3/8TFxf+Lf5f/VjmI/zsUrf81GIL/nZi0/6qptv9EM1f/JhFB/y4bR/9CNlT/YF1t/4KDjP9jY3f/Tlqn/7e7yf/c29r/9vb2/46Agf9RKWX/RBPn/0UZ+f8qDrL/X0qY/87Q2v9fXYr/KRVS/yUNZv8pEmX/NBxC/zMmNv9OS17/vLTC/8Gutv+qlZr/9PT3/6WZpv9OIsH/Mg7e/y4Nvv8pD7L/PCeM/7210f+oqrv/ST5m/ysWYv8lE3j/KBVg/zAbUv8rHjX/dFeP/1k0jv9nS5L/39/u/9nX4f9EKJb/MxWx/zQVyv9GJ+n/OxzI/3Fkwf/T1ez/rK28/1VJbv86JGz/NSBs/zYjdf83J1b/TTHS/1U16/9POtD/vLni//b2+P9xY4z/Ti/Z/2A5+/9pQf//dVL8/2NF7P94cNb/1dnx/8vM1v99coj/VkJb/1U+ZP9OPlj/XUfj/39q9P98YfD/oJXc//P0+v/8+vv/emaw/4Be8/+DYP//b07t/1k6yP9aPsb/Xla8/76+4P/X2OP/qamu/42HjP9+eoD/cmDG/4Jv5/+bivT/raHw/9nX8P/7/P7/3dji/5iFwv9+X+H/clfO/4Zt7P+Te/3/iXTj/4R2w/+elsX/tbLF/7u7wv+dnqH/pZ3O/7mx5v/KwvH/xLb3/7Kk8v/c4PX/+fr9/+ro6/+1q8X/lIK9/6uU8f/Asfr/xLn6/7qy7f+gnMD/jImZ/4qJjv+Hh4r/urfQ/8jC4f/Eu+v/tKbw/6KS6v+ikeL/x8ny/+3v+f/6+vz/9fT1/8/I2f+yqtz/lZWc/5GRkv+RkZP/kZCT/5CPlv+Qjpf/trHA/8C62P+8tN//tqvj/7+17v/HvfP/xrr2/8zJ9P/i4/X/6Orx/+Tl5//Ly9D/raux/6qosv+pprP/p6Ww/6Sjrf+hn6f/ : 1 : 0 : 0 : 227;317;146;71
+Mouse : 0 : 0 : RightClick : 0 : 1 : 0
+GOTO : sack2
+ENDIF
+IF IMAGE : Qk3uAQAAAAAAADYAAAAoAAAACgAAAAsAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAImN9/0uAi/8/SUP/HCsz/5iQYv/x017/5q1O/89fKv/UmVL/Yjs3/yhvjP9DhJb/Ljo7/zhBQP+amGb///9z////c//OXir/w4tO/2I7N/8ufZ3/Nm+E/yYzN/84QUD/mphm////c////3P/zl4q/6x5Sf9iOzf/RIie/12HlP9JUEr/cHdz/7K9sf/926n//NCT//SJI/+lcmb/rFRC/5HL2/+ny9T/Y2tl/3yEf/+psaX//d+x//3bqv/2kjP/rVVC/61VQv98t8v/sNjh/5qlnv+Jkoz/jol6//3fsP///+f/+K1i/61VQv+qYlL/jcHR/6LP2/+72d//eoqR/4CHiv/QybP/6/jg/59/cP+Eb2r/mJaX/5LC0P+hztv/vN7m/6rIzv9/iZD/trKm/8XJt/+MdnT/kpif/6zDz/9/kpf/l7/J/7TU2/+93+f/maqw/6qel/+qnpf/l4WB/6S3wP+93+//jZSV/4+gov+rxcv/vdrh/7HJz/+hqav/oamr/6GprP+40tr/vdrk/5SWlP+OlpX/g5eZ/7fR1/+30Nf/nK61/5yutf+dr7b/vdfe/5yzt/8= : 1 : 100 : 0 : 227;317;146;71
+Mouse : 0 : 0 : RightClick : 0 : 1 : 0
+GOTO : sack2
+ENDIF
+DELAY : 50
+Mouse : 1 : 669 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 1 : 669 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 568 : 300 : Move : 0 : 0 : 0
+DELAY : 12000
+Mouse : 568 : 300 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 403 : 378 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 403 : 378 : LeftButtonDown : 0 : 0 : 0
+Mouse : 403 : 378 : LeftButtonUp : 0 : 0 : 0
+LABEL : dead
+REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF PIXEL COLOR EQUALS : 312 : 325 : 6972490 : 0
+GOTO : confirm
+ENDIF
+DELAY : 100
+ENDREPEAT
+GOTO : sack2
+LABEL : confirm
+Mouse : 389 : 405 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 389 : 405 : LeftButtonDown : 0 : 0 : 0
+Mouse : 389 : 405 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 371 : 404 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 371 : 404 : LeftButtonDown : 0 : 0 : 0
+Mouse : 371 : 404 : LeftButtonUp : 0 : 0 : 0
+Mouse : 371 : 404 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 371 : 404 : LeftButtonDown : 0 : 0 : 0
+Mouse : 371 : 404 : LeftButtonUp : 0 : 0 : 0
+Mouse : 371 : 404 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 371 : 404 : LeftButtonDown : 0 : 0 : 0
+Mouse : 371 : 404 : LeftButtonUp : 0 : 0 : 0
+Mouse : 371 : 404 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 371 : 404 : LeftButtonDown : 0 : 0 : 0
+Mouse : 371 : 404 : LeftButtonUp : 0 : 0 : 0
+LABEL : reset
+IF PIXEL COLOR EQUALS : 312 : 325 : 6972490 : 0
+GOTO : reset
+ENDIF
+Mouse : 13 : 61 : LeftButtonDown : 0 : 0 : 0
+Mouse : 13 : 61 : LeftButtonUp : 0 : 0 : 0
+REPEAT : 240 : 0 : 0 : Enter the number of iterations: : 0 : 0
+DELAY : 50
+ENDREPEAT
+Mouse : 0 : 0 : LeftButtonDown : 0 : 0 : 0
+Mouse : 0 : 0 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1000
+GOTO : start
