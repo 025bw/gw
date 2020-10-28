@@ -1,0 +1,62 @@
+Mouse : 530 : 280 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 530 : 280 : LeftButtonDown : 0 : 0 : 0
+Mouse : 530 : 280 : LeftButtonUp : 0 : 0 : 0
+LABEL : exchange
+Mouse : 96 : 368 : LeftButtonDown : 0 : 0 : 0
+Mouse : 96 : 368 : LeftButtonUp : 0 : 0 : 0
+IF PIXEL COLOR EQUALS : 480 : 348 : 16776960 : 0
+Mouse : 415 : 370 : LeftButtonDown : 0 : 0 : 0
+Mouse : 415 : 370 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+GOTO : item
+ELSE
+GOTO : exchange
+ENDIF
+LABEL : item
+Mouse : 2 : 200 : Move : 0 : 0 : 0
+IF PIXEL COLOR EQUALS : 724 : 372 : 16776960 : 0
+LABEL : parcel
+Mouse : 455 : 405 : LeftButtonDown : 0 : 0 : 0
+Mouse : 455 : 405 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+GOTO : select
+ENDIF
+GOTO : item
+LABEL : qp3
+Mouse : 416 : 347 : LeftButtonDown : 0 : 0 : 0
+Mouse : 416 : 347 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+LABEL : flame spark
+Mouse : 416 : 426 : LeftButtonDown : 0 : 0 : 0
+Mouse : 416 : 426 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+LABEL : ame
+Mouse : 727 : 347 : LeftButtonDown : 0 : 0 : 0
+Mouse : 727 : 347 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+LABEL : select
+IF PIXEL COLOR EQUALS : 426 : 334 : 3684408 : 0
+Mouse : 250 : 805 : RightButtonDown : 0 : 0 : 0
+Mouse : 250 : 805 : RightButtonUp : 0 : 0 : 0
+DELAY : 1
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+Mouse : 530 : 280 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 530 : 280 : LeftButtonDown : 0 : 0 : 0
+Mouse : 530 : 280 : LeftButtonUp : 0 : 0 : 0
+GOTO : exchange
+ELSE
+GOTO : select
+ENDIF
