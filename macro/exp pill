@@ -1,0 +1,58 @@
+Mouse : 515 : 180 : Wheel : 100 : 0 : 0
+Mouse : 515 : 180 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 515 : 180 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 180 : LeftButtonUp : 0 : 0 : 0
+LABEL : claim1
+REPEAT : 1000 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF PIXEL COLOR EQUALS : 477 : 498 : 16645629 : 0
+Mouse : 555 : 498 : LeftButtonDown : 0 : 0 : 0
+Mouse : 555 : 498 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 96 : 372 : LeftButtonDown : 0 : 0 : 0
+Mouse : 96 : 372 : LeftButtonUp : 0 : 0 : 0
+IF WINDOW EXISTS : GodsWar Online : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
+DELAY : 1
+IF PIXEL COLOR EQUALS : 491 : 291 : 16776960 : 0
+Mouse : 414 : 314 : LeftButtonDown : 0 : 0 : 0
+Mouse : 414 : 314 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 853 : 445 : LeftButtonDown : 0 : 0 : 0
+Mouse : 853 : 445 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+DELAY : 100
+GOTO : right
+ENDIF
+ENDREPEAT
+Mouse : 515 : 180 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 515 : 180 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 180 : LeftButtonUp : 0 : 0 : 0
+GOTO : claim1
+LABEL : right
+IF PIXEL COLOR EQUALS : 86 : 200 : 13485990 : 0
+Mouse : 607 : 217 : LeftButtonDown : 0 : 0 : 0
+Mouse : 607 : 217 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 542 : 267 : 7699587 : 0
+Mouse : 445 : 260 : LeftButtonDown : 0 : 0 : 0
+Mouse : 445 : 260 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 457 : 255 : 16777215 : 0
+Mouse : 853 : 445 : LeftButtonDown : 0 : 0 : 0
+Mouse : 853 : 445 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 515 : 180 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 515 : 180 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 180 : LeftButtonUp : 0 : 0 : 0
+GOTO : claim1
+ENDIF
+GOTO : right
