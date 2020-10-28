@@ -63,8 +63,7 @@ Mouse : 761 : 748 : LeftButtonUp : 0 : 0 : 0
 DELAY : 100
 Mouse : 512 : 400 : Move : 0 : 0 : 0
 ENDIF
-REPEAT : 20 : 0 : 0 : Enter the number of iterations: : 0 : 0
-DELAY : 5
+REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
 IF PIXEL COLOR EQUALS : 906 : 416 : 3670001 : 0
 Mouse : 906 : 416 : LeftButtonDown : 0 : 0 : 0
 Mouse : 906 : 416 : LeftButtonUp : 0 : 0 : 0
@@ -88,15 +87,17 @@ DELAY : 100
 GOTO : open bag
 LABEL : open stall
 LABEL : 0
+IF PIXEL COLOR EQUALS : 955 : 341 : 9093887 : 0
+Mouse : 955 : 341 : LeftButtonDown : 0 : 0 : 0
+Mouse : 955 : 341 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+ENDIF
 IF PIXEL COLOR EQUALS : 906 : 416 : 3670001 : 0
 Mouse : 906 : 416 : Move : 0 : 0 : 0
 DELAY : 50
 Mouse : 906 : 416 : LeftButtonDown : 0 : 0 : 0
 Mouse : 906 : 416 : LeftButtonUp : 0 : 0 : 0
 DELAY : 50
-ENDIF
-IF PIXEL COLOR EQUALS : 955 : 341 : 9093887 : 0
-Mouse : 955 : 341 : Click : 0 : 0 : 0
 ENDIF
 IF PIXEL COLOR EQUALS : 681 : 334 : 12959915 : 0
 Mouse : 957 : 340 : Move : 0 : 0 : 0
@@ -116,17 +117,15 @@ DELAY : 50
 Mouse : 512 : 400 : LeftButtonDown : 0 : 0 : 0
 Mouse : 512 : 400 : LeftButtonUp : 0 : 0 : 0
 LABEL : a
-REPEAT : 80 : 0 : 0 : Enter the number of iterations: : 0 : 0
+REPEAT : 1000 : 0 : 0 : Enter the number of iterations: : 0 : 0
 IF PIXEL COLOR EQUALS : 165 : 388 : 16776960 : 0
 Mouse : 150 : 390 : LeftButtonDown : 0 : 0 : 0
 Mouse : 150 : 390 : LeftButtonUp : 0 : 0 : 0
 DELAY : 100
 ENDIF
 IF PIXEL COLOR EQUALS : 417 : 384 : 16776960 : 0
-DELAY : 100
 GOTO : b
 ENDIF
-DELAY : 9
 ENDREPEAT
 DELAY : 9
 Mouse : 512 : 400 : Move : 0 : 0 : 0
