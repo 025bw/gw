@@ -1,0 +1,250 @@
+IF PIXEL COLOR EQUALS : 605 : 216 : 3670001 : 0
+Mouse : 605 : 216 : Click : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 959 : 203 : 3670001 : 0
+Mouse : 959 : 203 : Click : 0 : 0 : 0
+ENDIF
+IF WINDOW IN FOCUS : GodsWar Online : 0
+ELSE
+GOTO : end
+ENDIF
+Mouse : 0 : 0 : RightClick : 0 : 1 : 0
+GOTO : trade
+LABEL : -1
+Mouse : 506 : 132 : LeftButtonDown : 0 : 0 : 0
+Mouse : 506 : 132 : LeftButtonUp : 0 : 0 : 0
+DELAY : 111
+LABEL : trade
+IF WINDOW IN FOCUS : GodsWar Online : 0
+ELSE
+GOTO : end
+ENDIF
+IF PIXEL COLOR EQUALS : 497 : 224 : 8355711 : 0
+GOTO : end
+ENDIF
+IF PIXEL COLOR EQUALS : 428 : 597 : 2830130 : 0
+Mouse : 435 : 535 : LeftButtonDown : 0 : 0 : 0
+Mouse : 435 : 535 : LeftButtonUp : 0 : 0 : 0
+GOTO : trade 1
+ENDIF
+IF PIXEL COLOR EQUALS : 494 : 224 : 16777215 : 0
+Mouse : 485 : 225 : LeftButtonDown : 0 : 0 : 0
+Mouse : 485 : 225 : LeftButtonUp : 0 : 0 : 0
+GOTO : trade 1
+ELSE
+GOTO : -1
+ENDIF
+LABEL : trade 1
+IF PIXEL COLOR EQUALS : 428 : 597 : 2830130 : 0
+Mouse : 41 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 345 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 345 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 345 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 345 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 345 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 345 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 387 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 387 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 387 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 387 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 387 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 387 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 429 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 429 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 429 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 429 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 429 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 429 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 471 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 471 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 471 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 471 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 471 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 471 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 513 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 513 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 513 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 513 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 513 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 513 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 555 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 555 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 555 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 555 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 555 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 555 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 597 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 597 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 597 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 597 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 597 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 597 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 639 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 639 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 639 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 639 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 639 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 639 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 681 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 681 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 681 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 681 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 681 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 681 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 723 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 723 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 723 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 723 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 723 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 723 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 765 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 765 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 765 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 765 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 765 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 765 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 807 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 807 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 807 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 807 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 807 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 807 : RightButtonUp : 0 : 0 : 0
+Mouse : 984 : 716 : RightButtonDown : 0 : 0 : 0
+Mouse : 984 : 716 : RightButtonUp : 0 : 0 : 0
+Mouse : 942 : 716 : RightButtonDown : 0 : 0 : 0
+Mouse : 942 : 716 : RightButtonUp : 0 : 0 : 0
+Mouse : 900 : 716 : RightButtonDown : 0 : 0 : 0
+Mouse : 900 : 716 : RightButtonUp : 0 : 0 : 0
+Mouse : 858 : 716 : RightButtonDown : 0 : 0 : 0
+Mouse : 858 : 716 : RightButtonUp : 0 : 0 : 0
+Mouse : 816 : 716 : RightButtonDown : 0 : 0 : 0
+Mouse : 816 : 716 : RightButtonUp : 0 : 0 : 0
+Mouse : 774 : 716 : RightButtonDown : 0 : 0 : 0
+Mouse : 774 : 716 : RightButtonUp : 0 : 0 : 0
+Mouse : 984 : 674 : RightButtonDown : 0 : 0 : 0
+Mouse : 984 : 674 : RightButtonUp : 0 : 0 : 0
+Mouse : 942 : 674 : RightButtonDown : 0 : 0 : 0
+Mouse : 942 : 674 : RightButtonUp : 0 : 0 : 0
+Mouse : 900 : 674 : RightButtonDown : 0 : 0 : 0
+Mouse : 900 : 674 : RightButtonUp : 0 : 0 : 0
+Mouse : 858 : 674 : RightButtonDown : 0 : 0 : 0
+Mouse : 858 : 674 : RightButtonUp : 0 : 0 : 0
+Mouse : 816 : 674 : RightButtonDown : 0 : 0 : 0
+Mouse : 816 : 674 : RightButtonUp : 0 : 0 : 0
+Mouse : 774 : 674 : RightButtonDown : 0 : 0 : 0
+Mouse : 774 : 674 : RightButtonUp : 0 : 0 : 0
+Mouse : 984 : 632 : RightButtonDown : 0 : 0 : 0
+Mouse : 984 : 632 : RightButtonUp : 0 : 0 : 0
+Mouse : 942 : 632 : RightButtonDown : 0 : 0 : 0
+Mouse : 942 : 632 : RightButtonUp : 0 : 0 : 0
+Mouse : 900 : 632 : RightButtonDown : 0 : 0 : 0
+Mouse : 900 : 632 : RightButtonUp : 0 : 0 : 0
+Mouse : 858 : 632 : RightButtonDown : 0 : 0 : 0
+Mouse : 858 : 632 : RightButtonUp : 0 : 0 : 0
+Mouse : 816 : 632 : RightButtonDown : 0 : 0 : 0
+Mouse : 816 : 632 : RightButtonUp : 0 : 0 : 0
+Mouse : 774 : 632 : RightButtonDown : 0 : 0 : 0
+Mouse : 774 : 632 : RightButtonUp : 0 : 0 : 0
+Mouse : 984 : 590 : RightButtonDown : 0 : 0 : 0
+Mouse : 984 : 590 : RightButtonUp : 0 : 0 : 0
+Mouse : 942 : 590 : RightButtonDown : 0 : 0 : 0
+Mouse : 942 : 590 : RightButtonUp : 0 : 0 : 0
+Mouse : 900 : 590 : RightButtonDown : 0 : 0 : 0
+Mouse : 900 : 590 : RightButtonUp : 0 : 0 : 0
+Mouse : 858 : 590 : RightButtonDown : 0 : 0 : 0
+Mouse : 858 : 590 : RightButtonUp : 0 : 0 : 0
+Mouse : 816 : 590 : RightButtonDown : 0 : 0 : 0
+Mouse : 816 : 590 : RightButtonUp : 0 : 0 : 0
+Mouse : 774 : 590 : RightButtonDown : 0 : 0 : 0
+Mouse : 774 : 590 : RightButtonUp : 0 : 0 : 0
+Mouse : 336 : 595 : Click : 0 : 0 : 0
+GOTO : trade 2
+ELSE
+GOTO : trade 1
+ENDIF
+LABEL : trade 2
+IF IMAGE : Qk26AwAAAAAAADYAAAAoAAAAGQAAAAkAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAANiYU/zYmFP82JhT/NiYU/zYmFP82JhT/NiYU/zYmFP82JhT/NiYU/zYmFP82JhT/NiYU/zYmFP82JhT/NiYU/zYmFP82JhT/NiYU/zYmFP82JhT/NiYU/zYmFP82JhT/NiYU/ykcD/8pHA//KRwP/ykcD/8pHA//KRwP/ykcD/8pHA//KRwP/ykcD/8pHA//KRwP/ykcD/8pHA//KRwP/ykcD/8pHA//KRwP/ykcD/8pHA//KRwP/ykcD/8pHA//KRwP/ykcD/8cFAv/HBQL/xwUC/8cFAv/Jx8W/7KvrP/29vX/6Ofm/3hzbv8cFAv/Qz01//z8/P8cFAv/HBQL/0xGP//5+fj/WFJL/xwUC/8cFAv/HBQL/xwUC/8cFAv/HBQL/xwUC/8cFAv/Ew0H/xMNB/8TDQf/Ew0H/56bmf/Fw8L/JiEb/z04M//p6Oj/VVBM/zw3Mv/8/Pz/Ew0H/x8ZFP/g397/jImG/xMNB/8TDQf/Ew0H/xMNB/8TDQf/Ew0H/xMNB/8TDQf/Ew0H/w0JBf8NCQX/DQkF/xAMCP/z8vL/R0RB/w0JBf8NCQX/fnx6/7i3tf83MzD//Pz8/w0JBf+opqX/xMPC/xAMCP8NCQX/DQkF/w0JBf8NCQX/DQkF/w0JBf8NCQX/DQkF/w0JBf8KBwT/CgcE/woHBP8nJCL//////xUSD/8KBwT/CgcE/0ZDQf/p6ej/NDIv//z8/P9iYF//7Ozr/yQhH/8KBwT/CgcE/woHBP8KBwT/CgcE/woHBP8KBwT/CgcE/woHBP8KBwT/CQcE/wkHBP8JBwT/MC4r//7+/v8JBwT/CQcE/wkHBP81NDH/+Pj4/zMyL//9/f3/8O/v/15dW/8JBwT/CQcE/wkHBP8JBwT/CQcE/wkHBP8JBwT/CQcE/wkHBP8JBwT/CQcE/yseEP8rHhD/Kx4Q/z8zJv//////NSkb/yseEP8rHhD/XVNI//Dv7v9QRTn//fz8/5aQif/Gwr7/LSAS/yseEP8rHhD/Kx4Q/yseEP8rHhD/Kx4Q/yseEP8rHhD/Kx4Q/yseEP84JxX/OCcV/zgnFf84JxX/6+nn/21hU/84JxX/OCcV/5CHff/Pysb/Wkw9//38/P86KRf/zcnE/6CYj/84JxX/OCcV/zgnFf84JxX/OCcV/zgnFf84JxX/OCcV/zgnFf84JxX/ : 1 : 0 : 0 : 0;845;1022;1214
+DELAY : 50
+Mouse : 0 : -100 : Click : 0 : 1 : 0
+DELAY : 50
+GOTO : trade 2
+ENDIF
+IF IMAGE : Qk32AAAAAAAAADYAAAAoAAAAEAAAAAMAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA+/sA//38AP/+/ij////+////AP///wD///8A////Lv////j///8s/////f///+////9Y////AP///wD///8A//PyAf/29QH/+voZ/////////wz///8A////AP///zz////t////LP////z///+B////uv///wL///8A////AP/i3gT/5+QE/+zpA//9/eX/9fVF//b1Af/5+AH//Pxy//7+wf/9/Sz////8//39Av///7///v6F//v7Af/6+QH/ : 1 : 0 : 0 : 0;845;1022;1214
+DELAY : 50
+Mouse : 0 : -100 : Click : 0 : 1 : 0
+DELAY : 50
+GOTO : trade 2
+ENDIF
+Mouse : 866 : 84 : RightClick : 0 : 0 : 0
+LABEL : end
