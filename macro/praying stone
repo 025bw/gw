@@ -199,7 +199,11 @@ GOTO : a
 ENDIF
 GOTO : c
 LABEL : select
+IF PIXEL COLOR EQUALS : 955 : 341 : 9093887 : 0
+Mouse : 955 : 341 : LeftButtonDown : 0 : 0 : 0
+Mouse : 955 : 341 : LeftButtonUp : 0 : 0 : 0
 DELAY : 50
+ENDIF
 IF PIXEL COLOR EQUALS : 427 : 273 : 3684408 : 0
 Mouse : 859 : 590 : Move : 0 : 0 : 0
 Mouse : 859 : 590 : RightButtonDown : 0 : 0 : 0
@@ -237,6 +241,11 @@ Mouse : 512 : 400 : LeftButtonDown : 0 : 0 : 0
 Mouse : 512 : 400 : LeftButtonUp : 0 : 0 : 0
 GOTO : a
 LABEL : select dust
+IF PIXEL COLOR EQUALS : 955 : 341 : 9093887 : 0
+Mouse : 955 : 341 : LeftButtonDown : 0 : 0 : 0
+Mouse : 955 : 341 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+ENDIF
 IF PIXEL COLOR EQUALS : 427 : 273 : 3684408 : 0
 Mouse : 817 : 590 : Move : 0 : 0 : 0
 Mouse : 817 : 590 : RightButtonDown : 0 : 0 : 0
