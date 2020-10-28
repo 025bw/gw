@@ -1,0 +1,139 @@
+Mouse : 1 : 200 : Wheel : 100 : 0 : 0
+IF CLIPBOARD EQUALS : 1 : 0 : 0
+GOTO : zeus 1
+ENDIF
+IF CLIPBOARD EQUALS : 2 : 0 : 0
+GOTO : zeus 1
+ENDIF
+IF CLIPBOARD EQUALS : 3 : 0 : 0
+GOTO : zeus 1
+ENDIF
+IF CLIPBOARD EQUALS : 4 : 0 : 0
+GOTO : zeus 1
+ENDIF
+SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
+LABEL : zeus 1
+IF PIXEL COLOR EQUALS : 96 : 368 : 16776960 : 0
+Mouse : 96 : 368 : LeftButtonDown : 0 : 0 : 0
+Mouse : 96 : 368 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+GOTO : exchange
+ELSE
+GOTO : start qp3
+ENDIF
+LABEL : start qp3
+Mouse : 530 : 280 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 530 : 280 : LeftButtonDown : 0 : 0 : 0
+Mouse : 530 : 280 : LeftButtonUp : 0 : 0 : 0
+LABEL : exchange
+Mouse : 96 : 368 : LeftButtonDown : 0 : 0 : 0
+Mouse : 96 : 368 : LeftButtonUp : 0 : 0 : 0
+Mouse : 530 : 280 : Move : 0 : 0 : 0
+IF PIXEL COLOR EQUALS : 480 : 348 : 16776960 : 0
+Mouse : 414 : 348 : LeftButtonDown : 0 : 0 : 0
+Mouse : 414 : 348 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+GOTO : limited
+ELSE
+GOTO : exchange
+ENDIF
+LABEL : only
+Mouse : 530 : 280 : Move : 0 : 0 : 0
+IF PIXEL COLOR EQUALS : 681 : 223 : 3791032 : 0
+Mouse : 530 : 280 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 530 : 280 : LeftButtonDown : 0 : 0 : 0
+Mouse : 530 : 280 : LeftButtonUp : 0 : 0 : 0
+GOTO : exchange
+ENDIF
+LABEL : limited
+Mouse : 530 : 280 : Move : 0 : 0 : 0
+IF PIXEL COLOR EQUALS : 482 : 347 : 16776960 : 0
+Mouse : 414 : 348 : LeftButtonDown : 0 : 0 : 0
+Mouse : 414 : 348 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+GOTO : item
+ELSE
+GOTO : only
+ENDIF
+LABEL : item
+IF PIXEL COLOR EQUALS : 827 : 324 : 16776960 : 0
+ELSE
+GOTO : item
+ENDIF
+LABEL : qp3
+IF CLIPBOARD EQUALS : 1 : 0 : 0
+Mouse : 425 : 330 : LeftButtonDown : 0 : 0 : 0
+Mouse : 425 : 330 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+GOTO : select dust
+ENDIF
+LABEL : xtal 3
+IF CLIPBOARD EQUALS : 3 : 0 : 0
+Mouse : 725 : 330 : LeftButtonDown : 0 : 0 : 0
+Mouse : 725 : 330 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+GOTO : select dust
+ENDIF
+LABEL : flame spark
+IF CLIPBOARD EQUALS : 2 : 0 : 0
+Mouse : 425 : 410 : LeftButtonDown : 0 : 0 : 0
+Mouse : 425 : 410 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+GOTO : select dust
+ENDIF
+LABEL : amethyst
+IF CLIPBOARD EQUALS : 5 : 0 : 0
+Mouse : 460 : 430 : LeftButtonDown : 0 : 0 : 0
+Mouse : 460 : 430 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+GOTO : select dust
+ENDIF
+LABEL : qp2
+IF CLIPBOARD EQUALS : 4 : 0 : 0
+Mouse : 460 : 350 : LeftButtonDown : 0 : 0 : 0
+Mouse : 460 : 350 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+GOTO : select dust
+ENDIF
+GOTO : item
+LABEL : select dust
+Mouse : 1 : 200 : Move : 0 : 0 : 0
+IF PIXEL COLOR EQUALS : 880 : 218 : 16645629 : 0
+INCREMENT CLIPBOARD : 1
+Mouse : 530 : 280 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 530 : 280 : LeftButtonDown : 0 : 0 : 0
+Mouse : 530 : 280 : LeftButtonUp : 0 : 0 : 0
+GOTO : exchange
+ENDIF
+IF PIXEL COLOR EQUALS : 427 : 300 : 3684408 : 0
+Mouse : 40 : 350 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 350 : RightButtonUp : 0 : 0 : 0
+DELAY : 1
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+Mouse : 530 : 280 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 530 : 280 : LeftButtonDown : 0 : 0 : 0
+Mouse : 530 : 280 : LeftButtonUp : 0 : 0 : 0
+GOTO : exchange
+ELSE
+GOTO : select dust
+ENDIF
+LABEL : end

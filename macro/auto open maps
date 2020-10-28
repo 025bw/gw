@@ -1,0 +1,1223 @@
+SET CLIPBOARD : 6 : 1 : Please enter the text to store in clipboard:
+LABEL : y
+IF CLIPBOARD EQUALS : o : 0 : 0
+GOTO : o
+ENDIF
+IF PIXEL COLOR EQUALS : 738 : 186 : 5029375 : 1
+Mouse : 965 : 260 : Click : 0 : 0 : 0
+ENDIF
+IF CLIPBOARD EQUALS : m : 0 : 0
+GOTO : move
+ENDIF
+IF CLIPBOARD EQUALS : 0 : 0 : 0
+GOTO : x
+ENDIF
+IF CLIPBOARD EQUALS : 1 : 0 : 0
+GOTO : 1
+ENDIF
+IF CLIPBOARD EQUALS : 2 : 0 : 0
+GOTO : 2
+ENDIF
+IF CLIPBOARD EQUALS : 3 : 0 : 0
+GOTO : 3
+ENDIF
+IF CLIPBOARD EQUALS : 4 : 0 : 0
+GOTO : 4
+ENDIF
+IF CLIPBOARD EQUALS : 5 : 0 : 0
+GOTO : 5
+ENDIF
+IF CLIPBOARD EQUALS : 6 : 0 : 0
+GOTO : 6
+ENDIF
+IF CLIPBOARD EQUALS : 7 : 0 : 0
+GOTO : 7
+ENDIF
+IF CLIPBOARD EQUALS : 8 : 0 : 0
+GOTO : 8
+ENDIF
+IF CLIPBOARD EQUALS : 9 : 0 : 0
+GOTO : 9
+ENDIF
+IF CLIPBOARD EQUALS : 10 : 0 : 0
+GOTO : 10
+ENDIF
+IF CLIPBOARD EQUALS : 11 : 0 : 0
+GOTO : 11
+ENDIF
+IF CLIPBOARD EQUALS : 12 : 0 : 0
+GOTO : 12
+ENDIF
+IF CLIPBOARD EQUALS : 13 : 0 : 0
+GOTO : 13
+ENDIF
+IF CLIPBOARD EQUALS : 14 : 0 : 0
+GOTO : 14
+ENDIF
+IF CLIPBOARD EQUALS : 15 : 0 : 0
+GOTO : 15
+ENDIF
+IF CLIPBOARD EQUALS : 16 : 0 : 0
+GOTO : 16
+ENDIF
+IF CLIPBOARD EQUALS : 17 : 0 : 0
+GOTO : 17
+ENDIF
+IF CLIPBOARD EQUALS : 18 : 0 : 0
+GOTO : 18
+ENDIF
+IF CLIPBOARD EQUALS : 19 : 0 : 0
+GOTO : 19
+ENDIF
+IF CLIPBOARD EQUALS : 20 : 0 : 0
+GOTO : 20
+ENDIF
+IF CLIPBOARD EQUALS : 21 : 0 : 0
+GOTO : 21
+ENDIF
+IF CLIPBOARD EQUALS : 22 : 0 : 0
+GOTO : 22
+ENDIF
+IF CLIPBOARD EQUALS : 23 : 0 : 0
+GOTO : 23
+ENDIF
+IF CLIPBOARD EQUALS : 24 : 0 : 0
+GOTO : 24
+ENDIF
+IF CLIPBOARD EQUALS : 25 : 0 : 0
+GOTO : 25
+ENDIF
+IF CLIPBOARD EQUALS : 26 : 0 : 0
+GOTO : 26
+ENDIF
+IF CLIPBOARD EQUALS : 27 : 0 : 0
+GOTO : 27
+ENDIF
+IF CLIPBOARD EQUALS : 28 : 0 : 0
+GOTO : 28
+ENDIF
+IF CLIPBOARD EQUALS : 29 : 0 : 0
+GOTO : 29
+ENDIF
+IF CLIPBOARD EQUALS : 30 : 0 : 0
+GOTO : 30
+ENDIF
+IF CLIPBOARD EQUALS : 31 : 0 : 0
+GOTO : 31
+ENDIF
+IF CLIPBOARD EQUALS : 32 : 0 : 0
+GOTO : 32
+ENDIF
+IF CLIPBOARD EQUALS : 33 : 0 : 0
+GOTO : 33
+ENDIF
+IF CLIPBOARD EQUALS : 34 : 0 : 0
+GOTO : 34
+ENDIF
+IF CLIPBOARD EQUALS : 35 : 0 : 0
+GOTO : 35
+ENDIF
+IF CLIPBOARD EQUALS : 36 : 0 : 0
+GOTO : 36
+ENDIF
+IF CLIPBOARD EQUALS : 37 : 0 : 0
+GOTO : 37
+ENDIF
+IF CLIPBOARD EQUALS : 38 : 0 : 0
+GOTO : 38
+ENDIF
+IF CLIPBOARD EQUALS : 39 : 0 : 0
+GOTO : 39
+ENDIF
+IF CLIPBOARD EQUALS : 40 : 0 : 0
+GOTO : 40
+ENDIF
+IF CLIPBOARD EQUALS : 41 : 0 : 0
+GOTO : 41
+ENDIF
+IF CLIPBOARD EQUALS : 42 : 0 : 0
+GOTO : 42
+ENDIF
+IF CLIPBOARD EQUALS : 43 : 0 : 0
+GOTO : 43
+ENDIF
+IF CLIPBOARD EQUALS : 44 : 0 : 0
+GOTO : 44
+ENDIF
+IF CLIPBOARD EQUALS : 45 : 0 : 0
+GOTO : 45
+ENDIF
+IF CLIPBOARD EQUALS : 46 : 0 : 0
+GOTO : 46
+ENDIF
+IF CLIPBOARD EQUALS : 47 : 0 : 0
+GOTO : 47
+ENDIF
+IF CLIPBOARD EQUALS : 48 : 0 : 0
+GOTO : 48
+ENDIF
+IF CLIPBOARD EQUALS : 49 : 0 : 0
+GOTO : 49
+ENDIF
+IF CLIPBOARD EQUALS : 50 : 0 : 0
+GOTO : 50
+ENDIF
+IF CLIPBOARD EQUALS : 51 : 0 : 0
+GOTO : 51
+ENDIF
+IF CLIPBOARD EQUALS : 52 : 0 : 0
+GOTO : 52
+ENDIF
+IF CLIPBOARD EQUALS : 53 : 0 : 0
+GOTO : 53
+ENDIF
+IF CLIPBOARD EQUALS : 54 : 0 : 0
+GOTO : 54
+ENDIF
+IF CLIPBOARD EQUALS : 55 : 0 : 0
+GOTO : 55
+ENDIF
+IF CLIPBOARD EQUALS : 56 : 0 : 0
+GOTO : 56
+ENDIF
+IF CLIPBOARD EQUALS : 57 : 0 : 0
+GOTO : 57
+ENDIF
+IF CLIPBOARD EQUALS : 58 : 0 : 0
+GOTO : 58
+ENDIF
+IF CLIPBOARD EQUALS : 59 : 0 : 0
+GOTO : 59
+ENDIF
+IF CLIPBOARD EQUALS : 60 : 0 : 0
+GOTO : 60
+ENDIF
+IF CLIPBOARD EQUALS : 61 : 0 : 0
+GOTO : 61
+ENDIF
+IF CLIPBOARD EQUALS : 62 : 0 : 0
+GOTO : 62
+ENDIF
+IF CLIPBOARD EQUALS : 63 : 0 : 0
+GOTO : 63
+ENDIF
+IF CLIPBOARD EQUALS : 64 : 0 : 0
+GOTO : 64
+ENDIF
+IF CLIPBOARD EQUALS : 65 : 0 : 0
+GOTO : 65
+ENDIF
+IF CLIPBOARD EQUALS : 66 : 0 : 0
+GOTO : 66
+ENDIF
+IF CLIPBOARD EQUALS : 67 : 0 : 1
+Mouse : 630 : 760 : Click : 0 : 0 : 0
+GOTO : ring
+ENDIF
+GOTO : y
+LABEL : move
+IF IMAGE : Qk1+AwAAAAAAADYAAAAoAAAADwAAAA4AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAUJ/A/zyRs/85hqX/Spe4/1qpy/9rut7/e8fn/3vH5/9aptH/SpbG/1Kl0P9jtt7/Y7be/1Kl0P9Kos7/PJGz/zyRs/9Kl7j/Spe4/1qpy/9rut7/e8fn/3vH5/9aptH/SpbG/1Kl0P9jtt7/Y7be/2O23v9Kos7/PJGz/ymCpf85hqX/Spe4/1qpy/9aqcv/a7fc/2u33P9aptH/SpbG/1Kl0P9SpdD/Y7be/1Kl0P9Kos7/OY6t/y5wnP8hXYT/OoCf/zqAn/86gJ//UpzA/2u21v9rttb/a7bW/0+hw/9aqs7/WqrO/0+hw/9Vn8D/GDR7/xg0e/8hXYT/OoCf/zqAn/86gJ//OoOq/2u21v9rttb/OoOq/0SXuP9El7j/T6HD/0+hw/9KlrX/GDR7/xg0e/86gJ//OoCf/zqAn/86gJ//a7bW/2u21v86g6r/OoOq/zmOrf9El7j/RJe4/0+hw/9rstb/LnCc/yNSjP8hXYT/OoCf/zqAn/9rx9b/a7bW/zqDqv8haZT/OoOq/0SXuP9El7j/RJe4/1qqzv9rstb/N4ml/yF5lP8xfZz/MX2c/2u2zv9rts7/OZK1/zmStf8uaYT/LmmE/0+cu/9Ei6f/T5y7/1quzv9rutb/N4ml/zeJpf8xfZz/WKO9/2u2zv9EkK3/OZK1/zR+nP8uaYT/KVVr/0SLp/9Ei6f/RIun/0+cu/9lsc7/Y6rG/2Oqxv9Yo73/a7bO/zF9nP8xfZz/OZK1/zR+nP8pVWv/LmmE/zl5lP85eZT/RIun/0+cu/9gp8X/Y6rG/2Oqxv9rts7/a7bO/2u2zv9Yo73/NH6c/zmStf8uaYT/LmmE/zl5lP85eZT/T5y7/0+cu/9gp8X/OYKc/zmCnP9Ei7D/T5y7/1quxv9arsb/WKXD/02XuP9Ciq3/Qoqt/1KSrf9Skq3/Wpq1/2Oivv9jor3/Spq9/0GOrf9Ei7D/RIuw/0SLsP9PnLv/Y7LO/2Oyzv9YpcP/TZe4/1qatf9amrX/Wpq1/1KSrf9YlbL/UqbO/0GOrf9Ei7D/T5y7/1quxv9PnLv/TZe4/1ilw/9jss7/WKXD/1qatf9amrX/Wpq1/1KSrf9dm7j/ : 1 : 10 : 0 : 758;574;250;164
+Mouse : 0 : 0 : LeftButtonDown : 0 : 1 : 0
+GOTO : drop
+ENDIF
+SET CLIPBOARD : o : 0 : Please enter the text to store in clipboard:
+GOTO : y
+LABEL : drop
+IF IMAGE : Qk3uCwAAAAAAADYAAAAoAAAAHgAAABkAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAMDAw/zc3N/85OTn/OTk5/zk5Of85OTn/OTk5/zo6Ov80NDT/NDQ0/z4+Pv8/Pz//QkJC/z8/P/84ODj/ODg4/0JCQv9DQ0P/Q0ND/0JCQv88PDz/MzMz/zo6Ov85OTn/Ojo6/zk5Of85OTn/OTk5/zg4OP8xMTH/MTEx/zMzM/85OTn/Ozs7/zk5Of85OTn/Ozs7/zw8PP83Nzf/NDQ0/zw8PP86Ojr/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/0BAQP87Ozv/NTU1/zw8PP87Ozv/Ojo6/zc3N/86Ojr/OTk5/zQ0NP8xMTH/MTEx/zExMf8yMjL/NjY2/zw8PP85OTn/Ojo6/z09Pf80NDT/NDQ0/z09Pf88PDz/Ozs7/zs7O/84ODj/ODg4/zs7O/87Ozv/PT09/z09Pf85OTn/NTU1/z09Pf87Ozv/ODg4/zw8PP83Nzf/MTEx/zExMf8xMTH/MTEx/zMzM/84ODj/Ojo6/zs7O/88PDz/OTk5/zw8PP82Njb/NTU1/z09Pf88PDz/Ozs7/zs7O/84ODj/ODg4/z09Pf88PDz/PDw8/z09Pf85OTn/NjY2/zw8PP85OTn/PDw8/zw8PP86Ojr/OTk5/zIyMv8xMTH/MTEx/zk5Of88PDz/OTk5/zs7O/88PDz/PDw8/zg4OP84ODj/OTk5/zk5Of83Nzf/ODg4/zw8PP84ODj/ODg4/0BAQP87Ozv/Nzc3/zk5Of85OTn/Nzc3/zc3N/87Ozv/PDw8/zs7O/84ODj/Ozs7/zo6Ov8xMTH/MjIy/zQ0NP8yMjL/MzMz/zMzM/80NDT/NDQ0/zU1Nf83Nzf/Ozs7/zs7O/83Nzf/OTk5/zw8PP84ODj/ODg4/0BAQP89PT3/ODg4/zo6Ov88PDz/Nzc3/zU1Nf81NTX/NTU1/zMzM/8zMzP/MjIy/zQ0NP8yMjL/MjIy/zIyMv80NDT/PDw8/z8/P/9BQUH/QUFB/zc3N/88PDz/Pj4+/zw8PP85OTn/Ojo6/zw8PP84ODj/ODg4/0BAQP8+Pj7/OTk5/zs7O/89PT3/PDw8/zc3N/89PT3/Pj4+/0FBQf9AQED/NjY2/zIyMv8yMjL/MjIy/zMzM/8zMzP/PDw8/z8/P/9BQUH/RkZG/zk5Of84ODj/Ojo6/zo6Ov86Ojr/Ozs7/z09Pf84ODj/ODg4/0BAQP8/Pz//Ojo6/zo6Ov86Ojr/ODg4/zk5Of8/Pz//Pz8//0BAQP9CQkL/Nzc3/zIyMv8zMzP/MjIy/zIyMv80NDT/Ozs7/zg4OP86Ojr/RUVF/zk5Of83Nzf/OTk5/zo6Ov86Ojr/Ozs7/z09Pf84ODj/ODg4/0BAQP8/Pz//Ojo6/zo6Ov85OTn/ODg4/zk5Of8+Pj7/Ozs7/zg4OP9BQUH/NjY2/zIyMv8yMjL/NTU1/zc3N/83Nzf/Ozs7/zg4OP85OTn/RkZG/0FBQf9AQED/QkJC/0NDQ/9DQ0P/QkJC/z09Pf84ODj/ODg4/0FBQf9HR0f/Q0ND/0NDQ/9DQ0P/QUFB/0FBQf8+Pj7/Ozs7/zg4OP9BQUH/PT09/zc3N/83Nzf/PDw8/0FBQf9DQ0P/Pz8//zg4OP85OTn/Q0ND/0JCQv9BQUH/QUFB/0BAQP9AQED/Pz8//z8/P/84ODj/ODg4/0BAQP9AQED/QEBA/0BAQP9BQUH/QUFB/0JCQv9AQED/Ozs7/zg4OP9DQ0P/RERE/0NDQ/9DQ0P/Ozs7/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP9BQUH/Ojo6/zs7O/86Ojr/OTk5/zg4OP84ODj/OTk5/zk5Of85OTn/OTk5/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP85OTn/OTk5/zk5Of85OTn/ODg4/zg4OP85OTn/Ojo6/zs7O/89PT3/OTk5/zk5Of85OTn/Ojo6/zg4OP85OTn/PDw8/z09Pf89PT3/PDw8/zw8PP88PDz/PDw8/zw8PP84ODj/ODg4/z09Pf89PT3/PDw8/zw8PP88PDz/Pj4+/z09Pf87Ozv/Ozs7/zg4OP89PT3/OTk5/zk5Of85OTn/MzMz/zMzM/8zMzP/Ozs7/zg4OP85OTn/QkJC/zg4OP85OTn/Ojo6/zs7O/87Ozv/PDw8/z09Pf84ODj/ODg4/z8/P/87Ozv/Ozs7/zs7O/87Ozv/OTk5/zk5Of89PT3/Ozs7/zg4OP9AQED/Nzc3/zMzM/8zMzP/MjIy/zMzM/80NDT/Ozs7/zk5Of87Ozv/QEBA/zo6Ov83Nzf/OTk5/zo6Ov86Ojr/Ozs7/z09Pf84ODj/ODg4/0BAQP8/Pz//Ozs7/zo6Ov85OTn/Nzc3/zk5Of8+Pj7/Ozs7/zg4OP8+Pj7/NTU1/zIyMv8yMjL/MzMz/zIyMv8zMzP/Ozs7/z09Pf8/Pz//Pz8//zk5Of86Ojr/PDw8/zs7O/85OTn/Ojo6/zw8PP84ODj/ODg4/0BAQP8+Pj7/Ojo6/zs7O/88PDz/OTk5/zk5Of89PT3/PDw8/zw8PP88PDz/MzMz/zIyMv8zMzP/MjIy/zIyMv8zMzP/MzMz/zMzM/8zMzP/NDQ0/zc3N/86Ojr/PT09/zs7O/85OTn/Ojo6/zw8PP84ODj/ODg4/0BAQP89PT3/OTk5/zs7O/89PT3/Ozs7/zg4OP81NTX/NDQ0/zMzM/8zMzP/MzMz/zIyMv8yMjL/MjIy/zk5Of83Nzf/MzMz/zQ0NP82Njb/NjY2/zc3N/82Njb/Ojo6/zs7O/83Nzf/OTk5/zw8PP84ODj/ODg4/0BAQP88PDz/Nzc3/zk5Of88PDz/NjY2/zc3N/82Njb/NTU1/zY2Nv8zMzP/NTU1/zk5Of8yMjL/MTEx/zc3N/88PDz/Ojo6/zo6Ov89PT3/PT09/zk5Of83Nzf/Nzc3/zk5Of85OTn/OTk5/zw8PP84ODj/ODg4/0BAQP87Ozv/OTk5/zk5Of83Nzf/NjY2/zc3N/88PDz/PT09/zs7O/86Ojr/PDw8/zk5Of8xMTH/MzMz/zExMf8xMTH/Nzc3/zs7O/86Ojr/NjY2/z09Pf83Nzf/NTU1/0BAQP9DQ0P/RkZG/z4+Pv84ODj/ODg4/0NDQ/9JSUn/R0dH/0RERP86Ojr/NjY2/z09Pf83Nzf/Ojo6/zw8PP84ODj/MjIy/zIyMv8zMzP/MTEx/zIyMv8xMTH/ODg4/zk5Of82Njb/Ojo6/z09Pf83Nzf/NDQ0/z4+Pv88PDz/OTk5/zk5Of84ODj/ODg4/zk5Of85OTn/PDw8/0ZGRv85OTn/NTU1/z4+Pv87Ozv/Nzc3/zk5Of85OTn/MjIy/zExMf8xMTH/MTEx/zU1Nf85OTn/OTk5/zc3N/85OTn/Ozs7/zs7O/80NDT/NDQ0/zs7O/86Ojr/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/OTk5/z8/P/83Nzf/MzMz/zs7O/87Ozv/Ojo6/zc3N/85OTn/OTk5/zc3N/8xMTH/MTEx/zY2Nv84ODj/ODg4/zk5Of84ODj/Nzc3/zs7O/80NDT/MzMz/zs7O/85OTn/Ojo6/zk5Of85OTn/ODg4/zs7O/86Ojr/Ojo6/zw8PP83Nzf/MzMz/zo6Ov85OTn/ODg4/zk5Of84ODj/ODg4/zc3N/8xMTH/MTEx/zc3N/84ODj/ODg4/zk5Of8xMTH/MTEx/zs7O/82Njb/MzMz/zMzM/8zMzP/MjIy/zg4OP85OTn/ODg4/z4+Pv8yMjL/MzMz/zMzM/8zMzP/NDQ0/zs7O/80NDT/MjIy/zk5Of84ODj/ODg4/zk5Of8xMTH/ : 1 : 0 : 0 : 21;331;248;498
+DELAY : 50
+Mouse : 0 : 0 : LeftButtonUp : 0 : 1 : 0
+GOTO : move
+ENDIF
+IF IMAGE : Qk3uCwAAAAAAADYAAAAoAAAAHgAAABkAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAMDAw/zc3N/85OTn/OTk5/zk5Of85OTn/OTk5/zo6Ov80NDT/NDQ0/z4+Pv8/Pz//QkJC/z8/P/84ODj/ODg4/0JCQv9DQ0P/Q0ND/0JCQv88PDz/MzMz/zo6Ov85OTn/Ojo6/zk5Of85OTn/OTk5/zg4OP8xMTH/MTEx/zMzM/85OTn/Ozs7/zk5Of85OTn/Ozs7/zw8PP83Nzf/NDQ0/zw8PP86Ojr/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/0BAQP87Ozv/NTU1/zw8PP87Ozv/Ojo6/zc3N/86Ojr/OTk5/zQ0NP8xMTH/MTEx/zExMf8yMjL/NjY2/zw8PP85OTn/Ojo6/z09Pf80NDT/NDQ0/z09Pf88PDz/Ozs7/zs7O/84ODj/ODg4/zs7O/87Ozv/PT09/z09Pf85OTn/NTU1/z09Pf87Ozv/ODg4/zw8PP83Nzf/MTEx/zExMf8xMTH/MTEx/zMzM/84ODj/Ojo6/zs7O/88PDz/OTk5/zw8PP82Njb/NTU1/z09Pf88PDz/Ozs7/zs7O/84ODj/ODg4/z09Pf88PDz/PDw8/z09Pf85OTn/NjY2/zw8PP85OTn/PDw8/zw8PP86Ojr/OTk5/zIyMv8xMTH/MTEx/zk5Of88PDz/OTk5/zs7O/88PDz/PDw8/zg4OP84ODj/OTk5/zk5Of83Nzf/ODg4/zw8PP84ODj/ODg4/0BAQP87Ozv/Nzc3/zk5Of85OTn/Nzc3/zc3N/87Ozv/PDw8/zs7O/84ODj/Ozs7/zo6Ov8xMTH/MjIy/zQ0NP8yMjL/MzMz/zMzM/80NDT/NDQ0/zU1Nf83Nzf/Ozs7/zs7O/83Nzf/OTk5/zw8PP84ODj/ODg4/0BAQP89PT3/ODg4/zo6Ov88PDz/Nzc3/zU1Nf81NTX/NTU1/zMzM/8zMzP/MjIy/zQ0NP8yMjL/MjIy/zIyMv80NDT/PDw8/z8/P/9BQUH/QUFB/zc3N/88PDz/Pj4+/zw8PP85OTn/Ojo6/zw8PP84ODj/ODg4/0BAQP8+Pj7/OTk5/zs7O/89PT3/PDw8/zc3N/89PT3/Pj4+/0FBQf9AQED/NjY2/zIyMv8yMjL/MjIy/zMzM/8zMzP/PDw8/z8/P/9BQUH/RkZG/zk5Of84ODj/Ojo6/zo6Ov86Ojr/Ozs7/z09Pf84ODj/ODg4/0BAQP8/Pz//Ojo6/zo6Ov86Ojr/ODg4/zk5Of8/Pz//Pz8//0BAQP9CQkL/Nzc3/zIyMv8zMzP/MjIy/zIyMv80NDT/Ozs7/zg4OP86Ojr/RUVF/zk5Of83Nzf/OTk5/zo6Ov86Ojr/Ozs7/z09Pf84ODj/ODg4/0BAQP8/Pz//Ojo6/zo6Ov85OTn/ODg4/zk5Of8+Pj7/Ozs7/zg4OP9BQUH/NjY2/zIyMv8yMjL/NTU1/zc3N/83Nzf/Ozs7/zg4OP85OTn/RkZG/0FBQf9AQED/QkJC/0NDQ/9DQ0P/QkJC/z09Pf84ODj/ODg4/0FBQf9HR0f/Q0ND/0NDQ/9DQ0P/QUFB/0FBQf8+Pj7/Ozs7/zg4OP9BQUH/PT09/zc3N/83Nzf/PDw8/0FBQf9DQ0P/Pz8//zg4OP85OTn/Q0ND/0JCQv9BQUH/QUFB/0BAQP9AQED/Pz8//z8/P/84ODj/ODg4/0BAQP9AQED/QEBA/0BAQP9BQUH/QUFB/0JCQv9AQED/Ozs7/zg4OP9DQ0P/RERE/0NDQ/9DQ0P/Ozs7/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP9BQUH/Ojo6/zs7O/86Ojr/OTk5/zg4OP84ODj/OTk5/zk5Of85OTn/OTk5/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP85OTn/OTk5/zk5Of85OTn/ODg4/zg4OP85OTn/Ojo6/zs7O/89PT3/OTk5/zk5Of85OTn/Ojo6/zg4OP85OTn/PDw8/z09Pf89PT3/PDw8/zw8PP88PDz/PDw8/zw8PP84ODj/ODg4/z09Pf89PT3/PDw8/zw8PP88PDz/Pj4+/z09Pf87Ozv/Ozs7/zg4OP89PT3/OTk5/zk5Of85OTn/MzMz/zMzM/8zMzP/Ozs7/zg4OP85OTn/QkJC/zg4OP85OTn/Ojo6/zs7O/87Ozv/PDw8/z09Pf84ODj/ODg4/z8/P/87Ozv/Ozs7/zs7O/87Ozv/OTk5/zk5Of89PT3/Ozs7/zg4OP9AQED/Nzc3/zMzM/8zMzP/MjIy/zMzM/80NDT/Ozs7/zk5Of87Ozv/QEBA/zo6Ov83Nzf/OTk5/zo6Ov86Ojr/Ozs7/z09Pf84ODj/ODg4/0BAQP8/Pz//Ozs7/zo6Ov85OTn/Nzc3/zk5Of8+Pj7/Ozs7/zg4OP8+Pj7/NTU1/zIyMv8yMjL/MzMz/zIyMv8zMzP/Ozs7/z09Pf8/Pz//Pz8//zk5Of86Ojr/PDw8/zs7O/85OTn/Ojo6/zw8PP84ODj/ODg4/0BAQP8+Pj7/Ojo6/zs7O/88PDz/OTk5/zk5Of89PT3/PDw8/zw8PP88PDz/MzMz/zIyMv8zMzP/MjIy/zIyMv8zMzP/MzMz/zMzM/8zMzP/NDQ0/zc3N/86Ojr/PT09/zs7O/85OTn/Ojo6/zw8PP84ODj/ODg4/0BAQP89PT3/OTk5/zs7O/89PT3/Ozs7/zg4OP81NTX/NDQ0/zMzM/8zMzP/MzMz/zIyMv8yMjL/MjIy/zk5Of83Nzf/MzMz/zQ0NP82Njb/NjY2/zc3N/82Njb/Ojo6/zs7O/83Nzf/OTk5/zw8PP84ODj/ODg4/0BAQP88PDz/Nzc3/zk5Of88PDz/NjY2/zc3N/82Njb/NTU1/zY2Nv8zMzP/NTU1/zk5Of8yMjL/MTEx/zc3N/88PDz/Ojo6/zo6Ov89PT3/PT09/zk5Of83Nzf/Nzc3/zk5Of85OTn/OTk5/zw8PP84ODj/ODg4/0BAQP87Ozv/OTk5/zk5Of83Nzf/NjY2/zc3N/88PDz/PT09/zs7O/86Ojr/PDw8/zk5Of8xMTH/MzMz/zExMf8xMTH/Nzc3/zs7O/86Ojr/NjY2/z09Pf83Nzf/NTU1/0BAQP9DQ0P/RkZG/z4+Pv84ODj/ODg4/0NDQ/9JSUn/R0dH/0RERP86Ojr/NjY2/z09Pf83Nzf/Ojo6/zw8PP84ODj/MjIy/zIyMv8zMzP/MTEx/zIyMv8xMTH/ODg4/zk5Of82Njb/Ojo6/z09Pf83Nzf/NDQ0/z4+Pv88PDz/OTk5/zk5Of84ODj/ODg4/zk5Of85OTn/PDw8/0ZGRv85OTn/NTU1/z4+Pv87Ozv/Nzc3/zk5Of85OTn/MjIy/zExMf8xMTH/MTEx/zU1Nf85OTn/OTk5/zc3N/85OTn/Ozs7/zs7O/80NDT/NDQ0/zs7O/86Ojr/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/OTk5/z8/P/83Nzf/MzMz/zs7O/87Ozv/Ojo6/zc3N/85OTn/OTk5/zc3N/8xMTH/MTEx/zY2Nv84ODj/ODg4/zk5Of84ODj/Nzc3/zs7O/80NDT/MzMz/zs7O/85OTn/Ojo6/zk5Of85OTn/ODg4/zs7O/86Ojr/Ojo6/zw8PP83Nzf/MzMz/zo6Ov85OTn/ODg4/zk5Of84ODj/ODg4/zc3N/8xMTH/MTEx/zc3N/84ODj/ODg4/zk5Of8xMTH/MTEx/zs7O/82Njb/MzMz/zMzM/8zMzP/MjIy/zg4OP85OTn/ODg4/z4+Pv8yMjL/MzMz/zMzM/8zMzP/NDQ0/zs7O/80NDT/MjIy/zk5Of84ODj/ODg4/zk5Of8xMTH/ : 1 : 0 : 0 : 33;112;409;154
+DELAY : 50
+Mouse : 0 : 0 : LeftButtonUp : 0 : 1 : 0
+GOTO : move
+ENDIF
+LABEL : x
+REPEAT : 24 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF PIXEL FOUND : 13238784 : 0 : 1 : 167 : 935 : 172 : 941
+GOTO : 0.0
+ELSE
+ENDIF
+IF PIXEL COLOR EQUALS : 849 : 254 : 0 : 0
+DELAY : 200
+GOTO : 0.0
+ENDIF
+IF PIXEL COLOR EQUALS : 827 : 226 : 11445904 : 0
+DELAY : 200
+GOTO : 0.0
+ENDIF
+LABEL : o
+IF WINDOW IN FOCUS : GodsWar Online : 0
+ELSE
+GOTO : 0
+ENDIF
+Mouse : 43 : 348 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 348 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 348 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 348 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 348 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 348 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 348 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 348 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 348 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 348 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 348 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 348 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 390 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 390 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 390 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 390 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 390 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 390 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 390 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 390 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 390 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 390 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 390 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 390 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 432 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 432 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 432 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 432 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 432 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 432 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 432 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 432 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 432 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 432 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 432 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 432 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 474 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 474 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 474 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 474 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 474 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 474 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 474 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 474 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 474 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 474 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 474 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 474 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 516 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 516 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 516 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 516 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 516 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 516 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 516 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 516 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 516 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 516 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 516 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 516 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 558 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 558 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 558 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 558 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 558 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 558 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 558 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 558 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 558 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 558 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 558 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 558 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 600 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 600 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 600 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 600 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 600 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 600 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 600 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 600 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 600 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 600 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 600 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 600 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 642 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 642 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 642 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 642 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 642 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 642 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 642 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 642 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 642 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 642 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 642 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 642 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 684 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 684 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 684 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 684 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 684 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 684 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 684 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 684 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 684 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 684 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 684 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 684 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 726 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 726 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 726 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 726 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 726 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 726 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 726 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 726 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 726 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 726 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 726 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 726 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 768 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 768 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 768 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 768 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 768 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 768 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 768 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 768 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 768 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 768 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 768 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 768 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 810 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 43 : 810 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 810 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 85 : 810 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 810 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 127 : 810 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 810 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 169 : 810 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 810 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 211 : 810 : RightButtonUp : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 810 : RightButtonDown : 0 : 0 : 0
+DELAY : 0
+Mouse : 253 : 810 : RightButtonUp : 0 : 0 : 0
+IF CLIPBOARD EQUALS : m : 0 : 0
+GOTO : move
+ENDIF
+DELAY : 100
+ENDREPEAT
+LABEL : z
+INCREMENT CLIPBOARD : 1
+LABEL : swap
+GOTO : x
+LABEL : 1
+Mouse : 490 : 613 : LeftButtonDown : 0 : 0 : 0
+Mouse : 490 : 613 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 2
+Mouse : 464 : 600 : LeftButtonDown : 0 : 0 : 0
+Mouse : 464 : 600 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 3
+Mouse : 426 : 505 : LeftButtonDown : 0 : 0 : 0
+Mouse : 426 : 505 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 4
+Mouse : 492 : 350 : LeftButtonDown : 0 : 0 : 0
+Mouse : 492 : 350 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 5
+Mouse : 591 : 439 : LeftButtonDown : 0 : 0 : 0
+Mouse : 591 : 439 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 6
+Mouse : 605 : 589 : LeftButtonDown : 0 : 0 : 0
+Mouse : 605 : 589 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 7
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 685 : 585 : LeftButtonDown : 0 : 0 : 0
+Mouse : 685 : 585 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 433 : 568 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 8
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 685 : 585 : LeftButtonDown : 0 : 0 : 0
+Mouse : 685 : 585 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 562 : 583 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 9
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 685 : 585 : LeftButtonDown : 0 : 0 : 0
+Mouse : 685 : 585 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 647 : 499 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 10
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 685 : 585 : LeftButtonDown : 0 : 0 : 0
+Mouse : 685 : 585 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 622 : 442 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 11
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 685 : 585 : LeftButtonDown : 0 : 0 : 0
+Mouse : 685 : 585 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 493 : 448 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 12
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 685 : 585 : LeftButtonDown : 0 : 0 : 0
+Mouse : 685 : 585 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 501 : 345 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 13
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 675 : 555 : LeftButtonDown : 0 : 0 : 0
+Mouse : 675 : 555 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 649 : 500 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 14
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 675 : 555 : LeftButtonDown : 0 : 0 : 0
+Mouse : 675 : 555 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 554 : 361 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 15
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 675 : 555 : LeftButtonDown : 0 : 0 : 0
+Mouse : 675 : 555 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 522 : 413 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 16
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 675 : 555 : LeftButtonDown : 0 : 0 : 0
+Mouse : 675 : 555 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 501 : 598 : Click : 0 : 0 : 0
+DELAY : 50
+Mouse : 595 : 775 : RightClick : 0 : 0 : 0
+DELAY : 50
+DELAY : 50
+GOTO : 0.0
+LABEL : 17
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 675 : 555 : LeftButtonDown : 0 : 0 : 0
+Mouse : 675 : 555 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 396 : 546 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 18
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 675 : 555 : LeftButtonDown : 0 : 0 : 0
+Mouse : 675 : 555 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 395 : 468 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 19
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 635 : 515 : LeftButtonDown : 0 : 0 : 0
+Mouse : 635 : 515 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 494 : 625 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 20
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 635 : 515 : LeftButtonDown : 0 : 0 : 0
+Mouse : 635 : 515 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 473 : 565 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 21
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 635 : 515 : LeftButtonDown : 0 : 0 : 0
+Mouse : 635 : 515 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 580 : 514 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 22
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 635 : 515 : LeftButtonDown : 0 : 0 : 0
+Mouse : 635 : 515 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 617 : 444 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 23
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 645 : 485 : LeftButtonDown : 0 : 0 : 0
+Mouse : 645 : 485 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 473 : 553 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 24
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 645 : 485 : LeftButtonDown : 0 : 0 : 0
+Mouse : 645 : 485 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 568 : 607 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 25
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 645 : 485 : LeftButtonDown : 0 : 0 : 0
+Mouse : 645 : 485 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 665 : 494 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 26
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 645 : 485 : LeftButtonDown : 0 : 0 : 0
+Mouse : 645 : 485 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 524 : 489 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 27
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 645 : 485 : LeftButtonDown : 0 : 0 : 0
+Mouse : 645 : 485 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 457 : 466 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 28
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 645 : 485 : LeftButtonDown : 0 : 0 : 0
+Mouse : 645 : 485 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 356 : 477 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 29
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 560 : 475 : LeftButtonDown : 0 : 0 : 0
+Mouse : 560 : 475 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 484 : 560 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 30
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 560 : 475 : LeftButtonDown : 0 : 0 : 0
+Mouse : 560 : 475 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 521 : 507 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 31
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 560 : 475 : LeftButtonDown : 0 : 0 : 0
+Mouse : 560 : 475 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 607 : 520 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 32
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 560 : 475 : LeftButtonDown : 0 : 0 : 0
+Mouse : 560 : 475 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 661 : 487 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 33
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 560 : 475 : LeftButtonDown : 0 : 0 : 0
+Mouse : 560 : 475 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 580 : 386 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 34
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 560 : 475 : LeftButtonDown : 0 : 0 : 0
+Mouse : 560 : 475 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 496 : 399 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 35
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 635 : 515 : LeftButtonDown : 0 : 0 : 0
+Mouse : 635 : 515 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 479 : 367 : Click : 0 : 0 : 0
+IF PIXEL COLOR EQUALS : 914 : 80 : 16645887 : 0
+DELAY : 1000
+GOTO : 35
+ENDIF
+DELAY : 50
+GOTO : 0.0
+LABEL : 36
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 635 : 515 : LeftButtonDown : 0 : 0 : 0
+Mouse : 635 : 515 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 496 : 477 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 37
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 600 : 535 : LeftButtonDown : 0 : 0 : 0
+Mouse : 600 : 535 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 639 : 500 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 38
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 600 : 535 : LeftButtonDown : 0 : 0 : 0
+Mouse : 600 : 535 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 535 : 586 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 39
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 575 : 550 : LeftButtonDown : 0 : 0 : 0
+Mouse : 575 : 550 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 572 : 409 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 40
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 575 : 550 : LeftButtonDown : 0 : 0 : 0
+Mouse : 575 : 550 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 637 : 509 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 41
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 575 : 550 : LeftButtonDown : 0 : 0 : 0
+Mouse : 575 : 550 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 564 : 511 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 42
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 575 : 550 : LeftButtonDown : 0 : 0 : 0
+Mouse : 575 : 550 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 433 : 545 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 43
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 575 : 550 : LeftButtonDown : 0 : 0 : 0
+Mouse : 575 : 550 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 440 : 442 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 44
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 575 : 550 : LeftButtonDown : 0 : 0 : 0
+Mouse : 575 : 550 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 339 : 502 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 45
+IF PIXEL COLOR EQUALS : 929 : 86 : 16645887 : 1
+Mouse : 379 : 553 : LeftButtonDown : 0 : 0 : 0
+Mouse : 379 : 553 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1000
+GOTO : 45
+ENDIF
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 560 : 575 : LeftButtonDown : 0 : 0 : 0
+Mouse : 560 : 575 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 492 : 357 : LeftButtonDown : 0 : 0 : 0
+Mouse : 492 : 357 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 46
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 560 : 575 : LeftButtonDown : 0 : 0 : 0
+Mouse : 560 : 575 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 573 : 393 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 47
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 560 : 575 : LeftButtonDown : 0 : 0 : 0
+Mouse : 560 : 575 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 632 : 506 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 48
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 560 : 575 : LeftButtonDown : 0 : 0 : 0
+Mouse : 560 : 575 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 602 : 561 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 49
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 560 : 575 : LeftButtonDown : 0 : 0 : 0
+Mouse : 560 : 575 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 494 : 544 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 50
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 560 : 575 : LeftButtonDown : 0 : 0 : 0
+Mouse : 560 : 575 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 468 : 530 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 51
+IF PIXEL COLOR EQUALS : 354 : 365 : 16252795 : 0
+Mouse : 445 : 515 : Click : 0 : 0 : 0
+GOTO : 51
+ENDIF
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 600 : 535 : LeftButtonDown : 0 : 0 : 0
+Mouse : 600 : 535 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 461 : 507 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 52
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 600 : 535 : LeftButtonDown : 0 : 0 : 0
+Mouse : 600 : 535 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 436 : 402 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 53
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 600 : 535 : LeftButtonDown : 0 : 0 : 0
+Mouse : 600 : 535 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 498 : 441 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 54
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 600 : 535 : LeftButtonDown : 0 : 0 : 0
+Mouse : 600 : 535 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 532 : 397 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 55
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 605 : 520 : LeftButtonDown : 0 : 0 : 0
+Mouse : 605 : 520 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 528 : 627 : Click : 0 : 0 : 0
+IF PIXEL COLOR EQUALS : 928 : 80 : 15200249 : 0
+GOTO : 55
+ENDIF
+DELAY : 50
+GOTO : 0.0
+LABEL : 56
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 605 : 520 : LeftButtonDown : 0 : 0 : 0
+Mouse : 605 : 520 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 604 : 569 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 57
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 605 : 520 : LeftButtonDown : 0 : 0 : 0
+Mouse : 605 : 520 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 625 : 430 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 58
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 605 : 520 : LeftButtonDown : 0 : 0 : 0
+Mouse : 605 : 520 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 531 : 369 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 59
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 605 : 520 : LeftButtonDown : 0 : 0 : 0
+Mouse : 605 : 520 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 472 : 488 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 60
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 605 : 520 : LeftButtonDown : 0 : 0 : 0
+Mouse : 605 : 520 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 348 : 488 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 61
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 550 : 550 : LeftButtonDown : 0 : 0 : 0
+Mouse : 550 : 550 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 523 : 353 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 62
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 550 : 550 : LeftButtonDown : 0 : 0 : 0
+Mouse : 550 : 550 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 402 : 464 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 63
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 550 : 550 : LeftButtonDown : 0 : 0 : 0
+Mouse : 550 : 550 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 484 : 548 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 64
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 550 : 550 : LeftButtonDown : 0 : 0 : 0
+Mouse : 550 : 550 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 540 : 589 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 65
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 550 : 550 : LeftButtonDown : 0 : 0 : 0
+Mouse : 550 : 550 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 552 : 501 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 66
+Mouse : 650 : 190 : LeftButtonDown : 0 : 0 : 0
+Mouse : 650 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 550 : 550 : LeftButtonDown : 0 : 0 : 0
+Mouse : 550 : 550 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 668 : 476 : Click : 0 : 0 : 0
+DELAY : 50
+GOTO : 0.0
+LABEL : 0.0
+REPEAT : 1000 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF PIXEL FOUND : 13238784 : 0 : 1 : 167 : 934 : 173 : 942
+ELSE
+EXIT LOOP
+GOTO : 0.1
+ENDIF
+ENDREPEAT
+IF PIXEL COLOR EQUALS : 827 : 226 : 11445904 : 0
+Mouse : 840 : 235 : LeftButtonDown : 0 : 0 : 0
+Mouse : 840 : 235 : LeftButtonUp : 0 : 0 : 0
+GOTO : 0.0
+ENDIF
+IF PIXEL COLOR EQUALS : 610 : 715 : 8551784 : 0
+GOTO : 0.0
+ENDIF
+GOTO : x
+LABEL : ring
+IF IMAGE : Qk2GBQAAAAAAADYAAAAoAAAAIgAAAAoAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA8Y08//KOPf/yjT3/8o09//GNPP/yjj3/8o09//KNPf/xjTz/8o49//KNPf/yjT3/8Y08//KOPf/yjT3/8o09//GNPP/yjj3/8o09//KNPf/xjTz/8o49//KNPf/yjT3/8Y08//KOPf/yjT3/8o09//GNPP/yjj3/8o09//KNPf/xjTz/8o49///4zf////////////3////yjbT/844+//KOPf/6jj3////g//ji8//yjj3//uKU//7////zwM3/8o49//OOPf/6jT3////g//rt///zjj3//+20//z4///yjpT/8449//qNPf///+D//Pj///OOlP/yjT3//MA+////8//z1OD/8o09//OOPv/+////88DN//qOPf///+D/+u3///OOPf/zjj3/+o49////4P/44vP/8449//zAPf////P/+OLz//OOPf/zjj3//dQ9///////z1OD/8449///ttP/8+P//846U//OOPf//7bT//v////PAzf/zjj3/8449//zAPf////P/89Tg//OOPf/zjj3/9I49//SPPv/5jj3///jN//z4///0j5X/9I49//uPPv///+D/+eLz//SOPf/0jz7//+20///////////////////////9////9I60//SPPv//7bT//Pj///SOlP/91D7///////TU4P/0jj3/9I8+//SOPf/8wT7////z//TU4P/0jj3/9I8+//SOPf/91D7////////////54vP/9Y8+//SOPf/7jz7////g//ri8//0jj3/9I8+//3UPf/+////9MDN//uPPv///+D/++3///SOPf/0jz7//+20///////////////////////64vP/9I49//SPPv/0jj3//ME+////8//01OD/9I49//WPPv//+M3///////z4///1j5X/9Y8+//WPPv/1jz7/+48+////4P/64vP/9Y8+//WPPv/7jz7////g//vt///91D7//v////XBzf/1jz7/9Y8+///ttP/8+P//9Y+V//WPPv/91D7///////XU4P/1jz7/9Y8+//zBPv////P/9dTg//WPPv/1jz7///////bV4P/1jz7/9o8+//WPPv/2kD7/9Y8+//uPPv///+D/+uPz//WPPv/2jz7/9Y8+///utP/9/////+3g//z4///2kJX/9Y8+//aPPv//7bT//fj///WPlf/2jz7/+48+////4P/64vP/9o8+//WPPv/9wT7////z//bU4P/1jz7/9pA+////8//31eD//cE+////8//64vP/95A///aQPv/8kD7////g//vj8//2kD7/95A+//aPPv/9wT/////z///////64vP/95A///aQPv/3kD7//+20//34///2kJX/95A+//3BPv////P/9tXg//eQPv/2jz7//cE/////8//31eD/9o8+//eQP///7rT////////////9+P//9pCV//7VP/////////////////////////////34///2kJX/+5A////4zf/+////9sHN//eQP//3kD7/95A+///utP///////////////////////O7///eQPv/+45X////////////////////////////87v//95A+//iRP//3kD//+JE///eQPv/4kT//95A///iRP//3kD7/+JE///eQP//4kT//95A+//iRP//3kD//+JE///eQPv/4kT//95A///iRP//3kD7/+JE///eQP//4kT//95A+//iRP//3kD//+JE///eQPv/4kT//95A///iRP//3kD7/+JE//w== : 1 : 0 : 0 : 
+Mouse : 0 : -100 : Click : 0 : 1 : 0
+ENDIF
+LABEL : end
