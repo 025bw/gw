@@ -1,3 +1,4 @@
+CLOSE WINDOW : Prompt : 0
 IF PIXEL COLOR EQUALS : 477 : 209 : 7759150 : 0
 GOTO : log
 ENDIF
@@ -5,8 +6,8 @@ GOTO : start
 LABEL : log
 DELAY : 50
 IF PIXEL COLOR EQUALS : 477 : 209 : 7759150 : 0
-SWITCH TO WINDOW : GodsWar Online [ : 0
-OPEN FILE : C:\login\dm32.exe :  : 1
+SWITCH TO WINDOW : GodsWar Onl4ne [ : 0
+OPEN FILE : C:\gw\login\gwnoob1.exe :  : 1
 DELAY : 1000
 GOTO : login
 ENDIF
@@ -728,6 +729,7 @@ Mouse : 475 : 500 : LeftButtonDown : 0 : 0 : 0
 Mouse : 475 : 500 : LeftButtonUp : 0 : 0 : 0
 DELAY : 333
 ENDIF
+LABEL : lag
 IF PIXEL COLOR EQUALS : 697 : 714 : 15778560 : 0
 DELAY : 1000
 Mouse : 290 : 720 : LeftButtonDown : 0 : 0 : 0
@@ -753,17 +755,38 @@ IF PIXEL COLOR EQUALS : 566 : 448 : 7173481 : 0
 DELAY : 100
 GOTO : ring
 ENDIF
-IF PIXEL COLOR EQUALS : 739 : 714 : 15778560 : 0
+LABEL : server select
+IF PIXEL COLOR EQUALS : 216 : 361 : 16776960 : 0
+Mouse : 255 : 400 : LeftButtonDown : 0 : 0 : 0
+Mouse : 255 : 400 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
 Mouse : 698 : 715 : LeftButtonDown : 0 : 0 : 0
 Mouse : 698 : 715 : LeftButtonUp : 0 : 0 : 0
 ENDIF
+LABEL : enter game
 IF PIXEL COLOR EQUALS : 16 : 287 : 80476 : 0
 Mouse : 510 : 665 : LeftButtonDown : 0 : 0 : 0
 Mouse : 510 : 665 : LeftButtonUp : 0 : 0 : 0
 OPEN FILE : C:\Box.exe :  : 1
 GOTO : gb
 ENDIF
-DELAY : 50
+LABEL : thea
+IF PIXEL COLOR EQUALS : 88 : 636 : 15778560 : 0
+Mouse : 925 : 805 : LeftButtonDown : 0 : 0 : 0
+Mouse : 925 : 805 : LeftButtonUp : 0 : 0 : 0
+GOTO : select atlanta
+ENDIF
+LABEL : create character
+IF PIXEL COLOR EQUALS : 828 : 678 : 15778560 : 0
+Mouse : 123 : 817 : LeftButtonDown : 0 : 0 : 0
+Mouse : 123 : 817 : LeftButtonUp : 0 : 0 : 0
+DELAY : 333
+ENDIF
+GOTO : login
+LABEL : select atlanta
+IF PIXEL COLOR EQUALS : 216 : 361 : 16776960 : 1
+GOTO : select atlanta
+ENDIF
 GOTO : login
 LABEL : check
 IF PIXEL COLOR EQUALS : 225 : 105 : 16745299 : 1
