@@ -1,0 +1,31 @@
+LABEL : start
+IF CLIPBOARD EQUALS : 1 : 0 : 0
+OPEN FILE : C:\login\tmsub01.exe :  : 1
+GOTO : end
+ENDIF
+IF CLIPBOARD EQUALS : 2 : 0 : 0
+OPEN FILE : C:\login\tmsub02.exe :  : 1
+GOTO : end
+ENDIF
+IF CLIPBOARD EQUALS : 3 : 0 : 0
+OPEN FILE : C:\login\tmsub03.exe :  : 1
+GOTO : end
+ENDIF
+IF CLIPBOARD EQUALS : 4 : 0 : 0
+OPEN FILE : C:\login\tmsub04.exe :  : 1
+GOTO : end
+ENDIF
+IF CLIPBOARD EQUALS : 5 : 0 : 0
+OPEN FILE : C:\login\tmsub05.exe :  : 1
+GOTO : end
+ENDIF
+IF CLIPBOARD EQUALS : 6 : 0 : 0
+OPEN FILE : C:\login\tmsub06.exe :  : 1
+GOTO : end
+ENDIF
+IF CLIPBOARD EQUALS : 7 : 0 : 0
+GOTO : end
+ENDIF
+SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
+GOTO : start
+LABEL : end
