@@ -7,7 +7,7 @@ LABEL : log
 DELAY : 50
 IF PIXEL COLOR EQUALS : 477 : 209 : 7759150 : 0
 SWITCH TO WINDOW : GodsWar Onl4ne [ : 0
-OPEN FILE : C:\gw\login\gwnoob1.exe :  : 1
+OPEN FILE : C:\gw\login\omgjigg.exe :  : 1
 DELAY : 1000
 GOTO : login
 ENDIF
@@ -699,7 +699,7 @@ DELAY : 500
 Mouse : 1175 : 160 : LeftButtonDown : 0 : 0 : 0
 Mouse : 1175 : 160 : LeftButtonUp : 0 : 0 : 0
 ENDIF
-IF PIXEL COLOR EQUALS : 1165 : 190 : 16777215 : 0
+IF PIXEL COLOR EQUALS : 1165 : 192 : 16777215 : 0
 DELAY : 500
 Mouse : 1166 : 191 : LeftButtonDown : 0 : 0 : 0
 Mouse : 1166 : 191 : LeftButtonUp : 0 : 0 : 0
@@ -710,6 +710,8 @@ DELAY : 100
 Mouse : 1166 : 251 : LeftButtonDown : 0 : 0 : 0
 Mouse : 1166 : 251 : LeftButtonUp : 0 : 0 : 0
 DELAY : 100
+ENDIF
+IF PIXEL COLOR EQUALS : 1165 : 192 : 0 : 0
 GOTO : check
 ENDIF
 DELAY : 100
