@@ -1,0 +1,36 @@
+LABEL : a
+IF PIXEL COLOR EQUALS : 226 : 491 : 16777215 : 0
+Mouse : 240 : 515 : Move : 0 : 0 : 0
+DELAY : 100
+Mouse : 240 : 515 : LeftButtonDown : 0 : 0 : 0
+Mouse : 240 : 515 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+Mouse : 240 : 495 : Move : 0 : 0 : 0
+DELAY : 100
+Mouse : 240 : 495 : LeftButtonDown : 0 : 0 : 0
+Mouse : 240 : 495 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+Mouse : 740 : 520 : Move : 0 : 0 : 0
+DELAY : 100
+Mouse : 740 : 520 : LeftButtonDown : 0 : 0 : 0
+Mouse : 740 : 520 : LeftButtonUp : 0 : 0 : 0
+DELAY : 10000
+ENDIF
+IF PIXEL COLOR EQUALS : 226 : 511 : 65280 : 0
+Mouse : 240 : 495 : Move : 0 : 0 : 0
+DELAY : 100
+Mouse : 240 : 495 : LeftButtonDown : 0 : 0 : 0
+Mouse : 240 : 495 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+Mouse : 240 : 515 : Move : 0 : 0 : 0
+DELAY : 100
+Mouse : 240 : 515 : LeftButtonDown : 0 : 0 : 0
+Mouse : 240 : 515 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+Mouse : 740 : 520 : Move : 0 : 0 : 0
+DELAY : 100
+Mouse : 740 : 520 : LeftButtonDown : 0 : 0 : 0
+Mouse : 740 : 520 : LeftButtonUp : 0 : 0 : 0
+DELAY : 10000
+ENDIF
+GOTO : a

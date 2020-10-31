@@ -1077,6 +1077,7 @@ Mouse : 335 : 595 : LeftButtonUp : 0 : 0 : 0
 ENDIF
 IF IMAGE : Qk3eAgAAAAAAADYAAAAoAAAAEQAAAAoAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAANiYU/zYmFP82JhT/NiYU/zYmFP82JhT/NiYU/zYmFP82JhT/NiYU/zYmFP82JhT/NiYU/zYmFP82JhT/NiYU/zYmFP/t6+r/+Pj3/7y4tP+Ykov/lI6H/ykcD/9OQzj//Pz8/ykcD/8pHA//TkM4//z8/P8pHA//KRwP/0A0KP++urb/9vX1/6ilof8hGhH/WlVO/+Hg3v+OioX/HBQL/0M9Nf/8/Pz/HBQL/xwUC/9DPTX//Pz8/xwUC/8cFAv/yMbE/7e0sf8wKSH/ube1/yIcF/8TDQf/iYaD/4mGg/8TDQf/PDcy//z8/P8TDQf/Ew0H/zw3Mv/8/Pz/Ew0H/yYgGv//////Likj/xMNB//HxsX/9vb2////////////hoSC/w0JBf83MzD//Pz8/w0JBf8NCQX/NzMw//z8/P8NCQX/Mi8r//7+/v8OCgb/DQkF/woHBP8KBwT/CgcE/4iGhf+Eg4H/CgcE/zQyL//9/f3/GBYT/woHBP84NjP/+fn5/woHBP8WFBH/+/v7/zAuK/8KBwT/Ojk2/xAOC/8mJCL/0dDQ/2NhYP8JBwT/MzIv//z8/P+7urn/GhkW/3x7ef/c3Nz/CQcE/wkHBP+jo6H/w8PC/yYkIv/c2tj/+vr5//Py8f+qpZ//LyIV/yseEP9QRTn/5eTi/4B4cP/v7u3/7u3s/29mXf8rHhD/Kx4Q/zMnGf+po57/8fDv/zgnFf84JxX/OCcV/zgnFf84JxX/OCcV/zgnFf84JxX/OCcV/zgnFf84JxX/OCcV/zgnFf84JxX/OCcV/zgnFf84JxX/PisX/z4rF/8+Kxf/PisX/z4rF/8+Kxf/PisX/z4rF/8+Kxf/PisX/z4rF/8+Kxf/PisX/z4rF/8+Kxf/PisX/z4rF/8= : 1 : 0 : 0 : 0;840;1025;240
 Mouse : C-100 : C0 : Move : 0 : 0 : 0
+DELAY : 50		  
 Mouse : C0 : C0 : LeftButtonDown : 0 : 0 : 0
 Mouse : C0 : C0 : LeftButtonUp : 0 : 0 : 0
 GOTO : end
