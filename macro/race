@@ -6,8 +6,8 @@ GOTO : start
 LABEL : log
 DELAY : 50
 IF PIXEL COLOR EQUALS : 477 : 209 : 7759150 : 0
-SWITCH TO WINDOW : GodsWar Onl4ne [ : 0
-OPEN FILE : C:\gw\login\omgjigg.exe :  : 1
+SWITCH TO WINDOW : GodsWar Online [ : 0
+OPEN FILE : C:\gw\login\tm01.exe :  : 1
 DELAY : 1000
 GOTO : login
 ENDIF
@@ -26,7 +26,7 @@ CLOSE WINDOW : AutoIt Error : 0
 CLOSE WINDOW : JaGPH GW GearBox : 0
 CLOSE WINDOW : JaGPH GW GearBox : 0
 CLOSE WINDOW : JaGPH GW GearBox : 0
-OPEN FILE : C:\Users\z\Documents\AutoRacer.exe :  : 0
+OPEN FILE : C:\gw\AutoRacer.exe :  : 0
 Keyboard : LWindows : KeyDown
 Keyboard : ShiftLeft : KeyDown
 Keyboard : D1 : KeyPress
