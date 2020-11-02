@@ -791,6 +791,7 @@ GOTO : select atlanta
 ENDIF
 GOTO : login
 LABEL : check
+MOVE WINDOW : JaGPH GW GearBox : 0 : 2 : 1026 : 30 : 240 : 462
 IF PIXEL COLOR EQUALS : 225 : 105 : 16745299 : 1
 DELAY : 100
 GOTO : check
