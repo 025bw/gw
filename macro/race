@@ -769,7 +769,7 @@ LABEL : enter game
 IF PIXEL COLOR EQUALS : 16 : 287 : 80476 : 0
 Mouse : 510 : 665 : LeftButtonDown : 0 : 0 : 0
 Mouse : 510 : 665 : LeftButtonUp : 0 : 0 : 0
-OPEN FILE : C:\Box.exe :  : 1
+OPEN FILE : C:\gw\Box.exe :  : 1
 GOTO : gb
 ENDIF
 LABEL : thea
