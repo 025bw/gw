@@ -1,3 +1,5 @@
+Mouse : 527 : 94 : LeftButtonDown : 0 : 0 : 0
+Mouse : 527 : 94 : LeftButtonUp : 0 : 0 : 0
 IF PIXEL COLOR EQUALS : 605 : 216 : 3670001 : 0
 Mouse : 605 : 216 : Click : 0 : 0 : 0
 ENDIF
@@ -11,6 +13,10 @@ ENDIF
 Mouse : 0 : 0 : RightClick : 0 : 1 : 0
 GOTO : trade
 LABEL : -1
+IF PIXEL COLOR EQUALS : 527 : 94 : 3670001 : 0
+Mouse : 527 : 94 : LeftButtonDown : 0 : 0 : 0
+Mouse : 527 : 94 : LeftButtonUp : 0 : 0 : 0
+ENDIF
 Mouse : 506 : 132 : LeftButtonDown : 0 : 0 : 0
 Mouse : 506 : 132 : LeftButtonUp : 0 : 0 : 0
 DELAY : 111
