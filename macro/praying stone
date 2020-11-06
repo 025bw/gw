@@ -106,7 +106,7 @@ Mouse : 957 : 340 : LeftButtonDown : 0 : 0 : 0
 Mouse : 957 : 340 : LeftButtonUp : 0 : 0 : 0
 DELAY : 50
 ENDIF
-IF PIXEL COLOR EQUALS : 417 : 384 : 16776960 : 0
+IF PIXEL COLOR EQUALS : 409 : 345 : 16776960 : 0
 DELAY : 50
 GOTO : b
 ENDIF
@@ -123,7 +123,7 @@ Mouse : 150 : 390 : LeftButtonDown : 0 : 0 : 0
 Mouse : 150 : 390 : LeftButtonUp : 0 : 0 : 0
 DELAY : 100
 ENDIF
-IF PIXEL COLOR EQUALS : 417 : 384 : 16776960 : 0
+IF PIXEL COLOR EQUALS : 409 : 345 : 16776960 : 0
 GOTO : b
 ENDIF
 ENDREPEAT
