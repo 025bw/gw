@@ -1,4 +1,6 @@
 IF PIXEL COLOR EQUALS : 113 : 406 : 16776960 : 0
+Mouse : 113 : 406 : LeftButtonDown : 0 : 0 : 0
+Mouse : 113 : 406 : LeftButtonUp : 0 : 0 : 0
 GOTO : 2
 ENDIF
 LABEL : 1
