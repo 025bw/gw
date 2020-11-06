@@ -8,7 +8,7 @@ CLOSE WINDOW : Stopped : 0
 DELAY : 50
 IF PIXEL COLOR EQUALS : 477 : 209 : 7759150 : 0
 SWITCH TO WINDOW : GodsWar Online [ : 0
-OPEN FILE : C:\gw\login\tm05.exe :  : 1
+OPEN FILE : C:\login\gwnoob4.exe :  : 1
 DELAY : 1000
 GOTO : login
 ENDIF
@@ -813,6 +813,8 @@ ENDIF
 IF PIXEL FOUND : 0 : 0 : 1 : 914 : 21 : 931 : 85
 Mouse : 110 : 865 : LeftButtonDown : 0 : 0 : 0
 Mouse : 110 : 865 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 68 : 924 : 13947080 : 0
 GOTO : start
 ENDIF
 DELAY : 100
