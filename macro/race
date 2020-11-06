@@ -39,7 +39,7 @@ DELAY : 5000
 GOTO : test
 ENDIF
 IF PIXEL COLOR EQUALS : 718 : 204 : 16777215 : 0
-Mouse : 555 : 410 : Click : 0 : 0 : 0
+Mouse : 512 : 455 : Click : 0 : 0 : 0
 ENDIF
 GOTO : start
 LABEL : test
