@@ -8,7 +8,7 @@ CLOSE WINDOW : Stopped : 0
 DELAY : 50
 IF PIXEL COLOR EQUALS : 477 : 209 : 7759150 : 0
 SWITCH TO WINDOW : GodsWar Online [ : 0
-OPEN FILE : C:\login\gwnoob4.exe :  : 1
+OPEN FILE : C:\login\gnb01.exe :  : 1
 DELAY : 1000
 GOTO : login
 ENDIF
@@ -689,6 +689,10 @@ DELAY : 50
 GOTO : start
 LABEL : gb
 MOVE WINDOW : JaGPH GW GearBox : 0 : 0 : 1026 : 30 : 240 : 462
+IF PIXEL COLOR EQUALS : 1055 : 190 : 13947080 : 1
+GOTO : gb
+ENDIF
+LABEL : gb2
 IF PIXEL COLOR EQUALS : 1187 : 155 : 45 : 0
 Mouse : 1055 : 160 : LeftButtonDown : 0 : 0 : 0
 Mouse : 1055 : 160 : LeftButtonUp : 0 : 0 : 0
@@ -714,7 +718,7 @@ IF PIXEL COLOR EQUALS : 1165 : 192 : 0 : 0
 GOTO : net
 ENDIF
 DELAY : 100
-GOTO : gb
+GOTO : gb2
 LABEL : login
 IF PIXEL COLOR EQUALS : 573 : 422 : 16448251 : 0
 Mouse : 512 : 498 : LeftButtonDown : 0 : 0 : 0
