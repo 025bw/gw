@@ -8,7 +8,7 @@ CLOSE WINDOW : Stopped : 0
 DELAY : 50
 IF PIXEL COLOR EQUALS : 477 : 209 : 7759150 : 0
 SWITCH TO WINDOW : GodsWar Online [ : 0
-OPEN FILE : C:\login\gnb01.exe :  : 1
+OPEN FILE : C:\gw\login\gnb01.exe :  : 1
 DELAY : 1000
 GOTO : login
 ENDIF
