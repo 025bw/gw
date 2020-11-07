@@ -76,7 +76,7 @@ Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
 GOTO : select dust
 ENDIF
 LABEL : xtal 3
-IF CLIPBOARD EQUALS : 3 : 0 : 0
+IF CLIPBOARD EQUALS : 4 : 0 : 0
 Mouse : 725 : 330 : LeftButtonDown : 0 : 0 : 0
 Mouse : 725 : 330 : LeftButtonUp : 0 : 0 : 0
 DELAY : 1
@@ -94,7 +94,7 @@ Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
 GOTO : select dust
 ENDIF
 LABEL : amethyst
-IF CLIPBOARD EQUALS : 5 : 0 : 0
+IF CLIPBOARD EQUALS : 3 : 0 : 0
 Mouse : 460 : 430 : LeftButtonDown : 0 : 0 : 0
 Mouse : 460 : 430 : LeftButtonUp : 0 : 0 : 0
 DELAY : 1
@@ -103,7 +103,7 @@ Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
 GOTO : select dust
 ENDIF
 LABEL : qp2
-IF CLIPBOARD EQUALS : 4 : 0 : 0
+IF CLIPBOARD EQUALS : 5 : 0 : 0
 Mouse : 460 : 350 : LeftButtonDown : 0 : 0 : 0
 Mouse : 460 : 350 : LeftButtonUp : 0 : 0 : 0
 DELAY : 1
