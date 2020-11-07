@@ -1,0 +1,38 @@
+IF PIXEL COLOR EQUALS : 97 : 336 : 16776960 : 0
+Mouse : 97 : 336 : LeftButtonDown : 0 : 0 : 0
+Mouse : 97 : 336 : LeftButtonUp : 0 : 0 : 0
+GOTO : 2
+ENDIF
+LABEL : 1
+Mouse : 512 : 400 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 512 : 400 : LeftButtonDown : 0 : 0 : 0
+Mouse : 512 : 400 : LeftButtonUp : 0 : 0 : 0
+REPEAT : 60 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF PIXEL COLOR EQUALS : 97 : 336 : 16776960 : 0
+Mouse : 97 : 336 : LeftButtonDown : 0 : 0 : 0
+Mouse : 97 : 336 : LeftButtonUp : 0 : 0 : 0
+GOTO : 2
+ENDIF
+ENDREPEAT
+GOTO : 1
+LABEL : 2
+IF PIXEL COLOR EQUALS : 424 : 326 : 15810951 : 0
+Mouse : 455 : 380 : LeftButtonDown : 0 : 0 : 0
+Mouse : 455 : 380 : LeftButtonUp : 0 : 0 : 0
+Mouse : 845 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 845 : 450 : LeftButtonUp : 0 : 0 : 0
+GOTO : 3
+ENDIF
+GOTO : 2
+LABEL : 3
+IF PIXEL COLOR EQUALS : 458 : 287 : 3947580 : 0
+Mouse : 40 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 40 : 345 : RightButtonUp : 0 : 0 : 0
+Mouse : 82 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 82 : 345 : RightButtonUp : 0 : 0 : 0
+Mouse : 845 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 845 : 450 : LeftButtonUp : 0 : 0 : 0
+GOTO : 1
+ENDIF
+GOTO : 3
