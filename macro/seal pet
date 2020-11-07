@@ -1,3 +1,13 @@
+IF PIXEL COLOR EQUALS : 475 : 351 : 16776960 : 0
+Mouse : 440 : 375 : LeftButtonDown : 0 : 0 : 0
+Mouse : 440 : 375 : LeftButtonUp : 0 : 0 : 0
+Mouse : 850 : 445 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 445 : LeftButtonUp : 0 : 0 : 0
+GOTO : 3
+ENDIF
+IF PIXEL COLOR EQUALS : 490 : 361 : 16776960 : 0
+GOTO : 3
+ENDIF
 IF PIXEL COLOR EQUALS : 113 : 406 : 16776960 : 0
 Mouse : 113 : 406 : LeftButtonDown : 0 : 0 : 0
 Mouse : 113 : 406 : LeftButtonUp : 0 : 0 : 0
