@@ -1,18 +1,4 @@
 IF PIXEL COLOR EQUALS : 475 : 351 : 16776960 : 0
-Mouse : 690 : 770 : RightButtonDown : 0 : 0 : 0
-Mouse : 690 : 770 : RightButtonUp : 0 : 0 : 0
-Mouse : 250 : 350 : RightButtonDown : 0 : 0 : 0
-Mouse : 250 : 350 : RightButtonUp : 0 : 0 : 0
-Mouse : 208 : 350 : RightButtonDown : 0 : 0 : 0
-Mouse : 208 : 350 : RightButtonUp : 0 : 0 : 0
-Mouse : 166 : 350 : RightButtonDown : 0 : 0 : 0
-Mouse : 166 : 350 : RightButtonUp : 0 : 0 : 0
-Mouse : 124 : 350 : RightButtonDown : 0 : 0 : 0
-Mouse : 124 : 350 : RightButtonUp : 0 : 0 : 0
-Mouse : 82 : 350 : RightButtonDown : 0 : 0 : 0
-Mouse : 82 : 350 : RightButtonUp : 0 : 0 : 0
-Mouse : 40 : 350 : RightButtonDown : 0 : 0 : 0
-Mouse : 40 : 350 : RightButtonUp : 0 : 0 : 0
 Mouse : 440 : 375 : LeftButtonDown : 0 : 0 : 0
 Mouse : 440 : 375 : LeftButtonUp : 0 : 0 : 0
 Mouse : 850 : 445 : LeftButtonDown : 0 : 0 : 0
@@ -34,20 +20,10 @@ Mouse : 512 : 400 : LeftButtonDown : 0 : 0 : 0
 Mouse : 512 : 400 : LeftButtonUp : 0 : 0 : 0
 REPEAT : 500 : 0 : 0 : Enter the number of iterations: : 0 : 0
 IF PIXEL COLOR EQUALS : 113 : 406 : 16776960 : 0
-Mouse : 690 : 770 : RightButtonDown : 0 : 0 : 0
-Mouse : 690 : 770 : RightButtonUp : 0 : 0 : 0
-Mouse : 250 : 350 : RightButtonDown : 0 : 0 : 0
-Mouse : 250 : 350 : RightButtonUp : 0 : 0 : 0
-Mouse : 208 : 350 : RightButtonDown : 0 : 0 : 0
-Mouse : 208 : 350 : RightButtonUp : 0 : 0 : 0
-Mouse : 166 : 350 : RightButtonDown : 0 : 0 : 0
-Mouse : 166 : 350 : RightButtonUp : 0 : 0 : 0
-Mouse : 124 : 350 : RightButtonDown : 0 : 0 : 0
-Mouse : 124 : 350 : RightButtonUp : 0 : 0 : 0
-Mouse : 82 : 350 : RightButtonDown : 0 : 0 : 0
-Mouse : 82 : 350 : RightButtonUp : 0 : 0 : 0
-Mouse : 40 : 350 : RightButtonDown : 0 : 0 : 0
-Mouse : 40 : 350 : RightButtonUp : 0 : 0 : 0
+Mouse : 670 : 780 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 670 : 780 : RightButtonDown : 0 : 0 : 0
+Mouse : 670 : 780 : RightButtonUp : 0 : 0 : 0
 Mouse : 113 : 406 : LeftButtonDown : 0 : 0 : 0
 Mouse : 113 : 406 : LeftButtonUp : 0 : 0 : 0
 GOTO : 2

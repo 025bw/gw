@@ -14,10 +14,6 @@ GOTO : login
 ENDIF
 GOTO : log
 LABEL : start
-IF PIXEL COLOR EQUALS : 955 : 339 : 9093887 : 0
-Mouse : 957 : 340 : Click : 0 : 0 : 0
-DELAY : 1000
-ENDIF
 CLOSE WINDOW : Prompt : 0
 IF WINDOW EXISTS : GodsWar Online [USA] : 0
 ELSE
@@ -32,6 +28,16 @@ Keyboard : D1 : KeyPress
 Keyboard : ShiftLeft : KeyUp
 Keyboard : LWindows : KeyUp
 GOTO : log
+ENDIF
+IF PIXEL COLOR EQUALS : 465 : 922 : 3157617 : 0
+GOTO : end
+ENDIF
+IF PIXEL COLOR EQUALS : 117 : 860 : 3157617 : 0
+GOTO : check
+ENDIF
+IF PIXEL COLOR EQUALS : 955 : 339 : 9093887 : 0
+Mouse : 957 : 340 : Click : 0 : 0 : 0
+DELAY : 1000
 ENDIF
 IF PIXEL COLOR EQUALS : 543 : 366 : 16711680 : 0
 DELAY : 5000
@@ -815,10 +821,12 @@ ENDIF
 IF PIXEL COLOR EQUALS : 330 : 763 : 16580093 : 0
 Mouse : 330 : 763 : Click : 0 : 0 : 0
 ENDIF
-IF WINDOW IN FOCUS : Auto Racer 1.1d : 0
+IF PIXEL COLOR EQUALS : 117 : 860 : 3157617 : 0
 Mouse : 110 : 865 : LeftButtonDown : 0 : 0 : 0
 Mouse : 110 : 865 : LeftButtonUp : 0 : 0 : 0
 DELAY : 500
+ENDIF
+IF PIXEL COLOR EQUALS : 117 : 860 : 13939569 : 0
 GOTO : start
 ENDIF
 DELAY : 100
