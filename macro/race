@@ -852,3 +852,4 @@ GOTO : start
 ENDIF
 DELAY : 50
 GOTO : test race
+LABEL : end
