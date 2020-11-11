@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+	 <!--奖励功能显示框-->
+	<AwardsClue Template="T_SimpleWindow" Rectangle="674,258,971,374" Enable="0" Visible="0">
+	
+		<TipsText Type="Text" Rectangle="22,13,177,31" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5"/>
+		<TipsText1 Type="Text" Rectangle="20,31,173,52" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5" />
+		<TipsText2 Type="Text" Rectangle="19,59,109,76" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5" />
+		<ClueBtn Template="T_Button2" Rectangle="205,77,266,104" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="AWARDF_X0_1" OnClick="AwardsDraw_Visible()" />
+		<AwardsCluebtn Template="T_SmallCloseButton"  Rectangle="270,-1,291,20" Text="" OnClick="AwardsClue_Close()" />
+	</AwardsClue>
+	
+	<AwardsDraw Template="T_SimpleWindow" Rectangle="674,259,971,466" BtnPos="124,540" BtnRect="270,0,290,21" Enable="0" Visible="0" OnClose="AwardsDraw_Close()">
+	
+		<Items0 Template="T_TopButton" ID="430210" Rectangle="19,66,61,107" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  TextFormat="10" TexturePos="0,540"/>
+		<Items1 Template="T_TopButton" ID="430211" Rectangle="72,66,113,107" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" TexturePos="0,540"/>
+		<Items2 Template="T_TopButton" ID="430212" Rectangle="124,66,166,107"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" TexturePos="0,540"/>
+		<Items3 Template="T_TopButton" ID="430213" Rectangle="177,66,218,107" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" TexturePos="0,540"/>
+		
+		<InfoText0 Type="Text" Rectangle="16,22,195,38" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5" />
+		<InfoText1 Type="Text" Rectangle="7,98,197,120" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5"/>
+		<InfoText2 Type="Text" Rectangle="15,126,163,145" Font="MainMap" FontColor="GWORed" Text="" TextFormat="5" />
+		<InfoText3 Type="Text" Rectangle="19,152,132,170" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5" />
+		<DrawBtn Template="T_Button2" ID="430219" Rectangle="205,168,266,195" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="AWARDF_X0_2" />
+	</AwardsDraw>
+	
+	<AwardsDraw1 Template="T_SimpleWindow" Rectangle="674,259,971,466" BtnPos="124,540" BtnRect="270,0,290,21" Enable="0" Visible="0" OnClose="AwardsDraw1_Close()">
+		<Items0 Template="T_TopButton" ID="430220" Rectangle="19,66,61,107" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  TextFormat="10" TexturePos="0,540"/>
+		<Items1 Template="T_TopButton" ID="430221" Rectangle="72,66,113,107" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" TexturePos="0,540"/>
+		<Items2 Template="T_TopButton" ID="430222" Rectangle="124,66,166,107"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" TexturePos="0,540"/>
+		<Items3 Template="T_TopButton" ID="430223" Rectangle="177,66,218,107" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" TexturePos="0,540"/>
+		
+		<InfoText0 Type="Text" Rectangle="31,22,210,38" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="16" />
+		<InfoText1 Type="Text" Rectangle="12,98,202,120" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="16"/>
+		<InfoText2 Type="Text" Rectangle="24,136,172,155" Font="MainMap" FontColor="GWORed" Text="" TextFormat="5" />
+		<InfoText3 Type="Text" Rectangle="19,165,132,183" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5" />
+		<DrawBtn Template="T_Button2" ID="430229" Rectangle="205,168,266,195" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="AWARDF_X0_2" />
+	</AwardsDraw1>
+		
+	<Script File="./Localization/en_us/UI/XML/AwardFunctionProc.lua"/>
+</UIConfig>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2008,欢乐连线工作室
+		All rights reserved
+
+		文件名称：ChatUI.xml
+		摘    要：聊天配置表
+
+		当前版本：1.00
+		作    者：C.D
+		完成日期：2008-03-18  
+ 
+-->
+<UIConfig>
+  <SystemMessageWin   Type="Window" ID="180000" Rectangle="0,170,1024,270" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="523,163,766,233"  Visible="1" Enable="0" Layer="2" >
+    <SystemMessageListBox     Type="ListBox"  ID="180006" Rectangle="0,0,700,140"     Texture="./Localization/en_us/UI/Texture/main.gwo" Height="30"/>
+  </SystemMessageWin>
+  <!--公告信息-->
+  <ProclaimMessageWin   Type="Window" Rectangle="0,150,1024,220" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="523,163,766,233"  Visible="1" Enable="0" Layer="2" >
+    <ProclaimMessageListBox     Type="ListBox"  Rectangle="0,0,700,140"     Texture="./Localization/en_us/UI/Texture/main.gwo" Height="30"/>
+  </ProclaimMessageWin>
+
+  <EditWinUI          Type="Window" ID="180003" Rectangle="0,706,350,759"   Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="522,162,991,354" Visible="1" Enable="0" Layer="0">
+    <!--背景贴图，分别由左右两张，以及中间拉伸的图拼接成-->
+    <Background_L     Template="T_NormalText"    ID="-1" Rectangle="0,26,70,54"    TexturePos="0,982"   />
+    <Background_M     Template="T_NormalText"    ID="-1" Rectangle="70,26,71,54"    TexturePos="76,982" />
+    <Background_R     Template="T_NormalText"    ID="-1" Rectangle="280,26,350,54"    TexturePos="76,982"   />
+
+    <!--按Shift键选择字时候的背景显示-->
+    <CursorBackground Template="T_NormalText"      ID="180037" Rectangle="0,51,0,69"     TexturePos="523,163,850,210" />
+    
+    <!--频道屏蔽选择按钮-->
+
+
+   
+  
+    <!--ListSelectBtn    Type="Button"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="480,672"  ID="180018" Rectangle="11,28,60,51"   SText="C_X0_6" Font="MainMap" TextFormat="5"/-->
+    <NameEdit         Template="T_ChatEdit"     ID="180019" Rectangle="65,29,142,49"  />
+    <WhisperTalkEdit  Template="T_ChatEditEx"     ID="180021" Rectangle="155,29,340,49" MaxText="80"/>
+    <NormalTaklEdit   Template="T_ChatEditEx"     ID="180034" Rectangle="65,29,340,49"  MaxText="80"/>
+    <PartitionWhisper Template="T_NormalText"   ID="180036" Rectangle="132,25,165,53" TexturePos="0,835" Visible="0"/>
+  </EditWinUI>
+
+<!--频道屏蔽选择按钮-->
+<ChannelListSelectBtn Type="Window" ID="-1" Rectangle="0,732,59,760"   Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,982" Visible="1" Enable="0" Layer="0">
+	<ListSelectBtn    Type="Button"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="480,672"  ID="180018" Rectangle="11,3,59,26"   SText="C_X0_6" Font="MainMap" TextFormat="5"/>
+</ChannelListSelectBtn>
+
+  <ChannelSelectWin   Template="T_SimpleWindow" ID="180004" Rectangle="14,584,104,736"     Visible="0" Enable="0" Layer="1" >
+    <WorldBtn         Template="T_Button2_S"    ID="180027" Rectangle="29,11,79,33"    SText="C_X0_7" />
+    
+    <NormalBtn        Template="T_Button2_S"    ID="180028" Rectangle="29,33,79,55"    SText="C_X0_6" />
+    <NormalChannel  Template="T_NormalCheckBox"  ID="180013" TexturePos="222,189" Rectangle="10,34,27,52" TextFormat="0"/>
+    
+    <CampBtn          Template="T_Button2_S"    ID="180029" Rectangle="29,55,79,77"    SText="C_X0_18" />
+    <CampChannel   Template="T_NormalCheckBox"  ID="180014" TexturePos="222,189" Rectangle="10,56,27,74" TextFormat="0"/>
+    
+    <TeamBtn          Template="T_Button2_S"    ID="180030" Rectangle="29,77,79,99"    SText="C_X0_8" />
+    <TeamChannel Template="T_NormalCheckBox"  ID="180015"  TexturePos="222,189" Rectangle="10,78,27,96" TextFormat="0"/>
+    
+    <FactionBtn       Template="T_Button2_S"    ID="180031" Rectangle="29,99,79,122"   SText="C_X0_9" />
+    <FactionChannel   Template="T_NormalCheckBox" ID="180016" TexturePos="222,189" Rectangle="10,100,27,118" TextFormat="0"/>
+    
+    <WhisperBtn       Template="T_Button2_S"    ID="180032" Rectangle="29,122,79,143," SText="C_X0_10" />
+    <PrivateChannel   Template="T_NormalCheckBox" ID="180017" TexturePos="222,189" Rectangle="10,123,27,141" TextFormat="0"/>
+  </ChannelSelectWin>
+
+  <ChatPopMenu        Template="T_SimpleWindow" ID="233000" Rectangle="0,0,104,178"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="522,162,991,354" Visible="0" Enable="0" Layer="1">
+    <ObjInfo          Template="T_Button4" ID="233001"    Rectangle="11,11,93,38"   SText="C_X0_11"   Visible="0"/>
+    <RequestTrade     Template="T_Button4" ID="233003"    Rectangle="11,63,93,90"   SText="C_X0_13"    Visible="0"/>
+    <CheckStall       Template="T_Button4"                 Rectangle="11,141,93,168" SText="C_X0_16" Visible="0"/>
+    
+    <TeamInvite       Template="T_Button4" ID="233002"    Rectangle="11,11,93,38"   SText="C_X0_12" Font="MainMap"/>
+    <RequestFriend    Template="T_Button4" ID="233004"    Rectangle="11,37,93,64"  SText="C_X0_14" Font="MainMap"/>
+    <MeetScret        Template="T_Button4" ID="233005"    Rectangle="11,63,93,90" SText="C_X0_15" Font="MainMap"/>
+    <CheckGuild       Template="T_Button4" ID="233007"    Rectangle="11,89,93,116" SText="C_X0_17" Font="MainMap"/>
+    <RepRequest       Template="T_Button4" ID="233008"    Rectangle="11,115,93,142" SText="C_X0_19" />
+    <BlackList        Template="T_Button4" ID="233006"    Rectangle="11,141,93,168" SText="C_X0_16" Font="MainMap"/>
+  </ChatPopMenu>
+
+  
+  <MessageWin   Template="T_ChatWindow"  Rectangle="0,455,350,735"  Visible="1" Layer="0">
+  </MessageWin>
+  
+  <HistoryMessageWin  Type="Window" ID="180001" Rectangle="0,505,330,653"   Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="522,162,991,354"  Visible="1" Enable="0" Layer="0">
+
+    <InformationText    Type="Text"  Rectangle="27,-46,347,-26"  SText="C_X0_27" Font="MainMap"  FontColor="Chat_color"  TextFormat="16"/>
+    <InputText    Type="Text"  Rectangle="30,204,151,225"  SText="C_X0_28" Font="MainMap"  FontColor="GREEN_TEXTCOLOR"/>
+
+    <!--ScrollBar背景-->
+    <ScrollBarBackground_Top    Template="T_NormalText"    ID="-1" Rectangle="0,41,21,62"    TexturePos="900,957" Visible="0"/>
+    <ScrollBarBackground_Middle Template="T_NormalText"    ID="-1" Rectangle="0,41,25,44"    TexturePos="900,979" Visible="0"/>
+
+    <!--该背景紧贴HistoryListBoxPgDownBtn 由程序限制-->
+    <ScrollBarBackground_Bottom Template="T_NormalText"    ID="-1" Rectangle="0,21,21,42"    TexturePos="900,983" Visible="0"/>
+    <!--用来接受消息-->
+	<MsgReciever        Type="Button" ID="-1"     Rectangle="0,0,24,178"    Texture=""    TexturePos="0,0"   Visible="1" Enable="1" />
+
+    <!--ScrollBar还没有设置-->
+    <HistoryMessageListBox    Type="ListBox"        ID="180007" Rectangle="22,0,350,180"     Texture="" Height="20" ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollPos="0,0" ScrollRect="0,23,17,153"  BtnPos="133,122" BtnRect="0,0,17,27"/>
+
+    <HistoryListBoxPgUpBtn    Type="Button" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="278,360" ID="180025" Rectangle="4,-46,20,-31" Text=""/>
+    <!--该按钮紧贴窗口下方由程序限制-->
+    <HistoryListBoxPgDownBtn  Type="Button"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="293,360" ID="180026" Rectangle="4,184,20,199" Text=""/>
+    
+    
+    <!--表情-->
+    <FaceBtn    Type="Button"  ID="180009" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="366,328"  Rectangle="312,204,333,225" Text=""/>
+    <!--清屏-->
+    <ClearBtn  Type="Button"   ID="180010" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="387,328"  Rectangle="286,204,307,225" Text=""/>
+    <!--聊天帮助-->
+    <CharHelpBtn    Type="Button"  ID="180011" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="408,328"  Rectangle="260,204,281,225" Text="" OnClick="CharHelpBtn_OnClick()"/>
+    
+    <TabBar Type="TabBar" ID="-1" Rectangle="0,-23,330,131" >
+    <CompositeView    Type="Tab"     ID="180044" Rectangle="22,203,72,225"    Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="304,453"  SText="C_X0_29"  TextFormat="5"  OnScaleX="0.94"  TextOffset="-3,0,0,0" />
+    <CampView         Type="Tab"     ID="180045" Rectangle="68,203,119,225"   Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="304,453"  SText="C_X0_18"  TextFormat="5"  OnScaleX="0.94"  TextOffset="-3,0,0,0" />
+    <NormalView       Type="Tab"     ID="180046" Rectangle="114,203,164,225"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="304,453"  SText="C_X0_6"   TextFormat="5"  OnScaleX="0.94"  TextOffset="-3,0,0,0" />
+    <GuildView        Type="Tab"     ID="180047" Rectangle="160,203,210,225"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="304,453"  SText="C_X0_9"   TextFormat="5"  OnScaleX="0.94"  TextOffset="-3,0,0,0" />
+    <TeamView         Type="Tab"     ID="180048" Rectangle="206,203,256,225"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="304,453"  SText="C_X0_8"   TextFormat="5"  OnScaleX="0.94"  TextOffset="-3,0,0,0" />
+    <PrivateView      Type="Tab"     ID="180049" Rectangle="252,203,302,225"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="304,453"  SText="C_X0_10"  TextFormat="5"  OnScaleX="0.94"  TextOffset="-3,0,0,0" />
+    <WorldView        Type="Tab"     ID="180050" Rectangle="298,203,348,225"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="304,453"  SText="C_X0_7"   TextFormat="5"  OnScaleX="0.94"  TextOffset="-3,0,0,0" />
+
+    </TabBar>
+  </HistoryMessageWin>
+  <MessageWin1   Template="T_ChatWindow1"  Rectangle="0,388,351,457"  Visible="1" Layer="0">
+  </MessageWin1>
+
+  <RecentMessageWin   Type="Window" ID="180002" Rectangle="0,388,351,457"     Visible="1" Enable="0" Layer="0">
+    <RecentMessageListBox     Type="ListBox"        ID="180008" Rectangle="22,10,350,70" TexturePos="0,0" Texture=""    ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollPos="1024,1024" ScrollRect="0,23,17,153"  BtnPos="133,122" Height="20" />
+    
+    <RecentMessageUpBtn Template="T_ZoomUpBotton" Rectangle="4,17,19,32" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR"  OnClick="UpListBox5Btn()"   TextFormat="5" />
+	<RecentMessageDownBtn Template="T_ZoomDownBotton" Rectangle="4,42,19,57" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" OnClick="DownListBox5Btn()" TextFormat="5" />
+  
+  </RecentMessageWin>
+  
+    <!-- 装备悬停新增的-->
+   <HistoryMsgItemWin   Type="Window" ID="181200" Rectangle="0,505,330,653" Visible="0" Enable="0" Layer="0">
+     <HistoryMsgItemListBox    Type="ListBox"        ID="181201" Rectangle="22,0,350,180"     Texture="" Height="20" ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollPos="0,0" ScrollRect="0,23,17,153"  BtnPos="133,122" BtnRect="0,0,17,27"/>
+  </HistoryMsgItemWin>
+  
+   <RecentMsgItemWin   Type="Window" ID="181210" Rectangle="0,643,420,705" Visible="0" Enable="0" Layer="0">
+    <RecentMsgItemListBox     Type="ListBox"        ID="181211" Rectangle="22,0,420,60"  Height="20" />  
+  </RecentMsgItemWin>
+  
+
+  
+
+  <!--按钮窗口-->
+  <BtnWin Type="Window" ID="181000" Rectangle="4,705,20,722"   Visible="1" Enable="0">
+    <HistoryMessageScroll Type="Button"  ID="181001" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="364,686"     Rectangle="0,0,16,17"     Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" Visible="1"/>
+    <WinTop_Up            Type="Button"  ID="181002" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="333,877"    Rectangle="0,21,23,42"     Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" Visible="0"/>
+    <WinTop_Down          Type="Button"  ID="181003" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="310,877"    Rectangle="0,42,23,63"     Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" Visible="0"/>
+  </BtnWin>
+  
+  
+  
+  
+  <!--聊天帮助窗口-->
+  <CharHelpWin Template="T_SimpleWindow"  Rectangle="360,420,635,640"   Visible="0" Enable="0">
+      <CharHelpText1 Type="Text"  Rectangle="20,20,40,40"  SText="C_X0_20" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+      <CharHelpText2 Type="Text"  Rectangle="30,40,40,60"  SText="C_X0_21" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR"/>
+      <CharHelpText3 Type="Text"  Rectangle="30,60,40,80"  SText="C_X0_22" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR"/>
+      <CharHelpText4 Type="Text"  Rectangle="30,80,40,100"  SText="C_X0_23" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR"/>
+      <CharHelpText5 Type="Text"  Rectangle="30,100,40,120"  SText="C_X0_24" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR"/>
+      <CharHelpText6 Type="Text"  Rectangle="20,130,40,150"  SText="C_X0_25" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+      <CharHelpText7 Type="Text"  Rectangle="30,150,250,170"  SText="C_X0_26" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+      <CloseBtn Template="T_Button2_S"  Rectangle="110,180,160,202"  SText="PETIN_X1_3" OnClick="CharHelpBtn_OnClick()" Font="MainMap"/>
+  </CharHelpWin>
+
+
+</UIConfig>

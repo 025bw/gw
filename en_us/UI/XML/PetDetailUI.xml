@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+	<PetDetailWin Template="T_NormalWindow" ID="830000" Rectangle="100,50,455,750" Enable="1" Visible="0" BtnRect="285,13,322,50" BtnPos="0,80">
+		<!--宠物名字-->
+		<PetNameLabel Type="Text" Texture="" Rectangle="25,68,66,110" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_1"/>
+		<PetName Type="Text" Texture="" ID="830001" Rectangle="66,68,166,110" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		<!--类型-->
+		<PetTypeLabel Type="Text" Texture="" Rectangle="25,90,66,132" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_3"/>
+		<PetType Type="Text" Texture="" ID="830002" Rectangle="61,90,161,132" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		<!--更改名字-->
+		<PetChangeName Template="T_Button2" ID="830003" Rectangle="281,122,342,149" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="PETD_X0_26"/>
+		<!--合体效果-->
+		<PetChangeName Template="T_Button8" ID="830023" Rectangle="230,70,340,104" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="PETD_X0_27" OnScaleY="0.9"/>
+		<!--性别-->
+		<PetSexLabel Type="Text" Texture="" Rectangle="25,112,66,154" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_9"/>
+		<PetSex Type="Text" ID="830011" Texture="" Rectangle="81,112,181,154" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		<!--食物类型-->
+		<PetFoodTypeLabel Type="Text" Texture="" Rectangle="190,90,291,132" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_28" OnHovered="PetDetailUIHov(0)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+		<PetFoodType Type="Text" Texture="" Rectangle="268,90,320,132" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		<!--灵魂契约-->
+		<PetAptitudeLabel Type="Text" Texture="" Rectangle="140,112,241,154" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_29" OnHovered="PetDetailUIHov(1)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+		<PetAptitude Type="Text" ID="832025" Texture="" Rectangle="208,112,260,154" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" SText="PETD_X0_30"/>
+		<!--资质-->
+		<PetAptitudeLabel Type="Text" Texture="" Rectangle="25,134,66,176" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_4"/>
+		<PetAptitude Type="Text" ID="830004" Texture="" Rectangle="80,134,180,176" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		<!--绑定状态-->
+		<bindingLabel Type="Text" Texture="" Rectangle="180,134,281,176" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_50" OnHovered="PetDetailUIHov(16)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+		<binding Type="Text" ID="832026" Texture="" Rectangle="278,134,330,176" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+
+        <!--饱食度-->
+		<FoodStateLabel Type="Text" Texture="" Rectangle="40,170,140,190" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_6"/>
+		<FoodState Type="Text" ID="830005" Rectangle="110,176,226,189" TexturePos="779,114" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextWeight="3" TextFormat="5"/>
+		<FoodStateText Type="Text" ID="830020" Rectangle="140,172,238,190" TexturePos="1024,1024" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextWeight="3"/>
+		<FoodStateCaption Type="Text" ID="830006" Texture="" Rectangle="250,170,324,190" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		<!--好感度-->
+		<Favor Type="Text" Texture="" Rectangle="40,190,140,210" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_7"/>
+		<FavorState Type="Text" ID="830007" Rectangle="110,196,226,209" TexturePos="779,114" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextWeight="3" TextFormat="5"/>
+		<FavorStateText Type="Text" ID="830021" Rectangle="140,193,238,210" TexturePos="1024,1024" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextWeight="3"/>
+		<FavorStateCaption Type="Text" ID="830008" Texture="" Rectangle="250,190,324,210" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		<!--寿命-->
+		<LifeStateLabel Type="Text" Texture="" Rectangle="40,210,140,230" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_8"/>
+		<LifeState Type="Text" ID="830009" Rectangle="110,216,226,229" TexturePos="779,114" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextWeight="3" TextFormat="5"/>
+		<LifeStateText Type="Text" ID="830022" Rectangle="140,212,238,230" TexturePos="1024,1024" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextWeight="3"/>
+		<LifeStateCaption Type="Text" ID="830010" Texture="" Rectangle="250,210,324,230" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+
+
+        
+
+
+        <!--宠物天赋栏标题-->
+		<PetGiftLabel Type="Text" Texture="" Rectangle="25,225,66,267" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_25" OnHovered="PetDetailUIHov(2)" CanHovered="1" OnLeft = "PetOnLeft()" Visible="1"/>
+		<!--宠物天赋栏-->
+		<PetGiftWin Template="T_BgWindow" ID="" Rectangle="25,257,330,310" Visible="1" Enable="0">
+			<PetGenius1 Type="Button" ID="834001" Rectangle="9,5,50,47" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+			<PetGenius2 Type="Button" ID="834002" Rectangle="58,5,99,47" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+			<PetGenius3 Type="Button" ID="834003" Rectangle="107,5,148,47" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+			<PetGenius4 Type="Button" ID="834004" Rectangle="156,5,197,47" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+			<PetGenius5 Type="Button" ID="834005" Rectangle="205,5,246,47" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+			<PetGenius6 Type="Button" ID="834006" Rectangle="254,5,295,47" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+		</PetGiftWin>
+		<!--宠物技能栏标题-->
+		<PetSkillLabel Type="Text" Texture="" Rectangle="25,305,66,347" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_5" OnHovered="PetDetailUIHov(3)" CanHovered="1" OnLeft = "PetOnLeft()" Visible="1"/>
+		<PetSkyllText Type="Text" Rectangle="120,305,280,347" Font="MainMap" TextFormat="4" SText="PETD_X0_52"/>
+		<!--宠物技能栏-->
+		<PetSkillWin Template="T_BgWindow" ID="" Rectangle="25,337,330,440" Visible="1" Enable="0">
+			<Pet1 Type="Button" ID="833000" Rectangle="9,5,50,47" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+			<Pet2 Type="Button" ID="833001" Rectangle="58,5,99,47" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+			<Pet3 Type="Button" ID="833002" Rectangle="107,5,148,47" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+			<Pet4 Type="Button" ID="833003" Rectangle="156,5,197,47" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+			<Pet5 Type="Button" ID="833004" Rectangle="205,5,246,47" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+			<Pet6 Type="Button" ID="833005" Rectangle="254,5,295,47" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+			
+			<Pet7 Type="Button" ID="833006" Rectangle="9,55,50,97" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+			<Pet8 Type="Button" ID="833007" Rectangle="58,55,99,97" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+			<Pet9 Type="Button" ID="833008" Rectangle="107,55,148,97" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+			<Pet10 Type="Button" ID="833009" Rectangle="156,55,197,97" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+			<Pet11 Type="Button" ID="833010" Rectangle="205,55,246,97" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+			<Pet12 Type="Button" ID="833011" Rectangle="254,55,295,97" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+		</PetSkillWin>
+		<!--宠物属性-->
+		<!--等级-->
+		<PetLevLabel Type="Text" Texture="" Rectangle="25,450,66,470" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_31"/>
+		<PetLev Type="Text" ID="830012" Texture="" Rectangle="66,450,166,470" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text="17"/>
+		<!--技巧-->
+		<PetQuality Type="Text" Texture="" Rectangle="25,470,66,490" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_38" OnHovered="PetDetailUIHov(7)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+		<PetQualityNum Type="Text" ID="830019" Texture="" Rectangle="30,470,130,490" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="100.94"/>
+		<PetQualityNum_Add Type="Text" ID="832027" Texture="" Rectangle="130,470,180,490" Font="MainMap" FontColor="GWORed" TextFormat="0" Text="(8.94)"/>		
+        <!--当前经验-->
+		<PetExpLabel Type="Text" Texture="" Rectangle="25,490,66,510" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_32"/>
+		<PetExp Type="Text" ID="830013" Texture="" Rectangle="110,490,176,510" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text="1717"/>
+		<LevupBtn Template="T_Button2_S" ID="830024" Rectangle="160,470,210,492" Font="MainMap" TextFormat="5" Text="upgread"/>
+		<!--升级经验-->
+		<PetNextExpLabel Type="Text" Texture="" Rectangle="25,510,66,530" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_33"/>
+		<PetNextExp Type="Text" ID="830014" Texture="" Rectangle="130,510,166,530" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text="1717171717"/>
+		<!--星座-->
+		<PetConstellationLabel Type="Text" Texture="" Rectangle="220,450,294,470" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_34"/>
+		<PetConstellation Type="Text" ID="830015" Texture="" Rectangle="271,450,320,470" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		<!--融合次数-->
+		<ProcreateNumLabel Type="Text" Texture="" Rectangle="220,470,294,490" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_35" OnHovered="PetDetailUIHov(4)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+		<ProcreateNum Type="Text" ID="830016" Texture="" Rectangle="294,470,320,490" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text="7"/>
+		<!--转生次数-->
+		<RenascenceNumLabel Type="Text" Texture="" Rectangle="220,490,294,510" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_36" OnHovered="PetDetailUIHov(5)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+		<RenascenceNum Type="Text" ID="830017" Texture="" Rectangle="294,490,320,510" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text="7"/>
+		<!--剩余转生-->
+		<RemainNumLabel Type="Text" Texture="" Rectangle="220,510,294,530" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_37" OnHovered="PetDetailUIHov(6)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+		<RemainNum Type="Text" ID="830018" Texture="" Rectangle="294,510,320,530" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text="7"/>
+		<!--悟性值-->
+		<PetSavvy   Type="Text" Texture="" Rectangle="25,532,66,552" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_49"/>
+		<PetSavvyNum1 Type="Text" Texture="" Rectangle="170,532,221,552" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" SText="PETD_X0_39" OnHovered="PetDetailUIHov(8)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+		<PetplusText Type="Text" Texture="" Rectangle="221,532,245,552" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+		<PetSavvyNum2 Type="Text" Texture="" Rectangle="291,532,320,552" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" SText="PETD_X0_40" OnHovered="PetDetailUIHov(9)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+		<!--战斗属性显示区-->
+		<PetBaseBack Template="T_BgWindow" Rectangle="20,555,330,685">
+			<!--灵性-->
+			<PetAttribute1 Type="Text" Texture="" Rectangle="5,5,46,25" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_41" OnHovered="PetDetailUIHov(10)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+			<PetAttribute1Text Type="Text" ID="832001" Texture="" Rectangle="90,5,110,25" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="82.46"/>
+			<PetAttribute1_SkillAdd Type="Text" ID="832002" Texture="" Rectangle="110,5,120,25" Font="MainMap" FontColor="GWORed" TextFormat="0" Text="(200)" visible="1"/>
+			<PetAttribute1Num1 Type="Text" ID="832003" Texture="" Rectangle="150,5,201,25" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="5.71"/>
+			<PetplusText Type="Text" Texture="" Rectangle="201,5,225,25" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+			<PetAttribute1Num2 Type="Text" ID="832004" Texture="" Rectangle="241,5,300,25" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="76.75"/>
+			<!--强壮-->
+			<PetAttribute2 Type="Text" Texture="" Rectangle="5,25,46,45" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_42" OnHovered="PetDetailUIHov(11)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+			<PetAttribute2Text Type="Text" ID="832005" Texture="" Rectangle="80,25,110,45" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="183.04"/>
+			<PetAttribute2_SkillAdd Type="Text" ID="832006" Texture="" Rectangle="110,25,120,45" Font="MainMap" FontColor="GWORed" TextFormat="0" Text="(20)" visible="1"/>
+			<PetAttribute2Num1 Type="Text" ID="832007" Texture="" Rectangle="150,25,201,45" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="5.71"/>
+			<PetplusText Type="Text" Texture="" Rectangle="201,25,225,45" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+			<PetAttribute2Num2 Type="Text" ID="832008" Texture="" Rectangle="241,25,300,45" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="76.75"/>
+			<!--准确-->
+			<PetAttribute3 Type="Text" Texture="" Rectangle="5,45,46,65" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_43" OnHovered="PetDetailUIHov(12)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+			<PetAttribute3Text Type="Text" ID="832009" Texture="" Rectangle="80,45,110,65" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="75.98"/>
+			<PetAttribute3_SkillAdd Type="Text" ID="832010" Texture="" Rectangle="110,45,120,65" Font="MainMap" FontColor="GWORed" TextFormat="0" Text="(20)" visible="1"/>
+			<PetAttribute3Num1 Type="Text" ID="832011" Texture="" Rectangle="150,45,201,65" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="5.71"/>
+			<PetplusText Type="Text" Texture="" Rectangle="201,45,225,65" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+			<PetAttribute3Num2 Type="Text" ID="832012" Texture="" Rectangle="241,45,300,65" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="76.75"/>
+			<!--身法-->
+			<PetAttribute4 Type="Text" Texture="" Rectangle="5,65,46,85" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_44" OnHovered="PetDetailUIHov(13)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+			<PetAttribute4Text Type="Text" ID="832013" Texture="" Rectangle="80,65,110,85" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="63.19"/>
+			<PetAttribute4_SkillAdd Type="Text" ID="832014" Texture="" Rectangle="110,65,120,85" Font="MainMap" FontColor="GWORed" TextFormat="0" Text="(20)" visible="1"/>
+			<PetAttribute4Num1 Type="Text" ID="832015" Texture="" Rectangle="150,65,201,85" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="5.71"/>
+			<PetplusText Type="Text" Texture="" Rectangle="201,65,225,85" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+			<PetAttribute4Num2 Type="Text" ID="832016" Texture="" Rectangle="241,65,300,85" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="76.75"/>
+			<!--根骨-->
+			<PetAttribute5 Type="Text" Texture="" Rectangle="5,85,46,105" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_45" OnHovered="PetDetailUIHov(14)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+			<PetAttribute5Text Type="Text" ID="832017" Texture="" Rectangle="80,85,110,105" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="34.50"/>
+			<PetAttribute5_SkillAdd Type="Text" ID="832018" Texture="" Rectangle="110,85,120,105" Font="MainMap" FontColor="GWORed" TextFormat="0" Text="(20)" visible="1"/>
+			<PetAttribute5Num1 Type="Text" ID="832019" Texture="" Rectangle="150,85,201,105" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="5.71"/>
+			<PetplusText Type="Text" Texture="" Rectangle="201,85,225,105" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+			<PetAttribute5Num2 Type="Text" ID="832020" Texture="" Rectangle="241,85,300,105" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="76.75"/>
+			<!--幸运-->
+			<PetAttribute6 Type="Text" Texture="" Rectangle="5,105,46,125" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_46" OnHovered="PetDetailUIHov(15)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+			<PetAttribute6Text Type="Text" ID="832021" Texture="" Rectangle="80,105,110,125" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="205.32"/>
+			<PetAttribute6_SkillAdd Type="Text" ID="832022" Texture="" Rectangle="110,105,120,125" Font="MainMap" FontColor="GWORed" TextFormat="0" Text="(20)" visible="1"/>
+			<PetAttribute6Num1 Type="Text" ID="832023" Texture="" Rectangle="150,105,201,125" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="5.71"/>
+			<PetplusText Type="Text" Texture="" Rectangle="201,105,225,125" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+			<PetAttribute6Num2 Type="Text" ID="832024" Texture="" Rectangle="241,105,300,125" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="76.75"/>
+		</PetBaseBack>
+	</PetDetailWin>
+	<Script File="./Localization/en_us/UI/XML/PetDetailProc.lua" Help=""/>
+</UIConfig>

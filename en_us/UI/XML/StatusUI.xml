@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2008,欢乐连线工作室
+		All rights reserved
+
+		文件名称：TargetInfoConfig.xml
+		摘    要：选中对象框配置表
+
+		当前版本：1.00
+		作    者：Tavia
+		完成日期：2008-03-22  
+ 
+-->
+<UIConfig>
+  <StatusUI Type="Window" ID="230000"  Rectangle="0,0,250,82" TexturePos="634,874" Texture="./Localization/en_us/UI/Texture/main.gwo" Visible="0" Text="" Layer="1">
+    <Font Type="Text" ID="230001" Rectangle="110, 5 ,230, 23" TexturePos="96,146" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextForamt="5" />
+    <Hp Type="Text" ID="230002" Rectangle="113, 29 ,229, 42" TexturePos="779,114" Texture="./Localization/en_us/UI/Texture/main.gwo" Text=""/>
+    <Mp Type="Text" ID="230003" Rectangle="113, 44 ,229, 57" TexturePos="779,127" Texture="./Localization/en_us/UI/Texture/main.gwo" Text=""/>
+    <Exp Type="Text" ID="230004" Rectangle="111, 62 ,225, 67" TexturePos="780,108" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+    <Leader Type="Text" ID="230006" Rectangle="100, 10 ,116, 22" TexturePos="262,242" Texture="./Localization/en_us/UI/Texture/main.gwo" Text=""  TextFormat="5"/>
+    <UnionSparta Type="Text" ID="230007" Rectangle="28,3,87,62" TexturePos="893,209" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+    <UnionAthens Type="Text" ID="230008" Rectangle="28,3,87,62" TexturePos="893,268" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+    <HpText Type="Text" ID="230009" Rectangle="103, 26 ,239, 42" TexturePos="830,285" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextWeight="3"/>
+    <MpText Type="Text" ID="230010" Rectangle="103, 42 ,239, 58" TexturePos="358,896" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextWeight="3"/>
+    <Rank Type="Text" ID="230012" Rectangle="72, 59 ,109, 75" TexturePos="0,250" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="5"/>
+	<!--摄像机按钮-->
+    <CameraEnable Type="Button" Texture="./Localization/en_us/UI/Texture/Icon2.gwo" TexturePos="193,432" Rectangle="0,80,25,105" OnClick="StatusUI_CameraClick(0)"
+	Visible="0" OnHovered="StatusUI_Hov()" OnLeft="HelperLeftFunc()"/>
+    <CameraUnEnable Type="Button" Texture="./Localization/en_us/UI/Texture/Icon2.gwo" TexturePos="223,432" Rectangle="0,80,25,105" OnClick="StatusUI_CameraClick(1)" Visible="1" OnHovered="StatusUI_Hov1()" OnLeft="HelperLeftFunc()"/>
+  </StatusUI>
+</UIConfig>

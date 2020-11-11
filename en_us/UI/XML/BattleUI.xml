@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--战场UI提示框-->
+<UIConfig>
+
+ 
+	<!--副本图标UI-->
+    <RepIconWnd     Type="Window" Layer="1"  Rectangle="812,99,832,129" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" Visible="0" Enable="0" >      
+
+     <RepWaitIcon Type="Button" ID="450001"  Texture="./Localization/en_us/UI/Texture/Main.gwo" Rectangle="-40,0,-10,30" TexturePos="619,74" Visible="1"/>
+     
+     <RepEnterIcon Type="Button" ID="450002"  Texture="./Localization/en_us/UI/Texture/Main.gwo" Rectangle="-40,0,-10,30" TexturePos="684,74" Visible="1"/>
+  
+	</RepIconWnd>
+	
+	 <!--等待UI-->
+    <BattleWaitWin Template="T_SimpleWindow"  Rectangle="620,39,812,169" BtnRect="170,0,190,21" BtnPos="124,540" Enable="0" Visible="0"
+     OnClose="SetIconVisible()">
+      <WaitText1 Type="Text" Rectangle="30,15,73,25" SText="B_X0_6" Font="MainMap" TextFormat="5" />
+      <WaitText2 Type="Text" Rectangle="20,30,90,40" Text="Labyrinth of Minos" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+      <WaitText3 Type="Text" Rectangle="20,41,90,60" SText="B_X0_7" Font="MainMap" TextFormat="5"/>
+      <WaitText4 Type="Text" Rectangle="90,41,140,60" Text="123" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+      <WaitText4_1 Type="Text" Rectangle="130,41,155,60" SText="B_X0_8" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+      <!--WaitText5 Type="Text" Rectangle="20,61,160,80" Text="预计等待时间：" Font="MainMap"/-->
+      <!--WaitText6 Type="Text" Rectangle="110,61,160,80" Text="30分钟 " Font="MainMap" FontColor="GWORed"/-->
+      <LeaveBtn1  Template="T_Button2" Rectangle="90,91,150,118" SText="B_X0_1" Font="MainMap" TextFormat="5"/>
+    </BattleWaitWin>
+    <!--战场进入UI-->
+    <BattleEnterWin Template="T_SimpleWindow"  Rectangle="620,39,812,169" BtnRect="170,0,190,21" BtnPos="124,540" Enable="0" Visible="0"
+     OnClose="SetIconVisible()">
+        <EnterText1 Type="Text" Rectangle="30,15,93,25" SText="B_X0_9" Font="MainMap" TextFormat="5" />
+        <EnterText2 Type="Text" Rectangle="20,30,90,40" Text="Labyrinth of Minos" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <EnterText3 Type="Text" Rectangle="20,41,90,60" SText="B_X0_10" Font="MainMap"/>
+        <EnterText4 Type="Text" Rectangle="20,61,160,80" SText="B_X0_11" Font="MainMap"/>
+        <EnterText5 Type="Text" Rectangle="120,61,160,80" Text="60" Font="MainMap" FontColor="GWORed"/>
+        <EnterText5_1 Type="Text" Rectangle="140,61,160,80" SText="B_X0_12" Font="MainMap" FontColor="GWORed"/>
+        <EnterBtn  Template="T_Button2" Rectangle="30,91,90,118" SText="B_X0_2" Font="MainMap" TextFormat="5"/>
+        <LeaveBtn2  Template="T_Button2" Rectangle="100,91,160,118" SText="B_X0_3" Font="MainMap" TextFormat="5"/>
+    </BattleEnterWin>
+      <!--战场记分单方UI-->
+     <BattleScoreWinSig Template="T_SimpleWindow"  Rectangle="620,39,812,174"  BtnRect="170,0,190,21" BtnPos="124,540" Enable="0" Visible="0" 
+     OnClose="SetIconVisible()">
+        <ScoreTextSig1 Type="Text" Rectangle="30,15,93,25" Text="Labyrinth of Minos" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <ScoreTextSig2 Type="Text" Rectangle="20,30,70,40" SText="B_X0_13" Font="MainMap" TextFormat="5"/>
+        <ScoreTextSig3 Type="Text" Rectangle="55,30,155,40" Text="30" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <ScoreTextSig3_1 Type="Text" Rectangle="90,30,160,40" SText="B_X0_16" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <ScoreTextSig3_2 Type="Text" Rectangle="125,30,165,40" Text="30" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <ScoreTextSig3_3 Type="Text" Rectangle="155,30,165,40" SText="B_X0_12" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <ScoreTextSig4 Type="Text" Rectangle="20,41,70,60" SText="B_X0_14" Font="MainMap" TextFormat="5"/>
+        <ScoreTextSig5 Type="Text" Rectangle="90,41,160,60" Text="99999" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <ScoreTextSig6 Type="Text" Rectangle="20,81,70,100" SText="B_X0_15" Font="MainMap" TextFormat="5"/>
+        <ScoreTextSig7 Type="Text" Rectangle="90,81,160,100" Text="99999" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <StopScript  Template="T_Button4" Rectangle="10,101,92,128" SText="B_X0_4" Font="MainMap" TextFormat="5"/>
+        <ViewGoup  Template="T_Button4" Rectangle="102,101,184,128" SText="B_X0_5" Font="MainMap" TextFormat="5"/>
+    </BattleScoreWinSig>    
+     <!--战场记分双方UI-->
+     <BattleScoreWin Template="T_SimpleWindow"  Rectangle="620,39,812,174"  BtnRect="170,0,190,21" BtnPos="124,540" Enable="0" Visible="0" 
+      OnClose="SetIconVisible()">
+        <ScoreText1 Type="Text" Rectangle="30,15,93,25" Text="Labyrinth of Minos" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <ScoreText2 Type="Text" Rectangle="20,30,70,40" Text="Countdown" Font="MainMap" TextFormat="5"/>
+        <ScoreText3 Type="Text" Rectangle="55,30,155,40" Text="30" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <ScoreText3_1 Type="Text" Rectangle="90,30,160,40" Text="min" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <ScoreText3_2 Type="Text" Rectangle="125,30,165,40" Text="30" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <ScoreText3_3 Type="Text" Rectangle="155,30,165,40" Text="sec" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <ScoreText4 Type="Text" Rectangle="20,41,70,60" Text="Our score" Font="MainMap" TextFormat="5"/>
+        <ScoreText5 Type="Text" Rectangle="90,41,160,60" Text="99999" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <ScoreText6 Type="Text" Rectangle="20,61,70,80" Text="Opponents' score" Font="MainMap" TextFormat="5"/>
+        <ScoreText7 Type="Text" Rectangle="90,61,160,80" Text="99999" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <ScoreText8 Type="Text" Rectangle="20,81,70,100" Text="Our People" Font="MainMap" TextFormat="5"/>
+        <ScoreText9 Type="Text" Rectangle="90,81,160,100" Text="99999" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <ScoreText10 Type="Text" Rectangle="20,101,70,110" Text="Hostile People" Font="MainMap" TextFormat="5"/>
+        <ScoreText11 Type="Text" Rectangle="90,101,160,110" Text="99999" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <ViewGoup  Template="T_Button4" Rectangle="102,101,184,128" Text="Check team" Font="MainMap" TextFormat="5"/>
+    </BattleScoreWin>
+    <!--战场重置UI-->
+     <BattleResetWin Template="T_SimpleWindow"  Rectangle="620,39,812,169" BtnRect="170,0,190,21" BtnPos="124,540" Enable="0" Visible="0" 
+      OnClose="SetIconVisible()">
+      <ResetText1 Type="Text" Rectangle="50,15,93,25" SText="B_X0_27" Font="MainMap" TextFormat="5" />
+      <ResetText2 Type="Text" Rectangle="20,30,90,40" Text="Labyrinth of Minos" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+      <ResetText3 Type="Text" Rectangle="20,41,90,60" SText="B_X0_28" Font="MainMap" TextFormat="5"/>
+      <ResetText4 Type="Text" Rectangle="122,41,182,60" Text="123" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+      <ResetText4_1 Type="Text" Rectangle="162,41,187,60" SText="B_X0_12" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+      <!--WaitText5 Type="Text" Rectangle="20,61,160,80" Text="预计等待时间：" Font="MainMap"/-->
+      <!--WaitText6 Type="Text" Rectangle="110,61,160,80" Text="30分钟 " Font="MainMap" FontColor="GWORed"/-->
+      <ResetBtn1  Template="T_Button2" Rectangle="95,91,155,118" SText="B_X0_29" Font="MainMap" TextFormat="5"/>
+    </BattleResetWin>
+     <!--战场邀请UI-->
+     <BattleInvWin Template="T_SimpleWindow"  Rectangle="620,39,812,169" BtnRect="170,0,190,21" BtnPos="124,540" Enable="0" Visible="0" 
+      OnClose="SetIconVisible()">
+        <EnterText1 Type="Text" Rectangle="30,15,93,25" Text="XXX" Font="MainMap" FontColor="TEAM_COLOR" TextFormat="5" />
+        <EnterText2 Type="Text" Rectangle="20,30,90,40" SText="B_X0_23" Font="MainMap"  TextFormat="5"/>
+        <EnterText3 Type="Text" Rectangle="20,41,90,60" Text="Labyrinth of Minos" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <EnterText4 Type="Text" Rectangle="20,61,90,80" SText="B_X0_24" Font="MainMap" TextFormat="5"/>
+        <EnterText5 Type="Text" Rectangle="97,61,157,80" Text="30" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <EnterText5_1 Type="Text" Rectangle="135,61,165,80" SText="B_X0_12" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <EnterBtn  Template="T_Button2" Rectangle="20,91,80,118" SText="B_X0_25" Font="MainMap" TextFormat="5"/>
+        <LeaveBtn2  Template="T_Button2" Rectangle="90,91,150,118" SText="B_X0_26" Font="MainMap" TextFormat="5"/>
+    </BattleInvWin>
+    <!--战场中止投票UI-->
+    <BattleStopWin Template="T_SimpleWindow"  Rectangle="620,49,812,189"  BtnRect="170,0,190,21" BtnPos="124,540" Enable="0" Visible="0" 
+      OnClose="SetIconVisible()">
+        <StopTextSig1 Type="Text" Rectangle="20,20,70,30" SText="B_X0_17" Font="MainMap"  TextFormat="5"/>
+        <StopTextSig3 Type="Text" Rectangle="20,35,70,45" SText="B_X0_18" Font="MainMap"  TextFormat="5"/>
+        <StopTextSig4 Type="Text" Rectangle="9,47,159,66" SText="B_X0_19" Font="MainMap"  TextFormat="5"/>
+        <StopTextSig5 Type="Text" Rectangle="20,69,70,78" SText="B_X0_20" Font="MainMap" TextFormat="5"/>
+        <StopTextSig6 Type="Text" Rectangle="54,69,154,78" Text="xx" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <StopTextSig6_1 Type="Text" Rectangle="89,69,159,78" SText="B_X0_16" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <StopTextSig6_2 Type="Text" Rectangle="122,69,162,78" Text="xx" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <StopTextSig6_3 Type="Text" Rectangle="151,69,161,78" SText="B_X0_12" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <StopTextSig7 Type="Text" Rectangle="30,80,80,99" SText="B_X0_14" Font="MainMap" TextFormat="5"/>
+        <StopTextSig8 Type="Text" Rectangle="100,80,170,99" Text="99999" Font="MainMap" FontColor="GWORed" TextFormat="5"/>
+        <Agree  Template="T_Button2" Rectangle="20,101,80,128" SText="B_X0_21" Font="MainMap" TextFormat="5"/>
+        <Fight  Template="T_Button2" Rectangle="90,101,150,128" SText="B_X0_22" Font="MainMap" TextFormat="5"/>
+     </BattleStopWin> 
+	<Script File="./Localization/en_us/UI/XML/Battle.lua" Help=""/>
+</UIConfig>

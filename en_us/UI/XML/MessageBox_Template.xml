@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UITemplate>
+  
+  <!--主窗体-->
+  <MessageBoxWin Rectangle="392,319,632,449"/>
+  <!--提示内容-->
+  <MessageBoxWinMainText  Rectangle="30,5,220,65"  TextFormat="21"/>
+  <!--确定按钮-->
+  <MessageBoxWinOKBtn Rectangle="49,94,118,121"  TexturePos="196,80" TextFormat="5"/>
+  <!--取消按钮-->
+  <MessageBoxWinCancelBtn Rectangle="121,94,190,121"  TexturePos="196,80" TextFormat="5"/>
+  <!--左边花边 -->
+  <MessageBoxWinLeftText Rectangle="14,107,48,120" TexturePos="161,99"/>
+  <!--右边花边-->
+  <MessageBoxWinRightText Rectangle="191,107,225,120" TexturePos="161,126"/>
+  <!--单个按钮-->
+  <MessageBoxWinSingleBtn Rectangle="85,94,154,121"  />
+  <!--单个按钮左边花边 -->
+  <MessageBoxWinSingleLeft Rectangle="50,107,84,120" />
+  <!--单个按钮右边花边-->
+  <MessageBoxWinSingleRight Rectangle="155,107,189,120" />
+
+
+</UITemplate>

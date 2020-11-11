@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+  <Script File="./Localization/en_us/UI/XML/Constellation.lua" Help=""/>
+ 
+  <ConstellationWin Template="T_NormalWindow" Rectangle="100,150,735,650"  Visible ="0" BtnRect="565,13,602,50" BtnPos="0,80" MoveRect="0,0,1024,768" UseEsc="1" OnLoad="Constellation_Init()">
+    <!--星座-->
+    <ConstellationName Type="Text" Font="MainMap" Rectangle="25,84,83,102"  TextFormat="0" Text="" />
+    <LuckyDay Type="Text" Rectangle="180,76,212,107" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="433,75"  OnHovered="StatuHov()" OnLeft="StoneOnLeft()" CanHovered="1" Visible ="0"/>
+    <ConstellationPic Type="Text"  Rectangle="35,114,211,264"  Texture="./Localization/en_us/UI/Texture/001.gwo" TexturePos="0,0"/>
+    <!--详细介绍按钮-->
+    <!--IntroBtn  Template="T_Button3"  Rectangle="145,80,215,107"  SText="CON_X0_1"  TextWeight="1" Font="MainMap" Visible ="0"/-->
+    
+    <!--星盘等级-->
+    <LevelTextName Type="Text" Font="MainMap" Rectangle="25,280,63,300"  TextFormat="0" SText="CON_X0_2" Visible ="0"/>
+    <LevelText Type="Text" Font="MainMap" Rectangle="95,280,100,300"  TextFormat="0" Text="1" Visible ="0"/>
+    
+   
+    
+    <!--领取经验,专长-->
+    <IntroBtn  Template="T_Button9"  Rectangle="25,320,177,347"  SText="CON_X0_4"   Font="MainMap" OnClick="GetExpSk()"
+	OnHovered="GetExpSkHov()" OnLeft = "StoneOnLeft()" Visible ="0" OnScaleX="2"/>
+    
+    <Text1 Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="531,586" Type="Text" Font="MainMap" Rectangle="25,365,52,392"  TextFormat="0" Text="" Visible ="0"/>
+    <Button1  Template="T_Button2"  Rectangle="55,365,116,392"  SText="CON_X0_5"   Font="MainMap" OnClick="StoneOnClick(0)"
+	OnHovered="LevUpHov(0)" OnLeft = "StoneOnLeft()" Visible ="0"/>
+	
+    <!--技能培养-->
+    <Text2 Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="560,586" Type="Text" Font="MainMap" Rectangle="125,365,151,392"  TextFormat="0" Text="" Visible ="0"/>
+    <Button2  Template="T_Button2"  Rectangle="156,365,217,392"  SText="CON_X0_10"   Font="MainMap" OnClick="StoneOnClick(1)"
+     OnHovered="SkillGrowHov()" OnLeft = "StoneOnLeft()" Visible ="0"/>
+    
+    <!--星座能量-->
+    <PowerTextName Type="Text" Font="MainMap2" Rectangle="15,280,53,300"  TextFormat="0" SText="CON_X0_11"/>
+    <PowerText Type="Text" Font="MainMap2" Rectangle="120,280,272,300"  TextFormat="0" Text=""/>
+    
+    <!--当前星座能量积累速度-->
+    <!--AccumulateSpName Type="Text" Font="MainMap" Rectangle="25,305,63,325"  TextFormat="0" Text="当前星座能量积累速度："/>
+    <AccumulateSp Type="Text" Font="MainMap" Rectangle="170,305,245,325"  TextFormat="0" Text="11111"/-->
+    
+    <!--升级下一等级需要能量-->
+    <NeedPowerName Type="Text" Font="MainMap" Rectangle="25,310,63,330"  TextFormat="0" SText="CON_X0_12"/>
+    <NeedPower Type="Text" Font="MainMap" Rectangle="140,310,292,330"  TextFormat="0" Text=""/>
+    
+    <!--升级下一等级需要能量-->
+    <NeedLevName Type="Text" Font="MainMap" Rectangle="25,340,63,360"  TextFormat="0" SText="CON_X0_13"/>
+    <NeedLev Type="Text" Font="MainMap" Rectangle="175,340,275,360"  TextFormat="0" Text=""/>
+    
+    <!--星座升级按钮-->
+    <AddBtn  Template="T_Button4"  Rectangle="85,395,167,422"  SText="CON_X0_14"   TextFormat="5" OnClick="Constellation_OnClick()"/>
+    
+    <Star1 Type="Text" Font="MainMap" Rectangle="25,430,43,449"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="567,587"/>
+    <Star2 Type="Text" Font="MainMap" Rectangle="45,430,63,449"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    <Star3 Type="Text" Font="MainMap" Rectangle="65,430,83,449"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    <Star4 Type="Text" Font="MainMap" Rectangle="85,430,103,449"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    <Star5 Type="Text" Font="MainMap" Rectangle="105,430,123,449"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    <Star6 Type="Text" Font="MainMap" Rectangle="125,430,143,449"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    <Star7 Type="Text" Font="MainMap" Rectangle="145,430,163,449"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    <Star8 Type="Text" Font="MainMap" Rectangle="165,430,183,449"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    <Star9 Type="Text" Font="MainMap" Rectangle="185,430,203,449"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    <Star10 Type="Text" Font="MainMap" Rectangle="205,430,223,449"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    
+    
+    <Star11 Type="Text" Font="MainMap" Rectangle="25,460,43,479"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="567,587"/>
+    <Star12 Type="Text" Font="MainMap" Rectangle="45,460,63,479"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    <Star13 Type="Text" Font="MainMap" Rectangle="65,460,83,479"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    <Star14 Type="Text" Font="MainMap" Rectangle="85,460,103,479"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    <Star15 Type="Text" Font="MainMap" Rectangle="105,460,123,479"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    <Star16 Type="Text" Font="MainMap" Rectangle="125,460,143,479"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    <Star17 Type="Text" Font="MainMap" Rectangle="145,460,163,479"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    <Star18 Type="Text" Font="MainMap" Rectangle="165,460,183,479"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    <Star19 Type="Text" Font="MainMap" Rectangle="185,460,203,479"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    <Star20 Type="Text" Font="MainMap" Rectangle="205,460,223,479"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="485,587"/>
+    <!--悬停用text-->
+    <Star11 Type="Text" Font="MainMap" Rectangle="25,440,223,459"  TextFormat="0" Text="" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024"  OnHovered="LevUpHov(8)"  CanHovered="1" OnLeft="StoneOnLeft()" />
+    
+    
+    <ConstellationTabBar Type="TabBar"  Rectangle="255,72,645,517" TexturePos="1024,1024" Texture="./Localization/en_us/UI/Texture/main.gwo">
+       <!--经验积累分页-->
+       <ExpAccumulate Type="Tab" Rectangle="0,-24,77,-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="530,673" SText="CON_X0_15" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" Textweight="3">
+          <ExpAccumulateWin Template="T_BgWindow"  Rectangle="15,15,350,335" Visible="1" Enable="0"/>
+          <ExpAccumulateText Type="Text" Font="MainMap" Rectangle="15,25,340,45"  TextFormat="5" SText="CON_X0_15"/>
+          <ExpAccumulateIntro Type="Text" Font="MainMap" Rectangle="20,45,345,65"  TextFormat="16" SText="CON_X0_16"/>
+          <!--当前等级效果-->
+          <ExpAccumulateEffect Type="Text" Font="MainMap" Rectangle="20,135,340,155"  TextFormat="0" SText="CON_X0_17" />
+          <NowExpAccumulateText Type="Text" Font="MainMap" Rectangle="20,155,340,175"  TextFormat="0" SText="CON_X0_18"/>
+          <NowExpAccumulate Type="Text" Font="MainMap" Rectangle="150,155,400,175"  TextFormat="0" Text=""/>
+          <MaxExpAccumulateText Type="Text" Font="MainMap" Rectangle="20,175,340,195"  TextFormat="0" SText="CON_X0_34"/>
+          <MaxExpAccumulate Type="Text" Font="MainMap" Rectangle="220,175,480,195"  TextFormat="0" Text="10000"/>
+          <NowSpecialAccumulateText Type="Text" Font="MainMap" Rectangle="20,195,340,215"  TextFormat="0" SText="CON_X0_19"/>
+          <NowSpecialAccumulate Type="Text" Font="MainMap" Rectangle="220,195,440,215"  TextFormat="0" Text=""/>
+          <MaxSpecialAccumulateText Type="Text" Font="MainMap" Rectangle="20,215,340,235"  TextFormat="0" SText="CON_X0_35"/>
+          <MaxSpecialAccumulate Type="Text" Font="MainMap" Rectangle="270,215,500,235"  TextFormat="0" Text="10000"/>
+          <!--下一等级效果-->
+          <NextLev Type="Text" Font="MainMap" Rectangle="20,235,340,255"  TextFormat="0" SText="CON_X0_20"/>
+          <NextExpAccumulateText Type="Text" Font="MainMap" Rectangle="20,255,340,275"  TextFormat="0" SText="CON_X0_18"/>
+          <NextExpAccumulate Type="Text" Font="MainMap" Rectangle="150,255,400,275"  TextFormat="0" Text=""/>
+          <NextSpecialAccumulateText Type="Text" Font="MainMap" Rectangle="20,275,340,295"  TextFormat="0" SText="CON_X0_19"/>
+          <NextSpecialAccumulate Type="Text" Font="MainMap" Rectangle="220,275,480,295"  TextFormat="0" Text=""/>
+          <LevUp Type="Text" Font="MainMap" Rectangle="20,295,340,315"  TextFormat="0" SText="CON_X0_21"/>
+          <LevUpPowerText Type="Text" Font="MainMap" Rectangle="20,315,340,335"  TextFormat="0" SText="CON_X0_22"/>
+          <LevUpPower Type="Text" Font="MainMap" Rectangle="135,315,385,335"  TextFormat="0" Text=""/>
+          <LevUpGoldText Type="Text" Font="MainMap" Rectangle="200,315,370,335"  TextFormat="0" SText="CON_X0_23"/>
+          <LevUpGold Type="Text" Font="MainMap" Rectangle="280,315,375,335"  TextFormat="0" Text=""/>
+           
+          <!--经验积累-->
+          <ExpTextName Type="Text" Font="MainMap" Rectangle="15,350,63,370"  TextFormat="0" SText="CON_X0_24"/>
+          <ExpText Type="Text" Font="MainMap" Rectangle="80,350,240,370"  TextFormat="0" Text=""/>
+          
+          <!--专长积累-->
+          <SpecialTextName Type="Text" Font="MainMap" Rectangle="15,385,63,405"  TextFormat="0" SText="CON_X0_25"/>
+          <SpecialText Type="Text" Font="MainMap" Rectangle="135,385,230,405"  TextFormat="0" Text=""/>
+          
+          <!--领取经验,专长-->
+          <IntroBtn  Template="T_Button9"  Rectangle="188,345,340,372"  SText="CON_X0_4"   Font="MainMap" OnClick="GetExpSk()"/>
+          <!--升级-->
+          <LevUpBtn  Template="T_Button4"  Rectangle="223,382,305,409"  SText="CON_X0_26"   Font="MainMap" OnClick="StoneOnClick(0)" OnScaleX="1.4" TextOffset="5,0,0,0"/>
+          
+       </ExpAccumulate>
+       
+       <!--技能培养分页-->
+       <SkillTrain Type="Tab" ID="483000" Rectangle="77,-24,154,-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="530,673" SText="CON_X0_27" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" Textweight="3">
+          <SkillTrainIntro Type="Text" Font="MainMap" Rectangle="20,7,345,65"  TextFormat="16" SText="CON_X0_33"/>
+          <AttackTrainingWin Template="T_BgWindow"  ID="483001" Rectangle="180,137,315,200"   Enable="0">
+            <AttackSkill1 Template="T_TopButton"  ID="483100"   Rectangle="9,10,50,52"  OnHovered="SkillTrain_OnHov(0)" OnLeft = "SkillTrain_OnLeft()"
+       OnClick="SkillTrain_ActiveGird(0)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936" />
+            <AttackSkill2 Template="T_TopButton"  ID="483101"   Rectangle="58,10,99,52"  OnHovered="SkillTrain_OnHov(1)" OnLeft = "SkillTrain_OnLeft()"
+       OnClick="SkillTrain_ActiveGird(1)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+             <AttackSkill3 Template="T_TopButton" ID="483102"  Visible ="0" Rectangle="107,10,148,52"  OnHovered="SkillTrain_OnHov(2)" OnLeft = "SkillTrain_OnLeft()"
+      BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+			<AttackSkill4 Template="T_TopButton" ID="483103"  Visible ="0" Rectangle="156,10,197,52"  OnHovered="SkillTrain_OnHov(3)" OnLeft = "SkillTrain_OnLeft()"
+      BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>      
+            <AttackSkillText Type="Text" Texture="" Rectangle="10,-20,66,-5" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="CON_X0_28"/>
+          </AttackTrainingWin>
+
+
+          <AttackUpWin Template="T_BgWindow" ID="483002" Rectangle="25,137,160,200"  Enable="0">
+            <AttackSkill1 Template="T_TopButton" ID="483104"  Rectangle="9,10,50,52"  OnHovered="SkillTrain_OnHov(4)" OnLeft = "SkillTrain_OnLeft()"
+      OnClick="SkillTrain_ActiveGird(4)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936" />
+            <AttackSkill2 Template="T_TopButton" ID="483105"  Rectangle="58,10,99,52"  OnHovered="SkillTrain_OnHov(5)" OnLeft = "SkillTrain_OnLeft()"
+      OnClick="SkillTrain_ActiveGird(5)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+             <AttackSkill3 Template="T_TopButton" ID="483106"  Visible ="0"  Rectangle="107,10,148,52"  OnHovered="SkillTrain_OnHov(6)" OnLeft = "SkillTrain_OnLeft()"
+      BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+              <AttackSkill4 Template="T_TopButton" ID="483107"  Visible ="0"  Rectangle="156,10,197,52"  OnHovered="SkillTrain_OnHov(7)" OnLeft = "SkillTrain_OnLeft()"
+      BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+            <AttackSkillText Type="Text" Texture="" Rectangle="-20,-20,36,-5" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="CON_X0_29"/>
+         </AttackUpWin>
+         
+          <DefenseTrainingWin Template="T_BgWindow" ID="483003" Rectangle="25,240,320,303"  Enable="0">
+            <DefenseSkill1 Template="T_TopButton" ID="483108"   Rectangle="9,10,50,52"   OnHovered="SkillTrain_OnHov(8)" OnLeft = "SkillTrain_OnLeft()"
+      OnClick="SkillTrain_ActiveGird(8)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"  />
+            <DefenseSkill2 Template="T_TopButton"  ID="483109"  Rectangle="58,10,99,52"  OnHovered="SkillTrain_OnHov(9)" OnLeft = "SkillTrain_OnLeft()"
+       OnClick="SkillTrain_ActiveGird(9)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+            <DefenseSkill3 Template="T_TopButton"  ID="483110"  Rectangle="107,10,148,52" OnHovered="SkillTrain_OnHov(10)" OnLeft = "SkillTrain_OnLeft()"
+       OnClick="SkillTrain_ActiveGird(10)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936" />
+            <DefenseSkill4 Template="T_TopButton" ID="483111" Rectangle="156,10,197,52" OnHovered="SkillTrain_OnHov(11)" OnLeft = "SkillTrain_OnLeft()"
+       OnClick="SkillTrain_ActiveGird(11)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936" />
+
+            <DefenseSkillText Type="Text" Texture="" Rectangle="10,-20,66,-5" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="CON_X0_30"/>
+            <ChooseBtn     Template="T_Button4"  ID="483212" Rectangle="204,18,286,45"  SText="CON_X0_32"  TextFormat="5"  Font="MainMap" OnScaleX="1.1"/>
+          </DefenseTrainingWin>
+          
+          <DefenseUpWin Template="T_BgWindow" ID="483004" Rectangle="25,343,320,406"  Enable="0">
+            <DefenseSkill5 Template="T_TopButton"  ID="483112"  Rectangle="9,10,50,52"   OnHovered="SkillTrain_OnHov(12)" OnLeft = "SkillTrain_OnLeft()"
+       OnClick="SkillTrain_ActiveGird(12)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936" />
+            <DefenseSkill6 Template="T_TopButton"  ID="483113"  Rectangle="58,10,99,52"  OnHovered="SkillTrain_OnHov(13)" OnLeft = "SkillTrain_OnLeft()"
+       OnClick="SkillTrain_ActiveGird(13)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+            <DefenseSkill7 Template="T_TopButton"  ID="483114"  Rectangle="107,10,148,52" OnHovered="SkillTrain_OnHov(14)" OnLeft = "SkillTrain_OnLeft()"
+      OnClick="SkillTrain_ActiveGird(14)"  BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936" />
+            <DefenseSkill8 Template="T_TopButton"   ID="483115" Rectangle="156,10,197,52" OnHovered="SkillTrain_OnHov(15)" OnLeft = "SkillTrain_OnLeft()"
+       OnClick="SkillTrain_ActiveGird(15)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936" />
+
+            <DefenseSkillText Type="Text" Texture="" Rectangle="10,-20,66,-5" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="CON_X0_31"/>
+            <ChooseBtn     Template="T_Button4" ID="483213" Rectangle="204,18,286,45"  SText="CON_X0_32"  TextFormat="5"  Font="MainMap" OnScaleX="1.1"/>
+          </DefenseUpWin>
+       </SkillTrain>
+       
+       
+    </ConstellationTabBar>
+    
+    <!--经验积累升级窗口-->
+    <UpgradeWin Template="T_SimpleWindow" Rectangle="600,360,750,470" Visible ="0" Enable="0">
+     <PowerLevup Template="T_NormalCheckBox"  TexturePos="222,189" Rectangle="30,20,47,38" TextFormat="0" OnChecked="PowerCheck()"/>
+     <PowerText Type="Text"  TexturePos="1024,1024" Rectangle="57,20,100,30" SText="CON_X0_7" Font="MainMap"/>
+     <GoldLevup Template="T_NormalCheckBox"  TexturePos="222,189" Rectangle="30,48,47,66" OnChecked="GoldCheck()"/> 
+     <GoldText Type="Text"  TexturePos="1024,1024" Rectangle="57,48,100,58" SText="CON_X0_8" Font="MainMap"/>
+     <OKBtn Template="T_Button2_S"  Rectangle="25,78,75,100"  SText="C_X2_3"  TextFormat="5" OnClick="Stone1OnClick()" Font="MainMap"/>
+     <CloseBtn Template="T_Button2_S"  Rectangle="75,78,125,100"  SText="C_X2_4"  TextFormat="5" OnClick="Stone2OnClick()" Font="MainMap"/>
+    </UpgradeWin>
+    
+    <!--滚动条-->
+    <UpButtonTop Template="T_TitleText" ID="-1" Rectangle="230,82,253,106" TexturePos="720,0" Text=""/>
+	<DownButtonBtm Template="T_TitleText" ID="-1" Rectangle="230,463,253,487" TexturePos="720,30" Text=""/>
+	<BscrollMid Template="T_TitleText" ID="-1" Rectangle="230,96,253,97" TexturePos="720,26" Text="" OnScaleY="370"/>
+	<UpButton Template="T_UpButton" ID="-1" Rectangle="227,72,255,94" />
+	<DownButton Template="T_DownButton" ID="-1" Rectangle="227,470,255,492"/>
+  </ConstellationWin>
+  
+     <!--弹出选择金币还是绑定金币激活格子 --> 
+    <ActiveGirdWin Template="T_SimpleWindow" Rectangle="670,360,900,470" OnLoad="SkillTrain_Init()" Visible ="0">
+      <Text Type="Text"  TexturePos="1024,1024" Rectangle="17,30,213,58" Text="" Font="MainMap" TextFormat="16"/>
+     
+     <OKBtn Template="T_Button2_S"  Rectangle="25,78,75,100"  SText="C_X2_3"  TextFormat="5" OnClick="SkillTrain_OK()" Font="MainMap"/>
+     <CloseBtn Template="T_Button2_S"  Rectangle="145,78,195,100"  SText="C_X2_4"  TextFormat="5" OnClick="SkillTrain_Cancel()" Font="MainMap"/>
+    </ActiveGirdWin>
+</UIConfig>

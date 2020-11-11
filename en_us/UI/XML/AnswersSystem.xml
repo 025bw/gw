@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+	<AnswersSystemWin Template="T_NormalWindow" Rectangle="230,130,841,628" OnLoad="Answer_OnLoad()" BtnPos="0,80" BtnRect="545,13,582,50" Enable="1" Visible="0">
+	 <!--问题的选择界面-->
+		<AnswerWin Template="T_BgWindow" Rectangle="18,71,352,490" Enable="0" Visible="0">
+		    <Subject Type="Text" Rectangle="18,22,57,32" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" Text="" TextFormat="5" Visible="1"/>
+		    
+			<ChooiseButton1 Template="T_Button2" Rectangle="2,165,63,192" OnClick="Answer_Onclick(1)" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" Text="A"/>
+			<ChooiseButton2 Template="T_Button2" Rectangle="2,222,63,249" OnClick="Answer_Onclick(2)" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" Text="B"/>
+			<ChooiseButton3 Template="T_Button2" Rectangle="2,279,63,306" OnClick="Answer_Onclick(3)" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" Text="C"/>
+			<ChooiseButton4 Template="T_Button2" Rectangle="2,336,63,363" OnClick="Answer_Onclick(4)" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" Text="D"/>
+			
+			<ChooiseContent1 Type="Text" Rectangle="73,165,299,192" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="16" />
+			<ChooiseContent2 Type="Text" Rectangle="73,222,299,249" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="16" />
+			<ChooiseContent3 Type="Text" Rectangle="73,279,299,306" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="16" />
+			<ChooiseContent4 Type="Text" Rectangle="73,336,299,363" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="16" />
+			
+			<SubjectContent Type="Text" Rectangle="6,36,310,134" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="16" />
+			<StoneLeft Type="Text" Rectangle="305,25,312,48" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="131,173"/>
+			<StoneRight Type="Text" Rectangle="321,25,328,48" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="138,173"/>
+			<StoneMid Type="Text" Rectangle="307,75,308,110" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="137,173"/>
+			<StoneText Template="T_NoBackgroundText" Rectangle="305,140,332,166" ID="-1" TexturePos="367,34"/>
+			
+			<ListBoxBtm Type="Text" Rectangle="306,375,331,405" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="720,30"/>
+			<ListBoxTop Type="Text" Rectangle="306,20,331,47" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="720,0"/>
+			<ListBoxScrollMid Type="Text" Rectangle="306,45,330,46" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" ID="-1" OnScaleY="330" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="720,26"/>
+			<UpBtn Type="Button" Rectangle="303,0,330,22" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" ID="2900055" OnClick="UpListBoxBtn()" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,228"/>
+			<DownBtn Type="Button" Rectangle="303,396,330,418" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" ID="290006" OnClick="DownListBoxBtn()" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="29,228"/>
+			<Title Type="Text" Rectangle="74,6,156,16" Font="MainMap" FontColor="GREEN_TEXTCOLOR" SText="ANSWERSY_X0_7" TextFormat="5" />
+			<TipsNumber Type="Text" Rectangle="23,386,33,404" Font="MainMap" FontColor="GWORed" Text="" TextFormat="5" />
+			<TipsText Type="Text" Rectangle="44,386,298,404" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="ANSWERSY_X0_8" TextFormat="5" />
+			<InText Type="Text" Rectangle="3,386,10,404" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="In" TextFormat="5" />
+
+		</AnswerWin>
+		
+		 <!--活动介绍-->
+		<IntroWin Template="T_BgWindow" Rectangle="354,72,595,490" Enable="0" Visible="1">
+			<IntroContent1 Type="Text" Rectangle="11,17,239,176" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="ANSWERSY_X0_4" TextFormat="16"/>
+			<IntroContent2 Type="Text" Rectangle="10,302,238,313" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="ANSWERSY_X0_5" TextFormat="16"/>
+		</IntroWin>
+		
+		 <!--答题结果-->
+		<ResultWin Template="T_BgWindow" Rectangle="18,71,352,490" Enable="0" Visible="1">
+			<StoneLeft1 Type="Text" Rectangle="305,25,312,48" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="131,173"/>
+			<StoneRight1 Type="Text" Rectangle="321,25,328,48" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="138,173"/>
+			<StoneMid1 Type="Text" Rectangle="307,75,308,110" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="137,173"/>
+			<StoneText1 Template="T_NoBackgroundText" Rectangle="305,140,332,166" ID="-1" TexturePos="367,34"/>
+			
+			<ListBoxBtm1 Type="Text" Rectangle="306,375,331,405" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="720,30"/>
+			<ListBoxTop1 Type="Text" Rectangle="306,20,331,47" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="720,0"/>
+			<ListBoxScrollMid1 Type="Text" Rectangle="306,45,330,46" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" ID="-1" OnScaleY="330" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="720,26"/>
+			<UpBtn1 Type="Button" Rectangle="303,0,330,22" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" ID="2900055" OnClick="UpListBoxBtn()" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,228"/>
+			<DownBtn1 Type="Button" Rectangle="303,396,330,418" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" ID="290006" OnClick="DownListBoxBtn()" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="29,228"/>
+			<Result Type="Text" Rectangle="10,29,293,187" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="16" />
+			<ResultButton Template="T_Button4" Rectangle="210,335,293,362" SText="ANSWERSY_X0_1" OnClick="AnswerGoOn_Onclick()" Visible="0"/>
+			<EndButton Template="T_Button4" Rectangle="120,335,203,362" SText="ANSWERSY_X0_2" OnClick="AnswerEnd_Onclick()"  Visible="0"/>
+			<RewardButton Template="T_Button9" Rectangle="45,335,197,362" SText="ANSWERSY_X0_3" OnClick="AnswerReward_Onclick()" Visible="0"/>
+
+		    <Title1 Type="Text" Rectangle="74,6,156,16" Font="MainMap" FontColor="GREEN_TEXTCOLOR" SText="ANSWERSY_X0_7" TextFormat="5" Visible="0" />
+			<TipsNumber1 Type="Text" Rectangle="23,386,33,404" Font="MainMap" FontColor="GWORed" Text="" TextFormat="5" Visible="0" />
+			<TipsText1 Type="Text" Rectangle="44,386,298,404" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="ANSWERSY_X0_8" TextFormat="5" Visible="0" />
+			<InText1  Type="Text" Rectangle="3,386,10,404" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="In" TextFormat="5" Visible="0"  />
+
+		</ResultWin>
+		
+		 <!--活动排名-->
+		<TopWin Template="T_BgWindow" Rectangle="354,72,595,490" Enable="0" Visible="0">
+			<Sequence1 Type="Text" Rectangle="10,50,23,71" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="1" TextFormat="5" />
+			<Sequence2 Type="Text" Rectangle="10,71,23,92" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="2" TextFormat="5" />
+			<Sequence3 Type="Text" Rectangle="10,92,23,113" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="3" TextFormat="5" />
+			<Sequence4 Type="Text" Rectangle="10,113,23,134" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="4" TextFormat="5" />
+			<Sequence5 Type="Text" Rectangle="10,134,23,155" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="5" TextFormat="5" />
+			<Sequence6 Type="Text" Rectangle="10,155,23,176" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="6" TextFormat="5" />
+			<Sequence7 Type="Text" Rectangle="10,176,23,197" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="7" TextFormat="5" />
+			<Sequence8 Type="Text" Rectangle="10,197,23,218" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="8" TextFormat="5" />
+			<Sequence9 Type="Text" Rectangle="10,218,23,239" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="9" TextFormat="5" />
+			<Sequence10 Type="Text" Rectangle="10,239,23,260" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="10" TextFormat="5" />
+			
+			<DefTextName Type="Text" Rectangle="35,6,200,26" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" SText="ANSWERSY_X0_6" TextFormat="5" />
+			<Player1 Type="Text" Rectangle="29,50,104,71" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5" />
+			<Player2 Type="Text" Rectangle="29,71,104,92" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5" />
+			<Player3 Type="Text" Rectangle="29,92,104,113" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5" />
+			<Player4 Type="Text" Rectangle="29,113,104,134" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5" />
+			<Player5 Type="Text" Rectangle="29,134,104,155" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5" />
+			<Player6 Type="Text" Rectangle="29,155,104,176" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5" />
+			<Player7 Type="Text" Rectangle="29,176,104,197" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5" />
+			<Player8 Type="Text" Rectangle="29,197,104,218" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5" />
+			<Player9 Type="Text" Rectangle="29,218,104,239" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5" />
+			<Player10 Type="Text" Rectangle="29,239,104,260" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5" />
+			
+			<Score1 Type="Text" Rectangle="140,50,186,71" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="0" />
+			<Score2 Type="Text" Rectangle="140,71,186,92" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="0" />
+			<Score3 Type="Text" Rectangle="140,92,186,113" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="0" />
+			<Score4 Type="Text" Rectangle="140,113,186,134" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="0" />
+			<Score5 Type="Text" Rectangle="140,134,186,155" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="0" />
+			<Score6 Type="Text" Rectangle="140,155,186,176" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="0" />
+			<Score7 Type="Text" Rectangle="140,176,186,197" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="0" />
+			<Score8 Type="Text" Rectangle="140,197,186,218" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="0" />
+			<Score9 Type="Text" Rectangle="140,218,186,239" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="0" />
+			<Score10 Type="Text" Rectangle="140,239,186,260" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="0" />
+			
+			<MinWord1 Type="Text" Rectangle="186,50,212,71" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="points" TextFormat="5" />
+			<MinWord2 Type="Text" Rectangle="186,71,212,92" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="points" TextFormat="5" />
+			<MinWord3 Type="Text" Rectangle="186,92,212,113" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="points" TextFormat="5" />
+			<MinWord4 Type="Text" Rectangle="186,113,212,134" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="points" TextFormat="5" />
+			<MinWord5 Type="Text" Rectangle="186,134,212,155" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="points" TextFormat="5" />
+			<MinWord6 Type="Text" Rectangle="186,155,212,176" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="points" TextFormat="5" />
+			<MinWord7 Type="Text" Rectangle="186,176,212,197" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="points" TextFormat="5" />
+			<MinWord8 Type="Text" Rectangle="186,197,212,218" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="points" TextFormat="5" />
+			<MinWord9 Type="Text" Rectangle="186,218,212,239" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="points" TextFormat="5" />
+			<MinWord10 Type="Text" Rectangle="186,239,212,260" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="points" TextFormat="5" />
+			
+			<CurrentScore1 Type="Text" Rectangle="10,305,33,326" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="ANSWERSY_X0_9" TextFormat="5"/>
+			<CurrentScor2 Type="Text" Rectangle="176,305,195,326" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="0"/>
+			<CurrentScore3 Type="Text" Rectangle="206,305,232,326" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5"/>
+		</TopWin>
+	</AnswersSystemWin>
+	<Script File="./Localization/en_us/UI/XML/AnswerProc.lua"/>
+	<Script File="./Localization/en_us/UI/XML/senceMap.lua"/>
+</UIConfig>

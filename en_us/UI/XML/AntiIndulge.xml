@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+
+		<AntiIndulgeWin Template="T_SimpleWindow" ID="900000" Rectangle="372,217,648,425"  Enable="0" Visible="0">
+		
+			<FillBtn Template="T_Button4" ID="900001" Rectangle="25,163,107,190" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="ATDG_X0_1" TextFormat="5"/>
+			
+			<AfterBtn Template="T_Button4" ID="900002" Rectangle="160,163,242,190" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="ATDG_X0_2" TextFormat="5"/>
+			
+			<MessageText  ID="900003" Type="Text" Rectangle="22,57,252,138" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="16"/>
+			
+			<TitleText Type="Text" ID="900005" Rectangle="42,19,227,36" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5"/>
+			
+		</AntiIndulgeWin>
+		
+		<AntiIndulgeBtnWin Type="Window"  Rectangle="770,162,818,187"   Enable="0" >
+			<AntiIndulgeBtn Type="Button"  ID="900004" Texture="./Localization/en_us/UI/Texture/Icon2.gwo" TexturePos="283,447" OnUpdate="Anti_Update()" Rectangle="24,22,55,51"  Visible="0"/>
+			<AntiIndulgeBtn1 Type="Button"  ID="900006" Texture="./Localization/en_us/UI/Texture/Icon2.gwo" TexturePos="251,447"  Rectangle="24,22,54,50"  Visible="0"/>
+		</AntiIndulgeBtnWin>
+
+
+		<Script File="./Localization/en_us/UI/XML/AntiIndulgeProc.lua"/>
+
+</UIConfig>

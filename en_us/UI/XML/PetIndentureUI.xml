@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+	<IndentureWin Template="T_NormalWindow" ID="871000" Rectangle="100,150,495,748" Enable="1" Visible="1" BtnRect="325,13,362,50" BtnPos="0,80">
+		<!--宠物名字-->
+		<PetNameLabel Type="Text" Texture="" Rectangle="25,68,66,110" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_1"/>
+		<PetName Type="Text" Texture="" ID="871001" Rectangle="66,68,166,110" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		<!--宠物类型-->
+		<PetTypeLabel Type="Text" Texture="" Rectangle="25,90,66,132" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_3"/>
+		<PetName Type="Text" Texture="" ID="871002" Rectangle="71,88,171,130" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		<!--宠物资质-->
+		<PetAptitudeLabel Type="Text" Texture="" Rectangle="25,112,66,154" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_4"/>
+		<PetAptitude Type="Text" Texture="" ID="871003" Rectangle="81,112,181,154" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		<!--宠物性别-->
+		<PetSexLabel Type="Text" Texture="" Rectangle="25,134,66,176" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_9"/>
+		<PetSex Type="Text" Texture="" ID="871004" Rectangle="81,134,181,176" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		<!--宠物等级-->
+		<PetLevLabel Type="Text" Texture="" Rectangle="25,156,66,198" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PET_X0_9"/>
+		<PetLev Type="Text" Texture="" ID="871005" Rectangle="76,156,176,198" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text="17"/>
+		<!--宠物星座-->
+		<PetConstLabel Type="Text" Texture="" Rectangle="25,178,66,220" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_34"/>
+		<PetConst Type="Text" Texture="" ID="871006" Rectangle="81,178,181,220" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		<!--食物类型-->
+		<PetFoodLabel Type="Text" Texture="" Rectangle="205,90,246,132" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_28"/>
+		<PetFood Type="Text" Texture="" ID="871007" Rectangle="286,90,386,132" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		<!--契约-->
+		<PetBondLabel Type="Text" Texture="" Rectangle="205,112,246,154" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETIN_X0_1"/>
+		<PetBond Type="Text" Texture="" ID="871008" Rectangle="316,112,416,154" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		<!--生育次数-->
+		<PetBearingLabel Type="Text" Texture="" Rectangle="205,134,246,176" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_10"/>
+		<PetBearing Type="Text" Texture="" ID="871009" Rectangle="296,134,396,176" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text="0/7"/>
+		<!--转生次数-->
+		<PetMeteLabel Type="Text" Texture="" Rectangle="205,156,246,198" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_36"/>
+		<PetMete Type="Text" Texture="" ID="871010" Rectangle="276,156,376,198" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text="17"/>
+		<!--剩余次数-->
+		<PetSurplusLabel Type="Text" Texture="" Rectangle="235,178,276,220" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_37"/>
+		<PetSurplus Type="Text" Texture="" ID="871011" Rectangle="296,178,396,220" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text="2"/>
+		<!--灵魂效果-->
+		<PetEffect Type="Text" Texture="" ID="871017" Rectangle="80,220,180,250" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text="PETIN_X0_2"/>
+		<!--品阶-->
+		<PetPinjieLabel Type="Text" Texture="" Rectangle="30,250,71,282" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_38"/>
+		<PetPinjie Type="Text" Texture="" ID="871012" Rectangle="91,258,151,290" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="88.94"/>
+		<PetPinjie2 Type="Text" Texture="" ID="871018" Rectangle="151,259,181,300" Font="MainMap" FontColor="GWORed" TextFormat="0" Text="(8)"/>
+		<!--基础值-->
+		<PetBearingLabel Type="Text" ID="871016" Texture="" Rectangle="185,250,226,282" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETIN_X0_3"/>
+		<PetBearing Type="Text" Texture="" ID="871013" Rectangle="271,258,371,290" Font="MainMap" FontColor="GWORed" TextFormat="2" Text="(0.01-1.00)"/>
+		<!--宠物各类属性-->
+		<PetAttriWin Template="T_BgWindow" ID="" Rectangle="20,280,375,413" Visible="1" Enable="0">
+			<!--灵性-->
+			<PetSpiritLabel Type="Text" Texture="" Rectangle="10,0,81,30" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_41"/>
+			<PetTraitTotal1 Type="Text" Texture="" ID="872010" Rectangle="41,5,131,35" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="81.94"/>
+			<PetTraitSkillAdd1 Type="Text" Texture="" ID="872011" Rectangle="131,5,151,35" Font="MainMap" FontColor="GWORed" TextFormat="0" Text="(20)"/>
+			<PetTraitBase1 Type="Text" Texture="" ID="872012" Rectangle="195,5,236,35" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="40.99"/>
+			<PetSignLabel Type="Text" Texture="" Rectangle="260,5,270,35" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+			<PetTraitAdd1 Type="Text" Texture="" ID="872013" Rectangle="251,5,351,35" Font="MainMap" FontColor="GWORed" TextFormat="2" Text="(0.01-1.00)"/>
+			<!--强壮-->
+			<PetStrongLabel Type="Text" Texture="" Rectangle="10,20,81,50" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_42"/>
+			<PetTraitTotal2 Type="Text" Texture="" ID="872020" Rectangle="41,25,131,55" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="81.94"/>
+			<PetNumLabel2 Type="Text" Texture="" ID="872021" Rectangle="131,25,151,55" Font="MainMap" FontColor="GWORed" TextFormat="0" Text="(20)"/>
+			<PetTraitBase2 Type="Text" Texture="" ID="872022" Rectangle="195,25,236,55" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="40.99"/>
+			<PetSignLabel1 Type="Text" Texture="" Rectangle="260,25,270,55" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+			<PetTraitAdd2 Type="Text" Texture="" ID="872023" Rectangle="251,25,351,55" Font="MainMap" FontColor="GWORed" TextFormat="2" Text="(0.01-1.00)"/>
+			<!--准确-->
+			<PetNicetyLabel Type="Text" Texture="" Rectangle="10,40,81,70" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_43"/>
+			<PetTraitTotal3 Type="Text" Texture="" ID="872030" Rectangle="41,45,131,75" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="81.94"/>
+			<PetTraitSkillAdd3 Type="Text" Texture="" ID="872031" Rectangle="131,45,151,75" Font="MainMap" FontColor="GWORed" TextFormat="0" Text="(20)"/>
+			<PetTraitBase3 Type="Text" Texture="" ID="872032" Rectangle="195,45,236,75" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="40.99"/>
+			<PetSignLabel2 Type="Text" Texture="" Rectangle="260,45,270,75" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+			<PetTraitAdd3 Type="Text" Texture="" ID="872033" Rectangle="251,45,351,75" Font="MainMap" FontColor="GWORed" TextFormat="2" Text="(0.01-1.00)"/>
+			<!--身法-->
+			<PetBodyLabel Type="Text" Texture="" Rectangle="10,60,81,90" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_44"/>
+			<PetTraitTotal4 Type="Text" Texture="" ID="872040" Rectangle="41,65,131,95" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="1811.94"/>
+			<PetTraitSkillAdd4 Type="Text" Texture="" ID="872041" Rectangle="131,65,151,95" Font="MainMap" FontColor="GWORed" TextFormat="0" Text="(20)"/>
+			<PetTraitBase4 Type="Text" Texture="" ID="872042" Rectangle="195,65,236,95" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="40.99"/>
+			<PetSignLabel3 Type="Text" Texture="" Rectangle="260,65,270,95" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+			<PetTraitAdd4 Type="Text" Texture="" ID="872043" Rectangle="251,65,351,95" Font="MainMap" FontColor="GWORed" TextFormat="2" Text="(0.01-1.00)"/>
+			<!--根骨-->
+			<PetTtkLabel Type="Text" Texture="" Rectangle="10,85,81,110" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_45"/>
+			<PetTraitTotal5 Type="Text" Texture="" ID="872050" Rectangle="41,85,131,115" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="81.94"/>
+			<PetTraitSkillAdd5 Type="Text" Texture="" ID="872051" Rectangle="131,85,151,115" Font="MainMap" FontColor="GWORed" TextFormat="0" Text="(20)"/>
+			<PetTraitBase5 Type="Text" Texture="" ID="872052" Rectangle="195,85,236,115" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="40.99"/>
+			<PetSignLabel4 Type="Text" Texture="" Rectangle="260,85,270,115" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+			<PetTraitAdd5 Type="Text" Texture="" ID="872053" Rectangle="251,85,351,115" Font="MainMap" FontColor="GWORed" TextFormat="2" Text="(0.01-1.00)"/>
+			<!--幸运-->
+			<PetLuckyLabel Type="Text" Texture="" Rectangle="10,100,81,130" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_46"/>
+			<PetTraitTotal6 Type="Text" Texture="" ID="872060" Rectangle="41,105,131,135" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="81.94"/>
+			<PetTraitSkillAdd6 Type="Text" Texture="" ID="872061" Rectangle="131,105,151,135" Font="MainMap" FontColor="GWORed" TextFormat="0" Text="(200)"/>
+			<PetTraitBase6 Type="Text" Texture="" ID="872062" Rectangle="195,105,236,135" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="140.99"/>
+			<PetSignLabel5 Type="Text" Texture="" Rectangle="260,105,270,135" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+			<PetTraitAdd6 Type="Text" Texture="" ID="872063" Rectangle="251,105,351,135" Font="MainMap" FontColor="GWORed" TextFormat="2" Text="(0.01-1.00)"/>
+			<!--契约之灵-->
+			<PetContractWin Template="T_BgWindow" ID="" Rectangle="1,138,123,302" Visible="1" Enable="0">
+				<PetBearingLabel Type="Text" Texture="" Rectangle="8,5,120,10" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16" SText="PETIN_X0_4"/>
+				<Pet1 Type="Button" ID="871014" Rectangle="58,110,99,152" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+			</PetContractWin>
+			<!--签订提示-->
+			<PetConcludeWin Template="T_BgWindow" ID="" Rectangle="125,138,355,302" Visible="1" Enable="0">
+				<PetBearingLabel Type="Text" Texture="" Rectangle="8,5,228,10" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16" SText="PETIN_X0_5"/>
+				<PetChangeName Template="T_Button8" ID="871015" Rectangle="110,125,220,159" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="PETIN_X0_6" OnScaleY="0.9"/>	
+			</PetConcludeWin>
+		</PetAttriWin>
+	</IndentureWin>
+	<Script File="./Localization/en_us/UI/XML/PetIndentureUI.lua" Help=""/>
+</UIConfig>

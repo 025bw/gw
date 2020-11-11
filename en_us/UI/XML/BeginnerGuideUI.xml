@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+	<PicHelpWin Template="T_SimpleWindow" Rectangle="707,325,927,600" Enable="0" Visible="0" BtnRect="186,7,209,31" BtnPos="454,693"  >
+	  <HelpBtn Type="Button"  Rectangle="0,50,220,270"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" />
+		<PicText Type="Text" Rectangle="21,34,209,164" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="16" />
+		<DepictText Type="Text" Rectangle="17,180,203,201" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="16" />
+		<CaptionText Type="Text" Rectangle="45,19,163,29" Font="MainFonts" FontColor="GWORed" SText="BEG_XO_1" TextFormat="5"  OnUpdate="PicHelpWin_OnUpdate()" />
+		
+		<UpPageBtn Template="T_NoTextureButton" Rectangle="6,227,67,254" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="上一页" TextFormat="5" Visible="0"/>
+		<ListBtn Template="T_NoTextureButton" Rectangle="81,227,142,254" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="目录" TextFormat="5" Visible="0"/>
+		<DownPageBtn Template="T_NoTextureButton" Rectangle="155,226,216,253" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="下一页" TextFormat="5" Visible="0"/>
+	</PicHelpWin>
+	
+</UIConfig>

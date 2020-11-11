@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+
+  <LiveSkillUI Template="T_NormalWindow" Rectangle="123,65,953,531" BtnPos="0,80" BtnRect="762,13,798,50" OnClose="LiveSkillWin_OnVisible(false)" Enable="1" Visible="0">
+  
+        <Ap Type="Text" Rectangle="457,55,547,65" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="LSU_XO_1" TextFormat="4" Visible="1"/>
+		<ApText Type="Text" Rectangle="573,55,600,65" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="4" Visible="1"/>
+    <LiveSkill Type="TabBar" Rectangle="14,73,659,456" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024">
+      <Cuisine Type="Tab" Rectangle="47,-25,107,-2" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="244,450" Visible="1">
+        <!--配方收集窗口-->
+        <CollectWin Template="T_BgWindow" Rectangle="3,2,294,379" Enable="0" Visible="1">
+
+          <ListBoxTop Type="Text" Rectangle="268,22,289,47" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="720,0"/>
+          <ListBoxBtm Type="Text" Rectangle="268,337,289,362" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="720,30"/>
+          <ListBoxScrollMid Type="Text" Rectangle="268,47,289,48" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" ID="-1" OnScaleY="320" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="720,26"/>
+          <UpBtn Type="Button" Rectangle="265,0,293,22" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" ID="-1" OnClick="UpContainerBtn()" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,228"/>
+          <DownBtn Type="Button" Rectangle="265,354,293,376" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" ID="-1" OnClick="DownContainerBtn()" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="29,228"/>
+
+         <Container Template="T_Container" Rectangle="4,0,286,352" BtnPos="133,122" BtnRect="0,0,17,27" Font="CONTAIN_MLS_TEXTFONT" FontColor="GWORed" ScrollPos="1024,1024" ScrollRect="267,20,293,353" ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="144,20">
+         
+            	<SortUpButton1 Template="T_ZoomUpBotton" Rectangle="4,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430310" Visible="0"/>
+				<SortDownButton1 Template="T_ZoomDownBotton" Rectangle="14,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430320" Visible="0"/>
+				
+				<SortUpButton2 Template="T_ZoomUpBotton" Rectangle="4,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430311" Visible="0"/>
+				<SortDownButton2 Template="T_ZoomDownBotton" Rectangle="14,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430321" Visible="0"/>
+				
+				<SortUpButton3 Template="T_ZoomUpBotton" Rectangle="4,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430312" Visible="0"/>
+				<SortDownButton3 Template="T_ZoomDownBotton" Rectangle="14,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430322" Visible="0"/>
+				
+				<SortUpButton4 Template="T_ZoomUpBotton" Rectangle="4,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430313" Visible="0"/>
+				<SortDownButton4 Template="T_ZoomDownBotton" Rectangle="14,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430323" Visible="0"/>
+				
+				<SortUpButton5 Template="T_ZoomUpBotton" Rectangle="4,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430314" Visible="0"/>
+				<SortDownButton5 Template="T_ZoomDownBotton" Rectangle="14,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430324" Visible="0"/>
+
+				<SortUpButton6 Template="T_ZoomUpBotton" Rectangle="4,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430315" Visible="0"/>
+				<SortDownButton6 Template="T_ZoomDownBotton" Rectangle="14,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430325" Visible="0"/>
+
+
+				<SortUpButton7 Template="T_ZoomUpBotton" Rectangle="4,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430316" Visible="0"/>
+				<SortDownButton7 Template="T_ZoomDownBotton" Rectangle="4,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430326" Visible="0"/>
+
+
+				<SortUpButton8 Template="T_ZoomUpBotton" Rectangle="4,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430317" Visible="0"/>
+				<SortDownButton8 Template="T_ZoomDownBotton" Rectangle="4,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430327" Visible="0"/>
+
+
+				<SortUpButton9 Template="T_ZoomUpBotton" Rectangle="14,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430318" Visible="0"/>
+				<SortDownButton9 Template="T_ZoomDownBotton" Rectangle="4,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430328" Visible="0"/>
+
+
+				<SortUpButton10 Template="T_ZoomUpBotton" Rectangle="4,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430319" Visible="0"/>
+				<SortDownButton10 Template="T_ZoomDownBotton" Rectangle="4,7,19,22" Font="CONTAIN_MLS_TEXTFONT" ID="430329" Visible="0"/>
+
+
+
+				
+                <SortText1 Type="Text" Rectangle="24,1,126,30" Font="CONTAIN_MLS_TEXTFONT" FontColor="BASE_HEADCOLOR" Text="" TextFormat="4" Visible="0"/>
+				<SortText2 Type="Text" Rectangle="24,1,126,30" Font="CONTAIN_MLS_TEXTFONT" FontColor="BASE_HEADCOLOR" Text="" TextFormat="4" Visible="0"/>
+				<SortText3 Type="Text" Rectangle="24,1,126,30" Font="CONTAIN_MLS_TEXTFONT" FontColor="BASE_HEADCOLOR" Text="" TextFormat="4" Visible="0"/>
+				<SortText4 Type="Text" Rectangle="24,1,126,30" Font="CONTAIN_MLS_TEXTFONT" FontColor="BASE_HEADCOLOR" Text="" TextFormat="4" Visible="0"/>
+				<SortText5 Type="Text" Rectangle="24,1,126,30" Font="CONTAIN_MLS_TEXTFONT" FontColor="BASE_HEADCOLOR" Text="" TextFormat="4" Visible="0"/>
+				<SortText6 Type="Text" Rectangle="24,1,126,30" Font="CONTAIN_MLS_TEXTFONT" FontColor="BASE_HEADCOLOR" Text="" TextFormat="4" Visible="0"/>
+				<SortText7 Type="Text" Rectangle="24,1,126,30" Font="CONTAIN_MLS_TEXTFONT" FontColor="BASE_HEADCOLOR" Text="" TextFormat="4" Visible="0"/>
+				<SortText8 Type="Text" Rectangle="24,1,126,30" Font="CONTAIN_MLS_TEXTFONT" FontColor="BASE_HEADCOLOR" Text="" TextFormat="4" Visible="0"/>
+				<SortText9 Type="Text" Rectangle="24,1,126,30" Font="CONTAIN_MLS_TEXTFONT" FontColor="BASE_HEADCOLOR" Text="" TextFormat="4" Visible="0"/>
+				<SortText10 Type="Text" Rectangle="24,1,126,30" Font="CONTAIN_MLS_TEXTFONT" FontColor="BASE_HEADCOLOR" Text="" TextFormat="4" Visible="0"/>
+
+            	<SortListBox Type="ListBox" ID="430330" Rectangle="5,30,175,815" Texture="" ScrollRect="0,0,0,0" Height="20" Font="CONTAIN_MLS_TEXTFONT" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4"/>
+				<SortListBox Type="ListBox" ID="430331" Rectangle="5,30,175,815" Texture="" ScrollRect="0,0,0,0" Height="20" Font="CONTAIN_MLS_TEXTFONT" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4"/>
+				<SortListBox Type="ListBox" ID="430332" Rectangle="5,30,175,815" Texture="" ScrollRect="0,0,0,0" Height="20" Font="CONTAIN_MLS_TEXTFONT" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4"/>
+				<SortListBox Type="ListBox" ID="430333" Rectangle="5,30,175,815" Texture="" ScrollRect="0,0,0,0" Height="20" Font="CONTAIN_MLS_TEXTFONT" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4"/>
+				<SortListBox Type="ListBox" ID="430334" Rectangle="5,30,175,815" Texture="" ScrollRect="0,0,0,0" Height="20" Font="CONTAIN_MLS_TEXTFONT" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4"/>
+				<SortListBox Type="ListBox" ID="430335" Rectangle="5,30,175,815" Texture="" ScrollRect="0,0,0,0" Height="20" Font="CONTAIN_MLS_TEXTFONT" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4"/>
+				<SortListBox Type="ListBox" ID="430336" Rectangle="5,30,175,815" Texture="" ScrollRect="0,0,0,0" Height="20" Font="CONTAIN_MLS_TEXTFONT" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4"/>
+				<SortListBox Type="ListBox" ID="430337" Rectangle="5,30,175,815" Texture="" ScrollRect="0,0,0,0" Height="20" Font="CONTAIN_MLS_TEXTFONT" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4"/>
+				<SortListBox Type="ListBox" ID="430338" Rectangle="5,30,175,815" Texture="" ScrollRect="0,0,0,0" Height="20" Font="CONTAIN_MLS_TEXTFONT" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4"/>
+				<SortListBox Type="ListBox" ID="430339" Rectangle="5,30,175,815" Texture="" ScrollRect="0,0,0,0" Height="20" Font="CONTAIN_MLS_TEXTFONT" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4"/>
+          </Container>
+          <Line Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="1,350,2,351" TexturePos="140,40"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleX="247"/>
+            <Collect Type="Text" Rectangle="5,359,40,369" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="LSU_XO_2" TextFormat="4" Visible="1"/>
+			<CollectText Type="Text" Rectangle="145,359,178,369" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="4" Visible="1"/>
+        </CollectWin>
+
+        <!--物品制作窗口-->
+        <FactureWin Template="T_BgWindow" Rectangle="296,2,797,379" Enable="0" Visible="1">
+        
+            <SkillLv Type="Text" Rectangle="17,6,63,16" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="LSU_XO_3" TextFormat="5"/>
+            <SkillLvText Type="Text" Rectangle="105,6,146,16" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="4" Visible="1"/>
+            
+			<SkillExperience Type="Text" Rectangle="18,26,62,36" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="LSU_XO_4" TextFormat="5"/>
+			<SkillExperienceText Type="Text" Rectangle="140,26,181,36" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="4" Visible="1"/>
+			
+			<LvConfine Type="Text" Rectangle="239,26,289,36" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="LSU_XO_5" TextFormat="5" OnHovered="LvConfineFunc()" OnLeft="LvConfineLeftFunc()" CanHovered="1" />
+			<LvConfineText Type="Text" Rectangle="408,26,456,36" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="4" Visible="1"/>
+			
+			<Line2 Type="Text" Rectangle="1,60,2,61" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" ID="-1" OnScaleX="500" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="140,40"/>
+			
+		<!--成品按钮，文字-->
+			<FinishedProduct Type="Button" ID="430400" Rectangle="14,86,55,127" BtnTopPos="982,982" BtnTopRect="3,3,39,39" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540"/>
+			<ItemName Type="Text" Rectangle="62,67,107,77" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="LSU_XO_6" TextFormat="4"/>
+			<MateType Type="Text" Rectangle="62,87,107,97" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="LSU_XO_7" TextFormat="4"/>
+			<ConsumeEnergy Type="Text" Rectangle="62,107,107,117" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="LSU_XO_8" TextFormat="4"/>
+			<MadeExperience Type="Text" Rectangle="62,127,107,137" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="LSU_XO_9" TextFormat="4" OnHovered="MadeExpFunc()" OnLeft="MadeExpLeftFunc()" CanHovered="1"  />
+			<SucceedOdds Type="Text" Rectangle="62,157,107,167" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="LSU_XO_10" TextFormat="4" OnHovered="SucceedFunc()" OnLeft="SucceedLeftFunc()" CanHovered="1"  />
+			
+			<ItemNameText Type="Text" Rectangle="116,67,176,77" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="4" Visible="1"/>
+			<MateTypeText Type="Text" Rectangle="121,87,181,97" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="4" Visible="1"/>
+			<ConsumeEnergyText Type="Text" Rectangle="156,107,216,117" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="4" Visible="1"/>
+			<MadeExperienceText Type="Text" Rectangle="186,122,496,142" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="16" Visible="1"/>
+			<SucceedOddsText Type="Text" Rectangle="156,157,216,167" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="4" Visible="1"/>
+			
+		<!--原料按钮，文字-->	
+			<MaterialBtn1 Type="Button" ID="430410" Rectangle="14,175,55,216" BtnTopPos="982,982" BtnTopRect="3,3,39,39" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540"/>
+			<MaterialBtn2 Type="Button" ID="430411" Rectangle="14,232,55,273" BtnTopPos="982,982" BtnTopRect="3,3,39,39" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540"/>
+			<MaterialBtn3 Type="Button" ID="430412" Rectangle="242,175,283,216" BtnTopPos="982,982" BtnTopRect="3,3,39,39" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540"/>
+			<MaterialBtn4 Type="Button" ID="430413" Rectangle="242,232,283,273" BtnTopPos="982,982" BtnTopRect="3,3,39,39" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540"/>
+			
+			<Material1 Type="Text" Rectangle="60,191,112,201" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5"/>
+			<Material2 Type="Text" Rectangle="60,247,112,257" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5"/>
+			<Material3 Type="Text" Rectangle="288,191,340,201" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5"/>
+			<Material4 Type="Text" Rectangle="288,247,340,257" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5"/>
+			
+			<MaterialText1 Type="Text" Rectangle="138,185,238,200" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="Kira Yamato! Strike Freedom iki masu!
+" TextFormat="16" Visible="1"/>
+			<MaterialText2 Type="Text" Rectangle="138,242,238,257" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="Kira Yamato! Strike Freedom iki masu!
+" TextFormat="16" Visible="1"/>
+			<MaterialText3 Type="Text" Rectangle="351,185,506,200" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="Kira Yamato! Strike Freedom iki masu!
+" TextFormat="16" Visible="1"/>
+			<MaterialText4 Type="Text" Rectangle="351,242,506,257" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="Kira Yamato! Strike Freedom iki masu!
+" TextFormat="16" Visible="1"/>
+		
+		<!--数量编辑框-->	
+			<EdtBox Type="EditBox" Rectangle="397,298,438,317" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" ID="-1" MaxText="4" ResponseMouse="1" Number="1" Text="0" TextFormat="4" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024"/>
+			<EdtLeft Type="Text" Rectangle="396,298,403,319" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="39,189"/>
+			<EdtMid Type="Text" Rectangle="403,298,404,319" ID="-1" OnScaleX="30" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="50,189"/>
+			<EdtRight Type="Text" Rectangle="431,298,438,319" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="74,189"/>
+		
+		<!--施法条-->	
+			<IntoneUI Type="Window" Rectangle="6,300,231,319" ID="-1" Layer="1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="772,594" Visible="1" Enable="0"   >
+				<IntoneText Type="Text" Rectangle="6,5,210,13" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="779,587" Visible="0"/>
+			</IntoneUI>
+			
+			
+			<TimeText Type="Text" Rectangle="9,327,154,337" Font="MainMap" FontColor="GWORed" Text="" TextFormat="4"/>
+			
+			<CoordCueText Type="Text" Rectangle="9,340,454,350" Font="MainMap" FontColor="GREEN_TEXTCOLOR" Text="" TextFormat="16"/>
+			<MadeBtn Template="T_Button9" ID="430420" Rectangle="236,294,388,321" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="LSU_XO_11"/>
+			<CancelBtn Template="T_Button9" ID="430421" Rectangle="236,294,388,321" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="LSU_XO_12" Visible="0"/>
+			
+			<Proficiency Type="Text" Rectangle="299,107,371,117" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  SText="LSU_XO_13" TextFormat="4"/>
+			<ProficiencyText Type="Text" Rectangle="455,107,515,117" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="4" Visible="1"/>
+			
+			<MadeClew Type="Text" Rectangle="9,290,150,400" Font="MainMap" FontColor="GREEN_TEXTCOLOR" Text=" " TextFormat="4"/>
+		
+        </FactureWin>
+        
+     
+      </Cuisine>
+    </LiveSkill>
+    
+    
+  </LiveSkillUI>
+
+<Script File="./Localization/en_us/UI/XML/ButtonClick.lua"/>
+</UIConfig>

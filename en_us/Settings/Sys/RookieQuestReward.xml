@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	int EXP;				//经验
+	int SkillPoint;			//技能点
+
+	int	RewardMoney;		//银币
+	int RewardBijou;		//金币
+
+	int UionBijou;			//公会金
+	int UionMoney;			//公会银
+	int UionContribute;		//公会贡献
+
+	int BindingGold;		//绑定金币
+	int MasterVal;			//师德
+	int ConsEnergy;			//星座能量
+	int reputation	      //声望
+
+	ItemData RewardItem[MAX_REWARD_ITEM];//物品
+
+-->
+<!--
+	int	Base;
+	char BaseLV;
+	int  Append[MAX_EQUIPAPPEND_COUNT];
+	char AppendLV;
+	__int64 CdKey;		//物品生成唯一标识
+	char Binding;
+	char Overlap;
+
+	int	SuitEquipLv;
+	int	SuitEquipExp;
+	int	EquipMosaicNum;
+	int MosaicTypeLv[ITEM_EFFDATA_NUM];
+	int MosaicEffV[ITEM_EFFDATA_NUM];
+	long SerEquipLog;
+	long CliEquipLog;
+				<ID1 iD="1" 经验exp="1" 专长skpoint="0" 银币money="2" 金币stone="5"	公会银币umoney="5" 公会金币ustone="5" 公会贡献ucontribute="1" 绑定金币egold="5" 师德masterval="5" 星座能量consenergy="5" 声望reputation="9"
+				item1="1001,40,-1,-1,-1,-1,2,1,1,1" item2="1001,40,-1,-1,-1,-1,2,1,1,1" item3="1001,40,-1,-1,-1,-1,2,1,1,1" item4="1001,40,-1,-1,-1,-1,2,1,1,1" />
+-->
+<QuestReward>
+		<!--                                               					                   bs,  app           ,bl,al,overlap,binding   -->
+		<NewToGWO>
+			<ID1 id="1" exp="100" skpoint="0" money="10" item1="4001,-1,-1,-1,-1,-1,1,1,10,1" />
+			<ID2 id="2" exp="100" skpoint="0" money="10" item1="4031,-1,-1,-1,-1,-1,1,1,10,1" />	
+			<ID3 id="3" exp="100" skpoint="0" money="10" item1="4500,-1,-1,-1,-1,-1,1,1,2,1" />
+			<ID4 id="4" exp="100" skpoint="1" money="10" item1="4220,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID5 id="5" exp="100" skpoint="1" money="10" item1="4210,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID6 id="6" exp="100" skpoint="1" money="10" item1="4202,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID7 id="7" exp="200" skpoint="1" money="10" item1="4230,-1,-1,-1,-1,-1,1,1,5,1" />
+			<ID8 id="8" exp="200" skpoint="1" money="10" item1="4230,-1,-1,-1,-1,-1,1,1,5,1" />
+			<ID9 id="9" exp="500" skpoint="2" money="0" item1="4220,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID10 id="10" exp="1000" skpoint="4" money="0" item1="4210,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID11 id="11" exp="100" skpoint="1" money="50" item1="4220,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID12 id="12" exp="100" skpoint="1" money="50" item1="4210,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID13 id="13" exp="100" skpoint="1" money="50" item1="4220,-1,-1,-1,-1,-1,1,1,1,1" item2="10000,-1,-1,-1,-1,-1,1,1,5,1" />
+			<ID14 id="14" exp="100" skpoint="1" money="50" item1="4210,-1,-1,-1,-1,-1,1,1,1,1" item2="10000,-1,-1,-1,-1,-1,1,1,5,1" />
+			<ID15 id="15" exp="100" skpoint="1" money="50" item1="4200,-1,-1,-1,-1,-1,1,1,1,1" item2="10000,-1,-1,-1,-1,-1,1,1,5,1" />
+			<ID16 id="16" exp="100" skpoint="1" money="50" item1="4230,-1,-1,-1,-1,-1,1,1,1,1" item2="10000,-1,-1,-1,-1,-1,1,1,5,1" />
+			<ID17 id="17" exp="100" skpoint="1" money="50" item1="4200,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID18 id="18" exp="100" skpoint="1" money="50" item1="4501,-1,-1,-1,-1,-1,1,1,2,1" />
+			<ID19 id="19" exp="1000" skpoint="2" money="0" item1="4502,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID20 id="20" exp="2000" skpoint="2" money="100" consenergy="100" />
+			<ID21 id="21" exp="100" skpoint="2" money="100" consenergy="100" />
+			<ID22 id="22" exp="1000" skpoint="2" money="100" consenergy="100" />
+			
+			<ID24 id="24" exp="4000" skpoint="4" money="400" consenergy="400" />
+			<ID25 id="25" exp="6000" skpoint="6" money="600" consenergy="600" />
+			<ID26 id="26" exp="2000" skpoint="2" money="500" />
+			<ID27 id="27" exp="2000" skpoint="2" money="500" />
+			<ID28 id="28" exp="2000" skpoint="2" money="0" />
+		</NewToGWO>
+		
+		<SheHuiJiaoJi>
+			<ID40 id="40" exp="100" skpoint="1" money="10" item1="10000,-1,-1,-1,-1,-1,1,1,5,1" />
+			<ID41 id="41" exp="100" skpoint="1" money="10" item1="10020,-1,-1,-1,-1,-1,1,1,5,1" />
+			<ID42 id="42" exp="500" skpoint="5" money="100" reputation="50" item1="4002,-1,-1,-1,-1,-1,1,1,10,1" />
+			<ID43 id="43" exp="500" skpoint="5" money="100" reputation="50" item1="4003,-1,-1,-1,-1,-1,1,1,10,1" />
+			<ID44 id="44" exp="500" skpoint="5" money="100" reputation="50" />
+			<ID45 id="45" exp="1000" skpoint="5" egold="33" masterval="50" />
+			<ID46 id="46" exp="100" skpoint="0" money="10" item1="4001,-1,-1,-1,-1,-1,1,1,10,1" />
+			<ID47 id="47" exp="100" reputation="10" money="10" />
+			<ID48 id="48" exp="100" skpoint="1" money="10" />
+			<ID49 id="49" exp="100" ucontribute="100" money="10" />
+			<ID50 id="50" exp="100" skpoint="0" money="100" item1="4101,-1,-1,-1,-1,-1,1,1,2,1" />
+			<ID51 id="51" exp="1000" skpoint="2" money="500" reputation="20" />
+			<ID52 id="52" exp="2000" skpoint="2" money="1000" reputation="100" />
+			<ID53 id="53" exp="5000" skpoint="4" money="5000" reputation="300" />
+			<ID54 id="54" exp="12000" skpoint="6" money="5000" reputation="500" />
+		</SheHuiJiaoJi>
+
+		<GuildForword>
+			<ID61 id="61" exp="1000" skpoint="2" ucontribute="1000" />
+			<ID62 id="62" exp="1000" skpoint="2" ucontribute="2000" />
+			<ID63 id="63" exp="1000" skpoint="2" ucontribute="2000" />
+			<ID64 id="64" exp="2000" skpoint="2" ucontribute="5000" />
+			<ID65 id="65" exp="1000" skpoint="2" money="900" ucontribute="1000" />
+			<ID66 id="66" exp="500" skpoint="2" money="3000" ucontribute="5000" />
+			<ID67 id="67" exp="5000" skpoint="30" ucontribute="50000" egold="33" />
+			<ID68 id="68" exp="200" skpoint="2" egold="66" ucontribute="2000" />
+			<ID69 id="69" exp="400" skpoint="2" egold="133" ucontribute="4000" />
+			<ID70 id="70" exp="600" skpoint="2" egold="200" ucontribute="6000" />
+			<ID71 id="71" exp="800" skpoint="2" egold="266" ucontribute="8000" />
+			<ID72 id="72" exp="1000" skpoint="2" egold="333" ucontribute="10000" />
+			<ID73 id="73" ucontribute="2000" />
+			<ID74 id="74" ucontribute="4000" />
+			<ID75 id="75" ucontribute="6000" />
+			<ID76 id="76" ucontribute="8000" />
+			<ID77 id="77" ucontribute="10000" />
+			<ID78 id="78" ucontribute="12000" />
+			<ID79 id="79" ucontribute="2000" />
+			<ID80 id="80" ucontribute="5000" />
+			<ID81 id="81" ucontribute="10000" />
+			<ID82 id="82" ucontribute="16000" />
+			<ID83 id="83" ucontribute="2000" />
+			<ID84 id="84" ucontribute="5000" />
+			<ID85 id="85" ucontribute="8000" />
+			<ID86 id="86" ucontribute="12000" />		
+		</GuildForword>
+		
+		<EquipMake>
+			<ID93 id="93" exp="100" skpoint="2" money="100" item1="4220,-1,-1,-1,-1,-1,1,1,3,1" />	
+			<ID94 id="94" exp="100" skpoint="3" money="100" item1="4220,-1,-1,-1,-1,-1,1,1,3,1" />
+			<ID95 id="95" exp="500" skpoint="4" money="200" item1="4221,-1,-1,-1,-1,-1,1,1,2,1" />
+			<ID96 id="96" exp="1000" skpoint="5" money="500" item1="4221,-1,-1,-1,-1,-1,1,1,2,1" />
+			<ID97 id="97" exp="2000" skpoint="6" money="1000" item1="4221,-1,-1,-1,-1,-1,1,1,2,1" />
+			<ID98 id="98" exp="2000" skpoint="7" money="2000" item1="4221,-1,-1,-1,-1,-1,1,1,2,1" />
+			<ID99 id="99" exp="3000" skpoint="8" money="3000" item1="4222,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID100 id="100" exp="3000" skpoint="9" money="4000" item1="4222,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID101 id="101" exp="3000" skpoint="10" money="5000" item1="4222,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID102 id="102" exp="100" skpoint="2" money="100" item1="4210,-1,-1,-1,-1,-1,1,1,3,1" />
+			<ID103 id="103" exp="100" skpoint="2" money="100" item1="4210,-1,-1,-1,-1,-1,1,1,3,1" />
+			<ID104 id="104" exp="500" skpoint="3" money="500" item1="4211,-1,-1,-1,-1,-1,1,1,2,1" />
+			<ID105 id="105" exp="1000" skpoint="4" money="1000" item1="4211,-1,-1,-1,-1,-1,1,1,2,1" />
+			<ID106 id="106" exp="2000" skpoint="5" money="4000" item1="4211,-1,-1,-1,-1,-1,1,1,2,1" />
+			<ID107 id="107" exp="3000" skpoint="6" money="5000" item1="4212,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID108 id="108" exp="3000" skpoint="7" money="6000" item1="4212,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID109 id="109" exp="1000" skpoint="2" item1="4202,-1,-1,-1,-1,-1,1,1,2,1" />
+			<ID110 id="110" exp="5000" skpoint="5" item1="4252,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID111 id="111" exp="100" skpoint="2" money="100" />
+			<ID112 id="112" exp="1000" skpoint="10" item1="9937,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID113 id="113" exp="1000" skpoint="10" item1="9935,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID114 id="114" exp="1000" skpoint="10" item1="9931,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID115 id="115" exp="1000" skpoint="5" />
+			<ID116 id="116" exp="1000" skpoint="2" money="500" item1="4230,-1,-1,-1,-1,-1,1,1,10,1" item2="4211,-1,-1,-1,-1,-1,1,1,1,1" item3="4221,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID117 id="117" exp="1000" skpoint="3" money="500" item1="4230,-1,-1,-1,-1,-1,1,1,15,1" item2="4211,-1,-1,-1,-1,-1,1,1,2,1" item3="4221,-1,-1,-1,-1,-1,1,1,2,1" />
+			<ID118 id="118" exp="1000" skpoint="4" money="1000" item1="4231,-1,-1,-1,-1,-1,1,1,5,1" item2="4212,-1,-1,-1,-1,-1,1,1,1,1" item3="4222,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID119 id="119" exp="1000" skpoint="5" money="1000" item1="4231,-1,-1,-1,-1,-1,1,1,10,1" item2="4212,-1,-1,-1,-1,-1,1,1,2,1" item3="4222,-1,-1,-1,-1,-1,1,1,2,1" />
+			<ID120 id="120" exp="1000" skpoint="2" money="500" item1="4230,-1,-1,-1,-1,-1,1,1,10,1" item2="4211,-1,-1,-1,-1,-1,1,1,1,1" item3="4221,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID121 id="121" exp="1000" skpoint="3" money="500" item1="4230,-1,-1,-1,-1,-1,1,1,20,1" item2="4211,-1,-1,-1,-1,-1,1,1,2,1" item3="4221,-1,-1,-1,-1,-1,1,1,2,1" />
+			<ID122 id="122" exp="1000" skpoint="4" money="1000" item1="4231,-1,-1,-1,-1,-1,1,1,5,1" item2="4212,-1,-1,-1,-1,-1,1,1,1,1" item3="4222,-1,-1,-1,-1,-1,1,1,1,1" />
+			<ID123 id="123" exp="1000" skpoint="5" money="1000" item1="4231,-1,-1,-1,-1,-1,1,1,10,1" item2="4212,-1,-1,-1,-1,-1,1,1,2,1" item3="4222,-1,-1,-1,-1,-1,1,1,2,1" />
+			<ID124 id="124" exp="1000" skpoint="6" money="1000" item1="4231,-1,-1,-1,-1,-1,1,1,15,1" item2="4212,-1,-1,-1,-1,-1,1,1,3,1" item3="4222,-1,-1,-1,-1,-1,1,1,3.,1" />	
+		</EquipMake>
+	
+		<GogOfLoad>
+			<ID130 id="130" exp="2000" skpoint="10" money="1000" egold="333" item1="2101,12,101,-1,-1,-1,3,3,1,1" item2="2607,11,32,-1,-1,-1,3,3,1,1" item3="2707,11,32,-1,-1,-1,3,3,1,1" />
+       	<ID131 id="131" exp="10000" skpoint="15" money="2000" egold="333" item1="2202,31,102,-1,-1,-1,3,3,1,1" item2="3302,12,31,-1,-1,-1,3,3,1,1" item3="3402,12,31,-1,-1,-1,3,3,1,1" />   			
+ 			<ID132 id="132" exp="20000" skpoint="20" money="4000" egold="666" item1="2103,12,101,-1,-1,-1,3,4,1,1" item2="2608,11,32,-1,-1,-1,3,4,1,1" item3="2708,11,32,-1,-1,-1,3,4,1,1" />
+			<ID133 id="133" exp="30000" skpoint="25" money="5000" egold="666" item1="2204,31,102,-1,-1,-1,3,4,1,1" item2="3304,12,31,-1,-1,-1,3,4,1,1" item3="3404,12,31,-1,-1,-1,3,4,1,1" />
+			<ID134 id="134" exp="50000" skpoint="30" money="6000" egold="666" item1="2105,12,101,-1,-1,-1,4,3,1,1" item2="2602,11,32,-1,-1,-1,4,3,1,1" item3="2702,11,32,-1,-1,-1,4,3,1,1" />
+       	<ID135 id="135" exp="60000" skpoint="35" money="7000" egold="666" item1="2206,32,102,-1,-1,-1,4,3,1,1" item2="3306,12,32,-1,-1,-1,4,3,1,1" item3="3406,12,32,-1,-1,-1,4,3,1,1" />
+			<ID136 id="136" exp="80000" skpoint="40" money="8000" egold="666" item1="2107,12,102,-1,-1,-1,4,3,1,1" item2="2603,11,32,-1,-1,-1,4,3,1,1" item3="2703,11,32,-1,-1,-1,4,3,1,1" />
+			<ID137 id="137" exp="90000" skpoint="45" money="9000" egold="666" item1="2208,32,102,-1,-1,-1,4,4,1,1" item2="3308,12,32,-1,-1,-1,4,4,1,1" item3="3408,11,32,-1,-1,-1,4,4,1,1" />
+			<ID138 id="138" exp="100000" skpoint="50" money="10000" egold="1000" item1="2109,12,102,-1,-1,-1,4,4,1,1" item2="2604,12,32,-1,-1,-1,4,4,1,1" item3="2704,12,32,-1,-1,-1,4,4,1,1" />
+			<ID139 id="139" exp="110000" skpoint="60" money="10000" egold="1000" item1="2110,12,102,-1,-1,-1,4,4,1,1" item2="2605,12,32,-1,-1,-1,4,4,1,1" item3="2705,12,32,-1,-1,-1,4,4,1,1" />		
+			<ID140 id="140" exp="150000" skpoint="65" money="10000" egold="1000" item1="2111,12,102,-1,-1,-1,4,5,1,1" item2="2606,12,32,-1,-1,-1,4,5,1,1" item3="2706,12,32,-1,-1,-1,4,5,1,1" />	
+			<ID141 id="141" exp="200000" skpoint="70" money="10000" egold="1000" item1="2113,12,102,-1,-1,-1,5,5,1,1" item2="2613,12,32,-1,-1,-1,5,5,1,1" item3="2713,12,32,-1,-1,-1,5,5,1,1" />			
+		</GogOfLoad>
+</QuestReward>

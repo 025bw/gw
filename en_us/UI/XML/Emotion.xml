@@ -1,0 +1,95 @@
+
+<?xml version="1.0" encoding="GB2312"?>
+<!--this is Emotion config-->
+<!--
+	Name				表情代号
+	Rectangle			表情大小
+	TexturePos			表情贴图位置
+	Horizontal			祯是否水平排列
+	Frame				有多少祯
+	mspf					每祯多少毫秒
+	OnScale_X			横坐标缩放比
+	OnScale_Y			纵坐标缩放比
+	Texture				表情贴图所在的位置
+-->
+<Emotion>
+    <EmotionConfig NumofEachLine="11">
+       <!--资源图第一行-->
+                <Emotion1 	Name="#001"	Rectangle="0,0,25,25"	TexturePos="0,0"	Horizontal="1"	Frame="13"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>  
+		<Emotion2 	Name="#002"	Rectangle="0,0,25,25"	TexturePos="325,0"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion3 	Name="#003"	Rectangle="0,0,25,25"	TexturePos="375,0"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		
+		<!--资源图第二行-->
+		<Emotion4 	Name="#004"	Rectangle="0,0,25,25"	TexturePos="0,25"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion5 	Name="#005"	Rectangle="0,0,25,25"	TexturePos="50,25"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion6	Name="#006"	Rectangle="0,0,25,25"	TexturePos="100,25"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion7 	Name="#007"	Rectangle="0,0,25,25"	TexturePos="150,25"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion8 	Name="#008"	Rectangle="0,0,25,25"	TexturePos="200,25"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion9 	Name="#009"	Rectangle="0,0,25,25"	TexturePos="250,25"	Horizontal="1"	Frame="4"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion10 	Name="#010"	Rectangle="0,0,25,25"	TexturePos="350,25"	Horizontal="1"	Frame="4"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		
+		<!--资源图第三行-->
+		<Emotion11 	Name="#011"	Rectangle="0,0,25,25"	TexturePos="0,50"	Horizontal="1"	Frame="4"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion12 	Name="#012"	Rectangle="0,0,25,25"	TexturePos="100,50"	Horizontal="1"	Frame="4"	mspf="350"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion13 	Name="#013"	Rectangle="0,0,25,25"	TexturePos="200,50"	Horizontal="1"	Frame="6"	mspf="300"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion14 	Name="#014"	Rectangle="0,0,25,25"	TexturePos="350,50"	Horizontal="1"	Frame="6"	mspf="400"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		
+		<!--资源图第四行-->
+		<Emotion15 	Name="#015"	Rectangle="0,0,25,25"	TexturePos="0,75"	Horizontal="1"	Frame="8"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion16 	Name="#016"	Rectangle="0,0,25,25"	TexturePos="200,75"	Horizontal="1"	Frame="8"	mspf="250"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		
+		<!--资源图第五行-->
+		<Emotion17 	Name="#017"	Rectangle="0,0,25,25"	TexturePos="0,100"	Horizontal="1"	Frame="14"	mspf="250"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion18 	Name="#018"	Rectangle="0,0,25,25"	TexturePos="350,100"	Horizontal="1"	Frame="6"	mspf="250"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		
+		<!--资源图第六行-->
+		<Emotion19 	Name="#019"	Rectangle="0,0,25,25"	TexturePos="0,125"	Horizontal="1"	Frame="8"	mspf="250"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion20 	Name="#020"	Rectangle="0,0,25,25"	TexturePos="200,125"	Horizontal="1"	Frame="10"	mspf="350"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		
+		<!--资源图第七行-->
+		<Emotion21 	Name="#021"	Rectangle="0,0,25,25"	TexturePos="0,150"	Horizontal="1"	Frame="17"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+
+                <!--资源图第八行-->
+		<Emotion22 	Name="#022"	Rectangle="0,0,25,25"	TexturePos="0,175"	Horizontal="1"	Frame="9"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+                <Emotion23 	Name="#023"	Rectangle="0,0,25,25"	TexturePos="225,175"	Horizontal="1"	Frame="5"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+                <Emotion24 	Name="#024"	Rectangle="0,0,25,25"	TexturePos="350,175"	Horizontal="1"	Frame="5"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>  
+  
+                <!--资源图第九行-->
+		<Emotion25 	Name="#025"	Rectangle="0,0,25,25"	TexturePos="0,200"	Horizontal="1"	Frame="11"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion26 	Name="#026"	Rectangle="0,0,25,25"	TexturePos="275,200"	Horizontal="1"	Frame="4"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion27 	Name="#027"	Rectangle="0,0,25,25"	TexturePos="375,200"	Horizontal="1"	Frame="4"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+
+
+                <!--资源图第十行-->
+                <Emotion28 	Name="#028"	Rectangle="0,0,25,25"	TexturePos="0,225"	Horizontal="1"	Frame="7"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+                <Emotion29 	Name="#029"	Rectangle="0,0,25,25"	TexturePos="175,225"	Horizontal="1"	Frame="5"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/> 
+                <Emotion30 	Name="#030"	Rectangle="0,0,25,25"	TexturePos="300,225"	Horizontal="1"	Frame="2"	mspf="250"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+                <Emotion31 	Name="#031"	Rectangle="0,0,25,25"	TexturePos="350,225"	Horizontal="1"	Frame="2"	mspf="250"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+
+                <!--资源图第十一行-->
+		<Emotion32 	Name="#032"	Rectangle="0,0,25,25"	TexturePos="0,250"	Horizontal="1"	Frame="10"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion33 	Name="#033"	Rectangle="0,0,25,25"	TexturePos="250,250"	Horizontal="1"	Frame="4"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+                <Emotion34 	Name="#034"	Rectangle="0,0,25,25"	TexturePos="350,250"	Horizontal="1"	Frame="6"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+
+                <!--资源图第十二行-->
+                <Emotion35 	Name="#035"	Rectangle="0,0,25,25"	TexturePos="0,275"	Horizontal="1"	Frame="11"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/> 
+                <Emotion36 	Name="#036"	Rectangle="0,0,25,25"	TexturePos="275,275"	Horizontal="1"	Frame="6"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+                <Emotion37 	Name="#037"	Rectangle="0,0,25,25"	TexturePos="450,275"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+ 
+                <!--资源图第十三行-->
+                <Emotion38 	Name="#038"	Rectangle="0,0,25,25"	TexturePos="0,300"	Horizontal="1"	Frame="6"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion39 	Name="#039"	Rectangle="0,0,25,25"	TexturePos="150,300"	Horizontal="1"	Frame="4"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+		<Emotion40 	Name="#040"	Rectangle="0,0,25,25"	TexturePos="250,300"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+ 
+                <!--资源图第十四行-->
+                <Emotion41 	Name="#041"	Rectangle="0,0,25,25"	TexturePos="0,325"	Horizontal="1"	Frame="11"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+                <Emotion42 	Name="#042"	Rectangle="0,0,25,25"	TexturePos="300,305"	Horizontal="1"	Frame="4"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/00.gwo"/>
+                
+
+    </EmotionConfig>	
+</Emotion>
+<UIConfig>
+    <EmotionWnd	Type="Window"  ID="5000000"	Modal="0" Rectangle="350,55,650,666" Visible="0"	Enable="0" Layer="3">		
+    </EmotionWnd>
+</UIConfig>
+

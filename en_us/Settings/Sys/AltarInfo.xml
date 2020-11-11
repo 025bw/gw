@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!--this is ItemColor config-->
+<Altar>
+  <!--祭坛的基本信息-->
+  <AltarInfo>
+    <AltarID1 ID="1" Name="Apollo" Description="Apollo can help you increase the upper limit of your HP and MP." ImagePos="720,36"/>
+    <AltarID2 ID="2" Name="Demeter" Description="Demeter can help you restore your HP and absorb damage." ImagePos="756,36"/>
+    <AltarID3 ID="3" Name="Hermes" Description="Hermes can help you restore your MP and increase the upper limit of your MP." ImagePos="864,36"/>
+    <AltarID4 ID="4" Name="Hephaestus" Description="Hephaestus can increase your physical attack and target hitting rate." ImagePos="792,36"/>
+    <AltarID5 ID="5" Name="Hades" Description="Hades can increase your physical attack and spell attack." ImagePos="648,36"/>
+    <AltarID6 ID="6" Name="Dionysus" Description="Dionysus can increase your physical defense and spell defense." ImagePos="972,36"/>
+    <AltarID7 ID="7" Name="Aphrodite" Description="Aphrodite can increase your spell defense and help you absorb damage." ImagePos="900,36"/>
+    <AltarID8 ID="8" Name="Hestia" Description="Hestia can help you absorb damage and increase your dodge rate." ImagePos="828,36"/>
+    <AltarID8 ID="9" Name="Poseidon" Description="Poseidon can increase your target hitting rate and spell attack." ImagePos="612,36"/>
+    <AltarID8 ID="10" Name="Artemis" Description="Artemis can increase your dodge rate and help you restore your HP." ImagePos="936,36"/>
+  </AltarInfo>
+  <!--根据公会等级动态显示祭坛个数-->
+  <AltarNum>
+    <ConLevel1 Level="1" AltarNum="3"/>
+    <ConLevel2 Level="2" AltarNum="3"/>
+    <ConLevel3 Level="3" AltarNum="4"/>
+    <ConLevel4 Level="4" AltarNum="4"/>
+    <ConLevel5 Level="5" AltarNum="5"/>
+    <ConLevel6 Level="6" AltarNum="5"/>
+    <ConLevel7 Level="7" AltarNum="6"/>
+    <ConLevel8 Level="8" AltarNum="6"/>
+    <ConLevel9 Level="9" AltarNum="7"/>
+    <ConLevel10 Level="10" AltarNum="7"/>
+    <ConLevel11 Level="11" AltarNum="8"/>
+    <ConLevel12 Level="12" AltarNum="8"/>
+  </AltarNum>
+  <!--祭坛升级需要的条件-->
+  <AltarLevelUp>
+    <level1 Alevel="1" Found="100" Bijou="5" ConsumeOblation="6"/>
+    <level2 Alevel="2" Found="180" Bijou="9" ConsumeOblation="9"/>
+    <level3 Alevel="3" Found="260" Bijou="13" ConsumeOblation="12"/>
+    <level4 Alevel="4" Found="320" Bijou="16" ConsumeOblation="16"/>
+    <level5 Alevel="5" Found="420" Bijou="21" ConsumeOblation="21"/>
+    <level6 Alevel="6" Found="600" Bijou="30" ConsumeOblation="27"/>
+    <level7 Alevel="7" Found="840" Bijou="42" ConsumeOblation="34"/>
+    <level8 Alevel="8" Found="1160" Bijou="58" ConsumeOblation="42"/>
+    <level9 Alevel="9" Found="1600" Bijou="80" ConsumeOblation="51"/>
+    <level10 Alevel="10" Found="2400" Bijou="120" ConsumeOblation="62"/>
+    <level11 Alevel="11" Found="4000" Bijou="200" ConsumeOblation="73"/>
+    <level12 Alevel="12" Found="7000" Bijou="350" ConsumeOblation="86"/>
+  </AltarLevelUp>
+</Altar>

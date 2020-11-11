@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UIConfig>
+
+
+  <AutoFightWindow Template="T_SimpleWindow" Rectangle="120,138,532,608"  OnLoad="AutoFight_OnLoad()" Visible="0" MoveRect="0,0,1024,768" UseEsc="1">
+    <!--按钮-->
+    <close Template="T_CloseButton" Rectangle="350,13,387,50" OnClick="this:GetParent():Visible(false);"/>
+    <AutoTabBar Type="TabBar" ID="" Rectangle="14,71,260,517" TexturePos="267,622">
+      <AutoTab Type="Tab" ID="" Rectangle="77,-25,137,-2" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="244,450" SText="AF_X0_37" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5">
+
+
+        <beginback Template="T_BgWindow" ID="-1" Rectangle="6,5,376,42" />
+        <textopenauto Type="Text" Font="MainMap" Rectangle="59,13,255,32" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_12" />
+
+
+        <fightback Template="T_BgWindow" ID="-1" Rectangle="6,46,376,126" />
+        <checkboxuseskill Template="T_NormalCheckBox" TexturePos="222,189" OnChecked="AutoSkill_OnClick()" Rectangle="32,50,49,67" />
+        <textuseskill Type="Text" Font="MainMap" Rectangle="59,48,170,67" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_1" />
+        <checkboxautofight Template="T_NormalCheckBox" TexturePos="222,189" OnChecked="AutoAttack_OnClick()" Rectangle="196,50,213,67" />
+        <textautofight Type="Text" Font="MainMap" Rectangle="223,48,333,67" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_2" />
+        <!--自动技能表-->
+        <Skill1Bk Type="Text" Rectangle="22,75,66,121" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="43,672"/>
+        <Skill2Bk Type="Text" Rectangle="65,75,109,121"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="44,672"/>
+        <Skill3Bk Type="Text" Rectangle="108,75,152,121" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="44,672"/>
+        <Skill4Bk Type="Text" Rectangle="151,75,195,121" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="44,672"/>
+        <Skill5Bk Type="Text" Rectangle="194,75,238,121" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="44,672"/>
+        <Skill6Bk Type="Text" Rectangle="237,75,281,121" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="44,672"/>
+        <Skill7Bk Type="Text" Rectangle="280,75,324,121" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="44,672"/>
+        <Skill8Bk Type="Text" Rectangle="323,75,368,121" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="44,672"/>
+
+
+
+        <Skill1 Type="Button" ID="122001" Rectangle="24,77,66,119"   Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+        <Skill2 Type="Button" ID="122002" Rectangle="67,77,109,119"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+        <Skill3 Type="Button" ID="122003" Rectangle="110,77,152,119" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+        <Skill4 Type="Button" ID="122004" Rectangle="153,77,195,119" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+        <Skill5 Type="Button" ID="122005" Rectangle="196,77,238,119" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+        <Skill6 Type="Button" ID="122006" Rectangle="239,77,281,119" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+        <Skill7 Type="Button" ID="122007" Rectangle="282,77,324,119" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+        <Skill8 Type="Button" ID="122008" Rectangle="325,77,367,119" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+
+
+        <healthback Template="T_BgWindow" ID="-1" Rectangle="6,130,376,230" />
+        <textautofight Type="Text" Font="MainMap" Rectangle="15,134,165,153" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_3" />
+        <checkboxhp Template="T_NormalCheckBox" TexturePos="222,189" OnChecked="RedRemedy_OnClick()" Rectangle="30,156,47,173" />
+        <textautofight Type="Text" Font="MainMap" Rectangle="53,156,137,173" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_4" />
+        <checkboxmp Template="T_NormalCheckBox" TexturePos="222,189" OnChecked="BlueRemedy_OnClick()" Rectangle="30,183,47,200" />
+        <textautofight Type="Text" Font="MainMap" Rectangle="53,183,137,200" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_6" />
+        
+        <!--编辑框-->
+        <Edit1_BoxMid Template="T_TitleText" ID="-1" Rectangle="130,157,131,174" TexturePos="120,204" Text="" OnScaleX="10"/>
+        <Edit1_BoxLeft Template="T_TitleText" ID="-1" Rectangle="123,157,130,174" TexturePos="110,204 " Text=""/>
+        <Edit1_BoxRight Template="T_TitleText" ID="-1" Rectangle="140,157,147,174" TexturePos="120,204" Text=""/>
+        <edithp Type="EditBox" MaxText="1"  Rectangle="125,156,142,173"  Text="6"  OnEnter="AutoFight_OnEnterHp();"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0" ResponseMouse="1"/>
+
+        <!--编辑框-->
+        <Edit2_BoxMid Template="T_TitleText" ID="-1" Rectangle="130,187,131,204" TexturePos="120,204" Text="" OnScaleX="10"/>
+        <Edit2_BoxLeft Template="T_TitleText" ID="-1" Rectangle="123,187,130,204" TexturePos="110,204" Text=""/>
+        <Edit2_BoxRight Template="T_TitleText" ID="-1" Rectangle="140,187,147,204" TexturePos="120,204" Text=""/>       
+        <editmp Type="EditBox" MaxText="1"  Rectangle="125,186,142,203"  Text="6"  OnEnter="AutoFight_OnEnterMp();"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0" ResponseMouse="1" />
+        
+        <textautofight Type="Text" Font="MainMap" Rectangle="148,156,323,173" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_5" />
+        <textautofight Type="Text" Font="MainMap" Rectangle="148,183,323,200" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_7" />
+        <Skill9Bk Type="Text" Rectangle="306,133,352,179" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="43,672"/>
+        <Skill10Bk Type="Text" Rectangle="306,180,352,226" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="43,672"/>
+        <Skill9 Type="Button" ID="122009" Rectangle="309,135,350,177" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+        <Skill10 Type="Button" ID="122010" Rectangle="309,182,350,224" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+
+
+        <explainback Template="T_BgWindow" ID="-1" Rectangle="6,234,376,349" />
+        <autotext Type="Text" Font="MainMap" Rectangle="8,233,378,252" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_15" />
+        <autotext Type="Text" Font="MainMap" Rectangle="8,288,380,307" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_16" />
+        <autotext Type="Text" Font="MainMap" Rectangle="8,323,380,342" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_17" />
+
+        <saveback Template="T_BgWindow" ID="-1" Rectangle="6,353,376,388" />
+        <shut_button Template="T_Button4" ID="122011" Rectangle="199,358,281,385" OnClick="AutoRun_OnClick(true)" SText="AF_X0_14" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="42,540" />
+        <save_button Template="T_Button4" Rectangle="291,358,373,385" OnClick="SaveSetting_OnClick()" SText="AF_X0_13" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="42,540" />
+
+      </AutoTab>
+
+
+      <ReliveTab Type="Tab" ID="" Rectangle="137,-25,197,-2" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="244,450" SText="AF_X0_18" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5">
+        <!--窗口背景-->
+        <!--消耗金币自动复活-->
+        <autoreliveback Template="T_BgWindow" ID="-1" Rectangle="6,5,376,42" />
+        <checkrelive Template="T_NormalCheckBox"  ID="-1" TexturePos="222,189"  Rectangle="30,14,47,31" />
+        <autorelive Type="Text" Font="MainMap" Rectangle="59,13,209,32" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_19" />
+
+        <!--复活设置-->
+        <relivesetback Template="T_BgWindow" ID="-1" Rectangle="6,46,376,126" />
+        <textautoset Type="Text" Font="MainMap" Rectangle="8,60,251,79" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_20" />
+        <textdead Type="Text" Font="MainMap" Rectangle="30,97,80,116" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_21" />
+        <!--编辑框-->
+        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="156,98,157,118" TexturePos="120,204" Text="" OnScaleX="23"/>
+        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="149,98,156,118" TexturePos="110,204" Text=""/>
+        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="179,98,186,118" TexturePos="120,204" Text=""/>
+        <edittime0 Type="EditBox" MaxText="4"  Rectangle="151,98,191,115" Text="5" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0" ResponseMouse="1"  OnEnter=""/>
+        <textdeadtime Type="Text" Font="MainMap" Rectangle="63,97,409,116" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_22" />
+
+        <!--自动复活选项-->
+        <optionback Template="T_BgWindow" ID="-1" Rectangle="6,130,376,245" />
+        <textautooption Type="Text" Font="MainMap" Rectangle="8,146,174,163" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_23" />
+        <textauto1 Type="Text" Font="MainMap" Rectangle="8,174,28,193" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" Text="1." />
+        <textauto7 Type="Text" Font="MainMap" Rectangle="30,174,110,193" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_38" />
+        <!--编辑框-->
+        <Edit1_BoxMid Template="T_TitleText" ID="-1" Rectangle="244,175,245,195" TexturePos="120,204" Text="" OnScaleX="23"/>
+        <Edit1_BoxLeft Template="T_TitleText" ID="-1" Rectangle="237,175,244,195" TexturePos="110,204" Text=""/>
+        <Edit1_BoxRight Template="T_TitleText" ID="-1" Rectangle="267,175,274,195" TexturePos="120,204" Text=""/>
+        <edittime1 Type="EditBox" MaxText="4"  Rectangle="239,175,279,192" Text="10" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0" ResponseMouse="1"  OnEnter=""/>
+
+        <textauto2 Type="Text" Font="MainMap" Rectangle="143,174,237,193" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_24" />
+        <!--编辑框-->
+        <Edit2_BoxMid Template="T_TitleText" ID="-1" Rectangle="114,175,115,195" TexturePos="120,204" Text="" OnScaleX="23"/>
+        <Edit2_BoxLeft Template="T_TitleText" ID="-1" Rectangle="107,175,114,195" TexturePos="110,204" Text=""/>
+        <Edit2_BoxRight Template="T_TitleText" ID="-1" Rectangle="137,175,144,195" TexturePos="120,204" Text=""/>
+        <edittime2 Type="EditBox" MaxText="4"  Rectangle="109,175,149,192" Text="2" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0" ResponseMouse="1"  OnEnter=""/>
+
+        <textauto3 Type="Text" Font="MainMap" Rectangle="279,174,409,193" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_25" />
+        <!--编辑框-->
+        <Edit3_BoxMid Template="T_TitleText" ID="-1" Rectangle="34,198,35,218" TexturePos="120,204" Text="" OnScaleX="23"/>
+        <Edit3_BoxLeft Template="T_TitleText" ID="-1" Rectangle="27,198,34,218" TexturePos="110,204" Text=""/>
+        <Edit3_BoxRight Template="T_TitleText" ID="-1" Rectangle="57,198,64,218" TexturePos="120,204" Text=""/>
+        <edittime3 Type="EditBox" MaxText="4"  Rectangle="29,198,69,215" Text="10" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0" ResponseMouse="1"  OnEnter=""/>
+
+        <textauto4 Type="Text" Font="MainMap" Rectangle="69,197,277,216" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_26" />
+        <textautofuhuo Type="Text" Font="MainMap" Rectangle="8,224,28,243" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" Text="2." />
+        <textauto5 Type="Text" Font="MainMap" Rectangle="30,224,67,243" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_21" />
+        <!--编辑框-->
+        <Edit4_BoxMid Template="T_TitleText" ID="-1" Rectangle="34,225,35,245" TexturePos="120,204" Text="" OnScaleX="23"/>
+        <Edit4_BoxLeft Template="T_TitleText" ID="-1" Rectangle="27,225,34,245" TexturePos="110,204" Text=""/>
+        <Edit4_BoxRight Template="T_TitleText" ID="-1" Rectangle="57,225,64,245" TexturePos="120,204" Text=""/>
+        <edittime4 Type="EditBox" MaxText="4"  Rectangle="29,225,69,242" Text="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0" ResponseMouse="1"  OnEnter=""/>
+
+        <textauto6 Type="Text" Font="MainMap" Rectangle="63,224,370,243" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_27" />
+
+
+        <!--设置说明-->
+        <explainback Template="T_BgWindow" ID="-1" Rectangle="6,249,376,349" />
+        <textautocheck Type="Text" Font="MainMap" Rectangle="8,265,283,284" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_28" />
+        <textautoevery Type="Text" Font="MainMap" Rectangle="8,294,283,311" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_29" />
+        <textautocut Type="Text" Font="MainMap" Rectangle="8,321,283,338" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_30" />
+
+        <saveback Template="T_BgWindow" ID="-1" Rectangle="6,353,376,388" />
+        <save_button Template="T_Button4" Rectangle="291,358,373,385" OnClick="" SText="AF_X0_13" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="42,540" />
+      </ReliveTab>
+
+
+      <PetTab Type="Tab" ID="" Rectangle="197,-25,257,-2" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="244,450" SText="AF_X0_31" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5">
+
+
+        <atuofeedback Template="T_BgWindow" ID="-1" Rectangle="6,5,376,42" />
+        <autopetcheck Template="T_NormalCheckBox" ID="-1" TexturePos="222,189" Rectangle="30,14,47,31" />
+        <textautofeed Type="Text" Font="MainMap" Rectangle="59,13,209,32" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_32" />
+
+        <!--自动喂养-->
+        <foodback Template="T_BgWindow" ID="-1" Rectangle="6,46,376,245" />
+        <textautofeed Type="Text" Font="MainMap" Rectangle="10,75,350,94" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_36" />
+        <!--编辑框-->
+        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="295,76,296,96" TexturePos="120,204" Text="" OnScaleX="10"/>
+        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="288,76,295,96" TexturePos="110,204" Text=""/>
+        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="305,76,312,96" TexturePos="120,204" Text=""/>
+        <edittime Type="EditBox" MaxText="3"  Rectangle="290,76,307,93" Text="60" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0" ResponseMouse="1"  OnEnter=""/>
+        <!--宠物饱食度-->
+        <textautofeed Type="Text" Font="MainMap" Rectangle="10,120,350,194" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_33" />
+        
+        <Skill11Bk Type="Text" Rectangle="233,120,277,165" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="43,672" />
+        <Skill11 Type="Button" ID="122011" Rectangle="235,122,275,164" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" />
+        <!--宠物喂养说明-->
+        <pettextback Template="T_BgWindow" ID="-1" Rectangle="6,249,376,349" />
+        <textautofeed Type="Text" Font="MainMap" Rectangle="8,265,383,284" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_34" />
+        <textautofeed Type="Text" Font="MainMap" Rectangle="8,294,383,311" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_35" />
+
+        <!--结束保存-->
+        <saveback Template="T_BgWindow" ID="-1" Rectangle="6,353,376,388" />
+        <save_button Template="T_Button4" Rectangle="291,358,373,385" OnClick="" SText="AF_X0_13" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="42,540" />
+      </PetTab>
+
+        <!--自动拾取-->
+        <PicKupTab Type="Tab" ID="" Rectangle="257,-25,317,-2" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="244,450" SText="AF_X0_38" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5">
+         <PicKupWin Template="T_BgWindow" ID="-1" Rectangle="6,5,376,42" />
+         <PicKupText Type="Text" Font="MainMap" Rectangle="59,13,409,32" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_39" />
+
+         <!--拾取选项-->         
+         <PicKupInstal Template="T_BgWindow" ID="-1" Rectangle="6,46,376,245" />
+         <PicTextUp Type="Text" Font="MainMap" Rectangle="20,50,320,60" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_40" />
+         <PicTextDown Type="Text" Font="MainMap" Rectangle="20,70,320,80" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_52" />
+
+         <ForgeCheck Template="T_NormalCheckBox" ID="-1" TexturePos="222,189" Rectangle="60,110,77,127" />
+         <ForgeText Type="Text" Rectangle="87,110,207,127" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_41" />
+         
+         <EquipCheck Template="T_NormalCheckBox" ID="-1" TexturePos="222,189" Rectangle="60,140,77,157" />
+         <EquipText Type="Text" Rectangle="87,140,207,157" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_42" />
+         
+         <MaterCheck Template="T_NormalCheckBox" ID="-1" TexturePos="222,189" Rectangle="60,170,77,187" />
+         <Materext Type="Text" Rectangle="87,170,207,187" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_43" />
+
+         <RouleauCheck Template="T_NormalCheckBox" ID="-1" TexturePos="222,189" Rectangle="60,200,77,217" />
+         <RouleauText Type="Text" Rectangle="87,200,207,217" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_44" />
+
+         <SkillbookCheck Template="T_NormalCheckBox" ID="-1" TexturePos="222,189" Rectangle="210,110,227,127" />
+         <SkillbookText Type="Text" Rectangle="237,110,357,127" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_45"/>
+
+         <LotionCheck Template="T_NormalCheckBox" ID="-1" TexturePos="222,189" Rectangle="210,140,227,157" />
+         <LotionText Type="Text" Rectangle="237,140,357,157" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_46" />
+         
+         <PetpropsCheck Template="T_NormalCheckBox" ID="-1" TexturePos="222,189" Rectangle="210,170,227,187" />
+         <PetpropsText Type="Text" Rectangle="237,170,357,187" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_47" />
+
+         <OtherCheck Template="T_NormalCheckBox" ID="-1" TexturePos="222,189" Rectangle="210,200,227,217" />
+         <OtherText Type="Text" Rectangle="237,200,357,217" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_48" />  
+        
+        <!--拾取说明--> 
+        <PicBack Template="T_BgWindow" ID="-1" Rectangle="6,249,376,349" />         
+        <PicBack1 Type="Text" Font="MainMap" Rectangle="8,255,383,274" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_49" />
+        <PicBack2 Type="Text" Font="MainMap" Rectangle="8,284,383,301" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_50" />
+        <PicBack3 Type="Text" Font="MainMap" Rectangle="8,313,383,331" FontColor="YELLOW_TEXTCOLOR" TextFormat="16" SText="AF_X0_51" />
+        
+        <!--结束保存-->
+        <PicSaveWin Template="T_BgWindow" ID="-1" Rectangle="6,353,376,388" />
+        <PicSaveButton Template="T_Button4" Rectangle="291,358,373,385" OnClick="" SText="AF_X0_13" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="42,540" />
+     
+     </PicKupTab>
+    </AutoTabBar>
+  </AutoFightWindow>
+  <Script File="./Localization/en_us/UI/XML/Autofight.lua" Help=""/>
+  <Script File="./Localization/en_us/UI/XML/SystemBar.lua" Help=""/>
+</UIConfig>

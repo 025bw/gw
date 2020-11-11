@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2008,欢乐连线工作室
+		All rights reserved
+
+		文件名称：
+		摘    要：快速换装
+
+		当前版本：1.00
+		作    者：赖滔
+		完成日期：2009-1-13
+ 
+-->
+<UIConfig>
+  <QkEquipWin Template="T_NormalWindow" ID="3000000" Rectangle="358,112,646,460" BtnRect="221,13,259,50" BtnPos="0,80" Visible ="0">
+
+    <!--各个部分装备-->
+    <!--头盔-->
+    <Head Type="Button" ID="3100000" Rectangle="123,78,165,120" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="0,432" BtnTopRect="3,3,39,39"/>
+    <!--护身符-->
+    <Amulet Type="Button" ID="3100001" Rectangle="204,78,246,120" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="0,684" BtnTopRect="3,3,39,39"/>
+    <!--手套-->
+    <Glove Type="Button" ID="3100002" Rectangle="42,162,84,204" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="0,576" BtnTopRect="3,3,39,39"/>
+    <!--装甲-->
+    <Armor Type="Button" ID="3100003" Rectangle="123,120,165,162" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="0,360" BtnTopRect="3,3,39,39"/>
+   
+    <!--护腕-->
+    <Cuff Type="Button" ID="3100004" Rectangle="42,120,84,162" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="0,504" BtnTopRect="3,3,39,39"/>
+    <!--腰带-->
+    <Girdle Type="Button" ID="3100005" Rectangle="123,162,165,204" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="0,648" BtnTopRect="3,3,39,39"/>
+    <!--鞋子-->
+    <Shoes Type="Button" ID="3100006" Rectangle="123,246,165,288" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="0,612" BtnTopRect="3,3,39,39"/>
+    <!--腿部-->
+    <Leggins Type="Button" ID="3100007" Rectangle="123,204,165,246" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="0,504" BtnTopRect="3,3,39,39"/>
+    
+    <!--戒指1-->
+    <Ring1 Type="Button" ID="3100008" Rectangle="204,120,246,162" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="504,648" BtnTopRect="3,3,39,39"/>
+    <Ring2 Type="Button" ID="3100009" Rectangle="204,162,246,204" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="504,648" BtnTopRect="3,3,39,39"/>
+
+    <!--左手武器-->
+    <MainHand0 Type="Button" ID="3100010" Rectangle="42,236,84,278" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="0,140" BtnTopRect="3,3,39,39"/>
+    <!--右手武器-->
+    <AuxiliaryHand0 Type="Button" ID="3100011" Rectangle="205,236,247,278" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="0,140" BtnTopRect="3,3,39,39"/>
+
+    <!--一键换装：读取装备-->
+    <QuickBn1 Template="T_Button2" ID="3110000" Rectangle="25,300,85,327"  SText="QE_X0_1" Font="MainMap" OnHovered="Switch2HelperFunc()" OnLeft="HelperLeftFunc()"/>
+
+    <!--蓝色选框-->
+    <SelG1 Type="Text"  Rectangle="123,78,165,120" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,582"/>
+    <SelG2 Type="Text" Rectangle="204,78,246,120"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,582"/>
+    <SelG3 Type="Text" Rectangle="42,162,84,204"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,582"/>
+    <SelG4 Type="Text" Rectangle="123,120,165,162"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,582"/>
+    <SelG5 Type="Text"  Rectangle="42,120,84,162" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,582"/>
+    <SelG6 Type="Text" Rectangle="123,162,165,204" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,582"/>
+    <SelG7 Type="Text"  Rectangle="123,246,165,288" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,582"/>
+    <SelG8 Type="Text" Rectangle="123,204,165,246"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,582"/>
+    <SelG9 Type="Text"   Rectangle="204,120,246,162" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,582"/>
+    <SelG10 Type="Text" Rectangle="204,162,246,204" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,582"/>
+    <SelG11 Type="Text"  Rectangle="42,236,84,278" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,582"/>
+    <SelG12 Type="Text"   Rectangle="205,236,247,278" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,582"/>
+
+    <!--说明字-->
+    <WText1 Type="Text" Rectangle="90,300,100,327" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="QE_X0_2" Font="MainMap" TextFormat="5"/>
+    <!--说明字-->
+    <WText1 Type="Text" Rectangle="80,55,202,57" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="QE_X0_3" Font="MainMap" TextFormat="5"/>
+  </QkEquipWin>
+  </UIConfig>

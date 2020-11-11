@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIConfig>
+	<PetSkillWin  Template="T_BgWindow" ID="" Layer="1" Rectangle="695,655,976,717"  Text=""  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Visible="1" Enable="1">
+		<Pet1Bk Type="Text" ID="" Rectangle="8,7,52,53" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="166,962"/>
+		<Pet2Bk Type="Text" ID="" Rectangle="51,7,95,53"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="166,962"/>
+		<Pet3Bk Type="Text" ID="" Rectangle="94,7,138,53" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="166,962"/>
+		<Pet4Bk Type="Text" ID="" Rectangle="137,7,182,53" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="166,962"/>
+		<Pet5Bk Type="Text" ID="" Rectangle="181,7,224,53" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="166,962"/>
+		<Pet6Bk Type="Text" ID="" Rectangle="223,7,267,53" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="166,962"/>
+
+		<PetSkill1 Type="Button" ID="870001" Rectangle="8,11,50,53"   Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+		<PetSkill2 Type="Button" ID="870002" Rectangle="51,11,93,53"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+		<PetSkill3 Type="Button" ID="870003" Rectangle="94,11,136,53" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+		<PetSkill4 Type="Button" ID="870004" Rectangle="137,11,180,53" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+		<PetSkill5 Type="Button" ID="870005" Rectangle="181,11,222,53" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+		<PetSkill6 Type="Button" ID="870006" Rectangle="223,11,265,53" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+
+		<Pet1_1 Type="Text" ID="" Rectangle="11,10,53,51" SText="PETS_X0_1" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+		<Pet1 Type="Text" ID="870007" Rectangle="11,10,53,52" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,666" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR"/>
+		<Pet2 Type="Text" ID="870008" Rectangle="51,10,93,52" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,666" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR"/>
+		<Pet3 Type="Text" ID="870009" Rectangle="94,10,136,52" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,666" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR"/>
+		<Pet4 Type="Text" ID="870010" Rectangle="137,10,180,52" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,666" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR"/>
+		<Pet5 Type="Text" ID="870011" Rectangle="181,10,222,52" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,666" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR"/>
+		<Pet6 Type="Text" ID="870012" Rectangle="223,10,265,52" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,666" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR"/>
+	</PetSkillWin>
+</UIConfig>

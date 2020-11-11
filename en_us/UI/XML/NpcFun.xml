@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIConfig>
+  <FirstWin Template="T_SimpleWindow" ID="800000" Rectangle="380,112,980,402"  BtnRect="566,7,589,31" BtnPos="454,693"   Visible="0">
+    <!--关闭按钮-->
+    <CloseBtn Template="T_CloseButton" ID="800040" Rectangle="240,13,532,50" Text="" Visible="0"/>
+   
+    <!--窗口3行描述字-->
+    <FirstWin_Text1 Type="Text" ID="-1" Rectangle="5,100,562,306"  TexturePos="0,228" SText="NF_X0_1" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+    <FirstWin_Text2 Type="Text" ID="-1" Rectangle="5,100,562,306" TexturePos="0,228" SText="NF_X0_1" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  TextFormat="16"/>
+    <FirstWin_Text3 Type="Text" ID="-1" Rectangle="5,100,532,306" TexturePos="0,228" SText="NF_X0_1" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  TextFormat="16"/>
+    <FirstWin_Text4 Type="Text" ID="-1" Rectangle="5,100,532,306" TexturePos="0,228" SText="NF_X0_1" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  TextFormat="16"/>
+ 
+    <!--选项按钮-->
+    <FirstWin_Button1 Template="T_GuildCheckBox" ID="800001" Rectangle="25,98,245,119"/>
+    <FirstWin_Button2 Template="T_GuildCheckBox" ID="800002" Rectangle="25,123,245,144"/>
+    <FirstWin_Button3 Template="T_GuildCheckBox" ID="800003" Rectangle="25,148,245,169"/>
+    <FirstWin_Button4 Template="T_GuildCheckBox" ID="800004" Rectangle="25,173,245,194"/>
+    <FirstWin_Button5 Template="T_GuildCheckBox" ID="800005" Rectangle="25,198,245,219"/>
+    <FirstWin_Button6 Template="T_GuildCheckBox" ID="800006" Rectangle="25,223,245,244"/>
+    <FirstWin_Button7 Template="T_GuildCheckBox" ID="800007" Rectangle="25,248,245,269"/>
+    <FirstWin_Button8 Template="T_GuildCheckBox" ID="800008" Rectangle="25,273,245,294"/>
+    <FirstWin_Button9 Template="T_GuildCheckBox" ID="800009" Rectangle="25,298,245,319"/>
+    <FirstWin_Button10 Template="T_GuildCheckBox" ID="800010" Rectangle="25,323,245,344"/>
+    <FirstWin_Button11 Template="T_GuildCheckBox" ID="800011" Rectangle="25,348,245,369"/>
+    <FirstWin_Button12 Template="T_GuildCheckBox" ID="800012" Rectangle="25,373,245,394"/>
+
+    <!--4个CheckBox-->
+    <FirstWin_CheckBox1 Type="CheckBox" Texture="./Localization/en_us/UI/Texture/main.gwo" ID="800013" Rectangle="45,220,87,262" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="983,983" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  Text=""/>
+    <FirstWin_CheckBox2 Type="CheckBox" Texture="./Localization/en_us/UI/Texture/main.gwo" ID="800014" Rectangle="90,220,132,262" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="983,983" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  Text=""/>
+    <FirstWin_CheckBox3 Type="CheckBox" Texture="./Localization/en_us/UI/Texture/main.gwo" ID="800015" Rectangle="135,220,177,262" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="983,983" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  Text=""/>
+    <FirstWin_CheckBox4 Type="CheckBox" Texture="./Localization/en_us/UI/Texture/main.gwo" ID="800016" Rectangle="180,220,222,262" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="983,983" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  Text=""/>
+
+    <!--4个放道具的Button-->
+    <FirstWin_ItemBtn1 Template="T_SkillButton" ID="800031" Rectangle="45,220,87,262"  Visible="0" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <FirstWin_ItemBtn2 Template="T_SkillButton" ID="800032" Rectangle="90,220,132,262"  Visible="0" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <FirstWin_ItemBtn3 Template="T_SkillButton" ID="800033" Rectangle="135,220,177,262"  Visible="0" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <FirstWin_ItemBtn4 Template="T_SkillButton" ID="800034" Rectangle="180,220,222,262"  Visible="0" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <!--确定/关闭按钮-->
+    <FirstWin_ButtonA1 Template="T_Button2" ID="800020" Rectangle="565,240,625,267"   Texture="./Localization/en_us/UI/Texture/main.gwo" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" SText="NF_X0_2" />
+    <FirstWin_ButtonA2 Template="T_Button2" ID="800021" Rectangle="540,240,600,267"  Texture="./Localization/en_us/UI/Texture/main.gwo" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" SText="NF_X0_3" />
+    <FirstWin_ButtonA3 Template="T_Button9" ID="800022" Rectangle="520,240,672,267"  Texture="./Localization/en_us/UI/Texture/main.gwo" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" SText="NF_X0_4" />
+
+    <!--金币银币等输入框-->
+    <BijouEditMid Type="Text" Texture="./Localization/en_us/UI/Texture/main.gwo"  ID="-1" Rectangle="136,307,137,334" TexturePos="136,174" Text="" OnScaleX="94" Visible="0"/>
+    <BijouEditLeft Type="Text" Texture="./Localization/en_us/UI/Texture/main.gwo"  ID="-1" Rectangle="128,307,136,334" TexturePos="132,174" Text="" Visible="0"/>
+    <BijouEditRight Type="Text" Texture="./Localization/en_us/UI/Texture/main.gwo"  ID="-1" Rectangle="230,307,238,334" TexturePos="136,174" Text="" Visible="0"/>
+    <BijouEditBox Type="EditBox" ID="800025" Rectangle="132,308,236,333" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" MaxText="10" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0" ResponseMouse="1" Ctrl = "1" Number="1"/>
+    
+    <MoneyEditMid Type="Text" Texture="./Localization/en_us/UI/Texture/main.gwo"  ID="-1" Rectangle="156,282,157,309" TexturePos="136,174" Text="" OnScaleX="94" Visible="0"/>
+    <MoneyEditLeft Type="Text" Texture="./Localization/en_us/UI/Texture/main.gwo"  ID="-1" Rectangle="148,282,156,309" TexturePos="132,174" Text="" Visible="0"/>
+    <MoneyEditRight Type="Text" Texture="./Localization/en_us/UI/Texture/main.gwo"  ID="-1" Rectangle="250,282,258,309" TexturePos="136,174" Text="" Visible="0"/>
+    <MoneyEditBox Type="EditBox" ID="800026" Rectangle="152,283,256,308" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" MaxText="10" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0" ResponseMouse="1" Ctrl = "1" Number="1"/>
+    
+    <NumEditMid Type="Text" Texture="./Localization/en_us/UI/Texture/main.gwo"  ID="-1" Rectangle="156,282,157,309" TexturePos="136,174" Text="" OnScaleX="70" Visible="0"/>
+    <NumEditLeft Type="Text" Texture="./Localization/en_us/UI/Texture/main.gwo"  ID="-1" Rectangle="148,282,156,309" TexturePos="132,174" Text="" Visible="0"/>
+    <NumEditRight Type="Text" Texture="./Localization/en_us/UI/Texture/main.gwo"  ID="-1" Rectangle="250,282,258,309" TexturePos="136,174" Text="" Visible="0"/>
+    <NumEditBox Type="EditBox" ID="800027" Rectangle="150,308,256,331" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" MaxText="10" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0" ResponseMouse="1" Ctrl = "1" Number="1"/>
+  </FirstWin>
+  
+  <XML File="./Localization/en_us/UI/XML/NpcFunLoad.xml" Help=""/>
+  <Script File="./Localization/en_us/UI/XML/SrvMsg.lua" Help=""/>
+</UIConfig>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+	<PetInfoWin Template="T_NormalWindow" ID="" Rectangle="100,50,452,435" Enable="1" Visible="0" BtnRect="285,13,322,50" BtnPos="0,80">
+		
+		<!--名字-->
+		<PetNameLabel Type="Text" Texture="" Rectangle="25,90,66,110" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_1"/>
+		<PetName Type="Text" ID="" Texture="" Rectangle="66,90,166,110" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		
+        <!--类型-->
+		<PetTypeLabel Type="Text" Texture="" Rectangle="25,120,66,140" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_3"/>
+		<PetType Type="Text"  Texture="" Rectangle="66,120,166,140" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+	    <!--性别-->
+		<PetSexLabel Type="Text" Texture="" Rectangle="25,140,66,160" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_9"/>
+		<PetSex Type="Text" ID="" Texture="" Rectangle="81,140,181,160" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		<!--等级-->
+		<PetLevLabel Type="Text" Texture="" Rectangle="25,160,66,180" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PET_X0_9"/>
+		<PetLev Type="Text"  Texture="" Rectangle="81,160,181,180" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		<!--星座-->
+		<PetConstellationLabel Type="Text" Texture="" Rectangle="25,180,66,200" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_34"/>
+		<PetConstellation Type="Text"  Texture="" Rectangle="81,180,181,200" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+		
+		<!--资质-->
+		<PetAptitudeLabel Type="Text" Texture="" Rectangle="205,120,279,140" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_4"/>
+		<PetAptitude Type="Text"  Texture="" Rectangle="271,120,330,140" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+        <!--融合次数-->
+		<ProcreateNumLabel Type="Text" Texture="" Rectangle="205,140,279,160" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_35"/>
+		<ProcreateNum Type="Text" ID="" Texture="" Rectangle="294,140,320,160" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text="7"/>
+		<!--转生次数-->
+		<RenascenceNumLabel Type="Text" Texture="" Rectangle="205,160,279,180" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_36"/>
+		<RenascenceNum Type="Text"  Texture="" Rectangle="294,160,320,180" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text="7"/>
+		<!--剩余转生-->
+		<RemainNumLabel Type="Text" Texture="" Rectangle="205,180,279,200" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_37"/>
+		<RemainNum Type="Text"  Texture="" Rectangle="294,180,320,200" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text="7"/>
+		
+	    <!--品阶-->
+		<PetQuality Type="Text" Texture="" Rectangle="25,210,66,230" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_38"/>
+		<PetQualityNum Type="Text"  Texture="" Rectangle="110,210,140,230" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="8.94"/>
+		<PetQualityBaseNum Type="Text" Texture="" Rectangle="175,210,226,230" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" SText="PETD_X0_39"/>
+		<PetplusText Type="Text" Texture="" Rectangle="221,210,245,230" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+		<PetQualityAppendNum Type="Text"  Texture="" Rectangle="276,210,335,230" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" SText="PETD_X0_40"/>
+       <!--战斗属性显示区-->
+	   <PetBaseBack Template="T_BgWindow" ID="" Rectangle="20,232,330,362">
+		
+		<!--灵性-->
+		<PetAttribute1 Type="Text" Texture="" Rectangle="5,5,46,25" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_41"/>
+		<PetAttribute1Text Type="Text"  Texture="" Rectangle="90,5,120,25" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="82.46"/>
+		<PetAttribute1BaseNum Type="Text" Texture="" Rectangle="150,5,201,25" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="5.71"/>
+		<PetplusText Type="Text" Texture="" Rectangle="201,5,225,25" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+		<PetAttribute1AppendNum Type="Text"  Texture="" Rectangle="241,5,300,25" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="76.75"/>
+		
+		<!--强壮-->
+		<PetAttribute2 Type="Text" Texture="" Rectangle="5,25,46,45" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_42"/>
+		<PetAttribute2Text Type="Text"  Texture="" Rectangle="90,25,120,45" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="183.04"/>
+		<PetNextExp Type="Text"  Texture="" Rectangle="120,25,130,45" Font="MainMap" FontColor="GWORed" TextFormat="4" Text="(20)"/>
+		<PetAttribute2BaseNum Type="Text" Texture="" Rectangle="150,25,201,45" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="5.71"/>
+		<PetplusText Type="Text" Texture="" Rectangle="201,25,225,45" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+		<PetAttribute2AppendNum Type="Text"  Texture="" Rectangle="241,25,300,45" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="76.75"/>
+		
+		<!--准确-->
+		<PetAttribute3 Type="Text" Texture="" Rectangle="5,45,46,65" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_43"/>
+		<PetAttribute3Text Type="Text"  Texture="" Rectangle="90,45,120,65" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="75.98"/>
+		<PetAttribute3BaseNum Type="Text" Texture="" Rectangle="150,45,201,65" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="5.71"/>
+		<PetplusText Type="Text" Texture="" Rectangle="201,45,225,65" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+		<PetAttribute3AppendNum Type="Text"  Texture="" Rectangle="241,45,300,65" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="76.75"/>
+		
+		<!--身法-->
+		<PetAttribute4 Type="Text" Texture="" Rectangle="5,65,46,85" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_44"/>
+		<PetAttribute4Text Type="Text"  Texture="" Rectangle="90,65,120,85" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="63.19"/>
+		<PetAttribute4BaseNum Type="Text" Texture="" Rectangle="150,65,201,85" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="5.71"/>
+		<PetplusText Type="Text" Texture="" Rectangle="201,65,225,85" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+		<PetAttribute4AppendNum Type="Text"  Texture="" Rectangle="241,65,300,85" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="76.75"/>
+		
+		<!--根骨-->
+		<PetAttribute5 Type="Text" Texture="" Rectangle="5,85,46,105" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_45"/>
+		<PetAttribute5Text Type="Text"  Texture="" Rectangle="90,85,120,105" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="34.50"/>
+		<PetAttribute5BaseNum Type="Text" Texture="" Rectangle="150,85,201,105" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="5.71"/>
+		<PetplusText Type="Text" Texture="" Rectangle="201,85,225,105" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+		<PetAttribute5AppendNum Type="Text"  Texture="" Rectangle="241,85,300,105" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="76.75"/>
+		
+		<!--幸运-->
+		<PetAttribute6 Type="Text" Texture="" Rectangle="5,105,46,125" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="PETD_X0_46"/>
+		<PetAttribute6Text Type="Text"  Texture="" Rectangle="90,105,120,125" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="205.32"/>
+		<PetAttribute6BaseNum Type="Text" Texture="" Rectangle="150,105,201,125" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="5.71"/>
+		<PetplusText Type="Text" Texture="" Rectangle="201,105,225,125" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="+"/>
+		<PetAttribute6AppendNum Type="Text"  Texture="" Rectangle="241,105,300,125" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="2" Text="76.75"/>
+	   </PetBaseBack>
+		
+	</PetInfoWin>
+	<Script File="./Localization/en_us/UI/XML/PetInfoProc.lua" Help=""/>
+</UIConfig>

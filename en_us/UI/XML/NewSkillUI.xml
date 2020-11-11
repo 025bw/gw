@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2008,欢乐连线工作室
+		All rights reserved
+
+		文件名称：
+		摘    要：右方技能条
+
+		当前版本：1.00
+		作    者：赖滔
+		完成日期：2008-03-18  
+ 
+-->
+<UIConfig>
+  
+  <SkillUI  Type="Window" ID="120000" Layer="1" Rectangle="335,704,390,760" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="198,953" Text=""  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR">
+    <TempButton         Type="Button" ID="-1" Visable="1" Enable="1"  Rectangle="-202,0,577,56 " Visible="0"/>
+
+    
+    <!--下面一排按钮背景-->
+    <Skill1Bk Type="Text" ID="120151" Rectangle="26,6,68,62" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="224,961"/>
+    <Skill2Bk Type="Text" ID="120152" Rectangle="68,6,110,62"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="266,961"/>
+    <Skill3Bk Type="Text" ID="120153" Rectangle="110,6,152,62" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="266,961"/>
+    <Skill4Bk Type="Text" ID="120154" Rectangle="152,6,194,62" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="266,961"/>
+    <Skill5Bk Type="Text" ID="120155" Rectangle="194,6,236,62" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="266,961"/>
+    <Skill6Bk Type="Text" ID="120156" Rectangle="236,6,278,62" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="266,961"/>
+    <Skill7Bk Type="Text" ID="120157" Rectangle="278,6,320,62" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="266,961"/>
+    <Skill8Bk Type="Text" ID="120158" Rectangle="320,-2,388,62" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="308,953" Visible="0"/>
+
+    <Skill9Bk Type="Text" ID="120159" Rectangle="5,-51,68,6" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="377,953"/>
+    <Skill0Bk Type="Text" ID="120160" Rectangle="68,-38,110,6"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="440,966"/>
+    <Skill1Bk Type="Text" ID="120161" Rectangle="110,-38,152,6" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="266,961"/>
+    <Skill2Bk Type="Text" ID="120162" Rectangle="152,-38,194,6" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="266,961"/>
+    <Skill3Bk Type="Text" ID="120163" Rectangle="194,-38,236,6" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="266,961"/>
+    <Skill4Bk Type="Text" ID="120164" Rectangle="236,-38,278,6" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="266,961"/>
+    <Skill5Bk Type="Text" ID="120165" Rectangle="278,-51,338,6" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="482,953"/>
+    <Skill6Bk Type="Text" ID="120166" Rectangle="320,-51,388,6" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="308,953" Visible="0"/>
+    
+    <Skill17Bk Type="Text" ID="120167" Rectangle="636,-470,688,-408" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="972,948"/>
+    <Skill18Bk Type="Text" ID="120168" Rectangle="636,-408,689,-366"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="920,968"/>
+    <Skill19Bk Type="Text" ID="120169" Rectangle="636,-366,689,-324" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="920,968"/>
+    <Skill20Bk Type="Text" ID="120170" Rectangle="636,-324,689,-282" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="920,968"/>
+    <Skill21Bk Type="Text" ID="120171" Rectangle="636,-282,689,-236" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="868,964"/>
+
+    <!--下面一排按钮-->
+    <Skill1 Type="Button" ID="120051" Rectangle="26,9,68,51"   Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill2 Type="Button" ID="120052" Rectangle="68,9,110,51"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill3 Type="Button" ID="120053" Rectangle="110,9,152,51" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill4 Type="Button" ID="120054" Rectangle="152,9,194,51" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill5 Type="Button" ID="120055" Rectangle="194,9,236,51" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill6 Type="Button" ID="120056" Rectangle="236,9,278,51" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill7 Type="Button" ID="120057" Rectangle="278,9,320,51" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill8 Type="Button" ID="120058" Rectangle="320,9,362,51" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Visible="0"/>
+
+    <Skill9 Type="Button" ID="120059" Rectangle="26,-36,68,6"   Texture="./Localization/en_us/UI/Texture/main.gwo"  TexturePos="0,540" Font="MainMap"  FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill10 Type="Button" ID="120060" Rectangle="68,-36,110,6"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill11 Type="Button" ID="120061" Rectangle="110,-36,152,6" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill12 Type="Button" ID="120062" Rectangle="152,-36,194,6" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill13 Type="Button" ID="120063" Rectangle="194,-36,236,6" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill14 Type="Button" ID="120064" Rectangle="236,-36,278,6" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill15 Type="Button" ID="120065" Rectangle="278,-36,320,6" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill16 Type="Button" ID="120066" Rectangle="320,-35,362,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Visible="0"/>
+    
+    <Skill17 Type="Button" ID="120067" Rectangle="642,-450,683,-408"   Texture="./Localization/en_us/UI/Texture/main.gwo"  TexturePos="0,540" Font="MainMap"  FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill18 Type="Button" ID="120068"	Rectangle="642,-408,683,-366"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill19 Type="Button" ID="120069"	Rectangle="642,-366,683,-324" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill20 Type="Button" ID="120070"	Rectangle="642,-324,683,-282" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <Skill21 Type="Button" ID="120071"	Rectangle="642,-282,683,-240" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"/>
+    <!--答题按钮-->
+    <Skill22 Type="Button" ID="120072" Rectangle="623,-498,665,-452" OnUpdate="Answer_Update()" Texture="./Localization/en_us/UI/Texture/main.gwo" OnClick="Answer_MianBtn()" TexturePos="438,504" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Visible="0" />
+    <!--新手奖励按钮-->
+     <Skill23 Type="Button" ID="-1"	Rectangle="580,-450,623,-409" Texture="./Localization/en_us/UI/Texture/icon2.gwo" TexturePos="59,442" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" OnClick="AClue_Visable()" Visible="0" />
+
+    <Key1 Type="Text" Rectangle="28,9,68,51" Text="1" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <Key2 Type="Text" Rectangle="70,9,110,51" Text="2" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <Key3 Type="Text" Rectangle="112,9,152,51" Text="3" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <Key4 Type="Text" Rectangle="154,9,194,51" Text="4" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <Key5 Type="Text" Rectangle="196,9,236,51" Text="5" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <Key6 Type="Text" Rectangle="238,9,278,51" Text="6" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <Key7 Type="Text" Rectangle="280,9,320,51" Text="7" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <Key8 Type="Text" Rectangle="322,9,362,51" Text="8" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Visible="0"/>
+
+    <KeyF1 Type="Text" ID="120040" Rectangle="28,-35,68,6" Text="F1" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <KeyF2 Type="Text" ID="120041" Rectangle="70,-35,110,6" Text="F2" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <KeyF3 Type="Text" ID="120042" Rectangle="112,-35,152,6" Text="F3" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <KeyF4 Type="Text" ID="120043" Rectangle="154,-35,194,6" Text="F4" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <KeyF5 Type="Text" ID="120044" Rectangle="196,-35,236,6" Text="F5" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <KeyF6 Type="Text" ID="120045" Rectangle="238,-35,278,6" Text="F6" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <KeyF7 Type="Text" ID="120046" Rectangle="280,-35,320,6" Text="F7" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <KeyF8 Type="Text" ID="120047" Rectangle="322,-35,362,1" Text="F8" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Visible="0"/>
+    
+    <KeyCtrl1 Type="Text"  Rectangle="645,-450,683,-408" Text="Ctrl+1" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+    <KeyCtrl2 Type="Text"  Rectangle="645,-408,683,-366" Text="Ctrl+2" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+    <KeyCtrl3 Type="Text"  Rectangle="645,-366,683,-324" Text="Ctrl+3" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+    <KeyCtrl4 Type="Text"  Rectangle="645,-324,683,-282" Text="Ctrl+4" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+    <KeyCtrl5 Type="Text"  Rectangle="645,-282,683,-240" Text="Ctrl+5" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+    <!--向上扩展按钮-->
+    <NextSkill Type="Button" ID="120080" Rectangle="320,7,343,49" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="278,192" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" OnScaleY="1.1" />
+    <!--向上扩展按钮的上下边线-->
+    <Line1 Type="Text"  Rectangle="317,7,325,11" TexturePos="304,961" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <Line2 Type="Text"  Rectangle="338,7,346,11" TexturePos="304,961" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <Line3 Type="Text"  Rectangle="331,7,342,11" TexturePos="1024,1024" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <Line4 Type="Text"  Rectangle="321,51,333,55" TexturePos="266,1005" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <Line5 Type="Text"  Rectangle="331,51,342,55" TexturePos="296,1005" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <!--背景右方图-->
+    <WinRight Type="Text" ID="120097" Rectangle="356,0,382,56" TexturePos="344,953" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Visible="0"/>
+    <HideBtn Type="Button"  Rectangle="663,-498,690,-462" TexturePos="353,541" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" OnClick="HideBtn_OnClick()"/>
+    
+    <!--奖励提示按纽-->
+    <AwardsBtn Type="Button" ID="-1" Rectangle="576,-488,629,-445" Visible="0" OnClick="AwardsDraw1_Visible()" OnUpdate="AwardsDraw1_Update()"  OnHovered="AwardsDraw1_OnHovered()" OnLeft="AwardsDraw1_OnLeft()"  Texture="./Localization/en_us/UI/Texture/icon2.gwo" TexturePos="57,440" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" />
+    <AwardsBtn1 Type="Button" ID="-1" Rectangle="576,-488,620,-442" Visible="0" OnClick="AwardsDraw1_Visible()" Texture="./Localization/en_us/UI/Texture/icon2.gwo" TexturePos="2,437" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" />
+
+  </SkillUI>
+
+<Script File="./Localization/en_us/UI/XML/ButtonClick.lua"/>
+<Script File="./Localization/en_us/UI/XML/AwardFunctionProc.lua"/>
+</UIConfig>

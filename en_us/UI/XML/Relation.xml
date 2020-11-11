@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+	<RelationUI Template="T_NormalWindow" ID="120200" Modal="0" Rectangle="368,112,754,642" BtnRect="320,13,357,50" BtnPos="0,80"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR">
+
+    <RelationTabBar Type="TabBar" ID="120300" Rectangle="15,68,310,523" TexturePos="1024,1024" >
+      
+      <Friend Type="Tab" Rectangle="31,-20,91,3" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="244,450" SText="R_X0_1" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5">
+        <FListBox1Top  Type="Text"  ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="331,4,355,29" TexturePos="720,0"  Text=""/>
+        <FListBox1Btm  Type="Text"  ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="331,378,355,403" TexturePos="720,30"  Text=""/>
+        <FListBoxScrollMid Type="Text" ID="120309" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="331,29,355,30" TexturePos="720,26"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+        <Line1 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="276,20,277,21" TexturePos="710,974"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleY="392"/>
+        <ListBox Type="ListBox" ID="120301" Rectangle="3,4,284,416" TexturePos="1024,1024"  ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollRect="332,22,349,400" ScrollPos="1024,1024" BtnPos="133,122" BtnRect="0,0,17,27" Height="54">
+        </ListBox>
+        <DevideText Type="Text" ID="120302" Rectangle="-3,415,279,443" TexturePos="0,544" />
+
+        <AddFriendBtn Type="Button" ID="120303" Rectangle="1,426,61,453" TexturePos="38,80" Texture="./Localization/en_us/UI/Texture/main.gwo"   SText="R_X0_2" Font="MainFonts"  TextFormat="5"/>
+        <DelFriendBtn Type="Button" ID="120305" Rectangle="68,426,128,453" TexturePos="38,80" Texture="./Localization/en_us/UI/Texture/main.gwo"   SText="R_X0_3" Font="MainFonts"  TextFormat="5"/>
+        <PrivateSpeakBtn Type="Button" ID="120304" Rectangle="135,426,205,453" TexturePos="196,80" Texture="./Localization/en_us/UI/Texture/main.gwo"  SText="R_X0_4" Font="MainFonts"   TextFormat="5"/>
+        <TeamInviteBtn Type="Button" ID="120306" Rectangle="213,426,294,453" TexturePos="42,540" Texture="./Localization/en_us/UI/Texture/main.gwo"   SText="R_X0_5" Font="MainFonts"  TextFormat="5"/>
+
+        <UpBtn Type="Button" ID="120307" Rectangle="328,4,356,26" TexturePos="0,228" Texture="./Localization/en_us/UI/Texture/main.gwo"  Text="" OnClick="UpListBoxBtn()"/>
+        <DownBtn Type="Button" ID="120308" Rectangle="328,403,356,425" TexturePos="29,228" Texture="./Localization/en_us/UI/Texture/main.gwo"  Text="" OnClick="DownListBoxBtn()"/>
+      </Friend>
+      <Enemy Type="Tab" Rectangle="91,-20,151,3" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="244,450" SText="R_X0_22" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5">
+        <EListBox1Top  Type="Text"  ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="331,4,355,29" TexturePos="720,0"  Text=""/>
+        <EListBox1Btm  Type="Text"  ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="331,378,355,403" TexturePos="720,30"  Text=""/>
+        <EListBoxScrollMid Type="Text" ID="120309" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="331,29,355,30" OnScaleY="395" TexturePos="720,26"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+        <Line1 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="266,20,267,21" TexturePos="710,974"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleY="592"/>
+        <ListBox Type="ListBox" ID="120301" Rectangle="3,4,284,416" TexturePos="1024,1024"  ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollRect="332,22,349,400" ScrollPos="1024,1024" BtnPos="133,122" BtnRect="0,0,17,27" Height="54">
+        </ListBox>
+        <DevideText Type="Text" ID="-1" Rectangle="-17,415,269,443" TexturePos="0,544" />
+
+        <PrivateSpeakBtn  Type="Button" ID="-1" Rectangle="1,426,70,453" TexturePos="196,80" Texture="./Localization/en_us/UI/Texture/main.gwo"   SText="R_X0_4" Font="MainFonts"  TextFormat="5" OnClick = "PMEnemy()"/>
+        <TeamInviteBtn Type="Button" ID="-1" Rectangle="78,426,160,453" TexturePos="42,540" Texture="./Localization/en_us/UI/Texture/main.gwo"   SText="R_X0_23" Font="MainFonts"  TextFormat="5" OnClick = "DelEnemy()"/>
+
+        <UpBtn Type="Button" ID="-1" Rectangle="328,4,356,26" TexturePos="0,228" Texture="./Localization/en_us/UI/Texture/main.gwo"  Text="" OnClick="UpListBoxBtn()"/>
+        <DownBtn Type="Button" ID="-1" Rectangle="328,403,356,425" TexturePos="29,228" Texture="./Localization/en_us/UI/Texture/main.gwo"  Text="" OnClick="DownListBoxBtn()"/>
+      </Enemy>
+      <BlackList Type="Tab" Rectangle="151,-20,211,3" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="244,450" SText="R_X0_6" Font="MainMap"  TextFormat="5">
+
+        <BListBox1Top  Type="Text"  ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="331,4,355,29" TexturePos="720,0"  Text=""/>
+        <BListBox1Btm  Type="Text"  ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="331,378,355,403" TexturePos="720,30"  Text=""/>
+        <BListBoxScrollMid Type="Text" ID="120395" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="331,29,355,30" TexturePos="720,26"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+        <Line1 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="276,20,277,21" TexturePos="710,974"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleY="392"/>
+        <ListBox Type="ListBox" ID="120311" Rectangle="3,4,284,416" TexturePos="0,0" Texture="./Localization/en_us/UI/Texture/main.gwo" ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollRect="332,22,349,400"   ScrollPos="1024,1024"  BtnPos="133,122" BtnRect="0,0,17,27"  Height="54">
+        </ListBox>
+
+        <AddBlacklistBtn Type="Button" ID="120392" Rectangle="1,426,61,453" TexturePos="38,80" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="MainFonts"  SText="R_X0_7" TextFormat="5"/>
+        <DelBlackListBtn Type="Button" ID="120393" Rectangle="234,426,294,453" TexturePos="38,80" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="MainFonts"  SText="R_X0_3" TextFormat="5"/>
+
+        <UpBtn Type="Button" ID="120314" Rectangle="328,4,356,26" TexturePos="0,228" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnClick="UpListBoxBtn()"/>
+        <DownBtn Type="Button" ID="120315" Rectangle="328,403,356,425" TexturePos="29,228" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnClick="DownListBoxBtn()"/>
+      </BlackList>
+
+      <PrenticeList Type="Tab" Rectangle="211,-20,272,3" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="244,450" SText="R_X0_17" Font="MainMap"  TextFormat="5" Enable="1">
+        <PrenticeListBox Type="ListBox" ID="470006" Rectangle="3,4,270,416" TexturePos="1021,230" Height="54" />
+        <!--ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollRect="272,22,289,400" ScrollPos="632,90" BtnPos="133,122" BtnRect="0,0,17,27" /-->
+        <DevideText Type="Text" ID="470010" Rectangle="-3,415,279,443" TexturePos="0,544" />
+        <AddPrenticeBtn Type="Button" ID="470002" Rectangle="1,426,61,453" TexturePos="38,80" Texture="./Localization/en_us/UI/Texture/main.gwo"   SText="R_X0_2" Font="MainFonts"  TextFormat="5"/>
+        <DelPrenticeBtn Type="Button" ID="470003" Rectangle="213,426,294,453" TexturePos="42,540" Texture="./Localization/en_us/UI/Texture/main.gwo"   SText="R_X0_3" Font="MainFonts"  TextFormat="5"/>
+        <PrivateSpeakBtn Type="Button" ID="470004" Rectangle="1,426,71,453" TexturePos="196,80" Texture="./Localization/en_us/UI/Texture/main.gwo"  SText="R_X0_4" Font="MainFonts"   TextFormat="5"/>
+		    <TeamInviteBtn Type="Button" ID="470005" Rectangle="79,426,160,453" TexturePos="42,540" Texture="./Localization/en_us/UI/Texture/main.gwo"   SText="R_X0_5" Font="MainFonts"  TextFormat="5"/>
+        <!--师父名-->
+        <MasterName         Template="T_Money" ID="-1"       Rectangle="37,374,100,390"    Format="4"  FontColor="BASE_HEADCOLOR"  SText="R_X0_18"    />
+        <MasterNameText    Template="T_Money" ID="471001"   Rectangle="100,374,200,390"   Format="4"   FontColor="ORDINARY_INFOCOLOR" Text=""  />
+        <!--师德-->
+        <MaterValue       Template="T_Money" ID="-1"       Rectangle="37,392,100,408"    Format="4"  FontColor="BASE_HEADCOLOR"  SText="R_X0_19"    />
+        <MaterValueText    Template="T_Money" ID="471002"   Rectangle="180,392,280,408"   Format="4"   FontColor="ORDINARY_INFOCOLOR" Text="0"  />
+        <!--月师德-->
+        <!--CurMasterValue       Template="T_Money" ID="-1"       Rectangle="37,409,100,425"    Format="4"  FontColor="BASE_HEADCOLOR"  SText="R_X0_20" Visitble="0"    /-->
+        <CurMasterValueText    Template="T_Money" ID="471003"   Rectangle="100,409,200,425"   Format="4"   FontColor="ORDINARY_INFOCOLOR" Text="0"  Visitble="0" />
+      </PrenticeList>
+      
+      <RepGroupList Type="Tab" Rectangle="272,-20,332,3" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="244,450" SText="R_X0_14" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" >
+
+        <RGListBox1Top  Type="Text"  ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="331,4,355,29" TexturePos="720,0" Text=""/>
+        <RGListBox1Btm  Type="Text"  ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="331,378,355,403" TexturePos="720,30"  Text=""/>
+        <RGListBoxScrollMid Type="Text" ID="450101" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="331,29,355,30" TexturePos="720,26"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+        <Line1 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="276,20,277,21" TexturePos="710,974"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleY="392"/>
+        <ListBox Type="ListBox" ID="450100" Rectangle="3,4,284,416" TexturePos="0,0" Texture="./Localization/en_us/UI/Texture/main.gwo" ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollRect="332,22,349,400"   ScrollPos="1024,1024"  BtnPos="133,122" BtnRect="0,0,17,27"  Height="54">
+        </ListBox>
+
+        <AddRGlistBtn Type="Button" ID="450102" Rectangle="1,426,61,453" TexturePos="38,80" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="MainFonts"  SText="R_X0_15" TextFormat="5"/>
+        <AttRGlistBtn Type="Button" ID="450104" Rectangle="62,426,143,453" TexturePos="42,540" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="MainFonts"  SText="R_X0_21" TextFormat="5"/>
+        <DelRGListBtn Type="Button" ID="450103" Rectangle="234,426,294,453" TexturePos="38,80" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="MainFonts"  SText="R_X0_16" TextFormat="5"/>
+
+        <UpBtn Type="Button" ID="120316" Rectangle="328,4,356,26" TexturePos="0,228" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnClick="UpListBoxBtn()"/>
+        <DownBtn Type="Button" ID="120317" Rectangle="328,403,356,425" TexturePos="29,228" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnClick="DownListBoxBtn()"/>
+      </RepGroupList>
+
+      <ConsortiaInfo Type="Tab" Rectangle="273,-20,273,3" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="244,450" Text="" Enable="0" Font="MainMap" TextFormat="5" Visible="false">
+        <ListBox2 Type="ListBox" ID="-1" Rectangle="15,30,258,425" TexturePos="267,629" Texture="./Localization/en_us/UI/Texture/main.gwo" ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollRect="242,15,257,370" ScrollPos="1021,130" BtnPos="605,180" BtnRect="0,0,32,32"  Height="38">
+        </ListBox2>
+        <DevideText Type="Text" ID="120325" Rectangle="-3,415,279,443" TexturePos="0,544" Texture="./Localization/en_us/UI/Texture/main.gwo" Text=""/>
+        <ConsortiaNotifyBtn Type="Button" ID="120326" Rectangle="-3,433,75,461" TexturePos="778,515" Texture="./Localization/en_us/UI/Texture/main.gwo" color="255,0,0,255" Text=""/>
+        <DisbandConsortiaBtn Type="Button" ID="120327" Rectangle="-3,461,75,489" TexturePos="856,515" Texture="./Localization/en_us/UI/Texture/main.gwo" color="255,0,0,255" Text=""/>
+        <LeaveConsortiaBtn Type="Button" ID="120328" Rectangle="205,433,283,461" TexturePos="934,515" Texture="./Localization/en_us/UI/Texture/main.gwo" color="255,0,0,255" Text=""/>
+        <ConsortiaName Type="Text" ID="120329" Rectangle="25,30,152,45" TexturePos="800,250" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" />
+        <ConsortiaChairmanTitle Type="Text" ID="-1" Rectangle="25,53,63,68" TexturePos="573,480" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" />
+        <ConsortiaChairmanName Type="Text" ID="120330" Rectangle="72,53,200,73" TexturePos="800,250" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" />
+        <ConsortiaMemberTitle Type="Text" ID="-1" Rectangle="25,77,79,92" TexturePos="558,439" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" />
+        <ConsortiaMemberCount Type="Text" ID="120331" Rectangle="89,77,125,92" TexturePos="800,250" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" />
+        <ConsortiaLevelTitle Type="Text" ID="-1" Rectangle="25,102,63,117" TexturePos="573,463" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" />
+        <ConsortiaLevel Type="Text" ID="120332" Rectangle="74,102,104,117" TexturePos="800,250" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" />
+        <ConsortiaCreditTitle Type="Text" ID="-1" Rectangle="25,127,63,142" TexturePos="528,486" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" />
+        <ConsortiaCredit Type="Text" ID="120333" Rectangle="75,127,200,142" TexturePos="800,250" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" />
+        <ConsortiaNotifyInfoTitle Type="Text" ID="-1" Rectangle="25,151,95,166" TexturePos="585,496" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" />
+        <ConsortiaNotifyInfo Type="Text" ID="120334" Rectangle="27,170,240,300" TexturePos="800,250" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" />
+      </ConsortiaInfo>
+      <ConsortiaMember Type="Tab" Rectangle="273,-20,273,3" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="244,450" Text="" Enable="0" Font="MainMap" TextFormat="5" Visible="false">
+        <ListBox3 Type="ListBox" ID="120310" Rectangle="3,4,284,416" TexturePos="1024,1024"  ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollRect="272,22,289,400" ScrollPos="1024,1024"   Height="38">
+        </ListBox3>
+        <DevideText Type="Text" ID="120320" Rectangle="-3,415,279,443" TexturePos="0,544" Texture="./Localization/en_us/UI/Texture/main.gwo" Text=""/>
+        <AppointBtn Type="Button" ID="120321" Rectangle="205,433,283,461" TexturePos="909,770" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+        <DelMemberBtn Type="Button" ID="120322" Rectangle="205,461,283,489" TexturePos="909,882" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+        <PrivateSpeakBtn Type="Button" ID="120323" Rectangle="-3,433,75,461" TexturePos="946,129" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+        <TeamInviteBtn Type="Button" ID="120324" Rectangle="-3,461,75,489" TexturePos="700,516" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+        <UpBtn Type="Button" ID="120312" Rectangle="258,22,284,44" TexturePos="611,92" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+        <DownBtn Type="Button" ID="120313" Rectangle="257,400,279,422" TexturePos="609,2" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+      </ConsortiaMember>
+
+    </RelationTabBar>
+    <DutyMenu Type="Window" ID="129800" Layer="1" Rectangle="215,377,281,487" TexturePos="554,516" Texture="./Localization/en_us/UI/Texture/main.gwo" Text=""  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR">
+      <Chairman Type="Button" ID="129801" Rectangle="1,10,56,25" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="782,454" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR"/>
+      <Director Type="Button" ID="129802" Rectangle="1,30,56,45" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="845,454" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR"/>
+      <Jingying Type="Button" ID="129803" Rectangle="1,50,56,65" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="908,454" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR"/>
+      <Member Type="Button" ID="129804" Rectangle="1,70,56,85" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="782,394" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR"/>
+    </DutyMenu>
+
+    <FLeft  Type="Text" ID="-1"  Rectangle="14,486,29,501"  TexturePos="146,173" Texture="./Localization/en_us/UI/Texture/main.gwo" Text=""/>
+    <FMid   Type="Text" ID="-1"  Rectangle="29,492,30,495"  TexturePos="159,179" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" OnScaleX="337"/>
+    <FRight Type="Text" ID="-1"  Rectangle="357,486,372,501"  TexturePos="146,188"  Texture="./Localization/en_us/UI/Texture/main.gwo" Text=""/>
+    
+  </RelationUI>
+
+
+
+  <!--添加好友提示输入窗口-->
+  <RelationMsgBox Template="T_SimpleWindow" ID="120500" Modal="0" Rectangle="392,319,632,449">
+		<HitText Type="Text" ID="120501" Rectangle="40,23,200,41" TexturePos="1024,1024" Texture="./Localization/en_us/UI/Texture/main.gwo" SText="R_X0_8" Font="MainFonts" TextFormat="5"/>
+		
+    <InputEdtText  Type="Text"  ID="-1"    Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="48,53,49,82" TexturePos="139,173"  Text=""/>
+    <InputEdt      Type="EditBox" ID="120502"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Rectangle="48,53,193,82"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" MaxText="32" ResponseMouse="1" TextFormat="4" Text=""/>
+    <InputEdtLeft  Type="Text"  ID="-1"      Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="41,53,48,82" TexturePos="131,173"  Text=""/>
+    <InputEdtRight Type="Text"  ID="-1"      Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="192,53,199,82" TexturePos="138,173"  Text=""/>
+       
+    <SureBtn Template="T_Button3" ID="120503" Rectangle="49,94,118,121" Font="MainMap"  SText="R_X0_9" TextFormat="5"/>
+    <SureBtnLeft  Type="Text" ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="14,107,48,120" TexturePos="161,99"  Text=""/>
+    <!--<SureBtnRight Type="Text" ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="155,177,189,190" TexturePos="161,126"  Text=""/>-->
+    
+    <CancelBtn Template="T_Button3" ID="120504" Rectangle="121,94,190,121" Font="MainMap"  SText="R_X0_10" TextFormat="5"/>
+    <!--<CancelLeft  Type="Text"  ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="157,177,192,190" TexturePos="161,99"  Text=""/>-->
+    <CancelRight Type="Text"  ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="191,107,225,120" TexturePos="161,126"  Text=""/>
+
+  </RelationMsgBox>
+  <RequestMsgBox Template="T_NormalWindow" ID="120600" Visible="0"  Modal="0" Rectangle="100,100,449,280" >
+    <NameText Type="Text" ID="120601" Rectangle="80,45,250,80 " TexturePos="0,896" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR"/>
+    <HitText Type="Text" ID="120602" Rectangle="98,67,254,86 " TexturePos="867,185" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR"/>
+    <AgreeBtn Type="Button" ID="120603" Rectangle="41,91,98,118" TexturePos="58, 231" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" SText="R_X0_11"/>
+    <RefuseBtn Type="Button" ID="120604" Rectangle="248,91,305,118" TexturePos="58, 231" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR"  SText="R_X0_12"/>
+  </RequestMsgBox>
+  
+  <!--添加黑名单提示输入窗口-->
+  <BlackListMsgBox Template="T_SimpleWindow" ID="120900" Modal="0" Visible="0" Rectangle="392,319,632,449">
+    <HitText Type="Text" ID="120901" Rectangle="40,23,200,41" TexturePos="1024,1024" Texture="./Localization/en_us/UI/Texture/main.gwo" SText="R_X0_13" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+
+    <InputEdtText1  Type="Text"  ID="-1"    Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="48,53,49,82" TexturePos="139,173"  Text=""/>
+    <InputEdt1      Type="EditBox" ID="120902"  Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Rectangle="48,53,193,82"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" MaxText="32" ResponseMouse="1" TextFormat="4" Text=""/>
+    <InputEdtLeft1  Type="Text"  ID="-1"      Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="41,53,48,82" TexturePos="131,173"  Text=""/>
+    <InputEdtRight1 Type="Text"  ID="-1"      Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="192,53,199,82" TexturePos="138,173"  Text=""/>
+
+    <SureBtn1 Template="T_Button3" ID="120903" Rectangle="49,94,118,121" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="R_X0_9" TextFormat="5"/>
+    <SureBtnLeft1  Type="Text" ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="14,107,48,120" TexturePos="161,99"  Text=""/>
+    <!--<SureBtnRight1 Type="Text" ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="155,177,189,190" TexturePos="161,126"  Text=""/>-->
+
+    <CancelBtn1 Template="T_Button3" ID="120904" Rectangle="121,94,190,121" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="R_X0_10" TextFormat="5"/>
+    <!--<CancelLeft1  Type="Text"  ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="157,177,192,190" TexturePos="161,99"  Text=""/>-->
+    <CancelRight1 Type="Text"  ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="191,107,225,120" TexturePos="161,126"  Text=""/>
+  </BlackListMsgBox>
+  <!--添加团队成员提示输入窗口-->
+  <GroupListMsgBox Template="T_SimpleWindow" ID="450200" Modal="0" Visible="0" Rectangle="392,319,632,449">
+    <HitText Type="Text" ID="450201" Rectangle="40,23,200,41" TexturePos="1024,1024" Texture="./Localization/en_us/UI/Texture/main.gwo" SText="R_X0_13" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+
+    <InputEdtText1  Type="Text"  ID="-1"    Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="48,53,49,82" TexturePos="139,173"  Text=""/>
+    <InputEdt1      Type="EditBox" ID="450202"  Texture="" TexturePos="0,0" Rectangle="48,53,193,82"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" MaxText="32" ResponseMouse="1" TextFormat="4" Text=""/>
+    <InputEdtLeft1  Type="Text"  ID="-1"      Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="41,53,48,82" TexturePos="131,173"  Text=""/>
+    <InputEdtRight1 Type="Text"  ID="-1"      Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="192,53,199,82" TexturePos="138,173"  Text=""/>
+
+    <SureBtn1 Template="T_Button3" ID="450203" Rectangle="49,94,118,121" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="R_X0_9" TextFormat="5"/>
+    <SureBtnLeft1  Type="Text" ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="14,107,48,120" TexturePos="161,99"  Text=""/>
+    <!--<SureBtnRight1 Type="Text" ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="155,177,189 ,190" TexturePos="161,126"  Text=""/>-->
+
+    <CancelBtn1 Template="T_Button3" ID="450204" Rectangle="121,94,190,121" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="R_X0_10" TextFormat="5"/>
+    <!--<CancelLeft1  Type="Text"  ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="157,177,192,190" TexturePos="161,99"  Text=""/>-->
+    <CancelRight1 Type="Text"  ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="191,107,225,120" TexturePos="161,126"  Text=""/>
+  </GroupListMsgBox>
+  
+    <!--添加团队成员提示输入窗口-->
+  <GroupListDelMsgBox Template="T_SimpleWindow" ID="450300" Modal="0" Visible="0" Rectangle="392,319,632,449">
+    <SureBtn1 Template="T_Button3" ID="450301" Rectangle="49,94,118,121" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="R_X0_9" TextFormat="5"/>
+    <SureBtnLeft1  Type="Text" ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="14,107,48,120" TexturePos="161,99"  Text=""/>
+    <!--<SureBtnRight1 Type="Text" ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="155,177,189 ,190" TexturePos="161,126"  Text=""/>-->
+
+    <CancelBtn1 Template="T_Button3" ID="450302" Rectangle="121,94,190,121" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="R_X0_10" TextFormat="5"/>
+    <!--<CancelLeft1  Type="Text"  ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="157,177,192,190" TexturePos="161,99"  Text=""/>-->
+    <CancelRight1 Type="Text"  ID="-1"  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="191,107,225,120" TexturePos="161,126"  Text=""/>
+  </GroupListDelMsgBox>
+  
+  <XML File = "./Localization/en_us/UI/XML/Enemy_Template.xml" />
+  <Script File="./Localization/en_us/UI/XML/EnemyProc.lua" Help=""/>
+</UIConfig>

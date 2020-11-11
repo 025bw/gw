@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--this is SystemSetup-->
+<SystemSetup>
+    <System edition="1005" MUSIC="0.000000" SOUND="1.000000" />
+    <System edition="1005" MUSIC="1.000000" SOUND="1.000000" />
+</SystemSetup>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--this is SystemSetup-->
+<SystemSetup />

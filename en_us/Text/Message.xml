@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--this is Message config-->
+<Message>
+    <PetRandomEvent>
+        <PetAddA ID="1">
+            <Pet1 Message="PetRandomEvent_Message1"/>
+            <Pet2 Message="PetRandomEvent_Message2"/>
+            <Pet3 Message="PetRandomEvent_Message3"/>
+        </PetAddA>
+        <PetAddB ID="2">
+            <Pet4 Message="PetRandomEvent_Message4"/>
+            <Pet5 Message="PetRandomEvent_Message5"/>
+            <Pet6 Message="PetRandomEvent_Message6"/>
+        </PetAddB>
+        <PetAddC ID="3">
+            <Pet7 Message="PetRandomEvent_Message7"/>
+            <Pet8 Message="PetRandomEvent_Message8"/>
+            <Pet9 Message="PetRandomEvent_Message9"/>
+        </PetAddC>
+        <PetAddD ID="4">
+            <Pet10 Message="PetRandomEvent_Message10"/>
+        </PetAddD>
+        <PetAddE ID="5">
+            <Pet11 Message="PetRandomEvent_Message11"/>
+            <Pet12 Message="PetRandomEvent_Message12"/>
+        </PetAddE>
+        <PetLoseA ID="6">
+            <Pet13 Message="PetRandomEvent_Message13"/>
+            <Pet14 Message="PetRandomEvent_Message14"/>
+        </PetLoseA>
+        <PetLoseB ID="7">
+            <Pet15 Message="PetRandomEvent_Message15"/>
+        </PetLoseB>
+        <PetAddF ID="8">
+            <Pet16 Message="PetRandomEvent_Message16"/>
+            <Pet17 Message="PetRandomEvent_Message17"/>
+        </PetAddF>
+    </PetRandomEvent>
+</Message>

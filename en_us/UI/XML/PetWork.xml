@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+	<PetWorkWin Template="T_NormalWindow" Rectangle="100,50,400,490" Enable="1" Visible="1" BtnRect="230,13,267,50" BtnPos="0,80">
+		<PetWorkText1 Type="Text" ID="851014" Texture="" Rectangle="20,88,280,110" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="16" SText="PETW_X0_1"/>
+		<PetWorkText2 Type="Text" ID="851013" Texture="" Rectangle="20,190,280,200" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="16" SText="PETW_X0_2"/>
+		<!--剩余时间-->
+		<WorkRemainTime Type="Text" ID="851012" Rectangle="25,208,95,228" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="5" SText="PETW_X0_16"/>
+		<ExpenditureText Type="Text" ID="851011" Texture="" Rectangle="130,208,200,228" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="0"/>
+		<!--预计开支-->
+		<Expenditure Type="Text" ID="851015" Texture="" Rectangle="25,228,95,248" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="5" SText="PETW_X0_3"/>
+	  <ExpenditureText Type="Text" ID="851001" Texture="" Rectangle="160,228,230,248" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="0" />
+		<!--获得经验-->
+	  <AchieveExp Type="Text" Texture="" Rectangle="25,248,95,268" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="5" SText="PETW_X0_4"/>
+	  <AchieveExpText Type="Text" Texture="" ID="851002" Rectangle="130,248,200,268" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="0"/>
+		<!--获得专长-->
+	  <AchieveSpe Type="Text" Texture="" Rectangle="25,268,95,288" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="5" SText="PETW_X0_5"/>
+	  <AchieveSpeText Type="Text" Texture="" ID="851003" Rectangle="150,268,220,288" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="0"/>
+		<!--口粮购买方式-->
+	  <PurchaseFood Type="Text" Texture="" Rectangle="20,285,90,305" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="5" SText="PETW_X0_6"/>
+		<PurchaseFoodWin Template="T_BgWindow" Rectangle="25,305,135,395" Enable="0" Visible="1">
+			<Gold Template="T_NormalCheckBox" ID="851004" TexturePos="222,189" Rectangle="10,15,27,33" TextFormat="0"/>
+			<GoldText Type="Text" Rectangle="43,15,110,35" SText="PETW_X0_7" Font="MainMap"/>
+			<Silver Template="T_NormalCheckBox" ID="851005" TexturePos="222,189" Rectangle="10,45,27,63" TextFormat="0"/>
+			<SilverText Type="Text" Rectangle="43,45,110,65" SText="PETW_X0_8" Font="MainMap"/>
+		</PurchaseFoodWin>
+		<!--宠物打工时间-->
+	  <WorkTime Type="Text" Texture="" Rectangle="180,285,260,305" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="5" SText="PETW_X0_9"/>
+	  <WorkTimeWin Template="T_BgWindow" Rectangle="165,305,275,395" Enable="0" Visible="1">
+			<WorkTime1 Template="T_NormalCheckBox" ID="851006" TexturePos="222,189" Rectangle="5,5,22,23" TextFormat="0"/>
+			<WorkTime1Text Type="Text" Rectangle="33,5,100,25" SText="PETW_X0_10" Font="MainMap"/>
+			<WorkTime2 Template="T_NormalCheckBox" ID="851007" TexturePos="222,189" Rectangle="5,25,22,43" TextFormat="0" OnChecked="PowerCheck()"/>
+			<WorkTime2Text Type="Text" Rectangle="33,25,100,45" SText="PETW_X0_11" Font="MainMap"/>
+			<WorkTime3 Template="T_NormalCheckBox" ID="851008" TexturePos="222,189" Rectangle="5,45,22,63" TextFormat="0" OnChecked="PowerCheck()"/>
+			<WorkTime3Text Type="Text" Rectangle="33,45,100,65" SText="PETW_X0_12" Font="MainMap"/>
+			<WorkTime4 Template="T_NormalCheckBox" ID="851009" TexturePos="222,189" Rectangle="5,65,22,83" TextFormat="0" OnChecked="PowerCheck()"/>
+			<WorkTime4Text Type="Text" Rectangle="33,65,100,85" SText="PETW_X0_13" Font="MainMap"/>
+		</WorkTimeWin>
+		<OKBtn Template="T_Button2" ID="851010" Rectangle="214,400,275,427" SText="PETW_X0_14" TextFormat="5" Font="MainMap"/>
+	</PetWorkWin>
+	<Script File="./Localization/en_us/UI/XML/PetWorkProc.lua" Help=""/>
+</UIConfig>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--this is Timeprize Accept config-->
+
+<Timeprize>
+    <NewPlayer>
+        <NewPlayer ID="1" Time="5" Prize="111,-1,-1,-1"/>
+        <NewPlayer ID="2" Time="10" Prize="102,112,-1,-1"/>
+        <NewPlayer ID="3" Time="20" Prize="103,-1,-1,-1"/>
+        <NewPlayer ID="4" Time="40" Prize="104,-1,-1,-1"/>
+        <NewPlayer ID="5" Time="100" Prize="105,106,-1,-1"/>
+        <NewPlayer ID="6" Time="220" Prize="107,108,-1,-1"/>
+        <NewPlayer ID="7" Time="400" Prize="113,-1,-1,-1"/>
+        <NewPlayer ID="8" Time="700" Prize="110,-1,-1,-1"/>
+    </NewPlayer>
+    <LostPrize>
+        <Config>
+            <lostPrize MinLv="60" MinTime="1440"/>
+        </Config>
+        <LvGain>
+            <LvGain Lv="60" Exp="30" SkillPoint="0.021" Energy="0.021" BindingGolds="0"/>
+            <LvGain Lv="61" Exp="31.53" SkillPoint="0.0217" Energy="0.0217" BindingGolds="0"/>
+            <LvGain Lv="62" Exp="33.1" SkillPoint="0.0224" Energy="0.0224" BindingGolds="0"/>
+            <LvGain Lv="63" Exp="34.73" SkillPoint="0.0231" Energy="0.0231" BindingGolds="0"/>
+            <LvGain Lv="64" Exp="36.41" SkillPoint="0.0238" Energy="0.0238" BindingGolds="0"/>
+            <LvGain Lv="65" Exp="38.14" SkillPoint="0.0245" Energy="0.0245" BindingGolds="0"/>
+            <LvGain Lv="66" Exp="39.93" SkillPoint="0.0252" Energy="0.0252" BindingGolds="0"/>
+            <LvGain Lv="67" Exp="41.77" SkillPoint="0.0259" Energy="0.0259" BindingGolds="0"/>
+            <LvGain Lv="68" Exp="43.67" SkillPoint="0.0266" Energy="0.0266" BindingGolds="0"/>
+            <LvGain Lv="69" Exp="45.63" SkillPoint="0.0273" Energy="0.0273" BindingGolds="0"/>
+            <LvGain Lv="70" Exp="47.64" SkillPoint="0.028" Energy="0.028" BindingGolds="0"/>
+            <LvGain Lv="71" Exp="49.71" SkillPoint="0.0287" Energy="0.0287" BindingGolds="0"/>
+            <LvGain Lv="72" Exp="51.84" SkillPoint="0.0294" Energy="0.0294" BindingGolds="0"/>
+            <LvGain Lv="73" Exp="54.03" SkillPoint="0.0301" Energy="0.0301" BindingGolds="0"/>
+            <LvGain Lv="74" Exp="56.28" SkillPoint="0.0308" Energy="0.0308" BindingGolds="0"/>
+            <LvGain Lv="75" Exp="58.59" SkillPoint="0.0315" Energy="0.0315" BindingGolds="0"/>
+            <LvGain Lv="76" Exp="60.97" SkillPoint="0.0322" Energy="0.0322" BindingGolds="0"/>
+            <LvGain Lv="77" Exp="63.41" SkillPoint="0.0329" Energy="0.0329" BindingGolds="0"/>
+            <LvGain Lv="78" Exp="65.91" SkillPoint="0.0336" Energy="0.0336" BindingGolds="0"/>
+            <LvGain Lv="79" Exp="68.48" SkillPoint="0.0343" Energy="0.0343" BindingGolds="0"/>
+            <LvGain Lv="80" Exp="71.11" SkillPoint="0.035" Energy="0.035" BindingGolds="0"/>
+            <LvGain Lv="81" Exp="73.81" SkillPoint="0.0357" Energy="0.0357" BindingGolds="0"/>
+            <LvGain Lv="82" Exp="76.58" SkillPoint="0.0364" Energy="0.0364" BindingGolds="0"/>
+            <LvGain Lv="83" Exp="79.41" SkillPoint="0.0371" Energy="0.0371" BindingGolds="0"/>
+            <LvGain Lv="84" Exp="82.32" SkillPoint="0.0378" Energy="0.0378" BindingGolds="0"/>
+            <LvGain Lv="85" Exp="85.3" SkillPoint="0.0385" Energy="0.0385" BindingGolds="0"/>
+            <LvGain Lv="86" Exp="88.34" SkillPoint="0.0392" Energy="0.0392" BindingGolds="0"/>
+            <LvGain Lv="87" Exp="91.46" SkillPoint="0.0399" Energy="0.0399" BindingGolds="0"/>
+            <LvGain Lv="88" Exp="94.65" SkillPoint="0.0406" Energy="0.0406" BindingGolds="0"/>
+            <LvGain Lv="89" Exp="97.91" SkillPoint="0.0413" Energy="0.0413" BindingGolds="0"/>
+            <LvGain Lv="90" Exp="101.25" SkillPoint="0.042" Energy="0.042" BindingGolds="0"/>
+            <LvGain Lv="91" Exp="104.66" SkillPoint="0.0427" Energy="0.0427" BindingGolds="0"/>
+            <LvGain Lv="92" Exp="108.15" SkillPoint="0.0434" Energy="0.0434" BindingGolds="0"/>
+            <LvGain Lv="93" Exp="111.72" SkillPoint="0.0441" Energy="0.0441" BindingGolds="0"/>
+            <LvGain Lv="94" Exp="115.36" SkillPoint="0.0448" Energy="0.0448" BindingGolds="0"/>
+            <LvGain Lv="95" Exp="119.08" SkillPoint="0.0455" Energy="0.0455" BindingGolds="0"/>
+            <LvGain Lv="96" Exp="122.88" SkillPoint="0.0462" Energy="0.0462" BindingGolds="0"/>
+            <LvGain Lv="97" Exp="126.76" SkillPoint="0.0469" Energy="0.0469" BindingGolds="0"/>
+            <LvGain Lv="98" Exp="130.72" SkillPoint="0.0476" Energy="0.0476" BindingGolds="0"/>
+            <LvGain Lv="99" Exp="134.76" SkillPoint="0.0483" Energy="0.0483" BindingGolds="0"/>
+            <LvGain Lv="100" Exp="138.89" SkillPoint="0.049" Energy="0.049" BindingGolds="0"/>
+            <LvGain Lv="101" Exp="143.1" SkillPoint="0.0497" Energy="0.0497" BindingGolds="0"/>
+            <LvGain Lv="102" Exp="147.39" SkillPoint="0.0504" Energy="0.0504" BindingGolds="0"/>
+            <LvGain Lv="103" Exp="151.77" SkillPoint="0.0511" Energy="0.0511" BindingGolds="0"/>
+            <LvGain Lv="104" Exp="156.23" SkillPoint="0.0518" Energy="0.0518" BindingGolds="0"/>
+            <LvGain Lv="105" Exp="160.78" SkillPoint="0.0525" Energy="0.0525" BindingGolds="0"/>
+            <LvGain Lv="106" Exp="165.42" SkillPoint="0.0532" Energy="0.0532" BindingGolds="0"/>
+            <LvGain Lv="107" Exp="170.14" SkillPoint="0.0539" Energy="0.0539" BindingGolds="0"/>
+            <LvGain Lv="108" Exp="174.96" SkillPoint="0.0546" Energy="0.0546" BindingGolds="0"/>
+            <LvGain Lv="109" Exp="179.87" SkillPoint="0.0553" Energy="0.0553" BindingGolds="0"/>
+            <LvGain Lv="110" Exp="184.86" SkillPoint="0.056" Energy="0.056" BindingGolds="0"/>
+            <LvGain Lv="111" Exp="189.95" SkillPoint="0.0567" Energy="0.0567" BindingGolds="0"/>
+            <LvGain Lv="112" Exp="195.13" SkillPoint="0.0574" Energy="0.0574" BindingGolds="0"/>
+            <LvGain Lv="113" Exp="200.4" SkillPoint="0.0581" Energy="0.0581" BindingGolds="0"/>
+            <LvGain Lv="114" Exp="205.77" SkillPoint="0.0588" Energy="0.0588" BindingGolds="0"/>
+            <LvGain Lv="115" Exp="211.23" SkillPoint="0.0595" Energy="0.0595" BindingGolds="0"/>
+            <LvGain Lv="116" Exp="216.79" SkillPoint="0.0602" Energy="0.0602" BindingGolds="0"/>
+            <LvGain Lv="117" Exp="222.45" SkillPoint="0.0609" Energy="0.0609" BindingGolds="0"/>
+            <LvGain Lv="118" Exp="228.2" SkillPoint="0.0616" Energy="0.0616" BindingGolds="0"/>
+            <LvGain Lv="119" Exp="234.05" SkillPoint="0.0623" Energy="0.0623" BindingGolds="0"/>
+            <LvGain Lv="120" Exp="240" SkillPoint="0.063" Energy="0.063" BindingGolds="0"/>
+            <LvGain Lv="121" Exp="246.05" SkillPoint="0.0637" Energy="0.0637" BindingGolds="0"/>
+            <LvGain Lv="122" Exp="252.2" SkillPoint="0.0644" Energy="0.0644" BindingGolds="0"/>
+            <LvGain Lv="123" Exp="258.45" SkillPoint="0.0651" Energy="0.0651" BindingGolds="0"/>
+            <LvGain Lv="124" Exp="264.81" SkillPoint="0.0658" Energy="0.0658" BindingGolds="0"/>
+            <LvGain Lv="125" Exp="271.27" SkillPoint="0.0665" Energy="0.0665" BindingGolds="0"/>
+            <LvGain Lv="126" Exp="277.83" SkillPoint="0.0672" Energy="0.0672" BindingGolds="0"/>
+            <LvGain Lv="127" Exp="284.5" SkillPoint="0.0679" Energy="0.0679" BindingGolds="0"/>
+            <LvGain Lv="128" Exp="291.27" SkillPoint="0.0686" Energy="0.0686" BindingGolds="0"/>
+            <LvGain Lv="129" Exp="298.15" SkillPoint="0.0693" Energy="0.0693" BindingGolds="0"/>
+            <LvGain Lv="130" Exp="305.14" SkillPoint="0.07" Energy="0.07" BindingGolds="0"/>
+            <LvGain Lv="131" Exp="307" SkillPoint="0.08" Energy="0.08" BindingGolds="0"/>
+            <LvGain Lv="132" Exp="313" SkillPoint="0.0808" Energy="0.0808" BindingGolds="0"/>
+            <LvGain Lv="133" Exp="319" SkillPoint="0.0816" Energy="0.0816" BindingGolds="0"/>
+            <LvGain Lv="134" Exp="325" SkillPoint="0.0824" Energy="0.0824" BindingGolds="0"/>
+            <LvGain Lv="135" Exp="331" SkillPoint="0.0832" Energy="0.0832" BindingGolds="0"/>
+            <LvGain Lv="136" Exp="337" SkillPoint="0.084" Energy="0.084" BindingGolds="0"/>
+            <LvGain Lv="137" Exp="343" SkillPoint="0.0848" Energy="0.0848" BindingGolds="0"/>
+            <LvGain Lv="138" Exp="349" SkillPoint="0.0856" Energy="0.0856" BindingGolds="0"/>
+            <LvGain Lv="139" Exp="355" SkillPoint="0.0864" Energy="0.0864" BindingGolds="0"/>
+            <LvGain Lv="140" Exp="361" SkillPoint="0.0872" Energy="0.0872" BindingGolds="0"/>
+        </LvGain>
+    </LostPrize>
+    <PrizeItem>
+        <Item ID="100" ItemID="8070" Num="1" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="101" ItemID="8060" Num="1" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="102" ItemID="4502" Num="3" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="103" ItemID="4508" Num="5" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="104" ItemID="4511" Num="2" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="105" ItemID="4180" Num="5" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="106" ItemID="4170" Num="1" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="107" ItemID="4503" Num="3" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="108" ItemID="4526" Num="3" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="109" ItemID="8197" Num="1" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="110" ItemID="10159" Num="1" Binding="1" BaseLV="5" AppLV="1"/>
+        <Item ID="111" ItemID="2700" Num="1" Binding="1" BaseLV="3" AppLV="1"/>
+        <Item ID="112" ItemID="2600" Num="1" Binding="1" BaseLV="3" AppLV="1"/>
+        <Item ID="113" ItemID="2701" Num="1" Binding="1" BaseLV="3" AppLV="1"/>
+        <Item ID="200" ItemID="10090" Num="1" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="201" ItemID="4113" Num="3" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="202" ItemID="4502" Num="3" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="203" ItemID="4524" Num="3" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="204" ItemID="4530" Num="1" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="205" ItemID="4231" Num="1" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="206" ItemID="4113" Num="6" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="207" ItemID="4503" Num="5" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="208" ItemID="4526" Num="5" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="209" ItemID="4531" Num="3" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="210" ItemID="10142" Num="2" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="211" ItemID="4167" Num="1" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="212" ItemID="4232" Num="2" Binding="1" BaseLV="1" AppLV="1"/>
+        <Item ID="213" ItemID="4101" Num="6" Binding="1" BaseLV="1" AppLV="1"/>
+    </PrizeItem>
+</Timeprize>

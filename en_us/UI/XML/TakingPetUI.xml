@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIConfig>
+  <PetTakeWin Type="Window" ID="870000"  Rectangle="30,67,207,139" TexturePos="160,875" Texture="./Localization/en_us/UI/Texture/main.gwo" Visible="1" Text="" Layer="1" Enable="0">
+	<level Type="Text" ID="870001" Rectangle="58, 42 ,96, 58" Text="" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="5"/>
+    <Sp Type="Text" ID="870008" Rectangle="96, 45 ,154, 56" TexturePos="835,140" Texture="./Localization/en_us/UI/Texture/main.gwo" Text=""/>
+    <SpText Type="Text" ID="870009" Rectangle="96, 45 ,154, 56" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextWeight="3"  TextFormat="5"/>
+    <Mp Type="Text" ID="" Rectangle="97, 40 ,180, 51" TexturePos="810,196" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Visible="0"/>
+    <HpText Type="Text" ID="870002" Rectangle="97, 27 ,180, 43" TexturePos="830,285" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextWeight="3" Visible="0"/>
+    <MpText Type="Text" ID="870003" Rectangle="97, 41 ,180, 55" TexturePos="810,196" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextWeight="3" Visible="0"/>
+    <pet1 Type="Button" ID="870004" Rectangle="100,63,125,88" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="998,109"  Font="MainFonts" FontColor="YELLOW_TEXTCOLOR" TextFormat="5" OnHovered="Taking1HelperFunc()" OnLeft="HelperLeftFunc()"/>    
+	<pet2 Type="Button" ID="870005" Rectangle="72,63,97,88" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="355,441"  Font="MainFonts" FontColor="YELLOW_TEXTCOLOR" TextFormat="5" OnHovered="Taking1HelperFunc2()" OnLeft="HelperLeftFunc()" />
+    <name Type="Text" ID="870006" Rectangle="21, 20, 217, 35" Text="" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="1" /> 
+	<!--PetIcon Type="Text" ID="860007"  Rectangle="8, 5, 44, 41" Texture="./Localization/en_us/UI/Texture/icon2.gwo" TexturePos="982,982" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/--> 	
+	<!--PetIcon Type="Button" ID="860007"  Rectangle="8, 5, 44, 41" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/-->
+	<PetIcon Type="Button" ID="870007"  Rectangle="21, 22, 57, 58" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="504,468" BtnTopRect="0,0,36,36"/>
+	
+	
+  </PetTakeWin>
+  
+  <Script File="./Localization/en_us/UI/XML/TakingPetProc.lua" Help=""/> 
+</UIConfig>

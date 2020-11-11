@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2008,欢乐连线工作室
+		All rights reserved
+
+		文件名称：
+		摘    要：验证审查
+
+		当前版本：1.00
+		作    者：赖滔
+		完成日期：2009-05-25 
+ 
+-->
+<UIConfig>
+ <!--背景-->
+  <VerificationWin Template="T_NormalWindow" ID="4900000" Modal="1" Rectangle="300,188,650,740" Layer="3">
+    
+   
+   <!--说明.....-->
+   <Text1 Type="Text" Rectangle="0,50,350,73" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_30" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   <!--说明.....-->
+   <Text2 Type="Text" Rectangle="30,77,260,101" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_30" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0"/>
+   <!--说明.....-->
+   <Text3 Type="Text" Rectangle="30,97,260,121" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_30" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0"/>
+   <!--说明.....-->
+   <Text4 Type="Text" Rectangle="30,117,260,141" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024"  SText="EF_X0_30" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+    <!--说明.....-->
+   <Text5 Type="Text" Rectangle="30,157,260,181" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024"  SText="EF_X0_30" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+ 
+   <!--验证图-->
+   <VfPic Type="Text" Rectangle="50,200,250,328" Texture="./Localization/en_us/UI/Texture/code.gwo" TexturePos="0,0"/>
+    
+    <!--点击按钮-->
+    <VfPicBt Type="Button" ID="4900001" Rectangle="50,200,250,328" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="1024,1024" BtnTopRect="3,3,39,39"/>
+
+  </VerificationWin>
+</UIConfig>

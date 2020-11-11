@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!--this is EquipSuitInfoIni config-->
+<EquipSuitInfoIni>
+    <Suitpt MtPath="./Localization/en_us/UI/Texture/main.gwo" Type="0" Conditions="1" IcoPos="535,586"/>
+    <Suitqt1 MtPath="./Localization/en_us/UI/Texture/main.gwo" Type="1" Conditions="1" IcoPos="505,586"/>
+    <Suitqt2 MtPath="./Localization/en_us/UI/Texture/main.gwo" Type="1" Conditions="5" IcoPos="505,586"/>
+    <Suitqt3 MtPath="./Localization/en_us/UI/Texture/main.gwo" Type="1" Conditions="8" IcoPos="505,586"/>
+    <Suitqt4 MtPath="./Localization/en_us/UI/Texture/main.gwo" Type="1" Conditions="10" IcoPos="505,586"/>
+    <Suitby1 MtPath="./Localization/en_us/UI/Texture/main.gwo" Type="2" Conditions="1" IcoPos="505,586"/>
+    <Suitby2 MtPath="./Localization/en_us/UI/Texture/main.gwo" Type="2" Conditions="5" IcoPos="505,586"/>
+    <Suitby3 MtPath="./Localization/en_us/UI/Texture/main.gwo" Type="2" Conditions="8" IcoPos="505,586"/>
+    <Suitby4 MtPath="./Localization/en_us/UI/Texture/main.gwo" Type="2" Conditions="10" IcoPos="505,586"/>
+    <Suithj1 MtPath="./Localization/en_us/UI/Texture/main.gwo" Type="3" Conditions="1" IcoPos="505,586"/>
+    <Suithj2 MtPath="./Localization/en_us/UI/Texture/main.gwo" Type="3" Conditions="5" IcoPos="505,586"/>
+    <Suithj3 MtPath="./Localization/en_us/UI/Texture/main.gwo" Type="3" Conditions="8" IcoPos="505,586"/>
+    <Suithj4 MtPath="./Localization/en_us/UI/Texture/main.gwo" Type="3" Conditions="10" IcoPos="505,586"/>
+</EquipSuitInfoIni>

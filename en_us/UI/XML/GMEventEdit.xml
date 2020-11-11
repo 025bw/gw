@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+  <GMEventEditWin Template="T_NormalWindow" ID="480000" Rectangle="100,150,895,710" OnLoad="GMEventEdit_OnLoad()"  BtnRect="725,13,762,50" BtnPos="0,80" Visible="0"  MoveRect="0,0,1024,768">
+  <GMCurrentDate  Type="Text"  ID="-1" Rectangle="80,50,100,70" Font="MainMap" Text="2009年8月17日 星期一"/>
+  <GMEventTabBar Type="TabBar"  Rectangle="0,0,795,500">
+    
+    <!--本日活动-->
+    <GMTodayEvent Template="T_Tab" Rectangle="260,48,337,71" Text="本日活动">
+        <Activityback Template="T_BgWindow" ID="-1" Rectangle="20,77,475,485"> 
+            <Today Type="Text" Font="MainMap" Rectangle="195,1,350,20" FontColor="YELLOW_TEXTCOLOR" TextFormat="0" Text="本日活动" />
+            <TodayWin  Template="T_BgWindow" ID="" Rectangle="10,25,446,193" Visible ="1" Enable="0" >
+                <Name1 Type="Text" Font="MainMap" Rectangle="164,6,311,30" FontColor="YELLOW_TEXTCOLOR" TextFormat="0" SText="GE_X0_3" />
+                <Line Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="1,29,2,30" TexturePos="140,40"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleX="435"/>
+
+                <ListBoxTop  Type="Text"  ID="-1" Rectangle="411,22,436,47"   TexturePos="720,0" Texture="./Localization/en_us/UI/Texture/main.gwo"   Text=""/>
+                <ListBoxBtm  Type="Text"  ID="-1" Rectangle="411,121,436,146" TexturePos="720,30" Texture="./Localization/en_us/UI/Texture/main.gwo"   Text=""/>
+                <ListBoxScrollMid Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="411,47,436,48" TexturePos="720,26"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleY="74"/>
+
+                <UpBtn Type="Button" ID="-1"   Rectangle="408,0,436,22"    TexturePos="0,228"   Texture="./Localization/en_us/UI/Texture/main.gwo"   Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnClick="UpListBoxBtn()"/>
+                <DownBtn Type="Button" ID="-1" Rectangle="408,146,436,168" TexturePos="29,228"  Texture="./Localization/en_us/UI/Texture/main.gwo"   Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnClick="DownListBoxBtn()"/>
+
+                <ListBox Type="ListBox" ID="480100" Rectangle="3,30,433,160" OnSelected="GMListBox_OnSelected(1)" TexturePos="144,20"  ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollRect="411,-4,434,115" ScrollPos="1024,1024" BtnPos="133,122" BtnRect="0,0,17,27" Height="30">
+                    <ListItem1 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="1"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480101"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem1>
+                    
+                    <ListItem2 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="2"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480102"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem2>
+                    
+                    <ListItem3 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="3"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480103"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem3>
+                    
+                    <ListItem4 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="4"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480104"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem4>
+                    
+                    <ListItem5 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="5"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480105"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem5>
+                    
+                    <ListItem6 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="6"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480106"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem6>
+                    
+                    <ListItem7 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="7"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480107"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem7>
+                    
+                    <ListItem8 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="8"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480108"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem8>
+                    
+                    <ListItem9 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="9"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480109"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem9>
+                    
+                    <ListItem10 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="10"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480110"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem10>
+                    
+                    <ListItem11 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="11"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480111"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem11>
+                    
+                    <ListItem12 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="12"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480112"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem12>
+                    
+                    <ListItem13 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="13"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480113"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem13>
+                    
+                    <ListItem14 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="14"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480114"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem14>
+                    
+                    <ListItem15 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="15"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480115"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem15>
+                    
+                    <ListItem16 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="16"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480116"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem16>
+                    
+                    <ListItem17 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="17"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480117"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem17>
+                    
+                    <ListItem18 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="18"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480118"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem18>
+                    
+                    <ListItem19 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="19"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480119"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem19>
+                    
+                    <ListItem20 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="20"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480120"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem20>
+                    
+                    <ListItem21 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="21"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480121"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem21>
+                    
+                    <ListItem22 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="22"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480122"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem22>
+                    
+                    <ListItem23 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="23"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480123"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem23>
+                    
+                    <ListItem24 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="24"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480124"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem24>
+                    
+                    <ListItem25 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="25"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480125"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem25>
+                    
+                     <ListItem26 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="26"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480126"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem26>
+                    
+                    <ListItem27 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="27"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480127"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem27>
+                    
+                    <ListItem28 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="28"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480128"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem28>
+                    
+                    <ListItem29 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="29"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480129"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem29>
+                    
+                    <ListItem30 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="30"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480130"  Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem30>
+                </ListBox>
+            </TodayWin>
+        
+        
+        
+         <!--重要公告-->
+      <GMAnnouncement Type="Text" Font="MainMap" Rectangle="190,210,350,230" FontColor="YELLOW_TEXTCOLOR" TextFormat="0" SText="GE_X0_5" />
+      <GMAnnouncementWin  Template="T_BgWindow" ID="" Rectangle="10,235,446,403" Visible ="1" Enable="0" >
+        <Time1 Type="Text" Font="MainMap" Rectangle="32,6,103,30" FontColor="YELLOW_TEXTCOLOR" TextFormat="0" SText="GE_X0_10" />
+        <Name1 Type="Text" Font="MainMap" Rectangle="169,6,316,30" FontColor="YELLOW_TEXTCOLOR" TextFormat="0" SText="GE_X0_11" />
+        <Link1 Type="Text" Font="MainMap" Rectangle="320,6,391,30" FontColor="YELLOW_TEXTCOLOR" TextFormat="0" SText="GE_X0_4" />
+        <Line Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="1,29,2,30" TexturePos="140,40"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleX="435"/>
+
+        <ListBoxTop  Type="Text"  ID="-1" Rectangle="411,22,436,47"   TexturePos="720,0" Texture="./Localization/en_us/UI/Texture/main.gwo"   Text=""/>
+        <ListBoxBtm  Type="Text"  ID="-1" Rectangle="411,121,436,146" TexturePos="720,30" Texture="./Localization/en_us/UI/Texture/main.gwo"   Text=""/>
+        <ListBoxScrollMid Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="411,47,436,48" TexturePos="720,26"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleY="74"/>
+
+        <UpBtn Type="Button" ID="-1"   Rectangle="408,0,436,22"    TexturePos="0,228"   Texture="./Localization/en_us/UI/Texture/main.gwo"   Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""
+  OnClick="UpListBoxBtn()"/>
+        <DownBtn Type="Button" ID="-1" Rectangle="408,146,436,168" TexturePos="29,228"  Texture="./Localization/en_us/UI/Texture/main.gwo"   Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""
+  OnClick="DownListBoxBtn()"/>
+  
+        <ListBox Type="ListBox" ID="480200" Rectangle="3,30,433,160" OnSelected="GMListBox_OnSelected(2)" TexturePos="144,20"  ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollRect="411,-4,434,115" ScrollPos="1024,1024" BtnPos="133,122" BtnRect="0,0,17,27" Height="30">
+                    <ListItem1 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="1"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox"  ID="480201" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem1>
+                    
+                    <ListItem2 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="2"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox"  ID="480202" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem2>
+                    
+                    <ListItem3 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="3"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480203" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem3>
+                    
+                    <ListItem4 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="4"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480204" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem4>
+                    
+                    <ListItem5 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="5"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480205" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem5>
+                    
+                    <ListItem6 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="6"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480206" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem6>
+                    
+                    <ListItem7 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="7"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480207" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem7>
+                    
+                    <ListItem8 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="8"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480208" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem8>
+                    
+                    <ListItem9 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="9"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480209" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem9>
+                    
+                    <ListItem10 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="10"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480210" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem10>
+                    
+                    <ListItem11 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="11"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480211" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem11>
+                    
+                    <ListItem12 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="12"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480212" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem12>
+                    
+                    <ListItem13 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="13"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480213" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem13>
+                    
+                    <ListItem14 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="14"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480214" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem14>
+                    
+                    <ListItem15 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="15"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480215" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem15>
+                    
+                    <ListItem16 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="16"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox"  ID="480216" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem16>
+                    
+                    <ListItem17 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="17"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox"  ID="480217" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem17>
+                    
+                    <ListItem18 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="18"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480218" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem18>
+                    
+                    <ListItem19 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="19"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480219" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem19>
+                    
+                    <ListItem20 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="20"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480220" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem20>
+                    
+                    <ListItem21 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="21"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480221" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem21>
+                    
+                    <ListItem22 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="22"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480222" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem22>
+                    
+                    <ListItem23 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="23"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480223" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem23>
+                    
+                    <ListItem24 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="24"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480224" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem24>
+                    
+                    <ListItem25 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="25"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480225" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem25>
+                    
+                    <ListItem26 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="26"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480226" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem26>
+                    
+                    <ListItem27 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="27"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480227" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem27>
+                    
+                    <ListItem28 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="28"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480228" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem28>
+                    
+                    <ListItem29 Type="ListItem"  MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="29"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480229" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem29>
+                    
+                    <ListItem30 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="30"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480230" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem30>
+                </ListBox>
+
+        
+      </GMAnnouncementWin>
+      </Activityback>
+      <!--每日活动功能按钮-->
+      <Text Type="Text" Font="MainMap" Rectangle="360,495,385,517" FontColor="YELLOW_TEXTCOLOR" TextFormat="2" Text="每日活动功能按钮" />
+	  <!--详细信息-->
+      <DetailBtn  Template="T_Button4" ID="480290" Rectangle="395,490,477,517"  OnClick="GMDetail_OnClick(1)" Text="详细信息"/>
+      <!--发送按钮-->
+      <OKBtn  Template="T_Button4" ID="480291" Rectangle="495,490,577,517"  OnClick="GMSend_OnClick(1)" SText="GE_X0_7"/>
+      <!--加载按钮-->      
+      <LoadBtn  Template="T_Button4" ID="480292" Rectangle="595,490,677,517"  OnClick="GMEventInfo_OnLoad(1)" SText="GE_X0_8"/>
+      <!--清空按钮-->      
+      <ClearBtn  Template="T_Button4" ID="480293" Rectangle="695,490,777,517"  OnClick="GMEventEdit_Clear(1)" SText="GE_X0_9"/>
+      
+      <!--重要公告功能按钮-->
+      <Today Type="Text" Font="MainMap" Rectangle="360,525,385,547" FontColor="YELLOW_TEXTCOLOR" TextFormat="2" Text="重要公告功能按钮" />
+      <!--详细信息-->
+	  <DetailBtn  Template="T_Button4" ID="480490" Rectangle="395,520,477,547"  OnClick="GMDetail_OnClick(2)" Text="详细信息"/>
+	  <!--发送按钮-->
+      <OKBtn  Template="T_Button4" ID="480491" Rectangle="495,520,577,547"  OnClick="GMSend_OnClick(2)" SText="GE_X0_7"/>
+      <!--加载按钮-->      
+      <LoadBtn  Template="T_Button4" ID="480492" Rectangle="595,520,677,547"  OnClick="GMEventInfo_OnLoad(2)" SText="GE_X0_8"/>
+      <!--清空按钮-->      
+      <ClearBtn  Template="T_Button4" ID="480493" Rectangle="695,520,777,547"  OnClick="GMEventEdit_Clear(2)" SText="GE_X0_9"/>
+    </GMTodayEvent>
+    
+    <!--本周活动-->
+    <GMWeekEvent Template="T_Tab" Rectangle="337,48,414,71" Text="本周活动">
+        <Activityback Template="T_BgWindow" ID="-1" Rectangle="20,77,475,485"> 
+        
+            <WeekWin  Template="T_BgWindow" ID="" Rectangle="10,15,446,393" Visible ="1" Enable="0" >
+                <Name1 Type="Text" Font="MainMap" Rectangle="164,6,311,30" FontColor="YELLOW_TEXTCOLOR" TextFormat="0" SText="GE_X0_3" />
+                <Line Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="1,29,2,30" TexturePos="140,40"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleX="435"/>
+
+                <ListBoxTop  Type="Text"  ID="-1" Rectangle="411,22,436,47"   TexturePos="720,0" Texture="./Localization/en_us/UI/Texture/main.gwo"   Text=""/>
+                <ListBoxBtm  Type="Text"  ID="-1" Rectangle="411,331,436,356" TexturePos="720,30" Texture="./Localization/en_us/UI/Texture/main.gwo"   Text=""/>
+                <ListBoxScrollMid Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="411,47,436,48" TexturePos="720,26"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleY="284"/>
+
+                <UpBtn Type="Button" ID="-1"   Rectangle="408,0,436,22"    TexturePos="0,228"   Texture="./Localization/en_us/UI/Texture/main.gwo"   Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnClick="UpListBoxBtn()"/>
+                <DownBtn Type="Button" ID="-1" Rectangle="408,356,436,378" TexturePos="29,228"  Texture="./Localization/en_us/UI/Texture/main.gwo"   Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnClick="DownListBoxBtn()"/>
+
+                <ListBox Type="ListBox" ID="480300" Rectangle="3,30,433,340" OnSelected="GMListBox_OnSelected(3)" TexturePos="144,20"  ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollRect="411,-4,434,325" ScrollPos="1024,1024" BtnPos="133,122" BtnRect="0,0,17,27" Height="30">
+                    <ListItem1 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="1"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480301" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem1>
+                    
+                    <ListItem2 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="2"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480302" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem2>
+                    
+                    <ListItem3 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="3"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480303" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem3>
+                    
+                    <ListItem4 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="4"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480304" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem4>
+                    
+                    <ListItem5 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="5"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480305" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem5>
+                    
+                    <ListItem6 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="6"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480306" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem6>
+                    
+                    <ListItem7 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="7"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480307" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem7>
+                    
+                    <ListItem8 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="8"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480308" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem8>
+                    
+                    <ListItem9 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="9"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480309" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem9>
+                    
+                    <ListItem10 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="10"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480310" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem10>
+                    
+                    <ListItem11 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="11"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480311" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem11>
+                    
+                    <ListItem12 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="12"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480312" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem12>
+                    
+                    <ListItem13 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="13"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480313" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem13>
+                    
+                    <ListItem14 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="14"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480314" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem14>
+                    
+                    <ListItem15 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="15"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480315" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem15>
+                    
+                    <ListItem16 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="16"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480316" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem16>
+                    
+                    <ListItem17 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="17"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480317" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem17>
+                    
+                    <ListItem18 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="18"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480318" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem18>
+                    
+                    <ListItem19 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="19"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480319" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem19>
+                    
+                    <ListItem20 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="20"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480320" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem20>
+
+                    <ListItem21 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="21"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480321" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem21>
+
+                    <ListItem22 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="22"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480322" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem22>
+
+                    <ListItem23 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="23"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480323" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem23>
+
+                    <ListItem24 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="24"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480324" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem24>
+
+                    <ListItem25 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="25"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480325" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem25>
+
+                    <ListItem26 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="26"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480326" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem26>
+
+                    <ListItem27 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="27"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480327" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem27>
+
+                    <ListItem28 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="28"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480328" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem28>
+
+                    <ListItem29 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="29"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480329" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem29>
+
+                    <ListItem30 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="30"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480330" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem30>
+
+                    <ListItem31 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="31"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480331" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem31>
+
+                    <ListItem32 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="32"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480332" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem32>
+                </ListBox>
+            </WeekWin>
+        </Activityback>
+		 <!--详细信息-->
+		 <DetailBtn  Template="T_Button4" ID="480390" Rectangle="395,490,477,517"  OnClick="GMDetail_OnClick(3)" Text="详细信息"/>
+        <!--发送按钮-->
+        <OKBtn  Template="T_Button4" ID="480391" Rectangle="495,490,577,517"  OnClick="GMSend_OnClick(3)" SText="GE_X0_7"/>
+        <!--加载按钮-->      
+        <LoadBtn  Template="T_Button4" ID="480392" Rectangle="595,490,677,517"  OnClick="GMEventInfo_OnLoad(3)" SText="GE_X0_8"/>
+        <!--清空按钮-->      
+        <ClearBtn  Template="T_Button4" ID="480393" Rectangle="695,490,777,517"  OnClick="GMEventEdit_Clear(3)" SText="GE_X0_9"/>
+    </GMWeekEvent>
+    
+    <!--成长指南-->
+    <GMGrowthGuide Template="T_Tab" Rectangle="414,48,491,71" Text="成长指南">
+        <Activityback Template="T_BgWindow" ID="-1" Rectangle="20,77,475,485"> 
+        
+            <GrowthGuideWin  Template="T_BgWindow" ID="" Rectangle="10,15,446,393" Visible ="1" Enable="0" >
+                <Name1 Type="Text" Font="MainMap" Rectangle="164,6,311,30" FontColor="YELLOW_TEXTCOLOR" TextFormat="0" SText="GE_X0_3" />
+                <Line Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="1,29,2,30" TexturePos="140,40"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleX="435"/>
+
+                <ListBoxTop  Type="Text"  ID="-1" Rectangle="411,22,436,47"   TexturePos="720,0" Texture="./Localization/en_us/UI/Texture/main.gwo"   Text=""/>
+                <ListBoxBtm  Type="Text"  ID="-1" Rectangle="411,331,436,356" TexturePos="720,30" Texture="./Localization/en_us/UI/Texture/main.gwo"   Text=""/>
+                <ListBoxScrollMid Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="411,47,436,48" TexturePos="720,26"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleY="284"/>
+
+                <UpBtn Type="Button" ID="-1"   Rectangle="408,0,436,22"    TexturePos="0,228"   Texture="./Localization/en_us/UI/Texture/main.gwo"   Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnClick="UpListBoxBtn()"/>
+                <DownBtn Type="Button" ID="-1" Rectangle="408,356,436,378" TexturePos="29,228"  Texture="./Localization/en_us/UI/Texture/main.gwo"   Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnClick="DownListBoxBtn()"/>
+
+                <ListBox Type="ListBox" ID="480400" Rectangle="3,30,433,370" OnSelected="GMListBox_OnSelected(4)" TexturePos="144,20"  ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollRect="411,-4,434,325" ScrollPos="1024,1024" BtnPos="133,122" BtnRect="0,0,17,27" Height="30">
+                    <ListItem1 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="1"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480401" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem1>
+                    
+                    <ListItem2 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="2"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480402" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem2>
+                    
+                    <ListItem3 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="3"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480403" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem3>
+                    
+                    <ListItem4 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="4"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480404" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem4>
+                    
+                    <ListItem5 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="5"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480405" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem5>
+                    
+                    <ListItem6 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="6"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480406" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem6>
+                    
+                    <ListItem7 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="7"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480407" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem7>
+                    
+                    <ListItem8 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="8"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480408" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem8>
+                    
+                    <ListItem9 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="9"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480409" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem9>
+                    
+                    <ListItem10 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="10"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480410" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem10>
+                    
+                    <ListItem11 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="11"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480411" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem11>
+                    
+                    <ListItem12 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="12"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480412" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem12>
+                    
+                    <ListItem13 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="13"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480413" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem13>
+                    
+                    <ListItem14 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="14"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480414" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem14>
+                    
+                    <ListItem15 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="15"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480415" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem15>
+                    
+                    <ListItem16 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="16"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480416" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem16>
+                    
+                    <ListItem17 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="17"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480417" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem17>
+                    
+                    <ListItem18 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="18"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480418" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem18>
+                    
+                    <ListItem19 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="19"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480419" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem19>
+                    
+                    <ListItem20 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="20"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480420" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem20>
+                    
+                    <ListItem21 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="21"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480421" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem21>
+                    
+                    <ListItem22 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="22"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480422" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem22>
+                    
+                    <ListItem23 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="23"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480423" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem23>
+                    
+                    <ListItem24 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="24"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480424" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem24>
+                    
+                    <ListItem25 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="25"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480425" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem25>
+                    
+                    <ListItem26 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="26"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480426" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem26>
+                    
+                    <ListItem27 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="27"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480427" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem27>
+                    
+                    <ListItem28 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="28"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480428" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem28>
+                    
+                    <ListItem29 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="29"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480429" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem29>
+                    
+                    <ListItem30 Type="ListItem" MaskTexture="./Localization/en_us/UI/Texture/main.gwo" MaskPos="500,505">
+                        <Text Template="T_NoBackgroundText" ID="-1" Rectangle="0,1,20,28"  Text="30"/>  
+                        <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="29,1,30,28" TexturePos="136,174" Text="" OnScaleX="256"/>
+                        <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="20,1,29,28" TexturePos="131,174" Text=""/>
+                        <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="283,1,290,28" TexturePos="137,174" Text=""/>
+                        <Edit_Box Type="EditBox" ID="480430" Rectangle="27,2,290,27" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+                        
+                    </ListItem30>
+                </ListBox>
+            </GrowthGuideWin>
+        </Activityback>
+        
+		<!--详细信息-->
+		<DetailBtn  Template="T_Button4" ID="480490" Rectangle="395,490,477,517"  OnClick="GMDetail_OnClick(4)" Text="详细信息"/>
+		<!--发送按钮-->
+        <OKBtn  Template="T_Button4" ID="480491" Rectangle="495,490,577,517"  OnClick="GMSend_OnClick(4)" SText="GE_X0_7"/>
+        <!--加载按钮-->      
+        <LoadBtn  Template="T_Button4" ID="480492" Rectangle="595,490,677,517"  OnClick="GMEventInfo_OnLoad(4)" SText="GE_X0_8"/>
+        <!--清空按钮-->      
+        <ClearBtn  Template="T_Button4" ID="480493" Rectangle="695,490,777,517"  OnClick="GMEventEdit_Clear(4)" SText="GE_X0_9"/>
+    </GMGrowthGuide>
+   </GMEventTabBar>
+   
+   
+
+
+
+
+    <!--详细内容-->
+    <afficheback Template="T_BgWindow" ID="-1" Rectangle="476,77,775,485">
+      <Affiche Type="Text" Font="MainMap" Rectangle="110,5,190,25" FontColor="YELLOW_TEXTCOLOR" TextFormat="0" SText="GE_X0_6" />
+      <Line1 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="1,28,2,29" TexturePos="140,40"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleX="298"/>
+
+      <ListBoxTop  Type="Text"  ID="-1" Rectangle="274,52,299,77"   TexturePos="720,0" Texture="./Localization/en_us/UI/Texture/main.gwo"   Text=""/>
+      <ListBoxBtm  Type="Text"  ID="-1" Rectangle="274,333,299,358" TexturePos="720,30" Texture="./Localization/en_us/UI/Texture/main.gwo"   Text=""/>
+      <ListBoxScrollMid Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="274,77,299,78" TexturePos="720,26"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleY="256"/>
+
+      <UpBtn Type="Button" ID="-1"   Rectangle="271,30,299,52"    TexturePos="0,228"   Texture="./Localization/en_us/UI/Texture/main.gwo"   Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnClick="UpContainerBtn()"/>
+      <DownBtn Type="Button" ID="-1" Rectangle="271,358,299,380" TexturePos="29,228"  Texture="./Localization/en_us/UI/Texture/main.gwo"   Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnClick="DownContainerBtn()"/>
+
+      <Container Type="Container" ID="480900" Rectangle="1,30,299,379" TexturePos="1024,1024" Texture="./Localization/en_us/UI/Texture/main.gwo"   ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollRect="276,25,299,327" ScrollPos="1024,1024" BtnPos="133,122" BtnRect="0,0,17,27" Height="400">
+        <MultilineEdit Type="MultilineEditBox"  ID="480901" Rectangle="10,0,260,500" MaxText="1000" Font="CONTAIN_GMEvent_TEXTFONT" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16" ResponseMouse="1" Ctrl = "1"  OnLeft="GMMultiEdit_OnLeft()"/>
+      </Container>
+
+      <Line2 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="1,380,2,381" TexturePos="140,40"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleX="298"/>
+
+    </afficheback>
+
+
+  </GMEventEditWin>
+
+  <XML File="./Localization/en_us/UI/XML/Event.xml"/>
+  <XML File="./Localization/en_us/UI/XML/GMEventEditEx.xml"/>
+
+  <Script File="./Localization/en_us/UI/XML/GMEventEditProc.lua" Help=""/>
+
+</UIConfig>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+  <PetWin Template="T_NormalWindow" ID="810000" Rectangle="100,150,455,524"  Enable="1" Visible ="1" BtnRect="285,13,322,50" BtnPos="0,80">
+  <!--携带宠物-->
+  <Pet0 Type="Button" ID="810001" Rectangle="45,98,86,140" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/> 
+  <!--宠物名称、等级-->
+  <Petname Type="Text" ID="" Texture="" Rectangle="90,97,120,120" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" SText="PET_X0_8"/>
+  <Petlv Type="Text" ID="" Texture="" Rectangle="90,117,120,140" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" SText="PET_X0_9"/>  
+  <PetnameText Type="Text" ID="810002" Texture="" Rectangle="139,97,267,120" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>
+  <PetlvText Type="Text" ID="810003" Texture="" Rectangle="139,117,267,140" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" Text=""/>  
+  <OutBtn  Template="T_Button2_S" ID="810004" Rectangle="265,86,315,108" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="PET_X0_1" />
+  <InBtn  Template="T_Button2_S" ID="810005" Rectangle="265,110,315,132" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="PET_X0_2" />
+  <WorkBtn  Template="T_Button2_S" ID="810009" Rectangle="265,135,315,157" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="PET_X0_7" />
+   <!--宠物图片-->
+   <PhotoWin  Template="T_BgWindow" Rectangle="40,170,320,288" Visible ="1" Enable="0" >
+	   <Pet1 Type="Button" ID="820001" Rectangle="9,10,50,52" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/> 
+	   
+	   <Pet2 Type="Button" ID="820002" Rectangle="79,10,120,52" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/> 
+	   	  
+	   <Pet3 Type="Button" ID="820003" Rectangle="149,10,190,52" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/> 
+	   
+	   <Pet4 Type="Button" ID="820004" Rectangle="219,10,260,52" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/> 
+	   
+	   <Pet5 Type="Button" ID="820005" Rectangle="9,60,50,102" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+	    
+	   <Pet6 Type="Button" ID="820006" Rectangle="79,60,120,102" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/> 
+	   
+	   <Pet7 Type="Button" ID="820007" Rectangle="149,60,190,102" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/> 
+	   
+	   <Pet8 Type="Button" ID="820008" Rectangle="219,60,260,102" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/> 
+	   
+  </PhotoWin>
+   <TakeBtn  Template="T_Button4" ID="810006" Rectangle="49,300,131,327" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="PET_X0_3" />
+   <MessBtn  Template="T_Button4" ID="810007" Rectangle="139,300,221,327" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="PET_X0_4" />
+   <SlamBtn  Template="T_Button4" ID="810008" Rectangle="229,300,311,327" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="PET_X0_5" />
+  </PetWin>
+  <Script File="./Localization/en_us/UI/XML/PetProc.lua" Help=""/>
+</UIConfig>

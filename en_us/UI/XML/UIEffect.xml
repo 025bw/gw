@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) 2010,欢乐连线工作室
+		All rights reserved
+
+		文件名称：UIEffect.xml
+		摘    要：UI特效配置表
+      
+		当前版本：Ver1.00
+		作    者：Tavia
+		完成日期：2010-3-3
+-->
+<!--
+	ID					特效代号
+	Rectangle			特效大小
+	TexturePos			特效贴图位置
+	Horizontal			祯是否水平排列
+	Frame				有多少祯
+	mspf					每祯多少毫秒
+	OnScale_X			横坐标缩放比
+	OnScale_Y			纵坐标缩放比
+	Texture				特效贴图所在的位置
+-->
+<UIEffectConfig>
+    <!-- ui 的配置 -->
+   <!-- 接受任务 -->
+    <!--
+   <Config 	ID="1001"	Rectangle="0,0,25,25"	TexturePos="375,0"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+   -->
+   <!-- 完成任务 -->
+    <!--
+   <Config 	ID="1002"	Rectangle="0,0,25,25"	TexturePos="0,25"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+   -->
+   <!-- 有任务更新 -->
+    <!--
+   <Config 	ID="1003"	Rectangle="0,0,25,25"	TexturePos="50,25"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+   -->
+   <!-- 技能学习 -->
+    <!--
+   <Config 	ID="1004"	Rectangle="0,0,25,25"	TexturePos="100,25"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+   -->
+   <!-- HP低于20% -->
+    <!--
+   <Config 	ID="1010"	Rectangle="0,0,25,25"	TexturePos="0,50"	Horizontal="1"	Frame="4"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+   -->
+   <!-- MP低于20% -->
+    <!--
+   <Config 	ID="1011"	Rectangle="0,0,25,25"	TexturePos="325,0"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+    -->
+   <Config 	ID="1013"	Rectangle="0,0,36,36"	TexturePos="0,214"	Horizontal="1"	Frame="5"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+   <Config 	ID="1014"	Rectangle="0,0,36,36"	TexturePos="0,250"	Horizontal="1"	Frame="5"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+   <Config 	ID="1015"	Rectangle="0,0,45,45"	TexturePos="0,288"	Horizontal="1"	Frame="4"	mspf="80"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/> 
+<Config 	ID="1016"	Rectangle="0,0,60,60"	TexturePos="0,0"	Horizontal="1"	Frame="7"	mspf="100"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+   <Config 	ID="1017"	Rectangle="0,0,42,42"	TexturePos="0,59"	Horizontal="1"	Frame="4"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+   <Config 	ID="1018"	Rectangle="0,0,42,42"	TexturePos="168,60"	Horizontal="1"	Frame="4"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/> 
+   <Config 	ID="1019"	Rectangle="0,0,44,44"	TexturePos="0,104"	Horizontal="1"	Frame="5"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+   <Config 	ID="1020"	Rectangle="0,0,42,42"	TexturePos="220,104"	Horizontal="1"	Frame="4"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+   <Config 	ID="1021"	Rectangle="0,0,36,36"	TexturePos="0,148"	Horizontal="1"	Frame="5"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+   <Config 	ID="1022"	Rectangle="0,0,144,30"	TexturePos="181,155"	Horizontal="1"	Frame="1"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/> 
+<Config 	ID="1023"	Rectangle="0,0,144,30"	TexturePos="181,214"	Horizontal="1"	Frame="1"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/> 
+
+
+
+   <!-- 道具的配置 -->
+   <!-- 品质5 -->
+   <Config 	ID="1"	Rectangle="0,0,25,25"	TexturePos="375,0"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+   <!-- 品质6 -->
+   <Config 	ID="2"	Rectangle="0,0,25,25"	TexturePos="0,25"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+   <!-- 品质7 -->
+   <Config 	ID="3"	Rectangle="0,0,25,25"	TexturePos="50,25"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+   <!-- 品质8 -->
+   <Config 	ID="4"	Rectangle="0,0,25,25"	TexturePos="100,25"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+   <!-- 消耗品1 -->
+   <Config 	ID="5"	Rectangle="0,0,25,25"	TexturePos="0,50"	Horizontal="1"	Frame="4"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+   <!-- 消耗品2 -->
+   <Config 	ID="6"	Rectangle="0,0,25,25"	TexturePos="325,0"	Horizontal="1"	Frame="2"	mspf="200"	OnScale_X="1.0"	OnScale_Y="1.0"	Texture="./Localization/en_us/UI/Texture/Emotion/01.gwo"/>
+
+
+</UIEffectConfig>
+

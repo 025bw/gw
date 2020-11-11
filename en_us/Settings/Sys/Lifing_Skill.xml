@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--this is Lifing Skill config-->
+<LifingSkill>
+    <Confect>
+        <Alchemy SkillID="1" MaxLv="30" Num="80"/>
+        <Smithing SkillID="2" MaxLv="30" Num="77"/>
+        <Artificer SkillID="3" MaxLv="30" Num="81"/>
+        <Scholar SkillID="4" MaxLv="30" Num="75"/>
+    </Confect>
+    <Area>
+        <Area MapID="050" Area="86.0,-125.0,182.0,-205.0"/>
+        <Area MapID="000" Area="86.0,-125.0,182.0,-205.0"/>
+    </Area>
+    <UpExp>
+        <SkillLv SkillLv="1" UpExp="960" PlayLv="50"/>
+        <SkillLv SkillLv="2" UpExp="1190" PlayLv="50"/>
+        <SkillLv SkillLv="3" UpExp="1476" PlayLv="50"/>
+        <SkillLv SkillLv="4" UpExp="1830" PlayLv="50"/>
+        <SkillLv SkillLv="5" UpExp="2268" PlayLv="50"/>
+        <SkillLv SkillLv="6" UpExp="2813" PlayLv="50"/>
+        <SkillLv SkillLv="7" UpExp="3516" PlayLv="55"/>
+        <SkillLv SkillLv="8" UpExp="4395" PlayLv="60"/>
+        <SkillLv SkillLv="9" UpExp="5493" PlayLv="65"/>
+        <SkillLv SkillLv="10" UpExp="6866" PlayLv="70"/>
+        <SkillLv SkillLv="11" UpExp="8583" PlayLv="75"/>
+        <SkillLv SkillLv="12" UpExp="10729" PlayLv="80"/>
+        <SkillLv SkillLv="13" UpExp="13520" PlayLv="84"/>
+        <SkillLv SkillLv="14" UpExp="17038" PlayLv="88"/>
+        <SkillLv SkillLv="15" UpExp="21470" PlayLv="92"/>
+        <SkillLv SkillLv="16" UpExp="27056" PlayLv="96"/>
+        <SkillLv SkillLv="17" UpExp="34095" PlayLv="100"/>
+        <SkillLv SkillLv="18" UpExp="42965" PlayLv="103"/>
+        <SkillLv SkillLv="19" UpExp="54579" PlayLv="106"/>
+        <SkillLv SkillLv="20" UpExp="69334" PlayLv="109"/>
+        <SkillLv SkillLv="21" UpExp="88076" PlayLv="112"/>
+        <SkillLv SkillLv="22" UpExp="111886" PlayLv="115"/>
+        <SkillLv SkillLv="23" UpExp="142131" PlayLv="118"/>
+        <SkillLv SkillLv="24" UpExp="180553" PlayLv="120"/>
+        <SkillLv SkillLv="25" UpExp="231196" PlayLv="122"/>
+        <SkillLv SkillLv="26" UpExp="296043" PlayLv="124"/>
+        <SkillLv SkillLv="27" UpExp="379080" PlayLv="126"/>
+        <SkillLv SkillLv="28" UpExp="485407" PlayLv="128"/>
+        <SkillLv SkillLv="29" UpExp="621557" PlayLv="130"/>
+        <SkillLv SkillLv="30" UpExp="0" PlayLv="130"/>
+    </UpExp>
+</LifingSkill>

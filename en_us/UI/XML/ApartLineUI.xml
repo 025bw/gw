@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+
+	
+		<ApartLine Template="T_SimpleWindow" Rectangle="154,70,514,280" BtnPos="454,693" BtnRect="329,10,352,34" Enable="1" Visible="0">
+			<NonceServerWin Template="T_BgWindow" Rectangle="30,25,160,90">
+				<NonceServerText Type="Text" Rectangle="9,15,119,25" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" Text="你当前所在线路" TextFormat="5"/>
+				<NonceServerState Type="Text" Rectangle="16,29,81,56" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" TextFormat="5"/>
+				<PlayerNum Type="Text" Rectangle="97,30,125,58" Font="MainMap" FontColor="YELLOW_TEXTCOLOR" Text="★" TextFormat="5" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024"/>
+			</NonceServerWin>
+			
+			<NonceServerBtn Template="T_ServerListBtn_Left" Rectangle="35,55,140,80" Font="MainFonts" TextFormat="5"/>
+			<GreenWin Type="Text" Rectangle="182,25,260,45" Font="MainMap" SText="L_X0_36" TextFormat="4"/>
+			<YellowWin Type="Text" Rectangle="202,45,260,65" Font="MainMap" SText="L_X0_37" TextFormat="4"/>
+			<RedWin Type="Text" Rectangle="222,65,260,85" Font="MainMap" SText="L_X0_38" TextFormat="4"/>
+			<CloseBtn Template="T_Button2" Rectangle="47,169,108,196" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="关闭" Visible="1"/>
+			<SwitchBtn Template="T_Button4" Rectangle="230,169,312,196" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="切换线路" TextFormat="5" Visible="1"/>
+			
+			<LineList Template="T_BgWindow" Rectangle="14,98,345,164" Enable="0" Visible="1">
+				<ListBoxTop Template="T_TitleText" Rectangle="304,22,327,47" ID="-1" TexturePos="720,0"/>
+				<ListBoxBtm Template="T_TitleText" Rectangle="304,26,327,51" ID="-1" TexturePos="720,30"/>
+				<ListBoxScrollMid Template="T_TitleText" Rectangle="304,47,327,0" ID="-1" TexturePos="720,26"/>
+				
+				<topbutton Template="T_UpButton" Rectangle="301,0,329,22" ID="190021" TexturePos="0,228"/>
+				<downbutton Template="T_DownButton" Rectangle="301,43,329,65" ID="190020" TexturePos="29,228"/>
+				
+				<ListBox Type="ListBox" Rectangle="4,5,308,263" BtnPos="133,122" BtnRect="0,0,17,27" ScrollPos="1024,1024" ScrollRect="665,20,881,74" ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="144,20"  Height="30"> 
+			
+				   </ListBox>
+			</LineList>
+		</ApartLine>
+	
+</UIConfig>

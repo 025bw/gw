@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2008,欢乐连线工作室
+		All rights reserved
+
+		文件名称：MiniMap_Template.xml
+		摘    要：小地图配置表
+
+		当前版本：1.00
+		作    者：C.D
+		完成日期：2008-03-22  
+ 
+-->
+<UITemplate>
+
+  <!--斯巴达0-->
+  <Sparta      Texture="./Localization/en_us/UI/Texture/MinMap/Sparta.gwo" />
+  
+  <!--雅典1-->
+  <Athens      Texture="./Localization/en_us/UI/Texture/MinMap/Athens.gwo" />
+    
+  <!--雅典近郊2-->
+  <Athens_Newbie    Texture="./Localization/en_us/UI/Texture/MinMap/Athens_Newbie.gwo" />
+    
+  <!--帕尼萨3-->
+  <Parnitha_1    Texture="./Localization/en_us/UI/Texture/MinMap/Parnitha_1.gwo" />
+    
+  <!--斯巴达郊外4-->
+  <Sparta_Newbie    Texture="./Localization/en_us/UI/Texture/MinMap/Sparta_Newbie.gwo" />
+    
+  <!--尼米亚5-->
+  <Nemea_1    Texture="./Localization/en_us/UI/Texture/MinMap/Nemea_1.gwo" />
+    
+  <!--迈锡尼6-->
+  <Mycenae_All    Texture="./Localization/en_us/UI/Texture/MinMap/Mycenae_All.gwo" />
+    
+  <!--奥林匹亚7-->
+  <Olympia_All    Texture="./Localization/en_us/UI/Texture/MinMap/Olympia_All.gwo" />
+    
+  <!--温泉关8-->
+  <Thermopylae_All    Texture="./Localization/en_us/UI/Texture/MinMap/Thermopylae_All.gwo" />
+    
+  <!--底比斯9-->
+  <Thebes_All    Texture="./Localization/en_us/UI/Texture/MinMap/Thebes_All.gwo" />
+    
+  <!--拉里萨10-->
+  <Larissa_All   Texture="./Localization/en_us/UI/Texture/MinMap/Larissa_All.gwo" />
+    
+  <!--马拉松11-->
+  <Marathon_All    Texture="./Localization/en_us/UI/Texture/MinMap/Marathon_All.gwo" />
+    
+  <!--帕尼萨港口12-->
+  <Parnitha_2    Texture="./Localization/en_us/UI/Texture/MinMap/Parnitha_2.gwo" />
+    
+  <!--伯罗奔尼撒13-->
+  <Peloponnese_All    Texture="./Localization/en_us/UI/Texture/MinMap/Peloponnese_All.gwo" />
+    
+  <!--尼米亚森林14-->
+  <Nemea_2   Texture="./Localization/en_us/UI/Texture/MinMap/Nemea_2.gwo" />
+    
+  <!--德尔韦尼15-->
+  <Derveni_All    Texture="./Localization/en_us/UI/Texture/MinMap/Derveni_All.gwo" />
+    
+  <!--阿格利司16-->
+  <Argolis_All    Texture="./Localization/en_us/UI/Texture/MinMap/Argolis_All.gwo" />
+    
+  <!--科林斯地峡17-->
+  <Isthmus_of_Corinth_All    Texture="./Localization/en_us/UI/Texture/MinMap/Isthmus_of_Corinth_All.gwo" />
+
+  <!--迈加拉海岸18-->
+  <Megara_All    Texture="./Localization/en_us/UI/Texture/MinMap/Megara_All.gwo" />
+    
+  <!--布拉底亚19-->
+  <Plataea_All    Texture="./Localization/en_us/UI/Texture/MinMap/Plataea_All.gwo" />
+    
+  <!--德尔斐圣林20-->
+  <Oracle_of_Delphi_All    Texture="./Localization/en_us/UI/Texture/MinMap/Oracle_of_Delphi_All.gwo" />
+    
+  <!--奥林匹斯圣山21-->
+  <Olympus_All    Texture="./Localization/en_us/UI/Texture/MinMap/Olympus_All.gwo" />
+
+  <!--埃拉松22-->
+  <Elasson_All    Texture="./Localization/en_us/UI/Texture/MinMap/Elasson_All.gwo" />
+
+  <!--世界地图-->
+  <WorldMap    Texture="./Localization/en_us/UI/Texture/MinMap/Worldmap.gwo" />
+
+  <!--GM地图-->
+  <GM    Texture="./Localization/en_us/UI/Texture/MinMap/GM.gwo" />
+
+  <!--诅咒之地地图-->
+  <Execrativelys    Texture="./Localization/en_us/UI/Texture/MinMap/Execrativelys.gwo" />
+
+  <!--商旅宝库地图-->
+  <Agate    Texture="./Localization/en_us/UI/Texture/MinMap/Agate.gwo" />
+
+  <!--封印之地地图-->
+  <Sealbox    Texture="./Localization/en_us/UI/Texture/MinMap/Sealbox.gwo" />
+  
+   <!--曼提尼亚地图-->
+  <Guardwar    Texture="./Localization/en_us/UI/Texture/MinMap/Guardwar.gwo" />
+  
+   <!--诅咒之地2地图-->
+  <Execratively2    Texture="./Localization/en_us/UI/Texture/MinMap/Execratively2.gwo" />
+  
+   <!--诅咒之地3地图-->
+  <Execratively3    Texture="./Localization/en_us/UI/Texture/MinMap/Execratively3.gwo" />
+
+   <!--迷宫地图雅典进基克拉泽斯群岛-->
+  <Labyrint2    Texture="./Localization/en_us/UI/Texture/MinMap/Labyrint2.gwo" />
+  
+   <!--迷宫地图斯巴达进多德卡尼斯群岛-->
+  <Labyrinth    Texture="./Localization/en_us/UI/Texture/MinMap/Labyrinth.gwo" />
+
+   <!--西西里岛1-->
+  <Sicily    Texture="./Localization/en_us/UI/Texture/MinMap/Sicily.gwo" />
+
+   <!--西西里岛2-->
+  <Sicily2    Texture="./Localization/en_us/UI/Texture/MinMap/Sicily2.gwo" />
+  
+  <!--曼提尼亚二-->
+  <Guardwar2    Texture="./Localization/en_us/UI/Texture/MinMap/Guardwar2.gwo" />
+  
+  <!--曼提尼亚三-->
+  <Guardwar3    Texture="./Localization/en_us/UI/Texture/MinMap/Guardwar3.gwo" />
+  
+  <!--曼提尼亚四-->
+  <Guardwar4    Texture="./Localization/en_us/UI/Texture/MinMap/Guardwar4.gwo" />
+  
+  <!--曼提尼亚五-->
+  <Guardwar5    Texture="./Localization/en_us/UI/Texture/MinMap/Guardwar5.gwo" />
+  
+  <!--品都斯山-->
+  <WarField    Texture="./Localization/en_us/UI/Texture/MinMap/WarField.gwo" />
+
+  <!--商旅宝库二-->
+  <Agate2    Texture="./Localization/en_us/UI/Texture/MinMap/Agate2.gwo" />
+  
+  <!--潘神的迷宫-->
+  <Pans_Labyrinth    Texture="./Localization/en_us/UI/Texture/MinMap/Pans_Labyrinth.gwo" />
+
+  <!--孤岛监狱-->
+  <Alcatraz_Island    Texture="./Localization/en_us/UI/Texture/MinMap/Alcatraz_Island.gwo" />  
+  
+  <!--美杜莎之岛-->
+  <Medusa_Island    Texture="./Localization/en_us/UI/Texture/MinMap/Medusa_Island.gwo" />
+  
+  <!--勇士试炼场一-->
+  <Field_Test    Texture="./Localization/en_us/UI/Texture/MinMap/Field_Test.gwo" />
+  
+  <!--勇士试炼场二-->
+  <Field_Test2    Texture="./Localization/en_us/UI/Texture/MinMap/Field_Test2.gwo" />
+  
+  <!--勇士试炼场三-->
+  <Field_Test3    Texture="./Localization/en_us/UI/Texture/MinMap/Field_Test3.gwo" />
+  
+  <!--美杜莎之岛二-->
+  <Medusa_Island2    Texture="./Localization/en_us/UI/Texture/MinMap/Medusa_Island2.gwo" />
+  
+  <!--亚特兰蒂斯入口-->
+  <Atlantis_Entrance    Texture="./Localization/en_us/UI/Texture/MinMap/Atlantis_Entrance.gwo" />
+  
+  <!--勇士试炼场四-->
+  <Field_Test4    Texture="./Localization/en_us/UI/Texture/MinMap/Field_Test4.gwo" />
+  
+  <!--利兰丁农场-->
+  <Lelantine_Farm    Texture="./Localization/en_us/UI/Texture/MinMap/Lelantine_Farm.gwo" />
+  
+   <!--恶魔岛-->
+  <Fane    Texture="./Localization/en_us/UI/Texture/MinMap/Fane.gwo" />
+  
+  <!--尼米尼-->
+  <Guardwa2    Texture="./Localization/en_us/UI/Texture/MinMap/Guardwa2.gwo" />
+  
+    <!--港湾遇袭-->
+  <Salame    Texture="./Localization/en_us/UI/Texture/MinMap/Salame.gwo" />
+  
+     <!--港湾遇袭二-->
+  <Salame2    Texture="./Localization/en_us/UI/Texture/MinMap/Salame2.gwo" />
+
+
+ <!--特洛伊-->
+  <Troy    Texture="./Localization/en_us/UI/Texture/MinMap/Troy.gwo" />
+  
+  <!--爱情岛猎苑区-->
+  <Love_Island    Texture="./Localization/en_us/UI/Texture/MinMap/Love_Island.gwo" />
+  
+  <!--竞技场-->
+  <Colosseum    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+   <!--竞技场1-->
+  <Colosseu1    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+  <!--竞技场2-->
+  <Colosseu2    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+  <!--竞技场3-->
+  <Colosseu3    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+  <!--竞技场4-->
+  <Colosseu4    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+  <!--竞技场5-->
+  <Colosseu5    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+  <!--竞技场6-->
+  <Colosseu6    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+  <!--竞技场7-->
+  <Colosseu7    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+  <!--竞技场8-->
+  <Colosseu8    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+  <!--竞技场9-->
+  <Colosseu9    Texture="./Localization/en_us/UI/Texture/MinMap/Heracles.gwo" />
+  
+  <!--备战大厅-->
+  <WarHall    Texture="./Localization/en_us/UI/Texture/MinMap/WarHall.gwo" />
+  
+  <!--勇士竞技场-->
+  <Arena    Texture="./Localization/en_us/UI/Texture/MinMap/Arena.gwo" />
+  
+  <!--竞技场10-->
+  <Colosse10    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+  <!--竞技场11-->
+  <Colosse11    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+  <!--竞技场12-->
+  <Colosse12    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+  <!--竞技场13-->
+  <Colosse13    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+  <!--竞技场14-->
+  <Colosse14    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+  <!--竞技场15-->
+  <Colosse15    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+  <!--竞技场16-->
+  <Colosse16    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+  <!--竞技场17-->
+  <Colosse17    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+  <!--竞技场18-->
+  <Colosse18    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+  <!--竞技场19-->
+  <Colosse19    Texture="./Localization/en_us/UI/Texture/MinMap/Colosseum.gwo" />
+  
+    <!--帕纳萨斯山-->
+  <Parnassus    Texture="./Localization/en_us/UI/Texture/MinMap/Parnassus.gwo" />
+  
+  <!--赫拉克里斯的试炼 -->
+  <Heracles    Texture="./Localization/en_us/UI/Texture/MinMap/Heracles.gwo" />
+  
+   <!--复活节岛-->
+  <Labyrint3    Texture="./Localization/en_us/UI/Texture/MinMap/Labyrint3.gwo" />
+  
+    <!--帕纳萨斯山-->
+  <Parnassus    Texture="./Localization/en_us/UI/Texture/MinMap/Parnassus.gwo" />
+
+</UITemplate>
+

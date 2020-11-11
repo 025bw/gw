@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--窗体ID 483000-483004, 格子ID483100-483115,激活按钮ID 483200-483203,-->
+<UIConfig>
+  <SkillTrainingWin Template="T_NormalWindow" ID="483000" Rectangle="320,150,675,690" Enable="1" Visible="0" BtnRect="285,13,322,50" BtnPos="0,80" Layer="3">
+    
+    <AttackTrainingWin Template="T_BgWindow" ID="483001" Rectangle="25,107,320,170" Visible="1" Enable="0">
+      <AttackSkill1 Template="T_TopButton" ID="483100"  Rectangle="9,10,50,52" OnHovered="SkillTrain_OnHov(0)" OnLeft = "SkillTrain_OnLeft()"
+       OnClick="SkillTrain_ActiveGird(0)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936" />
+      <AttackSkill2 Template="T_TopButton" ID="483101"  Rectangle="58,10,99,52" OnHovered="SkillTrain_OnHov(1)" OnLeft = "SkillTrain_OnLeft()"
+       OnClick="SkillTrain_ActiveGird(1)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+      <AttackSkill3 Template="T_TopButton" ID="483102"  Rectangle="107,10,148,52"  OnHovered="SkillTrain_OnHov(2)" OnLeft = "SkillTrain_OnLeft()"
+      BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+      <AttackSkill4 Template="T_TopButton" ID="483103"  Rectangle="156,10,197,52"  OnHovered="SkillTrain_OnHov(3)" OnLeft = "SkillTrain_OnLeft()"
+      BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+
+      <AttackSkillText Type="Text" Texture="" Rectangle="10,-20,66,-5" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="SKT_X0_1"/>
+      <!--<ActivationBtn Template="T_Button4"  ID="483200"  Rectangle="204,13,286,40"  Text="激活格子" OnClick="SkillTrain_ActiveGird(0)"  TextFormat="5"  Font="MainMap"/>
+      <ChooseBtn     Template="T_Button4"  ID="483210"  Rectangle="204,33,286,60"  Text="选择技能"  TextFormat="5"  Font="MainMap"/>-->
+    </AttackTrainingWin>
+
+
+    <AttackUpWin Template="T_BgWindow" ID="483002" Rectangle="25,210,320,273" Visible="1" Enable="0">
+      <AttackSkill1 Template="T_TopButton" ID="483104"  Rectangle="9,10,50,52"  OnHovered="SkillTrain_OnHov(4)" OnLeft = "SkillTrain_OnLeft()"
+      OnClick="SkillTrain_ActiveGird(4)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936" />
+      <AttackSkill2 Template="T_TopButton" ID="483105"  Rectangle="58,10,99,52"  OnHovered="SkillTrain_OnHov(5)" OnLeft = "SkillTrain_OnLeft()"
+      OnClick="SkillTrain_ActiveGird(5)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+      <AttackSkill3 Template="T_TopButton" ID="483106"  Rectangle="107,10,148,52"  OnHovered="SkillTrain_OnHov(6)" OnLeft = "SkillTrain_OnLeft()"
+      BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+      <AttackSkill4 Template="T_TopButton" ID="483107"  Rectangle="156,10,197,52"  OnHovered="SkillTrain_OnHov(7)" OnLeft = "SkillTrain_OnLeft()"
+      BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+
+      <AttackSkillText Type="Text" Texture="" Rectangle="10,-20,66,-5" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="SKT_X0_2"/>
+      <!--<ActivationBtn Template="T_Button4" ID="483201" Rectangle="204,13,286,40"  Text="激活格子" OnClick="SkillTrain_ActiveGird(1)"  TextFormat="5"  Font="MainMap"/>
+       <ChooseBtn     Template="T_Button4" ID="483211" Rectangle="204,33,286,60"  Text="选择技能"  TextFormat="5"  Font="MainMap"/>-->
+    </AttackUpWin>
+
+
+    <DefenseTrainingWin Template="T_BgWindow" ID="483003" Rectangle="25,313,320,376" Visible="1" Enable="0">
+      <AttackSkill1 Template="T_TopButton" ID="483108"  Rectangle="9,10,50,52"  OnHovered="SkillTrain_OnHov(8)" OnLeft = "SkillTrain_OnLeft()"
+      OnClick="SkillTrain_ActiveGird(8)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936" />
+      <AttackSkill2 Template="T_TopButton" ID="483109"  Rectangle="58,10,99,52" OnHovered="SkillTrain_OnHov(9)" OnLeft = "SkillTrain_OnLeft()"
+       OnClick="SkillTrain_ActiveGird(9)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+      <AttackSkill3 Template="T_TopButton" ID="483110"  Rectangle="107,10,148,52" OnHovered="SkillTrain_OnHov(10)" OnLeft = "SkillTrain_OnLeft()"
+       OnClick="SkillTrain_ActiveGird(10)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+      <AttackSkill4 Template="T_TopButton" ID="483111"  Rectangle="156,10,197,52" OnHovered="SkillTrain_OnHov(11)" OnLeft = "SkillTrain_OnLeft()"
+       OnClick="SkillTrain_ActiveGird(11)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+
+      <DefenseSkillText Type="Text" Texture="" Rectangle="10,-20,66,-5" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="SKT_X0_3"/>
+      <!--<ActivationBtn Template="T_Button4" ID="483202"  Rectangle="204,3,286,30"  Text="激活格子" OnClick="SkillTrain_ActiveGird(2)"  TextFormat="5"  Font="MainMap"/>-->
+      <ChooseBtn     Template="T_Button4" ID="483212"  Rectangle="204,33,286,60"  SText="SKT_X0_5"  TextFormat="5"  Font="MainMap"/>
+    </DefenseTrainingWin>
+
+
+    <DefenseUpWin Template="T_BgWindow" ID="483004" Rectangle="25,416,320,479" Visible="1" Enable="0">
+      <AttackSkill1 Template="T_TopButton" ID="483112"  Rectangle="9,10,50,52" OnHovered="SkillTrain_OnHov(12)" OnLeft = "SkillTrain_OnLeft()"
+       OnClick="SkillTrain_ActiveGird(12)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936" />
+      <AttackSkill2 Template="T_TopButton" ID="483113"  Rectangle="58,10,99,52" OnHovered="SkillTrain_OnHov(13)" OnLeft = "SkillTrain_OnLeft()"
+       OnClick="SkillTrain_ActiveGird(13)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+      <AttackSkill3 Template="T_TopButton" ID="483114"  Rectangle="107,10,148,52" OnHovered="SkillTrain_OnHov(14)" OnLeft = "SkillTrain_OnLeft()"
+      OnClick="SkillTrain_ActiveGird(14)"  BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+      <AttackSkill4 Template="T_TopButton" ID="483115"  Rectangle="156,10,197,52" OnHovered="SkillTrain_OnHov(15)" OnLeft = "SkillTrain_OnLeft()"
+       OnClick="SkillTrain_ActiveGird(15)" BtnTopTexture="./Localization/en_us/UI/Texture/icon2.gwo" BtnTopPos="828,936"/>
+
+      <DefenseSkillText Type="Text" Texture="" Rectangle="10,-20,66,-5" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="SKT_X0_4"/>
+      <!--<ActivationBtn Template="T_Button4" ID="483203"  Rectangle="204,3,286,30"  Text="激活格子" OnClick="SkillTrain_ActiveGird(3)"  TextFormat="5"  Font="MainMap"/>-->
+      <ChooseBtn     Template="T_Button4" ID="483213"  Rectangle="204,33,286,60"  SText="SKT_X0_5"  TextFormat="5"  Font="MainMap"/>
+    </DefenseUpWin>
+  </SkillTrainingWin>
+     <!--弹出选择金币还是绑定金币激活格子 --> 
+    <ActiveGirdWin Template="T_SimpleWindow" Rectangle="670,360,890,470" OnLoad="SkillTrain_Init()" Visible ="0">
+    
+     <!--<GoldCheck Template="T_NormalCheckBox"  TexturePos="222,189" Rectangle="30,20,47,38" TextFormat="0" OnChecked="SkillTrain_GoldCheck()"/>
+     <GoldText Type="Text"  TexturePos="1024,1024" Rectangle="57,20,100,30" Text="金币激活" Font="MainMap"/>
+     
+     <BingdGoldCheck Template="T_NormalCheckBox"  TexturePos="222,189" Rectangle="30,48,47,66" OnChecked="SkillTrain_BindGoldCheck()"/> 
+     <BingdGoldText Type="Text"  TexturePos="1024,1024" Rectangle="57,48,100,58" Text="绑定金币激活" Font="MainMap"/>-->
+     
+     <Text Type="Text"  TexturePos="1024,1024" Rectangle="7,30,100,58" Text="" Font="MainMap"/>
+     
+     <OKBtn Template="T_Button2_S"  Rectangle="25,78,75,100"  SText="C_X2_3"  TextFormat="5" OnClick="SkillTrain_OK()" Font="MainMap"/>
+     <CloseBtn Template="T_Button2_S"  Rectangle="145,78,195,100"  SText="C_X2_4"  TextFormat="5" OnClick="SkillTrain_Cancel()" Font="MainMap"/>
+    </ActiveGirdWin>
+  
+
+</UIConfig>

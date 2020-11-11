@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UIConfig>
+
+  <HelpSystem Template="T_NormalWindow" Rectangle="110,138,772,663" OnLoad="HelpSystem_OnLoad()" BtnRect="596,13,634,50" BtnPos="0,80" Visible="0" 
+  MoveRect="0,0,1024,768" UseEsc="1">		
+    <Text Type="Text" Rectangle="25,76,145,96" Font="MainFonts" TextFormat="16" SText="HS_X0_1" />
+    
+	<!--容器1的滚动条图片 -->
+	<UpButtonTop Template="T_TitleText" ID="-1" Rectangle="164,72,187,96" TexturePos="720,0" Text=""/>
+	<DownButtonBtm Template="T_TitleText" ID="-1" Rectangle="164,493,187,517" TexturePos="720,30" Text=""/>
+	<BscrollMid Template="T_TitleText" ID="-1" Rectangle="164,96,187,97" TexturePos="720,26" Text="" OnScaleY="410"/>
+	<UpButton Template="T_UpButton" ID="-1" Rectangle="161,72,189,94" OnClick="UpContainerBtn()"/>
+	<DownButton Template="T_DownButton" ID="-1" Rectangle="161,495,189,517" OnClick="DownContainerBtn()"/>
+	
+    <Container Template="T_Container" Rectangle="16,94,182,510" ScrollRect="151,1,189,402" Font="CONTAIN_HELPSYSTEM_TEXTFONT" Auto="1">	
+		<NewBtn  Template="T_NoTextureButton" Rectangle="10,15,80,35" SText="HS_X0_2" Font="CONTAIN2_HELPSYSTEM_TEXTFONT" FontColor=	"YELLOW_TEXTCOLOR" OnClick="HelpSystem_OnClickNewBtn()"/>
+		<ProfBtn  Template="T_NoTextureButton" Rectangle="10,40,80,60" SText="HS_X0_3" Font="CONTAIN2_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR" OnClick="HelpSystem_OnClickProfBtn()"/>
+		<QuestBtn  Template="T_NoTextureButton" Rectangle="10,65,80,85" SText="HS_X0_4" Font="CONTAIN2_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR" OnClick="HelpSystem_OnClickQuestBtn()"/> 
+		
+		<SkillBtn  Template="T_NoBackgroundText" Rectangle="10,90,80,110" SText="HS_X0_5" Font="CONTAIN2_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR" />  
+		
+		<SkillBtn  Template="T_NoTextureButton" Rectangle="10,115,80,135" SText="HS_X0_6" Font="CONTAIN_HELPSYSTEM_TEXTFONT" FontColor="ORDINARY_INFOCOLOR" OnClick="HelpSystem_OnClickWarriorBtn()"/> 
+		<SkillBtn  Template="T_NoTextureButton" Rectangle="10,135,80,155" SText="HS_X0_7" Font="CONTAIN_HELPSYSTEM_TEXTFONT" FontColor="ORDINARY_INFOCOLOR" OnClick="HelpSystem_OnClickChampionBtn()"/> 
+		<SkillBtn  Template="T_NoTextureButton" Rectangle="10,155,80,175" SText="HS_X0_8" Font="CONTAIN_HELPSYSTEM_TEXTFONT" FontColor="ORDINARY_INFOCOLOR" OnClick="HelpSystem_OnClickMgaeBtn()"/> 		
+		<SkillBtn  Template="T_NoTextureButton" Rectangle="10,175,80,195" SText="HS_X0_9" Font="CONTAIN_HELPSYSTEM_TEXTFONT" FontColor="ORDINARY_INFOCOLOR" OnClick="HelpSystem_OnClickPriestBtn()"/> 
+		
+		<EquipBtn  Template="T_NoTextureButton" Rectangle="10,195,80,215" SText="HS_X0_10" Font="CONTAIN2_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR" OnClick="HelpSystem_OnClickEquipBtn()"/> 	
+		<RelaBtn  Template="T_NoTextureButton" Rectangle="10,220,80,240" SText="HS_X0_11" Font="CONTAIN2_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR" OnClick="HelpSystem_OnClickRelaBtn()"/> 	
+		<ConsBtn  Template="T_NoTextureButton" Rectangle="10,245,80,265" SText="HS_X0_12" Font="CONTAIN2_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR" OnClick="HelpSystem_OnClickConsBtn()"/>
+       <AutoBtn  Template="T_NoTextureButton" Rectangle="10,270,80,290" SText="HS_X0_15" Font="CONTAIN2_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR" OnClick="HelpSystem_OnClickAutoBtn()"/>
+       <TuijianBtn  Template="T_NoTextureButton" Rectangle="10,295,80,315" SText="HS_X0_16" Font="CONTAIN2_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR" OnClick="HelpSystem_OnClickTuijianBtn()"/>		
+	   <ConstellationBtn  Template="T_NoTextureButton" Rectangle="10,320,80,340" Text="Zodiac system" Font="CONTAIN2_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR" OnClick="HelpSystem_OnClickConstellationBtn()"/>		
+       <StoleBtn  Template="T_NoTextureButton" Rectangle="10,345,80,365" SText="HS_X0_18" Font="CONTAIN2_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR" OnClick="HelpSystem_OnClickStoleBtn()"/>	
+       <StoneBtn  Template="T_NoTextureButton" Rectangle="10,370,80,390" SText="HS_X0_19" Font="CONTAIN2_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR" OnClick="HelpSystem_OnClickStoneBtn()"/>	
+       <PetsystemBtn  Template="T_NoBackgroundText" Rectangle="10,395,80,415" SText="HS_X0_20" Font="CONTAIN2_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR" />
+       <PetsystemBtn1  Template="T_NoTextureButton" Rectangle="20,420,120,440" SText="HS_X0_21" Font="CONTAIN2_HELPSYSTEM_TEXTFONT" FontColor="ORDINARY_INFOCOLOR" OnClick="HelpSystem_OnClickPetsystemBtn1()"/>
+       <PetsystemBtn2  Template="T_NoTextureButton" Rectangle="20,445,120,465" SText="HS_X0_22" Font="CONTAIN2_HELPSYSTEM_TEXTFONT" FontColor="ORDINARY_INFOCOLOR" OnClick="HelpSystem_OnClickPetsystemBtn2()"/>
+       <LiveSkillBtn  Template="T_NoTextureButton" Rectangle="10,470,80,490" SText="HS_X0_23" Font="CONTAIN2_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR" OnClick="HelpSystem_OnClickLiveSkillBtn()"/>
+       <CreateBtn  Template="T_NoTextureButton" Rectangle="10,495,80,515" SText="HS_X0_24" Font="CONTAIN2_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR" OnClick="HelpSystem_OnClickCreateBtn()"/>	
+     </Container>
+	<!--容器2的滚动条图片 -->
+	<UpButtonTop1 Template="T_TitleText" ID="-1" Rectangle="624,72,647,96" TexturePos="720,0" Text=""/>
+	<DownButtonBtm1 Template="T_TitleText" ID="-1" Rectangle="624,493,647,517" TexturePos="720,30" Text=""/>
+	<BscrollMid1 Template="T_TitleText" ID="-1" Rectangle="624,96,647,97" TexturePos="720,26" Text="" OnScaleY="410"/>
+	<UpButton1 Template="T_UpButton" ID="-1" Rectangle="621,72,649,94" OnClick="UpContainer1Btn()"/>
+	<DownButton1 Template="T_DownButton" ID="-1" Rectangle="621,495,649,517" OnClick="DownContainer1Btn()"/> 
+	
+    <Container1 Template="T_Container" Rectangle="206,80,662,500" ScrollRect="421,14,459,415" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" Auto="1">
+      <Text Type="Text" Rectangle="0,10,410,400" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" TextFormat="16" Text="" Auto="1" OnTextSelect="HlepSystem_OnTextSelect();" CanHovered="1"/>
+	 
+	 <Btn1  Template="T_NoTextureButton" Rectangle="10,0,200,20" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR"
+	  OnClick="HelpSystem_OnClickBtn1()" Visible="0"/>	 
+	 <Btn2 Template="T_NoTextureButton" Rectangle="10,0,200,20" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR"
+	  OnClick="HelpSystem_OnClickBtn2()" Visible="0"/>	
+	<Btn3 Template="T_NoTextureButton" Rectangle="10,0,200,20" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR"
+	  OnClick="HelpSystem_OnClickBtn3()" Visible="0"/>	
+
+	  <Btn4 Template="T_NoTextureButton" Rectangle="10,0,200,20" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR"
+	  OnClick="HelpSystem_OnClickBtn4()" Visible="0"/>	
+	<Btn5 Template="T_NoTextureButton" Rectangle="10,0,200,20" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR"
+	  OnClick="HelpSystem_OnClickBtn5()" Visible="0"/>	
+	<Btn6 Template="T_NoTextureButton" Rectangle="10,0,200,20" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR"
+	  OnClick="HelpSystem_OnClickBtn6()" Visible="0"/>	
+	<Btn7 Template="T_NoTextureButton" Rectangle="10,0,200,20" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR"
+	  OnClick="HelpSystem_OnClickBtn7()" Visible="0"/>	
+	<Btn8 Template="T_NoTextureButton" Rectangle="10,0,200,20" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR"
+	  OnClick="HelpSystem_OnClickBtn8()" Visible="0"/>	
+	<Btn9 Template="T_NoTextureButton" Rectangle="10,0,200,20" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR"
+	  OnClick="HelpSystem_OnClickBtn9()" Visible="0"/>	
+	<Btn10 Template="T_NoTextureButton" Rectangle="10,0,200,20" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR"
+	  OnClick="HelpSystem_OnClickBtn10()" Visible="0"/>	
+	<Btn11 Template="T_NoTextureButton" Rectangle="10,0,200,20" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR"
+	  OnClick="HelpSystem_OnClickBtn11()" Visible="0"/>	
+	<Btn12 Template="T_NoTextureButton" Rectangle="10,0,200,20" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR"
+	  OnClick="HelpSystem_OnClickBtn12()" Visible="0"/>	
+	  
+	<Btn101  Template="T_NoTextureButton" Rectangle="10,30,200,50" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR"
+	  OnClick="HelpSystem_OnClickBtn101()" Visible="0"/>	 
+	<Btn102 Template="T_NoTextureButton" Rectangle="10,60,200,80" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR"
+	  OnClick="HelpSystem_OnClickBtn102()" Visible="0"/>	
+	<Btn103 Template="T_NoTextureButton" Rectangle="10,90,200,110" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR"
+	  OnClick="HelpSystem_OnClickBtn103()" Visible="0"/>	
+	
+    <TempText Type="Text" Rectangle="10,150,200,200" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" TextFormat="16" Text="" Auto="1"/>	
+	<BackFirstBtn Template="T_NoTextureButton" Rectangle="10,150,200,170"  SText="HS_X0_13" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR" OnClick="HelpSystem_BackFirstBtn()" Visible="0"/>		
+	<BackSecondBtn Template="T_NoTextureButton" Rectangle="10,150,200,170"  SText="HS_X0_13" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR" OnClick="HelpSystem_BackSecondBtn()" Visible="0"/>		
+	<BackFrontBtn Template="T_NoTextureButton" Rectangle="10,180,200,200"  SText="HS_X0_14" Font="CONTAIN1_HELPSYSTEM_TEXTFONT" FontColor="YELLOW_TEXTCOLOR" OnClick="HelpSystem_BackFrontBtn()" Visible="0"/>	  
+    </Container1> 
+  </HelpSystem>
+  
+  <Script File="./Localization/en_us/UI/XML/HelpSystemConfig.lua" Help=""/>
+  <Script File="./Localization/en_us/UI/XML/HelpSystemSkillConfig.lua" Help=""/>
+  <Script File="./Localization/en_us/UI/XML/HelpSystemProc.lua" Help=""/>
+  
+  <Script File="./Localization/en_us/UI/XML/AltarSuspendConfig.lua" Help=""/>
+  <Script File="./Localization/en_us/UI/XML/AltarSuspendProc.lua" Help=""/>
+  
+</UIConfig>

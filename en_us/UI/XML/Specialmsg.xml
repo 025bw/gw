@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2008,欢乐连线工作室
+		All rights reserved
+
+		文件名称：Specialmsg.xml
+		摘    要：特殊信息配置表
+
+		当前版本：1.00
+		作    者：Tavia
+		完成日期：2008-11-12  
+ 
+-->
+<UIConfig>
+  <!--个人信息显示-->
+  <PersonalMessageWin   Type="Window" ID="180100" Rectangle="780,470,920,670" Visible="1" Enable="0" Layer="0">
+    <PersonalMessageListBox     Type="ListBox"  ID="180101" Rectangle="0,0,200,200"  Height="20" TextFormat="16"/>
+    <PersonalMessageText Type="Text" ID="-1" Rectangle="0, 0 ,200, 20"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextForamt="16" />
+  </PersonalMessageWin>
+  
+  <PersonalMsgItemWin   Type="Window" ID="180110" Rectangle="780,470,920,670" Visible="1" Enable="0" Layer="0">
+    <PersonalMsgItemListBox     Type="ListBox"  ID="180111" Rectangle="0,0,200,200"  Height="20" TextFormat="16"/>
+  </PersonalMsgItemWin>
+  
+  <!--世界信息显示-->
+  <WorldMessageWin   Type="Window" ID="180200" Rectangle="05,360,405,460" Visible="1" Enable="0" Layer="0">
+    <WorldMessageListBox     Type="ListBox"  ID="180201" Rectangle="0,0,400,100"  Height="20" TextFormat="16"/>
+    <WorldMessageText Type="Text" ID="-1" Rectangle="0, 0 ,400, 20"  Font="MainMap" FontColor="GUILD_COLOR" TextForamt="16" />
+  </WorldMessageWin>
+
+  <!--信息设置面板-->
+  <PersonalMsgSetWin Template="T_SimpleWindow"  ID="180300" Rectangle="610,358,852,513" BtnRect="212,0,232,21" BtnPos="124,540" Visible="0" MoveRect="0,0,1024,768">
+    <TextTrade Type="Text"  Rectangle="40,20,120,40"  SText="SM_X0_1" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+    <TextQuest Type="Text"  Rectangle="140,20,220,40"  SText="SM_X0_2" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+    <TextTeam Type="Text"  Rectangle="40,50,120,70"  SText="SM_X0_3" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+    <TextPK Type="Text"  Rectangle="140,50,220,70"  SText="SM_X0_4" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+    <TextCons Type="Text"  Rectangle="40,80,120,100"  SText="SM_X0_5" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+    <TextOther Type="Text"  Rectangle="140,80,220,100"  SText="SM_X0_6" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+    <TextPet Type="Text"  Rectangle="40,110,120,130"  SText="SM_X0_7" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+    <TextConst Type="Text"  Rectangle="140,110,220,130"  SText="SM_X0_8" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+
+    <!--Check-->
+    <TradeMsgCheck Template="T_NormalCheckBox" ID="180310"  TexturePos="222,189" Rectangle="20,20,37,38" />
+    <QuestMsgCheck Template="T_NormalCheckBox" ID="180311"  TexturePos="222,189" Rectangle="120,20,137,38" />
+
+    <TeamMsgCheck Template="T_NormalCheckBox" ID="180312"  TexturePos="222,189" Rectangle="20,50,37,68" />
+    <PKMsgCheck Template="T_NormalCheckBox" ID="180313"  TexturePos="222,189" Rectangle="120,50,137,68" />
+
+    <ConsortiaMsgCheck Template="T_NormalCheckBox" ID="180314"  TexturePos="222,189" Rectangle="20,80,37,98" />
+    <OtherCheck Template="T_NormalCheckBox" ID="180315"  TexturePos="222,189" Rectangle="120,80,137,98" />
+
+    <PetMsgCheck Template="T_NormalCheckBox" ID="180316"  TexturePos="222,189" Rectangle="20,110,37,128" />
+    <ConstMsgCheck Template="T_NormalCheckBox" ID="180317"  TexturePos="222,189" Rectangle="120,110,137,128" />
+
+  </PersonalMsgSetWin>
+   <XML File="./Localization/en_us/UI/XML/GMEventEdit.xml"/> 
+   <XML File="./Localization/en_us/UI/XML/RookieGuide.xml"/>    
+</UIConfig>
+
+
+
+
+
+
+

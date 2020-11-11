@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+  <SkillChoiceWin Template="T_SimpleWindow" ID="483500"  Rectangle="660,250,965,670" Enable="1" Visible="0" BtnRect="280,8,301,29" BtnPos="124,540" Layer="3">
+
+    <SkillWin1 Template="T_BgWindow" ID="483501" Rectangle="25,47,280,110" Visible="1" Enable="0">
+      <Skill1 Template="T_TopButton"  ID="483600"  Rectangle="9,10,50,52" />
+      <Skill2 Template="T_TopButton"  ID="483601"  Rectangle="58,10,99,52"/>
+      <Skill3 Template="T_TopButton"  ID="483602"   Rectangle="107,10,148,52"/>
+      <Skill4 Template="T_TopButton"  ID="483603"  Rectangle="156,10,197,52"/>
+      <Skill5 Template="T_TopButton"  ID="483604"    Rectangle="205,10,246,52"/>
+
+      <SkillText Type="Text" Texture="" Rectangle="10,-20,66,-5" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="SKC_X0_1"/>
+    </SkillWin1>
+
+    <SkillWin2 Template="T_BgWindow" ID="483502" Rectangle="25,140,280,203" Visible="1" Enable="0">
+      <Skill1 Template="T_TopButton"  ID="483605"   Rectangle="9,10,50,52"/>
+      <Skill2 Template="T_TopButton"  ID="483606"  Rectangle="58,10,99,52"/>
+      <Skill3 Template="T_TopButton"  ID="483607"  Rectangle="107,10,148,52"/>
+      <Skill4 Template="T_TopButton"  ID="483608"  Rectangle="156,10,197,52"/>
+      <Skill5 Template="T_TopButton"  ID="483609"   Rectangle="205,10,246,52"/>
+
+      <SkillText Type="Text" Texture="" Rectangle="10,-20,66,-5" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="SKC_X0_2"/>
+    </SkillWin2>
+
+    <SkillWin3 Template="T_BgWindow" ID="483503" Rectangle="25,233,280,296" Visible="1" Enable="0">
+      <Skill1 Template="T_TopButton" ID="483610" Rectangle="9,10,50,52" />
+      <Skill2 Template="T_TopButton" ID="483611" Rectangle="58,10,99,52"/>
+      <Skill3 Template="T_TopButton" ID="483612" Rectangle="107,10,148,52"/>
+      <Skill4 Template="T_TopButton" ID="483613" Rectangle="156,10,197,52"/>
+      <Skill5 Template="T_TopButton" ID="483614"   Rectangle="205,10,246,52"/>
+
+      <SkillText Type="Text" Texture="" Rectangle="10,-20,66,-5" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="SKC_X0_3"/>
+    </SkillWin3>
+
+    <SkillWin4 Template="T_BgWindow" ID="483504" Rectangle="25,326,280,389" Visible="1" Enable="0">
+      <Skill1 Template="T_TopButton" ID="483615" Rectangle="9,10,50,52"/>
+      <Skill2 Template="T_TopButton" ID="483616" Rectangle="58,10,99,52" />
+      <Skill3 Template="T_TopButton" ID="483617" Rectangle="107,10,148,52"/>
+      <Skill4 Template="T_TopButton" ID="483618" Rectangle="156,10,197,52"/>
+      <Skill5 Template="T_TopButton" ID="483619"    Rectangle="205,10,246,52"/>
+
+      <SkillText Type="Text" Texture="" Rectangle="10,-20,66,-5" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="4" SText="SKC_X0_4"/>
+    </SkillWin4>
+
+  </SkillChoiceWin>
+    
+  <Script File="./Localization/en_us/UI/XML/SkillTrainProc.lua" />
+   <Script File="./Localization/en_us/UI/XML/SkillTrainConfig.lua" />
+
+</UIConfig>

@@ -1,0 +1,665 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--this is Item Dynamic Attribute config-->
+<ItemDynamicAttribute>
+    <ItemPlaceLimit>
+        <Place ID="10000" Map="000" Coordinate="20000"/>
+        <Place ID="10001" Map="000" Coordinate="20001"/>
+        <Place ID="10002" Map="000" Coordinate="20002"/>
+        <Place ID="10003" Map="000" Coordinate="20003"/>
+        <Place ID="10004" Map="000" Coordinate="20004"/>
+        <Place ID="10005" Map="000" Coordinate="20005"/>
+        <Place ID="10100" Map="001" Coordinate="20100"/>
+        <Place ID="10101" Map="001" Coordinate="20101"/>
+        <Place ID="10102" Map="001" Coordinate="20102"/>
+        <Place ID="10103" Map="001" Coordinate="20103"/>
+        <Place ID="10104" Map="001" Coordinate="20104"/>
+        <Place ID="10105" Map="001" Coordinate="20105"/>
+        <Place ID="10200" Map="002" Coordinate="20200"/>
+        <Place ID="10201" Map="002" Coordinate="20201"/>
+        <Place ID="10202" Map="002" Coordinate="20202"/>
+        <Place ID="10203" Map="002" Coordinate="20203"/>
+        <Place ID="10204" Map="002" Coordinate="20204"/>
+        <Place ID="10205" Map="002" Coordinate="20205"/>
+        <Place ID="10300" Map="003" Coordinate="20300"/>
+        <Place ID="10301" Map="003" Coordinate="20301"/>
+        <Place ID="10302" Map="003" Coordinate="20302"/>
+        <Place ID="10303" Map="003" Coordinate="20303"/>
+        <Place ID="10304" Map="003" Coordinate="20304"/>
+        <Place ID="10305" Map="003" Coordinate="20305"/>
+        <Place ID="10400" Map="004" Coordinate="20400"/>
+        <Place ID="10401" Map="004" Coordinate="20401"/>
+        <Place ID="10402" Map="004" Coordinate="20402"/>
+        <Place ID="10403" Map="004" Coordinate="20403"/>
+        <Place ID="10404" Map="004" Coordinate="20404"/>
+        <Place ID="10405" Map="004" Coordinate="20405"/>
+        <Place ID="11000" Map="050" Coordinate="21000"/>
+        <Place ID="11001" Map="050" Coordinate="21001"/>
+        <Place ID="11002" Map="050" Coordinate="21002"/>
+        <Place ID="11003" Map="050" Coordinate="21003"/>
+        <Place ID="11004" Map="050" Coordinate="21004"/>
+        <Place ID="11005" Map="050" Coordinate="21005"/>
+        <Place ID="11100" Map="051" Coordinate="21100"/>
+        <Place ID="11101" Map="051" Coordinate="21101"/>
+        <Place ID="11102" Map="051" Coordinate="21102"/>
+        <Place ID="11103" Map="051" Coordinate="21103"/>
+        <Place ID="11104" Map="051" Coordinate="21104"/>
+        <Place ID="11105" Map="051" Coordinate="21105"/>
+        <Place ID="11200" Map="052" Coordinate="21200"/>
+        <Place ID="11201" Map="052" Coordinate="21201"/>
+        <Place ID="11202" Map="052" Coordinate="21202"/>
+        <Place ID="11203" Map="052" Coordinate="21203"/>
+        <Place ID="11204" Map="052" Coordinate="21204"/>
+        <Place ID="11205" Map="052" Coordinate="21205"/>
+        <Place ID="11300" Map="053" Coordinate="21300"/>
+        <Place ID="11301" Map="053" Coordinate="21301"/>
+        <Place ID="11302" Map="053" Coordinate="21302"/>
+        <Place ID="11303" Map="053" Coordinate="21303"/>
+        <Place ID="11304" Map="053" Coordinate="21304"/>
+        <Place ID="11305" Map="053" Coordinate="21305"/>
+        <Place ID="11400" Map="054" Coordinate="21400"/>
+        <Place ID="11401" Map="054" Coordinate="21401"/>
+        <Place ID="11402" Map="054" Coordinate="21402"/>
+        <Place ID="11403" Map="054" Coordinate="21403"/>
+        <Place ID="11404" Map="054" Coordinate="21404"/>
+        <Place ID="11405" Map="054" Coordinate="21405"/>
+        <Place ID="12000" Map="100" Coordinate="22000"/>
+        <Place ID="12001" Map="100" Coordinate="22001"/>
+        <Place ID="12002" Map="100" Coordinate="22002"/>
+        <Place ID="12003" Map="100" Coordinate="22003"/>
+        <Place ID="12004" Map="100" Coordinate="22004"/>
+        <Place ID="12005" Map="100" Coordinate="22005"/>
+        <Place ID="12100" Map="101" Coordinate="22100"/>
+        <Place ID="12101" Map="101" Coordinate="22101"/>
+        <Place ID="12102" Map="101" Coordinate="22102"/>
+        <Place ID="12103" Map="101" Coordinate="22103"/>
+        <Place ID="12104" Map="101" Coordinate="22104"/>
+        <Place ID="12105" Map="101" Coordinate="22105"/>
+        <Place ID="12200" Map="102" Coordinate="22200"/>
+        <Place ID="12201" Map="102" Coordinate="22201"/>
+        <Place ID="12202" Map="102" Coordinate="22202"/>
+        <Place ID="12203" Map="102" Coordinate="22203"/>
+        <Place ID="12204" Map="102" Coordinate="22204"/>
+        <Place ID="12205" Map="102" Coordinate="22205"/>
+        <Place ID="12300" Map="103" Coordinate="22300"/>
+        <Place ID="12301" Map="103" Coordinate="22301"/>
+        <Place ID="12302" Map="103" Coordinate="22302"/>
+        <Place ID="12303" Map="103" Coordinate="22303"/>
+        <Place ID="12304" Map="103" Coordinate="22304"/>
+        <Place ID="12305" Map="103" Coordinate="22305"/>
+        <Place ID="12400" Map="104" Coordinate="22400"/>
+        <Place ID="12401" Map="104" Coordinate="22401"/>
+        <Place ID="12402" Map="104" Coordinate="22402"/>
+        <Place ID="12403" Map="104" Coordinate="22403"/>
+        <Place ID="12404" Map="104" Coordinate="22404"/>
+        <Place ID="12405" Map="104" Coordinate="22405"/>
+        <Place ID="12500" Map="152" Coordinate="22500"/>
+        <Place ID="12501" Map="152" Coordinate="22501"/>
+        <Place ID="12502" Map="152" Coordinate="22502"/>
+        <Place ID="12503" Map="152" Coordinate="22503"/>
+        <Place ID="12504" Map="152" Coordinate="22504"/>
+        <Place ID="12505" Map="152" Coordinate="22505"/>
+    </ItemPlaceLimit>
+    <Coordinate>
+        <xz ID="20000" X="-179" Z="141"/>
+        <xz ID="20001" X="40" Z="157"/>
+        <xz ID="20002" X="228" Z="-12"/>
+        <xz ID="20003" X="123" Z="-178"/>
+        <xz ID="20004" X="76" Z="-192"/>
+        <xz ID="20005" X="-77" Z="-124"/>
+        <xz ID="20100" X="-173" Z="159"/>
+        <xz ID="20101" X="-63" Z="22"/>
+        <xz ID="20102" X="6" Z="-189"/>
+        <xz ID="20103" X="171" Z="-56"/>
+        <xz ID="20104" X="176" Z="151"/>
+        <xz ID="20105" X="78" Z="188"/>
+        <xz ID="20200" X="178" Z="151"/>
+        <xz ID="20201" X="118" Z="-143"/>
+        <xz ID="20202" X="-154" Z="-117"/>
+        <xz ID="20203" X="-70" Z="99"/>
+        <xz ID="20204" X="-93" Z="205"/>
+        <xz ID="20205" X="-61" Z="-206"/>
+        <xz ID="20300" X="115" Z="46"/>
+        <xz ID="20301" X="47" Z="-138"/>
+        <xz ID="20302" X="-173" Z="101"/>
+        <xz ID="20303" X="75" Z="181"/>
+        <xz ID="20304" X="-27" Z="-7"/>
+        <xz ID="20305" X="142" Z="-185"/>
+        <xz ID="20400" X="-189" Z="-173"/>
+        <xz ID="20401" X="33" Z="-124"/>
+        <xz ID="20402" X="-84" Z="-42"/>
+        <xz ID="20403" X="193" Z="177"/>
+        <xz ID="20404" X="206" Z="-78"/>
+        <xz ID="20405" X="20" Z="7"/>
+        <xz ID="21000" X="-180" Z="151"/>
+        <xz ID="21001" X="40" Z="157"/>
+        <xz ID="21002" X="228" Z="-12"/>
+        <xz ID="21003" X="123" Z="-178"/>
+        <xz ID="21004" X="76" Z="-192"/>
+        <xz ID="21005" X="-77" Z="-124"/>
+        <xz ID="21100" X="-173" Z="159"/>
+        <xz ID="21101" X="-63" Z="22"/>
+        <xz ID="21102" X="6" Z="-189"/>
+        <xz ID="21103" X="171" Z="-56"/>
+        <xz ID="21104" X="176" Z="151"/>
+        <xz ID="21105" X="78" Z="188"/>
+        <xz ID="21200" X="104" Z="-180"/>
+        <xz ID="21201" X="-101" Z="-142"/>
+        <xz ID="21202" X="10" Z="55"/>
+        <xz ID="21203" X="176" Z="159"/>
+        <xz ID="21204" X="-80" Z="185"/>
+        <xz ID="21205" X="0" Z="-39"/>
+        <xz ID="21300" X="-142" Z="-150"/>
+        <xz ID="21301" X="25" Z="-108"/>
+        <xz ID="21302" X="119" Z="57"/>
+        <xz ID="21303" X="119" Z="35"/>
+        <xz ID="21304" X="-101" Z="168"/>
+        <xz ID="21305" X="-206" Z="-156"/>
+        <xz ID="21400" X="82" Z="-208"/>
+        <xz ID="21401" X="-152" Z="-110"/>
+        <xz ID="21402" X="-164" Z="53"/>
+        <xz ID="21403" X="-16" Z="185"/>
+        <xz ID="21404" X="76" Z="-57"/>
+        <xz ID="21405" X="-194" Z="179"/>
+        <xz ID="22000" X="-138" Z="175"/>
+        <xz ID="22001" X="-151" Z="-103"/>
+        <xz ID="22002" X="40" Z="-106"/>
+        <xz ID="22003" X="151" Z="-89"/>
+        <xz ID="22004" X="173" Z="205"/>
+        <xz ID="22005" X="66" Z="29"/>
+        <xz ID="22100" X="196" Z="16"/>
+        <xz ID="22101" X="49" Z="-87"/>
+        <xz ID="22102" X="-170" Z="133"/>
+        <xz ID="22103" X="163" Z="124"/>
+        <xz ID="22104" X="4" Z="-105"/>
+        <xz ID="22105" X="-35" Z="188"/>
+        <xz ID="22200" X="-180" Z="-222"/>
+        <xz ID="22201" X="178" Z="124"/>
+        <xz ID="22202" X="-131" Z="-34"/>
+        <xz ID="22203" X="92" Z="29"/>
+        <xz ID="22204" X="-18" Z="168"/>
+        <xz ID="22205" X="-22" Z="-164"/>
+        <xz ID="22300" X="-75" Z="131"/>
+        <xz ID="22301" X="-184" Z="7"/>
+        <xz ID="22302" X="-31" Z="-84"/>
+        <xz ID="22303" X="144" Z="-92"/>
+        <xz ID="22304" X="168" Z="136"/>
+        <xz ID="22305" X="-65" Z="37"/>
+        <xz ID="22400" X="-189" Z="-198"/>
+        <xz ID="22401" X="-40" Z="-49"/>
+        <xz ID="22402" X="184" Z="-147"/>
+        <xz ID="22403" X="208" Z="7"/>
+        <xz ID="22404" X="69" Z="207"/>
+        <xz ID="22405" X="-110" Z="166"/>
+        <xz ID="22500" X="54" Z="-121"/>
+        <xz ID="22501" X="-117" Z="86"/>
+        <xz ID="22502" X="35" Z="-15"/>
+        <xz ID="22503" X="155" Z="75"/>
+        <xz ID="22504" X="-33" Z="205"/>
+        <xz ID="22505" X="178" Z="181"/>
+    </Coordinate>
+    <ItemRefreshMonster>
+        <IRM ID="30000" Map="-1" Random="0" RefreshCoordinate="40000"/>
+        <IRM ID="30001" Map="-1" Random="0" RefreshCoordinate="40001"/>
+        <IRM ID="31000" Map="-1" Random="0" RefreshCoordinate="41000"/>
+        <IRM ID="31001" Map="-1" Random="0" RefreshCoordinate="41001"/>
+        <IRM ID="32000" Map="-1" Random="0" RefreshCoordinate="42000"/>
+        <IRM ID="32001" Map="-1" Random="0" RefreshCoordinate="42001"/>
+        <IRM ID="32002" Map="-1" Random="0" RefreshCoordinate="42002"/>
+        <IRM ID="32003" Map="-1" Random="0" RefreshCoordinate="42003"/>
+        <IRM ID="32004" Map="-1" Random="0" RefreshCoordinate="42004"/>
+        <IRM ID="32005" Map="-1" Random="0" RefreshCoordinate="42000"/>
+        <IRM ID="32006" Map="-1" Random="0" RefreshCoordinate="42001"/>
+        <IRM ID="32007" Map="-1" Random="0" RefreshCoordinate="42002"/>
+        <IRM ID="32008" Map="-1" Random="0" RefreshCoordinate="42003"/>
+        <IRM ID="32009" Map="-1" Random="0" RefreshCoordinate="42004"/>
+        <IRM ID="32010" Map="-1" Random="0" RefreshCoordinate="42000"/>
+        <IRM ID="32011" Map="-1" Random="0" RefreshCoordinate="42001"/>
+        <IRM ID="32012" Map="-1" Random="0" RefreshCoordinate="42002"/>
+        <IRM ID="32013" Map="-1" Random="0" RefreshCoordinate="42003"/>
+        <IRM ID="32014" Map="-1" Random="0" RefreshCoordinate="42004"/>
+        <IRM ID="32015" Map="-1" Random="0" RefreshCoordinate="42000"/>
+        <IRM ID="32016" Map="-1" Random="0" RefreshCoordinate="42001"/>
+        <IRM ID="32017" Map="-1" Random="0" RefreshCoordinate="42002"/>
+        <IRM ID="32018" Map="-1" Random="0" RefreshCoordinate="42003"/>
+        <IRM ID="32019" Map="-1" Random="0" RefreshCoordinate="42004"/>
+        <IRM ID="32020" Map="-1" Random="0" RefreshCoordinate="42000"/>
+        <IRM ID="32021" Map="-1" Random="0" RefreshCoordinate="42001"/>
+        <IRM ID="32022" Map="-1" Random="0" RefreshCoordinate="42002"/>
+        <IRM ID="32023" Map="-1" Random="0" RefreshCoordinate="42003"/>
+        <IRM ID="32024" Map="-1" Random="0" RefreshCoordinate="42004"/>
+        <IRM ID="32025" Map="-1" Random="0" RefreshCoordinate="42000"/>
+        <IRM ID="32026" Map="-1" Random="0" RefreshCoordinate="42001"/>
+        <IRM ID="32027" Map="-1" Random="0" RefreshCoordinate="42002"/>
+        <IRM ID="32028" Map="-1" Random="0" RefreshCoordinate="42003"/>
+        <IRM ID="32029" Map="-1" Random="0" RefreshCoordinate="42004"/>
+        <IRM ID="32030" Map="-1" Random="0" RefreshCoordinate="42005"/>
+        <IRM ID="32031" Map="-1" Random="0" RefreshCoordinate="42006"/>
+        <IRM ID="32032" Map="-1" Random="0" RefreshCoordinate="42007"/>
+        <IRM ID="32033" Map="-1" Random="0" RefreshCoordinate="42008"/>
+        <IRM ID="32034" Map="-1" Random="0" RefreshCoordinate="42009"/>
+        <IRM ID="32035" Map="-1" Random="0" RefreshCoordinate="42010"/>
+        <IRM ID="32036" Map="-1" Random="0" RefreshCoordinate="42011"/>
+        <IRM ID="32037" Map="-1" Random="0" RefreshCoordinate="42012"/>
+        <IRM ID="32038" Map="-1" Random="0" RefreshCoordinate="42013"/>
+        <IRM ID="32039" Map="-1" Random="0" RefreshCoordinate="42014"/>
+        <IRM ID="32040" Map="-1" Random="0" RefreshCoordinate="42015"/>
+        <IRM ID="32041" Map="-1" Random="0" RefreshCoordinate="42016"/>
+        <IRM ID="32042" Map="-1" Random="0" RefreshCoordinate="42017"/>
+        <IRM ID="32043" Map="-1" Random="0" RefreshCoordinate="42018"/>
+        <IRM ID="32044" Map="-1" Random="0" RefreshCoordinate="42019"/>
+        <IRM ID="32045" Map="-1" Random="0" RefreshCoordinate="42020"/>
+        <IRM ID="32046" Map="-1" Random="0" RefreshCoordinate="42021"/>
+        <IRM ID="32047" Map="-1" Random="0" RefreshCoordinate="42022"/>
+        <IRM ID="32048" Map="-1" Random="0" RefreshCoordinate="42023"/>
+        <IRM ID="32049" Map="-1" Random="0" RefreshCoordinate="42024"/>
+        <IRM ID="32050" Map="-1" Random="0" RefreshCoordinate="42025"/>
+        <IRM ID="32051" Map="-1" Random="0" RefreshCoordinate="42026"/>
+        <IRM ID="32052" Map="-1" Random="0" RefreshCoordinate="42027"/>
+        <IRM ID="32053" Map="-1" Random="0" RefreshCoordinate="42028"/>
+        <IRM ID="32054" Map="-1" Random="0" RefreshCoordinate="42029"/>
+        <IRM ID="32055" Map="-1" Random="0" RefreshCoordinate="42030"/>
+        <IRM ID="32056" Map="-1" Random="0" RefreshCoordinate="42031"/>
+        <IRM ID="33000" Map="100,100,100,100,100" Random="0" RefreshCoordinate="43000,43001,43002,43003,43004"/>
+        <IRM ID="33001" Map="100,100,100,100,100" Random="0" RefreshCoordinate="43005,43006,43007,43008,43004"/>
+        <IRM ID="33002" Map="100,100,100,100,100" Random="0" RefreshCoordinate="43010,43011,43000,43007,43009"/>
+        <IRM ID="33003" Map="100,100,100,100,100" Random="0" RefreshCoordinate="43000,43006,43007,43011,43009"/>
+        <IRM ID="33004" Map="100,100,100,100,100" Random="0" RefreshCoordinate="43005,43010,43002,43008,43004"/>
+        <IRM ID="33005" Map="100,100,100,100,100" Random="0" RefreshCoordinate="43005,43001,43002,43003,43009"/>
+        <IRM ID="33500" Map="101,101,101,101,101" Random="0" RefreshCoordinate="43500,43501,43502,43503,43504"/>
+        <IRM ID="33501" Map="101,101,101,101,101" Random="0" RefreshCoordinate="43505,43501,43507,43508,43509"/>
+        <IRM ID="33502" Map="101,101,101,101,101" Random="0" RefreshCoordinate="43510,43511,43500,43506,43508"/>
+        <IRM ID="33503" Map="101,101,101,101,101" Random="0" RefreshCoordinate="43500,43506,43507,43508,43509"/>
+        <IRM ID="33504" Map="101,101,101,101,101" Random="0" RefreshCoordinate="43505,43501,43510,43508,43504"/>
+        <IRM ID="33505" Map="101,101,101,101,101" Random="0" RefreshCoordinate="43505,43506,43502,43503,43511"/>
+        <IRM ID="34000" Map="102,102,102,102,102" Random="0" RefreshCoordinate="44000,44001,44002,44003,44004"/>
+        <IRM ID="34001" Map="102,102,102,102,102" Random="0" RefreshCoordinate="44010,44006,44007,44003,44009"/>
+        <IRM ID="34002" Map="102,102,102,102,102" Random="0" RefreshCoordinate="44005,44011,44002,44008,44004"/>
+        <IRM ID="34003" Map="102,102,102,102,102" Random="0" RefreshCoordinate="44000,44006,44007,44008,44009"/>
+        <IRM ID="34004" Map="102,102,102,102,102" Random="0" RefreshCoordinate="44005,44011,44007,44008,44004"/>
+        <IRM ID="34005" Map="102,102,102,102,102" Random="0" RefreshCoordinate="44010,44006,44002,44003,44009"/>
+        <IRM ID="34500" Map="103,103,103,103,103" Random="0" RefreshCoordinate="44500,44501,44502,44503,44504"/>
+        <IRM ID="34501" Map="103,103,103,103,103" Random="0" RefreshCoordinate="44505,44506,44511,44508,44509"/>
+        <IRM ID="34502" Map="103,103,103,103,103" Random="0" RefreshCoordinate="44510,44501,44507,44508,44504"/>
+        <IRM ID="34503" Map="103,103,103,103,103" Random="0" RefreshCoordinate="44500,44506,44511,44503,44509"/>
+        <IRM ID="34504" Map="103,103,103,103,103" Random="0" RefreshCoordinate="44510,44501,44502,44508,44509"/>
+        <IRM ID="34505" Map="103,103,103,103,103" Random="0" RefreshCoordinate="44505,44506,44507,44503,44504"/>
+        <IRM ID="35000" Map="104,104,104,104,104" Random="0" RefreshCoordinate="45000,45001,45002,45003,45004"/>
+        <IRM ID="35001" Map="104,104,104,104,104" Random="0" RefreshCoordinate="45005,45006,45002,45008,45009"/>
+        <IRM ID="35002" Map="104,104,104,104,104" Random="0" RefreshCoordinate="45000,45010,45007,45003,45011"/>
+        <IRM ID="35003" Map="104,104,104,104,104" Random="0" RefreshCoordinate="45000,45010,45007,45003,45004"/>
+        <IRM ID="35004" Map="104,104,104,104,104" Random="0" RefreshCoordinate="45005,45001,45002,45003,45011"/>
+        <IRM ID="35005" Map="104,104,104,104,104" Random="0" RefreshCoordinate="45005,45006,45007,45008,45009"/>
+        <IRM ID="35500" Map="152,152,152,152,152" Random="0" RefreshCoordinate="45500,45501,45502,45503,45504"/>
+        <IRM ID="35501" Map="152,152,152,152,152" Random="0" RefreshCoordinate="45505,45506,45510,45508,45504"/>
+        <IRM ID="35502" Map="152,152,152,152,152" Random="0" RefreshCoordinate="45505,45501,45507,45511,45509"/>
+        <IRM ID="35503" Map="152,152,152,152,152" Random="0" RefreshCoordinate="45500,45506,45510,45503,45504"/>
+        <IRM ID="35504" Map="152,152,152,152,152" Random="0" RefreshCoordinate="45505,45506,45502,45511,45504"/>
+        <IRM ID="35505" Map="152,152,152,152,152" Random="0" RefreshCoordinate="45500,45501,45507,45508,45509"/>
+        <IRM ID="37000" Map="050" Random="0" RefreshCoordinate="47000"/>
+        <IRM ID="37001" Map="000" Random="0" RefreshCoordinate="47001"/>
+        <IRM ID="37002" Map="101" Random="0" RefreshCoordinate="47002"/>
+        <IRM ID="37003" Map="101" Random="0" RefreshCoordinate="47003"/>
+        <IRM ID="37004" Map="101" Random="0" RefreshCoordinate="47004"/>
+        <IRM ID="37005" Map="101" Random="0" RefreshCoordinate="47005"/>
+        <IRM ID="37006" Map="101" Random="0" RefreshCoordinate="47006"/>
+        <IRM ID="37007" Map="101" Random="0" RefreshCoordinate="47007"/>
+        <IRM ID="37008" Map="101" Random="0" RefreshCoordinate="47008"/>
+        <IRM ID="37009" Map="101" Random="0" RefreshCoordinate="47009"/>
+        <IRM ID="37010" Map="101" Random="0" RefreshCoordinate="47010"/>
+        <IRM ID="37011" Map="101" Random="0" RefreshCoordinate="47011"/>
+        <IRM ID="37012" Map="101" Random="0" RefreshCoordinate="47012"/>
+        <IRM ID="37013" Map="101" Random="0" RefreshCoordinate="47013"/>
+        <IRM ID="37014" Map="101" Random="0" RefreshCoordinate="47014"/>
+        <IRM ID="37015" Map="101" Random="0" RefreshCoordinate="47015"/>
+        <IRM ID="37016" Map="101" Random="0" RefreshCoordinate="47016"/>
+        <IRM ID="37017" Map="103" Random="0" RefreshCoordinate="47017"/>
+        <IRM ID="37018" Map="103" Random="0" RefreshCoordinate="47018"/>
+        <IRM ID="37019" Map="103" Random="0" RefreshCoordinate="47019"/>
+        <IRM ID="37020" Map="103" Random="0" RefreshCoordinate="47020"/>
+        <IRM ID="37021" Map="103" Random="0" RefreshCoordinate="47021"/>
+        <IRM ID="37022" Map="103" Random="0" RefreshCoordinate="47022"/>
+        <IRM ID="37023" Map="103" Random="0" RefreshCoordinate="47023"/>
+        <IRM ID="37024" Map="103" Random="0" RefreshCoordinate="47024"/>
+        <IRM ID="37025" Map="103" Random="0" RefreshCoordinate="47025"/>
+        <IRM ID="37026" Map="103" Random="0" RefreshCoordinate="47026"/>
+        <IRM ID="37027" Map="103" Random="0" RefreshCoordinate="47027"/>
+        <IRM ID="37028" Map="103" Random="0" RefreshCoordinate="47028"/>
+        <IRM ID="37029" Map="103" Random="0" RefreshCoordinate="47029"/>
+        <IRM ID="37030" Map="103" Random="0" RefreshCoordinate="47030"/>
+        <IRM ID="37031" Map="103" Random="0" RefreshCoordinate="47031"/>
+        <IRM ID="37032" Map="231" Random="0" RefreshCoordinate="47032"/>
+        <IRM ID="37033" Map="231" Random="0" RefreshCoordinate="47033"/>
+        <IRM ID="37034" Map="231" Random="0" RefreshCoordinate="47034"/>
+        <IRM ID="37035" Map="231" Random="0" RefreshCoordinate="47035"/>
+        <IRM ID="37036" Map="231" Random="0" RefreshCoordinate="47036"/>
+        <IRM ID="37037" Map="231" Random="0" RefreshCoordinate="47037"/>
+        <IRM ID="37038" Map="231" Random="0" RefreshCoordinate="47038"/>
+        <IRM ID="37039" Map="231" Random="0" RefreshCoordinate="47039"/>
+        <IRM ID="37040" Map="231" Random="0" RefreshCoordinate="47040"/>
+        <IRM ID="37041" Map="101" Random="0" RefreshCoordinate="47041"/>
+        <IRM ID="37042" Map="000" Random="0" RefreshCoordinate="47042"/>
+        <IRM ID="37043" Map="001" Random="0" RefreshCoordinate="47043"/>
+        <IRM ID="37044" Map="100" Random="0" RefreshCoordinate="47044"/>
+        <IRM ID="37045" Map="102" Random="0" RefreshCoordinate="47045"/>
+        <IRM ID="37046" Map="002" Random="0" RefreshCoordinate="47046"/>
+        <IRM ID="37047" Map="103" Random="0" RefreshCoordinate="47047"/>
+        <IRM ID="37048" Map="053" Random="0" RefreshCoordinate="47048"/>
+        <IRM ID="37049" Map="003" Random="0" RefreshCoordinate="47049"/>
+        <IRM ID="37050" Map="052" Random="0" RefreshCoordinate="47050"/>
+        <IRM ID="37051" Map="104" Random="0" RefreshCoordinate="47051"/>
+        <IRM ID="37052" Map="050" Random="0" RefreshCoordinate="47052"/>
+        <IRM ID="37053" Map="051" Random="0" RefreshCoordinate="47053"/>
+        <IRM ID="37054" Map="054" Random="0" RefreshCoordinate="47054"/>
+        <IRM ID="37055" Map="004" Random="0" RefreshCoordinate="47055"/>
+        <IRM ID="37056" Map="152" Random="0" RefreshCoordinate="47056"/>
+        <IRM ID="37057" Map="152" Random="0" RefreshCoordinate="47057"/>
+        <IRM ID="37058" Map="152" Random="0" RefreshCoordinate="47058"/>
+        <IRM ID="37059" Map="152" Random="0" RefreshCoordinate="47059"/>
+        <IRM ID="37060" Map="102" Random="0" RefreshCoordinate="47060"/>
+        <IRM ID="37061" Map="102" Random="0" RefreshCoordinate="47061"/>
+        <IRM ID="37062" Map="102" Random="0" RefreshCoordinate="47062"/>
+        <IRM ID="37063" Map="101" Random="0" RefreshCoordinate="47063"/>
+        <IRM ID="37064" Map="101" Random="0" RefreshCoordinate="47064"/>
+        <IRM ID="37065" Map="101" Random="0" RefreshCoordinate="47065"/>
+        <IRM ID="37066" Map="103" Random="0" RefreshCoordinate="47066"/>
+        <IRM ID="37067" Map="103" Random="0" RefreshCoordinate="47067"/>
+        <IRM ID="37068" Map="103" Random="0" RefreshCoordinate="47068"/>
+        <IRM ID="37069" Map="104" Random="0" RefreshCoordinate="47069"/>
+        <IRM ID="37070" Map="104" Random="0" RefreshCoordinate="47070"/>
+        <IRM ID="37071" Map="104" Random="0" RefreshCoordinate="47071"/>
+        <IRM ID="37072" Map="100" Random="0" RefreshCoordinate="47072"/>
+        <IRM ID="37073" Map="100" Random="0" RefreshCoordinate="47073"/>
+        <IRM ID="37074" Map="100" Random="0" RefreshCoordinate="47074"/>
+        <IRM ID="37075" Map="255" Random="0" RefreshCoordinate="47075"/>
+        <IRM ID="37076" Map="255" Random="0" RefreshCoordinate="47076"/>
+        <IRM ID="37077" Map="255" Random="0" RefreshCoordinate="47077"/>
+        <IRM ID="37078" Map="255" Random="0" RefreshCoordinate="47078"/>
+    </ItemRefreshMonster>
+    <RefreshCoordinate>
+        <RC ID="40000" X="-1" Z="-1" Random="0" Monster="50000"/>
+        <RC ID="40001" X="-1" Z="-1" Random="0" Monster="50001"/>
+        <RC ID="41000" X="-1" Z="-1" Random="0" Monster="51000"/>
+        <RC ID="41001" X="-1" Z="-1" Random="0" Monster="51001"/>
+        <RC ID="42000" X="-1" Z="-1" Random="0" Monster="52000"/>
+        <RC ID="42001" X="-1" Z="-1" Random="0" Monster="52001"/>
+        <RC ID="42002" X="-1" Z="-1" Random="0" Monster="52002"/>
+        <RC ID="42003" X="-1" Z="-1" Random="0" Monster="52003"/>
+        <RC ID="42004" X="-1" Z="-1" Random="0" Monster="52004"/>
+        <RC ID="42005" X="-1" Z="-1" Random="0" Monster="52005"/>
+        <RC ID="42006" X="-1" Z="-1" Random="0" Monster="52006"/>
+        <RC ID="42007" X="-1" Z="-1" Random="0" Monster="52007"/>
+        <RC ID="42008" X="-1" Z="-1" Random="0" Monster="52008"/>
+        <RC ID="42009" X="-1" Z="-1" Random="0" Monster="52009"/>
+        <RC ID="42010" X="-1" Z="-1" Random="0" Monster="52010"/>
+        <RC ID="42011" X="-1" Z="-1" Random="0" Monster="52011"/>
+        <RC ID="42012" X="-1" Z="-1" Random="0" Monster="52012"/>
+        <RC ID="42013" X="-1" Z="-1" Random="0" Monster="52013"/>
+        <RC ID="42014" X="-1" Z="-1" Random="0" Monster="52014"/>
+        <RC ID="42015" X="-1" Z="-1" Random="0" Monster="52015"/>
+        <RC ID="42016" X="-1" Z="-1" Random="0" Monster="52016"/>
+        <RC ID="42017" X="-1" Z="-1" Random="0" Monster="52017"/>
+        <RC ID="42018" X="-1" Z="-1" Random="0" Monster="52018"/>
+        <RC ID="42019" X="-1" Z="-1" Random="0" Monster="52019"/>
+        <RC ID="42020" X="-1" Z="-1" Random="0" Monster="52020"/>
+        <RC ID="42021" X="-1" Z="-1" Random="0" Monster="52021"/>
+        <RC ID="42022" X="-1" Z="-1" Random="0" Monster="52022"/>
+        <RC ID="42023" X="-1" Z="-1" Random="0" Monster="52023"/>
+        <RC ID="42024" X="-1" Z="-1" Random="0" Monster="52024"/>
+        <RC ID="42025" X="-1" Z="-1" Random="0" Monster="52025"/>
+        <RC ID="42026" X="-1" Z="-1" Random="0" Monster="52026"/>
+        <RC ID="42027" X="-1" Z="-1" Random="0" Monster="52027"/>
+        <RC ID="42028" X="-1" Z="-1" Random="0" Monster="52028"/>
+        <RC ID="42029" X="-1" Z="-1" Random="0" Monster="52029"/>
+        <RC ID="42030" X="-1" Z="-1" Random="0" Monster="52030"/>
+        <RC ID="42031" X="-1" Z="-1" Random="0" Monster="52031"/>
+        <RC ID="43000" X="-138" Z="175" Random="0" Monster="53300"/>
+        <RC ID="43001" X="-194" Z="99" Random="0" Monster="53301"/>
+        <RC ID="43002" X="-151" Z="-103" Random="0" Monster="53302"/>
+        <RC ID="43003" X="48" Z="124" Random="0" Monster="53303"/>
+        <RC ID="43004" X="40" Z="-106" Random="0" Monster="53304"/>
+        <RC ID="43005" X="-86" Z="-117" Random="0" Monster="53300"/>
+        <RC ID="43006" X="151" Z="-89" Random="0" Monster="53301"/>
+        <RC ID="43007" X="-186" Z="-121" Random="0" Monster="53302"/>
+        <RC ID="43008" X="109" Z="172" Random="0" Monster="53303"/>
+        <RC ID="43009" X="184" Z="182" Random="0" Monster="53304"/>
+        <RC ID="43010" X="66" Z="29" Random="0" Monster="53301"/>
+        <RC ID="43011" X="111" Z="-129" Random="0" Monster="53303"/>
+        <RC ID="43500" X="173" Z="6" Random="0" Monster="53100"/>
+        <RC ID="43501" X="177" Z="7" Random="0" Monster="53101"/>
+        <RC ID="43502" X="49" Z="-87" Random="0" Monster="53102"/>
+        <RC ID="43503" X="105" Z="14" Random="0" Monster="53103"/>
+        <RC ID="43504" X="-170" Z="133" Random="0" Monster="53104"/>
+        <RC ID="43505" X="-168" Z="153" Random="0" Monster="53100"/>
+        <RC ID="43506" X="184" Z="113" Random="0" Monster="53101"/>
+        <RC ID="43507" X="96" Z="192" Random="0" Monster="53102"/>
+        <RC ID="43508" X="4" Z="-105" Random="0" Monster="53103"/>
+        <RC ID="43509" X="-51" Z="48" Random="0" Monster="53104"/>
+        <RC ID="43510" X="-35" Z="188" Random="0" Monster="53102"/>
+        <RC ID="43511" X="75" Z="7" Random="0" Monster="53104"/>
+        <RC ID="44000" X="-180" Z="-222" Random="0" Monster="53200"/>
+        <RC ID="44001" X="-215" Z="-164" Random="0" Monster="53201"/>
+        <RC ID="44002" X="178" Z="124" Random="0" Monster="53202"/>
+        <RC ID="44003" X="-166" Z="-212" Random="0" Monster="53203"/>
+        <RC ID="44004" X="-105" Z="-46" Random="0" Monster="53204"/>
+        <RC ID="44005" X="66" Z="-129" Random="0" Monster="53200"/>
+        <RC ID="44006" X="92" Z="29" Random="0" Monster="53201"/>
+        <RC ID="44007" X="-133" Z="164" Random="0" Monster="53202"/>
+        <RC ID="44008" X="-18" Z="168" Random="0" Monster="53203"/>
+        <RC ID="44009" X="69" Z="181" Random="0" Monster="53204"/>
+        <RC ID="44010" X="-22" Z="-164" Random="0" Monster="53200"/>
+        <RC ID="44011" X="61" Z="35" Random="0" Monster="53201"/>
+        <RC ID="44500" X="-75" Z="131" Random="0" Monster="53100"/>
+        <RC ID="44501" X="-175" Z="48" Random="0" Monster="53101"/>
+        <RC ID="44502" X="-184" Z="7" Random="0" Monster="53102"/>
+        <RC ID="44503" X="-58" Z="-122" Random="0" Monster="53103"/>
+        <RC ID="44504" X="-31" Z="-84" Random="0" Monster="53104"/>
+        <RC ID="44505" X="71" Z="-50" Random="0" Monster="53100"/>
+        <RC ID="44506" X="144" Z="-92" Random="0" Monster="53101"/>
+        <RC ID="44507" X="166" Z="-80" Random="0" Monster="53102"/>
+        <RC ID="44508" X="168" Z="136" Random="0" Monster="53103"/>
+        <RC ID="44509" X="171" Z="75" Random="0" Monster="53104"/>
+        <RC ID="44510" X="-65" Z="37" Random="0" Monster="53100"/>
+        <RC ID="44511" X="-85" Z="155" Random="0" Monster="53102"/>
+        <RC ID="45000" X="-189" Z="-198" Random="0" Monster="53300"/>
+        <RC ID="45001" X="172" Z="-199" Random="0" Monster="53301"/>
+        <RC ID="45002" X="-40" Z="-49" Random="0" Monster="53302"/>
+        <RC ID="45003" X="198" Z="0" Random="0" Monster="53303"/>
+        <RC ID="45004" X="61" Z="-63" Random="0" Monster="53304"/>
+        <RC ID="45005" X="145" Z="209" Random="0" Monster="53300"/>
+        <RC ID="45006" X="202" Z="-57" Random="0" Monster="53301"/>
+        <RC ID="45007" X="-170" Z="-78" Random="0" Monster="53302"/>
+        <RC ID="45008" X="69" Z="207" Random="0" Monster="53303"/>
+        <RC ID="45009" X="-99" Z="-197" Random="0" Monster="53304"/>
+        <RC ID="45010" X="-110" Z="166" Random="0" Monster="53301"/>
+        <RC ID="45011" X="-91" Z="78" Random="0" Monster="53304"/>
+        <RC ID="45500" X="-41" Z="89" Random="0" Monster="53000"/>
+        <RC ID="45501" X="126" Z="-4" Random="0" Monster="53001"/>
+        <RC ID="45502" X="-117" Z="86" Random="0" Monster="53002"/>
+        <RC ID="45503" X="26" Z="111" Random="0" Monster="53003"/>
+        <RC ID="45504" X="20" Z="-40" Random="0" Monster="53004"/>
+        <RC ID="45505" X="-117" Z="-1" Random="0" Monster="53000"/>
+        <RC ID="45506" X="155" Z="75" Random="0" Monster="53001"/>
+        <RC ID="45507" X="-1" Z="35" Random="0" Monster="53002"/>
+        <RC ID="45508" X="-15" Z="188" Random="0" Monster="53003"/>
+        <RC ID="45509" X="99" Z="168" Random="0" Monster="53004"/>
+        <RC ID="45510" X="195" Z="128" Random="0" Monster="53002"/>
+        <RC ID="45511" X="61" Z="-96" Random="0" Monster="53003"/>
+        <RC ID="47000" X="149,153,156,159,163,167,171,174,176,178,177,171,163,152,143,143,145,147,146,160" Z="68,63,62,60,58,56,60,63,67,72,78,85,88,93,83,79,67,71,77,66" Random="0" Monster="54000,54000,54000,54000,54000,54000,54000,54000,54000,54000,54000,54000,54000,54000,54000,54000,54000,54000,54000,54000"/>
+        <RC ID="47001" X="149,153,156,159,163,167,171,174,176,178,177,171,163,152,143,143,145,147,146,160" Z="68,63,62,60,58,56,60,63,67,72,78,85,88,93,83,79,67,71,77,66" Random="0" Monster="54001,54001,54001,54001,54001,54001,54001,54001,54001,54001,54001,54001,54001,54001,54001,54001,54001,54001,54001,54001"/>
+        <RC ID="47002" X="-10" Z="94" Random="0" Monster="54002"/>
+        <RC ID="47003" X="-24" Z="94" Random="0" Monster="54002"/>
+        <RC ID="47004" X="-29" Z="111" Random="0" Monster="54002"/>
+        <RC ID="47005" X="-13" Z="119" Random="0" Monster="54002"/>
+        <RC ID="47006" X="-6" Z="108" Random="0" Monster="54002"/>
+        <RC ID="47007" X="-10" Z="94" Random="0" Monster="54003"/>
+        <RC ID="47008" X="-24" Z="94" Random="0" Monster="54003"/>
+        <RC ID="47009" X="-29" Z="111" Random="0" Monster="54003"/>
+        <RC ID="47010" X="-13" Z="119" Random="0" Monster="54003"/>
+        <RC ID="47011" X="-6" Z="108" Random="0" Monster="54003"/>
+        <RC ID="47012" X="-10" Z="94" Random="0" Monster="54004"/>
+        <RC ID="47013" X="-24" Z="94" Random="0" Monster="54004"/>
+        <RC ID="47014" X="-29" Z="111" Random="0" Monster="54004"/>
+        <RC ID="47015" X="-13" Z="119" Random="0" Monster="54004"/>
+        <RC ID="47016" X="-6" Z="108" Random="0" Monster="54004"/>
+        <RC ID="47017" X="39" Z="-111" Random="0" Monster="54005"/>
+        <RC ID="47018" X="28" Z="-118" Random="0" Monster="54005"/>
+        <RC ID="47019" X="17" Z="-108" Random="0" Monster="54005"/>
+        <RC ID="47020" X="25" Z="-91" Random="0" Monster="54005"/>
+        <RC ID="47021" X="38" Z="-97" Random="0" Monster="54005"/>
+        <RC ID="47022" X="39" Z="-111" Random="0" Monster="54006"/>
+        <RC ID="47023" X="28" Z="-118" Random="0" Monster="54006"/>
+        <RC ID="47024" X="17" Z="-108" Random="0" Monster="54006"/>
+        <RC ID="47025" X="25" Z="-91" Random="0" Monster="54006"/>
+        <RC ID="47026" X="38" Z="-97" Random="0" Monster="54006"/>
+        <RC ID="47027" X="39" Z="-111" Random="0" Monster="54007"/>
+        <RC ID="47028" X="28" Z="-118" Random="0" Monster="54007"/>
+        <RC ID="47029" X="17" Z="-108" Random="0" Monster="54007"/>
+        <RC ID="47030" X="25" Z="-91" Random="0" Monster="54007"/>
+        <RC ID="47031" X="38" Z="-97" Random="0" Monster="54007"/>
+        <RC ID="47032" X="-118,-114,-73,-107,-140,-121,-136,-122,-127,87,-2,-79,-93,-65,-88,107,13,-146,14,62,-103,-59,-85,-83,76,65,-105,-27,-43,-60,-48,-82,-92,-70,-73,46,91,54,-60,-54,-103,-73,-36,-69,-103,-71,-9,-92,-75,-118,-105,45,57,-81,-97,-120,-89,-99,-15,-128,-110,27,-35,-130,-89,-143,-99,-117,-130,-156,-140,-137,-122,-86,-67,-45,-25,103,-121,-146,-144,-161,-149,-83,-92,-154,-143,121,-86" Z="-109,-98,-129,-110,-115,-101,-98,-118,-98,-182,-153,-100,-131,-99,-112,-170,-165,-20,-146,-150,-76,-112,-88,-120,-182,-170,-62,-141,-109,-125,-128,-140,-100,-109,-155,-157,-148,-169,-153,-108,-88,-118,-127,-133,-124,-15,-133,-19,-26,-4,-30,-134,-139,-9,-52,-32,-71,-19,-165,-26,0,-155,-154,-14,-61,-43,-5,-48,-36,-12,-64,-144,-149,-165,-164,-145,-161,-191,16,8,-7,-29,-34,-151,-141,-121,-152,-185,-51" Random="0" Monster="54008,54009,54009,54009,54009,54009,54009,54009,54009,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026,54026"/>
+        <RC ID="47033" X="-85,-108,-93,-115,-88,-91,-73,-127,-81,87,-2,-79,-93,-65,-88,107,13,-146,14,62,-103,-59,-85,-83,76,65,-105,-27,-43,-60,-48,-82,-92,-70,-73,46,91,54,-60,-54,-103,-73,-36,-69,-103,-71,-9,-92,-75,-118,-105,45,57,-81,-97,-120,-89,-99,-15,-128,-110,27,-35,-130,-89,-143,-99,-117,-130,-156,-140,-137,-122,-86,-67,-45,-25,103,-121,-146,-144,-161,-149,-83,-92,-154,-143,121,-86" Z="-31,-43,-40,-68,-8,-30,-40,-56,-42,-182,-153,-100,-131,-99,-112,-170,-165,-20,-146,-150,-76,-112,-88,-120,-182,-170,-62,-141,-109,-125,-128,-140,-100,-109,-155,-157,-148,-169,-153,-108,-88,-118,-127,-133,-124,-15,-133,-19,-26,-4,-30,-134,-139,-9,-52,-32,-71,-19,-165,-26,0,-155,-154,-14,-61,-43,-5,-48,-36,-12,-64,-144,-149,-165,-164,-145,-161,-191,16,8,-7,-29,-34,-151,-141,-121,-152,-185,-51" Random="0" Monster="54010,54011,54011,54011,54011,54011,54011,54011,54011,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027,54027"/>
+        <RC ID="47034" X="-27,-40,-23,-15,-29,-19,-39,-43,-20,-57,-55,-63,-67,-56,-59,-49,-25,-17,-5,-34,-21,-21,18,34,32,40,46,55,68,86,99,115,131,144,76,87,104,81,27,34,44,29,38,40,62,46,73,90,72,98,107,109,115,128,139,124,118,134,128,153,167,125,134,176,173,179,185,105,114,-3,1,6,11,15,20,25,33,42,52,28,42,39,52,59,67,75,92,105,125,68,81,96,114,125,136,146,166,173,180" Z="89,52,51,71,83,90,79,63,76,34,48,45,59,65,54,55,46,33,57,90,96,80,100,130,111,101,136,106,117,120,114,101,100,66,53,38,17,-13,29,105,112,125,123,134,111,98,122,124,113,122,110,102,113,118,119,102,87,86,74,68,75,133,140,87,74,67,61,135,92,10,3,-3,-10,-19,-26,-30,-33,-35,-33,24,16,42,24,15,8,1,-24,-27,-22,59,44,27,9,5,-1,0,6,8,22" Random="0" Monster="54012,54013,54013,54013,54013,54013,54013,54013,54013,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028,54028"/>
+        <RC ID="47035" X="132,127,122,125,132,133,119,105,112,-57,-55,-63,-67,-56,-59,-49,-25,-17,-5,-34,-21,-21,18,34,32,40,46,55,68,86,99,115,131,144,76,87,104,81,27,34,44,29,38,40,62,46,73,90,72,98,107,109,115,128,139,124,118,134,128,153,167,125,134,176,173,179,185,105,114,-3,1,6,11,15,20,25,33,42,52,28,42,39,52,59,67,75,92,105,125,68,81,96,114,125,136,146,166,173,180" Z="132,108,117,123,126,112,142,125,121,34,48,45,59,65,54,55,46,33,57,90,96,80,100,130,111,101,136,106,117,120,114,101,100,66,53,38,17,-13,29,105,112,125,123,134,111,98,122,124,113,122,110,102,113,118,119,102,87,86,74,68,75,133,140,87,74,67,61,135,92,10,3,-3,-10,-19,-26,-30,-33,-35,-33,24,16,42,24,15,8,1,-24,-27,-22,59,44,27,9,5,-1,0,6,8,22" Random="0" Monster="54014,54015,54015,54015,54015,54015,54015,54015,54015,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029,54029"/>
+        <RC ID="47036" X="137,-57,-55,-63,-67,-56,-59,-49,-25,-17,-5,-34,-21,-21,18,34,32,40,46,55,68,86,99,115,131,144,76,87,104,81,27,34,44,29,38,40,62,46,73,90,72,98,107,109,115,128,139,124,118,134,128,153,167,125,134,176,173,179,185,105,114,-3,1,6,11,15,20,25,33,42,52,28,42,39,52,59,67,75,92,105,125,68,81,96,114,125,136,146,166,173,180" Z="147,34,48,45,59,65,54,55,46,33,57,90,96,80,100,130,111,101,136,106,117,120,114,101,100,66,53,38,17,-13,29,105,112,125,123,134,111,98,122,124,113,122,110,102,113,118,119,102,87,86,74,68,75,133,140,87,74,67,61,135,92,10,3,-3,-10,-19,-26,-30,-33,-35,-33,24,16,42,24,15,8,1,-24,-27,-22,59,44,27,9,5,-1,0,6,8,22" Random="0" Monster="54016,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017,54017"/>
+        <RC ID="47037" X="137,-57,-55,-63,-67,-56,-59,-49,-25,-17,-5,-34,-21,-21,18,34,32,40,46,55,68,86,99,115,131,144,76,87,104,81,27,34,44,29,38,40,62,46,73,90,72,98,107,109,115,128,139,124,118,134,128,153,167,125,134,176,173,179,185,105,114,-3,1,6,11,15,20,25,33,42,52,28,42,39,52,59,67,75,92,105,125,68,81,96,114,125,136,146,166,173,180" Z="147,34,48,45,59,65,54,55,46,33,57,90,96,80,100,130,111,101,136,106,117,120,114,101,100,66,53,38,17,-13,29,105,112,125,123,134,111,98,122,124,113,122,110,102,113,118,119,102,87,86,74,68,75,133,140,87,74,67,61,135,92,10,3,-3,-10,-19,-26,-30,-33,-35,-33,24,16,42,24,15,8,1,-24,-27,-22,59,44,27,9,5,-1,0,6,8,22" Random="0" Monster="54018,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019,54019"/>
+        <RC ID="47038" X="137,-57,-55,-63,-67,-56,-59,-49,-25,-17,-5,-34,-21,-21,18,34,32,40,46,55,68,86,99,115,131,144,76,87,104,81,27,34,44,29,38,40,62,46,73,90,72,98,107,109,115,128,139,124,118,134,128,153,167,125,134,176,173,179,185,105,114,-3,1,6,11,15,20,25,33,42,52,28,42,39,52,59,67,75,92,105,125,68,81,96,114,125,136,146,166,173,180" Z="147,34,48,45,59,65,54,55,46,33,57,90,96,80,100,130,111,101,136,106,117,120,114,101,100,66,53,38,17,-13,29,105,112,125,123,134,111,98,122,124,113,122,110,102,113,118,119,102,87,86,74,68,75,133,140,87,74,67,61,135,92,10,3,-3,-10,-19,-26,-30,-33,-35,-33,24,16,42,24,15,8,1,-24,-27,-22,59,44,27,9,5,-1,0,6,8,22" Random="0" Monster="54020,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021,54021"/>
+        <RC ID="47039" X="137,-57,-55,-63,-67,-56,-59,-49,-25,-17,-5,-34,-21,-21,18,34,32,40,46,55,68,86,99,115,131,144,76,87,104,81,27,34,44,29,38,40,62,46,73,90,72,98,107,109,115,128,139,124,118,134,128,153,167,125,134,176,173,179,185,105,114,-3,1,6,11,15,20,25,33,42,52,28,42,39,52,59,67,75,92,105,125,68,81,96,114,125,136,146,166,173,180" Z="147,34,48,45,59,65,54,55,46,33,57,90,96,80,100,130,111,101,136,106,117,120,114,101,100,66,53,38,17,-13,29,105,112,125,123,134,111,98,122,124,113,122,110,102,113,118,119,102,87,86,74,68,75,133,140,87,74,67,61,135,92,10,3,-3,-10,-19,-26,-30,-33,-35,-33,24,16,42,24,15,8,1,-24,-27,-22,59,44,27,9,5,-1,0,6,8,22" Random="0" Monster="54022,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023,54023"/>
+        <RC ID="47040" X="137,-57,-55,-63,-67,-56,-59,-49,-25,-17,-5,-34,-21,-21,18,34,32,40,46,55,68,86,99,115,131,144,76,87,104,81,27,34,44,29,38,40,62,46,73,90,72,98,107,109,115,128,139,124,118,134,128,153,167,125,134,176,173,179,185,105,114,-3,1,6,11,15,20,25,33,42,52,28,42,39,52,59,67,75,92,105,125,68,81,96,114,125,136,146,166,173,180" Z="147,34,48,45,59,65,54,55,46,33,57,90,96,80,100,130,111,101,136,106,117,120,114,101,100,66,53,38,17,-13,29,105,112,125,123,134,111,98,122,124,113,122,110,102,113,118,119,102,87,86,74,68,75,133,140,87,74,67,61,135,92,10,3,-3,-10,-19,-26,-30,-33,-35,-33,24,16,42,24,15,8,1,-24,-27,-22,59,44,27,9,5,-1,0,6,8,22" Random="0" Monster="54024,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025,54025"/>
+        <RC ID="47041" X="-170,-181,-109,-160,-173,-139,-183,-175,-177,-129,-30,16,-60,-18,22,-15,-76,-54,0,70,74,76,-8,43,90" Z="-189,-145,-147,-76,-120,-19,53,115,-18,118,199,144,130,104,77,60,51,-36,-180,-186,-139,-90,-104,-41,-51" Random="0" Monster="54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030"/>
+        <RC ID="47042" X="-96,-60,-76,16,11,-49,-22,23,46,70,61,60,141,-76,-54,-63,16,29,58,88,125,96,139,128,145" Z="98,71,98,76,46,18,-21,-33,-12,14,79,46,98,-104,-106,-75,-172,-194,-83,-54,-99,-119,-122,-46,-70" Random="0" Monster="54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030"/>
+        <RC ID="47043" X="-12,46,52,62,62,76,-5,113,144,155,158,79,161,131,180,67,39,-103,-59,-60,-128,-163,-105,-114,-150" Z="-90,-114,-107,-182,-196,-190,-107,-134,-107,-177,18,67,-15,107,-12,20,64,-6,41,58,32,32,-56,-203,154" Random="0" Monster="54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030"/>
+        <RC ID="47044" X="-22,-10,63,118,165,78,30,79,57,9,-76,158,181,114,155,185,180,112,67,-67,-47,-2,-19,25,-98" Z="183,142,191,168,170,134,82,18,-2,-8,7,30,-22,-56,-84,-68,-158,-137,-194,-196,-157,-117,-73,-99,-84" Random="0" Monster="54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030"/>
+        <RC ID="47045" X="162,187,127,39,3,-32,-76,16,-36,-145,-197,-203,-188,-153,-160,-207,-126,-186,-49,-74,18,45,95,193,110" Z="173,43,62,151,191,191,180,41,59,173,176,121,52,53,-40,-68,-204,-204,-205,-145,-196,-125,-199,-60,-137" Random="0" Monster="54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030"/>
+        <RC ID="47046" X="173,187,137,116,193,166,186,141,134,100,96,58,61,16,1,-49,-39,-99,-165,-137,-188,-113,-19,31,-193" Z="7,49,63,26,95,120,161,182,143,122,164,168,112,188,139,178,81,167,175,122,95,31,8,11,21" Random="0" Monster="54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030"/>
+        <RC ID="47047" X="129,158,106,171,6,-91,-52,-82,10,-22,-57,-173,-176,-167,-75,-66,16,70,86,43,28,82,-5,52,177" Z="151,98,95,185,177,179,135,89,107,68,47,75,16,-54,-5,-75,3,14,-48,-64,-113,-114,-161,-172,-155" Random="0" Monster="54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030"/>
+        <RC ID="47048" X="-39,-14,21,77,105,183,175,171,190,73,99,119,76,120,113,144,56,29,8,-29,-62,-138,-190,-176,-135" Z="-171,-213,-177,-191,-193,-37,32,74,123,174,98,46,-6,1,-51,-111,-72,-118,-81,-26,-88,-28,-28,14,50" Random="0" Monster="54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030"/>
+        <RC ID="47049" X="154,180,111,188,150,72,18,30,-27,-14,-86,-149,-128,-68,-166,-166,42,-25,-87,-169,163,102,28,-26,-77" Z="-21,-86,-101,84,161,169,102,28,-17,154,178,188,130,100,65,15,-57,-111,-114,-82,-183,-198,-189,-193,-201" Random="0" Monster="54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030"/>
+        <RC ID="47050" X="-196,-153,-137,-120,-35,-171,-118,-181,-137,-100,-170,-127,-178,-131,-86,13,41,105,202,183,104,102,197,194,151" Z="168,186,152,187,165,118,97,68,40,33,-26,-69,-94,-168,-156,-180,-127,-135,-146,-179,-35,-100,-103,-53,47" Random="0" Monster="54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030"/>
+        <RC ID="47051" X="158,167,199,155,184,170,109,99,40,52,-15,-60,-97,-157,-187,-158,-176,-105,83,18,-49,-31,-74,34,1" Z="-165,-106,-18,37,98,168,154,63,82,148,108,164,128,193,139,91,52,68,-23,-3,0,-69,-101,-134,-177" Random="0" Monster="54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030"/>
+        <RC ID="47052" X="-96,-60,-76,16,11,-49,-22,23,46,70,61,60,141,-76,-54,-63,16,29,58,88,125,96,139,128,145" Z="98,71,98,76,46,18,-21,-33,-12,14,79,46,98,-104,-106,-75,-172,-194,-83,-54,-99,-119,-122,-46,-70" Random="0" Monster="54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030"/>
+        <RC ID="47053" X="-12,46,52,62,62,76,-5,113,144,155,158,79,161,131,180,67,39,-103,-59,-60,-128,-163,-105,-114,-150" Z="-90,-114,-107,-182,-196,-190,-107,-134,-107,-177,18,67,-15,107,-12,20,64,-6,41,58,32,32,-56,-203,154" Random="0" Monster="54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030"/>
+        <RC ID="47054" X="8,60,-53,149,30,52,34,146,187,162,202,122,-164,-192,-184,-203,19,-72,-38,42,-117,-190,-115,192,32" Z="-180,-205,-137,-209,-206,-70,-43,-39,57,58,75,-112,-54,10,-168,-203,57,90,131,155,174,83,-49,128,155" Random="0" Monster="54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030"/>
+        <RC ID="47055" X="34,-16,-74,-103,-119,119,163,199,164,141,99,139,88,44,107,159,205,189,124,49,-21,-59,-85,-148,-150" Z="-197,-180,-188,-167,-112,-197,-200,-170,-135,-89,-42,-6,17,55,110,110,128,185,177,120,119,189,198,186,88" Random="0" Monster="54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030"/>
+        <RC ID="47056" X="-2,13,-9,-17,37,-32,-123,21,92,100,73,65,56,134,192,-127,179,141,103,145,191,188,143,88,33" Z="-199,-180,-156,-118,87,-62,-75,-32,-54,-86,-118,-148,-190,-74,-66,3,-4,-1,38,67,99,149,173,18,116" Random="0" Monster="54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030,54030"/>
+        <RC ID="47057" X="126" Z="-4" Random="0" Monster="54031"/>
+        <RC ID="47058" X="-117" Z="86" Random="0" Monster="54031"/>
+        <RC ID="47059" X="26" Z="111" Random="0" Monster="54031"/>
+        <RC ID="47060" X="69" Z="181" Random="0" Monster="54031"/>
+        <RC ID="47061" X="-22" Z="-164" Random="0" Monster="54031"/>
+        <RC ID="47062" X="61" Z="35" Random="0" Monster="54031"/>
+        <RC ID="47063" X="177" Z="7" Random="0" Monster="54031"/>
+        <RC ID="47064" X="49" Z="-87" Random="0" Monster="54031"/>
+        <RC ID="47065" X="105" Z="14" Random="0" Monster="54031"/>
+        <RC ID="47066" X="-31" Z="-84" Random="0" Monster="54031"/>
+        <RC ID="47067" X="71" Z="-50" Random="0" Monster="54031"/>
+        <RC ID="47068" X="144" Z="-92" Random="0" Monster="54031"/>
+        <RC ID="47069" X="-189" Z="-198" Random="0" Monster="54031"/>
+        <RC ID="47070" X="172" Z="-199" Random="0" Monster="54031"/>
+        <RC ID="47071" X="-40" Z="-49" Random="0" Monster="54031"/>
+        <RC ID="47072" X="-138" Z="175" Random="0" Monster="54031"/>
+        <RC ID="47073" X="-194" Z="99" Random="0" Monster="54031"/>
+        <RC ID="47074" X="-151" Z="-103" Random="0" Monster="54031"/>
+        <RC ID="47075" X="128,67,87,85,69,129,125,65,88" Z="-126,-66,103,102,-64,-124,-126,-67,100" Random="0" Monster="54032,54032,54032,54033,54033,54033,54033,54033,54033"/>
+        <RC ID="47076" X="-134,-104,-75,-101,-76,-134,-73,-131,-102" Z="135,-87,76,-89,74,133,76,135,-84" Random="0" Monster="54034,54034,54034,54035,54035,54035,54035,54035,54035"/>
+        <RC ID="47077" X="200,202,198" Z="-200,-201,-201" Random="0" Monster="54036,54037,54037"/>
+        <RC ID="47078" X="-201,-200,-202" Z="204,205,202" Random="0" Monster="54038,54039,54039"/>
+    </RefreshCoordinate>
+    <MonsterInfo>
+        <Monster ID="50000" Placard="1" Position="1" Range="0" NoteType="3" MonsterName="A_eliteQ_greecewarrior_003,A_eliteQ_greecewarrior_003,A_eliteQ_greecewarrior_003,A_eliteQ_greecewarrior_003,A_eliteQ_greecewarrior_003"/>
+        <Monster ID="50001" Placard="1" Position="1" Range="0" NoteType="3" MonsterName="A_eliteQ_mage_001,A_eliteQ_mage_001,A_eliteQ_mage_001"/>
+        <Monster ID="51000" Placard="1" Position="1" Range="0" NoteType="3" MonsterName="A_eliteQ_greecewarrior_004,A_eliteQ_greecewarrior_004,A_eliteQ_greecewarrior_004,A_eliteQ_greecewarrior_004,A_eliteQ_greecewarrior_004"/>
+        <Monster ID="51001" Placard="1" Position="1" Range="0" NoteType="3" MonsterName="A_eliteQ_mage_004,A_eliteQ_mage_004,A_eliteQ_mage_004"/>
+        <Monster ID="52000" Placard="1" Position="1" Range="0" NoteType="1" MonsterName="A_eliteQ_godsguard_007"/>
+        <Monster ID="52001" Placard="1" Position="1" Range="0" NoteType="1" MonsterName="A_eliteQ_godsguard_010"/>
+        <Monster ID="52002" Placard="1" Position="1" Range="0" NoteType="1" MonsterName="A_eliteQ_cyclops_004"/>
+        <Monster ID="52003" Placard="1" Position="1" Range="0" NoteType="1" MonsterName="A_eliteQ_skeleton_005"/>
+        <Monster ID="52004" Placard="1" Position="1" Range="0" NoteType="1" MonsterName="A_eliteQ_fairy_002"/>
+        <Monster ID="52005" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_eliteQ_CentaurWarrior_001"/>
+        <Monster ID="52006" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_eliteQ_Cyclops_001"/>
+        <Monster ID="52007" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_eliteQ_PersianGen_001"/>
+        <Monster ID="52008" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_boss_baitoulong_001"/>
+        <Monster ID="52009" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_boss_Cyclopkuke_001"/>
+        <Monster ID="52010" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_boss_medusamo_001"/>
+        <Monster ID="52011" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Triallion_001"/>
+        <Monster ID="52012" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialshe_001"/>
+        <Monster ID="52013" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialjuxie_001"/>
+        <Monster ID="52014" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialdeer_001"/>
+        <Monster ID="52015" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialcentaurmf_001,A_normal_Trialcentaurmf_001"/>
+        <Monster ID="52016" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialcentaurwl_001,A_normal_Trialcentaurwl_001"/>
+        <Monster ID="52017" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialpig_001"/>
+        <Monster ID="52018" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialmi_001"/>
+        <Monster ID="52019" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialguainiao_001"/>
+        <Monster ID="52020" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialgongniu_001"/>
+        <Monster ID="52021" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialshirouma_001,A_normal_Trialshirouma_001,A_normal_Trialshirouma_001,A_normal_Trialshirouma_001,A_normal_Trialshirouma_001"/>
+        <Monster ID="52022" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialnvwang_001"/>
+        <Monster ID="52023" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialantai_001"/>
+        <Monster ID="52024" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialgeniu_001"/>
+        <Monster ID="52025" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialgelv_001"/>
+        <Monster ID="52026" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialgelv_002"/>
+        <Monster ID="52027" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialgelv_003"/>
+        <Monster ID="52028" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialhesi_001"/>
+        <Monster ID="52029" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialhesi_002,A_normal_Trialhesi_002"/>
+        <Monster ID="52030" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialkeer_001,A_normal_Trialkeer_001"/>
+        <Monster ID="52031" Placard="0" Position="1" Range="0" NoteType="1" MonsterName="A_normal_Trialdiyu_001"/>
+        <Monster ID="53000" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ_cyclops_001"/>
+        <Monster ID="53001" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ_xerxes_001"/>
+        <Monster ID="53002" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ_dragon_004"/>
+        <Monster ID="53003" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ_dracoladon_003"/>
+        <Monster ID="53004" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ_spriggan_001,A_eliteQ_elves_001,A_eliteQ_elves_001,A_eliteQ_elves_001,A_eliteQ_elves_001"/>
+        <Monster ID="53100" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ1_cyclops_001"/>
+        <Monster ID="53101" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ1_xerxes_001"/>
+        <Monster ID="53102" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ1_dragon_004"/>
+        <Monster ID="53103" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ1_dracoladon_003"/>
+        <Monster ID="53104" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ1_spriggan_001"/>
+        <Monster ID="53200" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ2_cyclops_001"/>
+        <Monster ID="53201" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ2_xerxes_001"/>
+        <Monster ID="53202" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ2_dragon_004"/>
+        <Monster ID="53203" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ2_dracoladon_003"/>
+        <Monster ID="53204" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ2_spriggan_001"/>
+        <Monster ID="53300" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ3_cyclops_001"/>
+        <Monster ID="53301" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ3_xerxes_001"/>
+        <Monster ID="53302" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ3_dragon_004"/>
+        <Monster ID="53303" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ3_dracoladon_003"/>
+        <Monster ID="53304" Placard="1" Position="0" Range="6" NoteType="2" MonsterName="A_bossQ3_spriggan_001"/>
+        <Monster ID="54000" Placard="0" Position="0" Range="6" NoteType="2" MonsterName="A_normalY_wraith_001"/>
+        <Monster ID="54001" Placard="0" Position="0" Range="6" NoteType="2" MonsterName="A_normalS_wraith_001"/>
+        <Monster ID="54002" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normalSSa_SpartaTower_001"/>
+        <Monster ID="54003" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normalSSb_SpartaTower_001"/>
+        <Monster ID="54004" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normalSSc_SpartaTower_001"/>
+        <Monster ID="54005" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normalYYa_AthensTower_001"/>
+        <Monster ID="54006" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normalYYb_AthensTower_001"/>
+        <Monster ID="54007" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normalYYc_AthensTower_001"/>
+        <Monster ID="54008" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_boss2_TGodGC_001"/>
+        <Monster ID="54009" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_elite2_TGodGC_001"/>
+        <Monster ID="54010" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_boss3_TGodGC_001"/>
+        <Monster ID="54011" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_elite3_TRobber_003"/>
+        <Monster ID="54012" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_boss4_TGodGC_001"/>
+        <Monster ID="54013" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_elite4_TGodGC_001"/>
+        <Monster ID="54014" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_boss5_TGodGC_001"/>
+        <Monster ID="54015" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_elite5_TGodGC_001"/>
+        <Monster ID="54016" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_boss6_SwordSoul_003"/>
+        <Monster ID="54017" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normal6_SwordSoul_003"/>
+        <Monster ID="54018" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_boss7_StaffSoul_002"/>
+        <Monster ID="54019" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normal7_StaffSoul_002"/>
+        <Monster ID="54020" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_boss8_SpearSoul_001"/>
+        <Monster ID="54021" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normal8_SpearSoul_001"/>
+        <Monster ID="54022" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_boss9_TrWraith_001"/>
+        <Monster ID="54023" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normal9_TrWraith_001"/>
+        <Monster ID="54024" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_boss10_SatyrWarrior"/>
+        <Monster ID="54025" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normal10_SatyrWarrior"/>
+        <Monster ID="54026" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normal2_TRobber_008"/>
+        <Monster ID="54027" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normal3_TRobber_007"/>
+        <Monster ID="54028" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normal4_TRobber_001"/>
+        <Monster ID="54029" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normal5_TGodGC_001"/>
+        <Monster ID="54030" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normalA1_ark_003"/>
+        <Monster ID="54031" Placard="1" Position="0" Range="6" NoteType="4" MonsterName="A_bossns_FireFroggy"/>
+        <Monster ID="54032" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_bannerfqs_001_all"/>
+        <Monster ID="54033" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normal_bannermanfqs_010"/>
+        <Monster ID="54034" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_bannerfqy_001_all"/>
+        <Monster ID="54035" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normal_bannermanfqy_003"/>
+        <Monster ID="54036" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_bannerzqs_001_all"/>
+        <Monster ID="54037" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normal_bannermanzqs_004"/>
+        <Monster ID="54038" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_bannerzqy_001_all"/>
+        <Monster ID="54039" Placard="0" Position="0" Range="0" NoteType="3" MonsterName="A_normal_bannermanzqy_003"/>
+    </MonsterInfo>
+</ItemDynamicAttribute>

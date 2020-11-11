@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2009,欢乐连线工作室
+		All rights reserved
+
+		文件名称：DynamicText.xml
+		摘    要：跑马灯配置表
+
+		当前版本：1.00
+		作    者：Tavia
+		完成日期：2009-01-16 
+ 
+-->
+<UIConfig>
+  <DynamicTextWin Type="Window" ID="482000" Rectangle="212,65,812,95" Enable="0" CanHovered="0" Layer="1" OnLoad ="DynamicText_OnLoad()">
+    <Container Type="Container" Rectangle="0,0,600,30"  >
+      <Text Type="Text" Rectangle="0,0,2000,30" CanHovered="1"  Font="CONT_DynamicText_TXF" FontColor="YELLOW_TEXTCOLOR"
+			 OnUpdate="DynamicText_OnUpdate();" OnHovered="DynamicText_OnHovered()" OnLeft="DynamicText_OnLeft()" />
+    </Container>
+    
+  </DynamicTextWin>
+  <Script File="./Localization/en_us/UI/XML/DynamicTextProc.lua" Help=""/>
+</UIConfig>

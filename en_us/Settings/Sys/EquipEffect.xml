@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="GB2312"?>
+<!--this is EquipEff config-->
+<EquipEff>
+    <Eqpt LvId="0" Effect="0" Exp="9688" Fun="0"/>
+    <Eqqtlv1 LvId="101" Effect="0.01" Exp="58127" Fun="1"/>
+    <Eqqtlv2 LvId="102" Effect="0.02" Exp="174380" Fun="2"/>
+    <Eqqtlv3 LvId="103" Effect="0.03" Exp="348759" Fun="3"/>
+    <Eqqtlv4 LvId="104" Effect="0.04" Exp="581265" Fun="4"/>
+    <Eqqtlv5 LvId="105" Effect="0.05" Exp="4198026" Fun="5"/>
+    <Eqqtlv6 LvId="106" Effect="0.06" Exp="4843876" Fun="6"/>
+    <Eqqtlv7 LvId="107" Effect="0.07" Exp="5489727" Fun="7"/>
+    <Eqqtlv8 LvId="108" Effect="0.08" Exp="6458502" Fun="8"/>
+    <Eqqtlv9 LvId="109" Effect="0.09" Exp="7427277" Fun="9"/>
+    <Eqqtlv10 LvId="110" Effect="0.1" Exp="3875101" Fun="10"/>
+    <Eqbylv1 LvId="201" Effect="0.11" Exp="5649898" Fun="11"/>
+    <Eqbylv2 LvId="202" Effect="0.12" Exp="9416496" Fun="12"/>
+    <Eqbylv3 LvId="203" Effect="0.13" Exp="14647883" Fun="13"/>
+    <Eqbylv4 LvId="204" Effect="0.14" Exp="18832991" Fun="14"/>
+    <Eqbylv5 LvId="205" Effect="0.15" Exp="23018100" Fun="15"/>
+    <Eqbylv6 LvId="206" Effect="0.16" Exp="27278774" Fun="16"/>
+    <Eqbylv7 LvId="207" Effect="0.17" Exp="31475509" Fun="17"/>
+    <Eqbylv8 LvId="208" Effect="0.18" Exp="35672243" Fun="18"/>
+    <Eqbylv9 LvId="209" Effect="0.19" Exp="41967345" Fun="19"/>
+    <Eqbylv10 LvId="210" Effect="0.2" Exp="57661505" Fun="20"/>
+    <Eqhjlv1 LvId="301" Effect="0.21" Exp="61505605" Fun="21"/>
+    <Eqhjlv2 LvId="302" Effect="0.22" Exp="65349705" Fun="22"/>
+    <Eqhjlv3 LvId="303" Effect="0.23" Exp="69193805" Fun="23"/>
+    <Eqhjlv4 LvId="304" Effect="0.24" Exp="73037906" Fun="24"/>
+    <Eqhjlv5 LvId="305" Effect="0.25" Exp="76882006" Fun="25"/>
+    <Eqhjlv6 LvId="306" Effect="0.26" Exp="80726106" Fun="26"/>
+    <Eqhjlv7 LvId="307" Effect="0.27" Exp="88414306" Fun="27"/>
+    <Eqhjlv8 LvId="308" Effect="0.28" Exp="96102508" Fun="28"/>
+    <Eqhjlv9 LvId="309" Effect="0.29" Exp="100000000" Fun="29"/>
+    <Eqhjlv10 LvId="310" Effect="0.3" Exp="133833876" Fun="30"/>
+    <Eqsslv1 LvId="401" Effect="0.31" Exp="155886267" Fun="31"/>
+    <Eqsslv2 LvId="402" Effect="0.32" Exp="184272577" Fun="32"/>
+    <Eqsslv3 LvId="403" Effect="0.33" Exp="234454153" Fun="33"/>
+    <Eqsslv4 LvId="404" Effect="0.34" Exp="295435479" Fun="34"/>
+    <Eqsslv5 LvId="405" Effect="0.35" Exp="373355467" Fun="35"/>
+    <Eqsslv6 LvId="406" Effect="0.36" Exp="485358297" Fun="36"/>
+    <Eqsslv7 LvId="407" Effect="0.37" Exp="616532565" Fun="37"/>
+    <Eqsslv8 LvId="408" Effect="0.38" Exp="735697878" Fun="38"/>
+    <Eqsslv9 LvId="409" Effect="0.39" Exp="866697995" Fun="39"/>
+    <Eqsslv10 LvId="410" Effect="0.4" Exp="999999999" Fun="40"/>
+</EquipEff>

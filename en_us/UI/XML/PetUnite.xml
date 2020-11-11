@@ -1,0 +1,59 @@
+<UIConfig>
+	<PetUniteWin Template="T_NormalWindow"  Rectangle="100,50,500,440" Enable="1" Visible="1" BtnRect="335,13,372,50" BtnPos="0,80">
+		<!--合体效果加成预览-->
+	  <PetIntegrateText Type="Text" Texture="" Rectangle="45,80,345,100" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="5" SText="PETUNI_X0_1"/>
+		<!--宠物ID-->
+	  <PetID Type="Text" ID="890001" Texture="" Rectangle="45,100,345,120" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="5" Text=""/>
+		<!--生命值-->
+		<HP Type="Button" Texture="" Rectangle="25,140,66,160" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="0" SText="PETUNI_X0_2" OnHovered="PetIntegrateHov(0)" CanHovered="1" OnLeft="PetOnLeft()"/>
+	  <HPNum Type="Text" ID="890002" Texture="" Rectangle="105,140,185,160" Font="MainMap"  TextFormat="2" Text="12345"/>
+		<!--命中-->
+		<Hit Type="Text" Texture="" Rectangle="25,160,66,180" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="0" SText="PETUNI_X0_3" OnHovered="PetIntegrateHov(2)" CanHovered="1" OnLeft="PetOnLeft()"/>
+	  <HitNum Type="Text" ID="890003" Texture="" Rectangle="105,160,185,180" Font="MainMap"  TextFormat="2" Text="12345"/>
+		<!--物理攻击-->
+		<Attack Type="Text" Texture="" Rectangle="25,180,66,200" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="0" SText="PETUNI_X0_4" OnHovered="PetIntegrateHov(4)" CanHovered="1" OnLeft="PetOnLeft()"/>
+	  <AttackNum Type="Text" ID="890004" Texture="" Rectangle="105,180,185,200" Font="MainMap"  TextFormat="2" Text="12345"/>
+		<!--物伤提升-->
+		<PhyDamageAppend Type="Text" Texture="" Rectangle="25,200,66,220" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="0" SText="PETUNI_X0_5" OnHovered="PetIntegrateHov(6)" CanHovered="1" OnLeft="PetOnLeft()"/>
+	  <PhyDamageAppendNum Type="Text" ID="890005" Texture="" Rectangle="105,200,185,220" Font="MainMap"  TextFormat="2" Text="12345"/>
+		<!--物理防御-->
+		<Defend Type="Text" Texture="" Rectangle="25,220,66,240" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="0" SText="PETUNI_X0_6" OnHovered="PetIntegrateHov(8)" CanHovered="1" OnLeft="PetOnLeft()"/>
+	  <DefendNum  Type="Text" ID="890006" Texture="" Rectangle="105,220,185,240" Font="MainMap"  TextFormat="2" Text="12345"/>
+		<!--物伤减免-->
+		<PhyRecovery Type="Text" Texture="" Rectangle="25,240,66,260" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="0" SText="PETUNI_X0_7" OnHovered="PetIntegrateHov(10)" CanHovered="1" OnLeft="PetOnLeft()"/>
+	  <PhyRecoveryNum  Type="Text" ID="890007"  Texture="" Rectangle="105,240,185,260" Font="MainMap"  TextFormat="2" Text="12345"/>
+		<!--伤害吸收-->
+		<DamageSorb Type="Text" Texture="" Rectangle="25,260,66,280" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="0" SText="PETUNI_X0_8" OnHovered="PetIntegrateHov(12)" CanHovered="1" OnLeft="PetOnLeft()"/>
+	  <DamageSorbNum  Type="Text" ID="890008" Texture="" Rectangle="105,260,185,280" Font="MainMap"  TextFormat="2" Text="12345"/>
+		<!--吸取生命-->
+		<ImbibeHP Type="Text" Texture="" Rectangle="25,280,66,300" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="0" SText="PETUNI_X0_9" OnHovered="PetIntegrateHov(14)" CanHovered="1" OnLeft="PetOnLeft()"/>
+	  <ImbibeHPNum  Type="Text" ID="890009" Texture="" Rectangle="105,280,185,300" Font="MainMap"  TextFormat="2" Text="12345"/>
+		<!--魔法值-->
+	  <MP Type="Text" Texture="" Rectangle="205,140,230,160" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="0" SText="PETUNI_X0_10"  OnHovered="PetIntegrateHov(1)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+	  <MPNum Type="Text" ID="890010" Texture="" Rectangle="295,140,375,160" Font="MainMap"  TextFormat="2" Text="12345"/>
+		<!--闪避-->
+	  <Dodge Type="Text" Texture="" Rectangle="205,160,230,180" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="0" SText="PETUNI_X0_11" OnHovered="PetIntegrateHov(3)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+	  <DodgeNum Type="Text" ID="890011" Texture="" Rectangle="295,160,375,180" Font="MainMap"  TextFormat="2" Text="12345"/>
+		<!--魔法攻击-->
+	  <MagicAttack Type="Text" Texture="" Rectangle="205,180,230,200" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="0" SText="PETUNI_X0_12" OnHovered="PetIntegrateHov(5)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+	  <MagicAttackNum Type="Text" ID="890012" Texture="" Rectangle="295,180,375,200" Font="MainMap"  TextFormat="2" Text="12345"/>
+		<!--魔伤提升-->
+	  <MagicDamageAppend Type="Text" Texture="" Rectangle="205,200,230,220" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="0" SText="PETUNI_X0_13" OnHovered="PetIntegrateHov(7)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+	  <MagicDamageAppendNum Type="Text" ID="890013" Texture="" Rectangle="295,200,375,220" Font="MainMap"  TextFormat="2" Text="12345"/>
+		<!--魔法防御-->
+	  <MagicDefend  Type="Text" Texture="" Rectangle="205,220,230,240" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="0" SText="PETUNI_X0_14" OnHovered="PetIntegrateHov(9)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+	  <MagicDefendNum  Type="Text" ID="890014" Texture="" Rectangle="295,220,375,240" Font="MainMap"  TextFormat="2" Text="12345"/>
+		<!--魔伤减免-->
+	  <MagicRecovery  Type="Text" Texture="" Rectangle="205,240,230,260" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="0" SText="PETUNI_X0_15" OnHovered="PetIntegrateHov(11)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+	  <MagicRecoveryNum  Type="Text" ID="890015" Texture="" Rectangle="295,240,375,260" Font="MainMap"  TextFormat="2" Text="12345"/>
+		<!--暴伤减免-->
+	  <CritRecovery   Type="Text" Texture="" Rectangle="205,260,230,280" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="0" SText="PETUNI_X0_16" OnHovered="PetIntegrateHov(13)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+	  <CritRecoveryNum  Type="Text" ID="890016" Texture="" Rectangle="295,260,375,280" Font="MainMap"  TextFormat="2" Text="12345"/>
+		<!--伤害反弹-->
+	  <DamageRebound  Type="Text" Texture="" Rectangle="205,280,230,300" Font="MainMap" FontColor="BASE_HEADCOLOR" TextFormat="0" SText="PETUNI_X0_17" OnHovered="PetIntegrateHov(15)" CanHovered="1" OnLeft = "PetOnLeft()"/>
+	  <DamageReboundNum  Type="Text" ID="890017" Texture="" Rectangle="295,280,375,300" Font="MainMap"  TextFormat="2" Text="12345"/>
+		<!--合体效果注释-->
+		<PetSyncytialNotes Type="Text" Rectangle="29,300,368,332" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" ID="-1" SText="PETUNI_X0_18" TextFormat="16" />
+	</PetUniteWin>
+	<Script File="./Localization/en_us/UI/XML/PetDetailProc.lua"/>
+</UIConfig>

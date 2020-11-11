@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="GB2312"?>
+
+<skill>
+
+ <skill1 Name="Light Chop"  Job="0" Kind="20010" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="0,108"/>
+ <skill2 Name="Whirlwind" Job="0" Kind="20001" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="36,108"/>
+ <skill3 Name="Flash Chop" Job="0" Kind="20002" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="72,108"/>
+ <skill4 Name="Sword Storm" Job="0" Kind="10003" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="108,108"/>
+ <skill5 Name="Steel Rain" Job="0" Kind="10004" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="144,108"/>
+ <skill6 Name="Blood Claw" Job="0" Kind="10005" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="180,108"/>
+ <skill7 Name="Rage Claw" Job="0" Kind="10006" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="216,108"/>
+ 
+ <skill8 Name="Jab" Job="1" Kind="10025" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="324,108"/>
+ <skill9 Name="Holy Jab" Job="1" Kind="10026" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="360,108"/>
+ <skill10 Name="Stab" Job="1" Kind="10027" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="396,108"/>
+ <skill11 Name="Rage Spear" Job="1" Kind="20028" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="432,108"/>
+ <skill12 Name="Spear Hit" Job="1" Kind="20029" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="468,108"/>
+ <skill13 Name="Ruined Strike" Job="1" Kind="10030" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="504,108"/>
+ <skill14 Name="Chip Blast" Job="1" Kind="10031" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="540,108"/>
+ <skill15 Name="Spear Blast" Job="1" Kind="20032" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="576,108"/>
+ <skill16 Name="Meteor Blast" Job="1" Kind="20033" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="612,108"/>
+ 
+ <skill17 Name="Fireball" Job="3" Kind="10050" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="0,72"/>
+ <skill18 Name="Lightball" Job="3" Kind="10051" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="72,72"/>
+ <skill19 Name="Lightblade" Job="3" Kind="10052" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="108,72"/>
+ <skill20 Name="Thunder" Job="3" Kind="20053" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="216,72"/>
+ <skill21 Name="Fire Lotus" Job="3" Kind="20054" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="252,72"/>
+ <skill22 Name="Star Shower" Job="3" Kind="20055" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="756,72"/>
+ <skill23 Name="Thundercloud" Job="3" Kind="20056" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="864,72"/>
+ <skill24 Name="Flame Blast" Job="3" Kind="10057" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="684,72"/>
+ <skill25 Name="Fire Blast" Job="3" Kind="20058" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="720,72"/>
+ 
+ <skill26 Name="Ice Shot" Job="2" Kind="10080" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="36,72"/>
+ <skill27 Name="Windblade" Job="2" Kind="10081" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="144,72"/>
+ <skill28 Name="Ice Cone" Job="2" Kind="20082" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="180,72"/>
+ <skill29 Name="Dripstone" Job="2" Kind="20083" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="288,72"/>
+ <skill30 Name="Holy Light" Job="2" Kind="20084" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="324,72"/>
+ <skill31 Name="Stalagmite" Job="2" Kind="10085" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="612,108"/>
+ <skill32 Name="Ternary Curse" Job="2" Kind="10086" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="828,72"/>
+ 
+</skill>
+
+
+

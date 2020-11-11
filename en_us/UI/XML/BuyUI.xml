@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+	<BuyUI Template="T_SimpleWindow" Rectangle="0,0,214,197" BtnPos="454,693" BtnRect="182,10,205,34" Enable="1" Visible="0" >    
+		<Sale Type="Text" Rectangle="21,38,31,48" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="BY_XO_1" TextFormat="5" Visible="1" />    
+		<Price Type="Text" Rectangle="135,37,145,47" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="BY_XO_2" TextFormat="5" Visible="1" />    
+		<Item0Back Type="Text" Rectangle="22,65,64,107" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="321,962" />    
+		<Item0 Template="T_SkillButton" Rectangle="22,65,64,107" BtnTopPos="982,982" BtnTopRect="3,3,39,39" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" TextOffset="3,3,0,0" />    
+		<EditNameMid1 Type="Text" Rectangle="137,91,138,120" OnScaleX="32" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="137,173" />    
+		<EditNameLeft1 Type="Text" Rectangle="130,91,137,120" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="131,173" />    
+		<EditNameRight1 Type="Text" Rectangle="169,91,176,120" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="138,173" />    
+		<Edit1 Template="T_ChatEdit" Rectangle="133,91,173,120" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" MaxText="16" Number="1" ResponseMouse="1" Right="0" Text="123" TextOffset="6,2,0,0" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" />    
+		<price0 Type="Text" Rectangle="109,55,173,74" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="12345678" TextFormat="6" Visible="1" />    
+		<money0 Type="Text" Rectangle="180,57,195,71" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+		<bijou0 Type="Text" Rectangle="180,57,195,71" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+		<X Type="Text" Rectangle="147,76,157,86" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="x" TextFormat="5" Visible="1" />   
+		<res Type="Text" Rectangle="147,121,157,131" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="=" TextFormat="5" Visible="1" /> 
+		<Want Type="Text" Rectangle="91,100,101,110" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="BY_XO_3" TextFormat="5" Visible="1" />    
+		<num Type="Text" Rectangle="180,101,190,111" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="BY_XO_4" TextFormat="5" Visible="1" />    
+		<EndPrice Type="Text" Rectangle="24,136,34,146" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="BY_XO_5" TextFormat="5" Visible="1" />    
+		<price1 Type="Text" Rectangle="105,132,169,151" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="12345678" TextFormat="6" Visible="1" />    
+		<money1 Type="Text" Rectangle="180,134,195,148" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+		<bijou1 Type="Text" Rectangle="180,134,195,148" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+		<Buy Template="T_Button2" Rectangle="115,153,175,180" Font="MainMap" SText="BY_XO_6" />    
+	</BuyUI>    
+</UIConfig>

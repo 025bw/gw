@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+	<ShowSellUI Template="T_NormalWindow" ID="340000" Rectangle="30,30,450,513" Enable="0" Visible="0" BtnRect="353,13,390,50" BtnPos="0,80" OnClose="StallBuyUIClose()"  >
+	    <EditNameMid0 Type="Text" Rectangle="242,76,243,105" OnScaleX="120" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="137,173" />    
+	    <EditNameLeft0 Type="Text" Rectangle="235,76,242,105" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="131,173" />    
+	    <EditNameRight0 Type="Text" Rectangle="362,76,369,105" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="138,173" />    
+	    <Edit0 Template="T_ChatEdit" ID="340001" Rectangle="235,76,369,105" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" MaxText="16" Number="0" ResponseMouse="0" Right="0" Text="" TextOffset="6,2,0,0" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" />    
+		
+			<MyQuests Type="Text" Rectangle="42,84,103,107" Font="MainMap" SText="SBU_XO_1" TextFormat="5" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="244,450" />
+	        <BoothShowWin Template="T_BgWindow" Rectangle="23,107,397,433" Enable="0" Visible="1" >
+		
+	            <ShowWin1 Template="T_BgWindow" Rectangle="4,4,93,81" Enable="0" Visible="1" >
+	                <Item0Back Type="Text" Rectangle="23,6,65,48" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="321,962" />    
+					<Item0 Template="T_NormalCheckBox" ID="340060" Rectangle="23,6,65,48" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" TextFormat="10"/>    
+	                <money0 Type="Text" ID="340020" Rectangle="69,55,84,69" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+	                <bijou0 Type="Text" ID="340040" Rectangle="70,56,85,70" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+	                <price0 Type="Text" ID="340080" Rectangle="14,53,69,72" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="6" Visible="1" />    
+				</ShowWin1>    
+			
+	            <ShowWin2 Template="T_BgWindow" Rectangle="96,4,185,81" Enable="0" Visible="1" >
+	                <Item0Back Type="Text" Rectangle="23,6,65,48" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="321,962" />    
+					<Item0 Template="T_NormalCheckBox" ID="340061" Rectangle="23,6,65,48" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" TextFormat="10"/>   
+	                <money0 Type="Text" ID="340021" Rectangle="69,55,84,69" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+	                <bijou0 Type="Text" ID="340041" Rectangle="70,56,85,70" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+	                <price0 Type="Text" ID="340081" Rectangle="14,53,69,72" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="6" Visible="1" />    
+				</ShowWin2>    
+			    
+	            <ShowWin3 Template="T_BgWindow" Rectangle="188,4,277,81" Enable="0" Visible="1" >
+	                <Item0Back Type="Text" Rectangle="23,6,65,48" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="321,962" />    
+					<Item0 Template="T_NormalCheckBox" ID="340062" Rectangle="23,6,65,48" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" TextFormat="10"/>    
+	                <money0 Type="Text" ID="340022" Rectangle="69,55,84,69" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+	                <bijou0 Type="Text" ID="340042" Rectangle="70,56,85,70" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+	                <price0 Type="Text" ID="340082" Rectangle="14,53,69,72" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="6" Visible="1" />    
+				</ShowWin3>    
+			
+	            <ShowWin4 Template="T_BgWindow" Rectangle="280,4,369,81" Enable="0" Visible="1" >
+	                <Item0Back Type="Text" Rectangle="23,6,65,48" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="321,962" />    
+					<Item0 Template="T_NormalCheckBox" ID="340063" Rectangle="23,6,65,48" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" TextFormat="10"/>    
+	                <money0 Type="Text" ID="340023" Rectangle="69,55,84,69" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+	                <bijou0 Type="Text" ID="340043" Rectangle="70,56,85,70" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+	                <price0 Type="Text" ID="340083" Rectangle="14,53,69,72" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="6" Visible="1" />    
+				</ShowWin4>    
+			
+	            <ShowWin5 Template="T_BgWindow" Rectangle="4,84,93,161" Enable="0" Visible="1" >
+	                <Item0Back Type="Text" Rectangle="23,6,65,48" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="321,962" />    
+					<Item0 Template="T_NormalCheckBox" ID="340064" Rectangle="23,6,65,48" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" TextFormat="10"/>    
+	                <money0 Type="Text" ID="340024" Rectangle="69,55,84,69" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+	                <bijou0 Type="Text" ID="340044" Rectangle="70,56,85,70" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+	                <price0 Type="Text" ID="340084" Rectangle="14,53,69,72" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="6" Visible="1" />    
+				</ShowWin5>    
+			
+	            <ShowWin6 Template="T_BgWindow" Rectangle="96,84,185,161" Enable="0" Visible="1" >
+	                <Item0Back Type="Text" Rectangle="23,6,65,48" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="321,962" />    
+					<Item0 Template="T_NormalCheckBox" ID="340065" Rectangle="23,6,65,48" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" TextFormat="10"/>    
+	                <money0 Type="Text" ID="340025" Rectangle="69,55,84,69" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+	                <bijou0 Type="Text" ID="340045" Rectangle="70,56,85,70" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+	                <price0 Type="Text" ID="340085" Rectangle="14,53,69,72" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="6" Visible="1" />    
+				</ShowWin6>    
+			
+	            <ShowWin7 Template="T_BgWindow" Rectangle="188,84,277,161" Enable="0" Visible="1" >
+	                <Item0Back Type="Text" Rectangle="23,6,65,48" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="321,962" />    
+					<Item0 Template="T_NormalCheckBox" ID="340066" Rectangle="23,6,65,48" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" TextFormat="10"/>    
+	                <money0 Type="Text" ID="340026" Rectangle="69,55,84,69" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+	                <bijou0 Type="Text" ID="340046" Rectangle="70,56,85,70" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+	                <price0 Type="Text" ID="340086" Rectangle="14,53,69,72" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="6" Visible="1" />    
+				</ShowWin7>    
+			
+	            <ShowWin8 Template="T_BgWindow" Rectangle="280,84,369,161" Enable="0" Visible="1" >
+	                <Item0Back Type="Text" Rectangle="23,6,65,48" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="321,962" />    
+					<Item0 Template="T_NormalCheckBox" ID="340067" Rectangle="23,6,65,48" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" TextFormat="10"/>    
+	                <money0 Type="Text" ID="340027" Rectangle="69,55,84,69" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+	                <bijou0 Type="Text" ID="340047" Rectangle="70,56,85,70" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+	                <price0 Type="Text" ID="340087" Rectangle="14,53,69,72" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="6" Visible="1" />    
+				</ShowWin8>    
+			
+	            <ShowWin9 Template="T_BgWindow" Rectangle="4,164,93,241" Enable="0" Visible="1" >
+	                <Item0Back Type="Text" Rectangle="23,6,65,48" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="321,962" />    
+					<Item0 Template="T_NormalCheckBox" ID="340068" Rectangle="23,6,65,48" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" TextFormat="10"/>    
+	                <money0 Type="Text" ID="340028" Rectangle="69,55,84,69" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+	                <bijou0 Type="Text" ID="340048" Rectangle="70,56,85,70" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+	                <price0 Type="Text" ID="340088" Rectangle="14,53,69,72" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="6" Visible="1" />    
+				</ShowWin9>    
+			
+	            <ShowWin10 Template="T_BgWindow" Rectangle="96,164,185,241" Enable="0" Visible="1" >
+	                <Item0Back Type="Text" Rectangle="23,6,65,48" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="321,962" />    
+					<Item0 Template="T_NormalCheckBox" ID="340069" Rectangle="23,6,65,48" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" TextFormat="10"/>    
+	                <money0 Type="Text" ID="340029" Rectangle="69,55,84,69" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+	                <bijou0 Type="Text" ID="340049" Rectangle="70,56,85,70" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+	                <price0 Type="Text" ID="340089" Rectangle="14,53,69,72" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="6" Visible="1" />    
+				</ShowWin10>    
+			
+	            <ShowWin11 Template="T_BgWindow" Rectangle="188,164,277,241" Enable="0" Visible="1" >
+	                <Item0Back Type="Text" Rectangle="23,6,65,48" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="321,962" />    
+					<Item0 Template="T_NormalCheckBox" ID="340070" Rectangle="23,6,65,48" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" TextFormat="10"/>    
+	                <money0 Type="Text" ID="340030" Rectangle="69,55,84,69" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+	                <bijou0 Type="Text" ID="340050" Rectangle="70,56,85,70" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+	                <price0 Type="Text" ID="340090" Rectangle="14,53,69,72" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="6" Visible="1" />    
+				</ShowWin11>   
+			
+	            <ShowWin12 Template="T_BgWindow" Rectangle="280,164,369,241" Enable="0" Visible="1" >
+	                <Item0Back Type="Text" Rectangle="23,6,65,48" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="321,962" />    
+					<Item0 Template="T_NormalCheckBox" ID="340071" Rectangle="23,6,65,48" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" TextFormat="10"/>    
+	                <money0 Type="Text" ID="340031" Rectangle="69,55,84,69" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+	                <bijou0 Type="Text" ID="340051" Rectangle="70,56,85,70" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+	                <price0 Type="Text" ID="340091" Rectangle="14,53,69,72" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="6" Visible="1" />    
+				</ShowWin12>    
+			
+	            <ShowWin13 Template="T_BgWindow" Rectangle="4,244,93,321" Enable="0" Visible="1" >
+	                <Item0Back Type="Text" Rectangle="23,6,65,48" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="321,962" />    
+					<Item0 Template="T_NormalCheckBox" ID="340072" Rectangle="23,6,65,48" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" TextFormat="10"/>    
+	                <money0 Type="Text" ID="340032" Rectangle="69,55,84,69" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+	                <bijou0 Type="Text" ID="340052" Rectangle="70,56,85,70" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+	                <price0 Type="Text" ID="340092" Rectangle="14,53,69,72" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="6" Visible="1" />    
+				</ShowWin13>    
+			
+	            <ShowWin14 Template="T_BgWindow" Rectangle="96,244,185,321" Enable="0" Visible="1" >
+	                <Item0Back Type="Text" Rectangle="23,6,65,48" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="321,962" />    
+					<Item0 Template="T_NormalCheckBox" ID="340073" Rectangle="23,6,65,48" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" TextFormat="10"/>    
+	                <money0 Type="Text" ID="340033" Rectangle="69,55,84,69" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+	                <bijou0 Type="Text" ID="340053" Rectangle="70,56,85,70" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+	                <price0 Type="Text" ID="340093" Rectangle="14,53,69,72" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="6" Visible="1" />    
+				</ShowWin14>    
+			
+	            <ShowWin15 Template="T_BgWindow" Rectangle="188,244,277,321" Enable="0" Visible="1" >
+	                <Item0Back Type="Text" Rectangle="23,6,65,48" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="321,962" />    
+					<Item0 Template="T_NormalCheckBox" ID="340074" Rectangle="23,6,65,48" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" TextFormat="10"/>    
+	                <money0 Type="Text" ID="340034" Rectangle="69,55,84,69" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+	                <bijou0 Type="Text" ID="340054" Rectangle="70,56,85,70" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+	                <price0 Type="Text" ID="340094" Rectangle="14,53,69,72" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="6" Visible="1" />    
+				</ShowWin15>    
+			
+	            <ShowWin16 Template="T_BgWindow" Rectangle="280,244,369,321" Enable="0" Visible="1" >
+	                <Item0Back Type="Text" Rectangle="23,6,65,48" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="321,962" />    
+					<Item0 Template="T_NormalCheckBox" ID="340075" Rectangle="23,6,65,48" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" TextFormat="10"/>    
+	                <money0 Type="Text" ID="340035" Rectangle="69,55,84,69" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+	                <bijou0 Type="Text" ID="340055" Rectangle="70,56,85,70" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+	                <price0 Type="Text" ID="340095" Rectangle="14,53,69,72" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="6" Visible="1" />    
+				</ShowWin16>    
+			</BoothShowWin>    
+		    
+		<HoldMoney Type="Text" Rectangle="31,440,75,465" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="SBU_XO_2" TextFormat="5" Visible="1" />    
+		<EditNameMid1 Type="Text" Rectangle="213,438,214,467" OnScaleX="74" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="137,173" />    
+		<EditNameLeft1 Type="Text" Rectangle="206,438,213,467" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="131,173" />    
+		<EditNameRight1 Type="Text" Rectangle="287,438,294,467" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="138,173" />    
+		<Edit1 Template="T_ChatEdit" Rectangle="209,437,292,466" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" MaxText="16" Number="0" ResponseMouse="0" Right="0" Text="" TextOffset="6,2,0,0" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" />    
+		<money Type="Text" Rectangle="297,446,312,460" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="57,213" />    
+		<EditNameMid2 Type="Text" Rectangle="89,438,90,467" OnScaleX="74" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="137,173" />    
+		<EditNameLeft2 Type="Text" Rectangle="82,438,89,467" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="131,173" />    
+		<EditNameRight2 Type="Text" Rectangle="163,438,170,467" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="138,173" />    
+		<Edit2 Template="T_ChatEdit" Rectangle="84,437,167,466" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" MaxText="16" Number="0" ResponseMouse="0" Right="0" Text="" TextOffset="6,2,0,0" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" />    
+		<bijou Type="Text" Rectangle="172,446,187,460" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="241,226" />    
+		<Start Template="T_Button2" ID="340004" Rectangle="322,438,382,465" Font="MainMap" SText="SBU_XO_3" />    
+	    <BoothName Type="Text" Rectangle="140,76,179,104" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="SBU_XO_4" TextFormat="5" Visible="1" />    
+	</ShowSellUI>    
+</UIConfig>

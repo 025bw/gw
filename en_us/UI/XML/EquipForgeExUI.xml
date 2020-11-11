@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2008,欢乐连线工作室
+		All rights reserved
+
+		文件名称：
+		摘    要：装备合成框
+
+		当前版本：1.00
+		作    者：赖滔
+		完成日期：2008-03-18  
+ 
+-->
+<UIConfig>
+ <!--背景-->
+ <EquipForge Template="T_NormalWindow" ID="370000" Modal="0" Rectangle="300,188,650,770" BtnRect="283,13,321,50" BtnPos="0,80" UseEsc="1">
+    
+   <!--装备字-->
+   <EquipText Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="225,402" Text="" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   
+   <!--成功机率-->
+   <ProText Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_1" Font="MainFonts" TextFormat="5"/>
+   <!--成功%-->
+   <ProText2 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" Text="%" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   <!--成功机率值-->
+   <ProVText Type="Text" Rectangle="136,69,289,103" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" Text="" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+
+   <!--打造失败无惩罚-->
+    <NoLoseText Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+
+   <!--打造说明-->
+   <MaterialText Type="Text" Rectangle="2,337,90,367" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_3" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+  
+   <!--打造的说明.....-->
+   <ReadmeText1 Type="Text" Rectangle="30,377,310,401" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_4" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+   <!--打造的说明.....-->
+   <ReadmeText2 Type="Text" Rectangle="30,397,310,421" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_5" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+   <!--打造的说明.....-->
+   <ReadmeText3 Type="Text" Rectangle="30,437,310,461" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_6" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+   <!--打造的说明.....-->
+   <ReadmeText4 Type="Text" Rectangle="30,477,310,501" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_7" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+   <!--打造的说明.....-->
+   <ReadmeText5 Type="Text" Rectangle="30,507,310,531" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_8" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+   <!--打造的说明.....-->
+   <ReadmeText6 Type="Text" Rectangle="30,477,260,501" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" Text=" " Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0"/>
+   
+   <!--宝石合成说明.....-->
+   <ReadmeText7 Type="Text" Rectangle="30,377,278,401" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_9" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+   <!--宝石合成说明.....-->
+   <ReadmeText8 Type="Text" Rectangle="30,417,275,421" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_10" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+   <!--宝石合成说明.....-->
+   <ReadmeText9 Type="Text" Rectangle="30,457,275,461" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_11" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+   <!--宝石合成说明.....-->
+   <ReadmeText10 Type="Text" Rectangle="30,487,275,501" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_12" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0"/>
+   <!--宝石合成说明.....-->
+   <ReadmeText11 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0"/>
+   <!--宝石合成说明.....-->
+   <ReadmeText12 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0"/>
+
+   <!--装备合成说明.....-->
+   <ReadmeText13 Type="Text" Rectangle="30,372,310,446" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_15" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+   <!--装备合成说明.....-->
+   <ReadmeText14 Type="Text" Rectangle="30,420,310,479" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_16" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+   <!--装备合成说明.....-->
+   <ReadmeText15 Type="Text" Rectangle="30,450,310,504" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_17" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+   <!--装备合成说明.....--> 
+   <ReadmeText16 Type="Text" Rectangle="30,437,260,461" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" Text=""  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0" Visible="0"/>
+   <!--装备合成说明.....-->
+   <ReadmeText17 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0"/>
+   <!--装备合成说明.....-->
+   <ReadmeText18 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0"/>
+   
+   <!--装备更换说明.....-->
+   <ReadmeText19 Type="Text" Rectangle="30,377,320,425" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_38" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+   <!--装备更换说明.....-->
+   <ReadmeText20 Type="Text" Rectangle="30,423,320,471" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_39" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+   <!--装备更换说明.....-->
+   <ReadmeText21 Type="Text" Rectangle="30,463,320,487" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_40" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+   <!--装备更换说明.....-->
+   <ReadmeText22 Type="Text" Rectangle="30,493,320,515" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_41" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16"/>
+   <!--装备更换说明.....-->
+   <ReadmeText23 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0"/>
+   <!--装备更换说明.....-->
+   <ReadmeText24 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="0"/>
+
+
+   <!--合成提示-->
+   <Rt1 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="323,200" SText="EF_X0_21" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   <Rt2 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="323,200" SText="EF_X0_22" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   <Rt3 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="323,200" SText="EF_X0_23" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   <Rt4 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="323,200" SText="EF_X0_24" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   <Rt5 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="323,200" SText="EF_X0_25" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   <Rt6 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="323,200" SText="EF_X0_26" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   <Rt7 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="323,200" SText="EF_X0_27" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   <Rt8 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="323,200" Text="Refined equipment" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   <Rt9 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="323,200" Text="Combined materials" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   <Rt10 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="323,200" Text="Combined equipment" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   
+   <!--装备更换提示-->
+   <RepRd1 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="323,200" Text="Insert replacement " Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   <RepRd2 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="323,200" Text="Insert Level 3 Amethyst" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   <RepRd3 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="323,200" Text="Preview" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   <RepRd4 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="323,200" Text="Equiped " Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   <!--合成提示-->
+   <!--Error1 Type="Text" Rectangle="0,69,153,103" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="313,200" Text="条件提示提示1" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/-->
+   <!--Error1a Type="Text" Rectangle="0,89,153,123" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="313,200" Text="条件提示提示2" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/-->
+   
+   <!--打造成本:-->
+   <GoldText Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_28" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   <!--成本数值-->
+   <GoldVText Type="Text" Rectangle="145,306,295,340" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" Text="" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   <!--银币-->
+   <GoldNText Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="EF_X0_29" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+
+   <!--圆图-->
+   <ForgeText Type="Text" Rectangle="45,67,164,190" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="315,76" Visible="0"/>
+
+   <!--帮助-->
+   <Help Type="Button" ID="370001" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="178,431"/>
+
+   <!--装备按钮背景-->
+   <EquipBk Type="Text" Rectangle="0,0,0,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="42,671"/>
+   <!--装备按钮图示-->
+   <Equip Type="Button" ID="370002" Rectangle="0,0,0,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="983,983" BtnTopRect="3,3,39,39"/>
+
+   <!--素材按钮背景-->
+   <EquipBk Type="Text" Rectangle="0,0,0,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="42,671"/>
+   <!--素材按钮图示-->
+   <Material Type="Button" ID="370003" Rectangle="0,0,0,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="983,983" BtnTopRect="3,3,39,39"/>
+
+    <!--空最终合成图?号图-->
+   <Unknowbk Type="Text" Rectangle="156,189,193,226" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024"/>
+   <!--ok最终合成图-->
+   <UnknowItem Type="Text" ID="370004" Rectangle="1024,1024,1100,1100" Texture="./Localization/en_us/UI/Texture/icon.gwo" TexturePos="983,983"/>
+
+   <!--3个包表-->
+   <Bags Type="TabBar" ID="110040" Rectangle="42,76,43,76" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="592,31">
+     <Bag0 Type="Tab" Rectangle="11,-28,71,-5" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="244,450"  Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" SText="EF_X0_30">
+       <!--按钮-->
+       <Item0 Type="Button" ID="310100" Rectangle="200,21,242,63" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       <Item1 Type="Button" ID="310101" Rectangle="200,73,242,115" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       <Item2 Type="Button" ID="310102" Rectangle="200,65,242,107" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Visible="0" Text=""/>
+       <Item3 Type="Button" ID="310103" Rectangle="200,117,242,159" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Visible="0" Text=""/>
+       <Item4 Type="Button" ID="310104" Rectangle="200,117,242,159" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Visible="0" Text=""/>
+       <Item5 Type="Button" ID="310105" Rectangle="200,127,242,169" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="10"/>
+       <Item6 Type="Button" ID="310106" Rectangle="200,179,242,220" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       
+       <Item0Text Type="Text" Rectangle="10,21,180,63"  TexturePos="1024,1024" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16" SText="EF_X0_46"/>
+       <Item1Text Type="Text" Rectangle="10,73,180,115"  TexturePos="1024,1024" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16" SText="EF_X0_47"/>
+       <Item5Text Type="Text" Rectangle="10,127,180,169"  TexturePos="1024,1024" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16" SText="EF_X0_48"/>
+       <Item6Text Type="Text" Rectangle="10,181,180,222"  TexturePos="1024,1024" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16" SText="EF_X0_49"/>
+         
+       
+     </Bag0>
+     <Bag1 Type="Tab" Rectangle="74,-28,134,-5" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="244,450"   Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" SText="EF_X0_31">
+       <!--按钮-->
+       <Item0 Type="Button" ID="310107" Rectangle="34,41,76,83" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       <Item1 Type="Button" ID="310108" Rectangle="110,41,152,83" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       <Item2 Type="Button" ID="310109" Rectangle="190,41,232,83" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       <Item3 Type="Button" ID="310110" Rectangle="34,108,76,150" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       <Item4 Type="Button" ID="310111" Rectangle="190,108,232,150" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       <Item5 Type="Button" ID="310112" Rectangle="110,108,152,150" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       <Item6 Type="Button" ID="310113" Rectangle="110,191,152,233" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+     
+        <UpText Type="Text" Rectangle="44,4,200,44"  TexturePos="1024,1024" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" SText="EF_X0_50"/>
+        <DownText Type="Text" Rectangle="49,163,205,173"  TexturePos="1024,1024" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" SText="EF_X0_51"/>
+     
+      
+     </Bag1>
+     
+     <Bag2 Type="Tab" Rectangle="136,-28,197,-5" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="244,450"   Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"  SText="EF_X0_32">
+       <!--按钮-->
+       <Item0 Type="Button" ID="310114" Rectangle="111,31,153,73" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       <Item1 Type="Button" ID="310115" Rectangle="34,65,76,107" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       <Item2 Type="Button" ID="310116" Rectangle="190,65,232,107" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       <Item3 Type="Button" ID="310117" Rectangle="34,108,76,150" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       <Item4 Type="Button" ID="310118" Rectangle="190,108,232,150" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       <Item5 Type="Button" ID="310119" Rectangle="110,108,152,150" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       <Item6 Type="Button" ID="310120" Rectangle="110,191,152,233" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       
+       <UpText Type="Text" Rectangle="44,0,200,40"  TexturePos="1024,1024" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" SText="EF_X0_52"/>
+       <MidText Type="Text" Rectangle="30,80,186,90"  TexturePos="1024,1024" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" SText="EF_X0_53"/>
+       <DownText Type="Text" Rectangle="49,160,205,170"  TexturePos="1024,1024" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" SText="EF_X0_54"/>
+     </Bag2>
+     <Bag3 Type="Tab" Rectangle="198,-28,259,-5" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="244,450"   Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"  SText="EF_X0_42">
+       <!--按钮-->
+       <Item0 Type="Button" ID="310121" Rectangle="190,15,232,57" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       <Item1 Type="Button" ID="310122" Rectangle="190,68,232,110" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       <Item2 Type="Button" ID="310123" Rectangle="190,148,232,190" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+
+       <!--更换后的物品图标-->
+       <Item3 Type="Button" ID="310124" Rectangle="190,201,232,243" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""/>
+       
+        
+       <Item0Text Type="Text" Rectangle="10,15,180,57"  TexturePos="1024,1024" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16" SText="EF_X0_55"/>
+       <Item1Text Type="Text" Rectangle="10,68,180,110"  TexturePos="1024,1024" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16" SText="EF_X0_56"/>
+       <Item2Text Type="Text" Rectangle="10,120,180,147"  TexturePos="1024,1024" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16" SText="EF_X0_57"/>
+       <Item3Text Type="Text" Rectangle="10,158,180,200"  TexturePos="1024,1024" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16" SText="EF_X0_58"/>       
+       <Item4Text Type="Text" Rectangle="10,201,180,243"  TexturePos="1024,1024" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextFormat="16" SText="EF_X0_59"/> 
+       <!--点击更换-->
+       <RepSelBt Type="Button" ID="310125" Rectangle="181,117,249,144" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="197,81" SText="EF_X0_44" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+       <!--确认更换-->
+       <RepTrueBt Type="Button" ID="310126" Rectangle="151,462,219,489" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="197,81" SText="EF_X0_45" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+     </Bag3>
+   </Bags>
+   
+   <!--tabbar点-->
+   <Tp1 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="161,179" Rectangle="106,67,122,73" Text=""/>
+   <Tp1 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="161,179" Rectangle="169,67,185,73" Text=""/>
+   <Tp1 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="161,179" Rectangle="232,67,248,73" Text=""/>
+   
+   <!--中间分隔条左手方-->
+   <MIDdle Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="146,174" Rectangle="14,334,28,347" Text=""/>
+   <!--中间分隔条中间缩放-->
+   <MIDdle2 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="151,173" Rectangle="28,333,29,346" Text=""/>
+   <!--中间分隔条右手方-->
+   <MIDdle3 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="146,189" Rectangle="321,334,337,347" Text=""/>
+
+   <!--说明框-->
+   <BackWin Template="T_BgWindow" ID="-1" Rectangle="26,366,325,528" />
+
+   <!--alpha背景-->
+   <CounterBkText7 Type="Text" Rectangle="0,0,1,1" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="119,207" />
+
+   <!--装备打造按钮-->
+   <Forge1 Type="Button" ID="370005" Rectangle="194,538,262,565" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="197,81" SText="EF_X0_33" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+
+   <!--宝石 装备合成按钮-->
+   <Forge2 Type="Button" ID="370006" Rectangle="194,538,262,565" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="197,81" SText="EF_X0_34" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   
+   <!--填满宝石-->
+    <Forge Type="Button" ID="370007" Rectangle="126,538,194,565" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="197,81" SText="EF_X0_35" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+   
+    <!--撤下物品-->
+    <ResetForge Type="Button" ID="370008" Rectangle="262,538,330,565" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="197,81" SText="EF_X0_36" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+
+ </EquipForge>
+  
+</UIConfig>

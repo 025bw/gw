@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--this is Consortia config-->
+<Consortia>
+    <BuildInfo>
+        <BuildID1 ID="1" Name="Guild Footstone" ImagePos="504,360" Description="A guild is based on the guild footstone and the guild level must be in accordance with the footstone level, so before upgrading other guild buildings, the footstone must be upgraded."/>
+        <BuildID2 ID="2" Name="Common Guild Warehouse" ImagePos="540,360" Description="Guild property can be deposited in the Common Guild Warehouse. With the upgrade of the warehouse, its capacity will be also extended."/>
+        <BuildID3 ID="3" Name="Super Guild Warehouse" ImagePos="576,360" Description="The Super Guild Warehouse can keep guild property with its great capacity."/>
+        <BuildID4 ID="4" Name="Common Tent" ImagePos="648,360" Description="Coarse cloth tent. When it hits a new level, the maximum member of your guild increases by 1."/>
+        <BuildID5 ID="5" Name="Senior House" ImagePos="684,360" Description="Delicately decorated house. When it hits a new level, the maximum member of your guild increases by 1."/>
+        <BuildID6 ID="6" Name="Luxurious House" ImagePos="720,360" Description="Wide and bright luxurious mansion. When it hits a new level, the maximum member of your guild increases by 1."/>
+        <BuildID7 ID="10" Name="Apollo" ImagePos="720,396" Description="Apollo can help you increase your maximum MP"/>
+        <BuildID8 ID="11" Name="Demeter" ImagePos="756,396" Description="Demeter can help you improve your HP restoration ability"/>
+        <BuildID9 ID="12" Name="Hermes" ImagePos="864,396" Description="Hermes can help you increase your maximum HP"/>
+        <BuildID10 ID="13" Name="Hephaestus" ImagePos="792,396" Description="Hephaestus can help you improve your physical attack"/>
+        <BuildID11 ID="14" Name="Hades" ImagePos="648,396" Description="Hades can help you increase your hit rate"/>
+        <BuildID12 ID="15" Name="Dionysus" ImagePos="972,396" Description="Dionysus can help you improve your physical defense"/>
+        <BuildID13 ID="16" Name="Aphrodite" ImagePos="900,396" Description="Aphrodite can help you improve your magic defense"/>
+        <BuildID14 ID="17" Name="Hestia" ImagePos="828,396" Description="Hestia can help you improve your damage absorption ability"/>
+        <BuildID15 ID="18" Name="Poseidon" ImagePos="612,396" Description="Poseidon can help you improve your magic attack"/>
+        <BuildID16 ID="19" Name="Artemis" ImagePos="936,396" Description="Artemis can help you increase your dodge rate"/>
+        <BuildID17 ID="30" Name="God Altar" ImagePos="828,360" Description="After creating a God Altar, you can build more advanced altars. The God Altar can protect all guild members and improve their abilities."/>
+    </BuildInfo>
+    <CorsortiaDefaultValue>
+        <Default_Member ID="0" Value="100"/>
+        <Default_MaxMember ID="1" Value="10000"/>
+        <Default_MaxAltar ID="2" Value="100"/>
+        <Default_Money ID="3" Value="1000"/>
+        <Default_MaxMoney ID="4" Value="900000000"/>
+        <Default_Bijou ID="5" Value="10"/>
+        <Default_MaxBijou ID="6" Value="90000000"/>
+        <Default_MaxContribute ID="7" Value="900000"/>
+        <Default_b ID="8" Value="0"/>
+        <Default_d ID="9" Value="100000"/>
+        <Default_MaxFactor ID="10" Value="1.5"/>
+    </CorsortiaDefaultValue>
+    <ConsortiaLevelUp>
+        <level1 Clevel="1" found="0" bijou="0"/>
+        <level2 Clevel="2" found="10000" bijou="100"/>
+        <level3 Clevel="3" found="25000" bijou="250"/>
+        <level4 Clevel="4" found="40000" bijou="400"/>
+        <level5 Clevel="5" found="60000" bijou="600"/>
+        <level6 Clevel="6" found="100000" bijou="1000"/>
+        <level7 Clevel="7" found="160000" bijou="1600"/>
+        <level8 Clevel="8" found="250000" bijou="2500"/>
+        <level9 Clevel="9" found="400000" bijou="4000"/>
+        <level10 Clevel="10" found="700000" bijou="7000"/>
+        <level11 Clevel="11" found="1200000" bijou="12000"/>
+        <level12 Clevel="12" found="2000000" bijou="20000"/>
+    </ConsortiaLevelUp>
+    <BuildingConsume>
+        <consume1 Condition="1" ContributePoint="10000" ConsumeValue="50"/>
+        <consume2 Condition="2" ContributePoint="30000" ConsumeValue="120"/>
+        <consume3 Condition="3" ContributePoint="60000" ConsumeValue="320"/>
+        <consume4 Condition="4" ContributePoint="90000" ConsumeValue="800"/>
+        <consume5 Condition="5" ContributePoint="120000" ConsumeValue="1600"/>
+        <consume6 Condition="6" ContributePoint="1000000" ConsumeValue="4000"/>
+    </BuildingConsume>
+    <BuildingImpact>
+        <Building1 ID="1">
+            <level1 ID="1" Clevel="1" found="0" bijou="0"/>
+            <level2 ID="1" Clevel="2" found="10000" bijou="100"/>
+            <level3 ID="1" Clevel="3" found="25000" bijou="250"/>
+            <level4 ID="1" Clevel="4" found="40000" bijou="400"/>
+            <level5 ID="1" Clevel="5" found="60000" bijou="600"/>
+            <level6 ID="1" Clevel="6" found="100000" bijou="1000"/>
+            <level7 ID="1" Clevel="7" found="160000" bijou="1600"/>
+            <level8 ID="1" Clevel="8" found="250000" bijou="2500"/>
+            <level9 ID="1" Clevel="9" found="400000" bijou="4000"/>
+            <level10 ID="1" Clevel="10" found="700000" bijou="7000"/>
+            <level11 ID="1" Clevel="11" found="1200000" bijou="12000"/>
+            <level12 ID="1" Clevel="12" found="2000000" bijou="20000"/>
+        </Building1>
+        <Building2 ID="2">
+            <level1 ID="2" Clevel="1" ConsortiaImpactType="2,3" ConsortiaImpactValue="100000,1000" found="10000" bijou="100"/>
+            <level2 ID="2" Clevel="2" ConsortiaImpactType="2,3" ConsortiaImpactValue="250000,2500" found="20000" bijou="200"/>
+            <level3 ID="2" Clevel="3" ConsortiaImpactType="2,3" ConsortiaImpactValue="400000,4000" found="30000" bijou="300"/>
+            <level4 ID="2" Clevel="4" ConsortiaImpactType="2,3" ConsortiaImpactValue="600000,6000" found="40000" bijou="400"/>
+            <level5 ID="2" Clevel="5" ConsortiaImpactType="2,3" ConsortiaImpactValue="800000,8000" found="60000" bijou="600"/>
+            <level6 ID="2" Clevel="6" ConsortiaImpactType="2,3" ConsortiaImpactValue="1000000,10000" found="100000" bijou="1000"/>
+            <level7 ID="2" Clevel="7" ConsortiaImpactType="2,3" ConsortiaImpactValue="1250000,12500" found="240000" bijou="2400"/>
+            <level8 ID="2" Clevel="8" ConsortiaImpactType="2,3" ConsortiaImpactValue="1600000,16000" found="500000" bijou="5000"/>
+            <level9 ID="2" Clevel="9" ConsortiaImpactType="2,3" ConsortiaImpactValue="2000000,20000" found="720000" bijou="7200"/>
+            <level10 ID="2" Clevel="10" ConsortiaImpactType="2,3" ConsortiaImpactValue="2500000,25000" found="840000" bijou="8400"/>
+            <level11 ID="2" Clevel="11" ConsortiaImpactType="2,3" ConsortiaImpactValue="3500000,35000" found="960000" bijou="9600"/>
+            <level12 ID="2" Clevel="12" ConsortiaImpactType="2,3" ConsortiaImpactValue="5000000,50000" found="1200000" bijou="12000"/>
+        </Building2>
+        <Building3 ID="3">
+            <level1 ID="3" Clevel="1" ConsortiaImpactType="2,3" ConsortiaImpactValue="1000000,10000" found="10000" bijou="1000"/>
+            <level2 ID="3" Clevel="2" ConsortiaImpactType="2,3" ConsortiaImpactValue="2500000,25000" found="180000" bijou="1800"/>
+            <level3 ID="3" Clevel="3" ConsortiaImpactType="2,3" ConsortiaImpactValue="4000000,40000" found="360000" bijou="3600"/>
+            <level4 ID="3" Clevel="4" ConsortiaImpactType="2,3" ConsortiaImpactValue="6000000,60000" found="540000" bijou="7200"/>
+            <level5 ID="3" Clevel="5" ConsortiaImpactType="2,3" ConsortiaImpactValue="8000000,80000" found="720000" bijou="10800"/>
+            <level6 ID="3" Clevel="6" ConsortiaImpactType="2,3" ConsortiaImpactValue="10000000,100000" found="900000" bijou="14400"/>
+            <level7 ID="3" Clevel="7" ConsortiaImpactType="2,3" ConsortiaImpactValue="12500000,125000" found="1440000" bijou="19800"/>
+            <level8 ID="3" Clevel="8" ConsortiaImpactType="2,3" ConsortiaImpactValue="16000000,160000" found="1800000" bijou="25200"/>
+            <level9 ID="3" Clevel="9" ConsortiaImpactType="2,3" ConsortiaImpactValue="20000000,200000" found="2160000" bijou="32400"/>
+            <level10 ID="3" Clevel="10" ConsortiaImpactType="2,3" ConsortiaImpactValue="25000000,250000" found="2520000" bijou="39600"/>
+            <level11 ID="3" Clevel="11" ConsortiaImpactType="2,3" ConsortiaImpactValue="35000000,350000" found="2880000" bijou="46800"/>
+            <level12 ID="3" Clevel="12" ConsortiaImpactType="2,3" ConsortiaImpactValue="50000000,500000" found="3600000" bijou="57600"/>
+        </Building3>
+        <Building4 ID="4">
+            <level1 ID="4" Clevel="1" ConsortiaImpactType="1" ConsortiaImpactValue="1" found="5000" bijou="50"/>
+            <level2 ID="4" Clevel="2" ConsortiaImpactType="1" ConsortiaImpactValue="2" found="10000" bijou="100"/>
+            <level3 ID="4" Clevel="3" ConsortiaImpactType="1" ConsortiaImpactValue="3" found="15000" bijou="150"/>
+            <level4 ID="4" Clevel="4" ConsortiaImpactType="1" ConsortiaImpactValue="4" found="20000" bijou="200"/>
+            <level5 ID="4" Clevel="5" ConsortiaImpactType="1" ConsortiaImpactValue="5" found="25000" bijou="250"/>
+            <level6 ID="4" Clevel="6" ConsortiaImpactType="1" ConsortiaImpactValue="6" found="30000" bijou="300"/>
+            <level7 ID="4" Clevel="7" ConsortiaImpactType="1" ConsortiaImpactValue="7" found="35000" bijou="350"/>
+            <level8 ID="4" Clevel="8" ConsortiaImpactType="1" ConsortiaImpactValue="8" found="40000" bijou="400"/>
+            <level9 ID="4" Clevel="9" ConsortiaImpactType="1" ConsortiaImpactValue="9" found="45000" bijou="450"/>
+            <level10 ID="4" Clevel="10" ConsortiaImpactType="1" ConsortiaImpactValue="10" found="50000" bijou="500"/>
+        </Building4>
+        <Building5 ID="5">
+            <level1 ID="5" Clevel="1" ConsortiaImpactType="1" ConsortiaImpactValue="1" found="20000" bijou="200"/>
+            <level2 ID="5" Clevel="2" ConsortiaImpactType="1" ConsortiaImpactValue="2" found="30000" bijou="300"/>
+            <level3 ID="5" Clevel="3" ConsortiaImpactType="1" ConsortiaImpactValue="3" found="40000" bijou="400"/>
+            <level4 ID="5" Clevel="4" ConsortiaImpactType="1" ConsortiaImpactValue="4" found="50000" bijou="500"/>
+            <level5 ID="5" Clevel="5" ConsortiaImpactType="1" ConsortiaImpactValue="5" found="60000" bijou="600"/>
+            <level6 ID="5" Clevel="6" ConsortiaImpactType="1" ConsortiaImpactValue="6" found="80000" bijou="800"/>
+            <level7 ID="5" Clevel="7" ConsortiaImpactType="1" ConsortiaImpactValue="7" found="100000" bijou="1000"/>
+            <level8 ID="5" Clevel="8" ConsortiaImpactType="1" ConsortiaImpactValue="8" found="120000" bijou="1200"/>
+            <level9 ID="5" Clevel="9" ConsortiaImpactType="1" ConsortiaImpactValue="9" found="150000" bijou="1500"/>
+            <level10 ID="5" Clevel="10" ConsortiaImpactType="1" ConsortiaImpactValue="10" found="200000" bijou="2000"/>
+        </Building5>
+        <Building6 ID="6">
+            <level1 ID="6" Clevel="1" ConsortiaImpactType="1" ConsortiaImpactValue="1" found="80000" bijou="800"/>
+            <level2 ID="6" Clevel="2" ConsortiaImpactType="1" ConsortiaImpactValue="2" found="100000" bijou="1000"/>
+            <level3 ID="6" Clevel="3" ConsortiaImpactType="1" ConsortiaImpactValue="3" found="120000" bijou="1200"/>
+            <level4 ID="6" Clevel="4" ConsortiaImpactType="1" ConsortiaImpactValue="4" found="150000" bijou="1500"/>
+            <level5 ID="6" Clevel="5" ConsortiaImpactType="1" ConsortiaImpactValue="5" found="200000" bijou="2000"/>
+            <level6 ID="6" Clevel="6" ConsortiaImpactType="1" ConsortiaImpactValue="6" found="300000" bijou="3000"/>
+            <level7 ID="6" Clevel="7" ConsortiaImpactType="1" ConsortiaImpactValue="7" found="400000" bijou="4000"/>
+            <level8 ID="6" Clevel="8" ConsortiaImpactType="1" ConsortiaImpactValue="8" found="500000" bijou="5000"/>
+            <level9 ID="6" Clevel="9" ConsortiaImpactType="1" ConsortiaImpactValue="9" found="700000" bijou="7000"/>
+            <level10 ID="6" Clevel="10" ConsortiaImpactType="1" ConsortiaImpactValue="10" found="1000000" bijou="10000"/>
+        </Building6>
+        <Building7 ID="10">
+            <level1 ID="10" Clevel="1" WorshipImpactType="1" WorshipImpactValue="100" found="20000" bijou="200"/>
+            <level2 ID="10" Clevel="2" WorshipImpactType="1" WorshipImpactValue="120" found="30000" bijou="300"/>
+            <level3 ID="10" Clevel="3" WorshipImpactType="1" WorshipImpactValue="140" found="60000" bijou="600"/>
+            <level4 ID="10" Clevel="4" WorshipImpactType="1" WorshipImpactValue="160" found="90000" bijou="900"/>
+            <level5 ID="10" Clevel="5" WorshipImpactType="1" WorshipImpactValue="180" found="120000" bijou="1200"/>
+            <level6 ID="10" Clevel="6" WorshipImpactType="1" WorshipImpactValue="200" found="150000" bijou="1500"/>
+            <level7 ID="10" Clevel="7" WorshipImpactType="1" WorshipImpactValue="230" found="240000" bijou="2400"/>
+            <level8 ID="10" Clevel="8" WorshipImpactType="1" WorshipImpactValue="260" found="300000" bijou="3000"/>
+            <level9 ID="10" Clevel="9" WorshipImpactType="1" WorshipImpactValue="290" found="360000" bijou="3600"/>
+            <level10 ID="10" Clevel="10" WorshipImpactType="1" WorshipImpactValue="320" found="420000" bijou="4200"/>
+            <level11 ID="10" Clevel="11" WorshipImpactType="1" WorshipImpactValue="360" found="480000" bijou="4800"/>
+            <level12 ID="10" Clevel="12" WorshipImpactType="1" WorshipImpactValue="400" found="600000" bijou="6000"/>
+        </Building7>
+        <Building8 ID="11">
+            <level1 ID="11" Clevel="1" WorshipImpactType="2" WorshipImpactValue="40" found="20000" bijou="200"/>
+            <level2 ID="11" Clevel="2" WorshipImpactType="2" WorshipImpactValue="48" found="30000" bijou="300"/>
+            <level3 ID="11" Clevel="3" WorshipImpactType="2" WorshipImpactValue="56" found="60000" bijou="600"/>
+            <level4 ID="11" Clevel="4" WorshipImpactType="2" WorshipImpactValue="64" found="90000" bijou="900"/>
+            <level5 ID="11" Clevel="5" WorshipImpactType="2" WorshipImpactValue="72" found="120000" bijou="1200"/>
+            <level6 ID="11" Clevel="6" WorshipImpactType="2" WorshipImpactValue="80" found="150000" bijou="1500"/>
+            <level7 ID="11" Clevel="7" WorshipImpactType="2" WorshipImpactValue="92" found="240000" bijou="2400"/>
+            <level8 ID="11" Clevel="8" WorshipImpactType="2" WorshipImpactValue="104" found="300000" bijou="3000"/>
+            <level9 ID="11" Clevel="9" WorshipImpactType="2" WorshipImpactValue="115" found="360000" bijou="3600"/>
+            <level10 ID="11" Clevel="10" WorshipImpactType="2" WorshipImpactValue="128" found="420000" bijou="4200"/>
+            <level11 ID="11" Clevel="11" WorshipImpactType="2" WorshipImpactValue="144" found="480000" bijou="4800"/>
+            <level12 ID="11" Clevel="12" WorshipImpactType="2" WorshipImpactValue="160" found="600000" bijou="6000"/>
+        </Building8>
+        <Building9 ID="12">
+            <level1 ID="12" Clevel="1" WorshipImpactType="0" WorshipImpactValue="500" found="20000" bijou="200"/>
+            <level2 ID="12" Clevel="2" WorshipImpactType="0" WorshipImpactValue="600" found="30000" bijou="300"/>
+            <level3 ID="12" Clevel="3" WorshipImpactType="0" WorshipImpactValue="700" found="60000" bijou="600"/>
+            <level4 ID="12" Clevel="4" WorshipImpactType="0" WorshipImpactValue="800" found="90000" bijou="900"/>
+            <level5 ID="12" Clevel="5" WorshipImpactType="0" WorshipImpactValue="900" found="120000" bijou="1200"/>
+            <level6 ID="12" Clevel="6" WorshipImpactType="0" WorshipImpactValue="1000" found="150000" bijou="1500"/>
+            <level7 ID="12" Clevel="7" WorshipImpactType="0" WorshipImpactValue="1150" found="240000" bijou="2400"/>
+            <level8 ID="12" Clevel="8" WorshipImpactType="0" WorshipImpactValue="1300" found="300000" bijou="3000"/>
+            <level9 ID="12" Clevel="9" WorshipImpactType="0" WorshipImpactValue="1450" found="360000" bijou="3600"/>
+            <level10 ID="12" Clevel="10" WorshipImpactType="0" WorshipImpactValue="1600" found="420000" bijou="4200"/>
+            <level11 ID="12" Clevel="11" WorshipImpactType="0" WorshipImpactValue="1800" found="480000" bijou="4800"/>
+            <level12 ID="12" Clevel="12" WorshipImpactType="0" WorshipImpactValue="3000" found="600000" bijou="6000"/>
+        </Building9>
+        <Building10 ID="13">
+            <level1 ID="13" Clevel="1" WorshipImpactType="4" WorshipImpactValue="135" found="20000" bijou="200"/>
+            <level2 ID="13" Clevel="2" WorshipImpactType="4" WorshipImpactValue="162" found="30000" bijou="300"/>
+            <level3 ID="13" Clevel="3" WorshipImpactType="4" WorshipImpactValue="189" found="60000" bijou="600"/>
+            <level4 ID="13" Clevel="4" WorshipImpactType="4" WorshipImpactValue="216" found="90000" bijou="900"/>
+            <level5 ID="13" Clevel="5" WorshipImpactType="4" WorshipImpactValue="243" found="120000" bijou="1200"/>
+            <level6 ID="13" Clevel="6" WorshipImpactType="4" WorshipImpactValue="270" found="150000" bijou="1500"/>
+            <level7 ID="13" Clevel="7" WorshipImpactType="4" WorshipImpactValue="310" found="240000" bijou="2400"/>
+            <level8 ID="13" Clevel="8" WorshipImpactType="4" WorshipImpactValue="351" found="300000" bijou="3000"/>
+            <level9 ID="13" Clevel="9" WorshipImpactType="4" WorshipImpactValue="391" found="360000" bijou="3600"/>
+            <level10 ID="13" Clevel="10" WorshipImpactType="4" WorshipImpactValue="432" found="420000" bijou="4200"/>
+            <level11 ID="13" Clevel="11" WorshipImpactType="4" WorshipImpactValue="486" found="480000" bijou="4800"/>
+            <level12 ID="13" Clevel="12" WorshipImpactType="4" WorshipImpactValue="540" found="600000" bijou="6000"/>
+        </Building10>
+        <Building11 ID="14">
+            <level1 ID="14" Clevel="1" WorshipImpactType="8" WorshipImpactValue="24" found="20000" bijou="200"/>
+            <level2 ID="14" Clevel="2" WorshipImpactType="8" WorshipImpactValue="28" found="30000" bijou="300"/>
+            <level3 ID="14" Clevel="3" WorshipImpactType="8" WorshipImpactValue="33" found="60000" bijou="600"/>
+            <level4 ID="14" Clevel="4" WorshipImpactType="8" WorshipImpactValue="38" found="90000" bijou="900"/>
+            <level5 ID="14" Clevel="5" WorshipImpactType="8" WorshipImpactValue="43" found="120000" bijou="1200"/>
+            <level6 ID="14" Clevel="6" WorshipImpactType="8" WorshipImpactValue="48" found="150000" bijou="1500"/>
+            <level7 ID="14" Clevel="7" WorshipImpactType="8" WorshipImpactValue="55" found="240000" bijou="2400"/>
+            <level8 ID="14" Clevel="8" WorshipImpactType="8" WorshipImpactValue="62" found="300000" bijou="3000"/>
+            <level9 ID="14" Clevel="9" WorshipImpactType="8" WorshipImpactValue="69" found="360000" bijou="3600"/>
+            <level10 ID="14" Clevel="10" WorshipImpactType="8" WorshipImpactValue="76" found="420000" bijou="4200"/>
+            <level11 ID="14" Clevel="11" WorshipImpactType="8" WorshipImpactValue="86" found="480000" bijou="4800"/>
+            <level12 ID="14" Clevel="12" WorshipImpactType="8" WorshipImpactValue="96" found="600000" bijou="6000"/>
+        </Building11>
+        <Building12 ID="15">
+            <level1 ID="15" Clevel="1" WorshipImpactType="5" WorshipImpactValue="115" found="20000" bijou="200"/>
+            <level2 ID="15" Clevel="2" WorshipImpactType="5" WorshipImpactValue="138" found="30000" bijou="300"/>
+            <level3 ID="15" Clevel="3" WorshipImpactType="5" WorshipImpactValue="161" found="60000" bijou="600"/>
+            <level4 ID="15" Clevel="4" WorshipImpactType="5" WorshipImpactValue="184" found="90000" bijou="900"/>
+            <level5 ID="15" Clevel="5" WorshipImpactType="5" WorshipImpactValue="207" found="120000" bijou="1200"/>
+            <level6 ID="15" Clevel="6" WorshipImpactType="5" WorshipImpactValue="230" found="150000" bijou="1500"/>
+            <level7 ID="15" Clevel="7" WorshipImpactType="5" WorshipImpactValue="264" found="240000" bijou="2400"/>
+            <level8 ID="15" Clevel="8" WorshipImpactType="5" WorshipImpactValue="299" found="300000" bijou="3000"/>
+            <level9 ID="15" Clevel="9" WorshipImpactType="5" WorshipImpactValue="333" found="360000" bijou="3600"/>
+            <level10 ID="15" Clevel="10" WorshipImpactType="5" WorshipImpactValue="368" found="420000" bijou="4200"/>
+            <level11 ID="15" Clevel="11" WorshipImpactType="5" WorshipImpactValue="414" found="480000" bijou="4800"/>
+            <level12 ID="15" Clevel="12" WorshipImpactType="5" WorshipImpactValue="460" found="600000" bijou="6000"/>
+        </Building12>
+        <Building13 ID="16">
+            <level1 ID="16" Clevel="1" WorshipImpactType="7" WorshipImpactValue="70" found="20000" bijou="200"/>
+            <level2 ID="16" Clevel="2" WorshipImpactType="7" WorshipImpactValue="84" found="30000" bijou="300"/>
+            <level3 ID="16" Clevel="3" WorshipImpactType="7" WorshipImpactValue="98" found="60000" bijou="600"/>
+            <level4 ID="16" Clevel="4" WorshipImpactType="7" WorshipImpactValue="112" found="90000" bijou="900"/>
+            <level5 ID="16" Clevel="5" WorshipImpactType="7" WorshipImpactValue="126" found="120000" bijou="1200"/>
+            <level6 ID="16" Clevel="6" WorshipImpactType="7" WorshipImpactValue="140" found="150000" bijou="1500"/>
+            <level7 ID="16" Clevel="7" WorshipImpactType="7" WorshipImpactValue="161" found="240000" bijou="2400"/>
+            <level8 ID="16" Clevel="8" WorshipImpactType="7" WorshipImpactValue="182" found="300000" bijou="3000"/>
+            <level9 ID="16" Clevel="9" WorshipImpactType="7" WorshipImpactValue="203" found="360000" bijou="3600"/>
+            <level10 ID="16" Clevel="10" WorshipImpactType="7" WorshipImpactValue="224" found="420000" bijou="4200"/>
+            <level11 ID="16" Clevel="11" WorshipImpactType="7" WorshipImpactValue="252" found="480000" bijou="4800"/>
+            <level12 ID="16" Clevel="12" WorshipImpactType="7" WorshipImpactValue="280" found="600000" bijou="6000"/>
+        </Building13>
+        <Building14 ID="17">
+            <level1 ID="17" Clevel="1" WorshipImpactType="14" WorshipImpactValue="50" found="20000" bijou="200"/>
+            <level2 ID="17" Clevel="2" WorshipImpactType="14" WorshipImpactValue="60" found="30000" bijou="300"/>
+            <level3 ID="17" Clevel="3" WorshipImpactType="14" WorshipImpactValue="70" found="60000" bijou="600"/>
+            <level4 ID="17" Clevel="4" WorshipImpactType="14" WorshipImpactValue="80" found="90000" bijou="900"/>
+            <level5 ID="17" Clevel="5" WorshipImpactType="14" WorshipImpactValue="90" found="120000" bijou="1200"/>
+            <level6 ID="17" Clevel="6" WorshipImpactType="14" WorshipImpactValue="100" found="150000" bijou="1500"/>
+            <level7 ID="17" Clevel="7" WorshipImpactType="14" WorshipImpactValue="115" found="240000" bijou="2400"/>
+            <level8 ID="17" Clevel="8" WorshipImpactType="14" WorshipImpactValue="130" found="300000" bijou="3000"/>
+            <level9 ID="17" Clevel="9" WorshipImpactType="14" WorshipImpactValue="145" found="360000" bijou="3600"/>
+            <level10 ID="17" Clevel="10" WorshipImpactType="14" WorshipImpactValue="160" found="420000" bijou="4200"/>
+            <level11 ID="17" Clevel="11" WorshipImpactType="14" WorshipImpactValue="180" found="480000" bijou="4800"/>
+            <level12 ID="17" Clevel="12" WorshipImpactType="14" WorshipImpactValue="200" found="600000" bijou="6000"/>
+        </Building14>
+        <Building15 ID="18">
+            <level1 ID="18" Clevel="1" WorshipImpactType="6" WorshipImpactValue="105" found="20000" bijou="200"/>
+            <level2 ID="18" Clevel="2" WorshipImpactType="6" WorshipImpactValue="126" found="30000" bijou="300"/>
+            <level3 ID="18" Clevel="3" WorshipImpactType="6" WorshipImpactValue="147" found="60000" bijou="600"/>
+            <level4 ID="18" Clevel="4" WorshipImpactType="6" WorshipImpactValue="168" found="90000" bijou="900"/>
+            <level5 ID="18" Clevel="5" WorshipImpactType="6" WorshipImpactValue="189" found="120000" bijou="1200"/>
+            <level6 ID="18" Clevel="6" WorshipImpactType="6" WorshipImpactValue="210" found="150000" bijou="1500"/>
+            <level7 ID="18" Clevel="7" WorshipImpactType="6" WorshipImpactValue="241" found="240000" bijou="2400"/>
+            <level8 ID="18" Clevel="8" WorshipImpactType="6" WorshipImpactValue="273" found="300000" bijou="3000"/>
+            <level9 ID="18" Clevel="9" WorshipImpactType="6" WorshipImpactValue="304" found="360000" bijou="3600"/>
+            <level10 ID="18" Clevel="10" WorshipImpactType="6" WorshipImpactValue="336" found="420000" bijou="4200"/>
+            <level11 ID="18" Clevel="11" WorshipImpactType="6" WorshipImpactValue="378" found="480000" bijou="4800"/>
+            <level12 ID="18" Clevel="12" WorshipImpactType="6" WorshipImpactValue="420" found="600000" bijou="6000"/>
+        </Building15>
+        <Building16 ID="19">
+            <level1 ID="19" Clevel="1" WorshipImpactType="9" WorshipImpactValue="24" found="20000" bijou="200"/>
+            <level2 ID="19" Clevel="2" WorshipImpactType="9" WorshipImpactValue="28" found="30000" bijou="300"/>
+            <level3 ID="19" Clevel="3" WorshipImpactType="9" WorshipImpactValue="33" found="60000" bijou="600"/>
+            <level4 ID="19" Clevel="4" WorshipImpactType="9" WorshipImpactValue="38" found="90000" bijou="900"/>
+            <level5 ID="19" Clevel="5" WorshipImpactType="9" WorshipImpactValue="43" found="120000" bijou="1200"/>
+            <level6 ID="19" Clevel="6" WorshipImpactType="9" WorshipImpactValue="48" found="150000" bijou="1500"/>
+            <level7 ID="19" Clevel="7" WorshipImpactType="9" WorshipImpactValue="55" found="240000" bijou="2400"/>
+            <level8 ID="19" Clevel="8" WorshipImpactType="9" WorshipImpactValue="62" found="300000" bijou="3000"/>
+            <level9 ID="19" Clevel="9" WorshipImpactType="9" WorshipImpactValue="69" found="360000" bijou="3600"/>
+            <level10 ID="19" Clevel="10" WorshipImpactType="9" WorshipImpactValue="76" found="420000" bijou="4200"/>
+            <level11 ID="19" Clevel="11" WorshipImpactType="9" WorshipImpactValue="86" found="480000" bijou="4800"/>
+            <level12 ID="19" Clevel="12" WorshipImpactType="9" WorshipImpactValue="96" found="600000" bijou="6000"/>
+        </Building16>
+        <Building17 ID="30">
+            <level1 ID="30" Clevel="1" ConsortiaImpactType="4" ConsortiaImpactValue="0.02" found="500000" bijou="5000"/>
+            <level2 ID="30" Clevel="2" ConsortiaImpactType="4" ConsortiaImpactValue="0.04" found="900000" bijou="9000"/>
+            <level3 ID="30" Clevel="3" ConsortiaImpactType="4" ConsortiaImpactValue="0.06" found="1620000" bijou="16200"/>
+            <level4 ID="30" Clevel="4" ConsortiaImpactType="4" ConsortiaImpactValue="0.08" found="2700000" bijou="27000"/>
+            <level5 ID="30" Clevel="5" ConsortiaImpactType="4" ConsortiaImpactValue="0.1" found="3960000" bijou="39600"/>
+            <level6 ID="30" Clevel="6" ConsortiaImpactType="4" ConsortiaImpactValue="0.13" found="5760000" bijou="57600"/>
+            <level7 ID="30" Clevel="7" ConsortiaImpactType="4" ConsortiaImpactValue="0.16" found="8100000" bijou="81000"/>
+            <level8 ID="30" Clevel="8" ConsortiaImpactType="4" ConsortiaImpactValue="0.2" found="11160000" bijou="111600"/>
+        </Building17>
+    </BuildingImpact>
+</Consortia>

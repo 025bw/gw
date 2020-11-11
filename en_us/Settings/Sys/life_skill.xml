@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!--this is EquipForge config-->
+<EquipForge>
+    <ShortSword ID="1000" NextID="1001" BadID="1000" Probability="0" BaseProyAdd="50,-5,-55,-110,0" AppendProyAdd="60,35,5,-10,-25,-50,-65,-85,-115,0" Amoney="500" Bmoney="50,70,150,250,0 " Cmoney="30,40,50,60,70,80,110,170,250,0 "/>
+</EquipForge>

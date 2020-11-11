@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--this is ItemEff config-->
+
+<ItemEff>
+
+    <EquipItem>
+	<!--
+        <config BaseLv="1" IconEff="1"/>
+        <config BaseLv="2" IconEff="2"/>
+        <config BaseLv="3" IconEff="3"/>
+        <config BaseLv="4" IconEff="4"/>
+        <config BaseLv="5" IconEff="5"/>
+	    <config BaseLv="6" IconEff="6"/>
+        <config BaseLv="7" IconEff="7"/>
+        <config BaseLv="8" IconEff="8"/>	
+		-->
+    </EquipItem>
+    <ConsumeItem>
+	<!--
+        <Item ID="3876" UIEff="1"/>
+        <Item ID="5231" UIEff="2"/>
+        <Item ID="5223" UIEff="3"/>
+        <Item ID="5216" UIEff="4"/>
+        <Item ID="4314" UIEff="1"/>
+        <Item ID="4319" UIEff="2"/>
+        <Item ID="4502" UIEff="3"/>
+        <Item ID="8060" UIEff="4"/>
+        <Item ID="4210" UIEff="1"/>
+        <Item ID="4220" UIEff="2"/>
+        <Item ID="4031" UIEff="1"/>
+        <Item ID="4001" UIEff="2"/>
+	-->
+    </ConsumeItem>
+
+</ItemEff>

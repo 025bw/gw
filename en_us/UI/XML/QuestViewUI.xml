@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright (c) 2008,欢乐连线工作室
+		All rights reserved
+
+		文件名称：QuestViewUIConfig.xml
+		摘    要：任务信息描述UI配置表
+      
+		当前版本：Ver1.00
+		作    者：Tavia
+		完成日期：2008-3-22-->
+<UIConfig>
+  <QuestView Template="T_NormalWindow" ID="350000" Rectangle="380,112,980,502" BtnRect="565,10,588,34" BtnPos="454,693" Visible="0">
+    <Texttop Type="Text" Texture="./Localization/en_us/UI/Texture/main.gwo" ID="-1" Rectangle="568,34,592,58" TexturePos="720,0" Text="" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR"/>
+    <Textbtm Type="Text" Texture="./Localization/en_us/UI/Texture/main.gwo" ID="-1" Rectangle="568,355,592,379" TexturePos="720,30" Text="" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR"/>
+    <Textmid Type="Text" Texture="./Localization/en_us/UI/Texture/main.gwo" ID="-1" Rectangle="568,58,592,59" TexturePos="720,26" Text="" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" OnScaleY="300"/>
+    <Up Template="T_UpButton" ID="350006" Rectangle="541,22,570,44" Text="" TexturePos="1024,1024" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" OnClick="UpContainerBtn()"/>
+    <Down Template="T_DownButton" ID="350007" Rectangle="541,439,570,461" Text="" TexturePos="1024,1024" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" OnClick="DownContainerBtn()"/>
+
+    <Accept Template="T_Button2" ID="350002" Rectangle="434,354,494,381" SText="QV_X1_1" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <Refuse Template="T_Button2" ID="350003" Rectangle="502,354,562,381" SText="QV_X1_2" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <Complete Template="T_Button2" ID="350004" Rectangle="434,354,494,381" SText="QV_X1_3" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+    <Cancel Template="T_Button2" ID="350005" Rectangle="502,354,562,381" SText="QV_X1_4" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"/>
+
+    <Container Type="Container" ID="350001" Rectangle="14,22,594,375" ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollRect="557,10,592,356" ScrollPos="0,0" BtnPos="133,122" BtnRect="0,0,17,27" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR">
+      <QuestTitle Type="Text" ID="350020" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR" Rectangle="5,0,521,30" Text="" TextFormat="16" />
+      <QuestDetails Type="Text" ID="350021" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR" Rectangle="5,0,523,250"   Text="" TextFormat="16"/>
+      <QuestObjective Type="Text" ID="350022" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR" Rectangle="5,0,523,30"  Text="" TextFormat="16" />
+      <QuestObjectives Type="Text" ID="350023" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR" Rectangle="5,0,523,250" Text="" TextFormat="16" />
+      <QuestReward Type="Text" ID="350024" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR" Rectangle="5,0,523,30" Text="" TextFormat="16" />
+      <QuestRewards Type="Text" ID="350025" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR" Rectangle="5,0,523,250" Text="" TextFormat="16" />
+      <QuestAppend Type="Text" ID="350026" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR" Rectangle="5,0,523,250" Text="" TextFormat="16"/>
+
+      <ItemList Type="ListBox" ID="350028" Rectangle="5,365,491,495" ScrollRect="0,0,0,0" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" ScrollPos="0,0" BtnPos="133,122" BtnRect="0,0,17,27" Height="15" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR">
+        <list1 Type="ListItem" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0">
+          <Text Type="Text" ID="350101" Rectangle="0,0,100,14" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR"/>
+          <Count Type="Text" ID="350111" Rectangle="100,0,200,14" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR"/>
+        </list1>
+        <list2 Type="ListItem" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0">
+          <Text Type="Text" ID="350102" Rectangle="0,0,100,14" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR"/>
+          <Count Type="Text" ID="350112" Rectangle="100,0,200,14" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR"/>
+        </list2>
+        <list3 Type="ListItem" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0">
+          <Text Type="Text" ID="350103" Rectangle="0,0,100,14" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR"/>
+          <Count Type="Text" ID="350113" Rectangle="100,0,200,14" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR"/>
+        </list3>
+        <list4 Type="ListItem" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0">
+          <Text Type="Text" ID="350104" Rectangle="0,0,100,14" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR"/>
+          <Count Type="Text" ID="350114" Rectangle="100,0,200,14" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR"/>
+        </list4>
+      </ItemList>
+      <CreatureList Type="ListBox" ID="350029" Rectangle="5,365,220,495" ScrollRect="0,0,0,0" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" ScrollPos="0,0" BtnPos="133,122" BtnRect="0,0,17,27" Height="15" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR">
+        <list1 Type="ListItem" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0">
+          <Name Type="Text" ID="350201" Rectangle="0,0,100,14" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR"/>
+          <Count Type="Text" ID="350211" Rectangle="100,0,200,14" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR"/>
+        </list1>
+        <list2 Type="ListItem" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0">
+          <Name Type="Text" ID="350202" Rectangle="0,0,100,14" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR"/>
+          <Count Type="Text" ID="350212" Rectangle="100,0,200,14" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR"/>
+        </list2>
+        <list3 Type="ListItem" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0">
+          <Name Type="Text" ID="350203" Rectangle="0,0,100,14" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR"/>
+          <Count Type="Text" ID="350213" Rectangle="100,0,200,14" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR"/>
+        </list3>
+        <list4 Type="ListItem" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0">
+          <Name Type="Text" ID="350204" Rectangle="0,0,100,14" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR"/>
+          <Count Type="Text" ID="350214" Rectangle="100,0,200,14" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,0" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR"/>
+        </list4>
+      </CreatureList>
+      <Incomplete Type="Text" ID="350030" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR" Rectangle="0,0,202,250" Text=""/>
+      <Completion Type="Text" ID="350031" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR" Rectangle="0,0,202,250" Text=""/>
+      <RewardItem1 Type="CheckBox" ID="350032" Rectangle="5,53,47,95" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="983,983" BtnTopRect="3,3,39,39" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+      <RewardItem2 Type="CheckBox" ID="350033" Rectangle="51,53,93,95" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="983,983" BtnTopRect="3,3,39,39" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+      <RewardItem3 Type="CheckBox" ID="350034" Rectangle="97,53,139,95" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="983,983" BtnTopRect="3,3,39,39" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+      <RewardItem4 Type="CheckBox" ID="350035" Rectangle="143,53,185,95" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="983,983" BtnTopRect="3,3,39,39" Font="CONTAIN11_BILLBOARD" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+
+    </Container>
+  </QuestView>
+</UIConfig>

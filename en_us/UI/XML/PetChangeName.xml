@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIConfig>
+  <PetChangeNmaeWin Template="T_SimpleWindow" ID="850000" Modal="0" Rectangle="200,100,500,300"> <!--Rectangle="352,200,632,449"-->
+	<Msg1 Type="Text" Texture="" Rectangle="25,15,280,200" Font="MainMap" TextFormat="16" SText="PETCN_X0_1"/>
+	<Msg2 Type="Text" Texture="" Rectangle="25,65,280,100" Font="MainMap" TextFormat="16" SText="PETCN_X0_2"/>
+
+    <InputEdtText  Type="Text"  ID="-1"    Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="78,90,79,119" TexturePos="139,173"  Text=""/>
+    <InputEdt      Type="EditBox" ID="850001"  Texture="" TexturePos="0,0" Rectangle="78,90,223,119"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" MaxText="8" ResponseMouse="1" TextFormat="4" Text=""/>
+    <InputEdtLeft  Type="Text"  ID="-1"      Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="71,90,78,119" TexturePos="131,173"  Text=""/>
+    <InputEdtRight Type="Text"  ID="-1"      Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="222,90,229,119" TexturePos="138,173"  Text=""/>
+
+		
+    <!--InputEdtText  Type="Text"  ID="-1"    Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="48,53,49,82" TexturePos="139,173"  Text=""/-->
+    <!--InputEdt      Type="EditBox" ID=""  Texture="" TexturePos="0,0" Rectangle="48,53,193,82"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" MaxText="32" ResponseMouse="1" TextFormat="4" Text=""/-->
+    <!--InputEdtLeft  Type="Text"  ID="-1"      Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="41,53,48,82" TexturePos="131,173"  Text=""/-->
+    <!--InputEdtRight Type="Text"  ID="-1"      Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="192,53,199,82" TexturePos="138,173"  Text=""/-->
+      	
+	<SureBtn Template="T_Button3" ID="850002" Rectangle="79,168,148,195" Font="MainMap"  SText="R_X0_9" TextFormat="5"/>
+    <SureBtnLeft  Type="Text" ID=""  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="45,168,79,195" TexturePos="161,99"  Text=""/>
+      
+   
+    <!--SureBtn Template="T_Button3" ID="850002" Rectangle="100,214,169,241" Font="Mainlogin"  SText="R_X0_9" TextFormat="5"/-->
+    <!--SureBtnLeft  Type="Text" ID=""  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="66,214,100,241" TexturePos="161,99"  Text=""/-->
+    <!--<SureBtnRight Type="Text" ID=""  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="155,177,189,190" TexturePos="161,126"  Text=""/>-->
+
+    <CancelBtn Template="T_Button3" ID="850003" Rectangle="151,168,220,195" Font="MainMap"  SText="R_X0_10" TextFormat="5"/>
+    <CancelRight Type="Text"  ID=""  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="220,168,254,195" TexturePos="161,126"  Text=""/>
+
+    
+    <!--CancelBtn Template="T_Button3" ID="850003" Rectangle="172,214,241,241" Font="Mainlogin"  SText="R_X0_10" TextFormat="5"/-->    
+    <!--CancelRight Type="Text"  ID=""  Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="241,214,275,241" TexturePos="161,126"  Text=""/-->
+
+  </PetChangeNmaeWin>
+</UIConfig>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIConfig>
+	<Script File="./Localization/en_us/UI/XML/SystemBar.lua" Help=""/>
+	<SystemBar Type="Window" ID="211000" Layer="1" Rectangle="717,698,1024,761" TexturePos="242,846" Texture="./Localization/en_us/UI/Texture/Main.gwo" Visible="1" Text="" OnLoad="SystemBar_OnLoad();">
+		<SystemBarText1 Type="Text" ID="-1" Rectangle="0,0,330,63" TexturePos="694,415" Texture="./Localization/en_us/UI/Texture/Main.gwo" Text=""/>
+		<!--属性按钮-->
+		<state Type="Button" ID="211002" Rectangle="20,23,56,59" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="528,200" OnScaleX="0.9" OnScaleY="0.9"/>
+		<!--装备按钮-->
+		<item Type="Button" ID="211003" Rectangle="57,23,93,59" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="566,200" OnScaleX="0.9" OnScaleY="0.9"/>
+    <!--技能按钮-->
+    <skill   Type="Button" ID="211004" Rectangle="94,23,130,59" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="724,200" OnScaleX="0.9" OnScaleY="0.9"/>
+    <!--任务按钮-->
+    <quest 	 Type="Button" ID="211005" Rectangle="133,23,169,59" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="683,200" OnScaleX="0.9" OnScaleY="0.9"/>
+    <!--公会按钮-->
+    <Consortia  	 Type="Button" ID="211007" Rectangle="170,23,206,59" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="607,200" OnScaleX="0.9" OnScaleY="0.9"/>
+    <!--交际按钮-->
+    <meet  	 Type="Button" ID="211006" Rectangle="206,25,242,61" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="644,200" OnScaleX="0.9" OnScaleY="0.9"/>
+    <!--向上按钮-->
+    <UpBtn  Type="Button"  Rectangle="277,25,313,61" ID="211011" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="839,200" OnClick="UpBtn_OnClick()" OnScaleX="0.9" OnScaleY="0.9"/>
+    
+    
+    
+
+
+    <!--星座按钮-->			
+	<Constellation Type="Button" ID="211012" Rectangle="170,-21,202,10" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="433,74" OnClick ="ConstellationBtn_OnClick()" Visible="1" OnScaleX="0.9" OnScaleY="0.9" OnHotKey="ConstellationBtn_OnClick()" HotKey="90"/>
+    <!--宠物按钮-->			
+	<pet Type="Button" Rectangle="206,-21,238,10" ID="211013" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="526,74" Visible="1" OnScaleX="0.9" OnScaleY="0.9" OnHotKey="Pet_OnClick()" HotKey="80"/>
+    <!--挂机按钮-->
+	<auto Type="Button" Rectangle="242,-21,272,10" ID="211014" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="432,198" OnUpdate="AutoFightButton_OnUpdate();" OnClick="AutoFight_OnClick();"  OnHotKey="F12_OnClick()" HotKey="192" Visible="1" OnScaleX="0.9" OnScaleY="0.9"/>
+    <!--系统按钮-->
+    <system  Type="Button" ID="211008" Rectangle="277,-21,309,10" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="495,198" Visible="1" OnScaleX="0.9" OnScaleY="0.9"/>
+    
+    <!--帮助按钮-->
+    <help    Type="Button" ID="211009" Rectangle="245,26,275,57" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="465,74"  OnClick="HelpSystem_OnSetVisble()" OnUpdate="UpGrade_OnSelfUpdate()" OnHotKey="HelpSystem_OnSetVisble()" HotKey="72" Visible="1" OnScaleX="0.9" OnScaleY="0.9"/>
+		<!--打造按钮-->
+		<Equip Type="Button" ID="211010" Rectangle="3,267,63,292" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="38,80" SText="SB_X1_9" Font="MainFonts" FontColor="YELLOW_TEXTCOLOR" TextFormat="5" TextWeight="1" Visible="0" OnScaleX="0.9" OnScaleY="0.9"/>
+		<!--升级提示按钮-->
+		<Msg Type="Button" ID="211020" Rectangle="200,-475,231,-444" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="558,74" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" TextWeight="1" OnScaleX="0.9" OnScaleY="0.9"/>
+		<!--商城按钮-->
+		<EnterMallBtn Type="Button" ID="211015" Rectangle="262,-222,314,-170" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="383,676" Visible="1" OnScaleX="0.9" OnScaleY="0.9"/>
+		<LevUpMsg Type="Button" ID="211022" Rectangle="155,-475,180,-444" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="468,198" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" TextWeight="1" OnClick="UpGrade_OnSelfUpGrade()" Visible="0"/>
+		
+	<!--生活技能-->	
+	<LiveSkill Type="Button" ID="-1" Rectangle="130,-21,160,10" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="589,74" OnClick ="LiveSkillBtn_OnClick()" Visible="1" OnScaleX="0.9" OnScaleY="0.9"  OnHotKey="LiveSkillBtn_OnClick()"   HotKey="86"  OnHovered="LiveSkillFunc()" OnLeft="LiveSkillLeftFunc()"   />
+	</SystemBar>
+	<!--<XML File="./Localization/en_us/UI/XML/AutoFight.xml" />-->
+	<XML File="./Localization/en_us/UI/XML/Constellation.xml"/>
+	 <Script File="./Localization/en_us/UI/XML/ButtonClick.lua"/>
+</UIConfig>

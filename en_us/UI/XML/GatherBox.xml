@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+	<GatherBoxUI Template="T_SimpleWindow" Rectangle="350,200,661,405"  Enable="1" Visible="1">
+	
+	 <CloseBtn Type="Button" ID="8180001" TexturePos="454,693" Rectangle="277,10,300,34" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+	 
+		<Text1 Type="Text" Rectangle="84,18,209,41" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="5"/>
+		<Text2 Type="Text" Rectangle="24,65,92,91" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="GBX_XO_1" TextFormat="4"/>
+		<Text3 Type="Text" Rectangle="158,65,254,91" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="GBX_XO_2" TextFormat="4"/>
+		<!--结果-->
+		<Result Type="Text" Rectangle="28,132,249,153" Font="MainMap" FontColor="Itemper_color" Text="" TextFormat="5"/>
+		<Text4 Type="Text" Rectangle="39,100,105,126" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="GBX_XO_3" TextFormat="4"/>
+		<!--活力值-->
+		<Vitality Type="Text" Rectangle="150,100,253,126" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="4"/>
+		<!--停止采集-->
+		<But_stop Template="T_Button2" Rectangle="230,157,290,184" ID="8180002" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="GBX_XO_4"/>
+		<!--技能-->
+		<SkillBtn Template="T_SkillButton" Rectangle="114,50,155,91" Enable="0" BtnTopPos="982,982" BtnTopRect="3,3,39,39" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" ID="-1" TextFormat="10" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540"/>
+	</GatherBoxUI>
+	
+</UIConfig>

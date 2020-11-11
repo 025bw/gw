@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UIConfig>
+	<UIHelper Template="T_BgWindow" Rectangle="0,0,280,500" Visible="0" Layer="3">
+		<HelpText Template="T_NormalMall" Rectangle="10,10,280,500" Texture="" TextFormat="16"/>
+	</UIHelper>
+</UIConfig>

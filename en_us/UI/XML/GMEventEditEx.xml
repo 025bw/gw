@@ -1,0 +1,101 @@
+<UIConfig>
+  <GMEventEditExWin Template="T_SimpleWindow"  ID="480800" Rectangle="100,150,552,680"  OnLoad="GMEventEditEx_OnLoad()" Visible="0">
+    <EventName Type="Text" Font="MainMap" Rectangle="30,20,200,50" FontColor="YELLOW_TEXTCOLOR" TextFormat="4" Text="活动名称"/>
+    <EventNameText Type="Text" Font="MainMap" Rectangle="150,20,400,50" FontColor="YELLOW_TEXTCOLOR" TextFormat="4" Text=""/>
+    <EventEdit_Box Type="EditBox" Rectangle="159,23,420,48" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+    
+    <EventTime Type="Text" Font="MainMap" Rectangle="30,50,200,80" FontColor="YELLOW_TEXTCOLOR" TextFormat="4" Text="活动时间"/>
+    <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="159,51,160,78" TexturePos="136,174" Text="" OnScaleX="256"/>
+    <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="150,51,159,78" TexturePos="131,174" Text=""/>
+    <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="415,51,422,78" TexturePos="137,174" Text=""/>
+    <TimeEdit_Box Type="EditBox" Rectangle="159,53,420,78" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+    
+    <EventLink Type="Text" Font="MainMap" Rectangle="30,80,200,110" FontColor="YELLOW_TEXTCOLOR" TextFormat="4" Text="活动链接"/>
+    <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="159,81,160,108" TexturePos="136,174" Text="" OnScaleX="256"/>
+    <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="150,81,159,108" TexturePos="131,174" Text=""/>
+    <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="415,81,422,108" TexturePos="137,174" Text=""/>
+    <LinkEdit_Box Type="EditBox"  Rectangle="159,83,420,108" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+    
+    <NPC1 Type="Text" Font="MainMap" Rectangle="30,110,200,140" FontColor="YELLOW_TEXTCOLOR" TextFormat="4" Text="NPC1坐标"/>
+    <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="159,111,160,138" TexturePos="136,174" Text="" OnScaleX="256"/>
+    <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="150,111,159,138" TexturePos="131,174" Text=""/>
+    <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="415,111,422,138" TexturePos="137,174" Text=""/>
+    <NPC1Edit_Box Type="EditBox" ID="480811" Rectangle="159,113,420,138" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+    
+    <NPC1Name Type="Text" Font="MainMap" Rectangle="30,140,200,170" FontColor="YELLOW_TEXTCOLOR" TextFormat="4" Text="NPC1名"/>
+    <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="159,141,160,168" TexturePos="136,174" Text="" OnScaleX="256"/>
+    <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="150,141,159,168" TexturePos="131,174" Text=""/>
+    <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="415,141,422,168" TexturePos="137,174" Text=""/>
+    <NPC1NameEdit_Box Type="EditBox" ID="480821"  Rectangle="159,143,420,168" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+    
+    <NPC2 Type="Text" Font="MainMap" Rectangle="30,170,200,200" FontColor="YELLOW_TEXTCOLOR" TextFormat="4" Text="NPC2坐标"/>
+    <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="159,171,160,198" TexturePos="136,174" Text="" OnScaleX="256"/>
+    <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="150,171,159,198" TexturePos="131,174" Text=""/>
+    <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="415,171,422,198" TexturePos="137,174" Text=""/>
+    <NPC2Edit_Box Type="EditBox" ID="480812"  Rectangle="159,173,420,198" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+    
+    <NPC2Name Type="Text" Font="MainMap" Rectangle="30,200,200,230" FontColor="YELLOW_TEXTCOLOR" TextFormat="4" Text="NPC2名"/>
+    <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="159,201,160,228" TexturePos="136,174" Text="" OnScaleX="256"/>
+    <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="150,201,159,228" TexturePos="131,174" Text=""/>
+    <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="415,201,422,228" TexturePos="137,174" Text=""/>
+    <NPC2NameEdit_Box Type="EditBox" ID="480822"  Rectangle="159,203,420,228" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+    
+    <NPC3 Type="Text" Font="MainMap" Rectangle="30,230,200,260" FontColor="YELLOW_TEXTCOLOR" TextFormat="4" Text="NPC3坐标"/>
+    <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="159,231,160,258" TexturePos="136,174" Text="" OnScaleX="256"/>
+    <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="150,231,159,258" TexturePos="131,174" Text=""/>
+    <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="415,231,422,258" TexturePos="137,174" Text=""/>
+    <NPC3Edit_Box Type="EditBox" ID="480813"  Rectangle="159,233,420,258" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+    
+    <NPC3Name Type="Text" Font="MainMap" Rectangle="30,260,200,290" FontColor="YELLOW_TEXTCOLOR" TextFormat="4" Text="NPC3名"/>
+    <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="159,261,160,288" TexturePos="136,174" Text="" OnScaleX="256"/>
+    <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="150,261,159,288" TexturePos="131,174" Text=""/>
+    <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="415,261,422,288" TexturePos="137,174" Text=""/>
+    <NPC3NameEdit_Box Type="EditBox" ID="480823"  Rectangle="159,263,420,288" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+    
+    <NPC4 Type="Text" Font="MainMap" Rectangle="30,290,200,320" FontColor="YELLOW_TEXTCOLOR" TextFormat="4" Text="NPC4坐标"/>
+    <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="159,291,160,318" TexturePos="136,174" Text="" OnScaleX="256"/>
+    <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="150,291,159,318" TexturePos="131,174" Text=""/>
+    <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="415,291,422,318" TexturePos="137,174" Text=""/>
+    <NPC4Edit_Box Type="EditBox" ID="480814"  Rectangle="159,293,420,318" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+    
+    <NPC4Name Type="Text" Font="MainMap" Rectangle="30,320,200,350" FontColor="YELLOW_TEXTCOLOR" TextFormat="4" Text="NPC4名"/>
+    <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="159,321,160,348" TexturePos="136,174" Text="" OnScaleX="256"/>
+    <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="150,321,159,348" TexturePos="131,174" Text=""/>
+    <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="415,321,422,348" TexturePos="137,174" Text=""/>
+    <NPC4NameEdit_Box Type="EditBox" ID="480824"  Rectangle="159,323,420,348" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+    
+    
+    <Timeid Type="Text" Font="MainMap" Rectangle="30,350,200,380" FontColor="YELLOW_TEXTCOLOR" TextFormat="4" Text="Timeid"/>
+    <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="159,351,160,378" TexturePos="136,174" Text="" OnScaleX="256"/>
+    <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="150,351,159,378" TexturePos="131,174" Text=""/>
+    <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="415,351,422,378" TexturePos="137,174" Text=""/>
+    <TimeidEdit_Box Type="EditBox" ID="480831"  Rectangle="159,353,420,378" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+    
+    <Time1 Type="Text" Font="MainMap" Rectangle="30,380,200,410" FontColor="YELLOW_TEXTCOLOR" TextFormat="4" Text="Time1"/>
+    <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="159,381,160,408" TexturePos="136,174" Text="" OnScaleX="256"/>
+    <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="150,381,159,408" TexturePos="131,174" Text=""/>
+    <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="415,381,422,408" TexturePos="137,174" Text=""/>
+    <Time1Edit_Box Type="EditBox" ID="480832"  Rectangle="159,383,420,408" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+    
+    <Time2 Type="Text" Font="MainMap" Rectangle="30,410,200,440" FontColor="YELLOW_TEXTCOLOR" TextFormat="4" Text="Time2"/>
+    <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="159,411,160,438" TexturePos="136,174" Text="" OnScaleX="256"/>
+    <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="150,411,159,438" TexturePos="131,174" Text=""/>
+    <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="415,411,422,438" TexturePos="137,174" Text=""/>
+    <Time2Edit_Box Type="EditBox" ID="480833"  Rectangle="159,413,420,438" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+    
+    <Time3 Type="Text" Font="MainMap" Rectangle="30,440,200,470" FontColor="YELLOW_TEXTCOLOR" TextFormat="4" Text="Time3"/>
+    <Edit_BoxMid Template="T_TitleText" ID="-1" Rectangle="159,441,160,468" TexturePos="136,174" Text="" OnScaleX="256"/>
+    <Edit_BoxLeft Template="T_TitleText" ID="-1" Rectangle="150,441,159,468" TexturePos="131,174" Text=""/>
+    <Edit_BoxRight Template="T_TitleText" ID="-1" Rectangle="415,441,422,468" TexturePos="137,174" Text=""/>
+    <Time3Edit_Box Type="EditBox" ID="480834"  Rectangle="159,443,420,468" MaxText="100" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="4" ResponseMouse="1" Ctrl = "1"/>
+    
+  
+    <!--确定按钮-->
+    <OKBtn  Template="T_Button4"  Rectangle="70,480,152,507"  OnClick="GMEventEditEx_OK()"  Text="确定"/>
+    <!--取消按钮-->      
+    <CancelBtn  Template="T_Button4"  Rectangle="170,480,252,507"  OnClick="GMEventEditEx_Cancel()"  Text="取消"/>
+    <!--清空按钮-->      
+    <ClearBtn  Template="T_Button4"  Rectangle="270,480,352,507"  OnClick="GMEventEditEx_Clear()" SText="GE_X0_9"/>
+  </GMEventEditExWin>
+ 
+</UIConfig>

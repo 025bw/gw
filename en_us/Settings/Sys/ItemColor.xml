@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="GB2312"?>
+<!--this is ItemColor config-->
+<ItemColor>
+    <Equip>
+        <Base>
+            <BaseLevel1 BaseLv="1" BaseName="Common" BaseColor="DEFAULT_TEXTCOLOR"/>
+            <BaseLevel2 BaseLv="2" BaseName="Enhanced" BaseColor="TEAM_COLOR"/>
+            <BaseLevel3 BaseLv="3" BaseName="Delicate" BaseColor="ItemCOLOR"/>
+            <BaseLevel4 BaseLv="4" BaseName="Good" BaseColor="GREEN_TEXTCOLOR"/>
+            <BaseLevel5 BaseLv="5" BaseName="Superior" BaseColor="GUILD_COLOR"/>
+            <BaseLevel6 BaseLv="6" BaseName="Classic" BaseColor="Classical_color"/>
+            <BaseLevel7 BaseLv="7" BaseName="Eternal" BaseColor="YELLOW_TEXTCOLOR"/>
+            <BaseLevel8 BaseLv="8" BaseName="Epic" BaseColor="WHISPER_COLOR"/>
+            <BaseLevel9 BaseLv="9" BaseName="Legendary" BaseColor="Legend_color"/>
+            <BaseLevel10 BaseLv="10" BaseName="Mystic" BaseColor="Itemper_color"/>
+        </Base>
+        <Append>
+            <AppLevel1 AppendLv="1" AppendStar="1" AppendColor="DEFAULT_TEXTCOLOR" AppAttributeColor="GREEN_TEXTCOLOR"/>
+            <AppLevel2 AppendLv="2" AppendStar="2" AppendColor="DEFAULT_TEXTCOLOR" AppAttributeColor="GREEN_TEXTCOLOR"/>
+            <AppLevel3 AppendLv="3" AppendStar="3" AppendColor="TEAM_COLOR" AppAttributeColor="GREEN_TEXTCOLOR"/>
+            <AppLevel4 AppendLv="4" AppendStar="4" AppendColor="TEAM_COLOR" AppAttributeColor="GREEN_TEXTCOLOR"/>
+            <AppLevel5 AppendLv="5" AppendStar="5" AppendColor="ItemCOLOR" AppAttributeColor="GREEN_TEXTCOLOR"/>
+            <AppLevel6 AppendLv="6" AppendStar="6" AppendColor="GREEN_TEXTCOLOR" AppAttributeColor="GREEN_TEXTCOLOR"/>
+            <AppLevel7 AppendLv="7" AppendStar="7" AppendColor="GUILD_COLOR" AppAttributeColor="GREEN_TEXTCOLOR"/>
+            <AppLevel8 AppendLv="8" AppendStar="8" AppendColor="YELLOW_TEXTCOLOR" AppAttributeColor="GREEN_TEXTCOLOR"/>
+            <AppLevel9 AppendLv="9" AppendStar="9" AppendColor="WHISPER_COLOR" AppAttributeColor="GREEN_TEXTCOLOR"/>
+            <AppLevel10 AppendLv="10" AppendStar="10" AppendColor="WHISPER_COLOR" AppAttributeColor="GREEN_TEXTCOLOR"/>
+            <AppLevel11 AppendLv="11" AppendStar="11" AppendColor="Legend_color" AppAttributeColor="GREEN_TEXTCOLOR"/>
+            <AppLevel12 AppendLv="12" AppendStar="12" AppendColor="Itemper_color" AppAttributeColor="GREEN_TEXTCOLOR"/>
+        </Append>
+        <Pet>
+            <Aptitude1 BaseLv="1" BaseName="Weak" BaseColor="DEFAULT_TEXTCOLOR"/>
+            <Aptitude2 BaseLv="2" BaseName="Foolish" BaseColor="DEFAULT_TEXTCOLOR"/>
+            <Aptitude3 BaseLv="3" BaseName="Cowardly" BaseColor="DEFAULT_TEXTCOLOR"/>
+            <Aptitude4 BaseLv="4" BaseName="Moderate" BaseColor="DEFAULT_TEXTCOLOR"/>
+            <Aptitude5 BaseLv="5" BaseName="Rational" BaseColor="TEAM_COLOR"/>
+            <Aptitude6 BaseLv="6" BaseName="Calm" BaseColor="YELLOW_TEXTCOLOR"/>
+            <Aptitude7 BaseLv="7" BaseName="Smart" BaseColor="YELLOW_TEXTCOLOR"/>
+            <Aptitude8 BaseLv="8" BaseName="Zealous" BaseColor="GREEN_TEXTCOLOR"/>
+            <Aptitude9 BaseLv="9" BaseName="Grumpy" BaseColor="TEAM_COLOR"/>
+            <Aptitude10 BaseLv="10" BaseName="Brave" BaseColor="GREEN_TEXTCOLOR"/>
+            <Aptitude11 BaseLv="11" BaseName="Overbearing" BaseColor="TEAM_COLOR"/>
+            <Aptitude12 BaseLv="12" BaseName="Ferocious" BaseColor="GREEN_TEXTCOLOR"/>
+            <Aptitude13 BaseLv="13" BaseName="Almighty" BaseColor="TEAM_COLOR"/>
+            <Aptitude14 BaseLv="14" BaseName="Godly" BaseColor="Itemper_color"/>
+            <Aptitude15 BaseLv="15" BaseName="Backup" BaseColor="TEAM_COLOR"/>
+            <Aptitude16 BaseLv="16" BaseName="Backup" BaseColor="TEAM_COLOR"/>
+            <Aptitude17 BaseLv="17" BaseName="Backup" BaseColor="TEAM_COLOR"/>
+            <Aptitude18 BaseLv="18" BaseName="Backup" BaseColor="TEAM_COLOR"/>
+            <Aptitude19 BaseLv="19" BaseName="Backup" BaseColor="TEAM_COLOR"/>
+            <Aptitude20 BaseLv="20" BaseName="Backup" BaseColor="TEAM_COLOR"/>
+        </Pet>
+    </Equip>
+</ItemColor>

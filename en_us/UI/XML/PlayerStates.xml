@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="GB2312"?>
+<!--
+    Copyright (c) 2008,欢乐连线工作室
+		All rights reserved
+
+		文件名称：PlayerStates.xml
+		摘    要：状态显示图标配置表
+
+		当前版本：1.00
+		作    者：C.D
+		完成日期：2008-03-13  
+-->
+<UIConfig>
+
+  <StatesWnd     Type="Window" Layer="1"  Rectangle="584,25,824,105"  Visible="1" Enable="0">
+    <GoodState7   Template="T_IconText"  ID="610007"   Rectangle="0,0,36,36"  Font="MainMap2" FontColor="YELLOW_TEXTCOLOR"/>
+    <GoodState6   Template="T_IconText"  ID="610006"     Rectangle="30,0,66,36" Font="MainMap2" FontColor="YELLOW_TEXTCOLOR"/>
+    <GoodState5   Template="T_IconText"  ID="610005"     Rectangle="60,0,96,36" Font="MainMap2" FontColor="YELLOW_TEXTCOLOR"/>
+    <GoodState4   Template="T_IconText"  ID="610004"     Rectangle="90,0,126,36" Font="MainMap2" FontColor="YELLOW_TEXTCOLOR"/>
+    <GoodState3   Template="T_IconText"  ID="610003"     Rectangle="120,0,156,36" Font="MainMap2" FontColor="YELLOW_TEXTCOLOR"/>
+    <GoodState2   Template="T_IconText"  ID="610002"     Rectangle="150,0,186,36" Font="MainMap2" FontColor="YELLOW_TEXTCOLOR"/>
+    <GoodState1   Template="T_IconText"  ID="610001"     Rectangle="180,0,216,36" Font="MainMap2" FontColor="YELLOW_TEXTCOLOR"/>
+    <GoodState0   Template="T_IconText"  ID="610000"     Rectangle="210,0,246,36" Font="MainMap2" FontColor="YELLOW_TEXTCOLOR"/>
+    
+
+    <EvilState7   Template="T_IconText"  ID="620007"     Rectangle="0,42,36,78" Font="MainMap2" FontColor="YELLOW_TEXTCOLOR"/>
+    <EvilState6   Template="T_IconText"  ID="620006"     Rectangle="30,42,66,78" Font="MainMap2" FontColor="YELLOW_TEXTCOLOR"/>
+    <EvilState5   Template="T_IconText"  ID="620005"     Rectangle="60,42,96,78"	Font="MainMap2"  FontColor="YELLOW_TEXTCOLOR"/>
+    <EvilState4   Template="T_IconText"  ID="620004"     Rectangle="90,42,126,78" Font="MainMap2" FontColor="YELLOW_TEXTCOLOR"/>
+    <EvilState3   Template="T_IconText"  ID="620003"     Rectangle="120,42,156,78" Font="MainMap2" FontColor="YELLOW_TEXTCOLOR"/>
+    <EvilState2   Template="T_IconText"  ID="620002"     Rectangle="150,42,186,78" Font="MainMap2" FontColor="YELLOW_TEXTCOLOR"/>
+    <EvilState1   Template="T_IconText"  ID="620001"     Rectangle="180,42,216,78" Font="MainMap2" FontColor="YELLOW_TEXTCOLOR"/>
+    <EvilState0   Template="T_IconText"  ID="620000"     Rectangle="210,42,246,78" Font="MainMap2" FontColor="YELLOW_TEXTCOLOR"/>    
+  </StatesWnd>
+
+  <NoteWnd        Template="T_BgWindow" Rectangle="0,0,176,96"  Visible="0" Enable="0">    
+  </NoteWnd>
+
+</UIConfig>
+
+
+  

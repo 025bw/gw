@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2008,欢乐连线工作室
+		All rights reserved
+
+		文件名称：MiniMap.xml
+		摘    要：小地图配置表
+
+		当前版本：1.00
+		作    者：C.D
+		完成日期：2008-03-20  
+ 
+-->
+<UIConfig>
+  <!--用语改变贴图绘制顺序-->
+
+  <MapWinBack         Template="T_MiniMapWindow" ID="120700" Layer="0"  Visable="0"  Rectangle="849,0,1024,219">
+    <NetStatusText  Type="Text" ID="120802" Rectangle="7,6,23,18" TexturePos="241,189" Texture="./Localization/en_us/UI/Texture/main.gwo" text="127,300" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+    <CityText     Type="Text" ID="120701" Rectangle="34,0,160,25 " TexturePos="850,423" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+    <!--<MapText      Type="Text" ID="120702" Rectangle="3,26,163,186" TexturePos="100,200" Texture="./Localization/en_us/UI/Texture/MinMap/Athens.gwo" Font="MainFont12" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>-->
+    <MapText      Type="Text" ID="120702" Rectangle="8,26,170,186" TexturePos="100,200" Texture="" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+    
+    <!--GM-->
+    <GMBtn   Type="Button" Rectangle="-26,25,0,57" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="307,200" ID="120706" Visible="0"/>
+    <GMBtn   Type="Button" Rectangle="-26,25,0,57" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="307,200" ID="" OnClick ="GmmailOnClick()"/>
+    <!--活动-->
+    <EventBtn   Type="Button" Rectangle="-26,57,0,89" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="333,200" ID="120707" OnClick="EventBtn_OnClick()"/>
+    <!--地图设置-->
+    <ViewSetBtn   Type="Button" Rectangle="-26,89,0,121" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="359,200" OnClick="ViewSetBtn_OnClick()" ID="120708"/>
+    <!--排行榜-->
+    <ToptenBtn   Type="Button" Rectangle="-26,121,0,153" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="385,200" ID="120710" OnClick="ToptenBtn_OnClick()"/>
+    <!--新手指引-->
+    <RookieBtn   ID="120711" Type="Button" Rectangle="-26,153,0,185" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="1024,1024" OnClick="RookieBtn_OnClick()" OnUpdate="RookieBtn_Update()" Enable="0"  />
+    <!--时间显示-->
+    <TimeWinLeft     Type="Text"  Rectangle="-70,3,-50,24" TexturePos="59,985" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR"/>
+    <TimeWinMid     Type="Text"  Rectangle="-50,3,-20,24" TexturePos="69,985" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR"/>
+    <TimeWinMid     Type="Text"  Rectangle="-20,3,0,24" TexturePos="119,985" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR"/>
+    <TimeText   Type="Text" Rectangle="-70,3,0,23" Texture="./Localization/en_us/UI/Texture/Main.gwo" TexturePos="1024,1024" Text="19:00AM" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5" OnHovered="SeverTime_OnHov(0)" CanHovered="1" OnLeft = "HelperLeftFunc()"/>
+  </MapWinBack>
+  <MapWinFront      Type="Window"  ID="120705" Layer="0" Rectangle="845,0,1023,189"  >
+    <PositionText Type="Text" ID="120801" Rectangle="50,26,137,39" TexturePos="33,851" Texture="./Localization/en_us/UI/Texture/main.gwo" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR"  TextFormat="5"/>
+    <AutoSeekWayBtn Template="T_NewBotton"  Rectangle="22,187,78,211"  SText="ASW_X0_1" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextOffset="8,-2,0,0" OnClick="AutoSeekWayBtn_OnClick()"/>
+    <AutoSeekWaying Type="Button" ID="120805" Rectangle="-21,153,9,183" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="408,506" Text="" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Visible="0"/>   
+
+    <Mapbutton Template="T_NewBotton" ID="120803" Rectangle="90,187,146,211"  Text="Map" TextOffset="8,-2,0,0"/>
+  </MapWinFront>
+  <MapWinMainPlayer      Type="Window" Layer="1" Rectangle="845,0,1023,189"  >
+  </MapWinMainPlayer>
+
+  <!--MapShaderWin      Type="Window" ID="120800" Layer="1"  Rectangle="889,0,1024,169" TexturePos="0,686,1023,855" Texture="./Localization/en_us/UI/Texture/main.gwo" Visable="0" /-->
+  <!--<Mapbutton    Template="T_Button2" ID="120803" Rectangle="139,160,200,187" />-->
+  <!-- background     Template="GWOText" ID="120709" Rectangle="13,42,171,200" TexturePos="100,200,876,432" Texture="./Localization/en_us/UI/Texture/MinMap/Athens.gwo" Visible="0"/-->
+  
+    <Script File="./Localization/en_us/UI/XML/MiniMapProc.lua" Help=""/>
+
+</UIConfig>
+
+ 

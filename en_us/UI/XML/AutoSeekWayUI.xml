@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2008,欢乐连线工作室
+		All rights reserved
+
+		文件名称：AutoSeekWayUI.xml
+		摘    要：自动寻路配置表
+
+		当前版本：1.00
+		作    者：Tavia
+		完成日期：2008-03-22  
+ 
+-->
+<UIConfig>
+  <AutoSeekWayBtnUI Type="Window" ID="245000" Modal="0" Layer="2" Rectangle="0,0,0,0" TexturePos="0,0" Texture="./Localization/en_us/UI/Texture/main.gwo" Visible="0"  Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR">
+    <AutoSeekWayBtn Template="T_NewBotton" ID="245001" Rectangle="24,0,80,24"  SText="ASW_X0_1" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextOffset="8,-2,0,0" Visible="0"/>
+    
+  </AutoSeekWayBtnUI>
+  <AudioSetupListUI Template="T_SimpleWindow" ID="245100" Modal="0" Rectangle="790,214,969,700" Visible="0">
+    <ListBox1 Type="ListBox" ID="245101" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="14,15,167,565" TexturePos="0,0" ScrollTexture="./Localization/en_us/UI/Texture/main.gwo"  ScrollRect="116,2,141,202" ScrollPos="0,0" BtnPos="765,0" BtnRect="0,0,32,32" Font="MainFonts" FontColor="DEFAULT_TEXTCOLOR" Height="20"/>
+  </AudioSetupListUI>
+</UIConfig>

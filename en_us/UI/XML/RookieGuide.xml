@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIConfig>
+  <RookieGuideWin Template="T_NormalWindow" Rectangle="200,50,895,627" OnLoad="RookieGuide_OnLoad()" Visible ="0" BtnRect="625,13,662,50" BtnPos="0,80" MoveRect="0,0,1024,768">
+
+   
+    <!--神旅向导-->
+    <GodGuideWin  Template="T_BgWindow"  Rectangle="20,85,211,323" Visible ="0" Enable="0" >
+      <GodGuide Type="Text" Font="MainMap" Rectangle="17,6,168,30" FontColor="YELLOW_TEXTCOLOR" TextFormat="21" SText="RG_X0_1" />
+      <Line Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="1,29,2,30" TexturePos="140,40"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleX="186"/>
+
+      <ListBox1Top  Type="Text"  ID="-1" Rectangle="172,22,197,47"   TexturePos="720,0" Texture="./Localization/en_us/UI/Texture/main.gwo"   Text=""/>
+      <ListBox1Btm  Type="Text"  ID="-1" Rectangle="172,188,197,213" TexturePos="720,30" Texture="./Localization/en_us/UI/Texture/main.gwo"   Text=""/>
+      <ListBoxScrollMid Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="172,47,197,48" TexturePos="720,26"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleY="141"/>
+
+      <UpBtn Type="Button" ID="-1"   Rectangle="169,0,197,22"    TexturePos="0,228"   Texture="./Localization/en_us/UI/Texture/main.gwo"   Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""
+OnClick="UpListBoxBtn()"/>
+      <DownBtn Type="Button" ID="-1" Rectangle="169,213,197,235" TexturePos="29,228"  Texture="./Localization/en_us/UI/Texture/main.gwo"   Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text=""
+OnClick="DownListBoxBtn()"/>
+
+      <ListBox Type="ListBox"  Rectangle="3,30,188,235" OnSelected="RookieGuide_TypeOnSelect()" TexturePos="144,20"  ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollRect="172,-4,195,182" ScrollPos="1024,1024" BtnPos="133,122" BtnRect="0,0,17,27" Height="20">
+
+      </ListBox>
+
+    </GodGuideWin>
+
+
+    <!--引导任务-->
+
+    <GuideQuestWin  Template="T_BgWindow"  Rectangle="20,325,211,533" Visible ="1" Enable="0" >
+      <GuideQuest Type="Text" Font="MainMap" Rectangle="12,6,173,30" FontColor="YELLOW_TEXTCOLOR" TextFormat="21" Text="" />
+      <Line1 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="1,29,2,30" TexturePos="140,40"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleX="186"/>
+
+      <ListBox2Top  Type="Text"  ID="-1" Rectangle="172,22,197,47"   TexturePos="720,0" Texture="./Localization/en_us/UI/Texture/main.gwo"   Text=""/>
+      <ListBox2Btm  Type="Text"  ID="-1" Rectangle="172,161,197,186" TexturePos="720,30" Texture="./Localization/en_us/UI/Texture/main.gwo"   Text=""/>
+      <ListBoxScrollMid Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="172,47,197,48" TexturePos="720,26"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleY="114"/>
+
+      <UpBtn Type="Button" ID="-1"   Rectangle="169,0,197,22"    TexturePos="0,228"   Texture="./Localization/en_us/UI/Texture/main.gwo"   Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnClick="UpListBoxBtn()"/>
+      <DownBtn Type="Button" ID="-1" Rectangle="169,186,197,208" TexturePos="29,228"  Texture="./Localization/en_us/UI/Texture/main.gwo"   Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnClick="DownListBoxBtn()"/>
+
+      <ListBox Type="ListBox"  Rectangle="3,30,188,205" OnSelected="RookieGuide_QuestOnSelect()" TexturePos="144,20"  ScrollTexture="./Localization/en_us/UI/Texture/main.gwo" ScrollRect="172,-4,195,155" ScrollPos="1024,1024" BtnPos="133,122" BtnRect="0,0,17,27" Height="20">
+
+      </ListBox>
+    </GuideQuestWin>
+
+
+    <!--详细内容-->
+    <TypeDetailWin Template="T_BgWindow" ID="-1" Rectangle="216,87,675,535"  Visible ="0">
+      <Title Type="Text" Font="MainMap" Rectangle="0,5,409,25" FontColor="YELLOW_TEXTCOLOR" TextFormat="5" Text="" />
+      
+      <Line1 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="1,28,2,29" TexturePos="140,40"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleX="458"/>
+      <GuideDescribe Type="Text" Font="MainMap" Rectangle="5,40,460,60"  TextFormat="16" Text="" Visible ="1"/>
+      
+    </TypeDetailWin>
+    
+    <QuestDetailWin Template="T_BgWindow" ID="-1" Rectangle="216,87,675,535"  Visible ="0">
+      <Title Type="Text" Font="MainMap" Rectangle="0,5,409,25" FontColor="YELLOW_TEXTCOLOR" TextFormat="5" Text="" />
+      
+      <Line1 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="1,28,2,29" TexturePos="140,40"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleX="458"/>
+
+      <QuestDescribe Type="Text" Font="MainMap" Rectangle="5,40,359,60"  TextFormat="0" SText="RG_X0_2" Visible ="1"/>
+      <QuestDescribeText Type="Text" Font="MainMap" Rectangle="5,60,460,80"  TextFormat="16" Text="" Visible ="1"/>
+
+      <Line2 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="11,144,12,145" TexturePos="140,40"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleX="388" Visible ="0"/>
+      <QuestGuide Type="Text" Font="MainMap" Rectangle="5,170,359,190"  TextFormat="0" SText="RG_X0_3" Visible ="1"/>
+      <QuestGuideText Type="Text" Font="MainMap" Rectangle="5,190,460,210"  TextFormat="16" Text="" Visible ="1"/>
+
+      <Line3 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="11,239,12,240" TexturePos="140,40"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleX="388" Visible ="0"/>
+      <QuestInfo Type="Text" Font="MainMap" Rectangle="5,275,359,295" FontColor="GREEN_TEXTCOLOR" TextFormat="0" SText="RG_X0_4" Visible ="1"/>
+      <QuestInfoText Type="Text" Font="MainMap" Rectangle="5,295,460,315"  TextFormat="16" Text="" Visible ="1"/>
+
+      <Line4 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="11,334,12,335" TexturePos="140,40"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleX="388" Visible ="0"/>
+      <QuestEncour Type="Text" Font="MainMap" Rectangle="5,345,359,365" FontColor="YELLOW_TEXTCOLOR" TextFormat="0" SText="RG_X0_5" Visible ="1"/>
+      <QuestEncourText Type="Text" Font="MainMap" Rectangle="5,365,460,385"  TextFormat="16" Text="" Visible ="1"/>
+
+      <Line5 Type="Text" ID="-1" Texture="./Localization/en_us/UI/Texture/main.gwo" Rectangle="1,420,2,421" TexturePos="140,40"  Font="Mainlogin2" FontColor="DEFAULT_TEXTCOLOR" Text="" OnScaleX="458"/>
+
+
+
+    </QuestDetailWin>
+    <!--删除任务-->
+     <LinkBtn  Template="T_Button4"  Rectangle="583,538,665,565" Font="MainMap" TextFormat="5" SText="RG_X0_6" OnClick="RookieGuide_DeleteClick()" OnScaleX="1.1"/>
+     <!--完成任务-->
+     <CompleteBtn  Template="T_Button4"  Rectangle="451,538,533,565" Font="MainMap" TextFormat="5" SText="RGP_L0_2" OnClick="RookieGuide_CompleteClick()" OnScaleX="1.3"/>
+   
+  </RookieGuideWin>
+  <Script File="./Localization/en_us/UI/XML/RookieGuideProc.lua"/>
+  <Script File="./Localization/en_us/UI/XML/RookieGuideCofig.lua"/>
+  
+</UIConfig>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2008,欢乐连线工作室
+		All rights reserved
+
+		文件名称：TeamUI.xml
+		摘    要：队伍配置表
+
+		当前版本：1.00
+		作    者：C.D
+		完成日期：2008-03-22
+ 
+-->
+
+
+<UIConfig>
+  <TeamUI Type="Window" ID="200000" Layer="1"  Rectangle="0,140,174,400" TexturePos="176,180" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" >
+
+    <Player1 Type="Window" ID="200100" Layer="1"  Rectangle="0,0,165,70" TexturePos="464,874" Texture="./Localization/en_us/UI/Texture/main.gwo"  >
+      <TeamBackground Template="T_NormalText"             Rectangle="0,0,165,70 "    TexturePos="464,874" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <Teamblood      Template="T_NormalText" ID="200102" Rectangle="49,45,143,56"  TexturePos="800,153" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextWeight="3" TextFormat="5"/>
+      <TeamLeader     Template="T_NormalText" ID="200103" Rectangle="43,4,58,16"   TexturePos="262,242" Texture="./Localization/en_us/UI/Texture/main.gwo" Text=""/>
+      <TeamFaction    Template="T_NormalText" ID="200104" Rectangle="10,5,35,29"     TexturePos="590,20"    Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <TeamLevel      Template="T_Money" ID="200105" Rectangle="21,42,38,56"   TexturePos="0,0,0,0"         Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <TeamName       Template="T_Money" ID="200101" Rectangle="33,19,152,31"  TexturePos="176,180,344,222" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <Player1Btn Type="Button"  Rectangle="0,0,165,70" TexturePos="1024,1024" Texture="./Localization/en_us/UI/Texture/main.gwo"/>
+    </Player1>
+
+    <Player2 Type="Window" ID="200200" Layer="1"  Rectangle="0,60,165,120" TexturePos="464,874" Texture="./Localization/en_us/UI/Texture/main.gwo" >
+      <TeamBackground Template="T_NormalText"             Rectangle="0,0,165,70 "    TexturePos="464,874" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <Teamblood      Template="T_NormalText" ID="200202" Rectangle="49,45,143,56"  TexturePos="800,153" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextWeight="3" TextFormat="5"/>
+      <TeamLeader     Template="T_NormalText" ID="200203" Rectangle="43,4,58,16"   TexturePos="937,997" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <TeamLevel      Template="T_Money" ID="200205" Rectangle="21,42,38,56"   TexturePos="0,0,0,0"         Texture="./Localization/en_us/UI/Texture/main.gwo" Text=""/>
+      <TeamFaction    Template="T_NormalText" ID="200204" Rectangle="10,5,35,29"     TexturePos="590,20"    Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <TeamName       Template="T_Money" ID="200201" Rectangle="33,19,152,31"  TexturePos="176,180,344,222" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <Player2Btn Type="Button"  Rectangle="0,0,165,70" TexturePos="1024,1024" Texture="./Localization/en_us/UI/Texture/main.gwo"/>
+    </Player2>
+    <Player3 Type="Window" ID="200300" Layer="1"  Rectangle="0,120,165,180" TexturePos="464,874" Texture="./Localization/en_us/UI/Texture/main.gwo" >
+      <TeamBackground Template="T_NormalText"             Rectangle="0,0,165,70 "    TexturePos="464,874" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <Teamblood      Template="T_NormalText" ID="200302" Rectangle="49,45,143,56"  TexturePos="800,153" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextWeight="3" TextFormat="5"/>
+      <TeamLeader     Template="T_NormalText" ID="200303" Rectangle="43,4,58,16"   TexturePos="937,997" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <TeamFaction    Template="T_NormalText" ID="200304" Rectangle="10,5,35,29"     TexturePos="590,20"    Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <TeamLevel      Template="T_Money" ID="200305" Rectangle="21,42,38,56"   TexturePos="0,0,0,0"         Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <TeamName       Template="T_Money" ID="200301" Rectangle="33,19,152,31"  TexturePos="176,180,344,222" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <Player3Btn Type="Button"  Rectangle="0,0,165,70" TexturePos="1024,1024" Texture="./Localization/en_us/UI/Texture/main.gwo"/>
+    </Player3>
+    <Player4 Type="Window" ID="200400" Layer="1"  Rectangle="0,180,165,240" TexturePos="464,874"  Texture="./Localization/en_us/UI/Texture/main.gwo" >
+      <TeamBackground Template="T_NormalText"             Rectangle="0,0,165,70 "    TexturePos="464,874" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <Teamblood      Template="T_NormalText" ID="200402" Rectangle="49,45,143,56"  TexturePos="800,153" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" Font="MainMap2" FontColor="DEFAULT_TEXTCOLOR" TextWeight="3" TextFormat="5"/>
+      <TeamLeader     Template="T_NormalText" ID="200403" Rectangle="43,4,58,16"   TexturePos="937,997" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <TeamFaction    Template="T_NormalText" ID="200404" Rectangle="10,5,35,29"     TexturePos="590,20"    Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <TeamLevel      Template="T_Money" ID="200405" Rectangle="21,42,38,56"   TexturePos="0,0,1,1"         Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <TeamName       Template="T_Money" ID="200401" Rectangle="33,19,152,31"  TexturePos="176,180,344,222" Texture="./Localization/en_us/UI/Texture/main.gwo" Text="" />
+      <Player4Btn Type="Button"  Rectangle="0,0,165,70" TexturePos="1024,1024" Texture="./Localization/en_us/UI/Texture/main.gwo"/>
+    </Player4>
+  </TeamUI>
+
+  <TeamMenu Template="T_SimpleWindow" ID="210000"  Rectangle="0,120,95,292" >
+    <changeleader Template="T_Button4" ID="210001" Rectangle="6,10,88,37"     SText="T_X0_1"  Font="MainMap"/>
+    <fireout      Template="T_Button4" ID="210002" Rectangle="6,35,88,62"     SText="T_X0_2"  Font="MainMap"/>
+    <destroy      Template="T_Button4" ID="210003" Rectangle="6,60,88,87"     SText="T_X0_3"  Font="MainMap"/>
+    <escape       Template="T_Button4" ID="210004" Rectangle="6,85,88,112"    SText="T_X0_4"  Font="MainMap"/>
+    <addfriend    Template="T_Button4" ID="210005" Rectangle="6,110,88,137"   SText="T_X0_5"  Font="MainMap"/>
+    <whisper      Template="T_Button4" ID="210006" Rectangle="6,135,88,162"   SText="T_X0_6"  Font="MainMap"/>
+  </TeamMenu>
+</UIConfig>

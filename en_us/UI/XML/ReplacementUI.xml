@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2008,欢乐连线工作室
+		All rights reserved
+
+		文件名称：
+		摘    要：大型包果
+
+		当前版本：1.00
+		作    者：赖滔
+		完成日期：2009-1-13
+ 
+-->
+<UIConfig>
+  <SelEquipWin Template="T_NormalWindow" ID="2000000" Rectangle="654,102,944,690" BtnRect="221,13,259,50" BtnPos="0,80" Visible ="0">
+    <!--第一行按钮-->
+    <Item0 Type="Button" ID="2000001" Rectangle="30,121,72,163" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    <Item1 Type="Button" ID="2000002" Rectangle="90,121,132,163" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    <Item2 Type="Button" ID="2000003" Rectangle="150,121,192,163" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    <Item3 Type="Button" ID="2000004" Rectangle="210,121,252,163" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    
+    <!--第二行按钮-->
+    <Item4 Type="Button" ID="2000005" Rectangle="30,183,72,225" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    <Item5 Type="Button" ID="2000006" Rectangle="90,183,132,225" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    <Item6 Type="Button" ID="2000007" Rectangle="150,183,192,225" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    <Item7 Type="Button" ID="2000008" Rectangle="210,183,252,225" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    
+    <!--第三行按钮-->
+    <Item8 Type="Button" ID="2000009" Rectangle="30,245,72,287" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    <Item9 Type="Button" ID="2000010" Rectangle="90,245,132,287" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    <Item10 Type="Button" ID="2000011" Rectangle="150,245,192,287" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    <Item11 Type="Button" ID="2000012" Rectangle="210,245,252,287" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    
+    <!--第四行按钮-->
+    <Item12 Type="Button" ID="2000013" Rectangle="30,307,72,349" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    <Item13 Type="Button" ID="2000014" Rectangle="90,307,132,349" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    <Item14 Type="Button" ID="2000015" Rectangle="150,307,192,349" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    <Item15 Type="Button" ID="2000016" Rectangle="210,307,252,349" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    
+    <!--第五行按钮-->
+    <Item16 Type="Button" ID="2000017" Rectangle="30,369,72,411" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    <Item17 Type="Button" ID="2000018" Rectangle="90,369,132,411" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    <Item18 Type="Button" ID="2000019" Rectangle="150,369,192,411" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    <Item19 Type="Button" ID="2000020" Rectangle="210,369,252,411" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text=""/>
+    
+    <!--第六行按钮-->
+    <Item20 Type="Button" ID="2000021" Rectangle="30,431,72,473" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text="" Visible="0"/>
+    <Item21 Type="Button" ID="2000022" Rectangle="90,431,132,473" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text="" Visible="0"/>
+    <Item22 Type="Button" ID="2000023" Rectangle="150,431,192,473" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text="" Visible="0"/>
+    <Item23 Type="Button" ID="2000024" Rectangle="210,431,252,473" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="0,540" BtnTopTexture="./Localization/en_us/UI/Texture/icon.gwo" BtnTopPos="982,982" BtnTopRect="3,3,39,39" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="10" Text="" Visible="0"/>
+
+    <!--确认-->
+    <YesBt Type="Button" ID="2100000" Rectangle="140,508,208,535" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="197,81" SText="IC_X0_3" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+
+    <!--取消-->
+    <NoBt Type="Button" ID="2100001" Rectangle="218,508,286,535" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="197,81" SText="IC_X0_4" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" TextFormat="5"/>
+
+
+    <!--说明字-->
+    <WText1 Type="Text" Rectangle="0,80,290,95" Texture="./Localization/en_us/UI/Texture/main.gwo" TexturePos="1024,1024" SText="IC_X0_5" Font="MainFonts" TextFormat="5"/>
+
+  </SelEquipWin>
+</UIConfig>

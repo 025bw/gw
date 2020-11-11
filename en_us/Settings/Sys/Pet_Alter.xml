@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="GB2312"?>
+<!--this is Pet Alter config-->
+<Alter>
+    <Indenture>
+        <Indenture ItemID="10105" Num="5" Base_Alter="300,400,500,600,700,800"/>
+    </Indenture>
+    <Resurge>
+        <Resurge ItemID="10104" limitItemID="10098" Num="5" Base_Alter="20" Min_Alter="10,20,30,40,50" Max_Alter="100,100,100,100,100" Samsara="1,2,3,4,5,6,7,8,9,10" PetLv="50,80,100,110,120,120,120,120,120,120"/>
+    </Resurge>
+    <Inosculate>
+        <Config>
+            <Inosculate ItemID="10103" limitItemID="10097" Num="5" Min_Alter="10,20,30,40,50" Max_Alter="100,100,100,100,100" Leading_PetLv="30" Minor_PetLv="30" Quality="99999999" Modulus="5"/>
+        </Config>
+        <Restrict>
+            <Val1 Qualityadd="-3000" Restrict="-4000" Values="1"/>
+            <Val2 Qualityadd="-2988" Restrict="-3990" Values="2"/>
+            <Val3 Qualityadd="-2976" Restrict="-3980" Values="3"/>
+            <Val4 Qualityadd="-2964" Restrict="-3970" Values="4"/>
+            <Val5 Qualityadd="-2952" Restrict="-3960" Values="5"/>
+            <Val6 Qualityadd="-2940" Restrict="-3950" Values="6"/>
+            <Val7 Qualityadd="-2928" Restrict="-3940" Values="7"/>
+            <Val8 Qualityadd="-2916" Restrict="-3930" Values="8"/>
+            <Val9 Qualityadd="-2904" Restrict="-3920" Values="9"/>
+            <Val10 Qualityadd="-2892" Restrict="-3910" Values="10"/>
+            <Val11 Qualityadd="-2880" Restrict="-3898" Values="11"/>
+            <Val12 Qualityadd="-2868" Restrict="-3886" Values="12"/>
+            <Val13 Qualityadd="-2856" Restrict="-3874" Values="13"/>
+            <Val14 Qualityadd="-2844" Restrict="-3862" Values="14"/>
+            <Val15 Qualityadd="-2832" Restrict="-3850" Values="15"/>
+            <Val16 Qualityadd="-2820" Restrict="-3838" Values="16"/>
+            <Val17 Qualityadd="-2808" Restrict="-3824" Values="17"/>
+            <Val18 Qualityadd="-2796" Restrict="-3810" Values="18"/>
+            <Val19 Qualityadd="-2784" Restrict="-3796" Values="19"/>
+            <Val20 Qualityadd="-2772" Restrict="-3782" Values="20"/>
+            <Val21 Qualityadd="-2760" Restrict="-3768" Values="21"/>
+            <Val22 Qualityadd="-2748" Restrict="-3754" Values="22"/>
+            <Val23 Qualityadd="-2736" Restrict="-3738" Values="23"/>
+            <Val24 Qualityadd="-2724" Restrict="-3722" Values="24"/>
+            <Val25 Qualityadd="-2712" Restrict="-3706" Values="25"/>
+            <Val26 Qualityadd="-2700" Restrict="-3690" Values="26"/>
+            <Val27 Qualityadd="-2688" Restrict="-3674" Values="27"/>
+            <Val28 Qualityadd="-2676" Restrict="-3658" Values="28"/>
+            <Val29 Qualityadd="-2664" Restrict="-3640" Values="29"/>
+            <Val30 Qualityadd="-2652" Restrict="-3622" Values="30"/>
+            <Val31 Qualityadd="-2640" Restrict="-3604" Values="31"/>
+            <Val32 Qualityadd="-2628" Restrict="-3586" Values="32"/>
+            <Val33 Qualityadd="-2616" Restrict="-3568" Values="33"/>
+            <Val34 Qualityadd="-2604" Restrict="-3550" Values="34"/>
+            <Val35 Qualityadd="-2592" Restrict="-3530" Values="35"/>
+            <Val36 Qualityadd="-2580" Restrict="-3510" Values="36"/>
+            <Val37 Qualityadd="-2568" Restrict="-3490" Values="37"/>
+            <Val38 Qualityadd="-2556" Restrict="-3470" Values="38"/>
+            <Val39 Qualityadd="-2544" Restrict="-3450" Values="39"/>
+            <Val40 Qualityadd="-2532" Restrict="-3430" Values="40"/>
+            <Val41 Qualityadd="-2520" Restrict="-3408" Values="41"/>
+            <Val42 Qualityadd="-2508" Restrict="-3386" Values="42"/>
+            <Val43 Qualityadd="-2496" Restrict="-3364" Values="43"/>
+            <Val44 Qualityadd="-2484" Restrict="-3342" Values="44"/>
+            <Val45 Qualityadd="-2472" Restrict="-3320" Values="45"/>
+            <Val46 Qualityadd="-2460" Restrict="-3296" Values="46"/>
+            <Val47 Qualityadd="-2448" Restrict="-3272" Values="47"/>
+            <Val48 Qualityadd="-2436" Restrict="-3248" Values="48"/>
+            <Val49 Qualityadd="-2424" Restrict="-3224" Values="49"/>
+            <Val50 Qualityadd="-2400" Restrict="-3200" Values="50"/>
+            <Val51 Qualityadd="-2388" Restrict="-3168" Values="51"/>
+            <Val52 Qualityadd="-2376" Restrict="-3136" Values="52"/>
+            <Val53 Qualityadd="-2364" Restrict="-3104" Values="53"/>
+            <Val54 Qualityadd="-2352" Restrict="-3072" Values="54"/>
+            <Val55 Qualityadd="-2340" Restrict="-3040" Values="55"/>
+            <Val56 Qualityadd="-2328" Restrict="-3008" Values="56"/>
+            <Val57 Qualityadd="-2316" Restrict="-2976" Values="57"/>
+            <Val58 Qualityadd="-2304" Restrict="-2944" Values="58"/>
+            <Val59 Qualityadd="-2292" Restrict="-2912" Values="59"/>
+            <Val60 Qualityadd="-2280" Restrict="-2880" Values="60"/>
+            <Val61 Qualityadd="-2268" Restrict="-2848" Values="61"/>
+            <Val62 Qualityadd="-2256" Restrict="-2816" Values="62"/>
+            <Val63 Qualityadd="-2244" Restrict="-2784" Values="63"/>
+            <Val64 Qualityadd="-2232" Restrict="-2752" Values="64"/>
+            <Val65 Qualityadd="-2220" Restrict="-2720" Values="65"/>
+            <Val66 Qualityadd="-2208" Restrict="-2688" Values="66"/>
+            <Val67 Qualityadd="-2196" Restrict="-2656" Values="67"/>
+            <Val68 Qualityadd="-2184" Restrict="-2624" Values="68"/>
+            <Val69 Qualityadd="-2172" Restrict="-2592" Values="69"/>
+            <Val70 Qualityadd="-2160" Restrict="-2560" Values="70"/>
+            <Val71 Qualityadd="-2148" Restrict="-2528" Values="71"/>
+            <Val72 Qualityadd="-2136" Restrict="-2496" Values="72"/>
+            <Val73 Qualityadd="-2124" Restrict="-2464" Values="73"/>
+            <Val74 Qualityadd="-2112" Restrict="-2432" Values="74"/>
+            <Val75 Qualityadd="-2100" Restrict="-2400" Values="75"/>
+            <Val76 Qualityadd="-2088" Restrict="-2368" Values="76"/>
+            <Val77 Qualityadd="-2076" Restrict="-2336" Values="77"/>
+            <Val78 Qualityadd="-2064" Restrict="-2304" Values="78"/>
+            <Val79 Qualityadd="-2052" Restrict="-2272" Values="79"/>
+            <Val80 Qualityadd="-2040" Restrict="-2240" Values="80"/>
+            <Val81 Qualityadd="-2028" Restrict="-2208" Values="81"/>
+            <Val82 Qualityadd="-2016" Restrict="-2176" Values="82"/>
+            <Val83 Qualityadd="-2004" Restrict="-2144" Values="83"/>
+            <Val84 Qualityadd="-1992" Restrict="-2112" Values="84"/>
+            <Val85 Qualityadd="-1980" Restrict="-2080" Values="85"/>
+            <Val86 Qualityadd="-1968" Restrict="-2048" Values="86"/>
+            <Val87 Qualityadd="-1956" Restrict="-2016" Values="87"/>
+            <Val88 Qualityadd="-1944" Restrict="-1984" Values="88"/>
+            <Val89 Qualityadd="-1932" Restrict="-1952" Values="89"/>
+            <Val90 Qualityadd="-1920" Restrict="-1920" Values="90"/>
+            <Val91 Qualityadd="-1908" Restrict="-1888" Values="91"/>
+            <Val92 Qualityadd="-1896" Restrict="-1856" Values="92"/>
+            <Val93 Qualityadd="-1884" Restrict="-1824" Values="93"/>
+            <Val94 Qualityadd="-1872" Restrict="-1792" Values="94"/>
+            <Val95 Qualityadd="-1860" Restrict="-1760" Values="95"/>
+            <Val96 Qualityadd="-1848" Restrict="-1728" Values="96"/>
+            <Val97 Qualityadd="-1836" Restrict="-1696" Values="97"/>
+            <Val98 Qualityadd="-1824" Restrict="-1664" Values="98"/>
+            <Val99 Qualityadd="-1812" Restrict="-1632" Values="99"/>
+            <Val100 Qualityadd="-1800" Restrict="-1600" Values="100"/>
+            <Val101 Qualityadd="-1776" Restrict="-1568" Values="102"/>
+            <Val102 Qualityadd="-1752" Restrict="-1536" Values="104"/>
+            <Val103 Qualityadd="-1728" Restrict="-1504" Values="106"/>
+            <Val104 Qualityadd="-1704" Restrict="-1472" Values="108"/>
+            <Val105 Qualityadd="-1680" Restrict="-1440" Values="110"/>
+            <Val106 Qualityadd="-1656" Restrict="-1408" Values="112"/>
+            <Val107 Qualityadd="-1632" Restrict="-1376" Values="114"/>
+            <Val108 Qualityadd="-1608" Restrict="-1344" Values="116"/>
+            <Val109 Qualityadd="-1584" Restrict="-1312" Values="118"/>
+            <Val110 Qualityadd="-1560" Restrict="-1280" Values="120"/>
+            <Val111 Qualityadd="-1536" Restrict="-1248" Values="122"/>
+            <Val112 Qualityadd="-1512" Restrict="-1216" Values="124"/>
+            <Val113 Qualityadd="-1488" Restrict="-1184" Values="126"/>
+            <Val114 Qualityadd="-1464" Restrict="-1152" Values="128"/>
+            <Val115 Qualityadd="-1440" Restrict="-1120" Values="130"/>
+            <Val116 Qualityadd="-1416" Restrict="-1088" Values="132"/>
+            <Val117 Qualityadd="-1392" Restrict="-1056" Values="134"/>
+            <Val118 Qualityadd="-1368" Restrict="-1024" Values="136"/>
+            <Val119 Qualityadd="-1344" Restrict="-992" Values="138"/>
+            <Val120 Qualityadd="-1320" Restrict="-960" Values="140"/>
+            <Val121 Qualityadd="-1296" Restrict="-928" Values="142"/>
+            <Val122 Qualityadd="-1272" Restrict="-896" Values="144"/>
+            <Val123 Qualityadd="-1248" Restrict="-864" Values="146"/>
+            <Val124 Qualityadd="-1224" Restrict="-832" Values="148"/>
+            <Val125 Qualityadd="-1200" Restrict="-800" Values="150"/>
+            <Val126 Qualityadd="-1176" Restrict="-776" Values="152"/>
+            <Val127 Qualityadd="-1152" Restrict="-752" Values="154"/>
+            <Val128 Qualityadd="-1128" Restrict="-728" Values="156"/>
+            <Val129 Qualityadd="-1104" Restrict="-704" Values="158"/>
+            <Val130 Qualityadd="-1080" Restrict="-680" Values="160"/>
+            <Val131 Qualityadd="-1056" Restrict="-656" Values="162"/>
+            <Val132 Qualityadd="-1032" Restrict="-632" Values="164"/>
+            <Val133 Qualityadd="-1008" Restrict="-608" Values="166"/>
+            <Val134 Qualityadd="-984" Restrict="-584" Values="168"/>
+            <Val135 Qualityadd="-960" Restrict="-560" Values="170"/>
+            <Val136 Qualityadd="-936" Restrict="-536" Values="172"/>
+            <Val137 Qualityadd="-912" Restrict="-512" Values="174"/>
+            <Val138 Qualityadd="-888" Restrict="-488" Values="176"/>
+            <Val139 Qualityadd="-864" Restrict="-464" Values="178"/>
+            <Val140 Qualityadd="-840" Restrict="-440" Values="180"/>
+            <Val141 Qualityadd="-816" Restrict="-416" Values="182"/>
+            <Val142 Qualityadd="-792" Restrict="-392" Values="184"/>
+            <Val143 Qualityadd="-768" Restrict="-368" Values="186"/>
+            <Val144 Qualityadd="-744" Restrict="-344" Values="188"/>
+            <Val145 Qualityadd="-720" Restrict="-320" Values="190"/>
+            <Val146 Qualityadd="-696" Restrict="-296" Values="192"/>
+            <Val147 Qualityadd="-672" Restrict="-272" Values="194"/>
+            <Val148 Qualityadd="-648" Restrict="-248" Values="196"/>
+            <Val149 Qualityadd="-624" Restrict="-224" Values="198"/>
+            <Val150 Qualityadd="-600" Restrict="-200" Values="200"/>
+            <Val151 Qualityadd="-576" Restrict="-176" Values="202"/>
+            <Val152 Qualityadd="-552" Restrict="-152" Values="204"/>
+            <Val153 Qualityadd="-528" Restrict="-128" Values="206"/>
+            <Val154 Qualityadd="-504" Restrict="-104" Values="208"/>
+            <Val155 Qualityadd="-480" Restrict="-80" Values="210"/>
+            <Val156 Qualityadd="-456" Restrict="-56" Values="212"/>
+            <Val157 Qualityadd="-432" Restrict="-32" Values="214"/>
+            <Val158 Qualityadd="-408" Restrict="-8" Values="216"/>
+            <Val159 Qualityadd="-384" Restrict="16" Values="218"/>
+            <Val160 Qualityadd="-360" Restrict="40" Values="220"/>
+            <Val161 Qualityadd="-336" Restrict="64" Values="222"/>
+            <Val162 Qualityadd="-312" Restrict="88" Values="224"/>
+            <Val163 Qualityadd="-288" Restrict="112" Values="226"/>
+            <Val164 Qualityadd="-264" Restrict="136" Values="228"/>
+            <Val165 Qualityadd="-240" Restrict="160" Values="230"/>
+            <Val166 Qualityadd="-216" Restrict="184" Values="232"/>
+            <Val167 Qualityadd="-192" Restrict="208" Values="234"/>
+            <Val168 Qualityadd="-168" Restrict="232" Values="236"/>
+            <Val169 Qualityadd="-144" Restrict="256" Values="238"/>
+            <Val170 Qualityadd="-120" Restrict="280" Values="240"/>
+            <Val171 Qualityadd="-96" Restrict="304" Values="242"/>
+            <Val172 Qualityadd="-72" Restrict="328" Values="244"/>
+            <Val173 Qualityadd="-48" Restrict="352" Values="246"/>
+            <Val174 Qualityadd="-24" Restrict="376" Values="248"/>
+            <Val175 Qualityadd="0" Restrict="400" Values="250"/>
+            <Val176 Qualityadd="20" Restrict="416" Values="252"/>
+            <Val177 Qualityadd="40" Restrict="432" Values="254"/>
+            <Val178 Qualityadd="60" Restrict="448" Values="256"/>
+            <Val179 Qualityadd="80" Restrict="464" Values="258"/>
+            <Val180 Qualityadd="100" Restrict="480" Values="260"/>
+            <Val181 Qualityadd="120" Restrict="496" Values="262"/>
+            <Val182 Qualityadd="140" Restrict="512" Values="264"/>
+            <Val183 Qualityadd="160" Restrict="528" Values="266"/>
+            <Val184 Qualityadd="180" Restrict="544" Values="268"/>
+            <Val185 Qualityadd="200" Restrict="560" Values="270"/>
+            <Val186 Qualityadd="220" Restrict="576" Values="272"/>
+            <Val187 Qualityadd="240" Restrict="592" Values="274"/>
+            <Val188 Qualityadd="260" Restrict="608" Values="276"/>
+            <Val189 Qualityadd="280" Restrict="624" Values="278"/>
+            <Val190 Qualityadd="300" Restrict="640" Values="280"/>
+            <Val191 Qualityadd="320" Restrict="656" Values="282"/>
+            <Val192 Qualityadd="340" Restrict="672" Values="284"/>
+            <Val193 Qualityadd="360" Restrict="688" Values="286"/>
+            <Val194 Qualityadd="380" Restrict="704" Values="288"/>
+            <Val195 Qualityadd="400" Restrict="720" Values="290"/>
+            <Val196 Qualityadd="420" Restrict="736" Values="292"/>
+            <Val197 Qualityadd="440" Restrict="752" Values="294"/>
+            <Val198 Qualityadd="460" Restrict="768" Values="296"/>
+            <Val199 Qualityadd="480" Restrict="784" Values="298"/>
+            <Val200 Qualityadd="500" Restrict="800" Values="300"/>
+        </Restrict>
+        <typePoint>
+            <Type1 PetType="1" Values="1.4"/>
+            <Type2 PetType="2" Values="0.8"/>
+            <Type3 PetType="3" Values="0.8"/>
+            <Type4 PetType="4" Values="2.6"/>
+            <Type5 PetType="5" Values="2.6"/>
+            <Type6 PetType="6" Values="0.8"/>
+            <Type7 PetType="7" Values="1.4"/>
+            <Type8 PetType="8" Values="2.6"/>
+            <Type9 PetType="9" Values="2.6"/>
+            <Type10 PetType="10" Values="0.8"/>
+            <Type11 PetType="11" Values="2.6"/>
+            <Type12 PetType="12" Values="2.6"/>
+            <Type13 PetType="13" Values="2.6"/>
+            <Type14 PetType="14" Values="2.6"/>
+            <Type15 PetType="15" Values="2.6"/>
+            <Type16 PetType="16" Values="2.6"/>
+            <Type17 PetType="17" Values="2.6"/>
+            <Type18 PetType="18" Values="2.6"/>
+            <Type19 PetType="19" Values="2.6"/>
+            <Type20 PetType="20" Values="2.6"/>
+            <Type21 PetType="21" Values="2.6"/>
+            <Type22 PetType="22" Values="2.6"/>
+            <Type23 PetType="23" Values="2.6"/>
+            <Type24 PetType="24" Values="2.6"/>
+            <Type25 PetType="25" Values="2.6"/>
+            <Type26 PetType="26" Values="2.6"/>
+            <Type27 PetType="27" Values="2.6"/>
+            <Type28 PetType="28" Values="2.6"/>
+            <Type29 PetType="29" Values="2.6"/>
+            <Type30 PetType="30" Values="2.6"/>
+            <Type31 PetType="31" Values="2.6"/>
+            <Type32 PetType="32" Values="2.6"/>
+            <Type33 PetType="33" Values="2.6"/>
+            <Type34 PetType="34" Values="2.6"/>
+            <Type35 PetType="35" Values="2.6"/>
+            <Type36 PetType="36" Values="2.6"/>
+            <Type37 PetType="37" Values="2.6"/>
+            <Type38 PetType="38" Values="2.6"/>
+            <Type39 PetType="39" Values="2.6"/>
+            <Type40 PetType="40" Values="2.6"/>
+            <Type41 PetType="41" Values="2.6"/>
+            <Type42 PetType="42" Values="2.6"/>
+            <Type43 PetType="43" Values="2.6"/>
+            <Type44 PetType="44" Values="2.6"/>
+        </typePoint>
+    </Inosculate>
+    <Unite>
+        <Base>
+            <Base1 Effect="0" Values="4000"/>
+            <Base2 Effect="1" Values="300"/>
+            <Base3 Effect="2" Values="20"/>
+            <Base4 Effect="3" Values="10"/>
+            <Base5 Effect="4" Values="100"/>
+            <Base6 Effect="5" Values="80"/>
+            <Base7 Effect="6" Values="80"/>
+            <Base8 Effect="7" Values="60"/>
+            <Base9 Effect="10" Values="80"/>
+            <Base10 Effect="23" Values="200"/>
+            <Base11 Effect="24" Values="150"/>
+            <Base12 Effect="29" Values="300"/>
+            <Base13 Effect="30" Values="240"/>
+            <Base14 Effect="32" Values="800"/>
+            <Base15 Effect="34" Values="100"/>
+            <Base16 Effect="38" Values="150"/>
+        </Base>
+        <Trait Type="1">
+            <Effect1 Effect="1" Restrict="0,60,150,300,600" Values="4,3.2,2.6,2.2,1.8"/>
+            <Effect2 Effect="6" Restrict="0,60,150,300,600" Values="2,1.6,1.3,1.1,0.9"/>
+            <Effect3 Effect="38" Restrict="0,60,150,300,600" Values="1.5,1.2,1,0.8,0.7"/>
+        </Trait>
+        <Trait Type="2">
+            <Effect1 Effect="0" Restrict="0,60,150,300,600" Values="10,8,6.5,5.5,4.5"/>
+            <Effect2 Effect="5" Restrict="0,60,150,300,600" Values="2,1.6,1.3,1.1,0.9"/>
+            <Effect3 Effect="34" Restrict="0,60,150,300,600" Values="5,4,3.3,2.8,2.3"/>
+        </Trait>
+        <Trait Type="3">
+            <Effect1 Effect="2" Restrict="0,60,150,300,600" Values="0.6,0.5,0.4,0.35,0.3"/>
+            <Effect2 Effect="4" Restrict="0,60,150,300,600" Values="3,2.4,2,1.7,1.4"/>
+            <Effect3 Effect="7" Restrict="0,60,150,300,600" Values="1.5,1.2,1,0.8,0.7"/>
+        </Trait>
+        <Trait Type="4">
+            <Effect1 Effect="3" Restrict="0,60,150,300,600" Values="0.5,0.4,0.33,0.28,0.23"/>
+            <Effect2 Effect="29" Restrict="0,60,150,300,600" Values="6,4.8,3.9,3.3,2.7"/>
+            <Effect3 Effect="30" Restrict="0,60,150,300,600" Values="5,4,3.3,2.8,2.3"/>
+        </Trait>
+        <Trait Type="5">
+            <Effect1 Effect="0" Restrict="0,60,150,300,600" Values="40,32,26,22,18"/>
+            <Effect2 Effect="23" Restrict="0,60,150,300,600" Values="5,4,3.3,2.8,2.3"/>
+            <Effect3 Effect="32" Restrict="0,60,150,300,600" Values="15,12,10,8,7"/>
+        </Trait>
+        <Trait Type="6">
+            <Effect1 Effect="10" Restrict="0,60,150,300,600" Values="1.5,1.2,1,0.8,0.7"/>
+            <Effect2 Effect="24" Restrict="0,60,150,300,600" Values="4,3.2,2.6,2.2,1.8"/>
+            <Effect3 Effect="38" Restrict="0,60,150,300,600" Values="6,4.8,3.9,3.3,2.7"/>
+        </Trait>
+    </Unite>
+</Alter>

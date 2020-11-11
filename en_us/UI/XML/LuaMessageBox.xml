@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIConfig>
+     <!--弹出确定框 --> 
+    <LuaMessageBoxWin Template="T_SimpleWindow" Rectangle="670,360,900,470" OnLoad="LuaMessageBox_Init()" Visible ="0">
+      <Text Type="Text"  TexturePos="1024,1024" Rectangle="17,30,220,58" Text="" Font="MainMap" TextFormat="16" />
+     
+     <OKBtn Template="T_Button2_S"  Rectangle="25,78,75,100"  SText="C_X2_3"  TextFormat="5" OnClick="LuaMessageBox_OK()" Font="MainMap"/>
+     <CloseBtn Template="T_Button2_S"  Rectangle="145,78,195,100"  SText="C_X2_4"  TextFormat="5" OnClick="LuaMessageBox_Cancel()" Font="MainMap"/>
+    </LuaMessageBoxWin>
+	 
+	<Script File="./Localization/en_us/UI/XML/LuaMessageBoxProc.lua"/> 
+</UIConfig>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UIConfig>
+
+  <UpGrade Template="T_SimpleWindow" Rectangle="350,238,662,463" OnLoad="UpGrade_OnLoad();" BtnRect="292,0,312,21" BtnPos="124,540" Visible="0"  OnClose="UpGrade_SetWorldMapVisible()"   MoveRect="0,0,1024,768">
+  <UpButtonTop Template="T_TitleText" ID="-1" Rectangle="289,21,311,45" TexturePos="720,0" Text=""/>
+	<DownButtonBtm Template="T_TitleText" ID="-1" Rectangle="289,196,311,214" TexturePos="720,30" Text=""/>
+	<BscrollMid Template="T_TitleText" ID="-1" Rectangle="289,28,311,29" TexturePos="720,26" Text="" OnScaleY="185"/>
+    <Container Template="T_Container" Rectangle="0,15,310,215"  ScrollRect="293,10,315,200" Font="CONTAIN_UPGRADE_TEXTFONT" Auto="1" >
+      <Text Type="Text" Rectangle="30,30,280,280" Font="CONTAIN_UPGRADE_TEXTFONT" TextFormat="16" Text="111" Auto="1" />
+      <EnterWebsiteBtn Template="T_Button4" Rectangle="10,360,92,387"   SText="UG_X0_1" Font="CONTAIN_UPGRADE_TEXTFONT" OnClick="UpGrade_EnterWebsite()" Auto="1" Visible="0"/>
+      <HelpBtn  Template="T_Button2" Rectangle="230,360,291,387" SText="UG_X0_2" Font="CONTAIN_UPGRADE_TEXTFONT" OnClick="OnClick_Cancel()" Auto="1" Visible="0"/>-->
+    </Container>
+  </UpGrade>
+  <!--身份验证提示-->
+  <Authentication Template="T_SimpleWindow" Rectangle="384,248,621,432" Enable="0" MoveRect="0,0,1024,768" OnClose="UpGrade_SetWorldMapVisible()" Visible="0">
+		<Text Type="Text" Rectangle="18,13,224,124" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="16"  />
+		<CloseBtn Template="T_Button2" Rectangle="155,140,216,167" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="UG_X0_4" OnClick="Authentication_close()"/>
+		<StatusBtn Template="T_Button4" Rectangle="19,140,101,167" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" OnClick="Authentication_EnterWebsite()" SText="UG_X0_3" TextFormat="5" />
+	</Authentication>
+	<!--手机验证验证提示-->
+  <MobileAuthentication Template="T_SimpleWindow" Rectangle="384,248,621,432" Enable="0" MoveRect="0,0,1024,768" OnClose="UpGrade_SetWorldMapVisible()" Visible="0">
+		<Text Type="Text" Rectangle="18,13,224,124" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" Text="" TextFormat="16"  />
+		<CloseBtn Template="T_Button2" Rectangle="155,140,216,167" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" SText="UG_X0_4" OnClick="MobileAuthentication_close()"/>
+		<StatusBtn Template="T_Button4" Rectangle="19,140,101,167" Font="MainMap" FontColor="DEFAULT_TEXTCOLOR" OnClick="MobileAuthentication_EnterWebsite()" SText="UG_X0_3" TextFormat="5" />
+	</MobileAuthentication>
+
+  <Script File="./Localization/en_us/UI/XML/UpGradeConfig.lua" Help=""/>
+  <Script File="./Localization/en_us/UI/XML/UpGradeProc.lua" Help=""/>
+  <Script File="./Localization/en_us/UI/XML/ButtonClick.lua" Help=""/>
+</UIConfig>
