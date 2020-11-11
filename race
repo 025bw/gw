@@ -20,8 +20,6 @@ ELSE
 CLOSE WINDOW : Auto Racer 1.1d : 0
 CLOSE WINDOW : AutoIt Error : 0
 CLOSE WINDOW : JaGPH GW GearBox : 0
-CLOSE WINDOW : JaGPH GW GearBox : 0
-CLOSE WINDOW : JaGPH GW GearBox : 0
 Keyboard : LWindows : KeyDown
 Keyboard : ShiftLeft : KeyDown
 Keyboard : D1 : KeyPress
@@ -30,13 +28,18 @@ Keyboard : LWindows : KeyUp
 GOTO : log
 ENDIF
 IF PIXEL COLOR EQUALS : 465 : 922 : 3157617 : 0
+CLOSE WINDOW : Auto Racer 1.1d : 0
+CLOSE WINDOW : JaGPH GW GearBox : 0
 GOTO : end
 ENDIF
 IF PIXEL COLOR EQUALS : 117 : 860 : 3157617 : 0
 GOTO : check
 ENDIF
 IF PIXEL COLOR EQUALS : 955 : 339 : 9093887 : 0
-Mouse : 957 : 340 : Click : 0 : 0 : 0
+Mouse : 957 : 340 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 957 : 340 : LeftButtonDown : 0 : 0 : 0
+Mouse : 957 : 340 : LeftButtonUp : 0 : 0 : 0
 DELAY : 1000
 ENDIF
 IF PIXEL COLOR EQUALS : 543 : 366 : 16711680 : 0
@@ -44,7 +47,10 @@ DELAY : 5000
 GOTO : test
 ENDIF
 IF PIXEL COLOR EQUALS : 718 : 204 : 16777215 : 0
-Mouse : 512 : 455 : Click : 0 : 0 : 0
+Mouse : 512 : 455 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 512 : 455 : LeftButtonDown : 0 : 0 : 0
+Mouse : 512 : 455 : LeftButtonUp : 0 : 0 : 0
 ENDIF
 GOTO : start
 LABEL : test
