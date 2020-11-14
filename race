@@ -28,7 +28,7 @@ Keyboard : LWindows : KeyUp
 GOTO : log
 ENDIF
 IF PIXEL COLOR EQUALS : 465 : 922 : 3157617 : 0
-OPEN FILE : C:\gw\kill gw.exe :  : 1
+OPEN FILE : C:\gw\kill tool.exe :  : 1
 GOTO : log
 ENDIF
 IF PIXEL COLOR EQUALS : 117 : 860 : 3157617 : 0
