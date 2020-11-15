@@ -1,56 +1,56 @@
 LABEL : start
-OPEN FILE : C:\sort\focus clipboard.exe :  : 1
+OPEN FILE : C:\gw\sort\focus clipboard.exe :  : 0
 SET CLIPBOARD :  : 1 : Please enter the text to store in clipboard:
 IF CLIPBOARD EQUALS : 2 : 0 : 0
-OPEN FILE : C:\sort\sort port.exe :  : 1
+OPEN FILE : C:\gw\sort\sort port.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 3 : 0 : 0
-OPEN FILE : C:\sort\sort athens.exe :  : 1
+OPEN FILE : C:\gw\sort\sort athens.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 4 : 0 : 0
-OPEN FILE : C:\sort\sort subs.exe :  : 1
+OPEN FILE : C:\gw\sort\sort subs.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 5 : 0 : 0
-OPEN FILE : C:\sort\sort plat.exe :  : 1
+OPEN FILE : C:\gw\sort\sort plat.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 6 : 0 : 0
-OPEN FILE : C:\sort\sort megara.exe :  : 1
+OPEN FILE : C:\gw\sort\sort megara.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 7 : 0 : 0
-OPEN FILE : C:\sort\sort isth.exe :  : 1
+OPEN FILE : C:\gw\sort\sort isth.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 8 : 0 : 0
-OPEN FILE : C:\sort\sort argo.exe :  : 1
+OPEN FILE : C:\gw\sort\sort argo.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 9 : 0 : 0
-OPEN FILE : C:\sort\sort thermo.exe :  : 1
+OPEN FILE : C:\gw\sort\sort thermo.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 10 : 0 : 0
-OPEN FILE : C:\sort\sort par.exe :  : 1
+OPEN FILE : C:\gw\sort\sort par.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 24 : 0 : 0
-OPEN FILE : C:\sort\sort mara.exe :  : 1
+OPEN FILE : C:\gw\sort\sort mara.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 024 : 0 : 0
-OPEN FILE : C:\sort\sort derv.exe :  : 1
+OPEN FILE : C:\gw\sort\sort derv.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : dm : 0 : 0
-OPEN FILE : C:\sort\sort dm.exe :  : 1
+OPEN FILE : C:\gw\sort\sort dm.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 0 : 0 : 0
-OPEN FILE : C:\sort\sort derv.exe :  : 1
+OPEN FILE : C:\gw\sort\sort derv.exe :  : 1
 GOTO : end
 ENDIF
 LABEL : m
@@ -67,4 +67,3 @@ GOTO : m
 ENDIF
 GOTO : start
 LABEL : end
-Mouse : 0 : 0 : LeftButtonUp : 0 : 1 : 0
