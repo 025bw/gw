@@ -126,23 +126,23 @@ IF PIXEL COLOR EQUALS : 470 : 108 : 16350332 : 0
 Mouse : 512 : 333 : Wheel : 100 : 0 : 0
 GOTO : y
 ENDIF
+Mouse : 95 : 210 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 95 : 210 : RightButtonDown : 0 : 0 : 0
+Mouse : 95 : 210 : RightButtonUp : 0 : 0 : 0
+Mouse : 95 : 210 : RightButtonDown : 0 : 0 : 0
+Mouse : 95 : 210 : RightButtonUp : 0 : 0 : 0
+DELAY : 1000
+IF PIXEL COLOR EQUALS : 470 : 108 : 16350332 : 0
+Mouse : 512 : 333 : Wheel : 100 : 0 : 0
+GOTO : y
+ENDIF
 Mouse : 3 : 830 : Move : 0 : 0 : 0
 DELAY : 50
 Mouse : 3 : 830 : RightButtonDown : 0 : 0 : 0
 Mouse : 3 : 830 : RightButtonUp : 0 : 0 : 0
 Mouse : 3 : 830 : RightButtonDown : 0 : 0 : 0
 Mouse : 3 : 830 : RightButtonUp : 0 : 0 : 0
-DELAY : 1000
-IF PIXEL COLOR EQUALS : 470 : 108 : 16350332 : 0
-Mouse : 512 : 333 : Wheel : 100 : 0 : 0
-GOTO : y
-ENDIF
-Mouse : 28 : 210 : Move : 0 : 0 : 0
-DELAY : 50
-Mouse : 28 : 210 : RightButtonDown : 0 : 0 : 0
-Mouse : 28 : 210 : RightButtonUp : 0 : 0 : 0
-Mouse : 28 : 210 : RightButtonDown : 0 : 0 : 0
-Mouse : 28 : 210 : RightButtonUp : 0 : 0 : 0
 DELAY : 1000
 IF PIXEL COLOR EQUALS : 470 : 108 : 16350332 : 0
 Mouse : 512 : 333 : Wheel : 100 : 0 : 0
