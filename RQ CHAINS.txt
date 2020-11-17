@@ -144,7 +144,6 @@ Keyboard : R : KeyDown
 Keyboard : R : KeyUp
 Keyboard : Q : KeyDown
 Keyboard : Q : KeyUp
-Keyboard : X : KeyDown
 Keyboard : D0 : KeyDown
 Keyboard : D0 : KeyUp
 Keyboard : D5 : KeyDown
