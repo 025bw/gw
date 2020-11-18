@@ -46,6 +46,9 @@ GOTO : 3
 ENDIF
 GOTO : 2
 LABEL : 3
+IF PIXEL COLOR EQUALS : 90 : 199 : 1709842 : 1
+GOTO : 3
+ENDIF
 IF PIXEL COLOR EQUALS : 490 : 361 : 16776960 : 0
 Mouse : 440 : 361 : LeftButtonDown : 0 : 0 : 0
 Mouse : 440 : 361 : LeftButtonUp : 0 : 0 : 0
