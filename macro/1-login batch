@@ -1,29 +1,45 @@
 LABEL : start
 IF CLIPBOARD EQUALS : 1 : 0 : 0
-OPEN FILE : C:\login\tmsub01.exe :  : 1
+OPEN FILE : C:\login\gw\demonmap11.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 2 : 0 : 0
-OPEN FILE : C:\login\tmsub02.exe :  : 1
+OPEN FILE : C:\login\gw\demonmap12.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 3 : 0 : 0
-OPEN FILE : C:\login\tmsub03.exe :  : 1
+OPEN FILE : C:\login\gw\demonmap13.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 4 : 0 : 0
-OPEN FILE : C:\login\tmsub04.exe :  : 1
+OPEN FILE : C:\login\gw\demonmap14.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 5 : 0 : 0
-OPEN FILE : C:\login\tmsub05.exe :  : 1
+OPEN FILE : C:\login\gw\demonmap15.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 6 : 0 : 0
-OPEN FILE : C:\login\tmsub06.exe :  : 1
+OPEN FILE : C:\login\gw\demonmap16.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 7 : 0 : 0
+OPEN FILE : C:\login\gw\demonmap17.exe :  : 1
+GOTO : end
+ENDIF
+IF CLIPBOARD EQUALS : 8 : 0 : 0
+OPEN FILE : C:\login\gw\demonmap18.exe :  : 1
+GOTO : end
+ENDIF
+IF CLIPBOARD EQUALS : 9 : 0 : 0
+OPEN FILE : C:\login\gw\demonmap19.exe :  : 1
+GOTO : end
+ENDIF
+IF CLIPBOARD EQUALS : 10 : 0 : 0
+OPEN FILE : C:\login\gw\demonmap20.exe :  : 1
+GOTO : end
+ENDIF
+IF CLIPBOARD EQUALS : 10 : 0 : 2
 GOTO : end
 ENDIF
 SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
