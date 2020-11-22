@@ -64,6 +64,11 @@ IF PIXEL COLOR EQUALS : 1055 : 190 : 13947080 : 1
 GOTO : gb
 ENDIF
 LABEL : gb2
+IF WINDOW EXISTS : JaGPH GW GearBox: Box.exe - Application Error : 0
+CLOSE WINDOW : JaGPH GW GearBox: Box.exe - Application Error : 0
+OPEN FILE : C:\gw\Box.exe :  : 1
+GOTO : gb
+ENDIF
 IF PIXEL COLOR EQUALS : 1187 : 155 : 45 : 0
 Mouse : 1055 : 160 : LeftButtonDown : 0 : 0 : 0
 Mouse : 1055 : 160 : LeftButtonUp : 0 : 0 : 0

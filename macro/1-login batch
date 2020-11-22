@@ -1,42 +1,42 @@
 LABEL : start
 IF CLIPBOARD EQUALS : 1 : 0 : 0
-OPEN FILE : C:\gw\login\demonmap01.exe :  : 1
+OPEN FILE : C:\gw\login\tm01.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 2 : 0 : 0
-OPEN FILE : C:\gw\login\demonmap02.exe :  : 1
+OPEN FILE : C:\gw\login\tm02.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 3 : 0 : 0
-OPEN FILE : C:\gw\login\demonmap03.exe :  : 1
+OPEN FILE : C:\gw\login\tm03.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 4 : 0 : 0
-OPEN FILE : C:\gw\login\demonmap04.exe :  : 1
+OPEN FILE : C:\gw\login\tm04.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 5 : 0 : 0
-OPEN FILE : C:\gw\login\demonmap05.exe :  : 1
+OPEN FILE : C:\gw\login\tm05.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 6 : 0 : 0
-OPEN FILE : C:\gw\login\demonmap06.exe :  : 1
+OPEN FILE : C:\gw\login\tm06.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 7 : 0 : 0
-OPEN FILE : C:\gw\login\demonmap07.exe :  : 1
+OPEN FILE : C:\gw\login\tm07.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 8 : 0 : 0
-OPEN FILE : C:\gw\login\demonmap08.exe :  : 1
+OPEN FILE : C:\gw\login\tm08.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 9 : 0 : 0
-OPEN FILE : C:\gw\login\demonmap09.exe :  : 1
+OPEN FILE : C:\gw\login\tm09.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 10 : 0 : 0
-OPEN FILE : C:\gw\login\demonmap10.exe :  : 1
+OPEN FILE : C:\gw\login\tm10.exe :  : 1
 GOTO : end
 ENDIF
 IF CLIPBOARD EQUALS : 10 : 0 : 2
