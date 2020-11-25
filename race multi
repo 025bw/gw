@@ -1,3 +1,4 @@
+OPEN FILE : C:\gw\login\test start.exe :  : 0
 CLOSE WINDOW : Prompt : 0
 IF PIXEL COLOR EQUALS : 477 : 209 : 7759150 : 0
 GOTO : log
@@ -8,7 +9,7 @@ CLOSE WINDOW : Stopped : 0
 DELAY : 50
 IF PIXEL COLOR EQUALS : 477 : 209 : 7759150 : 0
 SWITCH TO WINDOW : GodsWar Online [ : 0
-OPEN FILE : C:\gw\login\gnb01.exe :  : 1
+OPEN FILE : C:\gw\login\test tm01-10.exe :  : 0
 DELAY : 1000
 GOTO : login
 ENDIF
@@ -28,7 +29,14 @@ Keyboard : LWindows : KeyUp
 GOTO : log
 ENDIF
 IF PIXEL COLOR EQUALS : 465 : 922 : 3157617 : 0
+OPEN FILE : C:\gw\login\test list.exe :  : 0
 OPEN FILE : C:\gw\kill gw.exe :  : 1
+DELAY : 1000
+Keyboard : LWindows : KeyDown
+Keyboard : ShiftLeft : KeyDown
+Keyboard : D1 : KeyPress
+Keyboard : ShiftLeft : KeyUp
+Keyboard : LWindows : KeyUp
 GOTO : log
 ENDIF
 IF PIXEL COLOR EQUALS : 117 : 860 : 3157617 : 0
@@ -64,6 +72,11 @@ IF PIXEL COLOR EQUALS : 1055 : 190 : 13947080 : 1
 GOTO : gb
 ENDIF
 LABEL : gb2
+IF WINDOW EXISTS : JaGPH GW GearBox: Box.exe - Application Error : 0
+CLOSE WINDOW : JaGPH GW GearBox: Box.exe - Application Error : 0
+OPEN FILE : C:\gw\Box.exe :  : 1
+GOTO : gb
+ENDIF
 IF PIXEL COLOR EQUALS : 1187 : 155 : 45 : 0
 Mouse : 1055 : 160 : LeftButtonDown : 0 : 0 : 0
 Mouse : 1055 : 160 : LeftButtonUp : 0 : 0 : 0
@@ -166,13 +179,7 @@ ENDIF
 DELAY : 50
 IF WINDOW EXISTS : GodsWar Online [USA] : 0
 ELSE
-OPEN FILE : C:\gw\kill gw.exe :  : 1
-Keyboard : LWindows : KeyDown
-Keyboard : ShiftLeft : KeyDown
-Keyboard : D1 : KeyPress
-Keyboard : ShiftLeft : KeyUp
-Keyboard : LWindows : KeyUp
-GOTO : log
+GOTO : start
 ENDIF
 GOTO : login
 LABEL : select atlanta
@@ -184,13 +191,7 @@ GOTO : login
 LABEL : net
 IF WINDOW EXISTS : GodsWar Online [USA] : 0
 ELSE
-OPEN FILE : C:\gw\kill gw.exe :  : 1
-Keyboard : LWindows : KeyDown
-Keyboard : ShiftLeft : KeyDown
-Keyboard : D1 : KeyPress
-Keyboard : ShiftLeft : KeyUp
-Keyboard : LWindows : KeyUp
-GOTO : log
+GOTO : start
 ENDIF
 IF PIXEL COLOR EQUALS : 225 : 105 : 16745299 : 1
 DELAY : 100
@@ -200,13 +201,7 @@ OPEN FILE : C:\gw\AutoRacer.exe :  : 0
 LABEL : check
 IF WINDOW EXISTS : GodsWar Online [USA] : 0
 ELSE
-OPEN FILE : C:\gw\kill gw.exe :  : 1
-Keyboard : LWindows : KeyDown
-Keyboard : ShiftLeft : KeyDown
-Keyboard : D1 : KeyPress
-Keyboard : ShiftLeft : KeyUp
-Keyboard : LWindows : KeyUp
-GOTO : log
+GOTO : start
 ENDIF
 MOVE WINDOW : JaGPH GW GearBox : 0 : 2 : 1026 : 30 : 240 : 462
 MOVE WINDOW : Auto Racer 1.1d : 0 : 0 : 0 : 820 : 508 : 180
