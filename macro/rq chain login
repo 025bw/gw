@@ -2,41 +2,43 @@ IF FILE EXISTS : C:\rq01.exe
 OPEN FILE : C:\gw\login\rq01.exe :  : 0
 DELETE FILE : C:\rq01.exe
 COPY FILE : C:\gw\login\rq02.exe : C:\rq02.exe
-GOTO : end
+GOTO : end login
 ENDIF
 IF FILE EXISTS : C:\rq02.exe
 OPEN FILE : C:\gw\login\rq02.exe :  : 0
 DELETE FILE : C:\rq02.exe
 COPY FILE : C:\gw\login\rq03.exe : C:\rq03.exe
-GOTO : end
+GOTO : end login
 ENDIF
 IF FILE EXISTS : C:\rq03.exe
 OPEN FILE : C:\gw\login\rq03.exe :  : 0
 DELETE FILE : C:\rq03.exe
 COPY FILE : C:\gw\login\rq04.exe : C:\rq04.exe
-GOTO : end
+GOTO : end login
 ENDIF
 IF FILE EXISTS : C:\rq04.exe
 OPEN FILE : C:\gw\login\rq04.exe :  : 0
 DELETE FILE : C:\rq04.exe
 COPY FILE : C:\gw\login\rq05.exe : C:\rq05.exe
-GOTO : end
+GOTO : end login
 ENDIF
 IF FILE EXISTS : C:\rq05.exe
 OPEN FILE : C:\gw\login\rq05.exe :  : 0
 DELETE FILE : C:\rq05.exe
-COPY FILE : C:\gw\login\rqxz1.exe : C:\xz1.exe
-GOTO : end
+COPY FILE : C:\gw\login\rqxz1.exe : C:\rqxz1.exe
+GOTO : end login
 ENDIF
 IF FILE EXISTS : C:\rqxz1.exe
 OPEN FILE : C:\gw\login\rqxz1.exe :  : 0
 DELETE FILE : C:\rqxz1.exe
 COPY FILE : C:\gw\login\rqxz2.exe : C:\rqxz2.exe
-GOTO : end
+GOTO : end login
 ENDIF
 IF FILE EXISTS : C:\rqxz2.exe
 OPEN FILE : C:\gw\login\rqxz2.exe :  : 0
 DELETE FILE : C:\rqxz2.exe
 COPY FILE : C:\gw\login\rq01.exe : C:\rq01.exe
-GOTO : end
+GOTO : end login
 ENDIF
+COPY FILE : C:\gw\login\rq01.exe : C:\rq01.exe
+LABEL : end login

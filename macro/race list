@@ -1,0 +1,56 @@
+IF FILE EXISTS : C:\jigg.exe
+DELETE FILE : C:\jigg.exe
+COPY FILE : C:\gw\login\purr.exe : C:\purr.exe
+GOTO : end login
+ENDIF
+IF FILE EXISTS : C:\purr.exe
+DELETE FILE : C:\purr.exe
+COPY FILE : C:\gw\login\aloalo.exe : C:\aloalo.exe
+GOTO : end login
+ENDIF
+IF FILE EXISTS : C:\aloalo.exe
+DELETE FILE : C:\aloalo.exe
+COPY FILE : C:\gw\login\omgjigg.exe : C:\omgjigg.exe
+GOTO : end login
+ENDIF
+IF FILE EXISTS : C:\omgjigg.exe
+DELETE FILE : C:\omgjigg.exe
+COPY FILE : C:\gw\login\bye025.exe : C:\bye025.exe
+GOTO : end login
+ENDIF
+IF FILE EXISTS : C:\bye025.exe
+DELETE FILE : C:\bye025.exe
+COPY FILE : C:\gw\login\gwnoob1.exe : C:\gwnoob1.exe
+GOTO : end login
+ENDIF
+IF FILE EXISTS : C:\gwnoob1.exe
+DELETE FILE : C:\gwnoob1.exe
+COPY FILE : C:\gw\login\glacia24.exe : C:\glacia24.exe
+GOTO : end login
+ENDIF
+IF FILE EXISTS : C:\glacia24.exe
+DELETE FILE : C:\glacia24.exe
+COPY FILE : C:\gw\login\gwnoob4.exe : C:\gwnoob4.exe
+GOTO : end login
+ENDIF
+IF FILE EXISTS : C:\gwnoob4.exe
+DELETE FILE : C:\gwnoob4.exe
+COPY FILE : C:\gw\login\nyaa.exe : C:\nyaa.exe
+GOTO : end login
+ENDIF
+IF FILE EXISTS : C:\nyaa.exe
+DELETE FILE : C:\nyaa.exe
+COPY FILE : C:\gw\login\anbver.exe : C:\anbver.exe
+GOTO : end login
+ENDIF
+IF FILE EXISTS : C:\anbver.exe
+DELETE FILE : C:\anbver.exe
+COPY FILE : C:\gw\login\ultx.exe : C:\ultx.exe
+GOTO : end login
+ENDIF
+IF FILE EXISTS : C:\ultx.exe
+DELETE FILE : C:\ultx.exe
+GOTO : end login
+ENDIF
+COPY FILE : C:\gw\login\jigg.exe : C:\jigg.exe
+LABEL : end login

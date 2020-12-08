@@ -3,7 +3,7 @@ IF IMAGE : Qk0WCAAAAAAAADYAAAAoAAAAFQAAABgAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAA
 GOTO : a
 ENDIF
 IF PIXEL COLOR EQUALS : 700 : 808 : 3684408 : 0
-GOTO : a
+GOTO : x
 ENDIF
 Mouse : 2 : 72 : RightButtonDown : 0 : 0 : 0
 Mouse : 2 : 72 : RightButtonUp : 0 : 0 : 0
@@ -136,4 +136,4 @@ Mouse : 2 : 72 : RightButtonUp : 0 : 0 : 0
 DELAY : 50
 GOTO : x
 ENDIF
-GOTO : b
+GOTO : a

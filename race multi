@@ -9,14 +9,22 @@ CLOSE WINDOW : Stopped : 0
 DELAY : 50
 IF PIXEL COLOR EQUALS : 477 : 209 : 7759150 : 0
 SWITCH TO WINDOW : GodsWar Online [ : 0
-OPEN FILE : C:\gw\login\test tm01-10.exe :  : 0
+OPEN FILE : C:\gw\login\jigg.exe :  : 0
 DELAY : 1000
 GOTO : login
 ENDIF
 GOTO : log
 LABEL : start
-MOVE WINDOW : Auto Racer 1.1d : 0 : 0 : 0 : 820 : 508 : 180
-CLOSE WINDOW : Prompt : 0
+IF WINDOW EXISTS : Prompt : 0
+OPEN FILE : C:\gw\kill gw.exe :  : 1
+DELAY : 1000
+Keyboard : LWindows : KeyDown
+Keyboard : ShiftLeft : KeyDown
+Keyboard : D1 : KeyPress
+Keyboard : ShiftLeft : KeyUp
+Keyboard : LWindows : KeyUp
+GOTO : log
+ENDIF
 IF WINDOW EXISTS : GodsWar Online [USA] : 0
 ELSE
 OPEN FILE : C:\gw\kill gw.exe :  : 1

@@ -18,7 +18,7 @@ Mouse : 790 : 810 : LeftButtonDown : 0 : 0 : 0
 DELAY : 55
 Mouse : 790 : 810 : LeftButtonUp : 0 : 0 : 0
 DELAY : 100
-Mouse : 512 : 400 : Move : 0 : 0 : 0
+Mouse : 555 : 350 : Move : 0 : 0 : 0
 ENDIF
 REPEAT : 20 : 0 : 0 : Enter the number of iterations: : 0 : 0
 IF PIXEL COLOR EQUALS : 880 : 821 : 16777215 : 0
@@ -61,7 +61,7 @@ Mouse : 761 : 748 : LeftButtonDown : 0 : 0 : 0
 DELAY : 50
 Mouse : 761 : 748 : LeftButtonUp : 0 : 0 : 0
 DELAY : 100
-Mouse : 512 : 400 : Move : 0 : 0 : 0
+Mouse : 555 : 350 : Move : 0 : 0 : 0
 ENDIF
 REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
 IF PIXEL COLOR EQUALS : 906 : 416 : 3670001 : 0
@@ -112,10 +112,10 @@ GOTO : b
 ENDIF
 Mouse : 255 : 75 : Move : 0 : 0 : 0
 DELAY : 50
-Mouse : 512 : 400 : Move : 0 : 0 : 0
+Mouse : 555 : 350 : Move : 0 : 0 : 0
 DELAY : 50
-Mouse : 512 : 400 : LeftButtonDown : 0 : 0 : 0
-Mouse : 512 : 400 : LeftButtonUp : 0 : 0 : 0
+Mouse : 555 : 350 : LeftButtonDown : 0 : 0 : 0
+Mouse : 555 : 350 : LeftButtonUp : 0 : 0 : 0
 LABEL : a
 REPEAT : 1000 : 0 : 0 : Enter the number of iterations: : 0 : 0
 IF PIXEL COLOR EQUALS : 165 : 388 : 16776960 : 0
@@ -128,21 +128,21 @@ GOTO : b
 ENDIF
 ENDREPEAT
 DELAY : 9
-Mouse : 512 : 400 : Move : 0 : 0 : 0
+Mouse : 555 : 350 : Move : 0 : 0 : 0
 LABEL : position
 DELAY : 100
 IF PIXEL COLOR EQUALS : 959 : 203 : 3670001 : 0
 Mouse : 959 : 203 : LeftButtonDown : 0 : 0 : 0
 Mouse : 959 : 203 : LeftButtonUp : 0 : 0 : 0
-Mouse : 512 : 400 : Move : 0 : 0 : 0
+Mouse : 555 : 350 : Move : 0 : 0 : 0
 ENDIF
-IF PIXEL FOUND : 16776960 : 0 : 1 : 376 : 635 : 386 : 645
+IF PIXEL FOUND : 16776960 : 0 : 1 : 332 : 674 : 338 : 684
 ELSE
 GOTO : position
 ENDIF
 DELAY : 50
-Mouse : 512 : 400 : LeftButtonDown : 0 : 0 : 0
-Mouse : 512 : 400 : LeftButtonUp : 0 : 0 : 0
+Mouse : 555 : 350 : LeftButtonDown : 0 : 0 : 0
+Mouse : 555 : 350 : LeftButtonUp : 0 : 0 : 0
 GOTO : a
 LABEL : b
 LABEL : 7th
@@ -191,14 +191,26 @@ Mouse : 495 : 350 : LeftButtonUp : 0 : 0 : 0
 Mouse : 850 : 450 : Move : 0 : 0 : 0
 Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
 Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
-Mouse : 512 : 400 : Move : 0 : 0 : 0
+Mouse : 555 : 350 : Move : 0 : 0 : 0
 DELAY : 50
-Mouse : 512 : 400 : LeftButtonDown : 0 : 0 : 0
-Mouse : 512 : 400 : LeftButtonUp : 0 : 0 : 0
+Mouse : 555 : 350 : LeftButtonDown : 0 : 0 : 0
+Mouse : 555 : 350 : LeftButtonUp : 0 : 0 : 0
 GOTO : a
 ENDIF
 GOTO : c
 LABEL : select
+IF PIXEL COLOR EQUALS : 955 : 341 : 9093887 : 0
+Mouse : 955 : 341 : LeftButtonDown : 0 : 0 : 0
+Mouse : 955 : 341 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+ENDIF
+IF PIXEL COLOR EQUALS : 906 : 416 : 3670001 : 0
+Mouse : 906 : 416 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 906 : 416 : LeftButtonDown : 0 : 0 : 0
+Mouse : 906 : 416 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+ENDIF
 IF PIXEL COLOR EQUALS : 955 : 341 : 9093887 : 0
 Mouse : 955 : 341 : LeftButtonDown : 0 : 0 : 0
 Mouse : 955 : 341 : LeftButtonUp : 0 : 0 : 0
@@ -220,10 +232,10 @@ Mouse : 985 : 590 : RightButtonUp : 0 : 0 : 0
 Mouse : 850 : 450 : Move : 0 : 0 : 0
 Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
 Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
-Mouse : 512 : 400 : Move : 0 : 0 : 0
+Mouse : 555 : 350 : Move : 0 : 0 : 0
 DELAY : 50
-Mouse : 512 : 400 : LeftButtonDown : 0 : 0 : 0
-Mouse : 512 : 400 : LeftButtonUp : 0 : 0 : 0
+Mouse : 555 : 350 : LeftButtonDown : 0 : 0 : 0
+Mouse : 555 : 350 : LeftButtonUp : 0 : 0 : 0
 GOTO : a
 ENDIF
 GOTO : select
@@ -235,10 +247,10 @@ ENDIF
 Mouse : 850 : 450 : Move : 0 : 0 : 0
 Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
 Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
-Mouse : 512 : 400 : Move : 0 : 0 : 0
+Mouse : 555 : 350 : Move : 0 : 0 : 0
 DELAY : 50
-Mouse : 512 : 400 : LeftButtonDown : 0 : 0 : 0
-Mouse : 512 : 400 : LeftButtonUp : 0 : 0 : 0
+Mouse : 555 : 350 : LeftButtonDown : 0 : 0 : 0
+Mouse : 555 : 350 : LeftButtonUp : 0 : 0 : 0
 GOTO : a
 LABEL : select dust
 IF PIXEL COLOR EQUALS : 955 : 341 : 9093887 : 0
@@ -253,10 +265,10 @@ Mouse : 817 : 590 : RightButtonUp : 0 : 0 : 0
 Mouse : 850 : 450 : Move : 0 : 0 : 0
 Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
 Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
-Mouse : 512 : 400 : Move : 0 : 0 : 0
+Mouse : 555 : 350 : Move : 0 : 0 : 0
 DELAY : 50
-Mouse : 512 : 400 : LeftButtonDown : 0 : 0 : 0
-Mouse : 512 : 400 : LeftButtonUp : 0 : 0 : 0
+Mouse : 555 : 350 : LeftButtonDown : 0 : 0 : 0
+Mouse : 555 : 350 : LeftButtonUp : 0 : 0 : 0
 GOTO : a
 ENDIF
 GOTO : select dust
