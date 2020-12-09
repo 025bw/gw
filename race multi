@@ -1,4 +1,4 @@
-OPEN FILE : C:\gw\login\test start.exe :  : 0
+OPEN FILE : C:\gw\login\race mains start.exe :  : 0
 CLOSE WINDOW : Prompt : 0
 IF PIXEL COLOR EQUALS : 477 : 209 : 7759150 : 0
 GOTO : log
@@ -9,7 +9,7 @@ CLOSE WINDOW : Stopped : 0
 DELAY : 50
 IF PIXEL COLOR EQUALS : 477 : 209 : 7759150 : 0
 SWITCH TO WINDOW : GodsWar Online [ : 0
-OPEN FILE : C:\gw\login\jigg.exe :  : 0
+OPEN FILE : C:\gw\login\race mains.exe :  : 0
 DELAY : 1000
 GOTO : login
 ENDIF
@@ -37,7 +37,7 @@ Keyboard : LWindows : KeyUp
 GOTO : log
 ENDIF
 IF PIXEL COLOR EQUALS : 465 : 922 : 3157617 : 0
-OPEN FILE : C:\gw\login\test list.exe :  : 0
+OPEN FILE : C:\gw\login\race list.exe :  : 0
 OPEN FILE : C:\gw\kill gw.exe :  : 1
 DELAY : 1000
 Keyboard : LWindows : KeyDown
