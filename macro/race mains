@@ -1,45 +1,45 @@
 IF FILE EXISTS : C:\jigg.exe
-OPEN FILE : C:\gw\login\jigg.exe :  : 0
+OPEN FILE : C:\jigg.exe
 GOTO : end login
 ENDIF
 IF FILE EXISTS : C:\purr.exe
-OPEN FILE : C:\gw\login\purr.exe :  : 0
+OPEN FILE : C:\purr.exe
 GOTO : end login
 ENDIF
 IF FILE EXISTS : C:\aloalo.exe
-OPEN FILE : C:\gw\login\aloalo.exe :  : 0
+OPEN FILE : C:\aloalo.exe
 GOTO : end login
 ENDIF
 IF FILE EXISTS : C:\omgjigg.exe
-OPEN FILE : C:\gw\login\omgjigg.exe :  : 0
+OPEN FILE : C:\omgjigg.exe
 GOTO : end login
 ENDIF
 IF FILE EXISTS : C:\bye025.exe
-OPEN FILE : C:\gw\login\bye025.exe :  : 0
+OPEN FILE : C:\bye025.exe
 GOTO : end login
 ENDIF
 IF FILE EXISTS : C:\gwnoob1.exe
-OPEN FILE : C:\gw\login\gwnoob1.exe :  : 0
+OPEN FILE : C:\gwnoob1.exe
 GOTO : end login
 ENDIF
 IF FILE EXISTS : C:\glacia24.exe
-OPEN FILE : C:\gw\login\glacia24.exe :  : 0
+OPEN FILE : C:\glacia24.exe
 GOTO : end login
 ENDIF
 IF FILE EXISTS : C:\gwnoob4.exe
-OPEN FILE : C:\gw\login\gwnoob4.exe :  : 0
+OPEN FILE : C:\gwnoob4.exe
 GOTO : end login
 ENDIF
 IF FILE EXISTS : C:\nyaa.exe
-OPEN FILE : C:\gw\login\nyaa.exe :  : 0
+OPEN FILE : C:\nyaa.exe
 GOTO : end login
 ENDIF
 IF FILE EXISTS : C:\anbver.exe
-OPEN FILE : C:\gw\login\anbver.exe :  : 0
+OPEN FILE : C:\anbver.exe
 GOTO : end login
 ENDIF
 IF FILE EXISTS : C:\ultx.exe
-OPEN FILE : C:\gw\login\ultx.exe :  : 0
+OPEN FILE : C:\ultx.exe
 GOTO : end login
 ENDIF
 LABEL : end login
