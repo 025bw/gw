@@ -23,16 +23,16 @@ public class StudentDAO extends BaseDAO<Student> {
 
     @Override
     public Student get(int id) {
-        String sql = "SELECT [id]\n" +
-                    "      ,[name]\n" +
-                    "      ,[gender]\n" +
-                    "      ,[dob]\n" +
-                    "      ,s.[did]\n" +
-                    "	  ,d.dname\n" +
-                    "  FROM [Student] s\n" +
-                    "  INNER JOIN Department d\n" +
-                    "  ON s.did = d.did\n" +
-                    "  WHERE s.id = ?";
+        String sql = "SELECT [id]\n"
+                + "      ,[name]\n"
+                + "      ,[gender]\n"
+                + "      ,[dob]\n"
+                + "      ,s.[did]\n"
+                + "	  ,d.dname\n"
+                + "  FROM [Student] s\n"
+                + "  INNER JOIN Department d\n"
+                + "  ON s.did = d.did\n"
+                + "  WHERE s.id = ?";
         PreparedStatement stm;
         try {
             stm = connection.prepareStatement(sql);
@@ -55,69 +55,57 @@ public class StudentDAO extends BaseDAO<Student> {
         }
         return null;
     }
-    
+
     public ArrayList<Student> search(Integer id, String name, Boolean gender,
             Date from, Date to, Department d
-            ) {
+    ) {
         ArrayList<Student> students = new ArrayList<>();
         Integer index = 0;
         String sql = "SELECT id,name, gender, dob FROM Student WHERE (1=1) ";
-        if(id != null)
-        {
-            sql +=" AND id = ? ";
+        if (id != null) {
+            sql += " AND id = ? ";
         }
-        if(name != null)
-        {
-            sql +=" AND name like '%'+ ? + '%' ";
+        if (name != null) {
+            sql += " AND name like '%'+ ? + '%' ";
         }
-        if(gender != null)
-        {
+        if (gender != null) {
             sql += " AND gender = ? ";
         }
-        if(from != null)
-        {
+        if (from != null) {
             sql += " AND dob >= ? ";
         }
-        if(to != null)
-        {
+        if (to != null) {
             sql += " AND dob <= ? ";
             index++;
         }
-        if(d != null)
-        {
+        if (d != null) {
             sql += " AND did = ? ";
         }
-        
+
         PreparedStatement stm;
         try {
             stm = connection.prepareStatement(sql);
-            if(id != null)
-            {
+            if (id != null) {
                 index++;
                 stm.setInt(index, id);
             }
-            if(name != null)
-            {
+            if (name != null) {
                 index++;
                 stm.setString(index, name);
             }
-            if(gender != null)
-            {
+            if (gender != null) {
                 index++;
                 stm.setBoolean(index, gender);
             }
-            if(from != null)
-            {
+            if (from != null) {
                 index++;
                 stm.setDate(index, from);
             }
-            if(to != null)
-            {
+            if (to != null) {
                 index++;
                 stm.setDate(index, to);
             }
-            if(d != null)
-            {
+            if (d != null) {
                 index++;
                 stm.setInt(index, d.getId());
             }
@@ -157,6 +145,52 @@ public class StudentDAO extends BaseDAO<Student> {
         }
         return students;
     }
+
+    public ArrayList<Student> listpage(int pagesize, int pageindex) {
+        ArrayList<Student> students = new ArrayList<>();
+        String sql = "SELECT id, name, gender, dob FROM\n"
+                + "(SELECT ROW_NUMBER() OVER (ORDER BY id ASC)\n"
+                + "as rownum, *  FROM Student) tbl\n"
+                + "WHERE \n"
+                + "rownum >= (? -1)*? + 1 AND rownum <= ? * ?";
+
+        PreparedStatement stm;
+        try {
+            stm = connection.prepareStatement(sql);
+            stm.setInt(1, pageindex);
+            stm.setInt(2, pagesize);
+            stm.setInt(3, pageindex);
+            stm.setInt(4, pagesize);
+            ResultSet rs = stm.executeQuery();
+            while (rs.next()) {
+                Student s = new Student();
+                s.setId(rs.getInt("id"));
+                s.setName(rs.getString("name"));
+                s.setDob(rs.getDate("dob"));
+                s.setGender(rs.getBoolean("gender"));
+                students.add(s);
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(StudentDAO.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return students;
+    }
+
+    public int count() {
+        ArrayList<Student> students = new ArrayList<>();
+        String sql = "SELECT COUNT(*) as total FROM Student";
+        PreparedStatement stm;
+        try {
+            stm = connection.prepareStatement(sql);
+            ResultSet rs = stm.executeQuery();
+            if (rs.next()) {
+                return rs.getInt("total");
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(StudentDAO.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return 0;
+    }
     
     public ArrayList<Student> searchByName(String name) {
         ArrayList<Student> students = new ArrayList<>();
@@ -183,18 +217,18 @@ public class StudentDAO extends BaseDAO<Student> {
     @Override
     public void insert(Student model) {
         try {
-            String sql = "INSERT INTO [Student]\n" +
-                    "           ([id]\n" +
-                    "           ,[name]\n" +
-                    "           ,[gender]\n" +
-                    "           ,[dob]\n" +
-                    "           ,[did])\n" +
-                    "     VALUES\n" +
-                    "           (?\n" +
-                    "           ,?\n" +
-                    "           ,?\n" +
-                    "           ,?\n" +
-                    "           ,?)";
+            String sql = "INSERT INTO [Student]\n"
+                    + "           ([id]\n"
+                    + "           ,[name]\n"
+                    + "           ,[gender]\n"
+                    + "           ,[dob]\n"
+                    + "           ,[did])\n"
+                    + "     VALUES\n"
+                    + "           (?\n"
+                    + "           ,?\n"
+                    + "           ,?\n"
+                    + "           ,?\n"
+                    + "           ,?)";
             PreparedStatement stm = connection.prepareStatement(sql);
             stm.setInt(1, model.getId());
             stm.setString(2, model.getName());
@@ -205,21 +239,21 @@ public class StudentDAO extends BaseDAO<Student> {
         } catch (SQLException ex) {
             Logger.getLogger(StudentDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
+
     }
 
     @Override
     public void update(Student model) {
         try {
-            String sql = "UPDATE [Student]\n" +
-            "   SET \n" +
-            "      [name] = ?\n" +
-            "      ,[gender] = ?\n" +
-            "      ,[dob] = ?\n" +
-            "      ,[did] = ?\n" +
-            " WHERE [id] = ? ";
+            String sql = "UPDATE [Student]\n"
+                    + "   SET \n"
+                    + "      [name] = ?\n"
+                    + "      ,[gender] = ?\n"
+                    + "      ,[dob] = ?\n"
+                    + "      ,[did] = ?\n"
+                    + " WHERE [id] = ? ";
             PreparedStatement stm = connection.prepareStatement(sql);
-            
+
             stm.setString(1, model.getName());
             stm.setBoolean(2, model.isGender());
             stm.setDate(3, model.getDob());
@@ -233,9 +267,9 @@ public class StudentDAO extends BaseDAO<Student> {
 
     @Override
     public void delete(int id) {
-    try {
-        String sql = "DELETE FROM Student WHERE id = ?";
-        PreparedStatement stm;
+        try {
+            String sql = "DELETE FROM Student WHERE id = ?";
+            PreparedStatement stm;
             stm = connection.prepareStatement(sql);
             stm.setInt(1, id);
             stm.executeUpdate();

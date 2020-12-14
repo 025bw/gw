@@ -7,7 +7,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
-
+<script src="../js/home/pagger.js" type="text/javascript"></script>
 <!DOCTYPE html>
 <html>
     <head>
@@ -22,28 +22,28 @@
     </head>
     <body>
         <form action="filter" method="POST">
-           ID: <input type="text" value="${param.id}" name="id" /> <br/>
-           Name: <input type="text" value="${param.name}" name="name" /> <br/>
-           Gender: <input type="radio" 
-                        <c:if test="${ param.gender == 'male'}" >
-                              checked="checked" 
-                            </c:if>
-                        name="gender" value="male" /> Male
+            ID: <input type="text" value="${param.id}" name="id" /> <br/>
+            Name: <input type="text" value="${param.name}" name="name" /> <br/>
+            Gender: <input type="radio" 
+                           <c:if test="${ param.gender == 'male'}" >
+                               checked="checked" 
+                           </c:if>
+                           name="gender" value="male" /> Male
             <input type="radio" 
-                        <c:if test="${ param.gender == 'female'}" >
-                              checked="checked" 
-                            </c:if> 
-                        name="gender" value="female"  /> Female
+                   <c:if test="${ param.gender == 'female'}" >
+                       checked="checked" 
+                   </c:if> 
+                   name="gender" value="female"  /> Female
             <input type="radio" 
-                        <c:if test="${ param.gender == 'both' 
-                                      or param.gender == '' 
-                                      or param.gender eq null}" >
-                              checked="checked" 
-                            </c:if>      
-                        name="gender" value="both" /> Both <br/>
-           From: <input type="date" value="${param.from}" name="from"/> <br/>
-           To: <input type="date" value="${param.to}" name="to"/> <br/>
-           Department:
+                   <c:if test="${ param.gender == 'both' 
+                                  or param.gender == '' 
+                                  or param.gender eq null}" >
+                         checked="checked" 
+                   </c:if>      
+                   name="gender" value="both" /> Both <br/>
+            From: <input type="date" value="${param.from}" name="from"/> <br/>
+            To: <input type="date" value="${param.to}" name="to"/> <br/>
+            Department:
             <select name="did" >
                 <option value="-1"> ------All------</option>
                 <c:forEach items="${requestScope.depts}" var="d">
@@ -54,9 +54,10 @@
             </select>
             <input type="submit" value="Search"/>
         </form>
-           <input type="button" value="Create"
-                               onclick="sendRedirect('create')"
-                               />
+        <input type="button" value="Create"
+               onclick="sendRedirect('create')"
+               />
+        <div id="pager" class="pagger"> </div>
         <table border="1px"> 
             <tr>
                 <th>Id</th>
@@ -88,7 +89,7 @@
                                         value = "${s.dob}" />
                     </td>
                     <td>
-                        
+
                         <input type="button" value="Edit" 
                                onclick="sendRedirect('edit?id=${s.id}')" />
                         <a href="delete?id=${s.id}"> Delete </a>
@@ -96,6 +97,10 @@
                 </tr>
             </c:forEach>
         </table>    
-
+        <div id="pager_bottom" class="pagger"> </div>
+        <script>
+            renderPager("pager",${requestScope.pageindex},${requestScope.totalpage}, 10);
+            renderPager("pager_bottom",${requestScope.pageindex},${requestScope.totalpage}, 10);
+        </script>
     </body>
 </html>

@@ -35,8 +35,20 @@ public class ListStudentController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        
+        int pagesize = 10;
+        String raw_pageindex = request.getParameter("page");
+        if(raw_pageindex == null || raw_pageindex.equals(""))
+            raw_pageindex= "1";
+        int pageindex = Integer.parseInt(raw_pageindex);
+        
         StudentDAO db = new StudentDAO();
-        ArrayList<Student> students = db.list();
+        ArrayList<Student> students = db.listpage(pagesize, pageindex);
+        int totalRows = db.count();
+        int totalPage = totalRows/pagesize + (totalRows%pagesize>0?1:0);
+        
+        request.setAttribute("pageindex", pageindex);
+        request.setAttribute("totalpage", totalPage);
         request.setAttribute("students", students);
         request.getRequestDispatcher("../view/student/list.jsp").forward(request, response);
     }

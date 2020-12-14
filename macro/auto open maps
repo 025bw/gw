@@ -252,291 +252,148 @@ ELSE
 GOTO : 0
 ENDIF
 Mouse : 43 : 348 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 348 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 348 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 348 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 348 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 348 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 348 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 348 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 348 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 348 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 348 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 348 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 390 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 390 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 390 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 390 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 390 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 390 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 390 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 390 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 390 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 390 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 390 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 390 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 432 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 432 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 432 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 432 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 432 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 432 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 432 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 432 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 432 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 432 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 432 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 432 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 474 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 474 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 474 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 474 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 474 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 474 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 474 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 474 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 474 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 474 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 474 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 474 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 516 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 516 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 516 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 516 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 516 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 516 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 516 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 516 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 516 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 516 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 516 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 516 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 558 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 558 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 558 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 558 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 558 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 558 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 558 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 558 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 558 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 558 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 558 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 558 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 600 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 600 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 600 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 600 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 600 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 600 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 600 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 600 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 600 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 600 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 600 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 600 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 642 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 642 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 642 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 642 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 642 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 642 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 642 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 642 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 642 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 642 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 642 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 642 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 684 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 684 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 684 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 684 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 684 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 684 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 684 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 684 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 684 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 684 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 684 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 684 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 726 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 726 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 726 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 726 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 726 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 726 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 726 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 726 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 726 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 726 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 726 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 726 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 768 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 768 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 768 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 768 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 768 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 768 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 768 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 768 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 768 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 768 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 768 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 768 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 810 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 43 : 810 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 810 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 85 : 810 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 810 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 127 : 810 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 810 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 169 : 810 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 810 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 211 : 810 : RightButtonUp : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 810 : RightButtonDown : 0 : 0 : 0
-DELAY : 0
 Mouse : 253 : 810 : RightButtonUp : 0 : 0 : 0
 IF CLIPBOARD EQUALS : m : 0 : 0
 GOTO : move

@@ -15,7 +15,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <div id="pager_top" class="pagger"> </div>
+        <div id="pager" class="pagger"> </div>
         <table border="1px"> 
             <tr>
                 <th>Id</th>
@@ -34,8 +34,8 @@
         </table>   
         <div id="pager_bottom" class="pagger"> </div>
         <script>
-            renderPager("pager_top",${requestScope.pageindex},${requestScope.totalpage},3);
-            renderPager("pager_bottom",${requestScope.pageindex},${requestScope.totalpage},3);
+            renderPager("pager",${requestScope.pageindex},${requestScope.totalpage},10);
+            renderPager("pager_bottom",${requestScope.pageindex},${requestScope.totalpage},10);
         </script>
     </body>
 </html>
