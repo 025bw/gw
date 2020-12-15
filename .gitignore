@@ -3,3 +3,6 @@ GWMiner 5.1.15.1/Blue.log
 GWMiner 5.1.15.1/Blue.log
 *.log
 /DemoJDBC/build/
+/DemoJDBC/dist/
+/WebApplication2/nbproject/private/
+/WebApplication2/build/

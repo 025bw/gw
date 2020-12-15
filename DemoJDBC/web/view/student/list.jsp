@@ -92,7 +92,7 @@
 
                         <input type="button" value="Edit" 
                                onclick="sendRedirect('edit?id=${s.id}')" />
-                        <a href="delete?id=${s.id}"> Delete </a>
+                        <a href="delete?id=${s.id}" method="POST"> Delete </a>
                     </td>
                 </tr>
             </c:forEach>

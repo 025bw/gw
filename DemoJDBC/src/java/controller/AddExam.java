@@ -6,22 +6,24 @@
 package controller;
 
 import dal.StudentDAO;
+import dal.SubjectDAO;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.Date;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import model.Exam;
 import model.Student;
+import model.Subject;
 
 /**
  *
- * @author sonnt
+ * @author z
  */
-public class DeleteStudentController extends HttpServlet {
+public class AddExam extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -32,12 +34,8 @@ public class DeleteStudentController extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws IOException
-    {   
-        StudentDAO db = new StudentDAO();
-        int id = Integer.parseInt(request.getParameter("id"));
-        db.delete(id);
-        response.sendRedirect("search");
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
@@ -51,15 +49,16 @@ public class DeleteStudentController extends HttpServlet {
      */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
-    {
-        StudentDAO db = new StudentDAO();
-        int id = Integer.parseInt(request.getParameter("id"));
-        db.delete(id);
-        try {
-            response.sendRedirect("list");
-        } catch (IOException ex) {
-            Logger.getLogger(DeleteStudentController.class.getName()).log(Level.SEVERE, null, ex);
-        }
+            throws ServletException, IOException {
+        //int id = Integer.parseInt(request.getParameter("id"));
+        int id = 1;
+        StudentDAO sdb = new StudentDAO();
+        Student student = sdb.get(id);
+        SubjectDAO db = new SubjectDAO();
+        ArrayList<Subject> subs = db.list();
+        request.setAttribute("student", student);
+        request.setAttribute("subs", subs);
+        request.getRequestDispatcher("../view/student/edit.jsp").forward(request, response);
     }
 
     /**
@@ -74,17 +73,11 @@ public class DeleteStudentController extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-        StudentDAO db = new StudentDAO();
-        int id = Integer.parseInt(request.getParameter("id"));
-        db.delete(id);
-        try {
-            response.sendRedirect("search");
-        } catch (IOException ex) {
-            Logger.getLogger(DeleteStudentController.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        processRequest(request, response);
-    }
+        response.setContentType("text/html;charset=UTF-8");
+        try (PrintWriter out = response.getWriter()) {
 
+    }
+    }
     /**
      * Returns a short description of the servlet.
      *
