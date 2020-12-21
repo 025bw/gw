@@ -43,7 +43,7 @@ public class ListStudentController extends HttpServlet {
         int pageindex = Integer.parseInt(raw_pageindex);
         
         StudentDAO db = new StudentDAO();
-        ArrayList<Student> students = db.listpage(pagesize, pageindex);
+        ArrayList<Student> students = db.list();
         int totalRows = db.count();
         int totalPage = totalRows/pagesize + (totalRows%pagesize>0?1:0);
         
