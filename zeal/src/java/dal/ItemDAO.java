@@ -133,7 +133,8 @@ public class ItemDAO extends BaseDAO {
         if (to != null) {
             sql += " and price < ? ";
         }
-        if (instock.equals("on"))
+        if (instock.equals(""
+                + "on"))
         {
             sql += " and stock > 0 ";
         }

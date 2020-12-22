@@ -43,11 +43,14 @@
         </script>
     </head>
     <body>
-        <a href="list" method="get"> Product List</a>
-        <a href="cart" method="get"> Cart </a>
-        <a href="checkout" method="get"> Check Out </a>
+        <form action="list" method="POST"> 
+            <input type="submit" value = "Product List"></form>
+        <form action="cart" method="POST">
+            <input type="submit" value = "Cart"></form>
+        <form action="checkout" method="POST"> 
+            <input type="submit" value = "Check Out"></form>
 
-
+        <br>
         <form action="list" method = "get">
             Product name: <input type="text" style="width: 144px;"name="name" value="${param.name}">
             <br>Price from: <input style="width: 70px;" type="text" name="from" value="${param.from}">
@@ -102,9 +105,10 @@
                     <td text-align: right>${i.price} VND</td>
                     <td><c:choose><c:when test = "${i.stock == 0}">out of stock</c:when>
                             <c:otherwise>${i.stock}</c:otherwise></c:choose></td>
-                            <td><form action="/action_page.php">
+                            <td><form action="cart" method="get">
                                     Quantity:
-                                    <input type="number" id="quantity" name="quantity" min="0" max="${i.stock}">
+                                    <input type="number" name="quantity" min="0" max="${i.stock}">
+                                    <input type="hidden" name="itemid" value ="${i.item_id}">
                             <input type="submit" value="Add to cart">
                         </form>
                 </tr>
