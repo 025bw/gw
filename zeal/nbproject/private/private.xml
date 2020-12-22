@@ -13,6 +13,7 @@
             <file>file:/C:/Users/z/Documents/NetBeansProjects/zeal/src/java/model/Account.java</file>
             <file>file:/C:/Users/z/Documents/NetBeansProjects/zeal/src/java/controller/ItemDetailController.java</file>
             <file>file:/C:/Users/z/Documents/NetBeansProjects/zeal/src/java/controller/LoginController.java</file>
+            <file>file:/C:/Users/z/Documents/NetBeansProjects/zeal/src/java/dal/CartDAO.java</file>
             <file>file:/C:/Users/z/Documents/NetBeansProjects/zeal/web/index.html</file>
             <file>file:/C:/Users/z/Documents/NetBeansProjects/zeal/src/java/model/Item.java</file>
             <file>file:/C:/Users/z/Documents/NetBeansProjects/zeal/src/java/dal/CategoryDAO.java</file>
@@ -20,6 +21,8 @@
             <file>file:/C:/Users/z/Documents/NetBeansProjects/zeal/src/java/controller/CartController.java</file>
             <file>file:/C:/Users/z/Documents/NetBeansProjects/zeal/web/login.jsp</file>
             <file>file:/C:/Users/z/Documents/NetBeansProjects/zeal/src/java/dal/ItemDAO.java</file>
+            <file>file:/C:/Users/z/Documents/NetBeansProjects/zeal/web/checkout.jsp</file>
+            <file>file:/C:/Users/z/Documents/NetBeansProjects/zeal/src/java/model/Cart.java</file>
         </group>
     </open-files>
 </project-private>

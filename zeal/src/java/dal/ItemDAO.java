@@ -143,7 +143,7 @@ public class ItemDAO extends BaseDAO {
         try {
             stm = connection.prepareStatement(sql);
             
-            if (sort != null) {
+            if (sort != null && sort != "") {
                 stm.setString(1, sort);
             }else
                 stm.setString(1, "item_id");

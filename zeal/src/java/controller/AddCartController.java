@@ -5,23 +5,50 @@
  */
 package controller;
 
-import dal.StudentDAO;
+import dal.CartDAO;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import model.Student;
+import model.Cart;
+import model.Item;
 
 /**
  *
- * @author sonnt
+ * @author z
  */
-public class ListStudentController extends HttpServlet {
+public class AddCartController extends HttpServlet {
 
-   
+    /**
+     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
+     * methods.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String raw_itemid = request.getParameter("itemid");
+        int itemid = new Integer(raw_itemid);
+        String raw_quantity = request.getParameter("quantity");
+        if (raw_quantity == "") {
+            raw_quantity = "0";
+        }
+        int quantity = new Integer(raw_quantity);
+        CartDAO crtdao = new CartDAO();
+        Cart c = new Cart();
+        Item i = new Item();
+        i.setItem_id(itemid);
+        c.setItem(i);
+        c.setQuantity(quantity);
+        crtdao.insert(c);
+
+        response.sendRedirect("list");
+    }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
@@ -35,22 +62,7 @@ public class ListStudentController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
-        int pagesize = 10;
-        String raw_pageindex = request.getParameter("page");
-        if(raw_pageindex == null || raw_pageindex.equals(""))
-            raw_pageindex= "1";
-        int pageindex = Integer.parseInt(raw_pageindex);
-        
-        StudentDAO db = new StudentDAO();
-        ArrayList<Student> students = db.listpage(pagesize, pageindex);
-        int totalRows = db.count();
-        int totalPage = totalRows/pagesize + (totalRows%pagesize>0?1:0);
-        
-        request.setAttribute("pageindex", pageindex);
-        request.setAttribute("totalpage", totalPage);
-        request.setAttribute("students", students);
-        request.getRequestDispatcher("../view/student/list.jsp").forward(request, response);
+        processRequest(request, response);
     }
 
     /**
@@ -64,6 +76,7 @@ public class ListStudentController extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        processRequest(request, response);
     }
 
     /**
