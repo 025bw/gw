@@ -26,6 +26,8 @@ public class CartController extends HttpServlet {
         CartDAO zxc = new CartDAO();
         ArrayList<Cart> carts = zxc.list();
         request.setAttribute("carts", carts);
+        int count = zxc.count();
+        request.setAttribute("count", count);
         request.getRequestDispatcher("displaycart.jsp").forward(request, response);
     }
 
@@ -38,6 +40,8 @@ public class CartController extends HttpServlet {
         CartDAO zxc = new CartDAO();
         ArrayList<Cart> carts = zxc.list();
         request.setAttribute("carts", carts);
+        int count = zxc.count();
+        request.setAttribute("count", count);
         request.getRequestDispatcher("displaycart.jsp").forward(request, response);
 
     }
@@ -50,6 +54,8 @@ public class CartController extends HttpServlet {
         CartDAO zxc = new CartDAO();
         ArrayList<Cart> carts = zxc.list();
         request.setAttribute("carts", carts);
+        int count = zxc.count();
+        request.setAttribute("count", count);
         request.getRequestDispatcher("displaycart.jsp").forward(request, response);
     }
 

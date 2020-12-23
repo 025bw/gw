@@ -90,6 +90,7 @@ public class CheckOut extends HttpServlet {
                 }
             }
         }
+        
         request.getRequestDispatcher("checkout.jsp").forward(request, response);
     }
 
@@ -105,7 +106,7 @@ public class CheckOut extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String name = request.getParameter("name");
-        String adress = request.getParameter("adress");
+        String address = request.getParameter("address");
         String phone = request.getParameter("phone");
         String note = request.getParameter("note");
         Order o = new Order();
@@ -115,14 +116,17 @@ public class CheckOut extends HttpServlet {
         cus.setPhone(p);
         o.setCustomer(cus);
         o.setNote(note);
-        o.setShipaddress(adress);
+        o.setShipaddress(address);
         CustomerDAO cdb = new CustomerDAO();
         OrderDAO odb = new OrderDAO();
         cdb.insert(cus);
         odb.insertorder(o);
         int oid = odb.count();
-        response.getWriter().println(oid);
         odb.insertitems(oid);
+        String key = odb.getkey(oid);
+        request.setAttribute("key", key);
+        response.getWriter().println(key);
+        request.getRequestDispatcher("ordersuccess.jsp").forward(request, response);
     }
 
     /**

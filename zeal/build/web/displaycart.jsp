@@ -32,6 +32,7 @@
         <title>meo meo</title>
     </head>
     <body>
+        
         <input type="button" padding-bottom="25px" onclick="sendRedirect('list')" value = "Product List">
         <form>
             <table>
@@ -52,12 +53,14 @@
                     </td>
                 </c:forEach>
             </table>
+            <c:if test="${requestScope.count>0}">
             <input type="submit" value="Update Cart"
                    formaction="UpdateCart"
                    >
             <input type="submit" value="Checkout"
                    formaction="checkout"
                    >
+            </c:if>
         </form>
         Total: <c:out value="${salary}"/>  xèng
     </body>

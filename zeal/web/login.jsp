@@ -12,6 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
+        ${InvalidCredentials}
         <form action="login" method="POST">
             Username: <input type="text" name="username"/> <br/>
             Password: <input type="password" name="password"/><br/>

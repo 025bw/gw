@@ -50,36 +50,33 @@ public class LoginController extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        String username = request.getParameter("username");
+        String password = request.getParameter("password");
+        String remember = request.getParameter("remember");
         
-        response.setContentType("text/html;charset=UTF-8");
-        try {
-            String username = request.getParameter("username");
-            String password = request.getParameter("password");
-            AccountDAO accountDao = new AccountDAO();
+        AccountDAO db = new AccountDAO();
+        Account account = db.CheckUserPassword(username, password);
+        if(account != null)
+        {
+            request.getSession().setAttribute("user", account);
+            if(remember!= null && remember.equals("remember"))
+            {
+                Cookie user = new Cookie("cuser", username);
+                Cookie pass = new Cookie("cpass", password);
+                user.setMaxAge(3600*24*30);
+                pass.setMaxAge(3600*24*30);
+                response.addCookie(pass);
+                response.addCookie(user);
+            }
             
-            Account a = accountDao.CheckUserPassword(username,password);
-            if("".equals(a.getUsername())){
-            response.getWriter().println(password);
-            }
-            response.getWriter().println(password);
-            boolean success = false;
-            if (a != null) {
-                
-                if (username.equals(a.getUsername()) && password.equals(a.getPassword())) {
-                    Cookie u = new Cookie("username", username);
-                    u.setMaxAge(24 * 36000);
-                    response.addCookie(u);
-                    success = true;
-                }
-            }
-            if (success) {
-                response.getWriter().println("login successful!");
-            } else {
-                response.getWriter().println("login unsuccessful!");
-                
-            }
-        } catch (Exception e) {
-
+            response.getWriter().println("login successful!");
+            response.sendRedirect("");
+        }
+        else
+        {
+            response.getWriter().println("invalid username/password.");
+            request.setAttribute("InvalidCredentials","Invalid Credentials");
+            request.getRequestDispatcher("login.jsp").forward(request, response);
         }
     }
 

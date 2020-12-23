@@ -5,21 +5,21 @@
  */
 package controller;
 
-import dal.CartDAO;
+import dal.OrderDAO;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import model.Cart;
-import model.Item;
+import model.Order;
 
 /**
  *
  * @author z
  */
-public class AddCartController extends HttpServlet {
+public class TrackOrderController extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -32,23 +32,19 @@ public class AddCartController extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String raw_itemid = request.getParameter("itemid");
-        int itemid = new Integer(raw_itemid);
-        String raw_quantity = request.getParameter("quantity");
-        if (raw_quantity == "") {
-            raw_quantity = "0";
+        response.setContentType("text/html;charset=UTF-8");
+        try (PrintWriter out = response.getWriter()) {
+            /* TODO output your page here. You may use following sample code. */
+            out.println("<!DOCTYPE html>");
+            out.println("<html>");
+            out.println("<head>");
+            out.println("<title>Servlet TrackOrderController</title>");
+            out.println("</head>");
+            out.println("<body>");
+            out.println("<h1>Servlet TrackOrderController at " + request.getContextPath() + "</h1>");
+            out.println("</body>");
+            out.println("</html>");
         }
-        int quantity = new Integer(raw_quantity);
-        if (quantity > 0) {
-            CartDAO crtdao = new CartDAO();
-            Cart c = new Cart();
-            Item i = new Item();
-            i.setItem_id(itemid);
-            c.setItem(i);
-            c.setQuantity(quantity);
-            crtdao.insert(c);
-        }
-        response.sendRedirect("list");
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
@@ -63,7 +59,7 @@ public class AddCartController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        request.getRequestDispatcher("track.jsp").forward(request, response);
     }
 
     /**
@@ -77,7 +73,13 @@ public class AddCartController extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        String key = request.getParameter("key");
+        OrderDAO odb = new OrderDAO();
+        Order order = odb.track(key);
+        request.setAttribute("order", order);
+        request.setAttribute("key", key);
+        request.getRequestDispatcher("track.jsp").forward(request, response);
+
     }
 
     /**

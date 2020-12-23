@@ -38,13 +38,14 @@ public class UpdateCartController extends HttpServlet {
         String[] raw_id = request.getParameterValues("i");
         String[] raw_quantity = request.getParameterValues("q");
         String ids = (Arrays.toString(raw_id));
+        if(null==ids)ids="";
         ids = ids.replace("[", "");
         ids = ids.replace("]", "");
         if (!"".equals(ids)) {
             zxc.delete();
         }
         String quantity = (Arrays.toString(raw_quantity));
-
+        if(null==quantity)quantity="";
         quantity = quantity.replace("[", "");
         quantity = quantity.replace("]", "");
         int count = (ids.length() + 2) / 3;

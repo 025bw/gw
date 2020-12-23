@@ -20,13 +20,11 @@ import model.Account;
 public class AccountDAO extends BaseDAO {
 
     public Account CheckUserPassword(String username, String password) {
-        String sql = "SELECT [username],[password] FROM [account] where username = '?' and password = '?'";
+        String sql = "SELECT [username],[password] FROM [account] where username = '"+username+"' and password = '"+password+"'";
 
         PreparedStatement stm;
         try {
             stm = connection.prepareStatement(sql);
-            stm.setString(1, username);
-            stm.setString(2, password);
             ResultSet rs = stm.executeQuery();
             if (rs.next()) {
                 Account acc = new Account();
@@ -38,6 +36,13 @@ public class AccountDAO extends BaseDAO {
             Logger.getLogger(AccountDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         return null;
+    }
+    
+     public String zCheckUserPassword(String username, String password) {
+        String sql = "SELECT [username],[password] FROM [account] where username = '"+username+"' and password = '"+password+"'";
+
+        
+        return sql;
     }
 
     @Override

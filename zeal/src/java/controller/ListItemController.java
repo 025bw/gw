@@ -47,7 +47,7 @@ public class ListItemController extends HttpServlet {
         }
         else sort="item_id";
         int i = 1;
-        int pagesize = 3;
+        int pagesize = 10;
         String raw_pageindex = request.getParameter("page");
         if (raw_pageindex == null || raw_pageindex.equals("")) {
             raw_pageindex = "1";
@@ -106,12 +106,15 @@ public class ListItemController extends HttpServlet {
         }
 
         String sort = request.getParameter("sort");
-        if (sort != null) {
+        if (sort.equals("name asc")||sort.equals("name desc")) {
             sort = sort.replace("_", " ");
         }
-        else sort="item_id";
+        else if (sort.equals("price asc")||sort.equals("price desc")) {
+            sort = sort.replace("_", " ");
+        }
+        else sort="item id";
         int i = 1;
-        int pagesize = 3;
+        int pagesize = 10;
         String raw_pageindex = request.getParameter("page");
         if (raw_pageindex == null || raw_pageindex.equals("")) {
             raw_pageindex = "1";
@@ -120,7 +123,7 @@ public class ListItemController extends HttpServlet {
         CategoryDAO catdb = new CategoryDAO();
         ItemDAO idb = new ItemDAO();
         int totalRows = idb.count();
-        
+        response.getWriter().println(sort);
         int totalPage = totalRows / pagesize + (totalRows % pagesize > 0 ? 1 : 0);
         response.getWriter().println(sort);
         ArrayList<Item> items = idb.search(cat, name, from, to, sort, pagesize, pageindex, instock);

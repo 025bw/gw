@@ -11,15 +11,35 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
+        
         <style>
+            
+            .row {
+                margin-left:-5px;
+                margin-right:-5px;
+            }
+            .column {
+                float: left;
+                width: 240px;
+                padding: 5px;
+            }
+            table,td {
+                border-collapse: collapse;
+                border-spacing: 0;
+                width: 100%;
+            }
+            td{max-width: 100px}
             body {
                 line-height: 1.6;
                 color: #101010;
                 text-align: left;
             }
-            table, th, td {
-                border: 1px solid #101010;
-                border-collapse: collapse;
+            table:hover {
+                transition: box-shadow 0.3s ease-in-out;
+                border: 1px solid #f0f0f0;
+                box-shadow:
+                    6px 6px 6px 0px rgba(0, 0, 0, 0.134)
             }
         </style>
         <title>gau gau</title>
@@ -28,10 +48,13 @@
             {
                 window.location.href = url;
             }
+            $("#featured-courses").flickity();
         </script>
     </head>
     <body>
 
+
+        <input type="button" onclick="sendRedirect('/zeal/')" value = "Home">
         <input type="button" onclick="sendRedirect('list')" value = "Product List">
         <input type="button" onclick="sendRedirect('cart')" value = "Cart">
         <input type="button" onclick="sendRedirect('checkout')" value = "Checkout">
@@ -56,65 +79,67 @@
 
 
             <input type="submit" value="Search">
+            Sort by: <select name="sort" onchange="this.form.submit()">
+                <option value=""></option>
+                <option value="name asc" <c:if test="${sort == 'name asc'}">selected</c:if> >A-Z</option>
+                <option value="name desc" <c:if test="${sort == 'name desc'}">selected</c:if> >Z-A</option>
+                <option value="price asc" <c:if test="${sort == 'price asc'}">selected</c:if> >Price: Low to High</option>
+                <option value="price desc" <c:if test="${sort == 'price desc'}">selected</c:if> >Price: High to Low</option>
+            </select>
         </form>
 
+        
+<div class="row">
 
-        <table >
-            <th>
-                <c:choose>
-                    <c:when test="${sort=='name asc'}">
-                        <a href="list?name=${param.name}&from=${param.from}&to=${param.to}&instock=${param.instock}&cat_id=-1&sort=name desc"method="post"> Product name</a> </c:when>
-                    <c:when test="${sort=='name desc'}">
-                        <a href="list?name=${param.name}&from=${param.from}&to=${param.to}&instock=${param.instock}&cat_id=-1"method="get"> Product name</a> </c:when>
-                    <c:otherwise>
-                        <a href="list?name=${param.name}&from=${param.from}&to=${param.to}&instock=${param.instock}&cat_id=-1&sort=name asc"method="post"> Product name</a> </c:otherwise>
-                </c:choose>
-            </th>
-            <th>
-                <c:choose>
-                    <c:when test="${sort=='price asc'}">
-                        <a href="list?name=${param.name}&from=${param.from}&to=${param.to}&instock=${param.instock}&cat_id=-1&sort=price desc"method="get"> Price</a> </c:when>
-                    <c:when test="${sort=='price desc'}">
-                        <a href="list?name=${param.name}&from=${param.from}&to=${param.to}&instock=${param.instock}&cat_id=-1"method="get"> Price</a> </c:when>
-                    <c:otherwise>
-                        <a href="list?name=${param.name}&from=${param.from}&to=${param.to}&instock=${param.instock}&cat_id=-1&sort=price asc"method="get"> Price</a> </c:otherwise>
-                </c:choose>
-            </th>
-            <th>
-                In Stock
-            </th>
             <c:forEach items="${requestScope.items}" var="i" >
-                <tr>
-                    <td text-align: center style="max-width:120px"> ${i.name}<br><img src="img/${i.item_id}.png" width="100" height="100" alt=""/></td>
-                    <td text-align: right>${i.price} xu</td>
-                    <td><c:choose><c:when test = "${i.stock == 0}">out of stock</c:when>
-                            <c:otherwise>${i.stock}</c:otherwise></c:choose></td>
-                            <td>
-                                <form action="add" method="get">
-                                    Quantity:
-                                    <input type="number" name="quantity" min="0" 
-                                <c:forEach
-                                    items="${requestScope.carts}" var="cr" >
-                                    <c:if test="${cr.item.item_id eq i.item_id}">
-                                        max="${i.stock - cr.quantity}"</c:if>
-                            </c:forEach>
-                                        max="${i.stock}" placeholder="0">
-                            
-                            <input type="hidden" name="itemid" value ="${i.item_id}">
-                            <input type="submit" value="Add to cart">
-                        </form>
-                </tr>
-            </c:forEach>
-        </table>
-        <c:forEach begin="1" end="${requestScope.totalpage}" var="p">
-            <c:choose>
-                <c:when test="${requestScope.pageindex == p}">
-                    ${p}
-                </c:when>
-                <c:otherwise>
-                    <a href="list?name=${param.name}&from=${param.from}&to=${param.to}&instock=${param.instock}&cat_id=-1&sort=${sort}&page=${p}"> ${p}</a> </c:otherwise>
-            </c:choose>
-        </c:forEach>
+                <div class="column">
+                    <table >
+                        <tr><td>
+                                <img src="img/${i.item_id}.png" width="220" height="220" alt=""/>
 
+                            </td></tr>
+                        <tr><td>
+                                ${i.name}<br>${i.price} coins
+                            </td></tr>
+
+
+                        <tr><td><c:choose><c:when test = "${i.stock == 0}"><br>out of stock</c:when>
+                                    <c:otherwise>In Stock: ${i.stock}</c:otherwise></c:choose></td>
+                                    </td></tr>
+                                <tr>
+
+                                    <td>
+                                      
+                                <c:if test = "${i.stock != 0}">
+                                    <form action="add" method="get">
+                                        Quantity:
+                                        <input type="number" width="30px" name="quantity" min="0"  
+                                               <c:forEach
+                                                   items="${requestScope.carts}" var="cr" >
+                                                   <c:if test="${cr.item.item_id eq i.item_id}">
+                                                       max="${i.stock - cr.quantity}"</c:if>
+                                               </c:forEach>
+                                               <c:if test="${i.stock<1000}">
+                                                   max="${i.stock}"</c:if>
+                                                   max="999"
+                                                   
+                                                   
+                                                   <c:if test="${(i.stock - cr.quantity) == 0}">
+                                                       value="0"</c:if>>
+                                               <input type="hidden" name="itemid"  value ="${i.item_id}">
+                                        <input type="submit" value="Add to cart">
+                                    </form>
+                                </c:if>
+                            </td>
+
+                        </tr>
+
+
+
+                    </table></div>
+                </c:forEach>
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.0/flickity.pkgd.min.js"></script>
     </body>    
 </html>

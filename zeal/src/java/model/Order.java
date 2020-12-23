@@ -13,10 +13,28 @@ import java.sql.Date;
  */
 public class Order {
     private String orderstatus;
+    private String arrivedate;
     private String shipaddress;
     private Date orderdate;
     private String note;
     private Customer c;
+    private int oid;
+
+    public Customer getC() {
+        return c;
+    }
+
+    public void setC(Customer c) {
+        this.c = c;
+    }
+
+    public int getOid() {
+        return oid;
+    }
+
+    public void setOid(int oid) {
+        this.oid = oid;
+    }
 
     public Customer getCustomer() {
         return c;
