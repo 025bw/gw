@@ -24,6 +24,10 @@
         <servlet-name>CheckOut</servlet-name>
         <servlet-class>controller.CheckOut</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>DeleteAllRecord</servlet-name>
+        <servlet-class>controller.DeleteAllRecord</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>LoginController</servlet-name>
         <url-pattern>/login</url-pattern>
@@ -47,6 +51,10 @@
     <servlet-mapping>
         <servlet-name>CheckOut</servlet-name>
         <url-pattern>/checkout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteAllRecord</servlet-name>
+        <url-pattern>/deleteall</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

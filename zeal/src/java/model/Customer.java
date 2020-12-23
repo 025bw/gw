@@ -11,8 +11,7 @@ package model;
  */
 public class Customer {
     private String name;
-    private String phone;
-    private String note;
+    private int phone;
 
     public String getName() {
         return name;
@@ -22,21 +21,14 @@ public class Customer {
         this.name = name;
     }
 
-    public String getPhone() {
+    public int getPhone() {
         return phone;
     }
 
-    public void setPhone(String phone) {
+    public void setPhone(int phone) {
         this.phone = phone;
     }
 
-    public String getNote() {
-        return note;
-    }
-
-    public void setNote(String note) {
-        this.note = note;
-    }
     
     
 }

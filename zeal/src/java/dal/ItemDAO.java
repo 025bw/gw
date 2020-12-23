@@ -119,8 +119,8 @@ public class ItemDAO extends BaseDAO {
 
     public ArrayList<Item> search(Integer catid, String name, Integer from, Integer to, String sort, int pagesize, int pageindex, String instock) {
         ArrayList<Item> items = new ArrayList<>();
-        Integer index = 1;
-        String sql = "SELECT item_id, name, price, stock, cat_id, cat_name FROM (SELECT ROW_NUMBER() OVER (ORDER BY ? ) as rownum, i.item_id, i.name,i.price,i.stock,i.cat_id,c.cat_name FROM item_detail i join category c on i.cat_id=c.cat_id where (1=1)";
+        Integer index = 0;
+        String sql = "SELECT item_id, name, price, stock, cat_id, cat_name FROM (SELECT ROW_NUMBER() OVER (ORDER BY "+sort+" ) as rownum, i.item_id, i.name,i.price,i.stock,i.cat_id,c.cat_name FROM item_detail i join category c on i.cat_id=c.cat_id where (1=1)";
         if (catid != null) {
             sql += " and i.cat_id = ? ";
         }
@@ -142,11 +142,6 @@ public class ItemDAO extends BaseDAO {
         PreparedStatement stm;
         try {
             stm = connection.prepareStatement(sql);
-            
-            if (sort != null && sort != "") {
-                stm.setString(1, sort);
-            }else
-                stm.setString(1, "item_id");
             if (catid != null) {
                 index++;
                 stm.setInt(index, catid);

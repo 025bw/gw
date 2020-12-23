@@ -15,4 +15,49 @@ public class Order {
     private String orderstatus;
     private String shipaddress;
     private Date orderdate;
+    private String note;
+    private Customer c;
+
+    public Customer getCustomer() {
+        return c;
+    }
+
+    public void setCustomer(Customer c) {
+        this.c = c;
+    }   
+
+    public String getOrderstatus() {
+        return orderstatus;
+    }
+
+    public void setOrderstatus(String orderstatus) {
+        this.orderstatus = orderstatus;
+    }
+
+    public String getShipaddress() {
+        return shipaddress;
+    }
+
+    public void setShipaddress(String shipaddress) {
+        this.shipaddress = shipaddress;
+    }
+
+    public Date getOrderdate() {
+        return orderdate;
+    }
+
+    public void setOrderdate(Date orderdate) {
+        this.orderdate = orderdate;
+    }
+
+    public String getNote() {
+        return note;
+    }
+
+    public void setNote(String note) {
+        this.note = note;
+    }
+    
+    
+    
 }

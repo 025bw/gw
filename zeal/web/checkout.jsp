@@ -38,7 +38,7 @@
                     Phone number:<span style="padding-left:5px"><input type="text" style="width: 144px;" name="phone" required ><br>
                         Note:<span style="padding-left:66px"><input type="text" style="width: 144px;" name="note" ><br>                
                             You have to pay: <c:out value="${salary}"/> xèng
-
+                            <input type="submit" vslue="Place Order">
                             </form>
                             <c:forEach items="${requestScope.carts}" var="c" >
                                 <c:set var="salary" value="${salary+c.item.price*c.quantity}" scope="session"/>
