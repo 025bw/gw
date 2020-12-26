@@ -22,6 +22,7 @@
             .column {
                 float: left;
                 width: 240px;
+                height: 325px;
                 padding: 5px;
             }
             table,td {
@@ -75,7 +76,9 @@
                         <c:if test="${c.cat_id eq param.cat_id}">selected="selected"</c:if>
                         value="${c.cat_id}">${c.cat_name}</option>
                 </c:forEach>
-            </select>
+                    </select>
+                
+            
 
 
             <input type="submit" value="Search">
@@ -86,6 +89,10 @@
                 <option value="price asc" <c:if test="${sort == 'price asc'}">selected</c:if> >Price: Low to High</option>
                 <option value="price desc" <c:if test="${sort == 'price desc'}">selected</c:if> >Price: High to Low</option>
             </select>
+            <br>
+            <c:forEach var="page" begin="1" end="${totalPage}" varStatus="loop">
+                    <input type="button" name="page" onclick="this.form.submit()" value="${page}"></input>
+                </c:forEach>
         </form>
 
         
@@ -95,7 +102,7 @@
                 <div class="column">
                     <table >
                         <tr><td>
-                                <img src="img/${i.item_id}.png" width="220" height="220" alt=""/>
+                                <img src="img/${i.name}.png" width="220" height="220" alt=""/>
 
                             </td></tr>
                         <tr><td>

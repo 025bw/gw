@@ -122,42 +122,42 @@ public class ItemDAO extends BaseDAO {
         Integer index = 0;
         String sql = "SELECT item_id, name, price, stock, cat_id, cat_name FROM (SELECT ROW_NUMBER() OVER (ORDER BY "+sort+" ) as rownum, i.item_id, i.name,i.price,i.stock,i.cat_id,c.cat_name FROM item_detail i join category c on i.cat_id=c.cat_id where (1=1)";
         if (catid != null) {
-            sql += " and i.cat_id = ? ";
+            sql += " and i.cat_id = "+catid+" ";
         }
         if (name != null) {
-            sql += " and name like '%'+ ? + '%' ";
+            sql += " and name like '%'+ '"+name+"' + '%' ";
         }
         if (from != null) {
-            sql += " and price > ? ";
+            sql += " and price > "+from+" ";
         }
         if (to != null) {
-            sql += " and price < ? ";
+            sql += " and price < "+to+" ";
         }
         if (instock.equals(""
                 + "on"))
         {
             sql += " and stock > 0 ";
         }
-        sql +=") tbl WHERE rownum >= (? -1)*? + 1 AND rownum <= ? * ?";
+            sql +=") tbl WHERE rownum >= (? -1)*? + 1 AND rownum <= ? * ?";
         PreparedStatement stm;
         try {
             stm = connection.prepareStatement(sql);
-            if (catid != null) {
-                index++;
-                stm.setInt(index, catid);
-            }
-            if (name != null) {
-                index++;
-                stm.setString(index, name);
-            }
-            if (from != null) {
-                index++;
-                stm.setInt(index, from);
-            }
-            if (to != null) {
-                index++;
-                stm.setInt(index, to);
-            }
+//            if (catid != null) {
+//                index++;
+//                stm.setInt(index, catid);
+//            }
+//            if (name != null) {
+//                index++;
+//                stm.setString(index, name);
+//            }
+//            if (from != null) {
+//                index++;
+//                stm.setInt(index, from);
+//            }
+//            if (to != null) {
+//                index++;
+//                stm.setInt(index, to);
+//            }
             index++;
             stm.setInt(index, pageindex);
             index++;

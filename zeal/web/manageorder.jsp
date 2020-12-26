@@ -19,8 +19,17 @@
         </style>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <script>
+            function sendRedirect(url)
+            {
+                window.location.href = url;
+            }
+            $("#featured-courses").flickity();
+        </script>
     </head>
     <body>
+        <input type="button" onclick="sendRedirect('/zeal/')" value = "Home">
+        <br>
         <table>
             <tr><th>ID</th><th>Phone Number</th><th>Total Value</th><th>Order Status</th></tr>
                     <c:forEach items="${requestScope.orders}" var="o">

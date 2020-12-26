@@ -77,7 +77,7 @@ public abstract class BasedAuthenticationController extends HttpServlet {
         if(isAuthenticated(request))
             processGet(request, response);
         else
-            response.getWriter().println("access denied");
+            response.sendRedirect("login");
     }
     
     protected abstract void processGet(HttpServletRequest request, HttpServletResponse response);
@@ -97,7 +97,7 @@ public abstract class BasedAuthenticationController extends HttpServlet {
         if(isAuthenticated(request))
         processPost(request, response);
         else
-            response.getWriter().println("access denied");
+            response.sendRedirect("login");
     }
 
     /**

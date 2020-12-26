@@ -52,15 +52,16 @@ public class OrderDAO extends BaseDAO {
         return Orders;
     }
 
-    public Order track(String key) {
+    public ArrayList<Order> track(String key) {
         String sql = "SELECT oid,phone,orderstatus,orderdate,shipaddress from Orders where trackkey = '"+key+"'";
-        Order o = new Order();
+        ArrayList<Order> ods = new ArrayList<>();
+        
         PreparedStatement stm;
         try {
             stm = connection.prepareStatement(sql);
             ResultSet rs = stm.executeQuery();
             while (rs.next()) {
-                
+                Order o = new Order();
                 Customer c = new Customer();
                 o.setOid(rs.getInt("oid"));
                 c.setPhone(rs.getInt("phone"));
@@ -68,16 +69,25 @@ public class OrderDAO extends BaseDAO {
                 o.setOrderdate(rs.getDate("orderdate"));
                 o.setShipaddress(rs.getString("shipaddress"));
                 o.setOrderstatus(rs.getString("orderstatus"));
+                ods.add(o);
+                        
             }
         } catch (SQLException ex) {
             Logger.getLogger(CartDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
-        return o;
+        return ods;
+    }
+    
+    public String trackx(String key) {
+        String sql = "SELECT oid,phone,orderstatus,orderdate,shipaddress from Orders where trackkey = '"+key+"'";
+        
+        return sql;
     }
     
     public ArrayList listitems() {
         ArrayList<Order_Items> is = new ArrayList<>();
-        String sql = "SELECT oid,item_id,quantity,price from order_items";
+        String sql = "SELECT oid,o.item_id,quantity,o.price,i.name from \n" +
+"order_items o join item_detail i on o.item_id = i.item_id";
         PreparedStatement stm;
         try {
             stm = connection.prepareStatement(sql);
@@ -86,7 +96,10 @@ public class OrderDAO extends BaseDAO {
                 Order_Items o = new Order_Items();
                 o.setOid(rs.getInt("oid"));
                 o.setPrice(rs.getInt("price"));
-                o.setItem_id(rs.getInt("item_id"));
+                Item i = new Item();
+                i.setName(rs.getString("name"));
+                i.setItem_id(rs.getInt("item_id"));
+                o.setItem(i);
                 o.setQuantity(rs.getInt("quantity"));
                 is.add(o);
             }
@@ -232,7 +245,7 @@ public class OrderDAO extends BaseDAO {
             String sql = "Delete from order_items\n"
                     + "Delete from orders\n"
                     + "Delete from customers\n"
-                    + "Delete from cart"
+                    + "Delete from cart\n"
                     + "DBCC CHECKIDENT ('orders', RESEED, 1)";
             PreparedStatement stm = connection.prepareStatement(sql);
             stm.executeUpdate();

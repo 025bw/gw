@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import model.Order;
+import model.Order_Items;
 
 /**
  *
@@ -30,23 +31,6 @@ public class TrackOrderController extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        response.setContentType("text/html;charset=UTF-8");
-        try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet TrackOrderController</title>");
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Servlet TrackOrderController at " + request.getContextPath() + "</h1>");
-            out.println("</body>");
-            out.println("</html>");
-        }
-    }
-
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
@@ -75,11 +59,14 @@ public class TrackOrderController extends HttpServlet {
             throws ServletException, IOException {
         String key = request.getParameter("key");
         OrderDAO odb = new OrderDAO();
-        Order order = odb.track(key);
+        ArrayList<Order> order = odb.track(key);
         request.setAttribute("order", order);
         request.setAttribute("key", key);
+        String x = odb.trackx(key);
+        response.getWriter().println(x);
+        ArrayList<Order_Items> ois = odb.listitems();
+        request.setAttribute("ois", ois);
         request.getRequestDispatcher("track.jsp").forward(request, response);
-
     }
 
     /**

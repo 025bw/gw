@@ -18,7 +18,7 @@
     </head>
     <body>
         <input type="button" onclick="sendRedirect('list')" value = "Product List">
-        <input type="button" onclick="sendRedirect('trackorder')" value = "Track Order">
+        <input type="button" onclick="sendRedirect('track')" value = "Track Order">
         <c:choose><c:when test="${sessionScope.user eq null}">
 
             <input type="button" onclick="sendRedirect('login')" value = "Login">

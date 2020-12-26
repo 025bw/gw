@@ -62,6 +62,8 @@ public class ListItemController extends HttpServlet {
         ArrayList<Category> cats = catdb.list();
         CartDAO zxc = new CartDAO();
         ArrayList<Cart> carts = zxc.list();
+        request.setAttribute("totalRows", totalRows);
+        request.setAttribute("totalPage", totalPage);
         request.setAttribute("carts", carts);
         request.setAttribute("cats", cats);
         request.setAttribute("items", items);
@@ -104,15 +106,12 @@ public class ListItemController extends HttpServlet {
         if (raw_to != null && !raw_to.equals("")) {
             to = new Integer(raw_to);
         }
-
         String sort = request.getParameter("sort");
-        if (sort.equals("name asc")||sort.equals("name desc")) {
+        if (sort != null) {
             sort = sort.replace("_", " ");
         }
-        else if (sort.equals("price asc")||sort.equals("price desc")) {
-            sort = sort.replace("_", " ");
-        }
-        else sort="item id";
+        else sort="item_id";
+        
         int i = 1;
         int pagesize = 10;
         String raw_pageindex = request.getParameter("page");
@@ -130,6 +129,8 @@ public class ListItemController extends HttpServlet {
         ArrayList<Category> cats = catdb.list();
         CartDAO zxc = new CartDAO();
         ArrayList<Cart> carts = zxc.list();
+        request.setAttribute("totalRows", totalRows);
+        request.setAttribute("totalPage", totalPage);
         request.setAttribute("carts", carts);
         request.setAttribute("cats", cats);
         request.setAttribute("items", items);

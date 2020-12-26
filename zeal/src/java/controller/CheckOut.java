@@ -54,6 +54,7 @@ public class CheckOut extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        
         ItemDAO idb = new ItemDAO();
         ArrayList<Item> items = idb.list();
         request.setAttribute("items", items);
@@ -90,7 +91,8 @@ public class CheckOut extends HttpServlet {
                 }
             }
         }
-        
+        int count = zxc.count();
+        request.setAttribute("count", count);
         request.getRequestDispatcher("checkout.jsp").forward(request, response);
     }
 

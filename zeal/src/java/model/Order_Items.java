@@ -11,7 +11,7 @@ package model;
  */
 public class Order_Items {
     private int oid;
-    private int item_id;
+    private Item item;
     private int quantity;
     private int price;
 
@@ -23,13 +23,15 @@ public class Order_Items {
         this.oid = oid;
     }
 
-    public int getItem_id() {
-        return item_id;
+    public Item getItem() {
+        return item;
     }
 
-    public void setItem_id(int item_id) {
-        this.item_id = item_id;
+    public void setItem(Item item) {
+        this.item = item;
     }
+
+    
 
     public int getQuantity() {
         return quantity;
