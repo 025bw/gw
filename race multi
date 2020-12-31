@@ -17,34 +17,37 @@ GOTO : log
 LABEL : start
 IF WINDOW EXISTS : Prompt : 0
 OPEN FILE : C:\gw\kill gw.exe :  : 1
-DELAY : 1000
+DELAY : 10000
 Keyboard : LWindows : KeyDown
 Keyboard : ShiftLeft : KeyDown
 Keyboard : D1 : KeyPress
 Keyboard : ShiftLeft : KeyUp
 Keyboard : LWindows : KeyUp
+DELAY : 10000
 GOTO : log
 ENDIF
 IF WINDOW EXISTS : GodsWar Online [USA] : 0
 ELSE
 OPEN FILE : C:\gw\kill gw.exe :  : 1
-DELAY : 1000
+DELAY : 10000
 Keyboard : LWindows : KeyDown
 Keyboard : ShiftLeft : KeyDown
 Keyboard : D1 : KeyPress
 Keyboard : ShiftLeft : KeyUp
 Keyboard : LWindows : KeyUp
+DELAY : 10000
 GOTO : log
 ENDIF
 IF PIXEL COLOR EQUALS : 465 : 922 : 3157617 : 0
 OPEN FILE : C:\gw\login\race list.exe :  : 0
 OPEN FILE : C:\gw\kill gw.exe :  : 1
-DELAY : 1000
+DELAY : 10000
 Keyboard : LWindows : KeyDown
 Keyboard : ShiftLeft : KeyDown
 Keyboard : D1 : KeyPress
 Keyboard : ShiftLeft : KeyUp
 Keyboard : LWindows : KeyUp
+DELAY : 10000
 GOTO : log
 ENDIF
 IF PIXEL COLOR EQUALS : 117 : 860 : 3157617 : 0
