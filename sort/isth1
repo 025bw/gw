@@ -81,7 +81,7 @@ Mouse : 335 : 595 : LeftButtonDown : 0 : 0 : 0
 Mouse : 335 : 595 : LeftButtonUp : 0 : 0 : 0
 GOTO : end
 ENDIF
-IF PIXEL COLOR EQUALS : 162 : 450 : 16711680 : 0
+IF PIXEL COLOR EQUALS : 414 : 450 : 16711680 : 0
 Mouse : 250 : 387 : RightButtonDown : 0 : 0 : 0
 Mouse : 250 : 387 : RightButtonUp : 0 : 0 : 0
 ENDIF
@@ -147,7 +147,7 @@ Mouse : 335 : 595 : LeftButtonDown : 0 : 0 : 0
 Mouse : 335 : 595 : LeftButtonUp : 0 : 0 : 0
 GOTO : end
 ENDIF
-IF PIXEL COLOR EQUALS : 162 : 492 : 16711680 : 0
+IF PIXEL COLOR EQUALS : 414 : 492 : 16711680 : 0
 Mouse : 250 : 429 : RightButtonDown : 0 : 0 : 0
 Mouse : 250 : 429 : RightButtonUp : 0 : 0 : 0
 ENDIF
@@ -213,7 +213,7 @@ Mouse : 335 : 595 : LeftButtonDown : 0 : 0 : 0
 Mouse : 335 : 595 : LeftButtonUp : 0 : 0 : 0
 GOTO : end
 ENDIF
-IF PIXEL COLOR EQUALS : 162 : 534 : 16711680 : 0
+IF PIXEL COLOR EQUALS : 414 : 534 : 16711680 : 0
 Mouse : 250 : 471 : RightButtonDown : 0 : 0 : 0
 Mouse : 250 : 471 : RightButtonUp : 0 : 0 : 0
 ENDIF
@@ -283,7 +283,7 @@ Mouse : 335 : 595 : LeftButtonDown : 0 : 0 : 0
 Mouse : 335 : 595 : LeftButtonUp : 0 : 0 : 0
 GOTO : end
 ENDIF
-IF PIXEL COLOR EQUALS : 162 : 404 : 16711680 : 0
+IF PIXEL COLOR EQUALS : 414 : 404 : 16711680 : 0
 Mouse : 250 : 513 : RightButtonDown : 0 : 0 : 0
 Mouse : 250 : 513 : RightButtonUp : 0 : 0 : 0
 ENDIF
@@ -349,7 +349,7 @@ Mouse : 335 : 595 : LeftButtonDown : 0 : 0 : 0
 Mouse : 335 : 595 : LeftButtonUp : 0 : 0 : 0
 GOTO : end
 ENDIF
-IF PIXEL COLOR EQUALS : 162 : 446 : 16711680 : 0
+IF PIXEL COLOR EQUALS : 414 : 446 : 16711680 : 0
 Mouse : 250 : 555 : RightButtonDown : 0 : 0 : 0
 Mouse : 250 : 555 : RightButtonUp : 0 : 0 : 0
 ENDIF
@@ -415,7 +415,7 @@ Mouse : 335 : 595 : LeftButtonDown : 0 : 0 : 0
 Mouse : 335 : 595 : LeftButtonUp : 0 : 0 : 0
 GOTO : end
 ENDIF
-IF PIXEL COLOR EQUALS : 162 : 488 : 16711680 : 0
+IF PIXEL COLOR EQUALS : 414 : 488 : 16711680 : 0
 Mouse : 250 : 597 : RightButtonDown : 0 : 0 : 0
 Mouse : 250 : 597 : RightButtonUp : 0 : 0 : 0
 ENDIF
@@ -481,7 +481,7 @@ Mouse : 335 : 595 : LeftButtonDown : 0 : 0 : 0
 Mouse : 335 : 595 : LeftButtonUp : 0 : 0 : 0
 GOTO : end
 ENDIF
-IF PIXEL COLOR EQUALS : 162 : 530 : 16711680 : 0
+IF PIXEL COLOR EQUALS : 414 : 530 : 16711680 : 0
 Mouse : 250 : 639 : RightButtonDown : 0 : 0 : 0
 Mouse : 250 : 639 : RightButtonUp : 0 : 0 : 0
 ENDIF
@@ -551,7 +551,7 @@ Mouse : 335 : 595 : LeftButtonDown : 0 : 0 : 0
 Mouse : 335 : 595 : LeftButtonUp : 0 : 0 : 0
 GOTO : end
 ENDIF
-IF PIXEL COLOR EQUALS : 162 : 572 : 16711680 : 0
+IF PIXEL COLOR EQUALS : 414 : 572 : 16711680 : 0
 Mouse : 250 : 681 : RightButtonDown : 0 : 0 : 0
 Mouse : 250 : 681 : RightButtonUp : 0 : 0 : 0
 ENDIF
@@ -617,7 +617,7 @@ Mouse : 335 : 595 : LeftButtonDown : 0 : 0 : 0
 Mouse : 335 : 595 : LeftButtonUp : 0 : 0 : 0
 GOTO : end
 ENDIF
-IF PIXEL COLOR EQUALS : 162 : 614 : 16711680 : 0
+IF PIXEL COLOR EQUALS : 414 : 614 : 16711680 : 0
 Mouse : 250 : 723 : RightButtonDown : 0 : 0 : 0
 Mouse : 250 : 723 : RightButtonUp : 0 : 0 : 0
 ENDIF
@@ -683,7 +683,7 @@ Mouse : 335 : 595 : LeftButtonDown : 0 : 0 : 0
 Mouse : 335 : 595 : LeftButtonUp : 0 : 0 : 0
 GOTO : end
 ENDIF
-IF PIXEL COLOR EQUALS : 162 : 656 : 16711680 : 0
+IF PIXEL COLOR EQUALS : 414 : 656 : 16711680 : 0
 Mouse : 250 : 765 : RightButtonDown : 0 : 0 : 0
 Mouse : 250 : 765 : RightButtonUp : 0 : 0 : 0
 ENDIF
@@ -749,7 +749,7 @@ Mouse : 335 : 595 : LeftButtonDown : 0 : 0 : 0
 Mouse : 335 : 595 : LeftButtonUp : 0 : 0 : 0
 GOTO : end
 ENDIF
-IF PIXEL COLOR EQUALS : 162 : 698 : 16711680 : 0
+IF PIXEL COLOR EQUALS : 414 : 698 : 16711680 : 0
 Mouse : 250 : 807 : RightButtonDown : 0 : 0 : 0
 Mouse : 250 : 807 : RightButtonUp : 0 : 0 : 0
 ENDIF
