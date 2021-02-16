@@ -62,7 +62,7 @@ Mouse : 781 : 350 : RightButtonDown : 0 : 0 : 0
 Mouse : 781 : 350 : RightButtonUp : 0 : 0 : 0
 DELAY : 1034
 Mouse : 267 : 289 : Move : 0 : 0 : 0
-DELAY : 510
+DELAY : 700
 Mouse : 267 : 289 : Move : 0 : 0 : 0
 DELAY : 10
 Mouse : 267 : 289 : LeftButtonDown : 0 : 0 : 0
@@ -79,7 +79,6 @@ Mouse : 271 : 197 : Move : 0 : 0 : 0
 DELAY : 3219
 Mouse : 271 : 197 : LeftButtonUp : 0 : 0 : 0
 DELAY : 522
-Mouse : 532 : 553 : Move : 0 : 0 : 0
 DELAY : 514
 REPEAT : 20 : 0 : 0 : Enter the number of iterations: : 0 : 0
 Mouse : 429 : 646 : Move : 0 : 0 : 0
@@ -224,107 +223,34 @@ Mouse : 0 : 0 : RightClick : 0 : 1 : 0
 GOTO : sack1
 ENDIF
 DELAY : 1000
-Mouse : 631 : 182 : Move : 0 : 0 : 0
+Mouse : 632 : 187 : Move : 0 : 0 : 0
 DELAY : 50
-Mouse : 631 : 184 : LeftButtonDown : 0 : 0 : 0
-DELAY : 9480
+Mouse : 632 : 187 : LeftButtonDown : 0 : 0 : 0
+DELAY : 9500
 Mouse : 188 : 496 : Move : 0 : 0 : 0
-DELAY : 2800
+DELAY : 2850
 Mouse : 189 : 497 : LeftButtonUp : 0 : 0 : 0
 Mouse : 429 : 646 : Move : 0 : 0 : 0
 DELAY : 20
-REPEAT : 10 : 0 : 0 : Enter the number of iterations: : 0 : 0
+REPEAT : 200 : 0 : 0 : Enter the number of iterations: : 0 : 0
 LABEL : fb2
 IF PIXEL COLOR EQUALS : 400 : 570 : 16777214 : 0
 GOTO : fb2
 ENDIF
 Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
 Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
+DELAY : 50
+IF PIXEL COLOR EQUALS : 430 : 565 : 8576747 : 0
 Mouse : 556 : 331 : Move : 0 : 0 : 0
 DELAY : 50
 Mouse : 556 : 331 : LeftButtonDown : 0 : 0 : 0
 Mouse : 556 : 331 : LeftButtonUp : 0 : 0 : 0
-Mouse : 429 : 646 : Move : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
-Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
-DELAY : 50
+ENDIF
 ENDREPEAT
-Mouse : 515 : 282 : Move : 0 : 0 : 0
-DELAY : 10
-Mouse : 515 : 282 : RightButtonDown : 0 : 0 : 0
-DELAY : 10
-Mouse : 515 : 282 : RightButtonUp : 0 : 0 : 0
-Mouse : 50 : 666 : Move : 0 : 0 : 0
+Mouse : 556 : 331 : Move : 0 : 0 : 0
 DELAY : 50
-Mouse : 60 : 666 : LeftButtonDown : 0 : 0 : 0
-Mouse : 657 : 283 : Move : 0 : 0 : 0
-DELAY : 701
-Mouse : 657 : 283 : LeftButtonUp : 0 : 0 : 0
-DELAY : 0
-Mouse : 765 : 607 : Move : 0 : 0 : 0
-DELAY : 50
-Mouse : 765 : 607 : LeftButtonDown : 0 : 0 : 0
-Mouse : 765 : 607 : LeftButtonUp : 0 : 0 : 0
-DELAY : 50
-Mouse : 289 : 527 : Move : 0 : 0 : 0
-DELAY : 50
-Mouse : 289 : 527 : LeftButtonDown : 0 : 0 : 0
-Mouse : 289 : 527 : LeftButtonUp : 0 : 0 : 0
-DELAY : 50
+Mouse : 556 : 331 : RightButtonDown : 0 : 0 : 0
+Mouse : 556 : 331 : RightButtonDown : 0 : 0 : 0
 LABEL : target dear
 REPEAT : 50 : 0 : 0 : Enter the number of iterations: : 0 : 0
 DELAY : 50
@@ -332,19 +258,35 @@ IF PIXEL COLOR EQUALS : 312 : 325 : 6972490 : 0
 GOTO : dead
 ENDIF
 IF PIXEL COLOR EQUALS : 355 : 80 : 14411510 : 1
-Mouse : 480 : 285 : RightButtonDown : 0 : 0 : 0
-Mouse : 480 : 285 : RightButtonUp : 0 : 0 : 0
+Mouse : 600 : 250 : RightButtonDown : 0 : 0 : 0
+Mouse : 600 : 250 : RightButtonDown : 0 : 0 : 0
 ELSE
 GOTO : deer hp
 ENDIF
 ENDREPEAT
+GOTO : sack 2
 DELAY : 1000
 LABEL : deer hp
-Mouse : 481 : 250 : Move : 0 : 0 : 0
+REPEAT : 3000 : 0 : 0 : Enter the number of iterations: : 0 : 0
+Mouse : 429 : 646 : RightButtonDown : 0 : 0 : 0
+Mouse : 429 : 646 : RightButtonUp : 0 : 0 : 0
 DELAY : 50
-IF PIXEL COLOR EQUALS : 367 : 100 : 11033435 : 0
-GOTO : deer hp
+IF PIXEL COLOR EQUALS : 430 : 565 : 8576747 : 0
+Mouse : 556 : 331 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 556 : 331 : LeftButtonDown : 0 : 0 : 0
+Mouse : 556 : 331 : LeftButtonUp : 0 : 0 : 0
+Mouse : 556 : 331 : LeftButtonDown : 0 : 0 : 0
+Mouse : 556 : 331 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
 ENDIF
+IF PIXEL COLOR EQUALS : 355 : 80 : 14411510 : 1
+GOTO : done deer
+ENDIF
+IF PIXEL COLOR EQUALS : 367 : 100 : 11033435 : 1
+GOTO : done deer
+ENDIF
+ENDREPEAT
 REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
 LABEL : 3
 LABEL : done deer
@@ -397,7 +339,16 @@ IF IMAGE : Qk3uAQAAAAAAADYAAAAoAAAACgAAAAsAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAA
 Mouse : 0 : 0 : RightClick : 0 : 1 : 0
 GOTO : sack2
 ENDIF
+Mouse : 765 : 607 : Move : 0 : 0 : 0
 DELAY : 50
+Mouse : 765 : 607 : LeftButtonDown : 0 : 0 : 0
+Mouse : 765 : 607 : LeftButtonUp : 0 : 0 : 0
+Mouse : 289 : 527 : Move : 0 : 0 : 0
+DELAY : 50
+DELAY : 50
+Mouse : 289 : 527 : LeftButtonDown : 0 : 0 : 0
+Mouse : 289 : 527 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1000
 Mouse : 1 : 669 : Move : 0 : 0 : 0
 DELAY : 50
 Mouse : 1 : 669 : LeftButtonDown : 0 : 0 : 0
@@ -419,40 +370,32 @@ DELAY : 100
 ENDREPEAT
 GOTO : sack2
 LABEL : confirm
-Mouse : 389 : 405 : Move : 0 : 0 : 0
+Mouse : 375 : 404 : Move : 0 : 0 : 0
 DELAY : 50
-Mouse : 389 : 405 : LeftButtonDown : 0 : 0 : 0
-Mouse : 389 : 405 : LeftButtonUp : 0 : 0 : 0
+Mouse : 375 : 404 : LeftButtonDown : 0 : 0 : 0
+Mouse : 375 : 404 : LeftButtonUp : 0 : 0 : 0
+Mouse : 375 : 404 : Move : 0 : 0 : 0
 DELAY : 50
-Mouse : 371 : 404 : Move : 0 : 0 : 0
+Mouse : 375 : 404 : LeftButtonDown : 0 : 0 : 0
+Mouse : 375 : 404 : LeftButtonUp : 0 : 0 : 0
+Mouse : 375 : 404 : Move : 0 : 0 : 0
 DELAY : 50
-Mouse : 371 : 404 : LeftButtonDown : 0 : 0 : 0
-Mouse : 371 : 404 : LeftButtonUp : 0 : 0 : 0
-Mouse : 371 : 404 : Move : 0 : 0 : 0
+Mouse : 375 : 404 : LeftButtonDown : 0 : 0 : 0
+Mouse : 375 : 404 : LeftButtonUp : 0 : 0 : 0
+Mouse : 375 : 404 : Move : 0 : 0 : 0
 DELAY : 50
-Mouse : 371 : 404 : LeftButtonDown : 0 : 0 : 0
-Mouse : 371 : 404 : LeftButtonUp : 0 : 0 : 0
-Mouse : 371 : 404 : Move : 0 : 0 : 0
-DELAY : 50
-Mouse : 371 : 404 : LeftButtonDown : 0 : 0 : 0
-Mouse : 371 : 404 : LeftButtonUp : 0 : 0 : 0
-Mouse : 371 : 404 : Move : 0 : 0 : 0
-DELAY : 50
-Mouse : 371 : 404 : LeftButtonDown : 0 : 0 : 0
-Mouse : 371 : 404 : LeftButtonUp : 0 : 0 : 0
+Mouse : 375 : 404 : LeftButtonDown : 0 : 0 : 0
+Mouse : 375 : 404 : LeftButtonUp : 0 : 0 : 0
 LABEL : reset
 IF PIXEL COLOR EQUALS : 312 : 325 : 6972490 : 0
 GOTO : reset
 ENDIF
-Mouse : 0 : 35 : LeftButtonDown : 0 : 0 : 0
-Mouse : 0 : 35 : LeftButtonUp : 0 : 0 : 0
-Mouse : 13 : 61 : LeftButtonDown : 0 : 0 : 0
-Mouse : 13 : 61 : LeftButtonUp : 0 : 0 : 0
-Mouse : 0 : 35 : Move : 0 : 0 : 0
+Mouse : 500 : 60 : LeftButtonDown : 0 : 0 : 0
+Mouse : 0 : 1 : Move : 0 : 0 : 0
 REPEAT : 240 : 0 : 0 : Enter the number of iterations: : 0 : 0
 DELAY : 50
 ENDREPEAT
-Mouse : 0 : 35 : LeftButtonDown : 0 : 0 : 0
-Mouse : 0 : 35 : LeftButtonUp : 0 : 0 : 0
+Mouse : 500 : 60 : Move : 0 : 0 : 0
+Mouse : 500 : 60 : LeftButtonUp : 0 : 0 : 0
 DELAY : 1000
 GOTO : start

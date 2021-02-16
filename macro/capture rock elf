@@ -1,0 +1,49 @@
+IF IMAGE : Qk12AAAAAAAAADYAAAAoAAAABAAAAAQAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAXkf8/0En+v8ZA7H/HgTS/0ox+/91Yfz/IATu/xoDvP+fk/3/urH+/yMF9v8eBND/eWb8/49//P8cBL//IAXc/w== : 0 : 0 : 0 : 931;158;21;24
+Mouse : 514 : 452 : RightButtonDown : 0 : 0 : 0
+Mouse : 514 : 452 : RightButtonUp : 0 : 0 : 0
+GOTO : b
+ENDIF
+LABEL : a
+IF IMAGE : Qk22AQAAAAAAADYAAAAoAAAAMAAAAAIAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAGPPn/xjz5/8Y8+f/GPPn/0r39/9K9/f/Svf3/0r39/8I++//CPvv/wj77/8I++//Ie/n/yHv5/8h7+f/Ie/n/yH77/8h++//Ifvv/yH77/8Y7+f/GO/n/xjv5/8Y7+f/EPvv/xD77/8Q++//EPvv/yHz5/8h8+f/IfPn/yHz5/8I9+//CPfv/wj37/8I9+//EPfv/xD37/8Q9+//EPfv/yHr5/8h6+f/Ievn/yHr5/8p9+//Kffv/yn37/8p9+//ECQx/xAkMf8QJDH/ECQx/zG6uP9K9/f/Svf3/zG6uP8QOEL/EDhC/xA4Qv8QOEL/GLey/yHv5/8QdH7/CDxK/whVWv8IVVr/GMe9/yH77/8Wsq3/ECw5/xAsOf8TaXP/EDxK/xA8Sv8QPEr/EPvv/yHz5/8QfIT/CEVS/whFUv8QQUr/EEFK/xBBSv8QQUr/EDRC/xA0Qv8QNEL/EHF7/yHr5/8h6+f/CEVK/whFSv8IPEr/E3eB/wg8Sv8evLj/ : 0 : 0 : 0 : 914;111;48;2
+Mouse : 539 : 731 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 539 : 731 : LeftButtonDown : 0 : 0 : 0
+Mouse : 539 : 731 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1800
+Mouse : 755 : 62 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 755 : 62 : LeftButtonDown : 0 : 0 : 0
+Mouse : 755 : 57 : Move : 0 : 0 : 0
+DELAY : 12000
+Mouse : 755 : 62 : Move : 0 : 0 : 0
+Mouse : 755 : 62 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF IMAGE : Qk3OBAAAAAAAADYAAAAoAAAAFQAAAA4AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAsrOw/7KzsP+4vrv/vcfG/73Lxv+9y8b/vcvG/7vGwP+1urX/tbq1/62upf+trqX/tcLA/62zsv+lpqX/rbOy/7W/u/+tsrD/tb+7/7W/u/+wsKr/srOw/62qpf+tqqX/uL67/73Lxv+9y8b/vcvG/73Lxv+9x8b/vcfG/7W6tf+1urX/vc/O/62zsv+lpqX/rbOy/7W/u/+1v7v/tb+7/73Lxv/Gz8b/rbat/622rf+MoKX/rbat/6Wytf+lsrX/pbK1/6Wytf+qvLv/qry7/6q8u//W287/3tfG/624tf+tuLX/rbi1/7C8u/+wvLv/sLy7/87Pxv/Gz87/jKCl/4ygpf+MoKX/rbat/6Wytf+lsrX/pbK1/6Wytf+qvLv/qry7/6q8u/+qvLv/rbi1/624tf+tuLX/rbi1/5GlsP+wvLv/zs/G/87Pxv/Gz87/a4ec/0pxlP9KcZT/SnGU/1J6mv9Sepr/KWGM/ylhjP9+mKf/qry7/36Yp/+qvLv/rbi1/3uUpf+tuLX/rbi1/5GlsP+RpbD/sLy7/87Pxv+7w8D/SnGU/2uHnP9rh5z/a4ec/3uZp/9Sepr/Unqa/1J6mv9SeZT/qry7/6q8u/9+mKf/SnWU/0p1lP9KdZT/e5Sl/3OSpf9zkqX/c5Kl/5GlsP+wtrL/hMPe/4bL5P+Gy+T/hsvk/4zL5P+Mw97/jMPe/4zD3v9CdZz/QnWc/12WuP9CdZz/Y5a1/2OWtf9jlrX/Y5a1/2OWtf9jlrX/Y5a1/2OWtf9KfZz/idPp/4zb7/+M2+//jNvv/4zb7/+M2+//jNPp/4zb7/+U3+//XZa4/12WuP95vtP/lNvv/4TF3P+Exdz/hMXc/37F3P9+xdz/fsXc/37F3P97vtP/idPp/4zb7/+M2+//jNvv/4zb7/+M2+//jNPp/4zb7/+U3+//lN/v/5Tf7/+U3+//lNvv/5Tb7/+U2+//lNvv/4zb7/+M2+//jNvv/4zb7/+U2+//idPp/4nT6f+M2+//jNvv/4zb7/+M2+//jNvv/4zb7/+U3+//lN/v/5Tf7/+U3+//lNvv/5Tb7/+U2+//lNvv/4zb7/+M2+//jNvv/4zb7/+U2+//hNfv/4/c8v+a4vT/j9zy/5Hb8v+R2/L/l9/0/4zX7/970+//htjy/5He9P+R3vT/jNvv/4zb7/+M2+//jNvv/4zb8v+M2/L/hNfv/4zb8v+i4/T/j9zy/5ri9P+a4vT/j9zy/4zX7/+M1+//kdvy/5ff9P+R3vT/kd70/5He9P+R3vT/jNvv/4zb7/+X4PL/oub0/5Tf9P+U3/T/lN/0/5Tf9P+X3/L/pef3/6Xn9/+P3PL/j9zy/5Hb8v+R2/L/l9/0/5ff9P+R3vT/htjy/3vT7/+G2PL/jNvv/6Lm9P+t6/f/rev3/5zj9/+c4/f/nOP3/5zj9/+t5/f/pef3/6Xn9/+E1+//hNfv/5ff9P+c4/f/kdvy/4zX7/+R3vT/nOP3/5He9P+R3vT/jNvv/5fg8v+X4PL/l+Dy/5zj9/+c4/f/nOP3/5zj9/+t5/f/ : 0 : 0 : 0 : 927;126;21;14
+Mouse : 885 : 382 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 885 : 382 : LeftButtonDown : 0 : 0 : 0
+DELAY : 6000
+Mouse : 510 : 456 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 510 : 456 : LeftButtonUp : 0 : 0 : 0
+DELAY : 600
+Mouse : 510 : 456 : LeftButtonDown : 0 : 0 : 0
+Mouse : 510 : 456 : LeftButtonUp : 0 : 0 : 0
+GOTO : b
+ENDIF
+GOTO : a
+LABEL : b
+IF IMAGE : Qk12AAAAAAAAADYAAAAoAAAABAAAAAQAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAXkf8/0En+v8ZA7H/HgTS/0ox+/91Yfz/IATu/xoDvP+fk/3/urH+/yMF9v8eBND/eWb8/49//P8cBL//IAXc/w== : 0 : 0 : 0 : 931;158;21;24
+Mouse : 514 : 452 : RightButtonDown : 0 : 0 : 0
+Mouse : 514 : 452 : RightButtonUp : 0 : 0 : 0
+GOTO : b
+ENDIF
+GOTO : c
+IF IMAGE : Qk22AQAAAAAAADYAAAAoAAAAMAAAAAIAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAGPPn/xjz5/8Y8+f/GPPn/0r39/9K9/f/Svf3/0r39/8I++//CPvv/wj77/8I++//Ie/n/yHv5/8h7+f/Ie/n/yH77/8h++//Ifvv/yH77/8Y7+f/GO/n/xjv5/8Y7+f/EPvv/xD77/8Q++//EPvv/yHz5/8h8+f/IfPn/yHz5/8I9+//CPfv/wj37/8I9+//EPfv/xD37/8Q9+//EPfv/yHr5/8h6+f/Ievn/yHr5/8p9+//Kffv/yn37/8p9+//ECQx/xAkMf8QJDH/ECQx/zG6uP9K9/f/Svf3/zG6uP8QOEL/EDhC/xA4Qv8QOEL/GLey/yHv5/8QdH7/CDxK/whVWv8IVVr/GMe9/yH77/8Wsq3/ECw5/xAsOf8TaXP/EDxK/xA8Sv8QPEr/EPvv/yHz5/8QfIT/CEVS/whFUv8QQUr/EEFK/xBBSv8QQUr/EDRC/xA0Qv8QNEL/EHF7/yHr5/8h6+f/CEVK/whFSv8IPEr/E3eB/wg8Sv8evLj/ : 0 : 0 : 0 : 914;111;48;2
+Mouse : 539 : 731 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 539 : 731 : LeftButtonDown : 0 : 0 : 0
+ENDIF
+Mouse : 110 : 495 : LeftButtonDown : 0 : 0 : 0
+DELAY : 5000
+GOTO : a

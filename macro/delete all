@@ -1,0 +1,578 @@
+LABEL : a
+Mouse : 251 : 807 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 209 : 807 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 167 : 807 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 125 : 807 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 83 : 807 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 41 : 807 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 251 : 765 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 209 : 765 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 167 : 765 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 125 : 765 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 83 : 765 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 41 : 765 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 251 : 723 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 209 : 723 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 167 : 723 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 125 : 723 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 83 : 723 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 41 : 723 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 251 : 681 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 209 : 681 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 167 : 681 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 125 : 681 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 83 : 681 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 41 : 681 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 251 : 639 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 209 : 639 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 167 : 639 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 125 : 639 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 83 : 639 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 41 : 639 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 251 : 597 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 209 : 597 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 167 : 597 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 125 : 597 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 83 : 597 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 41 : 597 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 251 : 555 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 209 : 555 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 167 : 555 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 125 : 555 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 83 : 555 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 41 : 555 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 251 : 513 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 209 : 513 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 167 : 513 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 125 : 513 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 83 : 513 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 41 : 513 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 251 : 471 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 209 : 471 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 167 : 471 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 125 : 471 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 83 : 471 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 41 : 471 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 251 : 429 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 209 : 429 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 167 : 429 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 125 : 429 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 83 : 429 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 41 : 429 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 251 : 387 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 209 : 387 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 167 : 387 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 125 : 387 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 83 : 387 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 41 : 387 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 251 : 345 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 209 : 345 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 167 : 345 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 125 : 345 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 83 : 345 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 41 : 345 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 984 : 716 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 942 : 716 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 900 : 716 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 858 : 716 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 816 : 716 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 774 : 716 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 984 : 674 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 942 : 674 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 900 : 674 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 858 : 674 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 816 : 674 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 774 : 674 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 984 : 632 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 942 : 632 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 900 : 632 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 858 : 632 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 816 : 632 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 774 : 632 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 984 : 590 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 942 : 590 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 900 : 590 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 858 : 590 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 816 : 590 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 774 : 590 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 494 : LeftButtonUp : 0 : 0 : 0
+GOTO : a

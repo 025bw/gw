@@ -1,0 +1,100 @@
+SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
+LABEL : 1
+IF PIXEL COLOR EQUALS : 106 : 352 : 16579584 : 0
+Mouse : 106 : 352 : LeftButtonDown : 0 : 0 : 0
+Mouse : 106 : 352 : LeftButtonUp : 0 : 0 : 0
+GOTO : x
+ENDIF
+GOTO : 1
+LABEL : x
+IF PIXEL COLOR EQUALS : 669 : 221 : 16777215 : 0
+INCREMENT CLIPBOARD : 1
+ENDIF
+IF CLIPBOARD EQUALS : 6 : 0 : 2
+GOTO : end
+ENDIF
+LABEL : 2
+IF PIXEL COLOR EQUALS : 439 : 352 : 16776960 : 0
+Mouse : 439 : 370 : LeftButtonDown : 0 : 0 : 0
+Mouse : 439 : 370 : LeftButtonUp : 0 : 0 : 0
+Mouse : 850 : 450 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+GOTO : 3
+ENDIF
+GOTO : 2
+LABEL : 3
+IF PIXEL COLOR EQUALS : 417 : 324 : 16776960 : 0
+Mouse : 439 : 324 : LeftButtonDown : 0 : 0 : 0
+Mouse : 439 : 324 : LeftButtonUp : 0 : 0 : 0
+Mouse : 850 : 450 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+GOTO : 4
+ENDIF
+GOTO : 3
+LABEL : 4
+IF PIXEL COLOR EQUALS : 417 : 374 : 16776960 : 0
+GOTO : 5
+ENDIF
+GOTO : 4
+LABEL : 5
+IF CLIPBOARD EQUALS : 1 : 0 : 0
+Mouse : 455 : 380 : LeftButtonDown : 0 : 0 : 0
+Mouse : 455 : 380 : LeftButtonUp : 0 : 0 : 0
+Mouse : 850 : 450 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF CLIPBOARD EQUALS : 2 : 0 : 0
+Mouse : 455 : 400 : LeftButtonDown : 0 : 0 : 0
+Mouse : 455 : 400 : LeftButtonUp : 0 : 0 : 0
+Mouse : 850 : 450 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF CLIPBOARD EQUALS : 3 : 0 : 0
+Mouse : 455 : 420 : LeftButtonDown : 0 : 0 : 0
+Mouse : 455 : 420 : LeftButtonUp : 0 : 0 : 0
+Mouse : 850 : 450 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF CLIPBOARD EQUALS : 4 : 0 : 0
+Mouse : 725 : 380 : LeftButtonDown : 0 : 0 : 0
+Mouse : 725 : 380 : LeftButtonUp : 0 : 0 : 0
+Mouse : 850 : 450 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF CLIPBOARD EQUALS : 5 : 0 : 0
+Mouse : 725 : 400 : LeftButtonDown : 0 : 0 : 0
+Mouse : 725 : 400 : LeftButtonUp : 0 : 0 : 0
+Mouse : 850 : 450 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF CLIPBOARD EQUALS : 6 : 0 : 0
+Mouse : 725 : 420 : LeftButtonDown : 0 : 0 : 0
+Mouse : 725 : 420 : LeftButtonUp : 0 : 0 : 0
+Mouse : 850 : 450 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF CLIPBOARD EQUALS : 6 : 0 : 2
+GOTO : end
+ENDIF
+Mouse : 515 : 330 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 515 : 330 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 330 : LeftButtonUp : 0 : 0 : 0
+GOTO : 1
+LABEL : end

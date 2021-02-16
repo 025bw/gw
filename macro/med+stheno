@@ -48,25 +48,29 @@ Mouse : 0 : 28 : Move : 0 : 0 : 0
 DELAY : 100
 LABEL : map
 IF PIXEL COLOR EQUALS : 738 : 186 : 5029375 : 0
-Mouse : 514 : 349 : LeftButtonDown : 0 : 0 : 0
-Mouse : 514 : 349 : LeftButtonUp : 0 : 0 : 0
+Mouse : 506 : 345 : LeftButtonDown : 0 : 0 : 0
+Mouse : 506 : 345 : LeftButtonUp : 0 : 0 : 0
 DELAY : 100
 Mouse : 740 : 190 : LeftButtonDown : 0 : 0 : 0
 Mouse : 740 : 190 : LeftButtonUp : 0 : 0 : 0
 ELSE
 GOTO : map
 ENDIF
-DELAY : 2500
-Mouse : 999 : 345 : RightButtonDown : 0 : 0 : 0
-Mouse : 999 : 345 : RightButtonUp : 0 : 0 : 0
-DELAY : 500
+DELAY : 3000
 LABEL : afk
+Mouse : 993 : 389 : RightButtonDown : 0 : 0 : 0
+Mouse : 993 : 389 : RightButtonUp : 0 : 0 : 0
+Mouse : 584 : 365 : Move : 0 : 0 : 0
+DELAY : 500
+Mouse : 584 : 295 : LeftButtonDown : 0 : 0 : 0
+Mouse : 584 : 295 : LeftButtonUp : 0 : 0 : 0
+DELAY : 2000
 Mouse : 975 : 760 : LeftButtonDown : 0 : 0 : 0
 Mouse : 975 : 760 : LeftButtonUp : 0 : 0 : 0
 DELAY : 500
 Mouse : 370 : 650 : LeftButtonDown : 0 : 0 : 0
 Mouse : 370 : 650 : LeftButtonUp : 0 : 0 : 0
-DELAY : 100
+DELAY : 5000
 LABEL : med
 REPEAT : 60 : 0 : 0 : Enter the number of iterations: : 0 : 0
 IF PIXEL COLOR EQUALS : 945 : 87 : 16645887 : 0
@@ -99,7 +103,8 @@ GOTO : loot
 ENDIF
 GOTO : dead
 LABEL : loot
-REPEAT : 1000 : 0 : 0 : Enter the number of iterations: : 0 : 0
+DELAY : 1000
+REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
 Mouse : 535 : 175 : Move : 0 : 0 : 0
 Mouse : 535 : 175 : LeftButtonDown : 0 : 0 : 0
 Mouse : 535 : 175 : LeftButtonUp : 0 : 0 : 0
@@ -126,11 +131,17 @@ ENDIF
 ENDREPEAT
 GOTO : 1
 LABEL : stheno
+Mouse : 512 : 450 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 512 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 512 : 450 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
 Mouse : 975 : 760 : LeftButtonDown : 0 : 0 : 0
 Mouse : 975 : 760 : LeftButtonUp : 0 : 0 : 0
-DELAY : 500
+DELAY : 100
 Mouse : 370 : 650 : LeftButtonDown : 0 : 0 : 0
 Mouse : 370 : 650 : LeftButtonUp : 0 : 0 : 0
+DELAY : 500
 REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
 IF IMAGE : Qk3aBAAAAAAAADYAAAAoAAAAGwAAAAsAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA2ZZl/9mWZf/ZlmX/2ZZl/9udb//hrYf/25xt/9mXZv/cn3P/8NXB//Xj1f/ZlmX/2ZZl/9mWZf/bnG7//v38/+e8nf/amGj/3aJ2/9mWZf/gqID///79/9mWZf/ZlmX/4KiA///+/f/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/4q6I//36+P/ZlmX/2ZZl/9mWZf/fp37///7+/9mXZv/ZlmX/2ZZl/9mWZf/gqID///79/9mWZf/ZlmX/4KiA///+/f/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mXZ//ktZP/+e/n//LczP/ZlmX/2ZZl/9mWZf/gqID///79/9mWZf/ZlmX/2ZZl/9mWZf/gqID///79/9mWZf/ZlmX/4KiA///+/f/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/bm2z/7Muy//v18f/89/T/7cy0/9qZav/ZlmX/2ZZl/9mWZf/gqID///79/9mWZf/ZlmX/2ZZl/9mWZf/gqID///7+/9udb//ZlmX/4KqC//79+//ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mXZv/46uH/+Ozk/+W4l//amGn/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/gqID///79/9mWZf/ZlmX/2ZZl/9mWZf/gqID///////Xi1f/cnnD/68es//nv6P/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/96le///////3J1v/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/////////////////////////////////9mWZf/gqID///79/+e7nP/89vL//Pfz/+W3lf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9qZaf/79fD/6cKm/9ucbf/Zl2f/3aJ3/92id//ZlmX/2ZZl/9mWZf/gqID///79/9mWZf/ZlmX/2ZZl/9mWZf/gqID///79/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/fpn3/897P//z49f///v7/+/Xx/+e8nf/ZlmX/2ZZl/9mWZf/fpn3//v37/9mWZf/ZlmX/2ZZl/9mWZf/gqID///79/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/3J1v/9mWZf/ZlmX/2ZZl/9mWZf/gqID///79/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/2ZZl/9mWZf/ZlmX/ : 0 : 0 : 0 : 481;77;60;18
 GOTO : sth dead
@@ -151,6 +162,9 @@ ENDREPEAT
 GOTO : 1
 LABEL : loot 2
 REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF PIXEL COLOR EQUALS : 470 : 108 : 16350332 : 0
+GOTO : stheno
+ENDIF
 Mouse : 517 : 349 : Move : 0 : 0 : 0
 Mouse : 517 : 349 : LeftButtonDown : 0 : 0 : 0
 Mouse : 517 : 349 : LeftButtonUp : 0 : 0 : 0

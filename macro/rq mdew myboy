@@ -1,0 +1,965 @@
+GOTO : mdew
+COMMENT : HELPER 1024 0
+LABEL : acc
+MOVE WINDOW : GodsWar Helper [USA] : 0 : 0 : 1024 : 0 : 738 : 471
+OPEN FILE : C:\gw\login\myboy.exe :  : 1
+GOTO : enter
+LABEL : mdew
+IF WINDOW EXISTS : GodsWar Online : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
+IF PIXEL COLOR EQUALS : 690 : 802 : 3036011 : 0
+Mouse : 344 : 820 : RightClick : 0 : 0 : 0
+DELAY : 1
+GOTO : mdew
+ENDIF
+IF PIXEL COLOR EQUALS : 429 : 405 : 4606778 : 0
+DELAY : 100
+GOTO : account
+ENDIF
+LABEL : start script
+IF PIXEL COLOR EQUALS : 1065 : 315 : 16766720 : 0
+Mouse : 1065 : 315 : LeftButtonDown : 0 : 0 : 0
+Mouse : 1065 : 315 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+ENDIF
+Mouse : 25 : 818 : Move : 0 : 0 : 0
+LABEL : net check
+IF WINDOW EXISTS : GodsWar Online : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
+IF PIXEL COLOR EQUALS : 225 : 105 : 16745299 : 1
+DELAY : 100
+GOTO : net check
+ENDIF
+Mouse : 320 : 765 : Click : 0 : 0 : 0
+IF PIXEL COLOR EQUALS : 711 : 244 : 15130791 : 0
+Mouse : 937 : 761 : LeftButtonDown : 0 : 0 : 0
+DELAY : 55
+Mouse : 1023 : 839 : Move : 0 : 0 : 0
+DELAY : 55
+Mouse : 1023 : 839 : LeftButtonUp : 0 : 0 : 0
+DELAY : 55
+ENDIF
+LABEL : open bag
+Mouse : 350 : 830 : RightClick : 0 : 0 : 0
+IF PIXEL COLOR EQUALS : 798 : 807 : 10057258 : 0
+Mouse : 790 : 810 : Move : 0 : 0 : 0
+DELAY : 55
+Mouse : 790 : 810 : LeftButtonDown : 0 : 0 : 0
+DELAY : 55
+Mouse : 790 : 810 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+Mouse : 789 : 809 : Move : 0 : 0 : 0
+ENDIF
+REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF WINDOW EXISTS : GodsWar Online : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
+IF PIXEL COLOR EQUALS : 906 : 416 : 3670001 : 0
+Mouse : 906 : 416 : LeftButtonDown : 0 : 0 : 0
+Mouse : 906 : 416 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+ENDIF
+IF PIXEL COLOR EQUALS : 711 : 244 : 15130791 : 0
+Mouse : 937 : 761 : LeftButtonDown : 0 : 0 : 0
+DELAY : 55
+Mouse : 1023 : 839 : Move : 0 : 0 : 0
+DELAY : 55
+Mouse : 1023 : 839 : LeftButtonUp : 0 : 0 : 0
+DELAY : 55
+ENDIF
+IF PIXEL COLOR EQUALS : 880 : 821 : 16777215 : 0
+DELAY : 100
+GOTO : new bag
+ENDIF
+DELAY : 1
+ENDREPEAT
+DELAY : 100
+GOTO : open bag
+LABEL : new bag
+IF PIXEL COLOR EQUALS : 8 : 839 : 591104 : 0
+DELAY : 100
+GOTO : check quest sack
+ENDIF
+IF PIXEL COLOR EQUALS : 761 : 748 : 6461126 : 0
+Mouse : 761 : 748 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 761 : 748 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+Mouse : 1 : 72 : Move : 0 : 0 : 0
+ENDIF
+REPEAT : 10 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF WINDOW EXISTS : GodsWar Online : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
+DELAY : 100
+IF PIXEL COLOR EQUALS : 906 : 416 : 3670001 : 0
+Mouse : 906 : 416 : LeftButtonDown : 0 : 0 : 0
+Mouse : 906 : 416 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+ENDIF
+IF PIXEL COLOR EQUALS : 927 : 246 : 16776959 : 0
+Mouse : 927 : 246 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 1 : 839 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 1 : 839 : LeftButtonUp : 0 : 0 : 0
+DELAY : 300
+DELAY : 100
+ENDIF
+IF PIXEL COLOR EQUALS : 8 : 839 : 591104 : 0
+DELAY : 100
+GOTO : check quest sack
+ENDIF
+ENDREPEAT
+DELAY : 100
+GOTO : open bag
+LABEL : position
+LABEL : check quest sack
+IF PIXEL COLOR EQUALS : 985 : 185 : 8672553 : 1
+GOTO : locate
+ENDIF
+IF PIXEL COLOR EQUALS : 738 : 188 : 5029375 : 0
+Mouse : 738 : 188 : LeftButtonDown : 0 : 0 : 0
+Mouse : 738 : 188 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+GOTO : moved
+LABEL : locate
+IF PIXEL COLOR EQUALS : 738 : 188 : 5029375 : 0
+Mouse : 496 : 617 : LeftButtonDown : 0 : 0 : 0
+Mouse : 496 : 617 : LeftButtonUp : 0 : 0 : 0
+DELAY : 200
+GOTO : moving
+ELSE
+Mouse : 960 : 260 : LeftButtonDown : 0 : 0 : 0
+Mouse : 960 : 260 : LeftButtonUp : 0 : 0 : 0
+DELAY : 200
+GOTO : locate
+ENDIF
+LABEL : moving
+DELAY : 50
+IF PIXEL COLOR EQUALS : 827 : 226 : 11445904 : 0
+DELAY : 100
+GOTO : moving
+ENDIF
+DELAY : 500
+GOTO : position
+LABEL : moved
+IF PIXEL COLOR EQUALS : 698 : 813 : 9725357 : 0
+DELAY : 100
+GOTO : check stall
+ENDIF
+Mouse : 1 : 100 : Move : 0 : 0 : 0
+IF IMAGE : Qk3WBQAAAAAAADYAAAAoAAAAFAAAABIAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAARyM8/7VplP9+Rmj/UhxC/1IcQv9SHEL/UhxC/1IYQv9wMl3/UhhC/3AyXf94N1j/ShAx/3g3WP94N1j/azBS/2swUv9rMFL/ShQ5/5RhY/9HIzz/fkZo/35GaP92OF3/UhxC/1IcQv9SHEL/cDJd/61llP9wMl3/cDJd/3g3WP9KEDH/ShAx/0oQMf9KFDn/ShQ5/0oUOf+taYT/1rKE/1owVP9aMFT/nGKS/5xai/9rGFr/axha/5xai//TmrX/p2WU/3swc/97MHP/qmWd/0IUOf9CFDn/dj1q/6VNnP/DfKf/4ayy///bvf//17X/WjBU/5xikv/eks7/nFqL/5xai/+cWov/zp2+/9Oatf97MHP/ezBz/6dllP+qZZ3/QhQ5/0IUOf+qZZ3/w3yn/+Gssv//273/4ayy/3VVV/+cYpL/3pLO/96Szv/Onb7/zp2+/86dvv/Onb7//8/W/6dllP+nZZT/05q1/6plnf9CFDn/QhQ5/96Ozv/hrLL/4ayy/8N8p/+lTZz/MRQp/1owVP/eks7/3pLO/86dvv//3+///9/v///f7///z9b//8/W///P1v//z9b/qmWd/3Y9av+qZZ3/3o7O/+Gssv/hrLL/4ayy/6VNnP8xFCn/GAwQ/xgMEP+Shpr//+Pe///j3v//497//+Pe///n7///5+///+fv/8imwf+1bcb/tW3G/7Vtxv/mzNz//9/e///f3v//397/zqS9/2MsWv8YDBD/GAwQ/xgMEP85GEL/e1t2///j3v//497//+fv/8imwf/IpsH/yKbB/7Vtxv+1bcb/tW3G/7Vtxv//397//9/e///f3v/OpL3/Yyxa/xgMEP8YDBD/GAwQ/zkYQv85GEL/ORhC/3tbdv/IpsH/WiRj/5Flkf//5+//5szc/+bM3P/mzNz/tW3G/5xnnP/OpL3/zqS9/2sse/9KIUH/VElU/87D3v+Shpr/ORhC/zkYQv85GEL/ORhC/1okY/9aJGP/WiRj/1okY///++f///vn///75//OnNH/nGec/2sse/9rLHv/ayx7/0ohQf+1sLX/9/P3//fz9/+coKj/GBgp/xgYKf8YGCn/MS8//zEvP/8xLz//MS8//4Fde///z+///8/v///P7/97VZT/PyxH/z8sR/8/LEf/MRgY/7Wwtf/38/f/9/P3/97j5/+coKj/GBgp/xgYKf8xLz//GAgY/xgIGP8YCBj/QiRC/0IkQv9CJEL/QiRC/z8sR/8/LEf/IRgh/yEYIf8xGBj/9/P3//fz9//38/f/3uPn/97j5/+coKj/Wlto/0pWZf8xLz//MS8//xgIGP9CJEL/QiRC/0IkQv9CJEL/IRgh/yEYIf8hGCH/IRgh/0ojJv/38/f/9/P3//fz9//e4+f/3uPn/97j5/+coKj/Y32M/2N9jP9KVmX/MS8//0IkQv9CJEL/QiRC/0IkQv8hGCH/PyxH/3tVlP8hGCH/SiMm/4y2yf+Mtsn/YpKq/4m2y/+t3+//rd/v/63f7/+c2+//eK/B/1WBkf8xVWP/MTxC/zE8Qv8xPEL/MTxC/190e/+PoKX/j6Cl/zFJUv9rRUr/YpKq/zltjP85bYz/QmWE/2aOqP9mjqj/rd/v/5zb7/+c2+//eK/B/1WBkf8xPEL/MTxC/0Rda/9YfZT/j6Cl/73Lzv+9y87/j6Cl/2tFSv+Mtsn/jLbJ/4y2yf+Jtsv/Zo6o/0JlhP9CZYT/eK/B/5zb7/+c2+//eK/B/0Rda/8xPEL/RF1r/1h9lP+PoKX/vcvO/73Lzv+9y87/e2Fl/7Xb5/+12+f/tdvn/63f7/+Jtsv/QmWE/0JlhP9VgZH/eK/B/5zb7/+c2+//WH2U/0Rda/9YfZT/a569/4+gpf+9y87/vcvO/73Lzv+cmpz/ : 1 : 20 : 0 : 24;330;245;497
+Mouse : C0 : C0 : LeftButtonDown : 0 : 0 : 0
+Mouse : 1 : 800 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 1 : 800 : LeftButtonUp : 0 : 0 : 0
+DELAY : 300
+Mouse : 1 : 800 : RightButtonDown : 0 : 0 : 0
+Mouse : 1 : 800 : RightButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : check stall
+ENDIF
+Mouse : 1 : 100 : Move : 0 : 0 : 0
+IF IMAGE : Qk12BQAAAAAAADYAAAAoAAAAFQAAABAAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAWjBU/5xikv/eks7/nFqL/5xai/+cWov/zp2+/9Oatf97MHP/ezBz/6dllP+qZZ3/QhQ5/0IUOf+qZZ3/w3yn/+Gssv//273/4ayy/3VVV/8xFCn/nGKS/96Szv/eks7/zp2+/86dvv/Onb7/zp2+///P1v+nZZT/p2WU/9Oatf+qZZ3/QhQ5/0IUOf/ejs7/4ayy/+Gssv/DfKf/pU2c/zEUKf8xFCn/WjBU/96Szv/eks7/zp2+///f7///3+///9/v///P1v//z9b//8/W///P1v+qZZ3/dj1q/6plnf/ejs7/4ayy/+Gssv/hrLL/pU2c/zEUKf8xFCn/GAwQ/xgMEP+Shpr//+Pe///j3v//497//+Pe///n7///5+///+fv/8imwf+1bcb/tW3G/7Vtxv/mzNz//9/e///f3v//397/zqS9/2MsWv9KIUH/GAwQ/xgMEP8YDBD/ORhC/3tbdv//497//+Pe///n7//IpsH/yKbB/8imwf+1bcb/tW3G/7Vtxv+1bcb//9/e///f3v//397/zqS9/2MsWv8xFyn/GAwQ/xgMEP8YDBD/ORhC/zkYQv85GEL/e1t2/8imwf9aJGP/kWWR///n7//mzNz/5szc/+bM3P+1bcb/nGec/86kvf/OpL3/ayx7/0ohQf8xFyn/VElU/87D3v+Shpr/ORhC/zkYQv85GEL/ORhC/1okY/9aJGP/WiRj/1okY///++f///vn///75//OnNH/nGec/2sse/9rLHv/ayx7/0ohQf8YDBD/tbC1//fz9//38/f/nKCo/xgYKf8YGCn/GBgp/zEvP/8xLz//MS8//zEvP/+BXXv//8/v///P7///z+//e1WU/z8sR/8/LEf/PyxH/zEYGP8xGBj/tbC1//fz9//38/f/3uPn/5ygqP8YGCn/GBgp/zEvP/8YCBj/GAgY/xgIGP9CJEL/QiRC/0IkQv9CJEL/PyxH/z8sR/8hGCH/IRgh/zEYGP9KIyb/9/P3//fz9//38/f/3uPn/97j5/+coKj/Wlto/0pWZf8xLz//MS8//xgIGP9CJEL/QiRC/0IkQv9CJEL/IRgh/yEYIf8hGCH/IRgh/0ojJv9iLTT/9/P3//fz9//38/f/3uPn/97j5//e4+f/nKCo/2N9jP9jfYz/SlZl/zEvP/9CJEL/QiRC/0IkQv9CJEL/IRgh/z8sR/97VZT/IRgh/0ojJv97OEL/jLbJ/4y2yf9ikqr/ibbL/63f7/+t3+//rd/v/5zb7/94r8H/VYGR/zFVY/8xPEL/MTxC/zE8Qv8xPEL/X3R7/4+gpf+PoKX/MUlS/2tFSv9rRUr/YpKq/zltjP85bYz/QmWE/2aOqP9mjqj/rd/v/5zb7/+c2+//eK/B/1WBkf8xPEL/MTxC/0Rda/9YfZT/j6Cl/73Lzv+9y87/j6Cl/2tFSv9rRUr/jLbJ/4y2yf+Mtsn/ibbL/2aOqP9CZYT/QmWE/3ivwf+c2+//nNvv/3ivwf9EXWv/MTxC/0Rda/9YfZT/j6Cl/73Lzv+9y87/vcvO/3thZf9rRUr/tdvn/7Xb5/+12+f/rd/v/4m2y/9CZYT/QmWE/1WBkf94r8H/nNvv/5zb7/9YfZT/RF1r/1h9lP9rnr3/j6Cl/73Lzv+9y87/vcvO/5yanP97YWX/vcTL/97n7//e5+//td/n/3uerf97nq3/osnU/4aww/+GsMP/kcXZ/5zb7/+EmKL/c3V7/3uHjv+MqrX/pb7O/6W+zv/Ayc7/zs/O/8bLzv+akpf/ : 1 : 20 : 0 : 762;579;239;154
+Mouse : C0 : C0 : LeftButtonDown : 0 : 0 : 0
+Mouse : 1 : 800 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 1 : 800 : LeftButtonUp : 0 : 0 : 0
+DELAY : 300
+Mouse : 1 : 800 : RightButtonDown : 0 : 0 : 0
+Mouse : 1 : 800 : RightButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : check stall
+ELSE
+DELAY : 100
+GOTO : 2.0
+ENDIF
+LABEL : check stall
+IF PIXEL COLOR EQUALS : 843 : 802 : 10779936 : 0
+Mouse : 843 : 802 : LeftButtonDown : 0 : 0 : 0
+Mouse : 843 : 802 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 360 : 553 : 16316664 : 0
+Mouse : 1 : 800 : RightButtonDown : 0 : 0 : 0
+Mouse : 1 : 800 : RightButtonUp : 0 : 0 : 0
+Mouse : 419 : 131 : LeftButtonDown : 0 : 0 : 0
+Mouse : 419 : 131 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : open sack
+ENDIF
+IF PIXEL COLOR EQUALS : 360 : 553 : 263946 : 0
+DELAY : 100
+GOTO : start
+ENDIF
+DELAY : 100
+GOTO : check stall
+LABEL : open sack
+IF PIXEL COLOR EQUALS : 805 : 105 : 6767291 : 0
+Mouse : 465 : 759 : RightClick : 0 : 0 : 0
+ENDIF
+IF WINDOW EXISTS : GodsWar Online : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
+IF PIXEL FOUND : 9725357 : 0 : 1 : 812 : 697 : 814 : 699
+Mouse : 1 : 800 : RightButtonDown : 0 : 0 : 0
+Mouse : 1 : 800 : RightButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : open sack
+ENDIF
+LABEL : 2.0
+IF IMAGE : Qk1qCAAAAAAAADYAAAAoAAAAFQAAABkAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAKS40/0lWXv9lgY//X4OW/2OJnP9skqb/cpiq/3ebr/9slqr/WXqL/1h5iv8pOUH/ZImd/2CFmP9mip3/S2h2/yg4P/8MDhD/CwMd/x0AU/8YAEb/bIWS/2GClP9iiZz/aI+k/3uhs/+Fqbr/kLPF/32luf99pbn/cpyy/4Oqvv88T1n/TWp4/zpQW/9FX2z/NUlS/zZMV/8aGhz/CQYV/xYBQP8gAF3/c5Sl/3earP+Apbb/i62+/5S3yP+hw9P/rc7e/6nL2/+gw9X/oMPV/6jJ2f9LZ3X/O1Ba/0JXY/9JYnD/PFRg/z1WZP8vNjn/CgkM/xMCNP8pAHf/nLvK/6fH1/+jxNT/qcvb/6vK2v+62ej/u9ro/63O4P+nyt3/qM3g/6bK3f9MbHz/KT5I/zVKU/9ScID/PlRf/1Jxgf9IYm7/ExMT/wsCHv8pAHb/q8nY/63M2v+72ej/yOTy/8nm9P/I5/b/udrp/7PW5f+t0OH/pMrc/36txf9Xe4z/OE5a/zFHUP8+WGX/NUlS/1+Akv9afY7/MjIy/wYEDf8aAEr/sM7b/7jW5P/F4e//t9fm/63P4P+rz+H/t9nr/7ze8P/D5fX/xOT0/7bb7P+22en/VHOB/zNJU/82S1X/MERN/16Bkv9okaX/aXmB/wYIC/8TADb/wd7s/8Pk8/+12en/qc/i/6XK3f+u0OL/wODv/8/s+v/a9f7/4/v+/8vq+f+hyNr/YYib/zNGUP80Rk//SmVz/2eMof93pLn/c52y/w8TFv8QACz/rc7g/6TI2/+v1Of/vODy/9Lw/f/h+/7/4/v+/974/v/Q7Pr/tNbo/3yqwv9QbHr/QVVg/1h1gf99qb7/hLTM/4Oxyf92pbv/PlRf/xMYG/8KARz/udrp/7TV5v/F5PP/3Pj+/+b////f+v7/y+v6/6rR5v93o7r/Smp5/z5ZZv9mjqH/eqrC/3yrw/95qcH/f6/H/2qTp/8fLDL/Cg0Q/xIVF/8GAw3/1PH7/9n3/f/a9v//0e78/8vr+v+bx93/Zomb/1l6iv9mjKH/eKO6/2+cs/90orn/bJmw/2+cs/9tnLT/XIGU/2CElf9qkaT/XoKS/zdLVP8UFiL/1O78/9Xx/v+63e3/fqzF/1p9jv9jiJz/apOn/2SOo/9mj6T/bJas/3Ccsf9ynrX/eKW8/3qnwP+Gtcz/hLLH/5zG2v+q0eX/p8rb/1Nyg/8bJC3/pcze/2iTqf9giZ3/aZCk/22Wq/9okaf/a5Sq/2iPpf9tlav/cZyy/3aku/9tpLr/fq7F/4a1zv+Zxdz/k7/V/5S+1P+Otcr/ncHU/2qUqf8kMTf/cZ2y/3eov/9djKD/eKi//3upwP96p77/gK/G/2OKnv9RjaH/dKrB/32wx/97r8b/c6nA/4Cvxv+Escf/j7zQ/5W/0/+awtb/osjc/5q/0f8bIyf/mcLX/5jE2f9djp//QnKB/36rwv+MuM7/mcLX/19+i/8SZ3b/OIqf/4u6z/9+r8X/YKG2/3utw/+BsMb/jbnQ/5rD2P+v1ur/ocfb/6rJ2P8tP0n/rdDi/57E1/95qbz/GWBt/0Jgaf+dwtb/m8HT/3CLl/8PXmz/IIGU/3i1yP96ssX/PZKl/4a4zf+Jus//lsHY/5G90/+gyd3/n8bZ/7DR4P9lfIn/xub1/6vN3v9NgI3/F3mL/wtpev9YgIz/pcja/4Gcqv8NVmX/HH2O/zeYrf89mKz/QZWp/6LN4P+lzOD/mMHV/5C7z/+JtMj/mcHV/6vP4f+dtMD/LE5U/yVNVv8hXGf/I4CQ/w91hv8WWWb/eZOg/5OxwP8RUV3/F3mL/yyku/8u+/z/UdXW/6XL3P+pzt//oMfY/6DG2v+TvNH/nMPX/6LH2f+rytj/LGFq/xhvf/8nh5n/KbPO/yOJnP8VcoP/L0VL/4Gapv8XUFr/FniI/yurxP8/+vj/U7XD/7PU5f+z1OX/r9Hj/63R4/+ly97/pMrc/4Sgrv83Rkz/m5qe/zh5hf8jf4//N6zC/yfD4P8egZP/Jmh2/ztESf8jTlj/GXaI/yutxf9G/Pv/ZKe4/7va6/+52ur/vd7u/7HV5v+VtMP/QV1h/yF8fv8lop//mpei/7DI0v8xZG//JneG/zGsw/8mscr/IX6N/zlcY/8oSVD/IHmJ/yi7yP8/+/7/kcLR/7za6f+51+b/pcPQ/0x2fP8ijIz/Kayo/znJx/9M4uH/Yl17/9Hn8v+30+D/QXF6/yl3hP8sj5//LJ2w/ziAjf8zXmb/KXiG/zDY3P899/z/wuDu/63F0P9cdHr/MX+F/yu1tP863dr/Ve3t/37Z4P+evMr/Vkxz/9ft+P/U7Pj/xt/s/06JlP80fYr/NYKQ/0WVo/9PhpL/OYGN/zza3f9IytX/ZXd8/z9sdP9BhZH/R6m7/0/Q5/9v3/D/tdXj/6e9yf9yfoX/V0pz/6Swu//V7Pb/3vP8/9nw+f9sn6r/SYiT/0WIk/9Jj5z/RYuY/0iqu/9Wl6T/ToyX/1mntv9y2e3/lOLz/6fa6P+fu8X/c4aL/1WRlv9VnqT/bF+J/4WLkv+Ol5v/vM3U/9bq9P+Zqa//WYqT/1Kxwf9S3OH/cPDy/3X8/P9htb7/c7nH/5fb6/+v1+P/hJ6m/2eKkv9crbT/W7bA/2q0vP+Btb3/d2yQ/5Saof+2w8n/vcrQ/56nq/9zg4f/Zqez/2Kzwv9itLr/as/Q/3/n6f+S+/n/f7zH/3eSmP9ulp7/bqiz/2zAz/93y9v/lc3a/7HJ0/+1xc3/ : 0 : 0 : 0 : 757;576;251;161
+DELAY : 100
+GOTO : open stall
+ENDIF
+IF IMAGE : Qk1qCAAAAAAAADYAAAAoAAAAFQAAABkAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAKS40/0lWXv9lgY//X4OW/2OJnP9skqb/cpiq/3ebr/9slqr/WXqL/1h5iv8pOUH/ZImd/2CFmP9mip3/S2h2/yg4P/8MDhD/CwMd/x0AU/8YAEb/bIWS/2GClP9iiZz/aI+k/3uhs/+Fqbr/kLPF/32luf99pbn/cpyy/4Oqvv88T1n/TWp4/zpQW/9FX2z/NUlS/zZMV/8aGhz/CQYV/xYBQP8gAF3/c5Sl/3earP+Apbb/i62+/5S3yP+hw9P/rc7e/6nL2/+gw9X/oMPV/6jJ2f9LZ3X/O1Ba/0JXY/9JYnD/PFRg/z1WZP8vNjn/CgkM/xMCNP8pAHf/nLvK/6fH1/+jxNT/qcvb/6vK2v+62ej/u9ro/63O4P+nyt3/qM3g/6bK3f9MbHz/KT5I/zVKU/9ScID/PlRf/1Jxgf9IYm7/ExMT/wsCHv8pAHb/q8nY/63M2v+72ej/yOTy/8nm9P/I5/b/udrp/7PW5f+t0OH/pMrc/36txf9Xe4z/OE5a/zFHUP8+WGX/NUlS/1+Akv9afY7/MjIy/wYEDf8aAEr/sM7b/7jW5P/F4e//t9fm/63P4P+rz+H/t9nr/7ze8P/D5fX/xOT0/7bb7P+22en/VHOB/zNJU/82S1X/MERN/16Bkv9okaX/aXmB/wYIC/8TADb/wd7s/8Pk8/+12en/qc/i/6XK3f+u0OL/wODv/8/s+v/a9f7/4/v+/8vq+f+hyNr/YYib/zNGUP80Rk//SmVz/2eMof93pLn/c52y/w8TFv8QACz/rc7g/6TI2/+v1Of/vODy/9Lw/f/h+/7/4/v+/974/v/Q7Pr/tNbo/3yqwv9QbHr/QVVg/1h1gf99qb7/hLTM/4Oxyf92pbv/PlRf/xMYG/8KARz/udrp/7TV5v/F5PP/3Pj+/+b////f+v7/y+v6/6rR5v93o7r/Smp5/z5ZZv9mjqH/eqrC/3yrw/95qcH/f6/H/2qTp/8fLDL/Cg0Q/xIVF/8GAw3/1PH7/9n3/f/a9v//0e78/8vr+v+bx93/Zomb/1l6iv9mjKH/eKO6/2+cs/90orn/bJmw/2+cs/9tnLT/XIGU/2CElf9qkaT/XoKS/zdLVP8UFiL/1O78/9Xx/v+63e3/fqzF/1p9jv9jiJz/apOn/2SOo/9mj6T/bJas/3Ccsf9ynrX/eKW8/3qnwP+Gtcz/hLLH/5zG2v+q0eX/p8rb/1Nyg/8bJC3/pcze/2iTqf9giZ3/aZCk/22Wq/9okaf/a5Sq/2iPpf9tlav/cZyy/3aku/9tpLr/fq7F/4a1zv+Zxdz/k7/V/5S+1P+Otcr/ncHU/2qUqf8kMTf/cZ2y/3eov/9djKD/eKi//3upwP96p77/gK/G/2OKnv9RjaH/dKrB/32wx/97r8b/c6nA/4Cvxv+Escf/j7zQ/5W/0/+awtb/osjc/5q/0f8bIyf/mcLX/5jE2f9djp//QnKB/36rwv+MuM7/mcLX/19+i/8SZ3b/OIqf/4u6z/9+r8X/YKG2/3utw/+BsMb/jbnQ/5rD2P+v1ur/ocfb/6rJ2P8tP0n/rdDi/57E1/95qbz/GWBt/0Jgaf+dwtb/m8HT/3CLl/8PXmz/IIGU/3i1yP96ssX/PZKl/4a4zf+Jus//lsHY/5G90/+gyd3/n8bZ/7DR4P9lfIn/xub1/6vN3v9NgI3/F3mL/wtpev9YgIz/pcja/4Gcqv8NVmX/HH2O/zeYrf89mKz/QZWp/6LN4P+lzOD/mMHV/5C7z/+JtMj/mcHV/6vP4f+dtMD/LE5U/yVNVv8hXGf/I4CQ/w91hv8WWWb/eZOg/5OxwP8RUV3/F3mL/yyku/8u+/z/UdXW/6XL3P+pzt//oMfY/6DG2v+TvNH/nMPX/6LH2f+rytj/LGFq/xhvf/8nh5n/KbPO/yOJnP8VcoP/L0VL/4Gapv8XUFr/FniI/yurxP8/+vj/U7XD/7PU5f+z1OX/r9Hj/63R4/+ly97/pMrc/4Sgrv83Rkz/m5qe/zh5hf8jf4//N6zC/yfD4P8egZP/Jmh2/ztESf8jTlj/GXaI/yutxf9G/Pv/ZKe4/7va6/+52ur/vd7u/7HV5v+VtMP/QV1h/yF8fv8lop//mpei/7DI0v8xZG//JneG/zGsw/8mscr/IX6N/zlcY/8oSVD/IHmJ/yi7yP8/+/7/kcLR/7za6f+51+b/pcPQ/0x2fP8ijIz/Kayo/znJx/9M4uH/Yl17/9Hn8v+30+D/QXF6/yl3hP8sj5//LJ2w/ziAjf8zXmb/KXiG/zDY3P899/z/wuDu/63F0P9cdHr/MX+F/yu1tP863dr/Ve3t/37Z4P+evMr/Vkxz/9ft+P/U7Pj/xt/s/06JlP80fYr/NYKQ/0WVo/9PhpL/OYGN/zza3f9IytX/ZXd8/z9sdP9BhZH/R6m7/0/Q5/9v3/D/tdXj/6e9yf9yfoX/V0pz/6Swu//V7Pb/3vP8/9nw+f9sn6r/SYiT/0WIk/9Jj5z/RYuY/0iqu/9Wl6T/ToyX/1mntv9y2e3/lOLz/6fa6P+fu8X/c4aL/1WRlv9VnqT/bF+J/4WLkv+Ol5v/vM3U/9bq9P+Zqa//WYqT/1Kxwf9S3OH/cPDy/3X8/P9htb7/c7nH/5fb6/+v1+P/hJ6m/2eKkv9crbT/W7bA/2q0vP+Btb3/d2yQ/5Saof+2w8n/vcrQ/56nq/9zg4f/Zqez/2Kzwv9itLr/as/Q/3/n6f+S+/n/f7zH/3eSmP9ulp7/bqiz/2zAz/93y9v/lc3a/7HJ0/+1xc3/ : 0 : 0 : 0 : 24;329;245;500
+DELAY : 100
+GOTO : open stall
+ELSE
+DELAY : 100
+GOTO : start
+ENDIF
+LABEL : open stall
+IF PIXEL COLOR EQUALS : 395 : 548 : 16580093 : 0
+Mouse : 419 : 131 : LeftButtonDown : 0 : 0 : 0
+Mouse : 419 : 131 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : delete sack
+ENDIF
+IF PIXEL COLOR EQUALS : 300 : 563 : 2310751 : 0
+Mouse : 370 : 553 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 370 : 553 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 1 : 73 : RightButtonDown : 0 : 0 : 0
+Mouse : 1 : 73 : RightButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : on sale
+ENDIF
+IF PIXEL COLOR EQUALS : 843 : 802 : 10779936 : 0
+Mouse : 843 : 802 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 843 : 802 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+ENDIF
+REPEAT : 20 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF WINDOW EXISTS : GodsWar Online : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
+DELAY : 100
+IF PIXEL COLOR EQUALS : 395 : 548 : 16580093 : 0
+Mouse : 419 : 131 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 419 : 131 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : delete sack
+ENDIF
+IF PIXEL COLOR EQUALS : 300 : 563 : 2310751 : 0
+Mouse : 370 : 553 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 370 : 553 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 1 : 73 : RightButtonDown : 0 : 0 : 0
+Mouse : 1 : 73 : RightButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : on sale
+ENDIF
+ENDREPEAT
+LABEL : on sale
+REPEAT : 20 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF WINDOW EXISTS : GodsWar Online : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
+DELAY : 100
+IF PIXEL COLOR EQUALS : 395 : 548 : 16580093 : 0
+Mouse : 419 : 131 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 419 : 131 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : delete sack
+ENDIF
+ENDREPEAT
+DELAY : 100
+GOTO : open stall
+LABEL : delete sack
+IF IMAGE : Qk2qAwAAAAAAADYAAAAoAAAAEQAAAA0AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAGAwA/zgeAf80HAP/FgsG/1VnF//+6TT///0s///eJP9odA3/BQMD/ydPBv/w+g3/+v8F///lAP+AjQD/EgoG/zQcA/8cDgD/PSEB/zkfBP82HgL/EQkI/6+2K///2Dj///gu/9nnIv83NxH/vcUW///dGf//8g3/2NwE/woZGv8xHAP/Ox8D/yAQAP9CJAL/PiID/0EkA/8vGQP/EDkQ//HwOv///TX/7P8u/97sJ//y+yT///0f//72Ff9RWAf/JhQD/0AjAv9AIwH/LBcA/0coAf9FJwH/RCYB/0cnAf8YDAb/fIAk//3hPv/y/zX///gx//X/LP/+3Sf/o6kU/xcMB/9DJQD/RSYB/0UmAv8/IAD/TioC/0ooAf9KKQH/SykC/0MkAP8pEhL/19U5///mPf/x/zf///Q0/+vwKf8PSQr/Nh0C/00rAf9KKQH/SigB/0YkAP9ULgL/TisB/08sAv9RLQH/MxoC/yVWGP/v1kf///1C//f/Pf///Tn/+eAy/2Z5E/8pFgP/UC0B/08sAv9PLAL/TCcA/1kxAv9TLwH/VS4C/1ItAP8eDwz/zsNH///hUf/z/0n///FG//L/QP//7zr/6+kr/wkyCf9GJwD/Vi8B/1QvAv9RKQD/XTMC/1gyAf9aMgH/KhYD/3qGNf/93WT///lX/+/2TP+Dfir/2eA+///vQf//3Dj/rq0f/yQTBf9YMgH/WTEC/1UrAP9hNQH/XTID/0omAP8dPy//7Nti///vZv/93GP/m6s5/wkFBf9jgyX//+BK//r/Pf/97TP/PmER/zwgAf9fNQT/WC0A/2Q3Av9bMQH/JhQI/7OuVf/30n3//+9s/+bhWf8hNCz/cVxD/y8lIv/Evzv//+NI///nPP/VzCz/HBki/1ErAP9XLQD/bDwC/z8hAf9eZzf/+dWH//3off/943T/aXY1/1pLM/+Fb2X/bVtA/zVXI//25Er//+dG//+9Pv+PhyH/NBsE/1EpAP90QAH/LBgR/6+ic//RvIH/0rp//6CUVP84LCj/f2lb/4FrYP+DbWL/Rzsp/392L//aq0n/4NM3/9nAMf8LPBD/KhUA/4FFAf9lSST/Ni4q/ykgHf8pIB3/MSgi/3BaRv+AaWD/fWdb/39oXv94YlL/Oi8l/ykgHf8oIB3/MCcj/11GKv8= : 1 : 0 : 0 : 591;202;28;27
+Mouse : 605 : 216 : LeftButtonDown : 0 : 0 : 0
+Mouse : 605 : 216 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF IMAGE : Qk1qCAAAAAAAADYAAAAoAAAAFQAAABkAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAKS40/0lWXv9lgY//X4OW/2OJnP9skqb/cpiq/3ebr/9slqr/WXqL/1h5iv8pOUH/ZImd/2CFmP9mip3/S2h2/yg4P/8MDhD/CwMd/x0AU/8YAEb/bIWS/2GClP9iiZz/aI+k/3uhs/+Fqbr/kLPF/32luf99pbn/cpyy/4Oqvv88T1n/TWp4/zpQW/9FX2z/NUlS/zZMV/8aGhz/CQYV/xYBQP8gAF3/c5Sl/3earP+Apbb/i62+/5S3yP+hw9P/rc7e/6nL2/+gw9X/oMPV/6jJ2f9LZ3X/O1Ba/0JXY/9JYnD/PFRg/z1WZP8vNjn/CgkM/xMCNP8pAHf/nLvK/6fH1/+jxNT/qcvb/6vK2v+62ej/u9ro/63O4P+nyt3/qM3g/6bK3f9MbHz/KT5I/zVKU/9ScID/PlRf/1Jxgf9IYm7/ExMT/wsCHv8pAHb/q8nY/63M2v+72ej/yOTy/8nm9P/I5/b/udrp/7PW5f+t0OH/pMrc/36txf9Xe4z/OE5a/zFHUP8+WGX/NUlS/1+Akv9afY7/MjIy/wYEDf8aAEr/sM7b/7jW5P/F4e//t9fm/63P4P+rz+H/t9nr/7ze8P/D5fX/xOT0/7bb7P+22en/VHOB/zNJU/82S1X/MERN/16Bkv9okaX/aXmB/wYIC/8TADb/wd7s/8Pk8/+12en/qc/i/6XK3f+u0OL/wODv/8/s+v/a9f7/4/v+/8vq+f+hyNr/YYib/zNGUP80Rk//SmVz/2eMof93pLn/c52y/w8TFv8QACz/rc7g/6TI2/+v1Of/vODy/9Lw/f/h+/7/4/v+/974/v/Q7Pr/tNbo/3yqwv9QbHr/QVVg/1h1gf99qb7/hLTM/4Oxyf92pbv/PlRf/xMYG/8KARz/udrp/7TV5v/F5PP/3Pj+/+b////f+v7/y+v6/6rR5v93o7r/Smp5/z5ZZv9mjqH/eqrC/3yrw/95qcH/f6/H/2qTp/8fLDL/Cg0Q/xIVF/8GAw3/1PH7/9n3/f/a9v//0e78/8vr+v+bx93/Zomb/1l6iv9mjKH/eKO6/2+cs/90orn/bJmw/2+cs/9tnLT/XIGU/2CElf9qkaT/XoKS/zdLVP8UFiL/1O78/9Xx/v+63e3/fqzF/1p9jv9jiJz/apOn/2SOo/9mj6T/bJas/3Ccsf9ynrX/eKW8/3qnwP+Gtcz/hLLH/5zG2v+q0eX/p8rb/1Nyg/8bJC3/pcze/2iTqf9giZ3/aZCk/22Wq/9okaf/a5Sq/2iPpf9tlav/cZyy/3aku/9tpLr/fq7F/4a1zv+Zxdz/k7/V/5S+1P+Otcr/ncHU/2qUqf8kMTf/cZ2y/3eov/9djKD/eKi//3upwP96p77/gK/G/2OKnv9RjaH/dKrB/32wx/97r8b/c6nA/4Cvxv+Escf/j7zQ/5W/0/+awtb/osjc/5q/0f8bIyf/mcLX/5jE2f9djp//QnKB/36rwv+MuM7/mcLX/19+i/8SZ3b/OIqf/4u6z/9+r8X/YKG2/3utw/+BsMb/jbnQ/5rD2P+v1ur/ocfb/6rJ2P8tP0n/rdDi/57E1/95qbz/GWBt/0Jgaf+dwtb/m8HT/3CLl/8PXmz/IIGU/3i1yP96ssX/PZKl/4a4zf+Jus//lsHY/5G90/+gyd3/n8bZ/7DR4P9lfIn/xub1/6vN3v9NgI3/F3mL/wtpev9YgIz/pcja/4Gcqv8NVmX/HH2O/zeYrf89mKz/QZWp/6LN4P+lzOD/mMHV/5C7z/+JtMj/mcHV/6vP4f+dtMD/LE5U/yVNVv8hXGf/I4CQ/w91hv8WWWb/eZOg/5OxwP8RUV3/F3mL/yyku/8u+/z/UdXW/6XL3P+pzt//oMfY/6DG2v+TvNH/nMPX/6LH2f+rytj/LGFq/xhvf/8nh5n/KbPO/yOJnP8VcoP/L0VL/4Gapv8XUFr/FniI/yurxP8/+vj/U7XD/7PU5f+z1OX/r9Hj/63R4/+ly97/pMrc/4Sgrv83Rkz/m5qe/zh5hf8jf4//N6zC/yfD4P8egZP/Jmh2/ztESf8jTlj/GXaI/yutxf9G/Pv/ZKe4/7va6/+52ur/vd7u/7HV5v+VtMP/QV1h/yF8fv8lop//mpei/7DI0v8xZG//JneG/zGsw/8mscr/IX6N/zlcY/8oSVD/IHmJ/yi7yP8/+/7/kcLR/7za6f+51+b/pcPQ/0x2fP8ijIz/Kayo/znJx/9M4uH/Yl17/9Hn8v+30+D/QXF6/yl3hP8sj5//LJ2w/ziAjf8zXmb/KXiG/zDY3P899/z/wuDu/63F0P9cdHr/MX+F/yu1tP863dr/Ve3t/37Z4P+evMr/Vkxz/9ft+P/U7Pj/xt/s/06JlP80fYr/NYKQ/0WVo/9PhpL/OYGN/zza3f9IytX/ZXd8/z9sdP9BhZH/R6m7/0/Q5/9v3/D/tdXj/6e9yf9yfoX/V0pz/6Swu//V7Pb/3vP8/9nw+f9sn6r/SYiT/0WIk/9Jj5z/RYuY/0iqu/9Wl6T/ToyX/1mntv9y2e3/lOLz/6fa6P+fu8X/c4aL/1WRlv9VnqT/bF+J/4WLkv+Ol5v/vM3U/9bq9P+Zqa//WYqT/1Kxwf9S3OH/cPDy/3X8/P9htb7/c7nH/5fb6/+v1+P/hJ6m/2eKkv9crbT/W7bA/2q0vP+Btb3/d2yQ/5Saof+2w8n/vcrQ/56nq/9zg4f/Zqez/2Kzwv9itLr/as/Q/3/n6f+S+/n/f7zH/3eSmP9ulp7/bqiz/2zAz/93y9v/lc3a/7HJ0/+1xc3/ : 1 : 0 : 0 : 757;576;251;161
+DELAY : 100
+GOTO : delete sack repeat
+ENDIF
+IF IMAGE : Qk1qCAAAAAAAADYAAAAoAAAAFQAAABkAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAKS40/0lWXv9lgY//X4OW/2OJnP9skqb/cpiq/3ebr/9slqr/WXqL/1h5iv8pOUH/ZImd/2CFmP9mip3/S2h2/yg4P/8MDhD/CwMd/x0AU/8YAEb/bIWS/2GClP9iiZz/aI+k/3uhs/+Fqbr/kLPF/32luf99pbn/cpyy/4Oqvv88T1n/TWp4/zpQW/9FX2z/NUlS/zZMV/8aGhz/CQYV/xYBQP8gAF3/c5Sl/3earP+Apbb/i62+/5S3yP+hw9P/rc7e/6nL2/+gw9X/oMPV/6jJ2f9LZ3X/O1Ba/0JXY/9JYnD/PFRg/z1WZP8vNjn/CgkM/xMCNP8pAHf/nLvK/6fH1/+jxNT/qcvb/6vK2v+62ej/u9ro/63O4P+nyt3/qM3g/6bK3f9MbHz/KT5I/zVKU/9ScID/PlRf/1Jxgf9IYm7/ExMT/wsCHv8pAHb/q8nY/63M2v+72ej/yOTy/8nm9P/I5/b/udrp/7PW5f+t0OH/pMrc/36txf9Xe4z/OE5a/zFHUP8+WGX/NUlS/1+Akv9afY7/MjIy/wYEDf8aAEr/sM7b/7jW5P/F4e//t9fm/63P4P+rz+H/t9nr/7ze8P/D5fX/xOT0/7bb7P+22en/VHOB/zNJU/82S1X/MERN/16Bkv9okaX/aXmB/wYIC/8TADb/wd7s/8Pk8/+12en/qc/i/6XK3f+u0OL/wODv/8/s+v/a9f7/4/v+/8vq+f+hyNr/YYib/zNGUP80Rk//SmVz/2eMof93pLn/c52y/w8TFv8QACz/rc7g/6TI2/+v1Of/vODy/9Lw/f/h+/7/4/v+/974/v/Q7Pr/tNbo/3yqwv9QbHr/QVVg/1h1gf99qb7/hLTM/4Oxyf92pbv/PlRf/xMYG/8KARz/udrp/7TV5v/F5PP/3Pj+/+b////f+v7/y+v6/6rR5v93o7r/Smp5/z5ZZv9mjqH/eqrC/3yrw/95qcH/f6/H/2qTp/8fLDL/Cg0Q/xIVF/8GAw3/1PH7/9n3/f/a9v//0e78/8vr+v+bx93/Zomb/1l6iv9mjKH/eKO6/2+cs/90orn/bJmw/2+cs/9tnLT/XIGU/2CElf9qkaT/XoKS/zdLVP8UFiL/1O78/9Xx/v+63e3/fqzF/1p9jv9jiJz/apOn/2SOo/9mj6T/bJas/3Ccsf9ynrX/eKW8/3qnwP+Gtcz/hLLH/5zG2v+q0eX/p8rb/1Nyg/8bJC3/pcze/2iTqf9giZ3/aZCk/22Wq/9okaf/a5Sq/2iPpf9tlav/cZyy/3aku/9tpLr/fq7F/4a1zv+Zxdz/k7/V/5S+1P+Otcr/ncHU/2qUqf8kMTf/cZ2y/3eov/9djKD/eKi//3upwP96p77/gK/G/2OKnv9RjaH/dKrB/32wx/97r8b/c6nA/4Cvxv+Escf/j7zQ/5W/0/+awtb/osjc/5q/0f8bIyf/mcLX/5jE2f9djp//QnKB/36rwv+MuM7/mcLX/19+i/8SZ3b/OIqf/4u6z/9+r8X/YKG2/3utw/+BsMb/jbnQ/5rD2P+v1ur/ocfb/6rJ2P8tP0n/rdDi/57E1/95qbz/GWBt/0Jgaf+dwtb/m8HT/3CLl/8PXmz/IIGU/3i1yP96ssX/PZKl/4a4zf+Jus//lsHY/5G90/+gyd3/n8bZ/7DR4P9lfIn/xub1/6vN3v9NgI3/F3mL/wtpev9YgIz/pcja/4Gcqv8NVmX/HH2O/zeYrf89mKz/QZWp/6LN4P+lzOD/mMHV/5C7z/+JtMj/mcHV/6vP4f+dtMD/LE5U/yVNVv8hXGf/I4CQ/w91hv8WWWb/eZOg/5OxwP8RUV3/F3mL/yyku/8u+/z/UdXW/6XL3P+pzt//oMfY/6DG2v+TvNH/nMPX/6LH2f+rytj/LGFq/xhvf/8nh5n/KbPO/yOJnP8VcoP/L0VL/4Gapv8XUFr/FniI/yurxP8/+vj/U7XD/7PU5f+z1OX/r9Hj/63R4/+ly97/pMrc/4Sgrv83Rkz/m5qe/zh5hf8jf4//N6zC/yfD4P8egZP/Jmh2/ztESf8jTlj/GXaI/yutxf9G/Pv/ZKe4/7va6/+52ur/vd7u/7HV5v+VtMP/QV1h/yF8fv8lop//mpei/7DI0v8xZG//JneG/zGsw/8mscr/IX6N/zlcY/8oSVD/IHmJ/yi7yP8/+/7/kcLR/7za6f+51+b/pcPQ/0x2fP8ijIz/Kayo/znJx/9M4uH/Yl17/9Hn8v+30+D/QXF6/yl3hP8sj5//LJ2w/ziAjf8zXmb/KXiG/zDY3P899/z/wuDu/63F0P9cdHr/MX+F/yu1tP863dr/Ve3t/37Z4P+evMr/Vkxz/9ft+P/U7Pj/xt/s/06JlP80fYr/NYKQ/0WVo/9PhpL/OYGN/zza3f9IytX/ZXd8/z9sdP9BhZH/R6m7/0/Q5/9v3/D/tdXj/6e9yf9yfoX/V0pz/6Swu//V7Pb/3vP8/9nw+f9sn6r/SYiT/0WIk/9Jj5z/RYuY/0iqu/9Wl6T/ToyX/1mntv9y2e3/lOLz/6fa6P+fu8X/c4aL/1WRlv9VnqT/bF+J/4WLkv+Ol5v/vM3U/9bq9P+Zqa//WYqT/1Kxwf9S3OH/cPDy/3X8/P9htb7/c7nH/5fb6/+v1+P/hJ6m/2eKkv9crbT/W7bA/2q0vP+Btb3/d2yQ/5Saof+2w8n/vcrQ/56nq/9zg4f/Zqez/2Kzwv9itLr/as/Q/3/n6f+S+/n/f7zH/3eSmP9ulp7/bqiz/2zAz/93y9v/lc3a/7HJ0/+1xc3/ : 1 : 0 : 0 : 24;329;245;500
+DELAY : 100
+GOTO : delete sack repeat
+ENDIF
+IF IMAGE : Qk12BAAAAAAAADYAAAAoAAAAEQAAABAAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAc56f/53GxP+t19f/oM3O/7He2v+53dn/a4yK/3KWlf97maH/VHKy/0dsz/+Jrb7/t9/g/8/18v/W+/n/3v76/7jRzv92oKD/ibe1/5HAwP+gzsz/uOPg/8z18v+PsrD/boyF/3WSjP93l5n/N1e9/0lr0/9/o8P/msTO/7jZ5P+22N7/vtXS/3igov+Crq3/jr68/5nIx//D6uj/ps7L/3mVj/9wj4X/hKOZ/4ypn/9+o6D/Q2S+/yJC4f8nUOn/aY3b/6io4/+FqLT/eqKg/4Osrf+MuLf/lsPB/464tf97m5X/pcrE/7Xe1v+du67/mrqj/5m9pP+MsqX/UXHA/y1R2v8fSOf/Q2jf/2iKzv9vj5H/hKys/4u1tP+Rubf/h6yq/6zWz/+96OH/ye/o/83x6P/J6Nv/x+LQ/73cx/+x0sn/oMfJ/6Co4v9ZfNr/KFDo/yYtMP9Wb3D/i7Ox/5S8uv+fysj/tN/b/8Dq5f/D6uH/z/Dm/9Hw4//j+ev/5/rs/+r77//i9e7/tNnS/5G1yP81VuP/Tzwn/yw0Nv9FVFf/lLu5/6fNzP+02tX/xuzl/8ru5v/K6t7/3/jp/+n58P/2/fn/9v/8/+v68P/D3tL/m7rH/1Rsy/90Uy3/a1Au/ztBPv88R0r/mr26/7LX0f/H6+T/zO7l/8zr4P/T7Nn/8fv2///////6/fv/4PXh/7fPw/+Tq7z/k6yx/3daOf+AXjT/f14z/0VCO/9DTVD/lLKt/7bY0P/B4tr/ip6a/9rs4P/x+vb/+fz6//L49v/H3NP/lauu/5Ovqv/L5+T/eWFC/4FkPv+Kazz/kms7/15UQ/8/RUj/YnBx/2Btbv+BkpH/3vTq/+j27P/a7N3/y9zV/620tf+itK//xt3b/73c1f98aE7/hGxN/4xuSv+WdEj/oXxH/39sT/9JTE//SExP/3J9fv/P493/0OXd/7nRy/+lubD/naao/8fN0v/D3tj/wN7Y/4JvXP+KdFv/kXhZ/5h9Vv+hg1b/qIZW/497W/9YXF//Y2xt/8LY0P/E3tb/uczP/5ugtP+em7j/wNTT/9Dm4//G4d7/intp/459Zv+Ugmb/moRm/6GJZP+mi2T/qo1i/5uHaf9oamz/o7Gt/8Ta1P/H29X/yt/e/7zM0P/K4d3/0ejl/87k4/+PhHT/koVy/5eHcf+fi3L/pI9y/6aRcP+nkXH/nIpy/4B9dv+FjI3/vtDM/8bZ1v/I3tr/y+Lf/8vh3v/H3tz/x93d/5SLfv+Yjn7/nY99/6CRfP+hknv/ppZ9/6qYf/+pmH3/mY5+/4aIh/+cpqX/wdPQ/8ne2//M4uH/x93c/87h3//S5eP/mZGG/52Uh/+glof/npWH/5+Wh/+jmYf/qp2H/7Ghh/+om4j/kY6L/4qMjv+dpaX/zN/e/87i4v/O4uH/1efl/9zr6f8= : 1 : 10 : 0 : 757;576;251;161
+DELAY : 100
+GOTO : delete sack repeat
+ENDIF
+IF IMAGE : Qk3WAgAAAAAAADYAAAAoAAAADgAAAAwAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAoM7M/7jj4P/M9fL/j7Kw/26Mhf91koz/d5eZ/zdXvf9Ja9P/f6PD/5rEzv+42eT/ttje/77V0v+ZyMf/w+ro/6bOy/95lY//cI+F/4Sjmf+MqZ//fqOg/0Nkvv8iQuH/J1Dp/2mN2/+oqOP/hai0/5bDwf+OuLX/e5uV/6XKxP+13tb/nbuu/5q6o/+ZvaT/jLKl/1FxwP8tUdr/H0jn/0No3/9ois7/kbm3/4esqv+s1s//vejh/8nv6P/N8ej/yejb/8fi0P+93Mf/sdLJ/6DHyf+gqOL/WXza/yhQ6P+UvLr/n8rI/7Tf2//A6uX/w+rh/8/w5v/R8OP/4/nr/+f67P/q++//4vXu/7TZ0v+Rtcj/NVbj/5S7uf+nzcz/tNrV/8bs5f/K7ub/yure/9/46f/p+fD/9v35//b//P/r+vD/w97S/5u6x/9UbMv/PEdK/5q9uv+y19H/x+vk/8zu5f/M6+D/0+zZ//H79v//////+v37/+D14f+3z8P/k6u8/5Ossf9FQjv/Q01Q/5Syrf+22ND/weLa/4qemv/a7OD/8fr2//n8+v/y+Pb/x9zT/5Wrrv+Tr6r/y+fk/5JrO/9eVEP/P0VI/2Jwcf9gbW7/gZKR/9706v/o9uz/2uzd/8vc1f+ttLX/orSv/8bd2/+93NX/lnRI/6F8R/9/bE//SUxP/0hMT/9yfX7/z+Pd/9Dl3f+50cv/pbmw/52mqP/HzdL/w97Y/8De2P+YfVb/oYNW/6iGVv+Pe1v/WFxf/2Nsbf/C2ND/xN7W/7nMz/+boLT/npu4/8DU0//Q5uP/xuHe/5qEZv+hiWT/potk/6qNYv+bh2n/aGps/6Oxrf/E2tT/x9vV/8rf3v+8zND/yuHd/9Ho5f/O5OP/ : 1 : 10 : 0 : 24;329;245;500
+DELAY : 100
+GOTO : delete sack repeat
+ENDIF
+DELAY : 100
+GOTO : start
+LABEL : delete sack repeat
+IF WINDOW EXISTS : GodsWar Online : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
+IF PIXEL COLOR EQUALS : 402 : 131 : 5029375 : 0
+Mouse : 419 : 131 : LeftButtonDown : 0 : 0 : 0
+Mouse : 419 : 131 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 2 : 200 : Move : 0 : 0 : 0
+DELAY : 10
+IF IMAGE : Qk1qCAAAAAAAADYAAAAoAAAAFQAAABkAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAKS40/0lWXv9lgY//X4OW/2OJnP9skqb/cpiq/3ebr/9slqr/WXqL/1h5iv8pOUH/ZImd/2CFmP9mip3/S2h2/yg4P/8MDhD/CwMd/x0AU/8YAEb/bIWS/2GClP9iiZz/aI+k/3uhs/+Fqbr/kLPF/32luf99pbn/cpyy/4Oqvv88T1n/TWp4/zpQW/9FX2z/NUlS/zZMV/8aGhz/CQYV/xYBQP8gAF3/c5Sl/3earP+Apbb/i62+/5S3yP+hw9P/rc7e/6nL2/+gw9X/oMPV/6jJ2f9LZ3X/O1Ba/0JXY/9JYnD/PFRg/z1WZP8vNjn/CgkM/xMCNP8pAHf/nLvK/6fH1/+jxNT/qcvb/6vK2v+62ej/u9ro/63O4P+nyt3/qM3g/6bK3f9MbHz/KT5I/zVKU/9ScID/PlRf/1Jxgf9IYm7/ExMT/wsCHv8pAHb/q8nY/63M2v+72ej/yOTy/8nm9P/I5/b/udrp/7PW5f+t0OH/pMrc/36txf9Xe4z/OE5a/zFHUP8+WGX/NUlS/1+Akv9afY7/MjIy/wYEDf8aAEr/sM7b/7jW5P/F4e//t9fm/63P4P+rz+H/t9nr/7ze8P/D5fX/xOT0/7bb7P+22en/VHOB/zNJU/82S1X/MERN/16Bkv9okaX/aXmB/wYIC/8TADb/wd7s/8Pk8/+12en/qc/i/6XK3f+u0OL/wODv/8/s+v/a9f7/4/v+/8vq+f+hyNr/YYib/zNGUP80Rk//SmVz/2eMof93pLn/c52y/w8TFv8QACz/rc7g/6TI2/+v1Of/vODy/9Lw/f/h+/7/4/v+/974/v/Q7Pr/tNbo/3yqwv9QbHr/QVVg/1h1gf99qb7/hLTM/4Oxyf92pbv/PlRf/xMYG/8KARz/udrp/7TV5v/F5PP/3Pj+/+b////f+v7/y+v6/6rR5v93o7r/Smp5/z5ZZv9mjqH/eqrC/3yrw/95qcH/f6/H/2qTp/8fLDL/Cg0Q/xIVF/8GAw3/1PH7/9n3/f/a9v//0e78/8vr+v+bx93/Zomb/1l6iv9mjKH/eKO6/2+cs/90orn/bJmw/2+cs/9tnLT/XIGU/2CElf9qkaT/XoKS/zdLVP8UFiL/1O78/9Xx/v+63e3/fqzF/1p9jv9jiJz/apOn/2SOo/9mj6T/bJas/3Ccsf9ynrX/eKW8/3qnwP+Gtcz/hLLH/5zG2v+q0eX/p8rb/1Nyg/8bJC3/pcze/2iTqf9giZ3/aZCk/22Wq/9okaf/a5Sq/2iPpf9tlav/cZyy/3aku/9tpLr/fq7F/4a1zv+Zxdz/k7/V/5S+1P+Otcr/ncHU/2qUqf8kMTf/cZ2y/3eov/9djKD/eKi//3upwP96p77/gK/G/2OKnv9RjaH/dKrB/32wx/97r8b/c6nA/4Cvxv+Escf/j7zQ/5W/0/+awtb/osjc/5q/0f8bIyf/mcLX/5jE2f9djp//QnKB/36rwv+MuM7/mcLX/19+i/8SZ3b/OIqf/4u6z/9+r8X/YKG2/3utw/+BsMb/jbnQ/5rD2P+v1ur/ocfb/6rJ2P8tP0n/rdDi/57E1/95qbz/GWBt/0Jgaf+dwtb/m8HT/3CLl/8PXmz/IIGU/3i1yP96ssX/PZKl/4a4zf+Jus//lsHY/5G90/+gyd3/n8bZ/7DR4P9lfIn/xub1/6vN3v9NgI3/F3mL/wtpev9YgIz/pcja/4Gcqv8NVmX/HH2O/zeYrf89mKz/QZWp/6LN4P+lzOD/mMHV/5C7z/+JtMj/mcHV/6vP4f+dtMD/LE5U/yVNVv8hXGf/I4CQ/w91hv8WWWb/eZOg/5OxwP8RUV3/F3mL/yyku/8u+/z/UdXW/6XL3P+pzt//oMfY/6DG2v+TvNH/nMPX/6LH2f+rytj/LGFq/xhvf/8nh5n/KbPO/yOJnP8VcoP/L0VL/4Gapv8XUFr/FniI/yurxP8/+vj/U7XD/7PU5f+z1OX/r9Hj/63R4/+ly97/pMrc/4Sgrv83Rkz/m5qe/zh5hf8jf4//N6zC/yfD4P8egZP/Jmh2/ztESf8jTlj/GXaI/yutxf9G/Pv/ZKe4/7va6/+52ur/vd7u/7HV5v+VtMP/QV1h/yF8fv8lop//mpei/7DI0v8xZG//JneG/zGsw/8mscr/IX6N/zlcY/8oSVD/IHmJ/yi7yP8/+/7/kcLR/7za6f+51+b/pcPQ/0x2fP8ijIz/Kayo/znJx/9M4uH/Yl17/9Hn8v+30+D/QXF6/yl3hP8sj5//LJ2w/ziAjf8zXmb/KXiG/zDY3P899/z/wuDu/63F0P9cdHr/MX+F/yu1tP863dr/Ve3t/37Z4P+evMr/Vkxz/9ft+P/U7Pj/xt/s/06JlP80fYr/NYKQ/0WVo/9PhpL/OYGN/zza3f9IytX/ZXd8/z9sdP9BhZH/R6m7/0/Q5/9v3/D/tdXj/6e9yf9yfoX/V0pz/6Swu//V7Pb/3vP8/9nw+f9sn6r/SYiT/0WIk/9Jj5z/RYuY/0iqu/9Wl6T/ToyX/1mntv9y2e3/lOLz/6fa6P+fu8X/c4aL/1WRlv9VnqT/bF+J/4WLkv+Ol5v/vM3U/9bq9P+Zqa//WYqT/1Kxwf9S3OH/cPDy/3X8/P9htb7/c7nH/5fb6/+v1+P/hJ6m/2eKkv9crbT/W7bA/2q0vP+Btb3/d2yQ/5Saof+2w8n/vcrQ/56nq/9zg4f/Zqez/2Kzwv9itLr/as/Q/3/n6f+S+/n/f7zH/3eSmP9ulp7/bqiz/2zAz/93y9v/lc3a/7HJ0/+1xc3/ : 1 : 0 : 0 : 757;576;251;161
+Mouse : 0 : -100 : LeftButtonDown : 0 : 1 : 0
+Mouse : 476 : 498 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 498 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 498 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 498 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : drop sack
+ENDIF
+IF IMAGE : Qk1qCAAAAAAAADYAAAAoAAAAFQAAABkAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAKS40/0lWXv9lgY//X4OW/2OJnP9skqb/cpiq/3ebr/9slqr/WXqL/1h5iv8pOUH/ZImd/2CFmP9mip3/S2h2/yg4P/8MDhD/CwMd/x0AU/8YAEb/bIWS/2GClP9iiZz/aI+k/3uhs/+Fqbr/kLPF/32luf99pbn/cpyy/4Oqvv88T1n/TWp4/zpQW/9FX2z/NUlS/zZMV/8aGhz/CQYV/xYBQP8gAF3/c5Sl/3earP+Apbb/i62+/5S3yP+hw9P/rc7e/6nL2/+gw9X/oMPV/6jJ2f9LZ3X/O1Ba/0JXY/9JYnD/PFRg/z1WZP8vNjn/CgkM/xMCNP8pAHf/nLvK/6fH1/+jxNT/qcvb/6vK2v+62ej/u9ro/63O4P+nyt3/qM3g/6bK3f9MbHz/KT5I/zVKU/9ScID/PlRf/1Jxgf9IYm7/ExMT/wsCHv8pAHb/q8nY/63M2v+72ej/yOTy/8nm9P/I5/b/udrp/7PW5f+t0OH/pMrc/36txf9Xe4z/OE5a/zFHUP8+WGX/NUlS/1+Akv9afY7/MjIy/wYEDf8aAEr/sM7b/7jW5P/F4e//t9fm/63P4P+rz+H/t9nr/7ze8P/D5fX/xOT0/7bb7P+22en/VHOB/zNJU/82S1X/MERN/16Bkv9okaX/aXmB/wYIC/8TADb/wd7s/8Pk8/+12en/qc/i/6XK3f+u0OL/wODv/8/s+v/a9f7/4/v+/8vq+f+hyNr/YYib/zNGUP80Rk//SmVz/2eMof93pLn/c52y/w8TFv8QACz/rc7g/6TI2/+v1Of/vODy/9Lw/f/h+/7/4/v+/974/v/Q7Pr/tNbo/3yqwv9QbHr/QVVg/1h1gf99qb7/hLTM/4Oxyf92pbv/PlRf/xMYG/8KARz/udrp/7TV5v/F5PP/3Pj+/+b////f+v7/y+v6/6rR5v93o7r/Smp5/z5ZZv9mjqH/eqrC/3yrw/95qcH/f6/H/2qTp/8fLDL/Cg0Q/xIVF/8GAw3/1PH7/9n3/f/a9v//0e78/8vr+v+bx93/Zomb/1l6iv9mjKH/eKO6/2+cs/90orn/bJmw/2+cs/9tnLT/XIGU/2CElf9qkaT/XoKS/zdLVP8UFiL/1O78/9Xx/v+63e3/fqzF/1p9jv9jiJz/apOn/2SOo/9mj6T/bJas/3Ccsf9ynrX/eKW8/3qnwP+Gtcz/hLLH/5zG2v+q0eX/p8rb/1Nyg/8bJC3/pcze/2iTqf9giZ3/aZCk/22Wq/9okaf/a5Sq/2iPpf9tlav/cZyy/3aku/9tpLr/fq7F/4a1zv+Zxdz/k7/V/5S+1P+Otcr/ncHU/2qUqf8kMTf/cZ2y/3eov/9djKD/eKi//3upwP96p77/gK/G/2OKnv9RjaH/dKrB/32wx/97r8b/c6nA/4Cvxv+Escf/j7zQ/5W/0/+awtb/osjc/5q/0f8bIyf/mcLX/5jE2f9djp//QnKB/36rwv+MuM7/mcLX/19+i/8SZ3b/OIqf/4u6z/9+r8X/YKG2/3utw/+BsMb/jbnQ/5rD2P+v1ur/ocfb/6rJ2P8tP0n/rdDi/57E1/95qbz/GWBt/0Jgaf+dwtb/m8HT/3CLl/8PXmz/IIGU/3i1yP96ssX/PZKl/4a4zf+Jus//lsHY/5G90/+gyd3/n8bZ/7DR4P9lfIn/xub1/6vN3v9NgI3/F3mL/wtpev9YgIz/pcja/4Gcqv8NVmX/HH2O/zeYrf89mKz/QZWp/6LN4P+lzOD/mMHV/5C7z/+JtMj/mcHV/6vP4f+dtMD/LE5U/yVNVv8hXGf/I4CQ/w91hv8WWWb/eZOg/5OxwP8RUV3/F3mL/yyku/8u+/z/UdXW/6XL3P+pzt//oMfY/6DG2v+TvNH/nMPX/6LH2f+rytj/LGFq/xhvf/8nh5n/KbPO/yOJnP8VcoP/L0VL/4Gapv8XUFr/FniI/yurxP8/+vj/U7XD/7PU5f+z1OX/r9Hj/63R4/+ly97/pMrc/4Sgrv83Rkz/m5qe/zh5hf8jf4//N6zC/yfD4P8egZP/Jmh2/ztESf8jTlj/GXaI/yutxf9G/Pv/ZKe4/7va6/+52ur/vd7u/7HV5v+VtMP/QV1h/yF8fv8lop//mpei/7DI0v8xZG//JneG/zGsw/8mscr/IX6N/zlcY/8oSVD/IHmJ/yi7yP8/+/7/kcLR/7za6f+51+b/pcPQ/0x2fP8ijIz/Kayo/znJx/9M4uH/Yl17/9Hn8v+30+D/QXF6/yl3hP8sj5//LJ2w/ziAjf8zXmb/KXiG/zDY3P899/z/wuDu/63F0P9cdHr/MX+F/yu1tP863dr/Ve3t/37Z4P+evMr/Vkxz/9ft+P/U7Pj/xt/s/06JlP80fYr/NYKQ/0WVo/9PhpL/OYGN/zza3f9IytX/ZXd8/z9sdP9BhZH/R6m7/0/Q5/9v3/D/tdXj/6e9yf9yfoX/V0pz/6Swu//V7Pb/3vP8/9nw+f9sn6r/SYiT/0WIk/9Jj5z/RYuY/0iqu/9Wl6T/ToyX/1mntv9y2e3/lOLz/6fa6P+fu8X/c4aL/1WRlv9VnqT/bF+J/4WLkv+Ol5v/vM3U/9bq9P+Zqa//WYqT/1Kxwf9S3OH/cPDy/3X8/P9htb7/c7nH/5fb6/+v1+P/hJ6m/2eKkv9crbT/W7bA/2q0vP+Btb3/d2yQ/5Saof+2w8n/vcrQ/56nq/9zg4f/Zqez/2Kzwv9itLr/as/Q/3/n6f+S+/n/f7zH/3eSmP9ulp7/bqiz/2zAz/93y9v/lc3a/7HJ0/+1xc3/ : 1 : 0 : 0 : 24;329;245;500
+Mouse : 0 : -100 : LeftButtonDown : 0 : 1 : 0
+Mouse : 476 : 498 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 498 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+Mouse : 476 : 498 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 498 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : drop sack
+ENDIF
+IF IMAGE : Qk0uAgAAAAAAADYAAAAoAAAADgAAAAkAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAzPXy/4+ysP9ujIX/dZKM/3eXmf83V73/SWvT/3+jw/+axM7/uNnk/7bY3v++1dL/iKa8/0Jaqf+mzsv/eZWP/3CPhf+Eo5n/jKmf/36joP9DZL7/IkLh/ydQ6f9pjdv/qKjj/4WotP+EorP/SmnH/3ublf+lysT/td7W/527rv+auqP/mb2k/4yypf9RccD/LVHa/x9I5/9DaN//aIrO/2WHx/8vU9f/rNbP/73o4f/J7+j/zfHo/8no2//H4tD/vdzH/7HSyf+gx8n/oKji/1l82v8oUOj/H0vp/ztd2/+039v/wOrl/8Pq4f/P8Ob/0fDj/+P56//n+uz/6vvv/+L17v+02dL/kbXI/zVW4/8xUuL/rcnP/7Ta1f/G7OX/yu7m/8rq3v/f+On/6fnw//b9+f/2//z/6/rw/8Pe0v+busf/VGzL/5u0xf/Q8O3/stfR/8fr5P/M7uX/zOvg/9Ps2f/x+/b///////r9+//g9eH/t8/D/5OrvP+TrLH/x+Hb/7PZ1v+Usq3/ttjQ/8Hi2v+Knpr/2uzg//H69v/5/Pr/8vj2/8fc0/+Vq67/k6+q/8vn5P+42tX/rtbR/z9FSP9icHH/YG1u/4GSkf/e9Or/6Pbs/9rs3f/L3NX/rbS1/6K0r//G3dv/vdzV/7nc1v+tz8z/ : 1 : 20 : 0 : 757;576;251;161
+Mouse : 0 : -100 : LeftButtonDown : 0 : 1 : 0
+Mouse : 476 : 498 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 498 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 498 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 498 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : drop sack
+ENDIF
+IF IMAGE : Qk3uAwAAAAAAADYAAAAoAAAAEQAAAA4AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAj7Kw/26Mhf91koz/d5eZ/zdXvf9Ja9P/f6PD/5rEzv+42eT/ttje/77V0v+Iprz/Qlqp/xAw3/8dPeL/LUrY/zBHzP95lY//cI+F/4Sjmf+MqZ//fqOg/0Nkvv8iQuH/J1Dp/2mN2/+oqOP/hai0/4Sis/9Kacf/GTvg/0Bcw/9piKP/ep+n/6XKxP+13tb/nbuu/5q6o/+ZvaT/jLKl/1FxwP8tUdr/H0jn/0No3/9ois7/ZYfH/y9T1/9HZcb/r9ba/8Do5v+QvLv/vejh/8nv6P/N8ej/yejb/8fi0P+93Mf/sdLJ/6DHyf+gqOL/WXza/yhQ6P8fS+n/O13b/77k5//P8u//msPA/5Kyr//A6uX/w+rh/8/w5v/R8OP/4/nr/+f67P/q++//4vXu/7TZ0v+Rtcj/NVbj/zFS4v+tyc//1O/t/63Qzf+avrz/faOm/8bs5f/K7ub/yure/9/46f/p+fD/9v35//b//P/r+vD/w97S/5u6x/9UbMv/m7TF/9Dw7f+t1dP/lr29/3aYm/9PYLb/x+vk/8zu5f/M6+D/0+zZ//H79v//////+v37/+D14f+3z8P/k6u8/5Ossf/H4dv/s9nW/6PLyv92mJb/Z32v/ztKuv+22ND/weLa/4qemv/a7OD/8fr2//n8+v/y+Pb/x9zT/5Wrrv+Tr6r/y+fk/7ja1f+u1tH/lLW0/3yXof9UYbr/R1Kd/2Jwcf9gbW7/gZKR/9706v/o9uz/2uzd/8vc1f+ttLX/orSv/8bd2/+93NX/udzW/63PzP+NqKv/d4mW/19piP9aYof/SUxP/0hMT/9yfX7/z+Pd/9Dl3f+50cv/pbmw/52mqP/HzdL/w97Y/8De2P+32dX/qMfH/5i0tv+Snq3/jp6v/4ydrv+Pe1v/WFxf/2Nsbf/C2ND/xN7W/7nMz/+boLT/npu4/8DU0//Q5uP/xuHe/7nV0/+yzs7/rcnK/6G7vf+gu7z/nrq6/6qNYv+bh2n/aGps/6Oxrf/E2tT/x9vV/8rf3v+8zND/yuHd/9Ho5f/O5OP/zOLh/8Pb2v+0z8//ss3M/7HNzP+uycr/p5Fx/5yKcv+AfXb/hYyN/77QzP/G2db/yN7a/8vi3//L4d7/x97c/8fd3f/O4+L/yuDe/8zg3//O5OL/vdXU/7jNzf+qmH//qZh9/5mOfv+GiIf/nKal/8HT0P/J3tv/zOLh/8fd3P/O4d//0uXj/9Lm5f/W6Of/0+Xk/8XV0/+qtbP/mZ+c/w== : 1 : 20 : 0 : 24;329;245;500
+Mouse : 0 : -100 : LeftButtonDown : 0 : 1 : 0
+Mouse : 476 : 498 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 498 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+Mouse : 476 : 498 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 498 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : drop sack
+ENDIF
+IF IMAGE : Qk1SAgAAAAAAADYAAAAoAAAADwAAAAkAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAGDR7/xg0e/8hXYT/OX6f/zl+n/85fp//OYGq/2u21v9rttb/OYGq/0SXuP9El7j/T6HD/0+hw/9KlrX/GDR7/xg0e/85fp//OX6f/zl+n/85fp//a7bW/2u21v85gar/OYGq/zmOrf9El7j/RJe4/0+hw/9rstb/LnKc/yNQjP8hXYT/OX6f/zl+n/9rx9b/a7bW/zmBqv8haZT/OYGq/0SXuP9El7j/RJe4/1qqzv9rstb/N4il/yF5lP8xfZz/MX2c/2u2zv9rts7/OZK1/zmStf8uaIT/LmiE/0+du/9Eiqf/T527/1quzv9rutb/N4il/zeIpf8xfZz/WKS9/2u2zv9Ej63/OZK1/zR/nP8uaIT/KVVr/0SKp/9Eiqf/RIqn/0+du/9lsc7/Y6rG/2Oqxv9YpL3/a7bO/zF9nP8xfZz/OZK1/zR/nP8pVWv/LmiE/zl5lP85eZT/RIqn/0+du/9gp8b/Y6rG/2Oqxv9rts7/a7bO/2u2zv9YpL3/NH+c/zmStf8uaIT/LmiE/zl5lP85eZT/T527/0+du/9gp8b/OYKc/zmCnP9EirD/T527/1quxv9arsb/WKXD/02XuP9Ciq3/Qoqt/1KSrf9Skq3/Wpq1/2Oivf9jor3/Spu9/0KNrf9EirD/RIqw/0SKsP9Pnbv/Y7LO/2Oyzv9YpcP/TZe4/1qatf9amrX/Wpq1/1KSrf9YlLL/ : 1 : 10 : 0 : 757;576;251;161
+Mouse : 0 : -100 : LeftButtonDown : 0 : 1 : 0
+Mouse : 476 : 498 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 498 : LeftButtonUp : 0 : 0 : 0
+Mouse : 476 : 498 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 498 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : drop sack
+ENDIF
+IF IMAGE : Qk0GAwAAAAAAADYAAAAoAAAADwAAAAwAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAPJCy/zyQsv9Klrj/Spa4/1qqy/9rut7/e8fn/3vH5/9apdH/SpbG/1Km0f9jtt7/Y7be/2O23v9Kos7/PJCy/ymCpf85hqX/Spa4/1qqy/9aqsv/a7jc/2u43P9apdH/SpbG/1Km0f9SptH/Y7be/1Km0f9Kos7/OY6t/y5ynP8hXYT/OX6f/zl+n/85fp//Up7A/2u21v9rttb/a7bW/0+hw/9aqs7/WqrO/0+hw/9Vn8D/GDR7/xg0e/8hXYT/OX6f/zl+n/85fp//OYGq/2u21v9rttb/OYGq/0SXuP9El7j/T6HD/0+hw/9KlrX/GDR7/xg0e/85fp//OX6f/zl+n/85fp//a7bW/2u21v85gar/OYGq/zmOrf9El7j/RJe4/0+hw/9rstb/LnKc/yNQjP8hXYT/OX6f/zl+n/9rx9b/a7bW/zmBqv8haZT/OYGq/0SXuP9El7j/RJe4/1qqzv9rstb/N4il/yF5lP8xfZz/MX2c/2u2zv9rts7/OZK1/zmStf8uaIT/LmiE/0+du/9Eiqf/T527/1quzv9rutb/N4il/zeIpf8xfZz/WKS9/2u2zv9Ej63/OZK1/zR/nP8uaIT/KVVr/0SKp/9Eiqf/RIqn/0+du/9lsc7/Y6rG/2Oqxv9YpL3/a7bO/zF9nP8xfZz/OZK1/zR/nP8pVWv/LmiE/zl5lP85eZT/RIqn/0+du/9gp8b/Y6rG/2Oqxv9rts7/a7bO/2u2zv9YpL3/NH+c/zmStf8uaIT/LmiE/zl5lP85eZT/T527/0+du/9gp8b/OYKc/zmCnP9EirD/T527/1quxv9arsb/WKXD/02XuP9Ciq3/Qoqt/1KSrf9Skq3/Wpq1/2Oivf9jor3/Spu9/0KNrf9EirD/RIqw/0SKsP9Pnbv/Y7LO/2Oyzv9YpcP/TZe4/1qatf9amrX/Wpq1/1KSrf9YlLL/ : 1 : 10 : 0 : 24;329;245;500
+Mouse : 0 : -100 : LeftButtonDown : 0 : 1 : 0
+Mouse : 476 : 498 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 476 : 498 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+Mouse : 476 : 498 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 498 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : drop sack
+ENDIF
+IF PIXEL COLOR EQUALS : 1 : 1 : 15120644 : 0
+DELAY : 100
+GOTO : ring
+ENDIF
+DELAY : 100
+GOTO : ?1
+LABEL : drop sack
+Mouse : 2 : 200 : Move : 0 : 0 : 0
+IF PIXEL COLOR EQUALS : 477 : 498 : 16645629 : 0
+Mouse : 476 : 498 : LeftButtonDown : 0 : 0 : 0
+Mouse : 476 : 498 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 2 : 200 : Move : 0 : 0 : 0
+DELAY : 100
+GOTO : delete sack repeat
+LABEL : ?1
+IF PIXEL COLOR EQUALS : 0 : 1 : 15120645 : 0
+DELAY : 100
+GOTO : end
+ENDIF
+LABEL : check full bag
+LABEL : start
+Mouse : 1 : 800 : Move : 0 : 0 : 0
+Mouse : 1 : 800 : Wheel : 100 : 0 : 0
+IF PIXEL COLOR EQUALS : 798 : 807 : 10057258 : 0
+Mouse : 790 : 810 : LeftButtonDown : 0 : 0 : 0
+Mouse : 790 : 810 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+ENDIF
+LABEL : 0.0
+IF PIXEL COLOR EQUALS : 477 : 498 : 16645629 : 0
+Mouse : 555 : 498 : LeftButtonDown : 0 : 0 : 0
+Mouse : 555 : 498 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 843 : 802 : 10779936 : 0
+Mouse : 843 : 802 : LeftButtonDown : 0 : 0 : 0
+Mouse : 843 : 802 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+ENDIF
+IF PIXEL COLOR EQUALS : 74 : 187 : 13684922 : 1
+DELAY : 100
+GOTO : 0.0
+ENDIF
+DELAY : 10
+LABEL : startstallx
+IF PIXEL COLOR EQUALS : 477 : 498 : 16645629 : 0
+Mouse : 555 : 498 : LeftButtonDown : 0 : 0 : 0
+Mouse : 555 : 498 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 370 : 553 : Move : 0 : 0 : 0
+IF PIXEL COLOR EQUALS : 294 : 543 : 7840974 : 0
+Mouse : 370 : 553 : LeftButtonDown : 0 : 0 : 0
+Mouse : 370 : 553 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : startstallx
+ENDIF
+LABEL : 0.1
+Mouse : 419 : 131 : Move : 0 : 0 : 0
+IF PIXEL COLOR EQUALS : 395 : 548 : 16580093 : 0
+Mouse : 419 : 131 : LeftButtonDown : 0 : 0 : 0
+Mouse : 419 : 131 : LeftButtonUp : 0 : 0 : 0
+ELSE
+DELAY : 100
+GOTO : 0.1
+ENDIF
+IF PIXEL COLOR EQUALS : 605 : 216 : 3670001 : 0
+Mouse : 605 : 216 : LeftButtonDown : 0 : 0 : 0
+Mouse : 605 : 216 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 515 : 180 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 515 : 180 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 180 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+LABEL : claim1
+REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF PIXEL COLOR EQUALS : 428 : 597 : 2830130 : 0
+Mouse : 615 : 270 : LeftButtonDown : 0 : 0 : 0
+Mouse : 615 : 270 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 970 : 330 : 1576710 : 0
+Mouse : 955 : 339 : LeftButtonDown : 0 : 0 : 0
+Mouse : 955 : 339 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 477 : 498 : 16645629 : 0
+Mouse : 555 : 498 : LeftButtonDown : 0 : 0 : 0
+Mouse : 555 : 498 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 96 : 372 : LeftButtonDown : 0 : 0 : 0
+Mouse : 96 : 372 : LeftButtonUp : 0 : 0 : 0
+IF WINDOW EXISTS : GodsWar Online : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
+DELAY : 1
+IF PIXEL COLOR EQUALS : 402 : 131 : 5029375 : 0
+Mouse : 402 : 131 : LeftButtonDown : 0 : 0 : 0
+DELAY : 50
+Mouse : 402 : 131 : LeftButtonUp : 0 : 0 : 0
+Mouse : C0 : C-50 : Move : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 491 : 291 : 16776960 : 0
+Mouse : 414 : 289 : LeftButtonDown : 0 : 0 : 0
+Mouse : 414 : 289 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 853 : 445 : LeftButtonDown : 0 : 0 : 0
+Mouse : 853 : 445 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+DELAY : 100
+GOTO : right
+ENDIF
+ENDREPEAT
+Mouse : 515 : 180 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 515 : 180 : LeftButtonDown : 0 : 0 : 0
+Mouse : 515 : 180 : LeftButtonUp : 0 : 0 : 0
+GOTO : claim1
+LABEL : batch 1
+IF PIXEL COLOR EQUALS : 402 : 131 : 5029375 : 0
+Mouse : 402 : 131 : LeftButtonDown : 0 : 0 : 0
+DELAY : 55
+Mouse : 402 : 131 : LeftButtonUp : 0 : 0 : 0
+DELAY : 55
+ENDIF
+Mouse : 350 : 280 : Move : 0 : 0 : 0
+DELAY : 55
+Mouse : 350 : 280 : LeftButtonDown : 0 : 0 : 0
+Mouse : 350 : 280 : LeftButtonUp : 0 : 0 : 0
+DELAY : 55
+REPEAT : 50 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF WINDOW EXISTS : GodsWar Online : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
+DELAY : 100
+DELAY : 100
+IF PIXEL COLOR EQUALS : 96 : 336 : 16776960 : 0
+DELAY : 10
+Mouse : 96 : 336 : LeftButtonDown : 0 : 0 : 0
+DELAY : 55
+Mouse : 96 : 336 : LeftButtonUp : 0 : 0 : 0
+Mouse : C0 : C-10 : Move : 0 : 0 : 0
+DELAY : 100
+GOTO : counted
+ENDIF
+ENDREPEAT
+DELAY : 100
+GOTO : batch 1
+LABEL : counted
+IF PIXEL COLOR EQUALS : 118 : 803 : 3552822 : 0
+DELAY : 100
+GOTO : right
+ENDIF
+IF IMAGE : Qk0yAQAAAAAAADYAAAAoAAAABwAAAAkAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAOzs7/z09Pf84ODj/ODg4/0BAQP8/Pz//Ojo6/0JCQv89PT3/ODg4/zg4OP9BQUH/R0dH/0NDQ/8/Pz//Pz8//zg4OP84ODj/QEBA/0BAQP9AQED/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP88PDz/PDw8/zg4OP84ODj/PT09/z09Pf88PDz/PDw8/z09Pf84ODj/ODg4/z8/P/87Ozv/Ozs7/zs7O/89PT3/ODg4/zg4OP9AQED/Pz8//zs7O/86Ojr/PDw8/zg4OP84ODj/QEBA/z4+Pv86Ojr/ : 0 : 0 : 0 : 768;583;229;145
+DELAY : 100
+GOTO : right
+ENDIF
+DELAY : 100
+GOTO : close
+LABEL : right
+Mouse : 350 : 280 : Move : 0 : 0 : 0
+DELAY : 55
+Mouse : 350 : 280 : LeftButtonDown : 0 : 0 : 0
+Mouse : 350 : 280 : LeftButtonUp : 0 : 0 : 0
+REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF PIXEL COLOR EQUALS : 428 : 597 : 2830130 : 0
+Mouse : 615 : 270 : LeftButtonDown : 0 : 0 : 0
+Mouse : 615 : 270 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 96 : 336 : LeftButtonDown : 0 : 0 : 0
+Mouse : 96 : 336 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+IF PIXEL COLOR EQUALS : 76 : 803 : 3552822 : 1
+GOTO : close
+ENDIF
+IF WINDOW EXISTS : GodsWar Online : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
+IF PIXEL COLOR EQUALS : 402 : 131 : 5029375 : 0
+Mouse : 402 : 131 : LeftButtonDown : 0 : 0 : 0
+Mouse : 402 : 131 : LeftButtonUp : 0 : 0 : 0
+DELAY : 55
+ENDIF
+IF PIXEL COLOR EQUALS : 451 : 324 : 3684408 : 0
+LABEL : right 1
+Mouse : 350 : 280 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 350 : 280 : LeftButtonDown : 0 : 0 : 0
+Mouse : 350 : 280 : LeftButtonUp : 0 : 0 : 0
+Mouse : 251 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 807 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 807 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 807 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 807 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 807 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 807 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 807 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 765 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 765 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 765 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 765 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 765 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 765 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 765 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 723 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 723 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 723 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 723 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 723 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 723 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 723 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 681 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 681 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 681 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 681 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 681 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 681 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 681 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 639 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 639 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 639 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 639 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 639 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 639 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 639 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 597 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 597 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 597 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 597 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 597 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 597 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 597 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 555 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 555 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 555 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 555 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 555 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 555 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 555 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 513 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 513 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 513 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 513 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 513 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 513 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 513 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 471 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 471 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 471 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 471 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 471 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 471 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 471 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 429 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 429 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 429 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 429 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 429 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 429 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 429 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 387 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 387 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 387 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 387 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 387 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 387 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 387 : RightButtonUp : 0 : 0 : 0
+Mouse : 251 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 251 : 345 : RightButtonUp : 0 : 0 : 0
+Mouse : 209 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 209 : 345 : RightButtonUp : 0 : 0 : 0
+Mouse : 167 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 167 : 345 : RightButtonUp : 0 : 0 : 0
+Mouse : 125 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 125 : 345 : RightButtonUp : 0 : 0 : 0
+Mouse : 83 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 83 : 345 : RightButtonUp : 0 : 0 : 0
+Mouse : 41 : 345 : RightButtonDown : 0 : 0 : 0
+Mouse : 41 : 345 : RightButtonUp : 0 : 0 : 0
+Mouse : 984 : 716 : RightButtonDown : 0 : 0 : 0
+Mouse : 984 : 716 : RightButtonUp : 0 : 0 : 0
+Mouse : 942 : 716 : RightButtonDown : 0 : 0 : 0
+Mouse : 942 : 716 : RightButtonUp : 0 : 0 : 0
+Mouse : 900 : 716 : RightButtonDown : 0 : 0 : 0
+Mouse : 900 : 716 : RightButtonUp : 0 : 0 : 0
+Mouse : 858 : 716 : RightButtonDown : 0 : 0 : 0
+Mouse : 858 : 716 : RightButtonUp : 0 : 0 : 0
+Mouse : 816 : 716 : RightButtonDown : 0 : 0 : 0
+Mouse : 816 : 716 : RightButtonUp : 0 : 0 : 0
+Mouse : 774 : 716 : RightButtonDown : 0 : 0 : 0
+Mouse : 774 : 716 : RightButtonUp : 0 : 0 : 0
+Mouse : 984 : 674 : RightButtonDown : 0 : 0 : 0
+Mouse : 984 : 674 : RightButtonUp : 0 : 0 : 0
+Mouse : 942 : 674 : RightButtonDown : 0 : 0 : 0
+Mouse : 942 : 674 : RightButtonUp : 0 : 0 : 0
+Mouse : 900 : 674 : RightButtonDown : 0 : 0 : 0
+Mouse : 900 : 674 : RightButtonUp : 0 : 0 : 0
+Mouse : 858 : 674 : RightButtonDown : 0 : 0 : 0
+Mouse : 858 : 674 : RightButtonUp : 0 : 0 : 0
+Mouse : 816 : 674 : RightButtonDown : 0 : 0 : 0
+Mouse : 816 : 674 : RightButtonUp : 0 : 0 : 0
+Mouse : 774 : 674 : RightButtonDown : 0 : 0 : 0
+Mouse : 774 : 674 : RightButtonUp : 0 : 0 : 0
+Mouse : 984 : 632 : RightButtonDown : 0 : 0 : 0
+Mouse : 984 : 632 : RightButtonUp : 0 : 0 : 0
+Mouse : 942 : 632 : RightButtonDown : 0 : 0 : 0
+Mouse : 942 : 632 : RightButtonUp : 0 : 0 : 0
+Mouse : 900 : 632 : RightButtonDown : 0 : 0 : 0
+Mouse : 900 : 632 : RightButtonUp : 0 : 0 : 0
+Mouse : 858 : 632 : RightButtonDown : 0 : 0 : 0
+Mouse : 858 : 632 : RightButtonUp : 0 : 0 : 0
+Mouse : 816 : 632 : RightButtonDown : 0 : 0 : 0
+Mouse : 816 : 632 : RightButtonUp : 0 : 0 : 0
+Mouse : 774 : 632 : RightButtonDown : 0 : 0 : 0
+Mouse : 774 : 632 : RightButtonUp : 0 : 0 : 0
+Mouse : 984 : 590 : RightButtonDown : 0 : 0 : 0
+Mouse : 984 : 590 : RightButtonUp : 0 : 0 : 0
+Mouse : 942 : 590 : RightButtonDown : 0 : 0 : 0
+Mouse : 942 : 590 : RightButtonUp : 0 : 0 : 0
+Mouse : 900 : 590 : RightButtonDown : 0 : 0 : 0
+Mouse : 900 : 590 : RightButtonUp : 0 : 0 : 0
+Mouse : 858 : 590 : RightButtonDown : 0 : 0 : 0
+Mouse : 858 : 590 : RightButtonUp : 0 : 0 : 0
+Mouse : 816 : 590 : RightButtonDown : 0 : 0 : 0
+Mouse : 816 : 590 : RightButtonUp : 0 : 0 : 0
+Mouse : 774 : 590 : RightButtonDown : 0 : 0 : 0
+Mouse : 774 : 590 : RightButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : blank 1
+ENDIF
+ENDREPEAT
+GOTO : right
+LABEL : blank 1
+Mouse : 350 : 280 : Move : 0 : 0 : 0
+DELAY : 55
+Mouse : 350 : 280 : LeftButtonDown : 0 : 0 : 0
+Mouse : 350 : 280 : LeftButtonUp : 0 : 0 : 0
+REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
+IF PIXEL COLOR EQUALS : 428 : 597 : 2830130 : 0
+Mouse : 615 : 270 : LeftButtonDown : 0 : 0 : 0
+Mouse : 615 : 270 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF IMAGE : Qk0CAQAAAAAAADYAAAAoAAAAEQAAAAMAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAnGlV/5xpVf+caVX/rYNy//39/f9wSzn/Wiw5/1osOf9VPiP/a1Up/4VyTv/8/Pz/AAAA/7K6uv8AAAD/FhcY/w4QEf+caVX/vYJr/612YP+tg3L//f39/2U6Of9aLDn/Wiw5/1U+I/9rVSn/cl9J//z8/P8AAAD/vcTE/wAAAP8NDg//FhkZ/612YP+9gmz/wJaF/6B5af/9/f3/Wiw5/1osOf9lOjn/bFYq/459W/9ONkD//Pz8/wAAAP/Izs7/AAAA/xMWFv8dLDD/ : 0 : 0 : 0 : 704;816;19;5
+GOTO : close
+ENDIF
+IF WINDOW EXISTS : GodsWar Online : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF WINDOW EXISTS : Prompt : 0
+CLOSE WINDOW : Prompt : 0
+GOTO : open gw
+ENDIF
+Mouse : 96 : 334 : LeftButtonDown : 0 : 0 : 0
+Mouse : 96 : 334 : LeftButtonUp : 0 : 0 : 0
+DELAY : 1
+IF PIXEL COLOR EQUALS : 402 : 131 : 5029375 : 0
+Mouse : 402 : 131 : LeftButtonDown : 0 : 0 : 0
+DELAY : 55
+Mouse : 402 : 131 : LeftButtonUp : 0 : 0 : 0
+DELAY : 55
+ENDIF
+IF PIXEL COLOR EQUALS : 451 : 324 : 3684408 : 0
+Mouse : 515 : 180 : Move : 0 : 0 : 0
+DELAY : 100
+Mouse : 515 : 180 : Click : 0 : 0 : 0
+GOTO : claim1
+ENDIF
+IF PIXEL COLOR EQUALS : 451 : 324 : 924195 : 0
+Mouse : 515 : 180 : Move : 0 : 0 : 0
+DELAY : 100
+Mouse : 515 : 180 : Click : 0 : 0 : 0
+GOTO : claim1
+ENDIF
+ENDREPEAT
+GOTO : blank 1
+LABEL : close
+Mouse : 1014 : 71 : Move : 0 : 0 : 0
+DELAY : 100
+Mouse : 1014 : 71 : LeftButtonDown : 0 : 0 : 0
+Mouse : 1014 : 71 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 480 : 510 : LeftButtonDown : 0 : 0 : 0
+Mouse : 480 : 510 : LeftButtonUp : 0 : 0 : 0
+LABEL : open gw
+IF WINDOW IN FOCUS : GodsWar Online [USA] - : 0
+GOTO : open gw
+ENDIF
+DELAY : 10000
+Keyboard : LWindows : KeyDown
+Keyboard : ShiftLeft : KeyDown
+DELAY : 50
+Keyboard : D1 : KeyDown
+DELAY : 50
+Keyboard : D1 : KeyUp
+DELAY : 50
+Keyboard : ShiftLeft : KeyUp
+Keyboard : LWindows : KeyUp
+DELAY : 10000
+LABEL : account
+IF PIXEL COLOR EQUALS : 512 : 568 : 263946 : 0
+GOTO : acc
+ENDIF
+GOTO : account
+LABEL : enter
+IF WINDOW EXISTS : GodsWar Online : 0
+ELSE
+GOTO : open gw
+ENDIF
+IF PIXEL COLOR EQUALS : 586 : 430 : 16185079 : 0
+Mouse : 512 : 498 : LeftButtonDown : 0 : 0 : 0
+Mouse : 512 : 498 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 582 : 444 : 4674398 : 0
+Mouse : 512 : 498 : LeftButtonDown : 0 : 0 : 0
+Mouse : 512 : 498 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 573 : 422 : 16448251 : 0
+Mouse : 512 : 498 : LeftButtonDown : 0 : 0 : 0
+Mouse : 512 : 498 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 527 : 460 : 15790576 : 0
+Mouse : 475 : 500 : LeftButtonDown : 0 : 0 : 0
+Mouse : 475 : 500 : LeftButtonUp : 0 : 0 : 0
+DELAY : 333
+ENDIF
+IF PIXEL COLOR EQUALS : 427 : 424 : 10067871 : 0
+Mouse : 475 : 500 : LeftButtonDown : 0 : 0 : 0
+Mouse : 475 : 500 : LeftButtonUp : 0 : 0 : 0
+DELAY : 333
+ENDIF
+IF PIXEL COLOR EQUALS : 697 : 714 : 15778560 : 0
+DELAY : 1000
+Mouse : 290 : 720 : LeftButtonDown : 0 : 0 : 0
+Mouse : 290 : 720 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+Mouse : 290 : 720 : LeftButtonDown : 0 : 0 : 0
+Mouse : 290 : 720 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 560 : 425 : 6188146 : 0
+Mouse : 475 : 500 : LeftButtonDown : 0 : 0 : 0
+Mouse : 475 : 500 : LeftButtonUp : 0 : 0 : 0
+DELAY : 333
+ENDIF
+IF PIXEL COLOR EQUALS : 497 : 477 : 13487565 : 0
+INCREMENT CLIPBOARD : 1
+Mouse : 510 : 565 : LeftButtonDown : 0 : 0 : 0
+Mouse : 510 : 565 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 469 : 424 : 16777215 : 0
+Mouse : 510 : 500 : LeftButtonDown : 0 : 0 : 0
+Mouse : 510 : 500 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 566 : 448 : 7173481 : 0
+DELAY : 100
+GOTO : acc
+ENDIF
+IF PIXEL COLOR EQUALS : 739 : 714 : 15778560 : 0
+Mouse : 698 : 715 : LeftButtonDown : 0 : 0 : 0
+Mouse : 698 : 715 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+IF PIXEL COLOR EQUALS : 16 : 287 : 80476 : 0
+DELAY : 100
+Mouse : 510 : 665 : LeftButtonDown : 0 : 0 : 0
+Mouse : 510 : 665 : LeftButtonUp : 0 : 0 : 0
+ELSE
+DELAY : 100
+GOTO : enter
+ENDIF
+DELAY : 100
+GOTO : start script
+LABEL : ring
+IF IMAGE : Qk2aAwAAAAAAADYAAAAoAAAAHwAAAAcAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA/v////S+0P/7ikn////i//vt///0i0r/9IpJ//uLSv///+L/+eH0//SKSf/8vkr////0//nh9P/0ikn/9ItK//3SSf//////9NLi//SLSv//7bj//Pj///SKm//0i0r//+24//7////0vtD/9ItK//SKSf/8vkr////0//WLSv/1jEr/+otK///40P/8+P//9Yyc//WLSv/7i0r////i//ri9P/1i0r/9YtK///tuf///////////////////////f////WLuf/1i0r//+25//z4///1i5z//dNK///////10+L/9YtK//WLSv/1i0r//L9K////9P/1i0r//tNK////////////+uH0//aMSv/1i0r//IxK////4v/64vT/9YtK//aMSv/900r//v////W+0P/8jEr////i//zt///1i0r/9oxK///tuf//////////////////////+uL0//WLSv/2jEr/9YtK//2/Sv////T///jQ///////9+P//9oyc//aMSv/3jEv/9oxK//yMS////+L/++L0//aMSv/2jEv//IxK////4v/87f///tNL//7////3v9D/9oxK//aMS///7bn//fj///aMnP/2jEv//tNK///////20+L/9oxL//aMSv/9v0v////0///////30+L/9oxK//eMSv/2jEr/94xL//aMSv/8jEr////i//vi9P/2jEr/94xK//aMSv//7bn//v/////t4v/9+P//94yc//aMSv/3jEr//+25//34///2jJz/94xK//yMSv///+L/+uL0//eMSv/2jEr//b9L////9P////T/+NTi//2/S/////T/++L0//iNS//3jEv//I1L////4v/74vT/94xL//iNS//3jEr//cBL////9P//////++L0//iNS//3jEv/+I1L///tuf/9+P//94yc//iNS//9v0r////0//fT4v/4jUv/94xK//3AS/////T//+25/////////////fj///iMnP/+1Ev////////////////////////////9+P//+Iyc//uNS///+ND///////i/0P/4jUv/+I1L//iNS///7bn///////////////////////zt///4jUv//+Kc/////////////////w== : 1 : 20 : 0 : 
+Mouse : 0 : -100 : Click : 0 : 1 : 0
+ENDIF
+LABEL : end
+Mouse : 100 : -100 : LeftButtonUp : 0 : 0 : 0

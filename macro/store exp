@@ -1,0 +1,21 @@
+LABEL : a
+IF PIXEL COLOR EQUALS : 452 : 287 : 4013373 : 0
+GOTO : c
+ENDIF
+GOTO : a
+LABEL : b
+IF PIXEL FOUND : 16777215 : 0 : 1 : 342 : 476 : 356 : 503
+Mouse : 850 : 450 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 850 : 450 : Click : 0 : 0 : 0
+DELAY : 200
+GOTO : a
+ENDIF
+GOTO : b
+LABEL : c
+IF PIXEL COLOR EQUALS : 452 : 287 : 4013373 : 1
+Mouse : 445 : 350 : Move : 0 : 0 : 0
+Mouse : 445 : 350 : Click : 0 : 0 : 0
+GOTO : b
+ENDIF
+GOTO : c

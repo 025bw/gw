@@ -19,12 +19,13 @@ CLOSE WINDOW : Prompt : 0
 IF WINDOW EXISTS : GodsWar Online [USA] : 0
 ELSE
 OPEN FILE : C:\gw\kill gw.exe :  : 1
-DELAY : 1000
+DELAY : 10000
 Keyboard : LWindows : KeyDown
 Keyboard : ShiftLeft : KeyDown
 Keyboard : D1 : KeyPress
 Keyboard : ShiftLeft : KeyUp
 Keyboard : LWindows : KeyUp
+DELAY : 15000
 GOTO : log
 ENDIF
 IF PIXEL COLOR EQUALS : 465 : 922 : 3157617 : 0
@@ -64,6 +65,7 @@ IF PIXEL COLOR EQUALS : 1055 : 190 : 13947080 : 1
 GOTO : gb
 ENDIF
 LABEL : gb2
+MOVE WINDOW : JaGPH GW GearBox : 0 : 0 : 1026 : 30 : 240 : 462
 IF WINDOW EXISTS : JaGPH GW GearBox: Box.exe - Application Error : 0
 CLOSE WINDOW : JaGPH GW GearBox: Box.exe - Application Error : 0
 OPEN FILE : C:\gw\Box.exe :  : 1
