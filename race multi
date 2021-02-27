@@ -39,7 +39,7 @@ Keyboard : LWindows : KeyUp
 DELAY : 10000
 GOTO : log
 ENDIF
-IF PIXEL COLOR EQUALS : 465 : 922 : 3157617 : 0
+IF PIXEL COLOR EQUALS : 465 : 922 : 3552903 : 0
 OPEN FILE : C:\gw\login\race list.exe :  : 0
 OPEN FILE : C:\gw\kill gw.exe :  : 1
 DELAY : 2000
@@ -50,7 +50,7 @@ Keyboard : ShiftLeft : KeyUp
 Keyboard : LWindows : KeyUp
 GOTO : log
 ENDIF
-IF PIXEL COLOR EQUALS : 117 : 860 : 3157617 : 0
+IF PIXEL COLOR EQUALS : 117 : 860 : 3355519 : 0
 GOTO : check
 ENDIF
 IF PIXEL COLOR EQUALS : 955 : 339 : 9093887 : 0
@@ -78,18 +78,18 @@ ENDIF
 OPEN FILE : C:\gw\kill gw.exe :  : 1
 GOTO : start
 LABEL : gb
-MOVE WINDOW : JaGPH GW GearBox : 0 : 0 : 1026 : 30 : 240 : 462
-IF PIXEL COLOR EQUALS : 1055 : 190 : 13947080 : 1
+MOVE WINDOW : JaGPH GW GearBox : 0 : 0 : 1026 : 26 : 240 : 462
+IF PIXEL COLOR EQUALS : 1053 : 383 : 15790320 : 1
 GOTO : gb
 ENDIF
 LABEL : gb2
-MOVE WINDOW : JaGPH GW GearBox : 0 : 0 : 1026 : 30 : 240 : 462
+MOVE WINDOW : JaGPH GW GearBox : 0 : 0 : 1026 : 26 : 240 : 462
 IF WINDOW EXISTS : JaGPH GW GearBox: Box.exe - Application Error : 0
 CLOSE WINDOW : JaGPH GW GearBox: Box.exe - Application Error : 0
 OPEN FILE : C:\gw\Box.exe :  : 1
 GOTO : gb
 ENDIF
-IF PIXEL COLOR EQUALS : 1187 : 155 : 45 : 0
+IF PIXEL COLOR EQUALS : 1115 : 159 : 16777215 : 0
 Mouse : 1055 : 160 : LeftButtonDown : 0 : 0 : 0
 Mouse : 1055 : 160 : LeftButtonUp : 0 : 0 : 0
 DELAY : 500
@@ -98,7 +98,7 @@ DELAY : 500
 Mouse : 1175 : 160 : LeftButtonDown : 0 : 0 : 0
 Mouse : 1175 : 160 : LeftButtonUp : 0 : 0 : 0
 ENDIF
-IF PIXEL COLOR EQUALS : 1165 : 192 : 16777215 : 0
+IF PIXEL COLOR EQUALS : 1165 : 190 : 16777215 : 0
 DELAY : 500
 Mouse : 1166 : 191 : LeftButtonDown : 0 : 0 : 0
 Mouse : 1166 : 191 : LeftButtonUp : 0 : 0 : 0
@@ -109,8 +109,9 @@ DELAY : 100
 Mouse : 1166 : 251 : LeftButtonDown : 0 : 0 : 0
 Mouse : 1166 : 251 : LeftButtonUp : 0 : 0 : 0
 DELAY : 100
+Mouse : 1166 : 300 : Move : 0 : 0 : 0
 ENDIF
-IF PIXEL COLOR EQUALS : 1165 : 192 : 0 : 0
+IF PIXEL COLOR EQUALS : 1163 : 251 : 7039851 : 0
 GOTO : net
 ENDIF
 DELAY : 100
@@ -176,12 +177,12 @@ Mouse : 510 : 665 : LeftButtonUp : 0 : 0 : 0
 OPEN FILE : C:\gw\Box.exe :  : 1
 GOTO : gb
 ENDIF
-LABEL : thea
-IF PIXEL COLOR EQUALS : 88 : 636 : 15778560 : 0
-Mouse : 925 : 805 : LeftButtonDown : 0 : 0 : 0
-Mouse : 925 : 805 : LeftButtonUp : 0 : 0 : 0
-GOTO : select atlanta
-ENDIF
+			
+											   
+											  
+											
+					 
+	 
 LABEL : create character
 IF PIXEL COLOR EQUALS : 828 : 678 : 15778560 : 0
 Mouse : 123 : 817 : LeftButtonDown : 0 : 0 : 0
@@ -191,19 +192,31 @@ ENDIF
 DELAY : 50
 IF WINDOW EXISTS : GodsWar Online [USA] : 0
 ELSE
-GOTO : start
+OPEN FILE : C:\gw\kill gw.exe :  : 1
+Keyboard : LWindows : KeyDown
+Keyboard : ShiftLeft : KeyDown
+Keyboard : D1 : KeyPress
+Keyboard : ShiftLeft : KeyUp
+Keyboard : LWindows : KeyUp
+GOTO : log
 ENDIF
 GOTO : login
-LABEL : select atlanta
-IF PIXEL COLOR EQUALS : 216 : 361 : 16776960 : 1
-GOTO : select atlanta
-ENDIF
-DELAY : 50
-GOTO : login
+					  
+												
+					 
+	 
+		  
+			
 LABEL : net
 IF WINDOW EXISTS : GodsWar Online [USA] : 0
 ELSE
-GOTO : start
+OPEN FILE : C:\gw\kill gw.exe :  : 1
+Keyboard : LWindows : KeyDown
+Keyboard : ShiftLeft : KeyDown
+Keyboard : D1 : KeyPress
+Keyboard : ShiftLeft : KeyUp
+Keyboard : LWindows : KeyUp
+GOTO : log
 ENDIF
 IF PIXEL COLOR EQUALS : 225 : 105 : 16745299 : 1
 DELAY : 100
@@ -213,7 +226,13 @@ OPEN FILE : C:\gw\AutoRacer.exe :  : 0
 LABEL : check
 IF WINDOW EXISTS : GodsWar Online [USA] : 0
 ELSE
-GOTO : start
+OPEN FILE : C:\gw\kill gw.exe :  : 1
+Keyboard : LWindows : KeyDown
+Keyboard : ShiftLeft : KeyDown
+Keyboard : D1 : KeyPress
+Keyboard : ShiftLeft : KeyUp
+Keyboard : LWindows : KeyUp
+GOTO : log
 ENDIF
 MOVE WINDOW : JaGPH GW GearBox : 0 : 2 : 1026 : 30 : 240 : 462
 MOVE WINDOW : Auto Racer 1.1d : 0 : 0 : 0 : 820 : 508 : 180
@@ -230,12 +249,12 @@ ENDIF
 IF PIXEL COLOR EQUALS : 330 : 763 : 16580093 : 0
 Mouse : 330 : 763 : Click : 0 : 0 : 0
 ENDIF
-IF PIXEL COLOR EQUALS : 117 : 860 : 3157617 : 0
+IF PIXEL COLOR EQUALS : 117 : 860 : 3355519 : 0
 Mouse : 110 : 865 : LeftButtonDown : 0 : 0 : 0
 Mouse : 110 : 865 : LeftButtonUp : 0 : 0 : 0
 DELAY : 500
 ENDIF
-IF PIXEL COLOR EQUALS : 117 : 860 : 13939569 : 0
+IF PIXEL COLOR EQUALS : 117 : 862 : 12681011 : 0
 GOTO : start
 ENDIF
 DELAY : 100
