@@ -1,15 +1,23 @@
-SET CLIPBOARD : 0 : 0 : Please enter the text to store in clipboard:
 IF PIXEL COLOR EQUALS : 494 : 83 : 15660027 : 0
 GOTO : dead
 ENDIF
 LABEL : 1
 IF IMAGE : Qk1OAQAAAAAAADYAAAAoAAAACgAAAAcAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAGJea/xiXmv9K8+f/ELat/xBBSv8QQUr/EOve/xj37/8QWVr/EFla/xiXmv8Yl5r/SvPn/xBBSv8QQUr/ELat/xB2e/8Y9+//EFla/xBZWv8Yl5r/GJea/zHJwP8QQUr/ELat/xDr3v8QQUr/GPfv/xBZWv8QWVr/GJea/xiXmv8AbXP/EEFK/xDr3v8Q697/ELat/xbFvf8QWVr/EFla/xa5sv8Tbnb/EDA5/wiGhP+E5+f/hOfn/4Tn5/8QOEL/EHV7/xA4Qv8Tbnb/EDA5/xAwOf9aycb/hOfn/4Tn5/+E5+f/EHV7/xA4Qv8QOEL/EDA5/xAwOf8Tbnb/hOfn/4Tn5/+E5+f/hOfn/xB1e/8QOEL/EDhC/w== : 0 : 100 : 1 : 857;98;162;35
-Mouse : 400 : 735 : LeftButtonDown : 0 : 0 : 0
+Mouse : 531 : 835 : LeftButtonDown : 0 : 0 : 0
 DELAY : 100
 GOTO : 1
 ENDIF
-Mouse : 0 : 29 : LeftButtonUp : 0 : 0 : 0
+Mouse : 517 : 459 : LeftButtonUp : 0 : 0 : 0
 DELAY : 100
+IF PIXEL COLOR EQUALS : 426 : 806 : 3684408 : 0
+GOTO : no pot
+ENDIF
+IF IMAGE : Qk1CAwAAAAAAADYAAAAoAAAADwAAAA0AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAfHQp/8fHb/+uczn/m3KB/wYGBv8FBQX/BgYG/1heWv//79L//+Wc/2lNQv8FBQX/BAQE/wQEBP8jNzL/lppZ/62TOv+9fED/nmNh/wkJJf8jFkX/BwcH/wUFBf9eTEb/9Pzj/wgIB/8FBQX/BQUF/wUFBf8FBQX/mJh9/4ZKF//AmED/5KN3/+eXdv/6yX3/xZFl/wkJCf8JCQn/CQkX/wgICP8ICAj/CAgI/wgICP8ICAj/c14e/8PDbv/Q0ID/wqhA//PgZv/5+an/+/vH//6xy/8UFB//FBQU/xQUFP8SEhL/EhIS/xISEv8UFBT/ZlIA/8G1dv+7p1n/pIco//Dwkv/z4Gz/uowx//7Sa//Bilz/Gxsb/xsbG/8bGxv/Gxsb/xsbG/8bGxv/bmQg/8Gsa/+dfzj/xaxb/+3tff/FsVT/+fnl/7pzN//SfVD/ci5J/yUlJf8lJSX/JSUl/yUlJf8lJSX/e3A6/56CUP+9rHj/0smO/72jS//s7L//8vLm/7pVRP+zTkL/q1JC//PEvv9BQVL/QUFB/0FBSv/n3bb/dXV1/6eOZv/JwY3/0dGd/82+f//l6Oj/7u7F/7pUUv+yW1L/sFxS//DCl/+XfoD/UFBQ/7CbgP/88bT/cXFx/7amgv/Lwpj/ysyZ/97ewv/j5N7/1LqN/75qYv+2aGL/tmlh/+rUqv/a0ML/ZWVk/9W5r//39rn/MgAA/87Os//Q0ND/vqyP/9zc3P/e4Kr/v5B+/8WCe//BfXz/v4N8//Pzpf/w6rP/5ti5/+bWs//z86z/PwUA/8rBpP/T09P/w7Kc/93d3f/Z2q3/voyH/8aIhf/GiIb/28Ss//Dwsf/m373/ypuQ/9CslP/w8Nv/W0wm/72XkP/Pxq7/xLGa/93d3f/QwKD/vY6O/8WPj//WvKX/6+vr/+vt4f/l4Mn/zJeP/9GslP/t7e3/YGMu/19FMv+UZ2f/soqK/+Dis//Ip5r/wpub/+Xm5v/j6N7/6em1/+LZyf/czrb/0aSc/9W0oP/d077/ : 0 : 100 : 1 : 709;95;115;28
+Mouse : 420 : 800 : RightButtonDown : 0 : 0 : 0
+Mouse : 420 : 800 : RightButtonUp : 0 : 0 : 0
+DELAY : 2000
+ENDIF
+LABEL : no pot
 IF PIXEL COLOR EQUALS : 738 : 186 : 5029375 : 1
 Mouse : 970 : 260 : LeftButtonDown : 0 : 0 : 0
 Mouse : 970 : 260 : LeftButtonUp : 0 : 0 : 0
@@ -36,9 +44,6 @@ Mouse : 512 : 370 : LeftButtonUp : 0 : 0 : 0
 DELAY : 444
 Mouse : 730 : 60 : LeftButtonDown : 0 : 0 : 0
 Mouse : 0 : 1 : Move : 0 : 0 : 0
-IF CLIPBOARD EQUALS : 1 : 0 : 0
-DELAY : 60000
-ENDIF
 DELAY : 15345
 Mouse : 730 : 60 : Move : 0 : 0 : 0
 Mouse : 730 : 60 : LeftButtonUp : 0 : 0 : 0
@@ -48,29 +53,33 @@ Mouse : 0 : 28 : Move : 0 : 0 : 0
 DELAY : 100
 LABEL : map
 IF PIXEL COLOR EQUALS : 738 : 186 : 5029375 : 0
-Mouse : 506 : 345 : LeftButtonDown : 0 : 0 : 0
-Mouse : 506 : 345 : LeftButtonUp : 0 : 0 : 0
+Mouse : 508 : 348 : LeftButtonDown : 0 : 0 : 0
+Mouse : 508 : 348 : LeftButtonUp : 0 : 0 : 0
+DELAY : 5000
+Mouse : 506 : 365 : LeftButtonDown : 0 : 0 : 0
+Mouse : 506 : 365 : LeftButtonUp : 0 : 0 : 0
+Mouse : 740 : 190 : Move : 0 : 0 : 0
 DELAY : 100
 Mouse : 740 : 190 : LeftButtonDown : 0 : 0 : 0
 Mouse : 740 : 190 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 623 : 77 : Move : 0 : 0 : 0
+Mouse : 517 : 459 : Move : 0 : 0 : 0
+DELAY : 7000
+Mouse : 517 : 459 : LeftButtonUp : 0 : 0 : 0
+Mouse : 517 : 459 : LeftButtonDown : 0 : 0 : 0
+Mouse : 517 : 459 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
 ELSE
 GOTO : map
 ENDIF
-DELAY : 3000
 LABEL : afk
-Mouse : 993 : 389 : RightButtonDown : 0 : 0 : 0
-Mouse : 993 : 389 : RightButtonUp : 0 : 0 : 0
-Mouse : 584 : 365 : Move : 0 : 0 : 0
-DELAY : 500
-Mouse : 584 : 295 : LeftButtonDown : 0 : 0 : 0
-Mouse : 584 : 295 : LeftButtonUp : 0 : 0 : 0
-DELAY : 2000
 Mouse : 975 : 760 : LeftButtonDown : 0 : 0 : 0
 Mouse : 975 : 760 : LeftButtonUp : 0 : 0 : 0
 DELAY : 500
 Mouse : 370 : 650 : LeftButtonDown : 0 : 0 : 0
 Mouse : 370 : 650 : LeftButtonUp : 0 : 0 : 0
-DELAY : 5000
+DELAY : 500
 LABEL : med
 REPEAT : 60 : 0 : 0 : Enter the number of iterations: : 0 : 0
 IF PIXEL COLOR EQUALS : 945 : 87 : 16645887 : 0
@@ -81,33 +90,27 @@ Mouse : 623 : 77 : RightButtonDown : 0 : 0 : 0
 Mouse : 623 : 77 : RightButtonUp : 0 : 0 : 0
 DELAY : 100
 IF PIXEL COLOR EQUALS : 494 : 83 : 15660027 : 0
-SET CLIPBOARD : 0 : 0 : Please enter the text to store in clipboard:
 GOTO : dead
 ENDIF
 ENDREPEAT
 IF PIXEL FOUND : 16750848 : 0 : 1 : 437 : 19 : 755 : 340
-SET CLIPBOARD : 1 : 0 : Please enter the text to store in clipboard:
 ENDIF
 GOTO : 1
 LABEL : dead
+IF PIXEL COLOR EQUALS : 401 : 102 : 12829635 : 1
+Mouse : 535 : 175 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 535 : 175 : LeftButtonDown : 0 : 0 : 0
+Mouse : 535 : 175 : LeftButtonUp : 0 : 0 : 0
+GOTO : loot
+ENDIF
 IF PIXEL COLOR EQUALS : 945 : 87 : 16645887 : 0
 CLOSE WINDOW : GodsWar Online [USA] - Iris : 0
 GOTO : end
 ENDIF
-Mouse : 535 : 175 : Move : 0 : 0 : 0
-IF PIXEL COLOR EQUALS : 470 : 108 : 16350332 : 1
-GOTO : loot
-ENDIF
-IF PIXEL COLOR EQUALS : 494 : 83 : 15660027 : 1
-GOTO : loot
-ENDIF
 GOTO : dead
 LABEL : loot
-DELAY : 1000
 REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
-Mouse : 535 : 175 : Move : 0 : 0 : 0
-Mouse : 535 : 175 : LeftButtonDown : 0 : 0 : 0
-Mouse : 535 : 175 : LeftButtonUp : 0 : 0 : 0
 DELAY : 100
 IF IMAGE : Qk0mBAAAAAAAADYAAAAoAAAAEgAAAA4AAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAv62K/6KCX/+qZE3/+8No///FYP//wlv//8FW//+/Uv//vk//4pk+/3cVBf8uBgD/dxUF/+KZPf//vUz//71M//+9TP//vUz/sJdl/5R1Ov+AQCH/mUQl//q6UP//vk///71N//+9TP//vUz//71M/+KZPf+BIQr/4pk9//+9TP//vUz//71M//+9TP//vUz/poVD/4xlHP97VAr/bycD/5E1E//6t0n//71M//+9TP//vUz//71M//+9TP/5tkn//71M//+9TP//vUz//71M//+9TP/6t0n/oXgq/4xgDP+AVAL/d04A/20lAP+RNRP/+rdJ//+9TP//vUz//71M//+9TP//vUz//71M//+9TP//vUz//71M//q3Sf+RNRP/pHUd/5JjB/+HWgH/f1MA/3VNAP9qIgD/kTUT//q3Sf//vUz//71M//+9TP//vUz//71M//+9TP//vUz/+rdJ/5E1E/9LEgn/pXUX/5tnBP+RXwD/h1kA/3pSBP9nRwj/YSAI/5tEHP/+vU3//71M//+9TP//vUz//71M//+9TP/+vEv/mT8X/0AHAP8qJR3/pHQV/51pA/+XZAD/k2gW/4ppK/9yQSL/gyoc/+SgSv//wFP//75P//+9TP//vUz//71M//+9TP//vUz/5J9J/4MqHP9OKyX/pHMU/5tnAP+jdyD/rI9U/5JoSv+RQTT/5qZW///DW///wVf//8BT//++T///vUz//71M//+9TP//vlD//9OI/+7Djv+LNyn/o3ER/6FxEP/BpGz/upl//6lqYP/rtnP//8pv///GZP//w1z//8FX///AU///vk7//71M//+9TP//vk7//9GB///Wj//moUn/oW8N/62CLv/St6H/xZyV//DJl///1Y3//89+///Kb///xmT//8Nc//q8VP+vXSr/+rhL//+9Tf//vUz//79S///AVP//vUz/oW8N/7GHP//awLv/9du6///isP//257//9WO///Pff//ym//+8Fh/5tHKP90MA//lDsa//q3Sv//vUz//71M//+9TP//vUz/qnwj/7SLQf/gy8j/9eDF///mvP//4a7//9ue///Vjf/7y3v/pls//4VEIf+FXxf/djEN/5I3Ff/6t0n//71M//+9TP//vUz/xqdr/7yYU//k08P/3sbD//Xfw///5rz//+Kw//zYnf+6gGr/n2dG/6N8Mv+WcCT/hl4S/3IpAv+TNxT/+rdJ//+9TP//vUz/0biI/9K6i//h0bH/6NrM/9zCvv/138P//eW9/9Comf+6kHb/vp1d/7WRSv+mfjP/jmIO/39UAP9xJwD/kzcU//q3Sf/elTv/ : 1 : 100 : 0 : 427;316;46;45
 Mouse : C0 : C160 : Move : 0 : 0 : 0
@@ -128,6 +131,10 @@ ENDIF
 IF IMAGE : Qk1OAQAAAAAAADYAAAAoAAAACgAAAAcAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAGJea/xiXmv9K8+f/ELat/xBBSv8QQUr/EOve/xj37/8QWVr/EFla/xiXmv8Yl5r/SvPn/xBBSv8QQUr/ELat/xB2e/8Y9+//EFla/xBZWv8Yl5r/GJea/zHJwP8QQUr/ELat/xDr3v8QQUr/GPfv/xBZWv8QWVr/GJea/xiXmv8AbXP/EEFK/xDr3v8Q697/ELat/xbFvf8QWVr/EFla/xa5sv8Tbnb/EDA5/wiGhP+E5+f/hOfn/4Tn5/8QOEL/EHV7/xA4Qv8Tbnb/EDA5/xAwOf9aycb/hOfn/4Tn5/+E5+f/EHV7/xA4Qv8QOEL/EDA5/xAwOf8Tbnb/hOfn/4Tn5/+E5+f/hOfn/xB1e/8QOEL/EDhC/w== : 0 : 100 : 0 : 857;98;162;35
 GOTO : 1
 ENDIF
+Mouse : 535 : 175 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 535 : 175 : LeftButtonDown : 0 : 0 : 0
+Mouse : 535 : 175 : LeftButtonUp : 0 : 0 : 0
 ENDREPEAT
 GOTO : 1
 LABEL : stheno
@@ -155,7 +162,11 @@ LABEL : sth dead
 Mouse : 517 : 349 : Move : 0 : 0 : 0
 REPEAT : 100000 : 0 : 0 : Enter the number of iterations: : 0 : 0
 DELAY : 1
-IF PIXEL COLOR EQUALS : 470 : 108 : 16350332 : 1
+IF PIXEL COLOR EQUALS : 401 : 102 : 12829635 : 1
+Mouse : 535 : 175 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 535 : 175 : LeftButtonDown : 0 : 0 : 0
+Mouse : 535 : 175 : LeftButtonUp : 0 : 0 : 0
 GOTO : loot 2
 ENDIF
 ENDREPEAT

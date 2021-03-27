@@ -61,7 +61,7 @@ Mouse : 761 : 748 : LeftButtonDown : 0 : 0 : 0
 DELAY : 50
 Mouse : 761 : 748 : LeftButtonUp : 0 : 0 : 0
 DELAY : 100
-Mouse : 555 : 350 : Move : 0 : 0 : 0
+Mouse : 555 : 385 : Move : 0 : 0 : 0
 ENDIF
 REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
 IF PIXEL COLOR EQUALS : 906 : 416 : 3670001 : 0
@@ -110,14 +110,16 @@ IF PIXEL COLOR EQUALS : 409 : 345 : 16776960 : 0
 DELAY : 50
 GOTO : b
 ENDIF
-Mouse : 255 : 75 : Move : 0 : 0 : 0
+Mouse : 555 : 385 : Move : 0 : 0 : 0
+Mouse : 555 : 385 : Wheel : -21 : 0 : 0
 DELAY : 50
-Mouse : 555 : 350 : Move : 0 : 0 : 0
-DELAY : 50
-Mouse : 555 : 350 : LeftButtonDown : 0 : 0 : 0
-Mouse : 555 : 350 : LeftButtonUp : 0 : 0 : 0
+IF PIXEL FOUND : 16776960 : 0 : 1 : 332 : 674 : 338 : 684
+Mouse : 555 : 385 : LeftButtonDown : 0 : 0 : 0
+Mouse : 555 : 385 : LeftButtonUp : 0 : 0 : 0
+GOTO : a
+ENDIF
 LABEL : a
-REPEAT : 1000 : 0 : 0 : Enter the number of iterations: : 0 : 0
+REPEAT : 100 : 0 : 0 : Enter the number of iterations: : 0 : 0
 IF PIXEL COLOR EQUALS : 165 : 388 : 16776960 : 0
 Mouse : 150 : 390 : LeftButtonDown : 0 : 0 : 0
 Mouse : 150 : 390 : LeftButtonUp : 0 : 0 : 0
@@ -128,7 +130,7 @@ GOTO : b
 ENDIF
 ENDREPEAT
 DELAY : 9
-Mouse : 555 : 350 : Move : 0 : 0 : 0
+Mouse : 555 : 385 : Move : 0 : 0 : 0
 LABEL : position
 DELAY : 100
 IF PIXEL COLOR EQUALS : 959 : 203 : 3670001 : 0
@@ -141,14 +143,10 @@ ELSE
 GOTO : position
 ENDIF
 DELAY : 50
-Mouse : 555 : 350 : LeftButtonDown : 0 : 0 : 0
-Mouse : 555 : 350 : LeftButtonUp : 0 : 0 : 0
+Mouse : 555 : 385 : LeftButtonDown : 0 : 0 : 0
+Mouse : 555 : 385 : LeftButtonUp : 0 : 0 : 0
 GOTO : a
 LABEL : b
-LABEL : 7th
-IF PIXEL COLOR EQUALS : 527 : 309 : 16226057 : 0
-GOTO : end
-ENDIF
 LABEL : dust
 IF PIXEL COLOR EQUALS : 838 : 223 : 3790518 : 0
 Mouse : 512 : 347 : LeftButtonDown : 0 : 0 : 0

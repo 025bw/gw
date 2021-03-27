@@ -45,5 +45,6 @@ DELAY : 50
 Mouse : 539 : 731 : LeftButtonDown : 0 : 0 : 0
 ENDIF
 Mouse : 110 : 495 : LeftButtonDown : 0 : 0 : 0
-DELAY : 5000
+DELAY : 6200
+Mouse : 110 : 495 : LeftButtonUp : 0 : 0 : 0
 GOTO : a

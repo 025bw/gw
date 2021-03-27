@@ -1,0 +1,108 @@
+LABEL : upgrade
+IF PIXEL COLOR EQUALS : 523 : 621 : 16777215 : 0
+Mouse : 523 : 621 : LeftButtonDown : 0 : 0 : 0
+Mouse : 523 : 621 : LeftButtonUp : 0 : 0 : 0
+GOTO : upgrade
+ENDIF
+IF PIXEL COLOR EQUALS : 651 : 169 : 5029375 : 0
+Mouse : 651 : 169 : LeftButtonDown : 0 : 0 : 0
+Mouse : 651 : 169 : LeftButtonUp : 0 : 0 : 0
+ENDIF
+Mouse : 516 : 418 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 516 : 418 : LeftButtonDown : 0 : 0 : 0
+Mouse : 516 : 418 : LeftButtonUp : 0 : 0 : 0
+LABEL : pet raising
+IF PIXEL COLOR EQUALS : 113 : 406 : 16776960 : 0
+Mouse : 113 : 406 : LeftButtonDown : 0 : 0 : 0
+Mouse : 113 : 406 : LeftButtonUp : 0 : 0 : 0
+ELSE
+GOTO : pet raising
+ENDIF
+LABEL : merging pets1
+IF PIXEL COLOR EQUALS : 441 : 331 : 16776960 : 0
+Mouse : 441 : 331 : LeftButtonDown : 0 : 0 : 0
+Mouse : 441 : 331 : LeftButtonUp : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+ELSE
+GOTO : merging pets1
+ENDIF
+LABEL : merging pets2
+IF PIXEL COLOR EQUALS : 491 : 391 : 16776960 : 0
+Mouse : 441 : 391 : LeftButtonDown : 0 : 0 : 0
+Mouse : 441 : 391 : LeftButtonUp : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 450 : LeftButtonUp : 0 : 0 : 0
+ELSE
+GOTO : merging pets2
+ENDIF
+LABEL : pet
+IF PIXEL COLOR EQUALS : 973 : 101 : 5029375 : 1
+GOTO : end
+ENDIF
+LABEL : merge pet
+IF PIXEL COLOR EQUALS : 334 : 251 : 5029375 : 0
+Mouse : 880 : 275 : LeftButtonDown : 0 : 0 : 0
+Mouse : 880 : 275 : LeftButtonUp : 0 : 0 : 0
+Mouse : 750 : 385 : LeftButtonDown : 0 : 0 : 0
+Mouse : 750 : 385 : LeftButtonUp : 0 : 0 : 0
+Mouse : 880 : 275 : LeftButtonDown : 0 : 0 : 0
+Mouse : 50 : 350 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 50 : 350 : LeftButtonUp : 0 : 0 : 0
+Mouse : 50 : 350 : LeftButtonDown : 0 : 0 : 0
+Mouse : 50 : 350 : LeftButtonUp : 0 : 0 : 0
+Mouse : 945 : 275 : LeftButtonDown : 0 : 0 : 0
+Mouse : 225 : 350 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 225 : 350 : LeftButtonUp : 0 : 0 : 0
+Mouse : 225 : 350 : LeftButtonDown : 0 : 0 : 0
+Mouse : 225 : 350 : LeftButtonUp : 0 : 0 : 0
+DELAY : 200
+ELSE
+GOTO : merge pet
+ENDIF
+LABEL : continue
+IF PIXEL COLOR EQUALS : 334 : 251 : 5029375 : 0
+Mouse : 265 : 810 : LeftButtonDown : 0 : 0 : 0
+Mouse : 265 : 810 : LeftButtonUp : 0 : 0 : 0
+DELAY : 100
+GOTO : continue
+ENDIF
+LABEL : drag pet
+IF IMAGE : Qk3eAgAAAAAAADYAAAAoAAAACgAAABEAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAMYwp/ymOGP8unC7/Obpa/zm6Wv8xxGD/McRg/zHEYP8xxGD/Kb1P/zGUKf8unC7/Lpwu/zSsRP80rET/MbZa/zHLY/8xy2P/Mctj/zHLY/8xmin/Lpwu/y6cLv8unC7/Lpwu/zG2Wv8xy2P/Mctj/zHLY/8xy2P/MaYx/zGmKf8xpin/MaYp/zGmKf85vkr/P8dg/0LLa/9Cy2v/OdBr/zGmMf8xpin/MaYp/zGmKf85rzn/P8dg/z/HYP9Cy2v/Qstr/znQa/8xv03/QrpK/zmvOf9Cukr/SsNa/z/HYP8/x2D/Qstr/0LLa/85zmv/Mcta/0rDWv9Kw1r/SsNa/0rDWv88wlX/P8dg/z/HYP8/x2D/Octr/ybNWv9Cy2P/Qstj/0LLY/9Cy2P/OcdS/z/MY/8/zGP/OcdS/0LLXf8s2Wv/Qstj/0fQcP9H0HD/R9Bw/z/MY/8/zGP/P8xj/z/MY/9Cy13/MeN7/1LbjP9S24z/UtuM/03Wfv9K14T/RNJz/z/MY/8/zGP/Qstd/zHje/9S24z/UtuM/1LbjP9N1n7/SteE/0TSc/8/zGP/P8xj/0LLXf8p5Ib/Qt+U/0LflP9C35T/Qt+U/znbhP8524T/OduE/znbhP9Ky4T/SvfO/1Lvzv9N6rv/Teq7/03qu/9P46r/RN+X/0Tfl/9P46r/Vdul/0r3zv9S787/Uu/O/03qu/9N6rv/Wue9/1rnvf9P46r/T+Oq/1Xbpf9K987/Uu/O/1Lvzv9S787/Uu/O/1rnvf9a573/Wue9/1rnvf9a47X/Y/ve/2v21v9r9tb/a/bW/1rzzv92787/du/O/2vrxv9r68b/e+vO/3P75P97+N7/e/je/3v43v9r9tb/gfPW/4Hz1v92787/du/O/3vrzv8= : 1 : 0 : 0 : 760;572;245;165
+Mouse : 0 : 0 : LeftButtonDown : 0 : 1 : 0
+Mouse : 700 : 805 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 700 : 805 : LeftButtonUp : 0 : 0 : 0
+DELAY : 50
+Mouse : 700 : 805 : LeftButtonDown : 0 : 0 : 0
+Mouse : 700 : 805 : LeftButtonUp : 0 : 0 : 0
+ELSE
+GOTO : end
+ENDIF
+LABEL : drag mdew
+IF IMAGE : Qk3uAwAAAAAAADYAAAAoAAAADgAAABEAAAABACAAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAu6lu/7upbv+7qW7/MRAA/wAAAP8AAAD/VS8C/6pnBf+tYwv/rWML/wgEAP//jhD/fkMb/71hKf//rjH//64x//+uMf85GAD/AAAA/wAAAP9KJgL/3nkI/59TCP/neQj/EAAI/+d5CP+9YRD/vWEQ//+uMf//rjH//64x/zkYAP8AAAD/AAAA/0omAv/eeQj/WCYI/+d5CP+fUwj/EAAI/71hEP+9YRD/vX8h/71/If//rjH/e0cQ/wAAAP8AAAD/3nkI/955CP+fUwj/n1MI/+d5CP+fUwj/vWEQ/71hEP//rjH/vX8h/71/If+9fyH/AAAA/0omAv/eeQj/3nkI/+d5CP+fUwj/n1MI/+d5CP+9YRD/vWEQ/9HCPP+ikh7/opIe/3NpAP85NAD/OTQA/zk0AP9zcBb/xnAb/8ZwG/+tSQj/rUkI/5FvVf/Wnnv//+ta/9HCPP//61r//+ta/3NwFv/n80L/5/NC/3NwFv/eoC7/rUkI/61JCP/GcBv/1p57/9aee///61r//+ta/9HCPP+ikh7/OTQA/3NwFv/n80L/rbcs/96gLv/eoC7/3qAu/96gLv/Wnnv/1p57///rWv//61r/c2kA/3NpAP85NAD/c3AW/623LP/n80L/98dC/96gLv/eoC7/3qAu/5FvVf+Rb1X/07SE/9O0hP/TtIT/07SE/9mMP//ZjD//2Yw//9mMP//OhEL/zoRC/86EQv+lWiH/c1gm/xAQEP/TtIT/07SE///vxv//78b/2Yw//8ZhAP/GYQD/xmEA/6VaIf+lWiH/pVoh/3s4AP9zWCb/EBAQ/9O0hP/TtIT//+/G///vxv/swH7/2Yw//9mMP//ZjD//zoRC/86EQv+eWCP/zoRC/xAQEP8QEBD/ezQA///vxv/TtIT//+/G///rvf/swH7/7MB+/+zAfv/3pmP/96Zj/6VaIf97OAD/EBAQ/0IxG/9SSUL/jIF5/8bDsP/Gw7D/9+fe/9yngf/OilL/zopS/3BXR/9wV0f/cFdH/0I4Mf9CQSn/j3lE/1JJQv9SSUL///vn/8bDsP/3597/3KeB/9yngf/cp4H/zppz/86ac/9CODH/Qjgx/495RP+1klL/UklC/1JJQv9SSUL///vn//fn3v/pyrD/3KeB/9yngf/OmnP/cFdH/0I4Mf9wV0f/tZJS/7WSUv+MgXn/UklC/1JJQv//++f/9+fe/+nKsP/pyrD/6cqw/86ac/9wV0f/cFdH/86ac/+1klL/tZJS/w== : 1 : 0 : 0 : 24;330;245;497
+Mouse : 0 : 0 : LeftButtonDown : 0 : 1 : 0
+Mouse : 700 : 805 : Move : 0 : 0 : 0
+DELAY : 50
+Mouse : 700 : 805 : LeftButtonUp : 0 : 0 : 0
+ELSE
+GOTO : end
+ENDIF
+LABEL : pet slot 4
+IF PIXEL COLOR EQUALS : 951 : 258 : 3750201 : 0
+GOTO : pet slot 4
+ENDIF
+Mouse : 950 : 270 : LeftButtonDown : 0 : 0 : 0
+Mouse : 950 : 270 : LeftButtonUp : 0 : 0 : 0
+Mouse : 850 : 385 : LeftButtonDown : 0 : 0 : 0
+Mouse : 850 : 385 : LeftButtonUp : 0 : 0 : 0
+Mouse : 725 : 755 : Move : 0 : 0 : 0
+LABEL : restart
+IF PIXEL COLOR EQUALS : 514 : 639 : 16777215 : 0
+GOTO : upgrade
+ENDIF
+GOTO : restart
+LABEL : end

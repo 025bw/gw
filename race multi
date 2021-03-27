@@ -42,7 +42,7 @@ ENDIF
 IF PIXEL COLOR EQUALS : 465 : 922 : 3552903 : 0
 OPEN FILE : C:\gw\login\race list.exe :  : 0
 OPEN FILE : C:\gw\kill gw.exe :  : 1
-DELAY : 2000
+DELAY : 5000
 Keyboard : LWindows : KeyDown
 Keyboard : ShiftLeft : KeyDown
 Keyboard : D1 : KeyPress
@@ -177,12 +177,6 @@ Mouse : 510 : 665 : LeftButtonUp : 0 : 0 : 0
 OPEN FILE : C:\gw\Box.exe :  : 1
 GOTO : gb
 ENDIF
-			
-											   
-											  
-											
-					 
-	 
 LABEL : create character
 IF PIXEL COLOR EQUALS : 828 : 678 : 15778560 : 0
 Mouse : 123 : 817 : LeftButtonDown : 0 : 0 : 0
@@ -201,12 +195,6 @@ Keyboard : LWindows : KeyUp
 GOTO : log
 ENDIF
 GOTO : login
-					  
-												
-					 
-	 
-		  
-			
 LABEL : net
 IF WINDOW EXISTS : GodsWar Online [USA] : 0
 ELSE
