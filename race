@@ -30,7 +30,7 @@ GOTO : log
 ENDIF
 IF PIXEL COLOR EQUALS : 465 : 922 : 3552903 : 0
 OPEN FILE : C:\gw\kill tool.exe :  : 1
-GOTO : log
+GOTO : end
 ENDIF
 IF PIXEL COLOR EQUALS : 117 : 860 : 3355519 : 0
 GOTO : check
